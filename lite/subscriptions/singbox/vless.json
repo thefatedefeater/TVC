@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 79",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🏳️XX | vless | @lrnbymaa | 6",
-                "🏳️XX | vless | @proxystore11 | 10",
+                "🏳️XX | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 2",
                 "🏳️XX | vless | @Outlinev2rayNG | 15",
@@ -156,7 +156,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇬🇧GB | vless | @forwardv2ray | 6",
+                "🇨🇦CA | vless | @forwardv2ray | 10",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -217,7 +217,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 79",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🏳️XX | vless | @lrnbymaa | 6",
-                "🏳️XX | vless | @proxystore11 | 10",
+                "🏳️XX | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 2",
                 "🏳️XX | vless | @Outlinev2rayNG | 15",
@@ -227,7 +227,7 @@
                 "🏳️XX | vless | @Capoit | 7",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇬🇧GB | vless | @forwardv2ray | 6",
+                "🇨🇦CA | vless | @forwardv2ray | 10",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -1294,7 +1294,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @proxystore11 | 10",
+            "tag": "🏳️XX | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "[2a01:4f9:c010:6fb9::2e]",
             "server_port": 443,
@@ -1550,17 +1550,24 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @forwardv2ray | 6",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 10",
             "type": "vless",
-            "server": "78.141.193.246",
-            "server_port": 52898,
-            "uuid": "e4ec2e0e-2eb4-4ac1-b24d-1a8e2904a6bb",
+            "server": "104.24.53.88",
+            "server_port": 8080,
+            "uuid": "00ec5896-0a05-4508-9a09-02b06cd40bf8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.24.53.88"
+                }
             }
         },
         {
