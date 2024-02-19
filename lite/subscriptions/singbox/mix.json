@@ -127,7 +127,7 @@
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🏳️XX | ss | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 37",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -164,11 +164,11 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
-                "🇨🇦CA | vless | @nofiltering2 | 1",
+                "🇺🇸US | vless | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 13",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | ss | @kingofilter | 5",
@@ -210,7 +210,7 @@
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🏳️XX | ss | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 37",
+                "🇨🇷CR | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -247,11 +247,11 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇫🇷FR | vless | @flyv2ray | 13",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
-                "🇨🇦CA | vless | @nofiltering2 | 1",
+                "🇺🇸US | vless | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 13",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | ss | @kingofilter | 5",
@@ -854,7 +854,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 37",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 37",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1792,16 +1792,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "129.146.113.254",
-            "server_port": 43121,
-            "uuid": "d53b39e2-925e-45b6-9389-46b9fa95878b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "joinbede1.vmessorg.site",
+            "server_port": 443,
+            "uuid": "198e5282-44f2-4721-95cb-176a647b0644",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1809,9 +1806,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@vmessorg",
                 "headers": {
-                    "Host": "129.146.113.254"
+                    "Host": "vmessorg.xn--54qv00ez5ar77g.co"
                 }
             }
         },
@@ -1899,7 +1896,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @nofiltering2 | 1",
+            "tag": "🇺🇸US | vless | @nofiltering2 | 1",
             "type": "vless",
             "server": "disposition-fun-gasoline-indices.trycloudflare.com",
             "server_port": 2083,
