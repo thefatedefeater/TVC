@@ -142,7 +142,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 5",
                 "🇩🇪DE | vless | @VmessProtocol | 6",
                 "🇩🇪DE | vless | @VmessProtocol | 8",
-                "🇩🇪DE | vless | @DailyV2RY | 56",
+                "🇩🇪DE | vless | @DailyV2RY | 63",
                 "🏳️XX | vless | @v2rayng_vpnrog | 4",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -152,15 +152,16 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @FreakConfig | 2",
+                "🏳️XX | vless | @forwardv2ray | 8",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇬🇧GB | vless | @mehrosaboran | 7",
-                "🇸🇪SE | vless | @kiava | 2",
                 "🇸🇪SE | vless | @kiava | 3",
+                "🇸🇪SE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 3",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
                 "🏳️XX | vless | @vpn_go67 | 10",
@@ -229,7 +230,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 5",
                 "🇩🇪DE | vless | @VmessProtocol | 6",
                 "🇩🇪DE | vless | @VmessProtocol | 8",
-                "🇩🇪DE | vless | @DailyV2RY | 56",
+                "🇩🇪DE | vless | @DailyV2RY | 63",
                 "🏳️XX | vless | @v2rayng_vpnrog | 4",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -239,15 +240,16 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @FreakConfig | 2",
+                "🏳️XX | vless | @forwardv2ray | 8",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇬🇧GB | vless | @mehrosaboran | 7",
-                "🇸🇪SE | vless | @kiava | 2",
                 "🇸🇪SE | vless | @kiava | 3",
+                "🇸🇪SE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 3",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
                 "🏳️XX | vless | @vpn_go67 | 10",
@@ -1529,7 +1531,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 56",
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 63",
             "type": "vless",
             "server": "zedmodeon-channel-zedmodeon-join-zedmodeon-zedmodeon-zedmodeon.tozedmodeon.store",
             "server_port": 25365,
@@ -1840,7 +1842,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
@@ -1992,6 +1994,42 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @forwardv2ray | 8",
+            "type": "vless",
+            "server": "v2logy.ddns.net",
+            "server_port": 443,
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇳🇱NL | vless | @mehrosaboran | 6",
             "type": "vless",
             "server": "188.166.108.132",
@@ -2057,7 +2095,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @kiava | 2",
+            "tag": "🇸🇪SE | vless | @kiava | 3",
             "type": "vless",
             "server": "13.53.71.181",
             "server_port": 80,
@@ -2086,7 +2124,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @kiava | 3",
+            "tag": "🇸🇪SE | vless | @kiava | 4",
             "type": "vless",
             "server": "13.49.231.106",
             "server_port": 8080,
