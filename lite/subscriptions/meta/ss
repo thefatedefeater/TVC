@@ -120,9 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪DE | ss | @DeamNet_Proxy | 19","type":"ss","server":"145.239.1.100","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US | ss | @forwardv2ray | 17","type":"ss","server":"18.218.239.120","port":36326,"password":"H6cSTf8vDbVH1cpnrAxFj2","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @kingofilter | 4","type":"ss","server":"51.11.104.69","port":16550,"password":"qFqqKf78FuMHnBqoxeWz4R","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️XX | ss | @ROMAX_VPN | 6","type":"ss","server":"fast_2ray_telchannelll.fast2rayy.eu.org","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -131,9 +129,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | ss | @DeamNet_Proxy | 19'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇺🇸US | ss | @forwardv2ray | 17'
       - '🇬🇧GB | ss | @kingofilter | 4'
       - '🏳️XX | ss | @ROMAX_VPN | 6'
   - name: URL-TEST
@@ -142,9 +138,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | ss | @DeamNet_Proxy | 19'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇺🇸US | ss | @forwardv2ray | 17'
       - '🇬🇧GB | ss | @kingofilter | 4'
       - '🏳️XX | ss | @ROMAX_VPN | 6'
   - name: FALLBACK
@@ -152,9 +146,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | ss | @DeamNet_Proxy | 19'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇺🇸US | ss | @forwardv2ray | 17'
       - '🇬🇧GB | ss | @kingofilter | 4'
       - '🏳️XX | ss | @ROMAX_VPN | 6'
 rule-providers:
