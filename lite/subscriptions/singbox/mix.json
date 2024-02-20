@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 3",
-                "🇨🇦CA | vless | @V2RayTz | 16",
+                "🇨🇦CA | vless | @V2RayTz | 13",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 97",
                 "🏳️XX | vless | @lrnbymaa | 5",
@@ -160,7 +160,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇺🇸US | vless | @mehrosaboran | 17",
                 "🏳️XX | vless | @kiava | 5",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 3",
-                "🇨🇦CA | vless | @V2RayTz | 16",
+                "🇨🇦CA | vless | @V2RayTz | 13",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 97",
                 "🏳️XX | vless | @lrnbymaa | 5",
@@ -238,7 +238,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 11",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇺🇸US | vless | @mehrosaboran | 17",
                 "🏳️XX | vless | @kiava | 5",
@@ -1270,11 +1270,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 16",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 13",
             "type": "vless",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "server": "162.159.136.234",
+            "server_port": 8080,
+            "uuid": "b0080196-b98e-4d17-ae14-86cd1693234d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1282,21 +1282,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
+                    "Host": "162.159.136.234"
                 }
             }
         },
@@ -1665,11 +1655,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 11",
             "type": "vless",
-            "server": "slfingp.com",
-            "server_port": 443,
-            "uuid": "ef1d268c-221e-4d7a-828e-3ade2fb26d11",
+            "server": "bia-to2.unlimiteddev.site",
+            "server_port": 8880,
+            "uuid": "25e7c381-6534-460f-b59e-efb9ba1fb4e9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1677,21 +1667,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "csub5.cpIfORpERsIa.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/\/V2ray_Alpha\/",
+                "path": "\/Telegram:@UnlimitedDev?ed",
                 "headers": {
-                    "Host": "csub5.cpIfORpERsIa.uk"
+                    "Host": "bia-to2.unlimiteddev.site"
                 }
             }
         },
