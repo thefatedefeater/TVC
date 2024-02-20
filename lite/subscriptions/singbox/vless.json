@@ -136,7 +136,6 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 52",
                 "🇨🇦CA | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @v2ray_swhil | 17",
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇹🇷TR | vless | @v2ray1_ng | 10",
@@ -153,7 +152,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇬🇧GB | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇷CR | vless | @mehrosaboran | 23",
                 "🏳️XX | vless | @kiava | 5",
@@ -203,7 +201,6 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 52",
                 "🇨🇦CA | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @v2ray_swhil | 17",
                 "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇹🇷TR | vless | @v2ray1_ng | 10",
@@ -220,7 +217,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇬🇧GB | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇷CR | vless | @mehrosaboran | 23",
                 "🏳️XX | vless | @kiava | 5",
@@ -339,7 +335,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "16.170.95.20",
+            "server": "16.171.209.12",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -939,9 +935,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 18",
             "type": "vless",
-            "server": "104.17.68.224",
-            "server_port": 443,
-            "uuid": "b13b1198-e037-4eea-801b-d2f5f1ee82a5",
+            "server": "104.17.254.239",
+            "server_port": 8443,
+            "uuid": "64f4faca-8387-4511-adab-45300a332d27",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -951,19 +947,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "CID0pb.chainswrecker.tech",
+                "server_name": "id067.v2net.work",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/rtTFeYq63EPAVOfclz9Q4F",
-                "headers": {
-                    "Host": "CID0pb.chainswrecker.tech"
                 }
             }
         },
@@ -1093,37 +1082,6 @@
                 "path": "\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/",
                 "headers": {
                     "Host": "963C1F6A-8485-443a-a386-4E6D34A64dc8.MRvi.ONline"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 17",
-            "type": "vless",
-            "server": "cxc--join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
-                "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
@@ -1497,37 +1455,6 @@
                 "path": "\/@UCIRANIR-@UCIRANIR\/Microsoft?ed=2047",
                 "headers": {
                     "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "18.175.1.123",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
