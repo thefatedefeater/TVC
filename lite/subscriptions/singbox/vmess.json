@@ -109,7 +109,7 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇮🇷IR | vmess | @proxyymeliii | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
@@ -126,7 +126,7 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇮🇷IR | vmess | @proxyymeliii | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
@@ -224,11 +224,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "s1c.v2.v001sss.xyz",
-            "server_port": 2082,
-            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+            "server": "172.67.68.246",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -239,11 +239,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "vip2323.cfd"
                 }
             }
         },
