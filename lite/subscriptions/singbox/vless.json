@@ -119,7 +119,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 20",
+                "🇺🇸US | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🏳️XX | vless | @kiava | 5",
@@ -184,7 +184,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇨🇷CR | vless | @lightning6 | 20",
+                "🇺🇸US | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🏳️XX | vless | @kiava | 5",
@@ -623,7 +623,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 20",
+            "tag": "🇺🇸US | vless | @lightning6 | 20",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1434,31 +1434,23 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "157.230.28.73",
-            "server_port": 23353,
-            "uuid": "c34a9f73-3c11-4614-90ff-196add3fa4aa",
-            "flow": "xtls-rprx-vision",
+            "server": "iranserver.com",
+            "server_port": 8880,
+            "uuid": "25e7c381-6534-460f-b59e-efb9ba1fb4e9",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU",
-                    "short_id": "a98a22e2"
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev?ed",
+                "headers": {
+                    "Host": "iranserver.com"
                 }
             }
         },
