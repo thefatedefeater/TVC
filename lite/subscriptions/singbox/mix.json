@@ -114,7 +114,6 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 11",
-                "🇨🇦CA | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
@@ -126,7 +125,7 @@
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 39",
+                "🇨🇷CR | vless | @V2rayNGn | 39",
                 "🇸🇪SE | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -164,7 +163,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇷CR | vless | @mehrosaboran | 23",
                 "🏳️XX | vless | @kiava | 5",
@@ -198,7 +197,6 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 11",
-                "🇨🇦CA | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
@@ -210,7 +208,7 @@
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 39",
+                "🇨🇷CR | vless | @V2rayNGn | 39",
                 "🇸🇪SE | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -248,7 +246,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇷CR | vless | @mehrosaboran | 23",
                 "🏳️XX | vless | @kiava | 5",
@@ -528,37 +526,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @shh_proxy | 24",
-            "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 2087,
-            "uuid": "987b4e0f-1761-45aa-80f6-3e74046b4918",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org"
-                }
             }
         },
         {
@@ -856,7 +823,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 39",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 39",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -889,7 +856,7 @@
         {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 16",
             "type": "trojan",
-            "server": "16.16.165.43",
+            "server": "13.49.103.43",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -911,7 +878,7 @@
         {
             "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "13.53.102.94",
+            "server": "13.49.234.68",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1804,17 +1771,34 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "5.75.133.63",
-            "server_port": 27956,
-            "uuid": "a4919862-eb11-4f24-bc6b-ae695554b9d0",
+            "server": "18.175.1.123",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
             }
         },
         {
