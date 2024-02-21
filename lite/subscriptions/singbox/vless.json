@@ -119,11 +119,12 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 24",
+                "🇨🇷CR | vless | @lightning6 | 24",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 3",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 39",
                 "🇫🇮FI | vless | @prrofile_purple | 170",
@@ -148,9 +149,8 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 0",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
-                "🇺🇸US | vless | @mehrosaboran | 27",
+                "🇨🇷CR | vless | @mehrosaboran | 22",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -181,11 +181,12 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 24",
+                "🇨🇷CR | vless | @lightning6 | 24",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 3",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 39",
                 "🇫🇮FI | vless | @prrofile_purple | 170",
@@ -210,9 +211,8 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 0",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
-                "🇺🇸US | vless | @mehrosaboran | 27",
+                "🇨🇷CR | vless | @mehrosaboran | 22",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -620,7 +620,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 24",
+            "tag": "🇨🇷CR | vless | @lightning6 | 24",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -767,6 +767,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
+            "type": "vless",
+            "server": "104.18.16.149",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "always-online1.lp-airdrop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@SINABIGO\/",
+                "headers": {
+                    "Host": "always-online1.lp-airdrop.top"
+                }
             }
         },
         {
@@ -1380,27 +1411,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "VPNCUSTOMIZE---VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNCUSTOMIZE--VPNCUSTOMIZE?ed",
-                "headers": {
-                    "Host": "discord.gg"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @https_config_injector | 11",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1422,11 +1432,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 27",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 22",
             "type": "vless",
-            "server": "205.233.181.253",
-            "server_port": 2083,
-            "uuid": "a3e4f3c3-84ac-4f1d-f022-b775c1874c3e",
+            "server": "190.93.246.241",
+            "server_port": 8880,
+            "uuid": "fddc172c-c28b-4fbd-b5e4-d163f1959b0d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1434,22 +1444,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "205.233.181.253",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "headers": {
+                    "Host": "190.93.246.241"
+                }
             }
         },
         {
