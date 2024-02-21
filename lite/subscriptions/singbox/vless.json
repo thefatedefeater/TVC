@@ -125,7 +125,7 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 38",
+                "🇨🇷CR | vless | @V2rayNGn | 38",
                 "🇫🇮FI | vless | @prrofile_purple | 179",
                 "🇬🇧GB | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
@@ -150,9 +150,10 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇨🇷CR | vless | @mehrosaboran | 28",
+                "🇺🇸US | vless | @mehrosaboran | 29",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
@@ -190,7 +191,7 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 38",
+                "🇨🇷CR | vless | @V2rayNGn | 38",
                 "🇫🇮FI | vless | @prrofile_purple | 179",
                 "🇬🇧GB | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
@@ -215,9 +216,10 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇨🇷CR | vless | @mehrosaboran | 28",
+                "🇺🇸US | vless | @mehrosaboran | 29",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
@@ -772,7 +774,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 38",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 38",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1448,6 +1450,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "allmc.azaronline.org",
+            "server_port": 80,
+            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2ray_God=Telegram\/",
+                "headers": {
+                    "Host": "allmc.azaronline.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
             "type": "vless",
             "server": "fr.snailnetworktm.link",
@@ -1510,9 +1533,9 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @mehrosaboran | 28",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 29",
             "type": "vless",
-            "server": "190.93.246.241",
+            "server": "205.233.181.168",
             "server_port": 2083,
             "uuid": "df5c5b57-3be9-4831-a3f7-7ac4b13a84e5",
             "flow": "",
@@ -1524,7 +1547,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "190.93.246.241",
+                "server_name": "205.233.181.168",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
