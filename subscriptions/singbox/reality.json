@@ -136,14 +136,15 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 3",
                 "🇫🇮FI | vless | @prrofile_purple | 170",
+                "🇫🇮FI | vless | @prrofile_purple | 173",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
                 "🇳🇱NL | vless | @VmessProtocol | 4",
                 "🇩🇪DE | vless | @VmessProtocol | 11",
                 "🇩🇪DE | vless | @VmessProtocol | 12",
                 "🇩🇪DE | vless | @VmessProtocol | 13",
                 "🇩🇪DE | vless | @VmessProtocol | 15",
-                "🏳️XX | vless | @DailyV2RY | 96",
-                "🏳️XX | vless | @DailyV2RY | 97",
+                "🏳️XX | vless | @DailyV2RY | 102",
+                "🏳️XX | vless | @DailyV2RY | 103",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -152,10 +153,12 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @forwardv2ray | 5",
+                "🇬🇧GB | vless | @forwardv2ray | 7",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
@@ -218,14 +221,15 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 3",
                 "🇫🇮FI | vless | @prrofile_purple | 170",
+                "🇫🇮FI | vless | @prrofile_purple | 173",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
                 "🇳🇱NL | vless | @VmessProtocol | 4",
                 "🇩🇪DE | vless | @VmessProtocol | 11",
                 "🇩🇪DE | vless | @VmessProtocol | 12",
                 "🇩🇪DE | vless | @VmessProtocol | 13",
                 "🇩🇪DE | vless | @VmessProtocol | 15",
-                "🏳️XX | vless | @DailyV2RY | 96",
-                "🏳️XX | vless | @DailyV2RY | 97",
+                "🏳️XX | vless | @DailyV2RY | 102",
+                "🏳️XX | vless | @DailyV2RY | 103",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -234,10 +238,12 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @forwardv2ray | 5",
+                "🇬🇧GB | vless | @forwardv2ray | 7",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
@@ -1310,6 +1316,42 @@
             }
         },
         {
+            "tag": "🇫🇮FI | vless | @prrofile_purple | 173",
+            "type": "vless",
+            "server": "95.216.151.99",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_PX1EcOPCNt8_RaoAWLmmNOFpgrwWb0aOuy-h3MXP30",
+                    "short_id": "de615857"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @FalconPolV2rayNG | 5",
             "type": "vless",
             "server": "188.34.194.108",
@@ -1519,7 +1561,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 96",
+            "tag": "🏳️XX | vless | @DailyV2RY | 102",
             "type": "vless",
             "server": "[2a01:4f8:1c0c:7523::1]",
             "server_port": 2096,
@@ -1555,7 +1597,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 97",
+            "tag": "🏳️XX | vless | @DailyV2RY | 103",
             "type": "vless",
             "server": "[2a01:4f9:c011:8b23::1]",
             "server_port": 25365,
@@ -1837,7 +1879,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
@@ -1949,6 +1991,71 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 5",
+            "type": "vless",
+            "server": "49.13.172.210",
+            "server_port": 443,
+            "uuid": "72856660-bfbe-449d-aa0b-1a103d7a06fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.hetzner.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yEIv8lhKCppriIvnDL922eeW4nFR9ei-x2BebOwQ9BY",
+                    "short_id": "485bc860"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 7",
+            "type": "vless",
+            "server": "143.110.169.55",
+            "server_port": 40987,
+            "uuid": "f93405f5-b64f-40ba-a4da-140b994d511f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sO6z1TtkOVNB1lhlsqoBj6lsR_0IyEsfWTXj-YXlCHQ",
+                    "short_id": "d3043362"
                 }
             }
         },
