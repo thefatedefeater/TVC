@@ -158,8 +158,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @flyv2ray | 14",
+                "🇮🇷IR | vmess | @forwardv2ray | 4",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇷CR | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
@@ -234,8 +234,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @flyv2ray | 14",
+                "🇮🇷IR | vmess | @forwardv2ray | 4",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇷CR | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
@@ -1368,7 +1368,7 @@
         {
             "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
-            "server": "172.67.183.26",
+            "server": "172.67.182.110",
             "server_port": 443,
             "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
@@ -1390,7 +1390,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
                 }
@@ -1605,9 +1605,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 14",
+            "tag": "🇬🇧GB | vless | @flyv2ray | 14",
             "type": "vless",
-            "server": "discord.gg",
+            "server": "91.193.58.3",
             "server_port": 8080,
             "uuid": "VPNCUSTOMIZE---VPNCUSTOMIZE",
             "flow": "",
@@ -1619,18 +1619,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNCUSTOMIZE--VPNCUSTOMIZE?ed=1048",
+                "path": "\/VPNCUSTOMIZE-VPNCUSTOMIZE?ed=1048",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "91.193.58.3"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 4",
             "type": "vmess",
-            "server": "us65.netfilx.live",
-            "server_port": 80,
-            "uuid": "60f12435-bb55-4da2-cb7d-4fea34ecfa37",
+            "server": "62.60.134.94",
+            "server_port": 58434,
+            "uuid": "6a0f2604-a6fd-4c61-ab55-66ed67910f1c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1640,13 +1640,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
