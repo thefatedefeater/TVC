@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -132,6 +132,7 @@
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇩🇪DE | ss | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vless | @prrofile_purple | 173",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -163,7 +164,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @mehrosaboran | 26",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -198,7 +199,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -213,6 +214,7 @@
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇩🇪DE | ss | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vless | @prrofile_purple | 173",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -244,7 +246,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @mehrosaboran | 26",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -588,7 +590,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 23",
+            "tag": "🇨🇷CR | vless | @lightning6 | 23",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -971,6 +973,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             }
+        },
+        {
+            "tag": "🇩🇪DE | ss | @DeamNet_Proxy | 19",
+            "type": "shadowsocks",
+            "server": "145.239.1.100",
+            "server_port": 5000,
+            "method": "aes-256-gcm",
+            "password": "Y6R9pAtvxxzmGC",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
@@ -1768,12 +1780,12 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 17",
             "type": "shadowsocks",
-            "server": "51.11.104.69",
-            "server_port": 16550,
+            "server": "18.156.193.200",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "qFqqKf78FuMHnBqoxeWz4R",
+            "password": "LV+ZBkSp6zRayAF0Q+TgXjtGgjjd7Qnv6tBcKZ9TWaA=",
             "plugin": "",
             "plugin_opts": ""
         },
