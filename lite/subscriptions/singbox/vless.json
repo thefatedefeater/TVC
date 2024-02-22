@@ -116,7 +116,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -149,12 +149,12 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 1",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 7",
+                "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇺🇸US | vless | @forwardv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
-                "🇮🇱IL | vless | @mehrosaboran | 16",
+                "🇮🇱IL | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -182,7 +182,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 23",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -215,12 +215,12 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 1",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 7",
+                "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇺🇸US | vless | @forwardv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
-                "🇮🇱IL | vless | @mehrosaboran | 16",
+                "🇮🇱IL | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -519,11 +519,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 26",
+            "tag": "🇨🇷CR | vless | @lightning6 | 23",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
-            "uuid": "2ea77325-b4e3-454d-ab8d-b301c9a1ee2f",
+            "uuid": "a3e4f3c3-84ac-4f1d-f022-b775c1874c3e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1385,7 +1385,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 7",
+            "tag": "🇨🇦CA | vless | @Capoit | 5",
             "type": "vless",
             "server": "discord.com",
             "server_port": 2083,
@@ -1478,17 +1478,34 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 14",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "LIGHTNING6-joinbede.liV2ray.xyz",
-            "server_port": 8880,
-            "uuid": "0c4f498c-85c9-4c82-e54b-fe60f0aed4ed",
+            "server": "104.16.32.40",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "baipiao406.stunning-bassoon.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "baipiao406.stunning-bassoon.pages.dev"
+                }
             }
         },
         {
@@ -1523,7 +1540,7 @@
             }
         },
         {
-            "tag": "🇮🇱IL | vless | @mehrosaboran | 16",
+            "tag": "🇮🇱IL | vless | @mehrosaboran | 17",
             "type": "vless",
             "server": "193.168.173.82",
             "server_port": 443,
