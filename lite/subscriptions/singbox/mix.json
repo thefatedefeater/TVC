@@ -125,7 +125,7 @@
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 38",
+                "🇺🇸US | vless | @V2rayNGn | 38",
                 "🇬🇧GB | trojan | @PrivateVPNs | 18",
                 "🇬🇧GB | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -161,7 +161,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 24",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -204,7 +204,7 @@
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 38",
+                "🇺🇸US | vless | @V2rayNGn | 38",
                 "🇬🇧GB | trojan | @PrivateVPNs | 18",
                 "🇬🇧GB | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -240,7 +240,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 24",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -798,7 +798,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 38",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 38",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1363,7 +1363,7 @@
             "type": "vless",
             "server": "162.159.134.234",
             "server_port": 80,
-            "uuid": "bb7fbefa-e8d8-4b59-b89f-efca9e9fbdbb",
+            "uuid": "b6b1702a-5a9c-4255-853a-ceb6cbca6c66",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1475,9 +1475,9 @@
         {
             "tag": "🇨🇦CA | vless | @proxystore11 | 14",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 2083,
-            "uuid": "3c110307-dcf0-4002-b944-6d2c9530dd23",
+            "server": "172.67.174.190",
+            "server_port": 443,
+            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1487,7 +1487,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dash.zedmodeon.lat",
+                "server_name": "w1.sylar8.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1496,11 +1496,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "headers": {
+                    "Host": "w1.sylar8.eu.org"
+                }
             }
         },
         {
@@ -1726,9 +1726,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "172.67.68.191",
+            "server": "104.16.32.40",
             "server_port": 443,
             "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
@@ -1740,7 +1740,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "baipiao343.stunning-bassoon.pages.dev",
+                "server_name": "baipiao406.stunning-bassoon.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1752,7 +1752,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "baipiao343.stunning-bassoon.pages.dev"
+                    "Host": "baipiao406.stunning-bassoon.pages.dev"
                 }
             }
         },
