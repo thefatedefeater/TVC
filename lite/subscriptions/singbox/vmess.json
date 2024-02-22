@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇾CY | vmess | @DeamNet_Proxy | 16",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 3",
@@ -123,6 +124,7 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇾CY | vmess | @DeamNet_Proxy | 16",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 3",
@@ -183,6 +185,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇾CY | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "195.85.59.21",
+            "server_port": 443,
+            "uuid": "f24bba0f-8656-44f8-b21e-a0e3a190c4c5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ury-unit-c030ehei8.poget71138.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/www.31000oooowe2.bf\/df97b21e-3943-4865-af18-b5ea9676b037",
+                "headers": {
+                    "Host": "ury-unit-c030ehei8.poget71138.workers.dev"
+                }
             }
         },
         {
