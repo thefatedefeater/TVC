@@ -163,7 +163,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 28",
@@ -246,7 +246,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 28",
@@ -1764,16 +1764,13 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "6395baea-37ff-40ad-8140-38c8a9c53f92",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "162.159.1.169",
+            "server_port": 2096,
+            "uuid": "89b6ddc8-da0a-4efd-93e5-9275ead14e18",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1781,7 +1778,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
+                "server_name": "new2.4four4.top.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1791,9 +1788,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/",
                 "headers": {
-                    "Host": "Dusseldorf.kotick.site"
+                    "Host": "new2.4four4.top."
                 }
             }
         },
