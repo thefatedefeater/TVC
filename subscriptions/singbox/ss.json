@@ -106,9 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | @DeamNet_Proxy | 5",
+                "🇺🇸US | ss | @DeamNet_Proxy | 6",
                 "🇩🇪DE | ss | @proxyymeliii | 20",
-                "🇸🇪SE | ss | @VmessProtocol | 14",
+                "🇸🇪SE | ss | @VmessProtocol | 15",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -124,8 +124,7 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇦🇪AE | ss | @forwardv2ray | 6",
-                "🇮🇷IR | ss | @forwardv2ray | 8",
+                "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇫🇮FI | ss | @ROMAX_VPN | 0",
                 "🇸🇪SE | ss | @ROMAX_VPN | 1",
                 "🇬🇧GB | ss | @ROMAX_VPN | 3",
@@ -136,9 +135,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | @DeamNet_Proxy | 5",
+                "🇺🇸US | ss | @DeamNet_Proxy | 6",
                 "🇩🇪DE | ss | @proxyymeliii | 20",
-                "🇸🇪SE | ss | @VmessProtocol | 14",
+                "🇸🇪SE | ss | @VmessProtocol | 15",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -154,8 +153,7 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇦🇪AE | ss | @forwardv2ray | 6",
-                "🇮🇷IR | ss | @forwardv2ray | 8",
+                "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇫🇮FI | ss | @ROMAX_VPN | 0",
                 "🇸🇪SE | ss | @ROMAX_VPN | 1",
                 "🇬🇧GB | ss | @ROMAX_VPN | 3",
@@ -182,7 +180,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 5",
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 6",
             "type": "shadowsocks",
             "server": "67.220.86.72",
             "server_port": 8882,
@@ -202,7 +200,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | @VmessProtocol | 14",
+            "tag": "🇸🇪SE | ss | @VmessProtocol | 15",
             "type": "shadowsocks",
             "server": "13.51.204.172",
             "server_port": 8081,
@@ -362,22 +360,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇪AE | ss | @forwardv2ray | 6",
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 17",
             "type": "shadowsocks",
-            "server": "185.249.135.180",
-            "server_port": 321,
+            "server": "18.196.158.36",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "BSGHSeVqqx0oBmEGS43DNQ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇮🇷IR | ss | @forwardv2ray | 8",
-            "type": "shadowsocks",
-            "server": "212.33.206.94",
-            "server_port": 321,
-            "method": "chacha20-ietf-poly1305",
-            "password": "x7I4845HUo1YFsNtiUUcWw",
+            "password": "A4Gx7lQcx9QZbXR2HlvaEz+momZTtempQnz10EoMpts=",
             "plugin": "",
             "plugin_opts": ""
         },
