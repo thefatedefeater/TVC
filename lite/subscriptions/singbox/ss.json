@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇫🇷FR | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🏳️XX | ss | @ROMAX_VPN | 6"
             ]
         },
@@ -115,8 +116,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇫🇷FR | ss | @DeamNet_Proxy | 18",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 17",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🏳️XX | ss | @ROMAX_VPN | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -140,6 +142,16 @@
             "type": "dns"
         },
         {
+            "tag": "🇫🇷FR | ss | @DeamNet_Proxy | 18",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 3389,
+            "method": "aes-256-gcm",
+            "password": "Y6R9pAtvxxzmGC",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -150,12 +162,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 17",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
             "type": "shadowsocks",
-            "server": "52.142.190.86",
-            "server_port": 15268,
+            "server": "51.11.104.69",
+            "server_port": 16550,
             "method": "chacha20-ietf-poly1305",
-            "password": "i6mY38K2mrXCNGC2RXApMH",
+            "password": "qFqqKf78FuMHnBqoxeWz4R",
             "plugin": "",
             "plugin_opts": ""
         },
