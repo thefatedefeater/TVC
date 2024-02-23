@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @vpn_xw | 3",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -126,7 +126,7 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 4",
                 "🇩🇪DE | trojan | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 37",
+                "🇺🇸US | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -162,7 +162,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇳CN | ss | @forwardv2ray | 18",
+                "🇫🇷FR | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -197,7 +197,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @vpn_xw | 3",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -206,7 +206,7 @@
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 4",
                 "🇩🇪DE | trojan | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 37",
+                "🇺🇸US | vless | @V2rayNGn | 37",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -242,7 +242,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇳CN | ss | @forwardv2ray | 18",
+                "🇫🇷FR | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -588,7 +588,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 26",
+            "tag": "🇨🇷CR | vless | @lightning6 | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -831,7 +831,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 37",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 37",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1689,14 +1689,33 @@
             }
         },
         {
-            "tag": "🇨🇳CN | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "service.ouluyun9803.com",
-            "server_port": 20009,
-            "method": "chacha20-ietf-poly1305",
-            "password": "cfa17a0d-5e7d-4871-976e-f116e0818123",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇫🇷FR | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "zxgold.saatbazar.com",
+            "server_port": 42717,
+            "uuid": "eb59555d-9c4a-418a-a1d7-e6bd4afe107b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "blog.api.www.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🏳️XX | vless | @FAKEOFTVC | 2",
