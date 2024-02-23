@@ -107,7 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @mftizi | 18",
+                "🇵🇱PL | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -121,7 +122,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @mftizi | 18",
+                "🇵🇱PL | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -167,7 +169,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 18",
+            "tag": "🇺🇸US | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -187,6 +189,30 @@
                 "path": "\/video\/34kKXbLM",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "94.131.96.137",
+            "server_port": 2095,
+            "uuid": "900fbb93-4dba-40c1-be96-9aef165a7c2e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "94.131.96.137"
                 }
             }
         },
