@@ -106,9 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | ss | @V2rayCollectorDonate | 10",
-                "🇩🇪DE | ss | @V2rayCollectorDonate | 11",
-                "🇸🇪SE | ss | @V2rayCollectorDonate | 20",
+                "🇩🇪DE | ss | @V2rayCollectorDonate | 9",
+                "🇩🇪DE | ss | @V2rayCollectorDonate | 14",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -125,7 +124,8 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇩🇪DE | ss | @ROMAX_VPN | 0",
-                "🇫🇮FI | ss | @ROMAX_VPN | 1",
+                "🇺🇸US | ss | @ROMAX_VPN | 1",
+                "🇸🇪SE | ss | @ROMAX_VPN | 2",
                 "🇬🇧GB | ss | @ROMAX_VPN | 4",
                 "🏳️XX | ss | @ROMAX_VPN | 6"
             ]
@@ -134,9 +134,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | ss | @V2rayCollectorDonate | 10",
-                "🇩🇪DE | ss | @V2rayCollectorDonate | 11",
-                "🇸🇪SE | ss | @V2rayCollectorDonate | 20",
+                "🇩🇪DE | ss | @V2rayCollectorDonate | 9",
+                "🇩🇪DE | ss | @V2rayCollectorDonate | 14",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 5",
@@ -153,7 +152,8 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇩🇪DE | ss | @ROMAX_VPN | 0",
-                "🇫🇮FI | ss | @ROMAX_VPN | 1",
+                "🇺🇸US | ss | @ROMAX_VPN | 1",
+                "🇸🇪SE | ss | @ROMAX_VPN | 2",
                 "🇬🇧GB | ss | @ROMAX_VPN | 4",
                 "🏳️XX | ss | @ROMAX_VPN | 6"
             ],
@@ -178,17 +178,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | ss | @V2rayCollectorDonate | 10",
-            "type": "shadowsocks",
-            "server": "18.196.158.36",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "A4Gx7lQcx9QZbXR2HlvaEz+momZTtempQnz10EoMpts=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE | ss | @V2rayCollectorDonate | 11",
+            "tag": "🇩🇪DE | ss | @V2rayCollectorDonate | 9",
             "type": "shadowsocks",
             "server": "3.127.224.163",
             "server_port": 8080,
@@ -198,12 +188,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | @V2rayCollectorDonate | 20",
+            "tag": "🇩🇪DE | ss | @V2rayCollectorDonate | 14",
             "type": "shadowsocks",
-            "server": "45.8.147.65",
-            "server_port": 37219,
+            "server": "18.196.158.36",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "ETt8vY8HbPwOfk21c3i13h",
+            "password": "A4Gx7lQcx9QZbXR2HlvaEz+momZTtempQnz10EoMpts=",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -368,12 +358,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | ss | @ROMAX_VPN | 1",
+            "tag": "🇺🇸US | ss | @ROMAX_VPN | 1",
             "type": "shadowsocks",
             "server": "95.164.113.64",
             "server_port": 7150,
             "method": "chacha20-ietf-poly1305",
             "password": "btzmpL7aOs7YbcLS4In6YX",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇸🇪SE | ss | @ROMAX_VPN | 2",
+            "type": "shadowsocks",
+            "server": "45.8.147.65",
+            "server_port": 37219,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ETt8vY8HbPwOfk21c3i13h",
             "plugin": "",
             "plugin_opts": ""
         },
