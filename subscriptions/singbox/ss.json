@@ -106,9 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | ss | @V2rayCollectorDonate | 13",
-                "🇸🇪SE | ss | @V2rayCollectorDonate | 14",
-                "🇩🇪DE | ss | @V2rayCollectorDonate | 15",
+                "🇩🇪DE | ss | @V2rayCollectorDonate | 6",
+                "🇩🇪DE | ss | @V2rayCollectorDonate | 7",
+                "🇸🇪SE | ss | @V2rayCollectorDonate | 16",
                 "🇸🇪SE | ss | @VmessProtocol | 15",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
@@ -135,9 +135,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | ss | @V2rayCollectorDonate | 13",
-                "🇸🇪SE | ss | @V2rayCollectorDonate | 14",
-                "🇩🇪DE | ss | @V2rayCollectorDonate | 15",
+                "🇩🇪DE | ss | @V2rayCollectorDonate | 6",
+                "🇩🇪DE | ss | @V2rayCollectorDonate | 7",
+                "🇸🇪SE | ss | @V2rayCollectorDonate | 16",
                 "🇸🇪SE | ss | @VmessProtocol | 15",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 3",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 4",
@@ -180,7 +180,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | ss | @V2rayCollectorDonate | 13",
+            "tag": "🇩🇪DE | ss | @V2rayCollectorDonate | 6",
+            "type": "shadowsocks",
+            "server": "18.196.158.36",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "A4Gx7lQcx9QZbXR2HlvaEz+momZTtempQnz10EoMpts=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | @V2rayCollectorDonate | 7",
             "type": "shadowsocks",
             "server": "3.127.224.163",
             "server_port": 8080,
@@ -190,22 +200,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | @V2rayCollectorDonate | 14",
+            "tag": "🇸🇪SE | ss | @V2rayCollectorDonate | 16",
             "type": "shadowsocks",
             "server": "45.8.147.65",
             "server_port": 37219,
             "method": "chacha20-ietf-poly1305",
             "password": "ETt8vY8HbPwOfk21c3i13h",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE | ss | @V2rayCollectorDonate | 15",
-            "type": "shadowsocks",
-            "server": "18.196.158.36",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "A4Gx7lQcx9QZbXR2HlvaEz+momZTtempQnz10EoMpts=",
             "plugin": "",
             "plugin_opts": ""
         },
