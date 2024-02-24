@@ -106,11 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 18",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 7",
-                "🇩🇪DE | vmess | @V2rayng_Fast | 3",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
@@ -121,11 +120,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 18",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 7",
-                "🇩🇪DE | vmess | @V2rayng_Fast | 3",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
@@ -150,40 +148,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
-            "type": "vmess",
-            "server": "172.67.174.63",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nina.bond",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nina.bond"
-                }
-            }
         },
         {
             "tag": "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -261,11 +225,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @V2rayng_Fast | 3",
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 2",
             "type": "vmess",
-            "server": "154.197.75.98",
-            "server_port": 2095,
-            "uuid": "eaa63ca0-8fd0-40a5-9157-d5aead104fcd",
+            "server": "c1d1ntest.mshdneshat.fun",
+            "server_port": 443,
+            "uuid": "73bfcf64-8609-4606-9fc0-e8c49e3500b8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -276,11 +240,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "c1d1ntest.mshdneshat.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "c1d1ntest.mshdneshat.fun"
                 }
             }
         },
