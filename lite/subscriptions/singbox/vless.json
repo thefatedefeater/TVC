@@ -135,7 +135,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 3",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
-                "🇨🇦CA | vless | @ShadowProxy66 | 19",
+                "🇨🇦CA | vless | @ShadowProxy66 | 27",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇺🇸US | vless | @proxyymeliii | 20",
@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇮🇷IR | vless | @lrnbymaa | 2",
+                "🇮🇷IR | vless | @lrnbymaa | 3",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 8",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇬🇧GB | vless | @Capoit | 6",
+                "🇬🇧GB | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -202,7 +202,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 3",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
-                "🇨🇦CA | vless | @ShadowProxy66 | 19",
+                "🇨🇦CA | vless | @ShadowProxy66 | 27",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇺🇸US | vless | @proxyymeliii | 20",
@@ -211,7 +211,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 1",
-                "🇮🇷IR | vless | @lrnbymaa | 2",
+                "🇮🇷IR | vless | @lrnbymaa | 3",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 8",
@@ -219,7 +219,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇬🇧GB | vless | @Capoit | 6",
+                "🇬🇧GB | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -1041,7 +1041,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 19",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 27",
             "type": "vless",
             "server": "104.18.16.149",
             "server_port": 443,
@@ -1263,17 +1263,27 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @lrnbymaa | 2",
+            "tag": "🇮🇷IR | vless | @lrnbymaa | 3",
             "type": "vless",
-            "server": "free-toucan.tucn-serves.info",
-            "server_port": 38625,
-            "uuid": "331f7814-6d29-4f57-9981-252dbd7c9c51",
+            "server": "tr1.tucn-serves.info",
+            "server_port": 56809,
+            "uuid": "750eb3e6-7e0b-47b9-a6f2-79bd409ca7a8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tr1.tucn-serves.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -1455,7 +1465,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @Capoit | 6",
+            "tag": "🇬🇧GB | vless | @Capoit | 7",
             "type": "vless",
             "server": "91.193.58.200",
             "server_port": 80,
