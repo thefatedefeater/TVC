@@ -155,14 +155,14 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇮🇷IR | vless | @flyv2ray | 6",
-                "🇯🇵JP | vless | @forwardv2ray | 10",
                 "🇸🇬SG | vless | @https_config_injector | 5",
-                "🇩🇪DE | vless | @mehrosaboran | 12",
+                "🇩🇪DE | vless | @mehrosaboran | 0",
+                "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇫🇮FI | vless | @proxy_mtm | 1",
                 "🇩🇪DE | vless | @proxy_mtm | 2",
@@ -246,14 +246,14 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇮🇷IR | vless | @flyv2ray | 6",
-                "🇯🇵JP | vless | @forwardv2ray | 10",
                 "🇸🇬SG | vless | @https_config_injector | 5",
-                "🇩🇪DE | vless | @mehrosaboran | 12",
+                "🇩🇪DE | vless | @mehrosaboran | 0",
+                "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇫🇮FI | vless | @proxy_mtm | 1",
                 "🇩🇪DE | vless | @proxy_mtm | 2",
@@ -1935,7 +1935,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
@@ -2080,35 +2080,6 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vless | @forwardv2ray | 10",
-            "type": "vless",
-            "server": "jpegwdzrw.xqc.best",
-            "server_port": 20003,
-            "uuid": "a35f4400-3d6c-4dfe-8593-f3c516dccefa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.timeto.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "ios"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Wt9cTNEcGKp6Qy2n050o5U3sDCEK1C-iuzQFYSzXknU",
-                    "short_id": "4a3749e4"
-                }
-            }
-        },
-        {
             "tag": "🇸🇬SG | vless | @https_config_injector | 5",
             "type": "vless",
             "server": "54.255.178.212",
@@ -2138,7 +2109,43 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @mehrosaboran | 12",
+            "tag": "🇩🇪DE | vless | @mehrosaboran | 0",
+            "type": "vless",
+            "server": "5.75.225.4",
+            "server_port": 443,
+            "uuid": "b72392f9-e9bc-4f36-a112-916d32e5f389",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.hetzner.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AVh9z3yAsgz2E7o7UOWUIRcOMKgcrXJjchCIUwaviDQ",
+                    "short_id": "3eb1d20a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @mehrosaboran | 13",
             "type": "vless",
             "server": "5.75.225.4",
             "server_port": 443,
