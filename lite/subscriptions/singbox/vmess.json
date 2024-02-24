@@ -113,7 +113,6 @@
                 "🇩🇪DE | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 13",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
@@ -129,7 +128,6 @@
                 "🇩🇪DE | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 13",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
@@ -321,40 +319,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 13",
-            "type": "vmess",
-            "server": "188.114.97.7",
-            "server_port": 443,
-            "uuid": "68abb850-c544-46dc-88f1-97361d26c07e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kansas.gafn.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "kansas.gafn.online"
                 }
             }
         },
