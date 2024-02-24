@@ -155,17 +155,17 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇩🇪DE | vless | @flyv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 14",
-                "🇩🇪DE | vless | @mehrosaboran | 16",
+                "🇬🇧GB | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @proxy_mtm | 12",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇫🇷FR | vless | @SvnTeam | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇺🇸US | vless | @IBv2ray | 4",
+                "🇨🇦CA | vless | @IBv2ray | 4",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 1",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 1",
                 "🇳🇱NL | vless | @TVCminer | 19"
             ]
         },
@@ -222,17 +222,17 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇩🇪DE | vless | @flyv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 14",
-                "🇩🇪DE | vless | @mehrosaboran | 16",
+                "🇬🇧GB | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @proxy_mtm | 12",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇫🇷FR | vless | @SvnTeam | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇺🇸US | vless | @IBv2ray | 4",
+                "🇨🇦CA | vless | @IBv2ray | 4",
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 1",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 1",
                 "🇳🇱NL | vless | @TVCminer | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1552,39 +1552,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @mehrosaboran | 16",
+            "tag": "🇬🇧GB | vless | @mehrosaboran | 15",
             "type": "vless",
-            "server": "5.75.225.4",
-            "server_port": 443,
-            "uuid": "5ab6708e-b949-4381-946a-2a80f664aaa8",
-            "flow": "xtls-rprx-vision",
+            "server": "91.193.58.50",
+            "server_port": 80,
+            "uuid": "VPNCUSTOMIZE",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.hetzner.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AVh9z3yAsgz2E7o7UOWUIRcOMKgcrXJjchCIUwaviDQ",
-                    "short_id": "3eb1d20a"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@V2rayCUSTOMIZE___@CUSTOMIZEV2ray",
+                "headers": {
+                    "Host": "91.193.58.50"
+                }
             }
         },
         {
@@ -1745,7 +1730,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @IBv2ray | 4",
+            "tag": "🇨🇦CA | vless | @IBv2ray | 4",
             "type": "vless",
             "server": "yawmquran12.xyz",
             "server_port": 443,
@@ -1811,7 +1796,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 1",
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 1",
             "type": "vless",
             "server": "104.17.243.121",
             "server_port": 2096,
