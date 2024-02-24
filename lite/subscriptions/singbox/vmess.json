@@ -113,7 +113,7 @@
                 "🇷🇺RU | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 12",
+                "🇸🇬SG | vmess | @forwardv2ray | 18",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vmess | @FoXrayIran | 1",
                 "🇨🇦CA | vmess | @SINABIGO | 4"
@@ -130,7 +130,7 @@
                 "🇷🇺RU | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 12",
+                "🇸🇬SG | vmess | @forwardv2ray | 18",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vmess | @FoXrayIran | 1",
                 "🇨🇦CA | vmess | @SINABIGO | 4"
@@ -330,11 +330,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 12",
+            "tag": "🇸🇬SG | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "172.67.152.200",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "sg3.socifiles.com",
+            "server_port": 80,
+            "uuid": "6a88afe0-d02b-11ee-85c0-1239d0255272",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -345,21 +345,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "meroiy.icu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/vmws",
                 "headers": {
-                    "Host": "meroiy.icu"
+                    "Host": ""
                 }
             }
         },
