@@ -129,11 +129,11 @@
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
                 "🏳️XX | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 29",
+                "🇺🇸US | vless | @V2rayNGn | 29",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🏳️XX | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -168,7 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇬🇧GB | ss | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -214,11 +214,11 @@
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
                 "🏳️XX | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 29",
+                "🇺🇸US | vless | @V2rayNGn | 29",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🏳️XX | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -253,7 +253,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇬🇧GB | ss | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -884,7 +884,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 29",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -976,7 +976,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 18",
+            "tag": "🇺🇸US | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -1870,14 +1870,25 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 16",
-            "type": "shadowsocks",
-            "server": "51.142.173.103",
-            "server_port": 51899,
-            "method": "chacha20-ietf-poly1305",
-            "password": "gcpVehVytslepmkHHRLXYx",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "172.67.193.36",
+            "server_port": 8080,
+            "uuid": "4d7b0ff9-a2ae-44b4-9257-7b5b074fb989",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg",
+                "headers": {
+                    "Host": "172.67.193.36"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | vmess | @FAKEOFTVC | 2",

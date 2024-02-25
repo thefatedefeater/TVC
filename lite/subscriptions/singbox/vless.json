@@ -129,7 +129,7 @@
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
                 "🏳️XX | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 29",
+                "🇺🇸US | vless | @V2rayNGn | 29",
                 "🏳️XX | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
@@ -157,6 +157,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇬🇧GB | vless | @proxy_mtm | 5",
@@ -197,7 +198,7 @@
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
                 "🏳️XX | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 29",
+                "🇺🇸US | vless | @V2rayNGn | 29",
                 "🏳️XX | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
@@ -225,6 +226,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇬🇧GB | vless | @proxy_mtm | 5",
@@ -850,7 +852,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 29",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1563,6 +1565,27 @@
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "172.67.193.36",
+            "server_port": 8080,
+            "uuid": "4d7b0ff9-a2ae-44b4-9257-7b5b074fb989",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg",
+                "headers": {
+                    "Host": "172.67.193.36"
                 }
             }
         },
