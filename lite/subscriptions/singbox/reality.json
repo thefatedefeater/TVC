@@ -113,7 +113,6 @@
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇳🇱NL | vless | @flyv2ray | 15",
-                "🇫🇮FI | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
@@ -129,7 +128,6 @@
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇳🇱NL | vless | @flyv2ray | 15",
-                "🇫🇮FI | vless | @forwardv2ray | 19",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
@@ -381,42 +379,6 @@
                     "enabled": true,
                     "public_key": "tpbNb0GaEaKigfpohZXxjlbNyBXHcsucB0KiFyw3fFA",
                     "short_id": "85446011"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "135.181.108.187",
-            "server_port": 443,
-            "uuid": "587c2cd4-e2c5-4e4c-ac23-eb38192cd02f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.hetzner.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5To2hd8dONrepW48wI6V1hbYePWOjYHgMXiR9Gq9tF4",
-                    "short_id": "ca837ff5"
                 }
             },
             "transport": {
