@@ -107,8 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @v2ray_swhil | 21",
                 "🇨🇦CA | vmess | @v2ray1_ng | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -122,8 +122,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @v2ray_swhil | 21",
                 "🇨🇦CA | vmess | @v2ray1_ng | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
@@ -169,7 +169,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 18",
+            "tag": "🇨🇦CA | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -193,11 +193,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 0",
             "type": "vmess",
-            "server": "warp-sub.pages.dev",
-            "server_port": 443,
-            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "server": "85.133.151.96",
+            "server_port": 38288,
+            "uuid": "e40053db-36c7-45d1-b9e9-76e04cfe6ebc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -207,23 +207,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/urnxewzvh.site:443\/kwhmvws",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
