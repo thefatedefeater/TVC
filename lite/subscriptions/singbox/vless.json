@@ -116,7 +116,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -136,6 +136,7 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 49",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -143,7 +144,7 @@
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @lrnbymaa | 2",
+                "🏳️XX | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -153,6 +154,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇬🇧GB | vless | @flyv2ray | 15",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -179,7 +181,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -199,6 +201,7 @@
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 49",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -206,7 +209,7 @@
                 "🏳️XX | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @lrnbymaa | 2",
+                "🏳️XX | vless | @lrnbymaa | 2",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇹🇷TR | vless | @fnet00 | 8",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -216,6 +219,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇬🇧GB | vless | @flyv2ray | 15",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -523,7 +527,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 29",
+            "tag": "🇨🇷CR | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1066,6 +1070,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 20",
+            "type": "vless",
+            "server": "cp.ifilo.org",
+            "server_port": 80,
+            "uuid": "VPNCUSTOMIZE-VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=1048",
+                "headers": {
+                    "Host": "cp.ifilo.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxyymeliii | 19",
             "type": "vless",
             "server": "155.138.136.38",
@@ -1129,7 +1154,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "liV2raye.xn--mgbg0fka44dhgc.com",
+                "server_name": "liV2rayf.xn--mgbg0fka44dhgc.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1237,7 +1262,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 2",
+            "tag": "🏳️XX | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1484,6 +1509,37 @@
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
                     "Host": "91.193.58.1"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "190.93.247.155",
+            "server_port": 2083,
+            "uuid": "d348aa05-c341-4ca7-b60c-6358d414285d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "all2.savagev2ray.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "all2.savagev2ray.site"
                 }
             }
         },
