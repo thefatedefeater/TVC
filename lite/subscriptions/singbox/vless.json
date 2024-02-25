@@ -118,7 +118,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -129,7 +129,7 @@
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
                 "🏳️XX | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 29",
+                "🇺🇸US | vless | @V2rayNGn | 29",
                 "🏳️XX | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 33",
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 15",
+                "🇩🇪DE | vless | @proxyymeliii | 17",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -186,7 +186,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 29",
+                "🇨🇷CR | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
                 "🏳️XX | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -197,7 +197,7 @@
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 7",
                 "🏳️XX | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 29",
+                "🇺🇸US | vless | @V2rayNGn | 29",
                 "🏳️XX | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 9",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 33",
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 15",
+                "🇩🇪DE | vless | @proxyymeliii | 17",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -585,7 +585,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 29",
+            "tag": "🇨🇷CR | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -850,7 +850,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 29",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1156,11 +1156,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 15",
+            "tag": "🇩🇪DE | vless | @proxyymeliii | 17",
             "type": "vless",
-            "server": "maz.maznet.cfd",
-            "server_port": 2083,
-            "uuid": "18d472ea-c6a3-4913-b7d7-487495d6e74c",
+            "server": "154.197.75.98",
+            "server_port": 80,
+            "uuid": "3b8fa18e-e245-49b9-b355-405ec86f0755",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1168,21 +1168,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "join20.maznet.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "path": "\/",
                 "headers": {
-                    "Host": "join20.maznet.cfd"
+                    "Host": "154.197.75.98"
                 }
             }
         },
