@@ -146,10 +146,12 @@
                 "🇩🇪DE | vless | @V2RayTz | 7",
                 "🇩🇪DE | vless | @V2RayTz | 10",
                 "🇩🇪DE | vless | @DailyV2RY | 112",
+                "🇫🇮FI | vless | @ConfigsHUB | 0",
+                "🇩🇪DE | vless | @ConfigsHUB | 1",
                 "🏳️XX | vless | @polproxy | 4",
                 "🏳️XX | vless | @polproxy | 5",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 5",
-                "🇯🇵JP | vless | @Outlinev2rayNG | 8",
+                "🇮🇷IR | vless | @Outlinev2rayNG | 6",
+                "🇯🇵JP | vless | @Outlinev2rayNG | 9",
                 "🇩🇪DE | vless | @v2rayng_vpnrog | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -159,12 +161,12 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇫🇮FI | vless | @flyv2ray | 6",
-                "🇩🇪DE | vless | @flyv2ray | 7",
+                "🇫🇮FI | vless | @flyv2ray | 10",
+                "🇩🇪DE | vless | @flyv2ray | 11",
                 "🇸🇬SG | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 0",
                 "🇫🇮FI | vless | @mehrosaboran | 3",
@@ -243,10 +245,12 @@
                 "🇩🇪DE | vless | @V2RayTz | 7",
                 "🇩🇪DE | vless | @V2RayTz | 10",
                 "🇩🇪DE | vless | @DailyV2RY | 112",
+                "🇫🇮FI | vless | @ConfigsHUB | 0",
+                "🇩🇪DE | vless | @ConfigsHUB | 1",
                 "🏳️XX | vless | @polproxy | 4",
                 "🏳️XX | vless | @polproxy | 5",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 5",
-                "🇯🇵JP | vless | @Outlinev2rayNG | 8",
+                "🇮🇷IR | vless | @Outlinev2rayNG | 6",
+                "🇯🇵JP | vless | @Outlinev2rayNG | 9",
                 "🇩🇪DE | vless | @v2rayng_vpnrog | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -256,12 +260,12 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇫🇮FI | vless | @flyv2ray | 6",
-                "🇩🇪DE | vless | @flyv2ray | 7",
+                "🇫🇮FI | vless | @flyv2ray | 10",
+                "🇩🇪DE | vless | @flyv2ray | 11",
                 "🇸🇬SG | vless | @https_config_injector | 12",
                 "🇩🇪DE | vless | @mehrosaboran | 0",
                 "🇫🇮FI | vless | @mehrosaboran | 3",
@@ -1700,6 +1704,78 @@
             }
         },
         {
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 0",
+            "type": "vless",
+            "server": "135.181.153.138",
+            "server_port": 443,
+            "uuid": "43385746-b725-42a0-9e24-71844fd32b94",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bastille.se",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "DEavTNAK_az8cfVtl9VKO59caXLgrCZ2X3M4qYQ_-Fc",
+                    "short_id": "b7b93a58"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 1",
+            "type": "vless",
+            "server": "5.75.242.254",
+            "server_port": 443,
+            "uuid": "f587585e-e171-4c48-98d5-91c7e062cc54",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fussenegger.pro",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tdhJHRKHkUuWVG78-FHoJbCxPq6FBN6xlBMY2vDWQ24",
+                    "short_id": "e49685dd"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @polproxy | 4",
             "type": "vless",
             "server": "reality172-232-62-114-no.cleanmark.ir",
@@ -1758,7 +1834,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @Outlinev2rayNG | 5",
+            "tag": "🇮🇷IR | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "188.121.103.47",
             "server_port": 2087,
@@ -1787,7 +1863,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vless | @Outlinev2rayNG | 8",
+            "tag": "🇯🇵JP | vless | @Outlinev2rayNG | 9",
             "type": "vless",
             "server": "jpegwdzrw.xqc.best",
             "server_port": 20010,
@@ -2091,7 +2167,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
@@ -2207,7 +2283,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @flyv2ray | 6",
+            "tag": "🇫🇮FI | vless | @flyv2ray | 10",
             "type": "vless",
             "server": "95.217.21.144",
             "server_port": 443,
@@ -2243,7 +2319,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @flyv2ray | 7",
+            "tag": "🇩🇪DE | vless | @flyv2ray | 11",
             "type": "vless",
             "server": "116.202.111.71",
             "server_port": 443,
