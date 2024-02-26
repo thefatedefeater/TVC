@@ -109,7 +109,9 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇱🇺LU | vless | @ShadowProxy66 | 40",
+                "🇯🇵JP | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇯🇵JP | vless | @forwardv2ray | 12",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @TVCminer | 19"
@@ -122,7 +124,9 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇱🇺LU | vless | @ShadowProxy66 | 40",
+                "🇯🇵JP | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇯🇵JP | vless | @forwardv2ray | 12",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @TVCminer | 19"
@@ -256,6 +260,35 @@
             }
         },
         {
+            "tag": "🇯🇵JP | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "egbhihafuow.xqc.best",
+            "server_port": 20001,
+            "uuid": "90f1fa90-75f7-4691-b5b7-a8e4a84d66d9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.timeto.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Wt9cTNEcGKp6Qy2n050o5U3sDCEK1C-iuzQFYSzXknU",
+                    "short_id": "4a3749e4"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
@@ -281,6 +314,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | vless | @forwardv2ray | 12",
+            "type": "vless",
+            "server": "jpegwdzrw.xqc.best",
+            "server_port": 20003,
+            "uuid": "90f1fa90-75f7-4691-b5b7-a8e4a84d66d9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.timeto.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Wt9cTNEcGKp6Qy2n050o5U3sDCEK1C-iuzQFYSzXknU",
+                    "short_id": "4a3749e4"
                 }
             }
         },
