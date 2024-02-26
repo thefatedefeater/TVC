@@ -185,7 +185,7 @@ proxies:
   - {"name":"🇨🇦CA | vless | @V2FETCH | 7","type":"vless","server":"k---join.outline-vpn.cloud","port":80,"udp":false,"uuid":"e1a928be-e289-4aef-b92e-4106fabdf42f","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"mahi.kosnanatfilterchi.eu.org"}}}
   - {"name":"🏳️XX | vless | @VpnSkyy | 7","type":"vless","server":"sky1.bbv2ry.pics","port":443,"udp":false,"uuid":"18c680fc-f921-484c-85d3-ec191f7cc983","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇸🇪SE | ss | @ROMAX_VPN | 4","type":"ss","server":"45.8.147.65","port":37219,"password":"ETt8vY8HbPwOfk21c3i13h","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇮FI | vless | @TVCminer | 18","type":"vless","server":"iran-2.tonworldnews.com","port":443,"udp":false,"uuid":"55dc2be5-7d3c-4ab7-bd72-66de46c2ed41","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"iran-2.tonworldnews.com","ws-opts":{"path":"/WxEarwDxw2Q0WqnjOk"}}
+  - {"name":"🇨🇦CA | vless | @TVCminer | 19","type":"vless","server":"104.18.203.232","port":2083,"udp":false,"uuid":"4389c3cb-f2b2-401e-a99b-6cdf59c1f4f9","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"gopl.pellitrans.de","grpc-opts":{"grpc-service-name":"2083vless"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -257,7 +257,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @V2FETCH | 7'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇸🇪SE | ss | @ROMAX_VPN | 4'
-      - '🇫🇮FI | vless | @TVCminer | 18'
+      - '🇨🇦CA | vless | @TVCminer | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -329,7 +329,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @V2FETCH | 7'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇸🇪SE | ss | @ROMAX_VPN | 4'
-      - '🇫🇮FI | vless | @TVCminer | 18'
+      - '🇨🇦CA | vless | @TVCminer | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -400,7 +400,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @V2FETCH | 7'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇸🇪SE | ss | @ROMAX_VPN | 4'
-      - '🇫🇮FI | vless | @TVCminer | 18'
+      - '🇨🇦CA | vless | @TVCminer | 19'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
