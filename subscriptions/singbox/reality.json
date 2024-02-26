@@ -138,6 +138,7 @@
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 8",
                 "🇯🇵JP | vless | @azadi_az_inja_migzare | 9",
                 "🇩🇪DE | vless | @prrofile_purple | 182",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 0",
                 "🇱🇺LU | vless | @ShadowProxy66 | 40",
                 "🇬🇧GB | vless | @v2ray1_ng | 1",
                 "🏳️XX | vless | @polproxy | 2",
@@ -151,7 +152,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -222,6 +223,7 @@
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 8",
                 "🇯🇵JP | vless | @azadi_az_inja_migzare | 9",
                 "🇩🇪DE | vless | @prrofile_purple | 182",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 0",
                 "🇱🇺LU | vless | @ShadowProxy66 | 40",
                 "🇬🇧GB | vless | @v2ray1_ng | 1",
                 "🏳️XX | vless | @polproxy | 2",
@@ -235,7 +237,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -1386,6 +1388,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 0",
+            "type": "vless",
+            "server": "hol1.noooooop.top",
+            "server_port": 2926,
+            "uuid": "4389c3cb-f2b2-401e-a99b-6cdf59c1f4f9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇱🇺LU | vless | @ShadowProxy66 | 40",
             "type": "vless",
             "server": "107.189.28.186",
@@ -1798,7 +1836,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
