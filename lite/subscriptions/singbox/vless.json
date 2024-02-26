@@ -146,7 +146,6 @@
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🏳️XX | vless | @lrnbymaa | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -158,7 +157,7 @@
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -217,7 +216,6 @@
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🏳️XX | vless | @lrnbymaa | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -229,7 +227,7 @@
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -1335,27 +1333,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "Vpn-MikeyMci.myftp.org",
-            "server_port": 80,
-            "uuid": "8d2b892e-3af7-4078-a079-3faa785fa1f8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
-                "headers": {
-                    "Host": "Vpn-MikeyMci.myftp.org"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 17",
             "type": "vless",
             "server": "104.18.202.232",
@@ -1648,11 +1625,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 12",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "for-irancell.outline-vpn.cloud",
+            "server": "mtn.vpn-mikey.cfd",
             "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "uuid": "2d845ff0-2393-49d9-b085-850beaac032c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1662,7 +1639,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "baipiao55.stunning-bassoon.pages.dev",
+                "server_name": "Germany.Vpn-Mikey.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1671,11 +1648,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "baipiao55.stunning-bassoon.pages.dev"
-                }
+                "type": "grpc",
+                "service_name": "@Vpn_Mikey،@Vpn_Mikey",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
