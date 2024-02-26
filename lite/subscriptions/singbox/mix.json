@@ -167,9 +167,9 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🏳️XX | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
-                "🇨🇦CA | vless | @https_config_injector | 12",
+                "🇺🇸US | vless | @https_config_injector | 12",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇬🇧GB | vless | @proxy_mtm | 8",
@@ -250,9 +250,9 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🏳️XX | vmess | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
-                "🇨🇦CA | vless | @https_config_injector | 12",
+                "🇺🇸US | vless | @https_config_injector | 12",
                 "🇫🇮FI | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇬🇧GB | vless | @proxy_mtm | 8",
@@ -1856,23 +1856,36 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "our-channel-is-V2ray_God-in-telegram-mc.azaronline.org",
-            "server_port": 80,
-            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "0a7c8525-a215-46c7-bc79-c839de47e83b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2ray_God=Telegram\/",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "our-channel-is-V2ray_God-in-telegram-mc.azaronline.org"
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
@@ -1908,7 +1921,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @https_config_injector | 12",
+            "tag": "🇺🇸US | vless | @https_config_injector | 12",
             "type": "vless",
             "server": "172.67.174.190",
             "server_port": 443,
