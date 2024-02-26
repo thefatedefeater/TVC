@@ -145,8 +145,7 @@
                 "🇬🇧GB | vless | @V2RayTz | 19",
                 "🏳️XX | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🏳️XX | vless | @lrnbymaa | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇹🇷TR | vless | @fnet00 | 8",
@@ -158,6 +157,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇩🇪DE | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 13",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 17",
                 "🇩🇪DE | vless | @mehrosaboran | 8",
@@ -214,8 +214,7 @@
                 "🇬🇧GB | vless | @V2RayTz | 19",
                 "🏳️XX | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🏳️XX | vless | @lrnbymaa | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇹🇷TR | vless | @fnet00 | 8",
@@ -227,6 +226,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇩🇪DE | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 13",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 17",
                 "🇩🇪DE | vless | @mehrosaboran | 8",
@@ -1279,7 +1279,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 3",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 3",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1296,37 +1296,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "donaldi.pydri.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "104.21.28.62",
-            "server_port": 443,
-            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "edgu.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "edgu.pureboy.eu.org"
                 }
             }
         },
@@ -1634,6 +1603,27 @@
                 "path": "\/@VPNCUSTOMIZE",
                 "headers": {
                     "Host": "154.197.75.98"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 13",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "cbec2cb9-ed0f-47a3-a024-fef368908ed3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
