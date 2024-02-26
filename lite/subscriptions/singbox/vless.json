@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 12",
-                "🇨🇦CA | vless | @NIM_VPN_ir | 8",
+                "🇺🇸US | vless | @NIM_VPN_ir | 8",
                 "🇨🇦CA | vless | @XsV2ray | 14",
                 "🇮🇪IE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 2",
@@ -146,7 +146,7 @@
                 "🇬🇧GB | vless | @DailyV2RY | 110",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🏳️XX | vless | @lrnbymaa | 3",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
+                "🇬🇧GB | vless | @ConfigsHUB | 10",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇹🇷TR | vless | @fnet00 | 8",
@@ -158,7 +158,6 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇬🇧GB | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇷CR | vless | @mehrosaboran | 10",
@@ -177,7 +176,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 12",
-                "🇨🇦CA | vless | @NIM_VPN_ir | 8",
+                "🇺🇸US | vless | @NIM_VPN_ir | 8",
                 "🇨🇦CA | vless | @XsV2ray | 14",
                 "🇮🇪IE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 2",
@@ -216,7 +215,7 @@
                 "🇬🇧GB | vless | @DailyV2RY | 110",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🏳️XX | vless | @lrnbymaa | 3",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
+                "🇬🇧GB | vless | @ConfigsHUB | 10",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇹🇷TR | vless | @fnet00 | 8",
@@ -228,7 +227,6 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇬🇧GB | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇷CR | vless | @mehrosaboran | 10",
@@ -283,11 +281,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 8",
+            "tag": "🇺🇸US | vless | @NIM_VPN_ir | 8",
             "type": "vless",
-            "server": "www.SPeedtest.NeT",
-            "server_port": 80,
-            "uuid": "09970208-9e2d-4871-acca-81282948aaf7",
+            "server": "205.233.181.74",
+            "server_port": 8080,
+            "uuid": "d5250e79-aae7-4514-8a5e-f9718f7ac035",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -297,9 +295,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@NIM_VPN_ir,@NIM_VPN_ir",
                 "headers": {
-                    "Host": "www.SPeedtest.NeT"
+                    "Host": "205.233.181.74"
                 }
             }
         },
@@ -1039,9 +1037,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 17",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 2095,
-            "uuid": "78943e0c-83bb-4af7-8727-bc2a213eb30d",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "a4684f0d-1fff-4060-8e3a-7197aace9e3f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1051,9 +1049,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/join--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON?ed=1048",
+                "path": "\/",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1316,39 +1314,17 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "157.90.161.70",
-            "server_port": 443,
-            "uuid": "ba211e88-dfef-4faa-8274-afe75da9b518",
-            "flow": "xtls-rprx-vision",
+            "server": "209.38.160.224",
+            "server_port": 36235,
+            "uuid": "ac3ac322-20e9-4458-abca-a5bd4be9d14b",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.hetzner.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "aWV-bNNZsIZUUrWIN2eLzN9snTl3P_KcCH-l66AfFWs",
-                    "short_id": "79872b68"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1641,20 +1617,6 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "209.38.160.224",
-            "server_port": 36235,
-            "uuid": "766cc5f7-da26-4a59-a316-60594f105c98",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
