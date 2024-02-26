@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇩🇪DE | ss | @forwardv2ray | 18",
                 "🇫🇮FI | ss | @ROMAX_VPN | 4"
             ]
         },
@@ -115,6 +116,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇩🇪DE | ss | @forwardv2ray | 18",
                 "🇫🇮FI | ss | @ROMAX_VPN | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -144,6 +146,16 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "3.70.174.99",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARC0u1LsngVI6YwK3Gcvl3Th7r3WxKFnlb0EXMjpH80=",
             "plugin": "",
             "plugin_opts": ""
         },
