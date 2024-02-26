@@ -134,7 +134,7 @@
                 "🇺🇸US | trojan | @DirectVPN | 16",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+                "🇮🇷IR | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
@@ -153,7 +153,7 @@
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🏳️XX | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | vless | @ConfigsHUB | 10",
+                "🇭🇰HK | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -173,6 +173,7 @@
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vmess | @FoXrayIran | 1",
                 "🇨🇦CA | vless | @IBv2ray | 5",
@@ -214,7 +215,7 @@
                 "🇺🇸US | trojan | @DirectVPN | 16",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+                "🇮🇷IR | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
@@ -233,7 +234,7 @@
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🏳️XX | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | vless | @ConfigsHUB | 10",
+                "🇭🇰HK | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -253,6 +254,7 @@
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vmess | @FoXrayIran | 1",
                 "🇨🇦CA | vless | @IBv2ray | 5",
@@ -1000,11 +1002,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇮🇷IR | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "38.54.13.212",
-            "server_port": 23026,
-            "uuid": "ef4d0930-3788-4410-9305-fae4ba652ede",
+            "server": "test121.lordnet.online",
+            "server_port": 25783,
+            "uuid": "57f18f2c-b298-46c1-848f-a3d40c501974",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1014,13 +1016,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ef4d0930",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1465,17 +1460,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 10",
+            "tag": "🇭🇰HK | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "209.38.160.224",
-            "server_port": 36235,
-            "uuid": "ac3ac322-20e9-4458-abca-a5bd4be9d14b",
+            "server": "202.81.231.30",
+            "server_port": 53178,
+            "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cfed.tgzdyz2.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TG@ZDYZ2",
+                "headers": {
+                    "Host": "cfed.tgzdyz2.top"
+                }
             }
         },
         {
@@ -1978,6 +1990,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 4",
+            "type": "vmess",
+            "server": "104.21.75.244",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "janett.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "janett.click"
+                }
             }
         },
         {
