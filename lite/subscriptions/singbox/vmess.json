@@ -110,7 +110,6 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 8",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
-                "🇮🇷IR | vmess | @ConfigsHUB | 17",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vmess | @kingofilter | 9",
@@ -126,7 +125,6 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 8",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
-                "🇮🇷IR | vmess | @ConfigsHUB | 17",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vmess | @kingofilter | 9",
@@ -219,40 +217,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "snappfood.ir",
-            "server_port": 443,
-            "uuid": "9b305c81-8e33-4145-a6fe-b9848c6a166a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tr.fastosos.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/api",
-                "headers": {
-                    "Host": "tr.fastosos.com"
-                }
             }
         },
         {
