@@ -167,7 +167,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 21",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -175,10 +175,11 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vmess | @kingofilter | 9",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
+                "🇬🇧GB | vmess | @eliya_chiter0 | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vmess | @FoXrayIran | 1",
                 "🇨🇦CA | vless | @IBv2ray | 5",
-                "🇺🇸US | tuic | @TUICity | 12",
+                "🇺🇸US | tuic | @TUICity | 19",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇫🇮FI | ss | @ROMAX_VPN | 4",
@@ -250,7 +251,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 21",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -258,10 +259,11 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vmess | @kingofilter | 9",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
+                "🇬🇧GB | vmess | @eliya_chiter0 | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vmess | @FoXrayIran | 1",
                 "🇨🇦CA | vless | @IBv2ray | 5",
-                "🇺🇸US | tuic | @TUICity | 12",
+                "🇺🇸US | tuic | @TUICity | 19",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇫🇮FI | ss | @ROMAX_VPN | 4",
@@ -1431,9 +1433,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.22.33.78",
-            "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "server": "Uciran.ir-online-api1-MTN.ddns001.net",
+            "server_port": 2053,
+            "uuid": "0a0b9604-f2a9-4d73-a698-8e2641d692ae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1443,7 +1445,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
+                "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran.dewiw37019.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1453,9 +1455,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@UCIRANIR-@UCIRANIR\/Microsoft?ed=2047",
                 "headers": {
-                    "Host": "Bia.alLhub.Ltd"
+                    "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran.dewiw37019.workers.dev"
                 }
             }
         },
@@ -1838,12 +1840,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "162.159.135.79",
+            "server": "146.190.17.120",
             "server_port": 443,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-            "flow": "",
+            "uuid": "8558f681-519e-40c3-8cc8-aea8e850d34a",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1852,20 +1854,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "edge.020770.xyz",
+                "server_name": "*.biro.nl",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tpbNb0GaEaKigfpohZXxjlbNyBXHcsucB0KiFyw3fFA",
+                    "short_id": "85446011"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
-                "headers": {
-                    "Host": "edge.020770.xyz"
-                }
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -2038,6 +2045,23 @@
             }
         },
         {
+            "tag": "🇬🇧GB | vmess | @eliya_chiter0 | 6",
+            "type": "vmess",
+            "server": "209.38.160.224",
+            "server_port": 39571,
+            "uuid": "b02c2ec8-c4cb-4afc-9e5d-c81a0bede7bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @Good_V2rayy | 3",
             "type": "vless",
             "server": "he4.dadnetiran.xyz",
@@ -2114,7 +2138,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | tuic | @TUICity | 12",
+            "tag": "🇺🇸US | tuic | @TUICity | 19",
             "type": "tuic",
             "server": "64.110.25.10",
             "server_port": 11227,
