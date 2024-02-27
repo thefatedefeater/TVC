@@ -134,7 +134,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 15",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 12",
-                "🇨🇦CA | vless | @v2rayngvpn | 15",
+                "🇺🇸US | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ShadowProxy66 | 22",
                 "🇬🇧GB | vless | @ServerNett | 21",
@@ -145,8 +145,8 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🏳️XX | vless | @lrnbymaa | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @lrnbymaa | 3",
+                "🇮🇷IR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -157,7 +157,6 @@
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇬🇧GB | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
@@ -204,7 +203,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 15",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 12",
-                "🇨🇦CA | vless | @v2rayngvpn | 15",
+                "🇺🇸US | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ShadowProxy66 | 22",
                 "🇬🇧GB | vless | @ServerNett | 21",
@@ -215,8 +214,8 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🏳️XX | vless | @lrnbymaa | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @lrnbymaa | 3",
+                "🇮🇷IR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
@@ -227,7 +226,6 @@
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇬🇧GB | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
@@ -1038,7 +1036,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 15",
+            "tag": "🇺🇸US | vless | @v2rayngvpn | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -1312,7 +1310,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 3",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 3",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1333,11 +1331,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "dnsss-----join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "185.143.233.1",
+            "server_port": 80,
+            "uuid": "169d4fb3-a564-4db5-8865-09e8e0853c24",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1345,21 +1343,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@SINABIGO\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "185.143.233.1"
                 }
             }
         },
@@ -1621,27 +1609,6 @@
                 "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
                     "Host": "discord.gg"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "91.193.58.1",
-            "server_port": 8880,
-            "uuid": "d00ced52-9f4a-47c8-a83a-edc73c89ec8c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/join--ServerNett--ServerNett?ed=1048",
-                "headers": {
-                    "Host": "91.193.58.1"
                 }
             }
         },
