@@ -110,9 +110,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 8",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
+                "🇮🇷IR | vmess | @ConfigsHUB | 17",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇫🇷FR | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vmess | @kingofilter | 9",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -126,9 +126,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 8",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
+                "🇮🇷IR | vmess | @ConfigsHUB | 17",
                 "🇭🇰HK | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇫🇷FR | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vmess | @kingofilter | 9",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -222,6 +222,40 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "snappfood.ir",
+            "server_port": 443,
+            "uuid": "9b305c81-8e33-4145-a6fe-b9848c6a166a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tr.fastosos.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/api",
+                "headers": {
+                    "Host": "tr.fastosos.com"
+                }
+            }
+        },
+        {
             "tag": "🇭🇰HK | vmess | @yaney_01 | 8",
             "type": "vmess",
             "server": "vivi-softbank-zz1.ddnsll.xyz",
@@ -277,23 +311,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "95.179.214.36",
-            "server_port": 2053,
-            "uuid": "ebe49c45-9230-47d3-ae3c-3585da2eddd5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
