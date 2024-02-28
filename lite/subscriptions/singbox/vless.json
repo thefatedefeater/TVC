@@ -135,7 +135,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
                 "🇮🇷IR | vless | @v2rayngvpn | 6",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
-                "🇨🇦CA | vless | @ShadowProxy66 | 34",
+                "🇨🇦CA | vless | @ShadowProxy66 | 31",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇮🇷IR | vless | @proxyymeliii | 17",
                 "🇧🇬BG | vless | @v2ray1_ng | 12",
@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 149",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -202,7 +202,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 11",
                 "🇮🇷IR | vless | @v2rayngvpn | 6",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
-                "🇨🇦CA | vless | @ShadowProxy66 | 34",
+                "🇨🇦CA | vless | @ShadowProxy66 | 31",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇮🇷IR | vless | @proxyymeliii | 17",
                 "🇧🇬BG | vless | @v2ray1_ng | 12",
@@ -210,7 +210,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 149",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -1005,7 +1005,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 34",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 31",
             "type": "vless",
             "server": "104.21.28.62",
             "server_port": 443,
@@ -1209,11 +1209,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 2083,
-            "uuid": "3c110307-dcf0-4002-b944-6d2c9530dd23",
+            "server": "www.Speedtest.net",
+            "server_port": 80,
+            "uuid": "42a8faf9-d1f9-4fef-fbb0-694412ed496c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1221,22 +1221,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.zedmodeon.lat",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "www.Speedtest.net"
+                }
             }
         },
         {
@@ -1572,9 +1562,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.18.12.130",
+            "server": "mtn--join.outline-vpn.cloud",
             "server_port": 443,
-            "uuid": "c97f3554-7216-413b-9b64-60630663e293",
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1584,7 +1574,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.visa.com",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1593,11 +1583,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@zedmodeon",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
             }
         },
         {
