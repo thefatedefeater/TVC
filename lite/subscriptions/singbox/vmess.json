@@ -110,7 +110,6 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @v2ray_swhil | 23",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -124,7 +123,6 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @v2ray_swhil | 23",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -231,30 +229,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "nelly.homes"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "104.17.25.1",
-            "server_port": 80,
-            "uuid": "83c19463-f966-4adb-a7d8-b127825ffab2",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.17.25.1"
                 }
             }
         },
