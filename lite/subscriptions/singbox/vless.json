@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷IR | vless | @EliV2ray | 8",
+                "🇮🇷IR | vless | @EliV2ray | 7",
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇨🇦CA | vless | @XsV2ray | 14",
@@ -139,21 +139,23 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇬🇧GB | vless | @v2ray_swhil | 25",
                 "🇬🇧GB | vless | @proxyymeliii | 18",
-                "🇨🇦CA | vless | @v2ray1_ng | 10",
+                "🇬🇧GB | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
                 "🏳️XX | vless | @polproxy | 9",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 9",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 6",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -171,7 +173,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷IR | vless | @EliV2ray | 8",
+                "🇮🇷IR | vless | @EliV2ray | 7",
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇨🇦CA | vless | @XsV2ray | 14",
@@ -204,21 +206,23 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇬🇧GB | vless | @v2ray_swhil | 25",
                 "🇬🇧GB | vless | @proxyymeliii | 18",
-                "🇨🇦CA | vless | @v2ray1_ng | 10",
+                "🇬🇧GB | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
                 "🏳️XX | vless | @polproxy | 9",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 9",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 6",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -252,7 +256,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷IR | vless | @EliV2ray | 8",
+            "tag": "🇮🇷IR | vless | @EliV2ray | 7",
             "type": "vless",
             "server": "188.121.103.47",
             "server_port": 2087,
@@ -1146,12 +1150,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 10",
+            "tag": "🇬🇧GB | vless | @v2ray1_ng | 11",
             "type": "vless",
-            "server": "172.67.24.121",
-            "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
-            "flow": "",
+            "server": "185.73.37.149",
+            "server_port": 2929,
+            "uuid": "4389c3cb-f2b2-401e-a99b-6cdf59c1f4f9",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1160,20 +1164,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Bia.alLhub.Ltd"
-                }
+                "type": "grpc",
+                "service_name": "xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1298,6 +1307,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
+            "type": "vless",
+            "server": "172.67.24.121",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @fnet00 | 5",
             "type": "vless",
             "server": "104.22.51.162",
@@ -1358,31 +1398,23 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @Outlinev2rayNG | 9",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 9",
             "type": "vless",
-            "server": "188.121.103.47",
-            "server_port": 2087,
-            "uuid": "352f8151-f56f-4858-a855-b338e3053e6d",
-            "flow": "xtls-rprx-vision",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "SVNTEAMz",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2-t9uUzRV61JYk2SuEzWmNuKgh_lG5IteIJ_pHPcPWM",
-                    "short_id": "21e8adbf"
+            "transport": {
+                "type": "ws",
+                "path": "\/SVNTEAM",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1547,6 +1579,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 6",
+            "type": "vless",
+            "server": "WoRkErT.V2ExV2.WoRkErS.DeV.",
+            "server_port": 80,
+            "uuid": "b5e5efbf-0e18-5209-8fcf-3a25eb3dc4c3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "WoRkErT.V2ExV2.WoRkErS.DeV."
                 }
             }
         },
