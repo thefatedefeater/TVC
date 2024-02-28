@@ -110,7 +110,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 10",
+                "🇩🇪DE | vmess | @ConfigsHUB | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -124,7 +124,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @ConfigsHUB | 10",
+                "🇩🇪DE | vmess | @ConfigsHUB | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
@@ -235,11 +235,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 10",
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 11",
             "type": "vmess",
-            "server": "auth.speedtest.net",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "128.140.5.51",
+            "server_port": 8081,
+            "uuid": "59e53e8d-c113-4aed-a9df-ad0d6308d96e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -249,23 +249,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nelly.homes"
-                }
             }
         },
         {
