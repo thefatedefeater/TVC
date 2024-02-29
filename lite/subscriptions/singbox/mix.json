@@ -153,7 +153,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 156",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇳🇱NL | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇳CN | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -237,7 +237,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 156",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇳🇱NL | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -252,7 +252,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇳CN | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1487,11 +1487,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 443,
-            "uuid": "VPNCUSTOMIZE--VPNCUSTOMIZE",
+            "server": "104.18.203.232",
+            "server_port": 8080,
+            "uuid": "Parsashonam-11",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1499,21 +1499,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.kellekcollection.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/RgE159?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "cdn.kellekcollection.com"
+                    "Host": "104.18.203.232"
                 }
             }
         },
@@ -1897,11 +1887,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇳CN | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "V2RAY_GOD-mc.azaronline.org",
-            "server_port": 80,
-            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
+            "server": "103.184.44.178",
+            "server_port": 443,
+            "uuid": "49895e4a-e103-4a50-8cd4-bd917f1a632a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1909,11 +1899,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip1kinghooman.melodyfreenet2.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2ray_God=Telegram\/",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "V2RAY_GOD-mc.azaronline.org"
+                    "Host": "vip1kinghooman.melodyfreenet2.shop"
                 }
             }
         },
