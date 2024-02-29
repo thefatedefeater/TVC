@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | vless | @EliV2ray | 6",
+                "🇳🇱NL | vless | @EliV2ray | 8",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @ipV2Ray | 2",
                 "🇫🇮FI | vless | @ipV2Ray | 3",
@@ -141,7 +141,6 @@
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 3",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @ShadowProxy66 | 32",
-                "🇮🇷IR | vless | @proxyymeliii | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -156,6 +155,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
@@ -188,7 +188,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | vless | @EliV2ray | 6",
+                "🇳🇱NL | vless | @EliV2ray | 8",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @ipV2Ray | 2",
                 "🇫🇮FI | vless | @ipV2Ray | 3",
@@ -223,7 +223,6 @@
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 3",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @ShadowProxy66 | 32",
-                "🇮🇷IR | vless | @proxyymeliii | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -238,6 +237,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
@@ -286,7 +286,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | vless | @EliV2ray | 6",
+            "tag": "🇳🇱NL | vless | @EliV2ray | 8",
             "type": "vless",
             "server": "77.246.99.239",
             "server_port": 443,
@@ -1490,35 +1490,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 17",
-            "type": "vless",
-            "server": "185.213.164.162",
-            "server_port": 80,
-            "uuid": "169d4fb3-a564-4db5-8865-09e8e0853c24",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.digikala.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K4rl3rABpQbUBfL_qylcKDIvE9DuYuMfg524Pp3JCT4",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @v2ray1_ng | 4",
             "type": "vless",
             "server": "164.92.250.121",
@@ -1943,6 +1914,42 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "v2logy.ddns.net",
+            "server_port": 443,
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
