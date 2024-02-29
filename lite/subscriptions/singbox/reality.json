@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 16",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
-                "🇮🇷IR | vless | @proxyymeliii | 16",
+                "🇮🇷IR | vless | @proxyymeliii | 17",
                 "🇫🇮FI | vless | @DailyV2RY | 100",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -123,10 +124,11 @@
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 16",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
-                "🇮🇷IR | vless | @proxyymeliii | 16",
+                "🇮🇷IR | vless | @proxyymeliii | 17",
                 "🇫🇮FI | vless | @DailyV2RY | 100",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -224,7 +226,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 16",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 17",
             "type": "vless",
             "server": "185.213.164.162",
             "server_port": 80,
@@ -343,6 +345,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "49.13.69.46",
+            "server_port": 56078,
+            "uuid": "dbff34ab-eb96-441d-9f07-30f0a7776037",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SUCJ94wKPUdfkBJw8VnANql6kevueb6EyA71C3AfKFs",
+                    "short_id": "bf44fc2c"
                 }
             }
         },
