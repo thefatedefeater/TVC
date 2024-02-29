@@ -110,12 +110,13 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @v2ray_swhil | 23",
+                "🇬🇧GB | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇻🇳VN | vmess | @forwardv2ray | 15",
                 "🇨🇦CA | vmess | @kingofilter | 12",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 7",
-                "🇺🇸US | vmess | @FoXrayIran | 1"
+                "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
         },
         {
@@ -126,12 +127,13 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @v2ray_swhil | 23",
+                "🇬🇧GB | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇻🇳VN | vmess | @forwardv2ray | 15",
                 "🇨🇦CA | vmess | @kingofilter | 12",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 7",
-                "🇺🇸US | vmess | @FoXrayIran | 1"
+                "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -246,6 +248,40 @@
             }
         },
         {
+            "tag": "🇬🇧GB | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "172.99.190.109",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 7",
             "type": "vmess",
             "server": "www.blueberrywindow.online",
@@ -294,11 +330,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "tag": "🇻🇳VN | vmess | @forwardv2ray | 15",
             "type": "vmess",
-            "server": "nexload.ir",
+            "server": "skyht2.vpndata.vn",
             "server_port": 80,
-            "uuid": "17ae8dc2-042a-4132-b494-b2f71be0abcc",
+            "uuid": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -311,9 +347,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/VPNDATA.VPN",
                 "headers": {
-                    "Host": ""
+                    "Host": "skyht2.vpndata.vn"
                 }
             }
         },
@@ -369,7 +405,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @FoXrayIran | 1",
+            "tag": "🇨🇦CA | vmess | @FoXrayIran | 1",
             "type": "vmess",
             "server": "tl.iranray.online",
             "server_port": 8080,

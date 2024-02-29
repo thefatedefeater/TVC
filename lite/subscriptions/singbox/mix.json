@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 11",
+                "🇬🇧GB | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 0",
@@ -164,7 +164,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇻🇳VN | vmess | @forwardv2ray | 15",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -172,7 +172,7 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇺🇸US | vmess | @FoXrayIran | 1",
+                "🇨🇦CA | vmess | @FoXrayIran | 1",
                 "🇨🇦CA | vless | @IBv2ray | 5",
                 "🇺🇸US | tuic | @TUICity | 24",
                 "🇨🇦CA | vless | @V2FETCH | 7",
@@ -229,7 +229,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 11",
+                "🇬🇧GB | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 0",
@@ -243,7 +243,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇻🇳VN | vmess | @forwardv2ray | 15",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -251,7 +251,7 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇺🇸US | vmess | @FoXrayIran | 1",
+                "🇨🇦CA | vmess | @FoXrayIran | 1",
                 "🇨🇦CA | vless | @IBv2ray | 5",
                 "🇺🇸US | tuic | @TUICity | 24",
                 "🇨🇦CA | vless | @V2FETCH | 7",
@@ -1398,13 +1398,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "test--join.outline-vpn.cloud",
+            "tag": "🇬🇧GB | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "172.99.190.109",
             "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1412,7 +1415,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1422,9 +1425,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
+                    "Host": ""
                 }
             }
         },
@@ -1774,11 +1777,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "tag": "🇻🇳VN | vmess | @forwardv2ray | 15",
             "type": "vmess",
-            "server": "nexload.ir",
+            "server": "skyht2.vpndata.vn",
             "server_port": 80,
-            "uuid": "17ae8dc2-042a-4132-b494-b2f71be0abcc",
+            "uuid": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1791,9 +1794,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/VPNDATA.VPN",
                 "headers": {
-                    "Host": ""
+                    "Host": "skyht2.vpndata.vn"
                 }
             }
         },
@@ -1978,7 +1981,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @FoXrayIran | 1",
+            "tag": "🇨🇦CA | vmess | @FoXrayIran | 1",
             "type": "vmess",
             "server": "tl.iranray.online",
             "server_port": 8080,
