@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇪IE | trojan | @PrivateVPNs | 17 = trojan, 54.78.160.223, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇺🇸US | trojan | @DirectVPN | 17 = trojan, 54.226.143.251, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇨🇦CA | trojan | @forwardv2ray | 19 = trojan, zula.ir, 443, password = KItyQnq6gjpjnS0dLX8teQ, udp-delay = true, skip-cert-verify = false, sni = cpanel.pharmaweb.info, ws = false
+🇮🇪IE | trojan | @PrivateVPNs | 17 = trojan, 52.50.39.20, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇸🇪SE | trojan | @DirectVPN | 17 = trojan, 16.170.74.9, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇨🇦CA | trojan | @proxyymeliii | 14 = trojan, cdnjs.com, 443, password = dfbbc8de-8a4f-407d-8069-6de38d83c4e1, udp-delay = true, skip-cert-verify = false, sni = hdfy4c6.freelines.net, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @forwardv2ray | 19
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @forwardv2ray | 19
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @forwardv2ray | 19
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @proxyymeliii | 14
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @proxyymeliii | 14
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @proxyymeliii | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
