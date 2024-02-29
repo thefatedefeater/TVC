@@ -110,9 +110,10 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @kingofilter | 12",
+                "🇨🇦CA | vmess | @kingofilter | 12",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 7",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
@@ -125,9 +126,10 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @kingofilter | 12",
+                "🇨🇦CA | vmess | @kingofilter | 12",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 7",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
@@ -227,6 +229,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "104.21.91.73",
+            "server_port": 443,
+            "uuid": "45f63e92-f782-4cac-84b8-e61cb5a5bfd0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "adenc35.fixedlfoat.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "adenc35.fixedlfoat.top"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 7",
             "type": "vmess",
             "server": "www.blueberrywindow.online",
@@ -275,7 +311,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @kingofilter | 12",
+            "tag": "🇨🇦CA | vmess | @kingofilter | 12",
             "type": "vmess",
             "server": "172.67.155.82",
             "server_port": 443,
