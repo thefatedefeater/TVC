@@ -110,11 +110,10 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @v2ray1_ng | 6",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @FoXrayIran | 1"
+                "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
         },
         {
@@ -125,11 +124,10 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @v2ray1_ng | 6",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @FoXrayIran | 1"
+                "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -237,40 +235,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "188.114.97.10",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "odelia.autos",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "odelia.autos"
-                }
-            }
-        },
-        {
             "tag": "🇹🇼TW | vmess | @yaney_01 | 6",
             "type": "vmess",
             "server": "114.37.132.46",
@@ -346,7 +310,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @FoXrayIran | 1",
+            "tag": "🇨🇦CA | vmess | @FoXrayIran | 1",
             "type": "vmess",
             "server": "tl.iranray.online",
             "server_port": 8080,
