@@ -130,7 +130,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇬🇧GB | vless | @V2rayNGn | 24",
-                "🇺🇸US | vless | @prrofile_purple | 182",
+                "🇨🇷CR | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 22",
                 "🇨🇦CA | vless | @vmessorg | 19",
@@ -143,8 +143,9 @@
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 109",
+                "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇺🇸US | vless | @ConfigsHUB | 17",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -199,7 +200,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇬🇧GB | vless | @V2rayNGn | 24",
-                "🇺🇸US | vless | @prrofile_purple | 182",
+                "🇨🇷CR | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 22",
                 "🇨🇦CA | vless | @vmessorg | 19",
@@ -212,8 +213,9 @@
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 109",
+                "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇺🇸US | vless | @ConfigsHUB | 17",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -900,7 +902,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @prrofile_purple | 182",
+            "tag": "🇨🇷CR | vless | @prrofile_purple | 182",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1187,11 +1189,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 109",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 107",
             "type": "vless",
-            "server": "iranserver.com",
+            "server": "www.Speedtest.net",
             "server_port": 80,
-            "uuid": "78ab97d0-85ea-4f05-935c-468c396f0596",
+            "uuid": "42a8faf9-d1f9-4fef-fbb0-694412ed496c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1201,9 +1203,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
                 "headers": {
-                    "Host": "iranserver.com"
+                    "Host": "www.Speedtest.net"
                 }
             }
         },
@@ -1235,6 +1237,37 @@
                 "path": "\/Telegram@SINABIGO\/",
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "162.159.252.77",
+            "server_port": 2083,
+            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.20230619.love",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram🇨🇳@wangcai_8\/",
+                "headers": {
+                    "Host": "pages.20230619.love"
                 }
             }
         },
