@@ -135,7 +135,7 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 9",
-                "🇨🇷CR | vless | @prrofile_purple | 182",
+                "🇺🇸US | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 22",
                 "🇨🇦CA | vless | @vmessorg | 19",
@@ -152,6 +152,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | vless | @ConfigsHUB | 18",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -167,6 +168,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -218,7 +220,7 @@
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 9",
-                "🇨🇷CR | vless | @prrofile_purple | 182",
+                "🇺🇸US | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 22",
                 "🇨🇦CA | vless | @vmessorg | 19",
@@ -235,6 +237,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | vless | @ConfigsHUB | 18",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -250,6 +253,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1023,7 +1027,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @prrofile_purple | 182",
+            "tag": "🇺🇸US | vless | @prrofile_purple | 182",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1404,6 +1408,20 @@
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "51.89.47.208",
+            "server_port": 443,
+            "uuid": "955dc077-2cc6-4d88-9ce0-8cb27a821236",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇬🇧GB | vless | @proxystore11 | 11",
@@ -1799,6 +1817,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "154.197.75.98"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "162.159.135.79",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test57.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@proxy_mtm\/",
+                "headers": {
+                    "Host": "test57.pages.dev"
                 }
             }
         },
