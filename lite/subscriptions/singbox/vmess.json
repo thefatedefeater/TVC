@@ -113,7 +113,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇯🇵JP | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @forwardv2ray | 11",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
@@ -129,7 +129,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇯🇵JP | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @forwardv2ray | 11",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
@@ -311,11 +311,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 11",
             "type": "vmess",
-            "server": "18arcims.ir",
-            "server_port": 80,
-            "uuid": "d6e806d7-2463-4ce5-b1ce-5a70e670c583",
+            "server": "turkman.fandlaandpro.ir",
+            "server_port": 2053,
+            "uuid": "e106bcb2-04c0-48e9-8e07-a231d6217c00",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -326,11 +326,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "turkman.fandlaandpro.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "turkman.fandlaandpro.ir"
                 }
             }
         },
