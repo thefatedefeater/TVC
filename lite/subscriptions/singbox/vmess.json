@@ -110,7 +110,6 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @v2ray1_ng | 6",
-                "🇳🇱NL | vmess | @ConfigsHUB | 19",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -125,7 +124,6 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @v2ray1_ng | 6",
-                "🇳🇱NL | vmess | @ConfigsHUB | 19",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -250,40 +248,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "adenc35.fixedlfoat.top"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "188.114.97.2",
-            "server_port": 443,
-            "uuid": "6d9911b0-4e14-44fb-8883-52d14f550cca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "be2-vmess.sshmax.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "be2-vmess.sshmax.xyz"
                 }
             }
         },
