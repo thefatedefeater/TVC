@@ -145,7 +145,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇩🇪DE | vless | @ConfigsHUB | 11",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -160,7 +160,7 @@
                 "🇩🇪DE | vless | @flyv2ray | 18",
                 "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇸🇬SG | vless | @https_config_injector | 26",
-                "🇨🇳CN | vless | @mehrosaboran | 8",
+                "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -216,7 +216,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇩🇪DE | vless | @ConfigsHUB | 11",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -231,7 +231,7 @@
                 "🇩🇪DE | vless | @flyv2ray | 18",
                 "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇸🇬SG | vless | @https_config_injector | 26",
-                "🇨🇳CN | vless | @mehrosaboran | 8",
+                "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1243,11 +1243,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 11",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "188.40.14.215",
-            "server_port": 80,
-            "uuid": "SVNTEAMm",
+            "server": "104.16.30.14",
+            "server_port": 443,
+            "uuid": "4cc278b5-74b7-5d49-8f78-a412058cdbc3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1255,11 +1255,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "satoshi.mom",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SVNTEAM?ed=1048",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "188.40.14.215"
+                    "Host": "satoshi.mom"
                 }
             }
         },
@@ -1591,9 +1601,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "172.67.183.26",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "Parsashonam-8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1601,21 +1611,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1649,7 +1649,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vless | @mehrosaboran | 8",
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 9",
             "type": "vless",
             "server": "103.184.44.80",
             "server_port": 80,
