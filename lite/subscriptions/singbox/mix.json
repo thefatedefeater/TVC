@@ -133,7 +133,7 @@
                 "🇺🇸US | trojan | @DirectVPN | 17",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 9",
+                "🇬🇧GB | vmess | @oneclickvpnkeys | 8",
                 "🇩🇪DE | vless | @prrofile_purple | 172",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 22",
@@ -145,7 +145,6 @@
                 "🇬🇧GB | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vmess | @v2ray_swhil | 30",
-                "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇳🇱NL | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
@@ -164,9 +163,10 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 9",
+                "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
@@ -215,7 +215,7 @@
                 "🇺🇸US | trojan | @DirectVPN | 17",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 9",
+                "🇬🇧GB | vmess | @oneclickvpnkeys | 8",
                 "🇩🇪DE | vless | @prrofile_purple | 172",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 22",
@@ -227,7 +227,6 @@
                 "🇬🇧GB | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vmess | @v2ray_swhil | 30",
-                "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇳🇱NL | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
@@ -246,9 +245,10 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 9",
+                "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇬🇧GB | ss | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
@@ -953,11 +953,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇬🇧GB | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "57.128.173.202",
-            "server_port": 8880,
-            "uuid": "0d1bf26a-ce97-4707-a270-7f4d2ae37334",
+            "server": "172.99.190.12",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -967,13 +967,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1249,37 +1242,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 13",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 443,
-            "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy4c2.freeairlaines.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Mr6wzC2rxRWBtLTlTL",
-                "headers": {
-                    "Host": "hdfy4c2.freeairlaines.com"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | vless | @v2ray1_ng | 7",
             "type": "vless",
             "server": "188.114.97.3",
@@ -1424,9 +1386,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.20.19.145",
-            "server_port": 2053,
-            "uuid": "7da383f5-e626-4f8a-8db9-00e736e9de26",
+            "server": "join--showwww.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1436,7 +1398,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev",
+                "server_name": "baipiao406.stunning-bassoon.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1446,9 +1408,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@UCIRANIR-@UCIRANIR\/Microsoft?ed=2047",
+                "path": "\/",
                 "headers": {
-                    "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev"
+                    "Host": "baipiao406.stunning-bassoon.pages.dev"
                 }
             }
         },
@@ -1728,6 +1690,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 2",
+            "type": "vless",
+            "server": "104.20.19.145",
+            "server_port": 2053,
+            "uuid": "7da383f5-e626-4f8a-8db9-00e736e9de26",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@UCIRANIR-@UCIRANIR\/Microsoft?ed=2047",
+                "headers": {
+                    "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇷CR | vless | @IRN_VPN | 4",
             "type": "vless",
             "server": "190.93.246.241",
@@ -1790,14 +1783,25 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 16",
-            "type": "shadowsocks",
-            "server": "51.142.159.50",
-            "server_port": 30291,
-            "method": "chacha20-ietf-poly1305",
-            "password": "izqxecssws9zsf0MRzyDN1",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "104.18.203.232",
+            "server_port": 2095,
+            "uuid": "f38ef965-f6ae-402c-ab2c-1d42ae49bc9b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.18.203.232"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 1",
