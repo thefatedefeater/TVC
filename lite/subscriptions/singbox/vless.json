@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 12",
                 "🇨🇦CA | vless | @XsV2ray | 11",
-                "🇩🇪DE | vless | @VlessConfig | 17",
+                "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 12",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 1",
@@ -145,7 +145,6 @@
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -179,7 +178,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 12",
                 "🇨🇦CA | vless | @XsV2ray | 11",
-                "🇩🇪DE | vless | @VlessConfig | 17",
+                "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 12",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 1",
@@ -215,7 +214,6 @@
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -335,9 +333,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 17",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "3.76.114.233",
+            "server": "13.37.181.93",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1245,42 +1243,6 @@
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
                 }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "57.128.163.80",
-            "server_port": 443,
-            "uuid": "VPNCUSTOMIZE",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.kellekcollection.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "w9tYPxes9YU2yvmYMgRYhSFQCWFoyQCz5b0odul1DQQ",
-                    "short_id": "136ce8d8"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPNCUSTOMIZE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
