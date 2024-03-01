@@ -111,10 +111,10 @@
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @v2ray_swhil | 30",
                 "🇨🇦CA | vmess | @v2ray1_ng | 6",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇫🇷FR | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
         },
@@ -127,10 +127,10 @@
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @v2ray_swhil | 30",
                 "🇨🇦CA | vmess | @v2ray1_ng | 6",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇫🇷FR | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -273,6 +273,30 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "--bia-vpn-whal--",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vpn_whal",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇹🇼TW | vmess | @yaney_01 | 6",
             "type": "vmess",
             "server": "114.37.132.46",
@@ -345,23 +369,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vmess | @eliya_chiter0 | 5",
-            "type": "vmess",
-            "server": "95.179.214.36",
-            "server_port": 2053,
-            "uuid": "d06e9021-8d55-4d34-81a0-7c629cadd1da",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
