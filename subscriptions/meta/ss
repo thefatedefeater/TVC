@@ -120,6 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
+  - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 13","type":"ss","server":"172.233.214.104","port":8080,"password":"6BG3gG3lfpl11NE4yfsICx","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @proxyymeliii | 13","type":"ss","server":"wxwctxxx.arvancode.eu.org","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 5","type":"ss","server":"18.184.183.193","port":8080,"password":"3K9vIwvDuPm1D6q9jaZ94tvIwQBn65UZaR72scTUv8A=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 9","type":"ss","server":"3.70.174.99","port":8080,"password":"ARC0u1LsngVI6YwK3Gcvl3Th7r3WxKFnlb0EXMjpH80=","cipher":"chacha20-ietf-poly1305"}
@@ -138,15 +139,17 @@ proxies:
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 15","type":"ss","server":"212.113.106.243","port":12949,"password":"P2zxXPewlV3BlfqqYiSthvtLc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 16","type":"ss","server":"www.outline.network.ak2003.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"zekdk0MRWVx1zFASC+HAcmCVBA+TljWabwoF57zjIZA=","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=","cipher":"aes-256-gcm"}
-  - {"name":"🇩🇪DE | ss | @forwardv2ray | 4","type":"ss","server":"3.79.155.245","port":8080,"password":"l6WwiMVfM2Ea9ldTXt3YWcRdg0aHh4MOVyRoVxxmJus=","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | ss | @forwardv2ray | 13","type":"ss","server":"3.9.255.41","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL | ss | @ROMAX_VPN | 0","type":"ss","server":"94.131.106.6","port":43743,"password":"5vPNG70j1ZqfEG5ee6aQGW","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @forwardv2ray | 1","type":"ss","server":"35.158.132.66","port":8080,"password":"IdPKqRxlamoaTXmh1QSW4niOlBD+C06pzl5nTjCXtYw=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 15","type":"ss","server":"51.143.138.174","port":51984,"password":"GObFzmq51F3dumomW5jXy0","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @ROMAX_VPN | 0","type":"ss","server":"13.42.172.84","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱NL | ss | @ROMAX_VPN | 2","type":"ss","server":"94.131.106.6","port":43743,"password":"5vPNG70j1ZqfEG5ee6aQGW","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇺🇸US | ss | @DeamNet_Proxy | 13'
       - '🇬🇧GB | ss | @proxyymeliii | 13'
       - '🇩🇪DE | ss | @VmessProtocol | 5'
       - '🇩🇪DE | ss | @VmessProtocol | 9'
@@ -165,15 +168,17 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇩🇪DE | ss | @forwardv2ray | 4'
-      - '🇬🇧GB | ss | @forwardv2ray | 13'
-      - '🇳🇱NL | ss | @ROMAX_VPN | 0'
+      - '🇩🇪DE | ss | @forwardv2ray | 1'
+      - '🇬🇧GB | ss | @forwardv2ray | 15'
+      - '🇬🇧GB | ss | @ROMAX_VPN | 0'
+      - '🇳🇱NL | ss | @ROMAX_VPN | 2'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
+      - '🇺🇸US | ss | @DeamNet_Proxy | 13'
       - '🇬🇧GB | ss | @proxyymeliii | 13'
       - '🇩🇪DE | ss | @VmessProtocol | 5'
       - '🇩🇪DE | ss | @VmessProtocol | 9'
@@ -192,14 +197,16 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇩🇪DE | ss | @forwardv2ray | 4'
-      - '🇬🇧GB | ss | @forwardv2ray | 13'
-      - '🇳🇱NL | ss | @ROMAX_VPN | 0'
+      - '🇩🇪DE | ss | @forwardv2ray | 1'
+      - '🇬🇧GB | ss | @forwardv2ray | 15'
+      - '🇬🇧GB | ss | @ROMAX_VPN | 0'
+      - '🇳🇱NL | ss | @ROMAX_VPN | 2'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇺🇸US | ss | @DeamNet_Proxy | 13'
       - '🇬🇧GB | ss | @proxyymeliii | 13'
       - '🇩🇪DE | ss | @VmessProtocol | 5'
       - '🇩🇪DE | ss | @VmessProtocol | 9'
@@ -218,9 +225,10 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
-      - '🇩🇪DE | ss | @forwardv2ray | 4'
-      - '🇬🇧GB | ss | @forwardv2ray | 13'
-      - '🇳🇱NL | ss | @ROMAX_VPN | 0'
+      - '🇩🇪DE | ss | @forwardv2ray | 1'
+      - '🇬🇧GB | ss | @forwardv2ray | 15'
+      - '🇬🇧GB | ss | @ROMAX_VPN | 0'
+      - '🇳🇱NL | ss | @ROMAX_VPN | 2'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
