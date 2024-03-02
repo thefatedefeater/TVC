@@ -111,7 +111,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 24",
                 "🇩🇪DE | vless | @ipV2Ray | 11",
-                "🇨🇦CA | vless | @melov2ray | 3",
+                "🇺🇸US | vless | @melov2ray | 3",
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 26",
@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇺🇸US | vless | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 1",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇨🇦CA | vless | @sinabigo | 4",
@@ -156,6 +156,7 @@
                 "🇺🇸US | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇳🇱NL | vless | @flyv2ray | 18",
+                "🇨🇳CN | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vless | @https_config_injector | 26",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -178,7 +179,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 24",
                 "🇩🇪DE | vless | @ipV2Ray | 11",
-                "🇨🇦CA | vless | @melov2ray | 3",
+                "🇺🇸US | vless | @melov2ray | 3",
                 "🇩🇪DE | vless | @frev2ray | 12",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 26",
@@ -209,7 +210,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇺🇸US | vless | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 1",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇨🇦CA | vless | @sinabigo | 4",
@@ -223,6 +224,7 @@
                 "🇺🇸US | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇳🇱NL | vless | @flyv2ray | 18",
+                "🇨🇳CN | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vless | @https_config_injector | 26",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -401,7 +403,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 3",
+            "tag": "🇺🇸US | vless | @melov2ray | 3",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -1152,24 +1154,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 17",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "162.159.130.234",
-            "server_port": 8080,
-            "uuid": "V2rayCUSTOMIZE",
+            "server": "185.146.173.56",
+            "server_port": 8880,
+            "uuid": "808ba961-96d7-429b-9966-3c3262c97098",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@VPNCUSTOMIZE",
-                "headers": {
-                    "Host": "162.159.130.234"
-                }
             }
         },
         {
@@ -1523,6 +1518,37 @@
                 "path": "\/RgE159?ed=1024",
                 "headers": {
                     "Host": "cdn.kellekcollection.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "103.184.45.45",
+            "server_port": 443,
+            "uuid": "b962f8d3-6ef1-4f9a-b48d-b21fba2c39d6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "V2rayargon.xn--85-pv2cl2k5x3fipr.org.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon@v2rayargon,@v2rayargon,@v2rayargon,@v2rayargon",
+                "headers": {
+                    "Host": "V2rayargon.xn--85-pv2cl2k5x3fipr.org."
                 }
             }
         },
