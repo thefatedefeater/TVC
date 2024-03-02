@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 7",
+                "🇨🇦CA | vmess | @ConfigsHUB | 6",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @eliya_chiter0 | 4",
@@ -121,7 +121,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 7",
+                "🇨🇦CA | vmess | @ConfigsHUB | 6",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @eliya_chiter0 | 4",
@@ -182,11 +182,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 7",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 6",
             "type": "vmess",
-            "server": "104.20.231.21",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "--bia-vpn-whal--",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -197,21 +197,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnsupportfast.vpnsuortfast.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/kellie.makeup\/linkvws",
+                "path": "\/@vpn_whal",
                 "headers": {
-                    "Host": "vpnsupportfast.vpnsuortfast.workers.dev"
+                    "Host": ""
                 }
             }
         },
