@@ -141,7 +141,6 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -153,7 +152,7 @@
                 "🏳️XX | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
@@ -205,7 +204,6 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -217,7 +215,7 @@
                 "🏳️XX | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
@@ -1123,37 +1121,6 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 443,
-            "uuid": "dfb18c6f-731a-4898-a1c4-cc36c6055a90",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "w2.sylarsun.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram\/proxy_mtm\/",
-                "headers": {
-                    "Host": "w2.sylarsun.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 12",
             "type": "vless",
             "server": "172.67.84.80",
@@ -1461,34 +1428,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "panelfw.liongame1.ir",
-            "server_port": 2083,
-            "uuid": "eb591fe4-1196-43d2-b49b-2522f440459a",
+            "server": "193.228.91.161",
+            "server_port": 15883,
+            "uuid": "b7fa2716-f9e4-4d3f-8c1f-6f2398f32320",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "panelfw.liongame1.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "panelfw.liongame1.ir"
-                }
             }
         },
         {
