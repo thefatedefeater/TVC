@@ -148,11 +148,10 @@
                 "🇨🇦CA | vmess | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇦🇱AL | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
@@ -163,7 +162,7 @@
                 "🏳️XX | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇦🇱AL | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
@@ -225,11 +224,10 @@
                 "🇨🇦CA | vmess | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇦🇱AL | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 3",
@@ -240,7 +238,7 @@
                 "🏳️XX | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇦🇱AL | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
@@ -1305,24 +1303,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇦🇱AL | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "104.18.13.130",
-            "server_port": 2052,
-            "uuid": "293d3a9b-4d5b-4d6d-a2ce-aca0791a080a",
+            "server": "103.167.234.248",
+            "server_port": 1182,
+            "uuid": "ab03c163-c098-44ce-8e68-ed1578c82035",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.18.13.130"
-                }
             }
         },
         {
@@ -1407,30 +1398,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 0",
-            "type": "vmess",
-            "server": "192.18.135.210",
-            "server_port": 19344,
-            "uuid": "ac9dd407-d053-4c67-e44e-31d6a5833ff4",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ac9dd407",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1698,17 +1665,34 @@
             }
         },
         {
-            "tag": "🇦🇱AL | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 14",
             "type": "vless",
-            "server": "103.167.234.248",
-            "server_port": 1182,
-            "uuid": "ab03c163-c098-44ce-8e68-ed1578c82035",
+            "server": "104.21.11.229",
+            "server_port": 2083,
+            "uuid": "0dcaa67f-90c2-42ca-8745-698465cf6655",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ho1.bestgameir.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws",
+                "headers": {
+                    "Host": "ho1.bestgameir.ir"
+                }
             }
         },
         {
