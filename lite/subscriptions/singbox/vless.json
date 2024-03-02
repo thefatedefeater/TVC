@@ -143,7 +143,6 @@
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇩🇪DE | vless | @ConfigsHUB | 3",
                 "🇺🇸US | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -155,7 +154,7 @@
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
-                "🇺🇸US | vless | @https_config_injector | 26",
+                "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -164,7 +163,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🏳️XX | vless | @TVCminer | 18"
+                "🇨🇴CO | vless | @TVCminer | 17"
             ]
         },
         {
@@ -208,7 +207,6 @@
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇩🇪DE | vless | @ConfigsHUB | 3",
                 "🇺🇸US | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -220,7 +218,7 @@
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
-                "🇺🇸US | vless | @https_config_injector | 26",
+                "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -229,7 +227,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🏳️XX | vless | @TVCminer | 18"
+                "🇨🇴CO | vless | @TVCminer | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1199,27 +1197,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 3",
-            "type": "vless",
-            "server": "154.197.75.80",
-            "server_port": 8080,
-            "uuid": "%43%55%53TOM%49%5aEV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | @proxystore11 | 12",
             "type": "vless",
             "server": "172.67.84.80",
@@ -1524,7 +1501,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @https_config_injector | 26",
+            "tag": "🇨🇦CA | vless | @https_config_injector | 26",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1724,17 +1701,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @TVCminer | 18",
+            "tag": "🇨🇴CO | vless | @TVCminer | 17",
             "type": "vless",
-            "server": "[2a01:4f8:1c1b:2b78::1]",
-            "server_port": 27628,
-            "uuid": "eb89b927-109e-46d3-a40c-b4f7feb6dccd",
+            "server": "91.195.110.217",
+            "server_port": 80,
+            "uuid": "3ebc00d8-feed-4120-9a42-a936bcdde273",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/connect\/de\/",
+                "headers": {
+                    "Host": "91.195.110.217"
+                }
             }
         }
     ],
