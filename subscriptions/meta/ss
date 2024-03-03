@@ -120,8 +120,9 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇵🇱PL | ss | @DeamNet_Proxy | 9","type":"ss","server":"51.77.53.200","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL | ss | @DeamNet_Proxy | 15","type":"ss","server":"54.36.174.181","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR | ss | @DeamNet_Proxy | 8","type":"ss","server":"149.202.82.172","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱NL | ss | @DeamNet_Proxy | 9","type":"ss","server":"masting.xyz","port":8080,"password":"XlUFgoOqDlVqlZFD3Js0YA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱PL | ss | @DeamNet_Proxy | 17","type":"ss","server":"54.36.174.181","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇬🇧GB | ss | @proxyymeliii | 15","type":"ss","server":"wxwctxxx.arvancode.eu.org","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 7","type":"ss","server":"3.69.19.144","port":8080,"password":"806hBu5I2fH7kydewwTI6Pbv8l4GNQz1qYB5lX9fk9k=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 8","type":"ss","server":"18.184.183.193","port":8080,"password":"3K9vIwvDuPm1D6q9jaZ94tvIwQBn65UZaR72scTUv8A=","cipher":"chacha20-ietf-poly1305"}
@@ -150,8 +151,9 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇵🇱PL | ss | @DeamNet_Proxy | 9'
-      - '🇵🇱PL | ss | @DeamNet_Proxy | 15'
+      - '🇫🇷FR | ss | @DeamNet_Proxy | 8'
+      - '🇳🇱NL | ss | @DeamNet_Proxy | 9'
+      - '🇵🇱PL | ss | @DeamNet_Proxy | 17'
       - '🇬🇧GB | ss | @proxyymeliii | 15'
       - '🇩🇪DE | ss | @VmessProtocol | 7'
       - '🇩🇪DE | ss | @VmessProtocol | 8'
@@ -180,8 +182,9 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇵🇱PL | ss | @DeamNet_Proxy | 9'
-      - '🇵🇱PL | ss | @DeamNet_Proxy | 15'
+      - '🇫🇷FR | ss | @DeamNet_Proxy | 8'
+      - '🇳🇱NL | ss | @DeamNet_Proxy | 9'
+      - '🇵🇱PL | ss | @DeamNet_Proxy | 17'
       - '🇬🇧GB | ss | @proxyymeliii | 15'
       - '🇩🇪DE | ss | @VmessProtocol | 7'
       - '🇩🇪DE | ss | @VmessProtocol | 8'
@@ -209,8 +212,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇵🇱PL | ss | @DeamNet_Proxy | 9'
-      - '🇵🇱PL | ss | @DeamNet_Proxy | 15'
+      - '🇫🇷FR | ss | @DeamNet_Proxy | 8'
+      - '🇳🇱NL | ss | @DeamNet_Proxy | 9'
+      - '🇵🇱PL | ss | @DeamNet_Proxy | 17'
       - '🇬🇧GB | ss | @proxyymeliii | 15'
       - '🇩🇪DE | ss | @VmessProtocol | 7'
       - '🇩🇪DE | ss | @VmessProtocol | 8'
