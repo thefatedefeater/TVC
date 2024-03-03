@@ -138,10 +138,10 @@
                 "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇺🇸US | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 1",
-                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇩🇪DE | vless | @V2RayTz | 14",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇳🇱NL | vless | @Outlinev2rayNG | 19",
@@ -151,7 +151,7 @@
                 "🇺🇸US | vless | @Capoit | 6",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇬🇧GB | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -160,7 +160,7 @@
                 "🇩🇪DE | vless | @kingofilter | 11",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇺🇸US | vless | @FoXrayIran | 0",
+                "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
             ]
@@ -201,10 +201,10 @@
                 "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇺🇸US | vless | @v2ray1_ng | 12",
                 "🇮🇷IR | vless | @vless_vmess | 1",
-                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇩🇪DE | vless | @V2RayTz | 14",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 143",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇳🇱NL | vless | @Outlinev2rayNG | 19",
@@ -214,7 +214,7 @@
                 "🇺🇸US | vless | @Capoit | 6",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇬🇧GB | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -223,7 +223,7 @@
                 "🇩🇪DE | vless | @kingofilter | 11",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇺🇸US | vless | @FoXrayIran | 0",
+                "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
             ],
@@ -1039,17 +1039,39 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 17",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 14",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 8880,
-            "uuid": "a43eca31-6508-49e8-af3e-ef84197686e1",
-            "flow": "",
+            "server": "78.46.186.163",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "78.46.186.163",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aTSvhfg0nF-ZuKgE-mzH5YYNUXRzEVhBOuyNdQG-aR8",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2rayftp.debian.org",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1088,17 +1110,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "37.152.179.64",
-            "server_port": 2056,
-            "uuid": "39fd3687-377f-4bef-94d3-db034c32f830",
+            "server": "104.18.203.232",
+            "server_port": 2095,
+            "uuid": "f38ef965-f6ae-402c-ab2c-1d42ae49bc9b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.18.203.232"
+                }
             }
         },
         {
@@ -1336,8 +1365,8 @@
             "tag": "🇬🇧GB | vless | @flyv2ray | 18",
             "type": "vless",
             "server": "91.193.58.1",
-            "server_port": 8080,
-            "uuid": "34de54cc-814c-4e5d-b274-e10aef3f4082",
+            "server_port": 8880,
+            "uuid": "2a03d97c-1778-459b-bdec-97b0e8c26930",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1354,23 +1383,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "104.31.16.9",
-            "server_port": 80,
+            "server": "51.89.74.164",
+            "server_port": 443,
             "uuid": "8b703b36-bdc7-4073-b310-6a1c1f9c774c",
-            "flow": "",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.31.16.9"
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jaKtop_bUOLThfO3zLRv_s5EY66rGe7lxsB_ezD2kko",
+                    "short_id": "a311b9f4"
                 }
             }
         },
@@ -1551,7 +1588,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FoXrayIran | 0",
+            "tag": "🇨🇦CA | vless | @FoXrayIran | 0",
             "type": "vless",
             "server": "c1.shoplandtr.xyz",
             "server_port": 2096,
