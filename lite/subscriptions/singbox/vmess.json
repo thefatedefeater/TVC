@@ -109,12 +109,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇩🇪DE | vmess | @ConfigsHUB | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 12",
-                "🇨🇦CA | vmess | @FoXrayIran | 1"
+                "🇺🇸US | vmess | @FoXrayIran | 1"
             ]
         },
         {
@@ -124,12 +122,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇩🇪DE | vmess | @ConfigsHUB | 11",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 12",
-                "🇨🇦CA | vmess | @FoXrayIran | 1"
+                "🇺🇸US | vmess | @FoXrayIran | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -220,23 +216,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 11",
-            "type": "vmess",
-            "server": "64.226.69.97",
-            "server_port": 8880,
-            "uuid": "7c922edc-eb50-4a26-88f9-1ff3904248fa",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇹🇼TW | vmess | @yaney_01 | 6",
             "type": "vmess",
             "server": "114.37.132.46",
@@ -312,31 +291,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 12",
-            "type": "vmess",
-            "server": "23.26.239.147",
-            "server_port": 46768,
-            "uuid": "1362cc37-0917-4e40-dce4-c689609d9e82",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @FoXrayIran | 1",
+            "tag": "🇺🇸US | vmess | @FoXrayIran | 1",
             "type": "vmess",
             "server": "tl.iranray.online",
             "server_port": 8080,
