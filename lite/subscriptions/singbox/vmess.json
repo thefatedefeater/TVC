@@ -108,11 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @eliya_chiter0 | 1"
             ]
         },
@@ -122,11 +121,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -184,11 +182,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
             "type": "vmess",
-            "server": "142.93.144.99",
-            "server_port": 3389,
-            "uuid": "9c050a86-d612-48f1-ec32-e573df08a1b7",
+            "server": "104.21.46.66",
+            "server_port": 8080,
+            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -198,6 +196,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -273,23 +278,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "vipmt.vpnsell.beauty",
-            "server_port": 2083,
-            "uuid": "6efc085e-a0fe-4735-a304-85469c733526",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
