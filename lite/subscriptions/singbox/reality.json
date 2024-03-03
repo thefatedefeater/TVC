@@ -106,10 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @ipV2Ray | 10",
+                "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇩🇪DE | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -119,10 +118,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @ipV2Ray | 10",
+                "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇩🇪DE | vless | @V2RayTz | 17",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -148,11 +146,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 10",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 9",
             "type": "vless",
-            "server": "5.75.242.254",
+            "server": "88.99.171.219",
             "server_port": 443,
-            "uuid": "f587585e-e171-4c48-98d5-91c7e062cc54",
+            "uuid": "49cfba31-47ee-4b84-99cc-5a40da4f8e71",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -162,7 +160,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fussenegger.pro",
+                "server_name": "*.atg-autoteile.at",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -171,8 +169,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tdhJHRKHkUuWVG78-FHoJbCxPq6FBN6xlBMY2vDWQ24",
-                    "short_id": "e49685dd"
+                    "public_key": "Qiyaewww1I5WmR0pSCDK2LmTe3_V4IQ0bcTcRZNn4TA",
+                    "short_id": "20aef060"
                 }
             },
             "transport": {
@@ -250,42 +248,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 17",
-            "type": "vless",
-            "server": "142.93.163.180",
-            "server_port": 443,
-            "uuid": "2d351deb-700a-4ce6-9c02-68a478770d59",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "142.93.163.180",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xbsM3rlblvuzjOXyQSh9-oqjVmk5BFb1j8BwWaMVpBk",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray*.emirogluorhan.com",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
