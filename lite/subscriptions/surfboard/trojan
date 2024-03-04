@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷FR | trojan | @PrivateVPNs | 17 = trojan, 52.47.149.220, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
-🇫🇷FR | trojan | @DirectVPN | 17 = trojan, 35.181.245.237, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇬🇧GB | trojan | @PrivateVPNs | 16 = trojan, 18.171.64.15, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
+🇬🇧GB | trojan | @DirectVPN | 16 = trojan, 13.43.194.15, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.miwan.co.uk, ws = false
 🇹🇼TW | trojan | @oneclickvpnkeys | 12 = trojan, ty12t.twty.dynu.net, 18912, password = 645f0af0-dec8-48db-862f-82b6346408b4, udp-delay = true, skip-cert-verify = false, sni = ty12t.twty.dynu.net, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 17,🇹🇼TW | trojan | @oneclickvpnkeys | 12
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 17,🇹🇼TW | trojan | @oneclickvpnkeys | 12
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 17,🇹🇼TW | trojan | @oneclickvpnkeys | 12
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 16,🇬🇧GB | trojan | @DirectVPN | 16,🇹🇼TW | trojan | @oneclickvpnkeys | 12
+URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 16,🇬🇧GB | trojan | @DirectVPN | 16,🇹🇼TW | trojan | @oneclickvpnkeys | 12
+FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 16,🇬🇧GB | trojan | @DirectVPN | 16,🇹🇼TW | trojan | @oneclickvpnkeys | 12
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

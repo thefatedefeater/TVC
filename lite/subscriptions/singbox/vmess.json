@@ -109,10 +109,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
-                "🇸🇬SG | vmess | @yaney_01 | 5",
+                "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 16",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ]
         },
@@ -123,10 +124,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
-                "🇸🇬SG | vmess | @yaney_01 | 5",
+                "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 16",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -218,7 +220,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @yaney_01 | 5",
+            "tag": "🇸🇬SG | vmess | @yaney_01 | 6",
             "type": "vmess",
             "server": "18.140.65.78",
             "server_port": 21347,
@@ -303,6 +305,33 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "CA.plsback.top",
+            "server_port": 35318,
+            "uuid": "6129eda5-99da-4c07-ddb0-0c830ee89bb3",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
