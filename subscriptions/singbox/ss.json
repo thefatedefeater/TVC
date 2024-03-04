@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | ss | @DeamNet_Proxy | 10",
-                "🇬🇧GB | ss | @proxyymeliii | 15",
+                "🇮🇷IR | ss | @proxyymeliii | 3",
                 "🇩🇪DE | ss | @VmessProtocol | 7",
                 "🇩🇪DE | ss | @VmessProtocol | 8",
                 "🇩🇪DE | ss | @VmessProtocol | 12",
@@ -126,10 +126,11 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇳🇱NL | ss | @forwardv2ray | 11",
-                "🇦🇹AT | ss | @forwardv2ray | 13",
-                "🇬🇧GB | ss | @ROMAX_VPN | 1",
-                "🇳🇱NL | ss | @ROMAX_VPN | 3"
+                "🇩🇪DE | ss | @forwardv2ray | 7",
+                "🇬🇧GB | ss | @forwardv2ray | 8",
+                "🇹🇷TR | ss | @ROMAX_VPN | 0",
+                "🇬🇧GB | ss | @ROMAX_VPN | 2",
+                "🇳🇱NL | ss | @ROMAX_VPN | 4"
             ]
         },
         {
@@ -137,7 +138,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | ss | @DeamNet_Proxy | 10",
-                "🇬🇧GB | ss | @proxyymeliii | 15",
+                "🇮🇷IR | ss | @proxyymeliii | 3",
                 "🇩🇪DE | ss | @VmessProtocol | 7",
                 "🇩🇪DE | ss | @VmessProtocol | 8",
                 "🇩🇪DE | ss | @VmessProtocol | 12",
@@ -156,10 +157,11 @@
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇳🇱NL | ss | @forwardv2ray | 11",
-                "🇦🇹AT | ss | @forwardv2ray | 13",
-                "🇬🇧GB | ss | @ROMAX_VPN | 1",
-                "🇳🇱NL | ss | @ROMAX_VPN | 3"
+                "🇩🇪DE | ss | @forwardv2ray | 7",
+                "🇬🇧GB | ss | @forwardv2ray | 8",
+                "🇹🇷TR | ss | @ROMAX_VPN | 0",
+                "🇬🇧GB | ss | @ROMAX_VPN | 2",
+                "🇳🇱NL | ss | @ROMAX_VPN | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -192,12 +194,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @proxyymeliii | 15",
+            "tag": "🇮🇷IR | ss | @proxyymeliii | 3",
             "type": "shadowsocks",
-            "server": "wxwctxxx.arvancode.eu.org",
-            "server_port": 443,
+            "server": "all-nets.0912.org",
+            "server_port": 301,
             "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
+            "password": "rXVRavlmnKtYE1jeO5NM7Q",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -382,27 +384,37 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @forwardv2ray | 11",
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 7",
             "type": "shadowsocks",
-            "server": "172.233.51.96",
+            "server": "18.157.179.61",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "XlUFgoOqDlVqlZFD3Js0YA",
+            "password": "GEsYvnMMz4t4YKK+kke5ifhr\/4aBsExFqolRDq37y3k=",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | ss | @forwardv2ray | 13",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 8",
             "type": "shadowsocks",
-            "server": "95.164.9.144",
-            "server_port": 2927,
+            "server": "51.142.173.103",
+            "server_port": 51899,
             "method": "chacha20-ietf-poly1305",
-            "password": "ug4Fu79SEREdFGlt2sUyT4",
+            "password": "gcpVehVytslepmkHHRLXYx",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @ROMAX_VPN | 1",
+            "tag": "🇹🇷TR | ss | @ROMAX_VPN | 0",
+            "type": "shadowsocks",
+            "server": "95.164.11.94",
+            "server_port": 1080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "6x8ogTsPzMnizbFkFndqAQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @ROMAX_VPN | 2",
             "type": "shadowsocks",
             "server": "13.42.172.84",
             "server_port": 443,
@@ -412,7 +424,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @ROMAX_VPN | 3",
+            "tag": "🇳🇱NL | ss | @ROMAX_VPN | 4",
             "type": "shadowsocks",
             "server": "94.131.106.6",
             "server_port": 43743,
