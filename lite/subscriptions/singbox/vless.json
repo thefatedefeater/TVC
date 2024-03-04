@@ -112,7 +112,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 3",
+                "🇺🇸US | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 20",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @shh_proxy | 20",
@@ -123,7 +123,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇦CA | vless | @DigiV2ray | 22",
+                "🇺🇸US | vless | @DigiV2ray | 22",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
@@ -138,9 +138,9 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 29",
                 "🇨🇦CA | vless | @proxyymeliii | 15",
-                "🇩🇪DE | vless | @v2ray1_ng | 12",
+                "🇩🇪DE | vless | @v2ray1_ng | 13",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇩🇪DE | vless | @V2RayTz | 14",
+                "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇺🇸US | vless | @DailyV2RY | 142",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 8",
@@ -175,7 +175,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 3",
+                "🇺🇸US | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 20",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @shh_proxy | 20",
@@ -186,7 +186,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
                 "🏳️XX | vless | @vpn_xw | 6",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
-                "🇨🇦CA | vless | @DigiV2ray | 22",
+                "🇺🇸US | vless | @DigiV2ray | 22",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
@@ -201,9 +201,9 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 29",
                 "🇨🇦CA | vless | @proxyymeliii | 15",
-                "🇩🇪DE | vless | @v2ray1_ng | 12",
+                "🇩🇪DE | vless | @v2ray1_ng | 13",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇩🇪DE | vless | @V2RayTz | 14",
+                "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇺🇸US | vless | @DailyV2RY | 142",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 8",
@@ -419,7 +419,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 3",
+            "tag": "🇺🇸US | vless | @melov2ray | 3",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -686,7 +686,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DigiV2ray | 22",
+            "tag": "🇺🇸US | vless | @DigiV2ray | 22",
             "type": "vless",
             "server": "discordapp.com",
             "server_port": 80,
@@ -1077,24 +1077,39 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray1_ng | 12",
+            "tag": "🇩🇪DE | vless | @v2ray1_ng | 13",
             "type": "vless",
-            "server": "78.47.96.56",
-            "server_port": 8080,
-            "uuid": "5f2bcfcb-43a0-4de3-9306-8020b9ff0c13",
-            "flow": "",
+            "server": "142.93.166.107",
+            "server_port": 443,
+            "uuid": "e82351c5-c339-4d48-b90d-3524c5547912",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "78.47.96.56"
+            "tls": {
+                "enabled": true,
+                "server_name": "*.partyverleih-glauberg.de",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LD8y7bs5T8tNSLcB83NQXpo0_LfHk76WWykNwXJRG3I",
+                    "short_id": "304a9854"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1112,7 +1127,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 14",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 16",
             "type": "vless",
             "server": "154.197.75.98",
             "server_port": 80,
