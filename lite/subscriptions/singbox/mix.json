@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @Parsashonam | 17",
+                "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇨🇦CA | vless | @v2_team | 13",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 9",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -140,7 +140,7 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 11",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vless | @v2ray_swhil | 29",
@@ -152,7 +152,7 @@
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇹🇷TR | vless | @ConfigsHUB | 10",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 0",
@@ -183,7 +183,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @Parsashonam | 17",
+                "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇨🇦CA | vless | @v2_team | 13",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 9",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -217,7 +217,7 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 11",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vless | @v2ray_swhil | 29",
@@ -229,7 +229,7 @@
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇹🇷TR | vless | @ConfigsHUB | 10",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 0",
@@ -276,11 +276,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 17",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "Parsashonam-8",
+            "uuid": "Parsashonam-9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1117,11 +1117,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 11",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 14",
             "type": "vmess",
-            "server": "104.21.4.6",
+            "server": "meroiy.icu",
             "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1134,7 +1134,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.cfd",
+                "server_name": "meroiy.icu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1144,9 +1144,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "glweidf.cfd"
+                    "Host": "meroiy.icu"
                 }
             }
         },
@@ -1427,24 +1427,37 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇹🇷TR | vless | @ConfigsHUB | 10",
-            "type": "vless",
-            "server": "78.135.80.199",
-            "server_port": 59357,
-            "uuid": "400c3d0c-9441-45ae-9567-839952c65fac",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "104.26.8.202",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@game_file2020,@game_file2020,@game_file2020",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
+                }
             }
         },
         {

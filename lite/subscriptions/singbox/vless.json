@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @Parsashonam | 17",
+                "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇨🇦CA | vless | @v2_team | 13",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 9",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -144,7 +144,6 @@
                 "🇺🇸US | vless | @DailyV2RY | 142",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 8",
-                "🇹🇷TR | vless | @ConfigsHUB | 10",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -170,7 +169,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @Parsashonam | 17",
+                "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇨🇦CA | vless | @v2_team | 13",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 9",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -208,7 +207,6 @@
                 "🇺🇸US | vless | @DailyV2RY | 142",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 8",
-                "🇹🇷TR | vless | @ConfigsHUB | 10",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -250,11 +248,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 17",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "Parsashonam-8",
+            "uuid": "Parsashonam-9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1215,27 +1213,6 @@
                 "headers": {
                     "Host": "pydar.banndedd.ir"
                 }
-            }
-        },
-        {
-            "tag": "🇹🇷TR | vless | @ConfigsHUB | 10",
-            "type": "vless",
-            "server": "78.135.80.199",
-            "server_port": 59357,
-            "uuid": "400c3d0c-9441-45ae-9567-839952c65fac",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@game_file2020,@game_file2020,@game_file2020",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
