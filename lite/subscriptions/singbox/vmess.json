@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @ShadowProxy66 | 9",
+                "🇩🇪DE | vmess | @ShadowProxy66 | 18",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇩🇪DE | vmess | @proxyymeliii | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 18",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇷🇺RU | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3"
@@ -125,12 +125,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @ShadowProxy66 | 9",
+                "🇩🇪DE | vmess | @ShadowProxy66 | 18",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇩🇪DE | vmess | @proxyymeliii | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 18",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇷🇺RU | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3"
@@ -190,7 +190,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 9",
+            "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 18",
             "type": "vmess",
             "server": "195.201.2.27",
             "server_port": 25761,
@@ -258,13 +258,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "hms08.gwdef.sbs",
+            "server": "173.245.58.5",
             "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -275,7 +275,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gwdef.sbs",
+                "server_name": "worker-flat-hat-00f2.ravapim426.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -285,9 +285,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/kellie.makeup\/linkvws",
                 "headers": {
-                    "Host": "gwdef.sbs"
+                    "Host": "worker-flat-hat-00f2.ravapim426.workers.dev"
                 }
             }
         },
@@ -316,11 +316,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
+            "tag": "🇷🇺RU | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "cfcdn2.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+            "server": "185.221.160.163",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -331,11 +331,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "worker-lingering-fog-c021.gesofog870.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/c9efxRCi",
+                "path": "\/kellie.makeup\/linkvws",
                 "headers": {
-                    "Host": "cfcdn2.sanfencdn9.com"
+                    "Host": "worker-lingering-fog-c021.gesofog870.workers.dev"
                 }
             }
         },
