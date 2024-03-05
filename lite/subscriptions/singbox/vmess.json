@@ -109,7 +109,6 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
-                "🇻🇳VN | vmess | @ConfigsHUB | 19",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -124,7 +123,6 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
-                "🇻🇳VN | vmess | @ConfigsHUB | 19",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -200,30 +198,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇻🇳VN | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "skyht2.vpndata.vn",
-            "server_port": 80,
-            "uuid": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNDATA.VPN",
-                "headers": {
-                    "Host": "skyht2.vpndata.vn"
-                }
             }
         },
         {
