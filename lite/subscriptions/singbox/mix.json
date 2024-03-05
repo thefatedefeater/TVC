@@ -118,7 +118,7 @@
                 "🇩🇪DE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
                 "🏳️XX | vless | @vpn_xw | 6",
@@ -142,13 +142,14 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
                 "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 14",
+                "🇺🇸US | vmess | @ShadowProxy66 | 14",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇷🇺RU | vless | @proxyymeliii | 15",
                 "🇩🇪DE | vless | @v2ray1_ng | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 15",
+                "🇩🇪DE | vless | @DailyV2RY | 131",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -196,7 +197,7 @@
                 "🇩🇪DE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
                 "🏳️XX | vless | @vpn_xw | 6",
@@ -220,13 +221,14 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
                 "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 14",
+                "🇺🇸US | vmess | @ShadowProxy66 | 14",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇷🇺RU | vless | @proxyymeliii | 15",
                 "🇩🇪DE | vless | @v2ray1_ng | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇦CA | vless | @V2RayTz | 15",
+                "🇩🇪DE | vless | @DailyV2RY | 131",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -605,7 +607,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1188,7 +1190,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 14",
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 14",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
@@ -1357,6 +1359,27 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 131",
+            "type": "vless",
+            "server": "154.197.75.98",
+            "server_port": 80,
+            "uuid": "adaad257-9cff-4d4a-b82a-3b269d8fc97b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "154.197.75.98"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @sinabigo | 4",
             "type": "vless",
             "server": "172.67.183.230",
@@ -1421,9 +1444,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "SVNTEAM",
+            "server": "23.227.38.193",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1431,11 +1454,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "zsf-5fa.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SVNTEAM",
+                "path": "\/path\/telegram@v2ray_alpha\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "zsf-5fa.pages.dev"
                 }
             }
         },
