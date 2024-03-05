@@ -135,11 +135,11 @@
                 "🇫🇷FR | vless | @prrofile_purple | 171",
                 "🇫🇮FI | vless | @prrofile_purple | 175",
                 "🇩🇪DE | vless | @prrofile_purple | 176",
-                "🇬🇧GB | vless | @v2rayNG_Matsuri | 9",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 5",
                 "🏳️XX | vless | @proxyymeliii | 10",
                 "🏳️XX | vless | @proxyymeliii | 11",
                 "🇩🇪DE | vless | @V2RayTz | 3",
+                "🇫🇮FI | vless | @ConfigsHUB | 12",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -210,11 +210,11 @@
                 "🇫🇷FR | vless | @prrofile_purple | 171",
                 "🇫🇮FI | vless | @prrofile_purple | 175",
                 "🇩🇪DE | vless | @prrofile_purple | 176",
-                "🇬🇧GB | vless | @v2rayNG_Matsuri | 9",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 5",
                 "🏳️XX | vless | @proxyymeliii | 10",
                 "🏳️XX | vless | @proxyymeliii | 11",
                 "🇩🇪DE | vless | @V2RayTz | 3",
+                "🇫🇮FI | vless | @ConfigsHUB | 12",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -1267,35 +1267,6 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @v2rayNG_Matsuri | 9",
-            "type": "vless",
-            "server": "143.47.241.46",
-            "server_port": 16097,
-            "uuid": "378387d5-4370-4e38-9661-25796e8630ba",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.amazon.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qMH_7IYKzR0mOLN35mnQijwzN8IiWdudhryTHaQzWS0",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | vless | @FalconPolV2rayNG | 5",
             "type": "vless",
             "server": "104.248.194.223",
@@ -1420,6 +1391,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "65.109.199.8",
+            "server_port": 12759,
+            "uuid": "Tel-CLICK_VPNN",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "65.109.199.8",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nrJeEvlTcpZK4H56ZJnpRdKWxvRftJ3__SKiHWZpvBA",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
