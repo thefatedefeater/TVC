@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
@@ -141,11 +141,10 @@
                 "🇨🇦CA | vless | @proxyymeliii | 15",
                 "🇩🇪DE | vless | @v2ray1_ng | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇨🇦CA | vless | @V2RayTz | 14",
+                "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇺🇸US | vless | @DailyV2RY | 142",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -182,7 +181,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇩🇪DE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
@@ -206,11 +205,10 @@
                 "🇨🇦CA | vless | @proxyymeliii | 15",
                 "🇩🇪DE | vless | @v2ray1_ng | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇨🇦CA | vless | @V2RayTz | 14",
+                "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇺🇸US | vless | @DailyV2RY | 142",
                 "🇺🇸US | vless | @sinabigo | 4",
                 "🇺🇸US | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -548,7 +546,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1147,11 +1145,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 14",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 15",
             "type": "vless",
-            "server": "104.16.32.40",
-            "server_port": 2087,
-            "uuid": "6c3011ac-6d8d-41ba-bef1-2d8425c22dff",
+            "server": "23.227.60.130",
+            "server_port": 2095,
+            "uuid": "65c462e3-1c45-4485-83f5-85d8c4f9e87d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1159,22 +1157,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hu.moienmusic.space",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
+                "headers": {
+                    "Host": "23.227.60.130"
+                }
             }
         },
         {
@@ -1257,37 +1245,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "pydar.banndedd.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "104.22.33.78",
-            "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Bia.alLhub.Ltd"
                 }
             }
         },
