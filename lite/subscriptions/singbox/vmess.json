@@ -111,6 +111,7 @@
                 "🇩🇪DE | vmess | @ShadowProxy66 | 9",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇩🇪DE | vmess | @proxyymeliii | 15",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -127,6 +128,7 @@
                 "🇩🇪DE | vmess | @ShadowProxy66 | 9",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇩🇪DE | vmess | @proxyymeliii | 15",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -253,6 +255,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "hms08.gwdef.sbs",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
             }
         },
         {
