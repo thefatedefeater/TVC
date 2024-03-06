@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 18",
-                "🇨🇦CA | vless | @Lockey_vpn | 9",
+                "🇺🇸US | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
@@ -126,8 +126,8 @@
                 "🇨🇦CA | vless | @DigiV2ray | 21",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 22",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -153,7 +153,6 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇰🇿KZ | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -183,7 +182,7 @@
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 18",
-                "🇨🇦CA | vless | @Lockey_vpn | 9",
+                "🇺🇸US | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
@@ -192,8 +191,8 @@
                 "🇨🇦CA | vless | @DigiV2ray | 21",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 22",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -219,7 +218,6 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇰🇿KZ | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -555,7 +553,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 9",
+            "tag": "🇺🇸US | vless | @Lockey_vpn | 9",
             "type": "vless",
             "server": "slfingp.com",
             "server_port": 443,
@@ -802,7 +800,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @azadi_az_inja_migzare | 0",
+            "tag": "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
             "type": "vless",
             "server": "v2raymhcn.wagnervpn.com",
             "server_port": 2096,
@@ -833,7 +831,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1479,37 +1477,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
-                }
-            }
-        },
-        {
-            "tag": "🇰🇿KZ | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "185.176.26.251",
-            "server_port": 443,
-            "uuid": "3b670e22-a6bb-495a-a01d-c0cd138e9273",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "uk1.v2vless.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless",
-                "headers": {
-                    "Host": "uk1.v2vless.xyz"
                 }
             }
         },
