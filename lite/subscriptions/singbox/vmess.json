@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
+                "🇩🇪DE | vmess | @ConfigsHUB | 17",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇦🇺AU | vmess | @v2Line | 6",
@@ -124,9 +125,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
+                "🇩🇪DE | vmess | @ConfigsHUB | 17",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇦🇺AU | vmess | @v2Line | 6",
@@ -188,7 +190,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
             "server": "asdad.cxzntq.tech",
             "server_port": 2052,
@@ -260,6 +262,23 @@
                 "headers": {
                     "Host": "kittiy.sbs"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "91.107.191.183",
+            "server_port": 8081,
+            "uuid": "2b45abf1-0330-4ef8-8e2c-9f2e063a9278",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
