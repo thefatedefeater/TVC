@@ -111,6 +111,7 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @customv2ray | 10",
                 "🏳️XX | vless | @proxyymeliii | 15",
+                "🇧🇪BE | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -125,6 +126,7 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @customv2ray | 10",
                 "🏳️XX | vless | @proxyymeliii | 15",
+                "🇧🇪BE | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -319,6 +321,35 @@
                     "enabled": true,
                     "public_key": "PCEpWJ3IRzVogqaQfAppzuJhFpnHzIw-12HZzMFJ9wE",
                     "short_id": "8b80305a"
+                }
+            }
+        },
+        {
+            "tag": "🇧🇪BE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "5.135.21.191",
+            "server_port": 8880,
+            "uuid": "fad6d0fb-103a-473f-bbfd-ab1b0ca487bc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JYX6QCdjl0yIzfE_TMjJAnD0zyuroMhT2fj3oAzlTWc",
+                    "short_id": "8b62ab46"
                 }
             }
         },
