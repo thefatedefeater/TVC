@@ -115,6 +115,7 @@
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
+                "🇳🇱NL | vmess | @forwardv2ray | 14",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 3"
             ]
         },
@@ -131,6 +132,7 @@
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
+                "🇳🇱NL | vmess | @forwardv2ray | 14",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -376,6 +378,40 @@
             "transport": {
                 "type": "ws",
                 "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 14",
+            "type": "vmess",
+            "server": "188.114.99.150",
+            "server_port": 443,
+            "uuid": "e4c7e0ce-ed93-40d9-8f38-90497cb83864",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
                 "headers": {
                     "Host": ""
                 }
