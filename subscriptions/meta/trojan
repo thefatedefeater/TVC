@@ -151,10 +151,6 @@ proxies:
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 15","type":"trojan","server":"13.51.222.102","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"13.50.210.87","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇺🇸US | trojan | @v2ray_swhil | 27","type":"trojan","server":"104.16.123.175","port":2083,"udp":false,"password":"qG9K8AGnn9XH5jUqeFu96g","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn13.cdn2cdn.com"}
-  - {"name":"🇮🇪IE | trojan | @ConfigsHUB | 4","type":"trojan","server":"34.243.59.192","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇩🇪DE | trojan | @ConfigsHUB | 6","type":"trojan","server":"3.74.68.85","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇮🇪IE | trojan | @ConfigsHUB | 11","type":"trojan","server":"54.216.9.162","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇩🇪DE | trojan | @ConfigsHUB | 12","type":"trojan","server":"18.199.7.222","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇺🇸US | trojan | @FAKEOFTVC | 0","type":"trojan","server":"cd.vipservice.website","port":2096,"udp":false,"password":"6a8c8fff-fa9a-49eb-afcf-57145ff95959","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cd.vipservice.website"}
 proxy-groups:
   - name: MANUAL
@@ -193,10 +189,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇺🇸US | trojan | @v2ray_swhil | 27'
-      - '🇮🇪IE | trojan | @ConfigsHUB | 4'
-      - '🇩🇪DE | trojan | @ConfigsHUB | 6'
-      - '🇮🇪IE | trojan | @ConfigsHUB | 11'
-      - '🇩🇪DE | trojan | @ConfigsHUB | 12'
       - '🇺🇸US | trojan | @FAKEOFTVC | 0'
   - name: URL-TEST
     type: url-test
@@ -235,10 +227,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇺🇸US | trojan | @v2ray_swhil | 27'
-      - '🇮🇪IE | trojan | @ConfigsHUB | 4'
-      - '🇩🇪DE | trojan | @ConfigsHUB | 6'
-      - '🇮🇪IE | trojan | @ConfigsHUB | 11'
-      - '🇩🇪DE | trojan | @ConfigsHUB | 12'
       - '🇺🇸US | trojan | @FAKEOFTVC | 0'
   - name: FALLBACK
     type: fallback
@@ -276,10 +264,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇺🇸US | trojan | @v2ray_swhil | 27'
-      - '🇮🇪IE | trojan | @ConfigsHUB | 4'
-      - '🇩🇪DE | trojan | @ConfigsHUB | 6'
-      - '🇮🇪IE | trojan | @ConfigsHUB | 11'
-      - '🇩🇪DE | trojan | @ConfigsHUB | 12'
       - '🇺🇸US | trojan | @FAKEOFTVC | 0'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
