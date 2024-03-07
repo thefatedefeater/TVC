@@ -134,8 +134,9 @@
                 "🇫🇮FI | vless | @prrofile_purple | 181",
                 "🇩🇪DE | vless | @prrofile_purple | 182",
                 "🏳️XX | vless | @customv2ray | 7",
-                "🇩🇪DE | vless | @v2rayngvpn | 8",
+                "🇩🇪DE | vless | @v2rayngvpn | 10",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 5",
+                "🇯🇵JP | vless | @ConfigsHUB | 12",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -144,7 +145,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -206,8 +207,9 @@
                 "🇫🇮FI | vless | @prrofile_purple | 181",
                 "🇩🇪DE | vless | @prrofile_purple | 182",
                 "🏳️XX | vless | @customv2ray | 7",
-                "🇩🇪DE | vless | @v2rayngvpn | 8",
+                "🇩🇪DE | vless | @v2rayngvpn | 10",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 5",
+                "🇯🇵JP | vless | @ConfigsHUB | 12",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -216,7 +218,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -1232,7 +1234,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2rayngvpn | 8",
+            "tag": "🇩🇪DE | vless | @v2rayngvpn | 10",
             "type": "vless",
             "server": "Join.V2rayOfficial.Site",
             "server_port": 443,
@@ -1301,6 +1303,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇯🇵JP | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "45.159.50.59",
+            "server_port": 19280,
+            "uuid": "37dd5d97-dcd7-411d-bbd9-234fbe1b6eb4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "addons.mozilla.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -1550,7 +1581,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
