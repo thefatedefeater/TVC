@@ -109,7 +109,6 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇬🇧GB | vless | @Lockey_vpn | 11",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇹🇷TR | vless | @FAKEOFTVC | 6",
@@ -123,7 +122,6 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇬🇧GB | vless | @Lockey_vpn | 11",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇹🇷TR | vless | @FAKEOFTVC | 6",
@@ -152,9 +150,9 @@
         {
             "tag": "🇩🇪DE | vless | @ipV2Ray | 9",
             "type": "vless",
-            "server": "142.93.166.107",
+            "server": "68.183.79.172",
             "server_port": 443,
-            "uuid": "ebc278cd-4666-4ecb-9d5c-1d8921fb13f3",
+            "uuid": "ebec51cf-e819-412c-b242-d00b9084c41f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -164,7 +162,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.partyverleih-glauberg.de",
+                "server_name": "cdn.darawd.shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -173,8 +171,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "LD8y7bs5T8tNSLcB83NQXpo0_LfHk76WWykNwXJRG3I",
-                    "short_id": "304a9854"
+                    "public_key": "Po2J6iG_e4sGaBTxC2PGjW25gw5GwQIimL__f2gahm0",
+                    "short_id": "3daa83c7"
                 }
             },
             "transport": {
@@ -240,42 +238,6 @@
                     "enabled": true,
                     "public_key": "pPpTgNj1bPnJ6cL_l3nSPacY6Bl2R2uctUi_ULZ0iR0",
                     "short_id": "0d83afe9"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 19",
-            "type": "vless",
-            "server": "168.119.117.42",
-            "server_port": 443,
-            "uuid": "b2fe22d0-2511-4116-b814-62b0e7509b8b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.boundless.link",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "U3DxmKzqU4kZUKCGZjihhjRroSwbaSn-77_VXlq1GWU",
-                    "short_id": "be1f33fc"
                 }
             },
             "transport": {
