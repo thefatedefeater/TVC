@@ -119,8 +119,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🏳️XX | vless | @V2pedia | 13",
                 "🏳️XX | vless | @V2pedia | 15",
-                "🇬🇧GB | vless | @ARv2ray | 5",
-                "🇩🇪DE | vless | @ARv2ray | 10",
+                "🇬🇧GB | vless | @ARv2ray | 6",
+                "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇬🇧GB | vless | @Lockey_vpn | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
@@ -132,7 +132,7 @@
                 "🇬🇧GB | vless | @V2rayNGn | 18",
                 "🇧🇪BE | vless | @v2rayngvpn | 9",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 17",
+                "🇬🇧GB | vless | @v2ray_swhil | 35",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -187,8 +187,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🏳️XX | vless | @V2pedia | 13",
                 "🏳️XX | vless | @V2pedia | 15",
-                "🇬🇧GB | vless | @ARv2ray | 5",
-                "🇩🇪DE | vless | @ARv2ray | 10",
+                "🇬🇧GB | vless | @ARv2ray | 6",
+                "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇬🇧GB | vless | @Lockey_vpn | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
@@ -200,7 +200,7 @@
                 "🇬🇧GB | vless | @V2rayNGn | 18",
                 "🇧🇪BE | vless | @v2rayngvpn | 9",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 17",
+                "🇬🇧GB | vless | @v2ray_swhil | 35",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -296,6 +296,42 @@
         {
             "tag": "🇩🇪DE | vless | @ipV2Ray | 0",
             "type": "vless",
+            "server": "116.203.61.167",
+            "server_port": 443,
+            "uuid": "423456a7-7895-49fc-8589-d4d5ebc26b3d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.global-insurance-broker.de",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D8GKVz02alHENio_8oPS8w8b1qF-SzLFeIh6DzZA2hA",
+                    "short_id": "420f8f45"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 1",
+            "type": "vless",
             "server": "128.140.44.61",
             "server_port": 443,
             "uuid": "423456a7-7895-49fc-8589-d4d5ebc26b3d",
@@ -330,7 +366,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 1",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 2",
             "type": "vless",
             "server": "78.47.240.139",
             "server_port": 443,
@@ -366,7 +402,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 2",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 3",
             "type": "vless",
             "server": "5.75.142.73",
             "server_port": 443,
@@ -402,7 +438,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 3",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 4",
             "type": "vless",
             "server": "168.119.117.42",
             "server_port": 443,
@@ -438,7 +474,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 4",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 5",
             "type": "vless",
             "server": "164.92.187.94",
             "server_port": 443,
@@ -474,7 +510,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 5",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 6",
             "type": "vless",
             "server": "164.92.131.237",
             "server_port": 443,
@@ -510,7 +546,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 6",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 7",
             "type": "vless",
             "server": "68.183.79.49",
             "server_port": 443,
@@ -546,7 +582,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 7",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 8",
             "type": "vless",
             "server": "164.92.241.235",
             "server_port": 443,
@@ -582,7 +618,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 8",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 9",
             "type": "vless",
             "server": "167.99.130.148",
             "server_port": 443,
@@ -607,42 +643,6 @@
                     "enabled": true,
                     "public_key": "zUjEdJBAjv-A-j9blSCSbBe15xZSvKP5SUGIg8-etBE",
                     "short_id": "9ba0ab2a"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 9",
-            "type": "vless",
-            "server": "142.93.163.180",
-            "server_port": 443,
-            "uuid": "2d351deb-700a-4ce6-9c02-68a478770d59",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.emirogluorhan.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xbsM3rlblvuzjOXyQSh9-oqjVmk5BFb1j8BwWaMVpBk",
-                    "short_id": "926eb1d5"
                 }
             },
             "transport": {
@@ -726,7 +726,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @ARv2ray | 5",
+            "tag": "🇬🇧GB | vless | @ARv2ray | 6",
             "type": "vless",
             "server": "57.128.167.116",
             "server_port": 443,
@@ -762,7 +762,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 10",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 11",
             "type": "vless",
             "server": "57.129.29.202",
             "server_port": 443,
@@ -1145,11 +1145,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 17",
+            "tag": "🇬🇧GB | vless | @v2ray_swhil | 35",
             "type": "vless",
-            "server": "172.105.95.45",
+            "server": "57.128.163.80",
             "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "VPNCUSTOMIZE",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1159,7 +1159,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ftp.debian.org",
+                "server_name": "cdn.kellekcollection.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1168,13 +1168,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "6aocjwto0pF7qe-z48iTbU3Yw7mIwqDGiC6VB9NuJmA",
-                    "short_id": "2b062e7f"
+                    "public_key": "w9tYPxes9YU2yvmYMgRYhSFQCWFoyQCz5b0odul1DQQ",
+                    "short_id": "136ce8d8"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "service_name": "@VPNCUSTOMIZE",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
