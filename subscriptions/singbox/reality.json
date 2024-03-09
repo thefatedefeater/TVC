@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | vless | @VPNCUSTOMIZE | 23",
+                "🇬🇧GB | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 0",
                 "🇩🇪DE | vless | @ipV2Ray | 1",
                 "🇩🇪DE | vless | @ipV2Ray | 2",
@@ -126,8 +126,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 5",
                 "🇩🇪DE | vless | @v2logy | 7",
-                "🇬🇧GB | vless | @V2rayNGn | 17",
-                "🇫🇷FR | vless | @v2rayngvpn | 11",
+                "🇬🇧GB | vless | @V2rayNGn | 18",
                 "🏳️XX | vless | @FalconPolV2rayNG | 1",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -138,7 +137,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -171,7 +170,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | vless | @VPNCUSTOMIZE | 23",
+                "🇬🇧GB | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 0",
                 "🇩🇪DE | vless | @ipV2Ray | 1",
                 "🇩🇪DE | vless | @ipV2Ray | 2",
@@ -191,8 +190,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 5",
                 "🇩🇪DE | vless | @v2logy | 7",
-                "🇬🇧GB | vless | @V2rayNGn | 17",
-                "🇫🇷FR | vless | @v2rayngvpn | 11",
+                "🇬🇧GB | vless | @V2rayNGn | 18",
                 "🏳️XX | vless | @FalconPolV2rayNG | 1",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -203,7 +201,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -252,7 +250,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | vless | @VPNCUSTOMIZE | 23",
+            "tag": "🇬🇧GB | vless | @VPNCUSTOMIZE | 26",
             "type": "vless",
             "server": "57.128.163.80",
             "server_port": 443,
@@ -930,7 +928,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @V2rayNGn | 17",
+            "tag": "🇬🇧GB | vless | @V2rayNGn | 18",
             "type": "vless",
             "server": "57.128.163.80",
             "server_port": 443,
@@ -963,35 +961,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vless | @v2rayngvpn | 11",
-            "type": "vless",
-            "server": "5.135.21.191",
-            "server_port": 8880,
-            "uuid": "0824dad3-c662-4fc2-9c4f-4566bb19f196",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "canva.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JYX6QCdjl0yIzfE_TMjJAnD0zyuroMhT2fj3oAzlTWc",
-                    "short_id": "8b62ab46"
-                }
             }
         },
         {
@@ -1313,7 +1282,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
