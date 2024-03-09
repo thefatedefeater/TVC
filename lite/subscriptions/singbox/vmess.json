@@ -111,8 +111,9 @@
                 "🇭🇰HK | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇦UA | vmess | @v2Line | 7",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -125,8 +126,9 @@
                 "🇭🇰HK | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇦UA | vmess | @v2Line | 7",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2",
-                "🇺🇸US | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -273,6 +275,40 @@
             }
         },
         {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "c43a8f9b-0abb-4e7c-8c11-5d61cb80e4a4",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @FAKEOFTVC | 2",
             "type": "vmess",
             "server": "172.67.196.16",
@@ -307,7 +343,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
