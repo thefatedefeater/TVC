@@ -123,7 +123,6 @@ proxies:
   - {"name":"🇭🇰HK | vmess | @yaney_01 | 5","type":"vmess","server":"8.218.3.12","port":"80","cipher":"auto","uuid":"1a2068d7-5067-47ae-93da-34ac673c2741","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mls.html","headers":{"host":"91887969116649.yg.chisi.link"}}}
   - {"name":"🏳️XX | vmess | @Hope_Net | 5","type":"vmess","server":"mci.mosi.mosipro.ml","port":"443","cipher":"auto","uuid":"d014a20a-c5cf-41ed-8f76-6cf2e05c9fc9","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
   - {"name":"🇺🇦UA | vmess | @v2Line | 7","type":"vmess","server":"uk1.xv2ray.net","port":"80","cipher":"auto","uuid":"3b871117-3a4e-4df2-a8af-08ecc7db6887","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"uk1.xv2ray.net"}}}
-  - {"name":"🇻🇳VN | vmess | @forwardv2ray | 17","type":"vmess","server":"skyht2.vpndata.vn","port":80,"cipher":"aes-128-gcm","uuid":"fbccfed7-1aeb-416a-a4fd-7af1747f9f3b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/VPNDATA.VPN","headers":{"host":"lienquan.garena.vn"}}}
   - {"name":"🇱🇹LT | vmess | @eliya_chiter0 | 3","type":"vmess","server":"lt2-vmess.sshmax.xyz","port":"80","cipher":"auto","uuid":"a23a9cde-e563-4461-9b45-7843e7c28d00","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"lt2-vmess.sshmax.xyz"}}}
 proxy-groups:
   - name: MANUAL
@@ -136,7 +135,6 @@ proxy-groups:
       - '🇭🇰HK | vmess | @yaney_01 | 5'
       - '🏳️XX | vmess | @Hope_Net | 5'
       - '🇺🇦UA | vmess | @v2Line | 7'
-      - '🇻🇳VN | vmess | @forwardv2ray | 17'
       - '🇱🇹LT | vmess | @eliya_chiter0 | 3'
   - name: URL-TEST
     type: url-test
@@ -149,7 +147,6 @@ proxy-groups:
       - '🇭🇰HK | vmess | @yaney_01 | 5'
       - '🏳️XX | vmess | @Hope_Net | 5'
       - '🇺🇦UA | vmess | @v2Line | 7'
-      - '🇻🇳VN | vmess | @forwardv2ray | 17'
       - '🇱🇹LT | vmess | @eliya_chiter0 | 3'
   - name: FALLBACK
     type: fallback
@@ -161,7 +158,6 @@ proxy-groups:
       - '🇭🇰HK | vmess | @yaney_01 | 5'
       - '🏳️XX | vmess | @Hope_Net | 5'
       - '🇺🇦UA | vmess | @v2Line | 7'
-      - '🇻🇳VN | vmess | @forwardv2ray | 17'
       - '🇱🇹LT | vmess | @eliya_chiter0 | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
