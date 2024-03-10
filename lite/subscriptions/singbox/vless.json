@@ -113,7 +113,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @V2pedia | 16",
+                "🇺🇸US | vless | @V2pedia | 16",
                 "🇩🇪DE | vless | @frev2ray | 14",
                 "🇬🇧GB | vless | @ARv2ray | 13",
                 "🇬🇧GB | vless | @shh_proxy | 27",
@@ -157,11 +157,12 @@
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @mehrosaboran | 9",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @kingofilter | 8",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -180,7 +181,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇨🇦CA | vless | @V2pedia | 16",
+                "🇺🇸US | vless | @V2pedia | 16",
                 "🇩🇪DE | vless | @frev2ray | 14",
                 "🇬🇧GB | vless | @ARv2ray | 13",
                 "🇬🇧GB | vless | @shh_proxy | 27",
@@ -224,11 +225,12 @@
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @mehrosaboran | 9",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @kingofilter | 8",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -463,7 +465,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 16",
+            "tag": "🇺🇸US | vless | @V2pedia | 16",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1596,11 +1598,42 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 9",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "205.233.181.126",
+            "server": "23.227.60.7",
+            "server_port": 2083,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zsf-5fa.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "headers": {
+                    "Host": "zsf-5fa.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @mehrosaboran | 10",
+            "type": "vless",
+            "server": "205.233.181.49",
             "server_port": 8880,
-            "uuid": "6cfd28c8-a319-495f-8f0a-cdf41989170c",
+            "uuid": "bdaef4b6-3c45-43c0-93b4-c77c43ad6cea",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1612,7 +1645,7 @@
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "205.233.181.126"
+                    "Host": "205.233.181.49"
                 }
             }
         },
@@ -1695,7 +1728,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
+            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
