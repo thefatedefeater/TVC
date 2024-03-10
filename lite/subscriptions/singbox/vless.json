@@ -113,7 +113,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @V2pedia | 16",
+                "🇨🇦CA | vless | @V2pedia | 16",
                 "🇩🇪DE | vless | @frev2ray | 14",
                 "🇬🇧GB | vless | @ARv2ray | 13",
                 "🇬🇧GB | vless | @shh_proxy | 27",
@@ -157,7 +157,6 @@
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -181,7 +180,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @V2pedia | 16",
+                "🇨🇦CA | vless | @V2pedia | 16",
                 "🇩🇪DE | vless | @frev2ray | 14",
                 "🇬🇧GB | vless | @ARv2ray | 13",
                 "🇬🇧GB | vless | @shh_proxy | 27",
@@ -225,7 +224,6 @@
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -465,7 +463,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 16",
+            "tag": "🇨🇦CA | vless | @V2pedia | 16",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1594,37 +1592,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "discord.gg"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "23.227.60.7",
-            "server_port": 2083,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zsf-5fa.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
-                "headers": {
-                    "Host": "zsf-5fa.pages.dev"
                 }
             }
         },

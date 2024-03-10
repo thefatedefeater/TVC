@@ -113,7 +113,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @V2pedia | 16",
+                "🇨🇦CA | vless | @V2pedia | 16",
                 "🇩🇪DE | vless | @frev2ray | 14",
                 "🇬🇧GB | vless | @ARv2ray | 13",
                 "🇬🇧GB | vless | @shh_proxy | 27",
@@ -157,7 +157,7 @@
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 4",
@@ -167,7 +167,6 @@
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 0",
@@ -195,7 +194,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @V2pedia | 16",
+                "🇨🇦CA | vless | @V2pedia | 16",
                 "🇩🇪DE | vless | @frev2ray | 14",
                 "🇬🇧GB | vless | @ARv2ray | 13",
                 "🇬🇧GB | vless | @shh_proxy | 27",
@@ -239,7 +238,7 @@
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 4",
@@ -249,7 +248,6 @@
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 0",
@@ -493,7 +491,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 16",
+            "tag": "🇨🇦CA | vless | @V2pedia | 16",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1595,11 +1593,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "147.135.3.3",
-            "server_port": 14793,
-            "uuid": "3c90acf2-2736-4aa9-b1e8-926ed1d49db7",
+            "server": "irene.lat",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1609,6 +1607,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "irene.lat",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "irene.lat"
+                }
             }
         },
         {
@@ -1821,37 +1836,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "discord.gg"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "23.227.60.7",
-            "server_port": 2083,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zsf-5fa.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
-                "headers": {
-                    "Host": "zsf-5fa.pages.dev"
                 }
             }
         },
