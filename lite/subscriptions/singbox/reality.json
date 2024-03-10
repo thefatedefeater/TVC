@@ -109,7 +109,9 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇬🇧GB | vless | @Lockey_vpn | 13",
                 "🇩🇪DE | vless | @v2logy | 7",
+                "🇬🇧GB | vless | @v2ray_swhil | 32",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @forwardv2ray | 12",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
         },
@@ -120,7 +122,9 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇬🇧GB | vless | @Lockey_vpn | 13",
                 "🇩🇪DE | vless | @v2logy | 7",
+                "🇬🇧GB | vless | @v2ray_swhil | 32",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @forwardv2ray | 12",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -245,6 +249,42 @@
             }
         },
         {
+            "tag": "🇬🇧GB | vless | @v2ray_swhil | 32",
+            "type": "vless",
+            "server": "57.128.163.80",
+            "server_port": 443,
+            "uuid": "VPNCUSTOMIZE",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.kellekcollection.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Tbo7wSj9u_1HMcETBisSXtdd1n4qyJnZOBRBtYOd7n0",
+                    "short_id": "136ce8d8"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
@@ -271,6 +311,42 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 12",
+            "type": "vless",
+            "server": "46.101.97.248",
+            "server_port": 2096,
+            "uuid": "9a889d63-749a-47f2-a5ca-1270a304bb38",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "44g6vUV1ncfefziao6e4XAX8uDmj2S3epDLk26IM4Fw",
+                    "short_id": "f6c78b61"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
