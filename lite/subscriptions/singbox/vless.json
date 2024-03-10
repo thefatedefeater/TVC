@@ -119,7 +119,7 @@
                 "🇬🇧GB | vless | @shh_proxy | 23",
                 "🇬🇧GB | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 6",
+                "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -159,15 +159,16 @@
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 13",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
-                "🇨🇳CN | vless | @mehrosaboran | 11",
+                "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇺🇸US | vless | @FoXrayIran | 0",
+                "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
-                "🏳️XX | vless | @VpnSkyy | 7"
+                "🏳️XX | vless | @VpnSkyy | 7",
+                "🇮🇷IR | vless | @ROMAX_VPN | 11"
             ]
         },
         {
@@ -187,7 +188,7 @@
                 "🇬🇧GB | vless | @shh_proxy | 23",
                 "🇬🇧GB | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 6",
+                "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -227,15 +228,16 @@
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 13",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
-                "🇨🇳CN | vless | @mehrosaboran | 11",
+                "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
-                "🇺🇸US | vless | @FoXrayIran | 0",
+                "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
-                "🏳️XX | vless | @VpnSkyy | 7"
+                "🏳️XX | vless | @VpnSkyy | 7",
+                "🇮🇷IR | vless | @ROMAX_VPN | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -594,7 +596,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 6",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1634,11 +1636,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vless | @mehrosaboran | 11",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 10",
             "type": "vless",
-            "server": "103.184.44.80",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "104.31.16.144",
+            "server_port": 8880,
+            "uuid": "97177279-f268-4109-af18-9b0f88291d4f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1648,9 +1650,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "103.184.44.80"
+                    "Host": "104.31.16.144"
                 }
             }
         },
@@ -1778,7 +1780,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FoXrayIran | 0",
+            "tag": "🇨🇦CA | vless | @FoXrayIran | 0",
             "type": "vless",
             "server": "c1.shoplandtr.xyz",
             "server_port": 2096,
@@ -1836,6 +1838,20 @@
             "server_port": 443,
             "uuid": "18c680fc-f921-484c-85d3-ec191f7cc983",
             "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @ROMAX_VPN | 11",
+            "type": "vless",
+            "server": "193.228.91.161",
+            "server_port": 55357,
+            "uuid": "0a2cb80d-cff8-4693-b13c-80c9887b59c2",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
