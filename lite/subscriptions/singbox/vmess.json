@@ -111,8 +111,8 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 173",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 4"
             ]
@@ -126,8 +126,8 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 173",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 4"
             ],
@@ -268,6 +268,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
+            "type": "vmess",
+            "server": "rw.b4a-devs.org",
+            "server_port": 2087,
+            "uuid": "8ad792bd-c4ea-460f-c015-8e05ec5bc968",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rw.b4a-devs.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/fws",
+                "headers": {
+                    "Host": "rw.b4a-devs.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "ca-full.privateip.net",
@@ -296,30 +330,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "91.107.169.215",
-            "server_port": 36201,
-            "uuid": "a780eb73-03ad-4097-a822-1b11c3b5011f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
