@@ -138,6 +138,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 16",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
                 "🇺🇸US | vless | @ShadowProxy66 | 95",
+                "🇬🇧GB | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 35",
                 "🇨🇦CA | vless | @proxyymeliii | 14",
@@ -162,8 +163,7 @@
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇩🇪DE | vless | @kingofilter | 9",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
@@ -207,6 +207,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 16",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
                 "🇺🇸US | vless | @ShadowProxy66 | 95",
+                "🇬🇧GB | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 35",
                 "🇨🇦CA | vless | @proxyymeliii | 14",
@@ -231,8 +232,7 @@
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇩🇪DE | vless | @kingofilter | 9",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
@@ -539,7 +539,7 @@
             "type": "vless",
             "server": "Join.ShhProxy.Site",
             "server_port": 80,
-            "uuid": "895f17a9-d69c-4796-9e69-e38f4ecb9bd0",
+            "uuid": "144fac55-e2f7-4912-aa4c-005c80c20d07",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1109,6 +1109,27 @@
             }
         },
         {
+            "tag": "🇬🇧GB | vless | @ServerNett | 25",
+            "type": "vless",
+            "server": "91.193.58.1",
+            "server_port": 80,
+            "uuid": "5ebd35ce-6648-47d5-b165-e8937b964a21",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/join--ServerNett--ServerNett?ed=1048",
+                "headers": {
+                    "Host": "91.193.58.1"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @Qv2rayDONATED | 6",
             "type": "vless",
             "server": "104.18.190.52",
@@ -1584,15 +1605,32 @@
         {
             "tag": "🇺🇸US | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "172.67.170.103",
             "server_port": 443,
-            "uuid": "86cb987c-59dd-47fe-b127-c1a2ed7f96aa",
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
             }
         },
         {
@@ -1705,28 +1743,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @kingofilter | 9",
-            "type": "vless",
-            "server": "78.47.96.56",
-            "server_port": 8080,
-            "uuid": "5f2bcfcb-43a0-4de3-9306-8020b9ff0c13",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "78.47.96.56"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
+            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
