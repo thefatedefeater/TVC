@@ -116,7 +116,7 @@
                 "🇨🇦CA | vless | @V2pedia | 17",
                 "🇨🇦CA | vless | @frev2ray | 13",
                 "🇨🇦CA | vless | @ARv2ray | 14",
-                "🇬🇧GB | vless | @shh_proxy | 22",
+                "🇬🇧GB | vless | @shh_proxy | 20",
                 "🇬🇧GB | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 6",
@@ -159,11 +159,11 @@
                 "🇨🇦CA | vless | @flyv2ray | 13",
                 "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 5",
-                "🇨🇳CN | vless | @mehrosaboran | 11",
+                "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @kingofilter | 9",
-                "🇨🇦CA | vless | @GozargahVPN | 8",
+                "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
@@ -185,7 +185,7 @@
                 "🇨🇦CA | vless | @V2pedia | 17",
                 "🇨🇦CA | vless | @frev2ray | 13",
                 "🇨🇦CA | vless | @ARv2ray | 14",
-                "🇬🇧GB | vless | @shh_proxy | 22",
+                "🇬🇧GB | vless | @shh_proxy | 20",
                 "🇬🇧GB | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 6",
@@ -228,11 +228,11 @@
                 "🇨🇦CA | vless | @flyv2ray | 13",
                 "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 5",
-                "🇨🇳CN | vless | @mehrosaboran | 11",
+                "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇩🇪DE | vless | @kingofilter | 9",
-                "🇨🇦CA | vless | @GozargahVPN | 8",
+                "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
@@ -535,7 +535,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @shh_proxy | 22",
+            "tag": "🇬🇧GB | vless | @shh_proxy | 20",
             "type": "vless",
             "server": "Join.ShhProxy.Site",
             "server_port": 80,
@@ -1584,32 +1584,15 @@
         {
             "tag": "🇺🇸US | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "mtn.mdvpnsec.cfd",
+            "server": "zula.ir",
             "server_port": 443,
-            "uuid": "a7977d6b-c115-43bc-8725-ccd3d6b72a03",
+            "uuid": "86cb987c-59dd-47fe-b127-c1a2ed7f96aa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "MdVpnSec.xn--85-pv2cl2k5x3fipr.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "MdVpnSec.xn--85-pv2cl2k5x3fipr.org"
-                }
             }
         },
         {
@@ -1644,11 +1627,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vless | @mehrosaboran | 11",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 11",
             "type": "vless",
-            "server": "103.184.44.80",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "198.41.192.118",
+            "server_port": 8880,
+            "uuid": "c53d7f18-9606-4e97-bbab-9fea9ea13f95",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1658,9 +1641,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "103.184.44.80"
+                    "Host": "198.41.192.118"
                 }
             }
         },
@@ -1743,7 +1726,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
+            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
