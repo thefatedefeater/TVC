@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @v2_team | 13",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 7",
-                "🇨🇦CA | vless | @XsV2ray | 12",
+                "🇺🇸US | vless | @XsV2ray | 12",
                 "🇮🇪IE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇺🇸US | vless | @V2pedia | 17",
@@ -123,7 +123,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 27",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇳🇱NL | vless | @V2rayNGn | 20",
                 "🇳🇱NL | vless | @prrofile_purple | 175",
@@ -153,7 +153,7 @@
                 "🇸🇪SE | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @GozargahVPN | 8",
+                "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @v2_team | 13",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 7",
-                "🇨🇦CA | vless | @XsV2ray | 12",
+                "🇺🇸US | vless | @XsV2ray | 12",
                 "🇮🇪IE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇺🇸US | vless | @V2pedia | 17",
@@ -182,7 +182,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 27",
                 "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇳🇱NL | vless | @V2rayNGn | 20",
                 "🇳🇱NL | vless | @prrofile_purple | 175",
@@ -212,7 +212,7 @@
                 "🇸🇪SE | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @GozargahVPN | 8",
+                "🇺🇸US | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
                 "🇨🇦CA | vless | @V2FETCH | 7",
@@ -313,7 +313,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @XsV2ray | 12",
+            "tag": "🇺🇸US | vless | @XsV2ray | 12",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 443,
@@ -715,7 +715,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1402,9 +1402,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "Vpn-MikeyMci.myftp.org",
-            "server_port": 80,
-            "uuid": "62901846-c9b3-49c8-9709-3e01b2327c7b",
+            "server": "bia-to2.unlimiteddev.site",
+            "server_port": 8443,
+            "uuid": "12d2c26d-d64d-4942-88b8-c6e5a985c48e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1412,11 +1412,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
+                "path": "\/",
                 "headers": {
-                    "Host": "Vpn-MikeyMci.myftp.org"
+                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
                 }
             }
         },
@@ -1499,7 +1509,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
+            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
