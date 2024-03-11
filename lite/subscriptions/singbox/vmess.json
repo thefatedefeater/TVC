@@ -108,11 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇰🇷KR | vmess | @mftizi | 18",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 12",
+                "🏳️XX | vmess | @oneclickvpnkeys | 12",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🏳️XX | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @nofiltering2 | 3",
+                "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5"
             ]
         },
@@ -122,11 +122,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇰🇷KR | vmess | @mftizi | 18",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 12",
+                "🏳️XX | vmess | @oneclickvpnkeys | 12",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🏳️XX | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @nofiltering2 | 3",
+                "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -191,11 +191,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 12",
+            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 12",
             "type": "vmess",
-            "server": "65.109.206.159",
-            "server_port": 35445,
-            "uuid": "6115c344-e94b-4bf4-964b-2ee41e0e382c",
+            "server": "zipshop.pbdjarum.info",
+            "server_port": 443,
+            "uuid": "5585cf1c-896a-4c5e-aadf-fdc9c35cac48",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -206,12 +206,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "zipshop.pbdjarum.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "vtvy7le8CDlUgmh7r51",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -283,7 +293,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @nofiltering2 | 3",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 3",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
