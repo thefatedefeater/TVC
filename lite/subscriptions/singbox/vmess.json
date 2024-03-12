@@ -109,10 +109,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @v2Line | 4",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ]
@@ -124,10 +124,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @v2Line | 4",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
             ],
@@ -220,30 +220,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
-            "type": "vmess",
-            "server": "91.107.169.215",
-            "server_port": 36201,
-            "uuid": "a780eb73-03ad-4097-a822-1b11c3b5011f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇨🇳CN | vmess | @yaney_01 | 3",
             "type": "vmess",
             "server": "dotu-usv1.03p4fad6vd.com",
@@ -315,6 +291,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "www.visa.com.sg",
+            "server_port": 443,
+            "uuid": "fad32505-90a1-4656-8d7e-c23260f3bfb8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "artistic-mac-compute-baker.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/fad32505-90a1-4656-8d7e-c23260f3bfb8-vm",
+                "headers": {
+                    "Host": "artistic-mac-compute-baker.trycloudflare.com"
                 }
             }
         },
