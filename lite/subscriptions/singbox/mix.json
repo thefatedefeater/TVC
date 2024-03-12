@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 1",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 32",
                 "🇸🇪SE | vless | @proxyymeliii | 12",
-                "🇨🇦CA | vless | @v2ray1_ng | 25",
+                "🇨🇦CA | vless | @v2ray1_ng | 19",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇬🇧GB | ss | @VmessProtocol | 11",
@@ -164,7 +164,7 @@
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇨🇷CR | vless | @IRN_VPN | 1",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇮🇷IR | vmess | @forwardv2ray | 13",
                 "🇫🇷FR | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -204,7 +204,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 1",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 32",
                 "🇸🇪SE | vless | @proxyymeliii | 12",
-                "🇨🇦CA | vless | @v2ray1_ng | 25",
+                "🇨🇦CA | vless | @v2ray1_ng | 19",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇦CA | vless | @V2RayTz | 14",
                 "🇬🇧GB | ss | @VmessProtocol | 11",
@@ -242,7 +242,7 @@
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇨🇷CR | vless | @IRN_VPN | 1",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇮🇷IR | vmess | @forwardv2ray | 13",
                 "🇫🇷FR | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -816,7 +816,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1272,17 +1272,34 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 25",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "server": "104.24.0.28",
+            "server_port": 2053,
+            "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "guq22.oxnetwORKs.LiNK",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless-ws\/",
+                "headers": {
+                    "Host": "guq22.oxnetwORKs.LiNK"
+                }
             }
         },
         {
@@ -1731,11 +1748,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 13",
             "type": "vmess",
-            "server": "172.66.46.215",
-            "server_port": 2087,
-            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "server": "62.60.210.59",
+            "server_port": 10367,
+            "uuid": "809bd50d-d8de-4d6f-a289-926baba833ec",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1745,23 +1762,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "warp-sub.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/urnxewzvh.site:443\/kwhmvws",
-                "headers": {
-                    "Host": "warp-sub.pages.dev"
-                }
             }
         },
         {

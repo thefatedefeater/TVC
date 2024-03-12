@@ -113,7 +113,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2Line | 4",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇮🇷IR | vmess | @forwardv2ray | 13",
                 "🇺🇸US | vmess | @nofiltering2 | 1"
             ]
         },
@@ -128,7 +128,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2Line | 4",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇮🇷IR | vmess | @forwardv2ray | 13",
                 "🇺🇸US | vmess | @nofiltering2 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -322,11 +322,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 13",
             "type": "vmess",
-            "server": "172.66.46.215",
-            "server_port": 2087,
-            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "server": "62.60.210.59",
+            "server_port": 10367,
+            "uuid": "809bd50d-d8de-4d6f-a289-926baba833ec",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -336,23 +336,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "warp-sub.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/urnxewzvh.site:443\/kwhmvws",
-                "headers": {
-                    "Host": "warp-sub.pages.dev"
-                }
             }
         },
         {
