@@ -19,11 +19,10 @@ DIRECT = direct
 🇸🇪SE | ss | @OutlineVpnOfficial | 18 = ss, 45.8.147.80, 5741, encrypt-method = chacha20-ietf-poly1305, password = Q5CEiebSuSl2qFkfE4ztG2
 🏳️XX | vmess | @Hope_Net | 13 = vmess, mci.mosi.mosipro.ml, 443, username = d61ec1a6-bdcc-4be2-a7b6-adae5dc2aa52, ws = true, tls = 1, vmess-aead = true, ws-path = /speedtest, ws-headers = Host:"Dusseldorf.kotick.site", skip-cert-verify = true, tfo = false
 🇪🇪EE | vmess | @v2Line | 6 = vmess, ee1.xv2ray.net, 80, username = 83018580-58ce-464f-b75c-2a1331a8f016, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ee1.xv2ray.net", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @forwardv2ray | 16 = vmess, fbi.gov, 8080, username = ef8c954e-014f-4b36-8273-9b5086afab34, ws = true, tls = , vmess-aead = false, ws-path = ef8c954e-014f-4b36-8273-9b5086afab34-vm, ws-headers = Host:"bibliographic-sword-sequence-advertisers.trycloudflare.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 15,🇰🇷KR | vmess | @mftizi | 18,🇨🇦CA | vmess | @oneclickvpnkeys | 12,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🏳️XX | vmess | @Hope_Net | 13,🇪🇪EE | vmess | @v2Line | 6,🇨🇦CA | vmess | @forwardv2ray | 16
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 15,🇰🇷KR | vmess | @mftizi | 18,🇨🇦CA | vmess | @oneclickvpnkeys | 12,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🏳️XX | vmess | @Hope_Net | 13,🇪🇪EE | vmess | @v2Line | 6,🇨🇦CA | vmess | @forwardv2ray | 16
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 15,🇰🇷KR | vmess | @mftizi | 18,🇨🇦CA | vmess | @oneclickvpnkeys | 12,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🏳️XX | vmess | @Hope_Net | 13,🇪🇪EE | vmess | @v2Line | 6,🇨🇦CA | vmess | @forwardv2ray | 16
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 15,🇰🇷KR | vmess | @mftizi | 18,🇨🇦CA | vmess | @oneclickvpnkeys | 12,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🏳️XX | vmess | @Hope_Net | 13,🇪🇪EE | vmess | @v2Line | 6
+URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 15,🇰🇷KR | vmess | @mftizi | 18,🇨🇦CA | vmess | @oneclickvpnkeys | 12,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🏳️XX | vmess | @Hope_Net | 13,🇪🇪EE | vmess | @v2Line | 6
+FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 16,🇸🇪SE | trojan | @DirectVPN | 15,🇰🇷KR | vmess | @mftizi | 18,🇨🇦CA | vmess | @oneclickvpnkeys | 12,🇬🇧GB | ss | @VmessProtocol | 10,🇸🇪SE | ss | @OutlineVpnOfficial | 18,🏳️XX | vmess | @Hope_Net | 13,🇪🇪EE | vmess | @v2Line | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

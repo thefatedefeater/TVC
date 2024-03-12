@@ -112,7 +112,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇪🇪EE | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 5",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
@@ -128,7 +127,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇪🇪EE | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 5",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
@@ -300,30 +298,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ee1.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "fbi.gov",
-            "server_port": 8080,
-            "uuid": "ef8c954e-014f-4b36-8273-9b5086afab34",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ef8c954e-014f-4b36-8273-9b5086afab34-vm",
-                "headers": {
-                    "Host": "fbi.gov"
                 }
             }
         },

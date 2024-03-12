@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 16",
                 "🇬🇧GB | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -163,14 +163,14 @@
                 "🇪🇪EE | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 7",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -195,7 +195,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 16",
                 "🇬🇧GB | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -241,14 +241,14 @@
                 "🇪🇪EE | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 7",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -594,7 +594,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
+            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1739,26 +1739,33 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "fbi.gov",
-            "server_port": 8080,
-            "uuid": "ef8c954e-014f-4b36-8273-9b5086afab34",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.24.0.11",
+            "server_port": 2096,
+            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "u6Zghn5zYTaRet4s838Q76KQGD9Mn61UFlU53560XV8nmU68gd7q25Y3px.PageS.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/ef8c954e-014f-4b36-8273-9b5086afab34-vm",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "fbi.gov"
+                    "Host": "u6Zghn5zYTaRet4s838Q76KQGD9Mn61UFlU53560XV8nmU68gd7q25Y3px.PageS.DEv"
                 }
             }
         },
@@ -1923,7 +1930,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
+            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
