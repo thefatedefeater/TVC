@@ -117,7 +117,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 8",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇩🇪DE | vless | @ARv2ray | 0",
+                "🇩🇪DE | vless | @ARv2ray | 3",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -130,8 +130,9 @@
                 "🏳️XX | vless | @FalconPolV2rayNG | 1",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
                 "🇬🇧GB | vless | @v2ray_swhil | 31",
-                "🇫🇮FI | vless | @V2RayTz | 4",
-                "🇩🇪DE | vless | @V2RayTz | 6",
+                "🇫🇮FI | vless | @V2RayTz | 3",
+                "🇩🇪DE | vless | @V2RayTz | 5",
+                "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 99",
                 "🇩🇪DE | vless | @lrnbymaa | 1",
                 "🇩🇪DE | vless | @fnet00 | 1",
@@ -144,7 +145,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -189,7 +190,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 8",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇩🇪DE | vless | @ARv2ray | 0",
+                "🇩🇪DE | vless | @ARv2ray | 3",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -202,8 +203,9 @@
                 "🏳️XX | vless | @FalconPolV2rayNG | 1",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
                 "🇬🇧GB | vless | @v2ray_swhil | 31",
-                "🇫🇮FI | vless | @V2RayTz | 4",
-                "🇩🇪DE | vless | @V2RayTz | 6",
+                "🇫🇮FI | vless | @V2RayTz | 3",
+                "🇩🇪DE | vless | @V2RayTz | 5",
+                "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇬🇧GB | vless | @DailyV2RY | 99",
                 "🇩🇪DE | vless | @lrnbymaa | 1",
                 "🇩🇪DE | vless | @fnet00 | 1",
@@ -216,7 +218,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -655,7 +657,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 0",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 3",
             "type": "vless",
             "server": "91.107.186.175",
             "server_port": 443,
@@ -1081,7 +1083,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @V2RayTz | 4",
+            "tag": "🇫🇮FI | vless | @V2RayTz | 3",
             "type": "vless",
             "server": "65.108.250.181",
             "server_port": 443,
@@ -1117,7 +1119,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 6",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 5",
             "type": "vless",
             "server": "91.107.186.175",
             "server_port": 443,
@@ -1147,6 +1149,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @V2RayTz | 16",
+            "type": "vless",
+            "server": "91.107.199.96",
+            "server_port": 443,
+            "uuid": "731b6dc7-d0d8-4cc5-a0fb-058250ca94df",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.hetzner.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lCzFlKDzMEcuz4bD0Dxj-Bx6qoZZoTU7f-OLZbP42CQ",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1536,7 +1574,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
