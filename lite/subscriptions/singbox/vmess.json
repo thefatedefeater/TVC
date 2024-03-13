@@ -108,11 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 0",
                 "🇭🇰HK | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
@@ -124,11 +125,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 0",
                 "🇭🇰HK | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
@@ -188,9 +190,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "104.21.230.52",
+            "server": "104.21.227.36",
             "server_port": 80,
             "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
             "security": "auto",
@@ -205,7 +207,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/&Telegram🇨🇳",
+                "path": "\/&Telegram🇨🇳 @WangCai08",
                 "headers": {
                     "Host": ""
                 }
@@ -290,6 +292,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "hk1.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "sfmomastore.com",
+            "server_port": 80,
+            "uuid": "0580abe6-9aaf-40e2-ba33-0bc9f3b6ef2b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
