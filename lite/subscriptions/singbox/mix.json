@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
                 "🇺🇸US | vless | @v2rayngvpn | 15",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 8",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 32",
                 "🇨🇦CA | vless | @proxyymeliii | 13",
@@ -164,7 +164,7 @@
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇨🇷CR | vless | @IRN_VPN | 1",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇮🇸IS | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇫🇷FR | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -218,7 +218,7 @@
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
                 "🇺🇸US | vless | @v2rayngvpn | 15",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 8",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 32",
                 "🇨🇦CA | vless | @proxyymeliii | 13",
@@ -242,7 +242,7 @@
                 "🇩🇪DE | vless | @Capoit | 11",
                 "🇨🇷CR | vless | @IRN_VPN | 1",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇮🇸IS | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇫🇷FR | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -1151,7 +1151,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FalconPolV2rayNG | 8",
+            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
             "type": "vless",
             "server": "3k.pureboy.eu.org",
             "server_port": 443,
@@ -1731,26 +1731,33 @@
             }
         },
         {
-            "tag": "🇮🇸IS | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "is1-vmess.sshmax.xyz",
-            "server_port": 80,
-            "uuid": "50eeadca-5798-4517-8549-1b25bdcff7bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "104.24.0.11",
+            "server_port": 443,
+            "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "whmm.meRlINNz.LiNK",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/vless-ws\/?ed",
                 "headers": {
-                    "Host": ""
+                    "Host": "whmm.meRlINNz.LiNK"
                 }
             }
         },
