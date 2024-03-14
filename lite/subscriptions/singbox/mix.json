@@ -116,7 +116,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇨🇦CA | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -154,7 +154,7 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 5",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -164,7 +164,7 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🏳️XX | trojan | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -196,7 +196,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇨🇦CA | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -234,7 +234,7 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 5",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -244,7 +244,7 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🏳️XX | trojan | @forwardv2ray | 18",
+                "🇺🇸US | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -570,7 +570,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
+            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1469,7 +1469,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 5",
+            "tag": "🏳️XX | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1731,11 +1731,16 @@
             }
         },
         {
-            "tag": "🏳️XX | trojan | @forwardv2ray | 18",
-            "type": "trojan",
-            "server": "127.0.0.1",
-            "server_port": 2080,
-            "password": "baccaba-baac-cbaa-bcad-bacbaabacccb",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "meroiy.icu",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1743,12 +1748,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "127.0.0.1",
+                "server_name": "meroiy.icu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "meroiy.icu"
                 }
             }
         },
