@@ -112,7 +112,8 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
-                "🇨🇦CA | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ]
@@ -127,7 +128,8 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
-                "🇨🇦CA | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ],
@@ -285,11 +287,35 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 6",
+            "tag": "🇨🇦CA | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "104.21.225.38",
             "server_port": 80,
             "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "64.23.208.27",
+            "server_port": 18906,
+            "uuid": "31209467-5b1b-4f53-87b3-36789c213659",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
