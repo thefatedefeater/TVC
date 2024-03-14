@@ -117,8 +117,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇩🇪DE | vless | @ipV2Ray | 10",
                 "🇩🇪DE | vless | @ipV2Ray | 11",
-                "🇩🇪DE | vless | @ARv2ray | 2",
-                "🇩🇪DE | vless | @ARv2ray | 11",
+                "🇩🇪DE | vless | @ARv2ray | 3",
+                "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -133,6 +133,8 @@
                 "🇫🇮FI | vless | @v2ray1_ng | 11",
                 "🇹🇷TR | vless | @vless_vmess | 0",
                 "🏳️XX | vless | @V2RayTz | 8",
+                "🇳🇱NL | vless | @DailyV2RY | 116",
+                "🇹🇷TR | vless | @DailyV2RY | 117",
                 "🇩🇪DE | vless | @lrnbymaa | 3",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -147,6 +149,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🏳️XX | vless | @forwardv2ray | 14",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
@@ -192,8 +195,8 @@
                 "🇩🇪DE | vless | @ipV2Ray | 9",
                 "🇩🇪DE | vless | @ipV2Ray | 10",
                 "🇩🇪DE | vless | @ipV2Ray | 11",
-                "🇩🇪DE | vless | @ARv2ray | 2",
-                "🇩🇪DE | vless | @ARv2ray | 11",
+                "🇩🇪DE | vless | @ARv2ray | 3",
+                "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -208,6 +211,8 @@
                 "🇫🇮FI | vless | @v2ray1_ng | 11",
                 "🇹🇷TR | vless | @vless_vmess | 0",
                 "🏳️XX | vless | @V2RayTz | 8",
+                "🇳🇱NL | vless | @DailyV2RY | 116",
+                "🇹🇷TR | vless | @DailyV2RY | 117",
                 "🇩🇪DE | vless | @lrnbymaa | 3",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -222,6 +227,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🏳️XX | vless | @forwardv2ray | 14",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
@@ -661,7 +667,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 2",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 3",
             "type": "vless",
             "server": "91.107.251.73",
             "server_port": 443,
@@ -697,7 +703,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 11",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 12",
             "type": "vless",
             "server": "91.107.186.175",
             "server_port": 443,
@@ -1188,6 +1194,64 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vless | @DailyV2RY | 116",
+            "type": "vless",
+            "server": "netherlands-08.ptu.ink",
+            "server_port": 443,
+            "uuid": "88525cc4-5d68-410a-b122-104e3e6c0f0d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZFhyJmrGM4eO1ddeeKNM4XHofT3LPPw7AE-g8cFrim4",
+                    "short_id": "8a663230ca5a65ef"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vless | @DailyV2RY | 117",
+            "type": "vless",
+            "server": "turkey-01.ptu.ink",
+            "server_port": 443,
+            "uuid": "637d3b63-758b-47cb-a5f6-f96fe6e4ab3b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zGp41QGUA2TBVirEaFS34_n05w38JxQHKbqQxS-iHzM",
+                    "short_id": "cd2ccdd9761335d4"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @lrnbymaa | 3",
             "type": "vless",
             "server": "ng.nourycazablanka.online",
@@ -1612,6 +1676,42 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 14",
+            "type": "vless",
+            "server": "v2logy.ddns.net",
+            "server_port": 443,
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
