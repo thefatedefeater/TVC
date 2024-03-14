@@ -115,7 +115,7 @@
                 "🇨🇦CA | vless | @V2pedia | 25",
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇨🇦CA | vless | @Lockey_vpn | 13",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇩🇪DE | vless | @vpn_xw | 2",
@@ -154,7 +154,7 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 1",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -164,7 +164,7 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇬🇧GB | ss | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 14",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -195,7 +195,7 @@
                 "🇨🇦CA | vless | @V2pedia | 25",
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇨🇦CA | vless | @Lockey_vpn | 13",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇩🇪DE | vless | @vpn_xw | 2",
@@ -234,7 +234,7 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 1",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -244,7 +244,7 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇬🇧GB | ss | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 14",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -539,7 +539,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1489,7 +1489,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 1",
+            "tag": "🏳️XX | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1751,14 +1751,33 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 17",
-            "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 14",
+            "type": "vless",
+            "server": "78.46.233.103",
+            "server_port": 34883,
+            "uuid": "18b5be42-a440-4600-ba18-f6751f46a504",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fussenegger.pro",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1PNLCQnctUWXBFpRqOu4O7zOHnWM5kFdpSFpqvGW1Go",
+                    "short_id": "05cc0af9"
+                }
+            }
         },
         {
             "tag": "🇺🇸US | vmess | @FAKEOFTVC | 3",
