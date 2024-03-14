@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇩🇪DE | trojan | @DirectVPN | 17",
@@ -164,14 +164,14 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | trojan | @kingofilter | 8",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -205,7 +205,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇩🇪DE | trojan | @DirectVPN | 17",
@@ -244,14 +244,14 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | trojan | @kingofilter | 8",
-                "🇺🇸US | vless | @GozargahVPN | 8",
+                "🇨🇦CA | vless | @GozargahVPN | 8",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vless | @FoXrayIran | 0",
@@ -795,7 +795,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1731,16 +1731,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "meroiy.icu",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "15.156.103.59",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1748,7 +1745,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "meroiy.icu",
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1758,9 +1755,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
-                    "Host": "meroiy.icu"
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
@@ -1930,7 +1927,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @GozargahVPN | 8",
+            "tag": "🇨🇦CA | vless | @GozargahVPN | 8",
             "type": "vless",
             "server": "www.GozargahVPN.top",
             "server_port": 443,
