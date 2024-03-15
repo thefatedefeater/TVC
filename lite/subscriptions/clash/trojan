@@ -118,9 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 18","type":"trojan","server":"35.181.94.18","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇮🇪IE | trojan | @DirectVPN | 18","type":"trojan","server":"54.216.98.79","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🏳️XX | trojan | @forwardv2ray | 13","type":"trojan","server":"127.0.0.1","port":8080,"udp":false,"password":"cbaaacb-aabc-caab-bdca-baccabbcbaac","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 18","type":"trojan","server":"13.37.70.207","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @DirectVPN | 18","type":"trojan","server":"108.128.143.88","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇨🇦CA | trojan | @kingofilter | 9","type":"trojan","server":"104.16.123.175","port":2083,"udp":false,"password":"qG9K8AGnn9XH5jUqeFu96g","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn13.cdn2cdn.com"}
 proxy-groups:
   - name: MANUAL
@@ -130,7 +129,6 @@ proxy-groups:
       - FALLBACK
       - '🇫🇷FR | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | trojan | @DirectVPN | 18'
-      - '🏳️XX | trojan | @forwardv2ray | 13'
       - '🇨🇦CA | trojan | @kingofilter | 9'
   - name: URL-TEST
     type: url-test
@@ -140,7 +138,6 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | trojan | @DirectVPN | 18'
-      - '🏳️XX | trojan | @forwardv2ray | 13'
       - '🇨🇦CA | trojan | @kingofilter | 9'
   - name: FALLBACK
     type: fallback
@@ -149,7 +146,6 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | trojan | @DirectVPN | 18'
-      - '🏳️XX | trojan | @forwardv2ray | 13'
       - '🇨🇦CA | trojan | @kingofilter | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
