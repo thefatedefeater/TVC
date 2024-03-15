@@ -151,12 +151,6 @@ proxies:
   - {"name":"🇺🇸US | trojan | @oneclickvpnkeys | 9","type":"trojan","server":"172.67.204.84","port":443,"udp":false,"password":"qj1Dz1CJmFQRhWr1SP80aA","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn-21.gsmxreality.com"}
   - {"name":"🇺🇸US | trojan | @proxyymeliii | 9","type":"trojan","server":"flixeon.me","port":443,"udp":false,"password":"52701795-3c3b-46b4-b7cf-c5978b3a4cf2","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"hdfyc1.achaemenidempireofpersia.uk"}
   - {"name":"🇺🇸US | trojan | @v2ray1_ng | 2","type":"trojan","server":"104.16.123.175","port":2083,"udp":false,"password":"qG9K8AGnn9XH5jUqeFu96g","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn13.cdn2cdn.com"}
-  - {"name":"🇬🇧GB | trojan | @forwardv2ray | 10","type":"trojan","server":"18.135.242.0","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | trojan | @forwardv2ray | 11","type":"trojan","server":"172.67.149.124","port":443,"udp":false,"password":"52701795-3c3b-46b4-b7cf-c5978b3a4cf2","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"hdfyc1.achaemenidempireofpersia.uk"}
-  - {"name":"🇸🇪SE | trojan | @forwardv2ray | 12","type":"trojan","server":"13.53.183.175","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🏳️XX | trojan | @forwardv2ray | 13","type":"trojan","server":"127.0.0.1","port":8080,"udp":false,"password":"abacbca-baca-caba-acbd-bbbcaaccacab","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸US | trojan | @forwardv2ray | 14","type":"trojan","server":"104.21.46.33","port":80,"udp":false,"password":"Fvv4Bz926a","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸US | trojan | @forwardv2ray | 16","type":"trojan","server":"172.67.223.33","port":80,"udp":false,"password":"Fvv4Bz926a","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -196,12 +190,6 @@ proxy-groups:
       - '🇺🇸US | trojan | @oneclickvpnkeys | 9'
       - '🇺🇸US | trojan | @proxyymeliii | 9'
       - '🇺🇸US | trojan | @v2ray1_ng | 2'
-      - '🇬🇧GB | trojan | @forwardv2ray | 10'
-      - '🇺🇸US | trojan | @forwardv2ray | 11'
-      - '🇸🇪SE | trojan | @forwardv2ray | 12'
-      - '🏳️XX | trojan | @forwardv2ray | 13'
-      - '🇺🇸US | trojan | @forwardv2ray | 14'
-      - '🇺🇸US | trojan | @forwardv2ray | 16'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -241,12 +229,6 @@ proxy-groups:
       - '🇺🇸US | trojan | @oneclickvpnkeys | 9'
       - '🇺🇸US | trojan | @proxyymeliii | 9'
       - '🇺🇸US | trojan | @v2ray1_ng | 2'
-      - '🇬🇧GB | trojan | @forwardv2ray | 10'
-      - '🇺🇸US | trojan | @forwardv2ray | 11'
-      - '🇸🇪SE | trojan | @forwardv2ray | 12'
-      - '🏳️XX | trojan | @forwardv2ray | 13'
-      - '🇺🇸US | trojan | @forwardv2ray | 14'
-      - '🇺🇸US | trojan | @forwardv2ray | 16'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -285,12 +267,6 @@ proxy-groups:
       - '🇺🇸US | trojan | @oneclickvpnkeys | 9'
       - '🇺🇸US | trojan | @proxyymeliii | 9'
       - '🇺🇸US | trojan | @v2ray1_ng | 2'
-      - '🇬🇧GB | trojan | @forwardv2ray | 10'
-      - '🇺🇸US | trojan | @forwardv2ray | 11'
-      - '🇸🇪SE | trojan | @forwardv2ray | 12'
-      - '🏳️XX | trojan | @forwardv2ray | 13'
-      - '🇺🇸US | trojan | @forwardv2ray | 14'
-      - '🇺🇸US | trojan | @forwardv2ray | 16'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
