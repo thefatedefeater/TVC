@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @mftizi | 18",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 37",
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
@@ -115,6 +115,7 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🇮🇷IR | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 7",
+                "🇮🇹IT | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @nofiltering2 | 1"
             ]
         },
@@ -123,7 +124,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @mftizi | 18",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 37",
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
@@ -131,6 +132,7 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🇮🇷IR | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 7",
+                "🇮🇹IT | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @nofiltering2 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -171,7 +173,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 18",
+            "tag": "🇺🇸US | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 80,
@@ -349,6 +351,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇮🇹IT | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "95.164.46.203",
+            "server_port": 8442,
+            "uuid": "377de444-ec4e-4840-a7d9-6d5b5374b551",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
