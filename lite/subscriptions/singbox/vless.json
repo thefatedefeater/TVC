@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 3",
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 5",
-                "🇫🇷FR | vless | @VlessConfig | 17",
+                "🇬🇧GB | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 12",
                 "🇺🇸US | vless | @melov2ray | 4",
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 2",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @prrofile_purple | 178",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -154,6 +154,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇩🇪DE | vless | @kiava | 2",
@@ -174,7 +175,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 3",
                 "🇨🇦CA | vless | @Parsashonam | 13",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 5",
-                "🇫🇷FR | vless | @VlessConfig | 17",
+                "🇬🇧GB | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 12",
                 "🇺🇸US | vless | @melov2ray | 4",
@@ -192,7 +193,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 2",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @prrofile_purple | 178",
                 "🇨🇦CA | vless | @customv2ray | 12",
@@ -219,6 +220,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇩🇪DE | vless | @kiava | 2",
@@ -333,9 +335,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 17",
+            "tag": "🇬🇧GB | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.38.255.69",
+            "server": "52.56.227.88",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -812,7 +814,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1504,6 +1506,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "shhproxy-free.xn--85-pv2cl2k5x3fipr.org."
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "Vpn-MikeyMci.myftp.org",
+            "server_port": 8080,
+            "uuid": "89eda102-50ec-43a2-8a67-77c575057b88",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
+                "headers": {
+                    "Host": "Vpn-MikeyMci.myftp.org"
                 }
             }
         },
