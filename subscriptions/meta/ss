@@ -120,7 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪DE | ss | @DeamNet_Proxy | 6","type":"ss","server":"217.182.198.219","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR | ss | @DeamNet_Proxy | 7","type":"ss","server":"149.202.82.172","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
   - {"name":"🇧🇭BH | ss | @VmessProtocol | 1","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @VmessProtocol | 2","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺RU | ss | @OutlineVpnOfficial | 3","type":"ss","server":"62.113.115.180","port":21309,"password":"mpKoYQtkF4Xz3TrZ","cipher":"aes-256-gcm"}
@@ -148,7 +148,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | ss | @DeamNet_Proxy | 6'
+      - '🇫🇷FR | ss | @DeamNet_Proxy | 7'
       - '🇧🇭BH | ss | @VmessProtocol | 1'
       - '🇬🇧GB | ss | @VmessProtocol | 2'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 3'
@@ -176,7 +176,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | ss | @DeamNet_Proxy | 6'
+      - '🇫🇷FR | ss | @DeamNet_Proxy | 7'
       - '🇧🇭BH | ss | @VmessProtocol | 1'
       - '🇬🇧GB | ss | @VmessProtocol | 2'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 3'
@@ -203,7 +203,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | ss | @DeamNet_Proxy | 6'
+      - '🇫🇷FR | ss | @DeamNet_Proxy | 7'
       - '🇧🇭BH | ss | @VmessProtocol | 1'
       - '🇬🇧GB | ss | @VmessProtocol | 2'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 3'
