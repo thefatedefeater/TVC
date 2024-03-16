@@ -113,8 +113,9 @@
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
                 "🇮🇷IR | vmess | @DailyV2RY | 143",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 12",
+                "🏳️XX | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @forwardv2ray | 6",
                 "🇺🇸US | vmess | @nofiltering2 | 1"
             ]
         },
@@ -129,8 +130,9 @@
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
                 "🇮🇷IR | vmess | @DailyV2RY | 143",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 12",
+                "🏳️XX | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @forwardv2ray | 6",
                 "🇺🇸US | vmess | @nofiltering2 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -311,11 +313,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 12",
+            "tag": "🏳️XX | vmess | @Hope_Net | 11",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cbaaacb-aabc-caab-bdca-baccabbcbaac",
+            "uuid": "acbbaca-acba-caba-cbda-acaabbcccabb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -348,6 +350,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 6",
+            "type": "vmess",
+            "server": "104.23.107.143",
+            "server_port": 443,
+            "uuid": "b1214c86-7571-4315-8cae-d610450e01de",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "marz.xelatek.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/37943\/google",
+                "headers": {
+                    "Host": "marz.xelatek.com"
                 }
             }
         },
