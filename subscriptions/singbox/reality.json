@@ -129,9 +129,10 @@
                 "🏳️XX | vless | @prrofile_purple | 157",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 0",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
-                "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
-                "🇫🇮FI | vless | @V2RayTz | 8",
-                "🇮🇷IR | vless | @DailyV2RY | 139",
+                "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
+                "🇫🇮FI | vless | @V2RayTz | 9",
+                "🇷🇺RU | vless | @DailyV2RY | 133",
+                "🇹🇷TR | vless | @DailyV2RY | 134",
                 "🇩🇪DE | vless | @lrnbymaa | 5",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -146,6 +147,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇳🇱NL | vless | @forwardv2ray | 10",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇩🇪DE | vless | @kiava | 2",
@@ -200,9 +202,10 @@
                 "🏳️XX | vless | @prrofile_purple | 157",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 0",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
-                "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
-                "🇫🇮FI | vless | @V2RayTz | 8",
-                "🇮🇷IR | vless | @DailyV2RY | 139",
+                "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
+                "🇫🇮FI | vless | @V2RayTz | 9",
+                "🇷🇺RU | vless | @DailyV2RY | 133",
+                "🇹🇷TR | vless | @DailyV2RY | 134",
                 "🇩🇪DE | vless | @lrnbymaa | 5",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -217,6 +220,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇳🇱NL | vless | @forwardv2ray | 10",
                 "🇩🇪DE | vless | @kiava | 0",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇩🇪DE | vless | @kiava | 2",
@@ -1050,7 +1054,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
+            "tag": "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
             "type": "vless",
             "server": "104.248.194.223",
             "server_port": 443,
@@ -1086,7 +1090,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @V2RayTz | 8",
+            "tag": "🇫🇮FI | vless | @V2RayTz | 9",
             "type": "vless",
             "server": "95.216.171.190",
             "server_port": 443,
@@ -1122,11 +1126,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @DailyV2RY | 139",
+            "tag": "🇷🇺RU | vless | @DailyV2RY | 133",
             "type": "vless",
-            "server": "mci2.aidenchanel.site",
-            "server_port": 2087,
-            "uuid": "0f15b789-c99b-44bd-b56a-56d6363ffe97",
+            "server": "saint-petersburg-03.ptu.ink",
+            "server_port": 443,
+            "uuid": "aa3cdc67-e3f4-4032-99e9-7764a58d1e1b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1136,7 +1140,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.discordapp.com",
+                "server_name": "www.microsoft.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1145,16 +1149,38 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "lcvm3rCPpeyJLwpf67i5o6YD-DmLO4ZYP6GyDZ5tECY",
-                    "short_id": "62e66774"
+                    "public_key": "p1GJYEqIFZG-usLS30mHcVXYwHZbSULCabixH2jWf0c",
+                    "short_id": "cbcb4abf4d75f0c4"
                 }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vless | @DailyV2RY | 134",
+            "type": "vless",
+            "server": "turkey-01.ptu.ink",
+            "server_port": 443,
+            "uuid": "8633c34c-573a-4e2c-b3bf-1b6ea42101f0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@vpnAiden",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zGp41QGUA2TBVirEaFS34_n05w38JxQHKbqQxS-iHzM",
+                    "short_id": "cd2ccdd9761335d4"
+                }
             }
         },
         {
@@ -1581,6 +1607,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 10",
+            "type": "vless",
+            "server": "209.250.248.36",
+            "server_port": 443,
+            "uuid": "2cc67276-245d-4391-bc93-53fc852316cc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ico.org.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UQvayUhCKpvJGgB2hhHn9bMCIFPbCOBs3UtuNDJ1NX0",
+                    "short_id": "b14bfdb3"
                 }
             }
         },
