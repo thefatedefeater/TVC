@@ -124,9 +124,8 @@ proxies:
   - {"name":"🇦🇪AE | ss | @DeamNet_Proxy | 14","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | vmess | @ShadowProxy66 | 45","type":"vmess","server":"104.21.15.36","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
   - {"name":"🇸🇬SG | vmess | @V2rayng_Fast | 0","type":"vmess","server":"146.190.87.238","port":"19193","cipher":"auto","uuid":"0f94fdae-5653-4314-9c92-e57e5ec55513","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ow","headers":{"host":""}}}
-  - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 19","type":"ss","server":"134.195.196.178","port":804,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇾CY | ss | @OutlineVpnOfficial | 18","type":"ss","server":"85.239.40.69","port":21205,"password":"P84jEsm2JGaOIpEv","cipher":"aes-256-gcm"}
   - {"name":"🇸🇬SG | vmess | @yaney_01 | 2","type":"vmess","server":"8.222.154.110","port":"57035","cipher":"auto","uuid":"25ffd892-0ebf-4e29-98c5-dfba88fd714c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇧🇭BH | ss | @forwardv2ray | 17","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱NL | vmess | @eliya_chiter0 | 1","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
 proxy-groups:
   - name: MANUAL
@@ -140,9 +139,8 @@ proxy-groups:
       - '🇦🇪AE | ss | @DeamNet_Proxy | 14'
       - '🇨🇦CA | vmess | @ShadowProxy66 | 45'
       - '🇸🇬SG | vmess | @V2rayng_Fast | 0'
-      - '🇨🇦CA | ss | @OutlineVpnOfficial | 19'
+      - '🇨🇾CY | ss | @OutlineVpnOfficial | 18'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇧🇭BH | ss | @forwardv2ray | 17'
       - '🇳🇱NL | vmess | @eliya_chiter0 | 1'
   - name: URL-TEST
     type: url-test
@@ -156,9 +154,8 @@ proxy-groups:
       - '🇦🇪AE | ss | @DeamNet_Proxy | 14'
       - '🇨🇦CA | vmess | @ShadowProxy66 | 45'
       - '🇸🇬SG | vmess | @V2rayng_Fast | 0'
-      - '🇨🇦CA | ss | @OutlineVpnOfficial | 19'
+      - '🇨🇾CY | ss | @OutlineVpnOfficial | 18'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇧🇭BH | ss | @forwardv2ray | 17'
       - '🇳🇱NL | vmess | @eliya_chiter0 | 1'
   - name: FALLBACK
     type: fallback
@@ -171,9 +168,8 @@ proxy-groups:
       - '🇦🇪AE | ss | @DeamNet_Proxy | 14'
       - '🇨🇦CA | vmess | @ShadowProxy66 | 45'
       - '🇸🇬SG | vmess | @V2rayng_Fast | 0'
-      - '🇨🇦CA | ss | @OutlineVpnOfficial | 19'
+      - '🇨🇾CY | ss | @OutlineVpnOfficial | 18'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇧🇭BH | ss | @forwardv2ray | 17'
       - '🇳🇱NL | vmess | @eliya_chiter0 | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
