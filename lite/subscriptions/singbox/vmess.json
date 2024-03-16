@@ -107,12 +107,13 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇺🇸US | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇨🇿CZ | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 45",
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇦🇪AE | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 0"
             ]
@@ -122,12 +123,13 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇺🇸US | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇨🇿CZ | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 45",
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇦🇪AE | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 0"
             ],
@@ -169,7 +171,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 18",
+            "tag": "🇺🇸US | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "www.coldstone.club",
             "server_port": 8080,
@@ -193,7 +195,41 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "172.67.131.108",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇿CZ | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2086,
@@ -292,11 +328,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇦🇪AE | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "104.21.236.64",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "server": "94.140.0.110",
+            "server_port": 8880,
+            "uuid": "0d1bf26a-ce97-4707-a270-7f4d2ae37334",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -309,7 +345,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai08",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
