@@ -117,8 +117,8 @@
                 "🇫🇮FI | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
-                "🇺🇸US | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇰🇷KR | vless | @forwardv2ray | 17",
+                "🇧🇭BH | ss | @forwardv2ray | 17",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -200,8 +200,8 @@
                 "🇫🇮FI | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
-                "🇺🇸US | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -251,7 +251,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇰🇷KR | vless | @forwardv2ray | 17",
+                "🇧🇭BH | ss | @forwardv2ray | 17",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -587,7 +587,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -618,7 +618,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1875,35 +1875,14 @@
             }
         },
         {
-            "tag": "🇰🇷KR | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "218.147.178.231",
-            "server_port": 21267,
-            "uuid": "f775978b-6e22-41a8-ae5e-5f9779e6745f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "juzibaipiao.5112233.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "juzibaipiao.5112233.xyz"
-                }
-            }
+            "tag": "🇧🇭BH | ss | @forwardv2ray | 17",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇷🇴RO | vless | @FAKEOFTVC | 11",
