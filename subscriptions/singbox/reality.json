@@ -117,8 +117,6 @@
                 "🇫🇮FI | vless | @ipV2Ray | 16",
                 "🏳️XX | vless | @V2pedia | 11",
                 "🇬🇧GB | vless | @V2pedia | 13",
-                "🇩🇪DE | vless | @ARv2ray | 0",
-                "🇩🇪DE | vless | @ARv2ray | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -189,8 +187,6 @@
                 "🇫🇮FI | vless | @ipV2Ray | 16",
                 "🏳️XX | vless | @V2pedia | 11",
                 "🇬🇧GB | vless | @V2pedia | 13",
-                "🇩🇪DE | vless | @ARv2ray | 0",
-                "🇩🇪DE | vless | @ARv2ray | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -656,78 +652,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 0",
-            "type": "vless",
-            "server": "91.107.190.119",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.hetzner.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "z_YPbzYxvoilaT-xq4WyRPNuNTqFwID2oSwIBzsO9is",
-                    "short_id": "38630c46"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 1",
-            "type": "vless",
-            "server": "91.107.166.66",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KFOzSzVlzex1wZ67ZdIye-E69IGaa-ZjkDNLj9OHPU8",
-                    "short_id": "673b7256"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
