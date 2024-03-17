@@ -109,11 +109,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
-                "🇨🇦CA | vmess | @customv2ray | 8",
+                "🇺🇸US | vmess | @customv2ray | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇫🇷FR | vmess | @proxystore11 | 9",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🇵🇱PL | vmess | @v2Line | 8"
+                "🇵🇱PL | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @forwardv2ray | 17"
             ]
         },
         {
@@ -123,11 +124,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
-                "🇨🇦CA | vmess | @customv2ray | 8",
+                "🇺🇸US | vmess | @customv2ray | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇫🇷FR | vmess | @proxystore11 | 9",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🇵🇱PL | vmess | @v2Line | 8"
+                "🇵🇱PL | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -225,7 +227,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @customv2ray | 8",
+            "tag": "🇺🇸US | vmess | @customv2ray | 8",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -347,6 +349,33 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "147.135.3.12",
+            "server_port": 443,
+            "uuid": "37072f1f-3a7f-4e2b-b417-c072a30c9e71",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
