@@ -143,8 +143,8 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 37",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇺🇸US | vless | @V2RayTz | 16",
-                "🇺🇸US | vless | @DailyV2RY | 173",
+                "🇸🇪SE | vless | @V2RayTz | 12",
+                "🇨🇦CA | vless | @DailyV2RY | 173",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
@@ -161,7 +161,7 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇺🇸US | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | trojan | @forwardv2ray | 18",
                 "🇺🇸US | vless | @FAKEOFTVC | 9",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -219,8 +219,8 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 37",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇺🇸US | vless | @V2RayTz | 16",
-                "🇺🇸US | vless | @DailyV2RY | 173",
+                "🇸🇪SE | vless | @V2RayTz | 12",
+                "🇨🇦CA | vless | @DailyV2RY | 173",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
@@ -237,7 +237,7 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇺🇸US | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | trojan | @forwardv2ray | 18",
                 "🇺🇸US | vless | @FAKEOFTVC | 9",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1250,11 +1250,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2RayTz | 16",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 12",
             "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 2095,
-            "uuid": "0017b167-8725-49cd-8f57-4e17d0597818",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "c9886011-ed65-4376-b10a-234fd849c03c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1264,14 +1264,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.67.204.84"
+                    "Host": "185.146.173.59"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 173",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 173",
             "type": "vless",
             "server": "www.you.com",
             "server_port": 8080,
@@ -1685,16 +1685,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "147.135.3.12",
+            "tag": "🇨🇦CA | trojan | @forwardv2ray | 18",
+            "type": "trojan",
+            "server": "104.17.61.9",
             "server_port": 443,
-            "uuid": "37072f1f-3a7f-4e2b-b417-c072a30c9e71",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "password": "dba20dcb635e430fa4d3bfc303a149d2",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1702,12 +1697,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "jobscareerforlawyers.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/6b777a91",
+                "headers": {
+                    "Host": "jobscareerforlawyers.com"
                 }
             }
         },
