@@ -114,11 +114,11 @@
                 "🇫🇮FI | vless | @ipV2Ray | 16",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @frev2ray | 19",
-                "🇨🇦CA | vless | @ARv2ray | 13",
+                "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -167,13 +167,14 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇷CR | vless | @forwardv2ray | 17",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 7",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 0",
+                "🇺🇸US | vmess | @eliya_chiter0 | 0",
                 "🇩🇪DE | vless | @SvnTeam | 59",
                 "🇺🇸US | tuic | @TUICity | 17",
                 "🇨🇦CA | vless | @V2FETCH | 6",
@@ -195,11 +196,11 @@
                 "🇫🇮FI | vless | @ipV2Ray | 16",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @frev2ray | 19",
-                "🇨🇦CA | vless | @ARv2ray | 13",
+                "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 5",
+                "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -248,13 +249,14 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇷CR | vless | @forwardv2ray | 17",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 7",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 0",
+                "🇺🇸US | vmess | @eliya_chiter0 | 0",
                 "🇩🇪DE | vless | @SvnTeam | 59",
                 "🇺🇸US | tuic | @TUICity | 17",
                 "🇨🇦CA | vless | @V2FETCH | 6",
@@ -500,7 +502,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 13",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 12",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -604,7 +606,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 5",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1829,6 +1831,37 @@
             }
         },
         {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "190.93.247.247",
+            "server_port": 443,
+            "uuid": "Parsashonam-26",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.offch.blog",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mail.offch.blog"
+                }
+            }
+        },
+        {
             "tag": "🇷🇴RO | vless | @FAKEOFTVC | 11",
             "type": "vless",
             "server": "ariossh.top",
@@ -1956,7 +1989,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 0",
+            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 0",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
