@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇺🇸US | vless | @melov2ray | 10",
                 "🇮🇷IR | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
@@ -163,7 +163,7 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇩🇪DE | trojan | @forwardv2ray | 13",
                 "🇷🇴RO | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -186,7 +186,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇺🇸US | vless | @melov2ray | 10",
                 "🇮🇷IR | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
@@ -240,7 +240,7 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇩🇪DE | trojan | @forwardv2ray | 13",
                 "🇷🇴RO | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -364,7 +364,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 10",
+            "tag": "🇺🇸US | vless | @melov2ray | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1734,37 +1734,15 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "8955.outline-vpn.cloud",
+            "tag": "🇩🇪DE | trojan | @forwardv2ray | 13",
+            "type": "trojan",
+            "server": "51.75.77.237",
             "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "password": "895afd17-1136-4ca2-9f8a-246f2c35d5ab",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
             }
         },
         {
