@@ -115,7 +115,7 @@
                 "🇨🇷CR | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 30",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -132,7 +132,7 @@
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇮🇳IN | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @prrofile_purple | 175",
-                "🇺🇸US | vmess | @customv2ray | 8",
+                "🇺🇸US | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 8",
@@ -162,8 +162,8 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 15",
-                "🇨🇦CA | vless | @FAKEOFTVC | 8",
+                "🇧🇭BH | ss | @forwardv2ray | 11",
+                "🇺🇸US | vless | @FAKEOFTVC | 8",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🇬🇧GB | ss | @proxy_mtm | 1",
@@ -192,7 +192,7 @@
                 "🇨🇷CR | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 30",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -209,7 +209,7 @@
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇮🇳IN | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @prrofile_purple | 175",
-                "🇺🇸US | vmess | @customv2ray | 8",
+                "🇺🇸US | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 8",
@@ -239,8 +239,8 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 15",
-                "🇨🇦CA | vless | @FAKEOFTVC | 8",
+                "🇧🇭BH | ss | @forwardv2ray | 11",
+                "🇺🇸US | vless | @FAKEOFTVC | 8",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🇬🇧GB | ss | @proxy_mtm | 1",
@@ -530,7 +530,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -913,16 +913,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @customv2ray | 8",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "98b879fc-ed38-4537-f02f-e88e4892d48c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | vless | @customv2ray | 10",
+            "type": "vless",
+            "server": "freee.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -930,7 +927,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "eu4.nlist.eu.org",
+                "server_name": "w1.sylar8.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -940,9 +937,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/liu",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "eu4.nlist.eu.org"
+                    "Host": "w1.sylar8.eu.org"
                 }
             }
         },
@@ -1673,38 +1670,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 15",
-            "type": "vless",
-            "server": "172.67.146.100",
+            "tag": "🇧🇭BH | ss | @forwardv2ray | 11",
+            "type": "shadowsocks",
+            "server": "series-a2-me.varzesh360.co",
             "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "baipiao163.stunning-bassoon.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@proxy_mtm\/",
-                "headers": {
-                    "Host": "baipiao163.stunning-bassoon.pages.dev"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 8",
+            "tag": "🇺🇸US | vless | @FAKEOFTVC | 8",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 2053,
