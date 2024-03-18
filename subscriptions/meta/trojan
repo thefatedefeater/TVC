@@ -151,11 +151,11 @@ proxies:
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"13.50.57.122","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | trojan | @DirectVPN | 17","type":"trojan","server":"18.193.57.130","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | trojan | @oneclickvpnkeys | 1","type":"trojan","server":"3.75.28.99","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🏳️XX | trojan | @forwardv2ray | 6","type":"trojan","server":"127.0.0.1","port":2080,"udp":false,"password":"acbabca-caab-baca-dacb-baccbbbaacca","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🏳️XX | trojan | @forwardv2ray | 8","type":"trojan","server":"127.0.0.1","port":8080,"udp":false,"password":"acbcaab-baac-abac-cabd-abbbccaacbac","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🏳️XX | trojan | @forwardv2ray | 9","type":"trojan","server":"127.0.0.1","port":1080,"udp":false,"password":"baaaccb-cbaa-aacb-abcd-aaabbccbcacb","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇮🇪IE | trojan | @forwardv2ray | 10","type":"trojan","server":"52.17.139.242","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @forwardv2ray | 11","type":"trojan","server":"18.175.36.2","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🏳️XX | trojan | @forwardv2ray | 1","type":"trojan","server":"127.0.0.1","port":8080,"udp":false,"password":"aabaccb-bcaa-caab-abcd-aaccabcbacbb","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🏳️XX | trojan | @forwardv2ray | 2","type":"trojan","server":"127.0.0.1","port":2080,"udp":false,"password":"acaacbb-bcaa-aabc-dcab-ccbabbacbcaa","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇫🇷FR | trojan | @forwardv2ray | 4","type":"trojan","server":"15.237.229.55","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇫🇷FR | trojan | @forwardv2ray | 6","type":"trojan","server":"35.181.206.146","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇫🇷FR | trojan | @forwardv2ray | 8","type":"trojan","server":"13.36.212.234","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -193,11 +193,11 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇩🇪DE | trojan | @DirectVPN | 17'
       - '🇩🇪DE | trojan | @oneclickvpnkeys | 1'
-      - '🏳️XX | trojan | @forwardv2ray | 6'
-      - '🏳️XX | trojan | @forwardv2ray | 8'
-      - '🏳️XX | trojan | @forwardv2ray | 9'
-      - '🇮🇪IE | trojan | @forwardv2ray | 10'
-      - '🇬🇧GB | trojan | @forwardv2ray | 11'
+      - '🏳️XX | trojan | @forwardv2ray | 1'
+      - '🏳️XX | trojan | @forwardv2ray | 2'
+      - '🇫🇷FR | trojan | @forwardv2ray | 4'
+      - '🇫🇷FR | trojan | @forwardv2ray | 6'
+      - '🇫🇷FR | trojan | @forwardv2ray | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -235,11 +235,11 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇩🇪DE | trojan | @DirectVPN | 17'
       - '🇩🇪DE | trojan | @oneclickvpnkeys | 1'
-      - '🏳️XX | trojan | @forwardv2ray | 6'
-      - '🏳️XX | trojan | @forwardv2ray | 8'
-      - '🏳️XX | trojan | @forwardv2ray | 9'
-      - '🇮🇪IE | trojan | @forwardv2ray | 10'
-      - '🇬🇧GB | trojan | @forwardv2ray | 11'
+      - '🏳️XX | trojan | @forwardv2ray | 1'
+      - '🏳️XX | trojan | @forwardv2ray | 2'
+      - '🇫🇷FR | trojan | @forwardv2ray | 4'
+      - '🇫🇷FR | trojan | @forwardv2ray | 6'
+      - '🇫🇷FR | trojan | @forwardv2ray | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -276,11 +276,11 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇩🇪DE | trojan | @DirectVPN | 17'
       - '🇩🇪DE | trojan | @oneclickvpnkeys | 1'
-      - '🏳️XX | trojan | @forwardv2ray | 6'
-      - '🏳️XX | trojan | @forwardv2ray | 8'
-      - '🏳️XX | trojan | @forwardv2ray | 9'
-      - '🇮🇪IE | trojan | @forwardv2ray | 10'
-      - '🇬🇧GB | trojan | @forwardv2ray | 11'
+      - '🏳️XX | trojan | @forwardv2ray | 1'
+      - '🏳️XX | trojan | @forwardv2ray | 2'
+      - '🇫🇷FR | trojan | @forwardv2ray | 4'
+      - '🇫🇷FR | trojan | @forwardv2ray | 6'
+      - '🇫🇷FR | trojan | @forwardv2ray | 8'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
