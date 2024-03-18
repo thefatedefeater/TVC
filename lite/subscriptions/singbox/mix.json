@@ -109,8 +109,8 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇺🇸US | vless | @melov2ray | 10",
-                "🇮🇷IR | vless | @frev2ray | 18",
+                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇮🇷IR | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
@@ -122,7 +122,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 24",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -163,7 +163,7 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇺🇸US | vmess | @forwardv2ray | 16",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇷🇴RO | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -186,8 +186,8 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇺🇸US | vless | @melov2ray | 10",
-                "🇮🇷IR | vless | @frev2ray | 18",
+                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇮🇷IR | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
@@ -199,7 +199,7 @@
                 "🇺🇸US | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 24",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -240,7 +240,7 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇺🇸US | vmess | @forwardv2ray | 16",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇷🇴RO | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -364,7 +364,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 10",
+            "tag": "🇨🇦CA | vless | @melov2ray | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -395,7 +395,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @frev2ray | 18",
+            "tag": "🇮🇷IR | vless | @frev2ray | 19",
             "type": "vless",
             "server": "185.211.59.210",
             "server_port": 443,
@@ -701,7 +701,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1734,11 +1734,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 16",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "129.146.113.254",
-            "server_port": 43121,
-            "uuid": "d53b39e2-925e-45b6-9389-46b9fa95878b",
+            "server": "8955.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1749,11 +1749,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "129.146.113.254"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
