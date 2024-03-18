@@ -109,13 +109,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
-                "🇺🇸US | vmess | @customv2ray | 8",
+                "🇨🇦CA | vmess | @customv2ray | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇫🇷FR | vmess | @proxystore11 | 9",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 3",
-                "🇵🇱PL | vmess | @v2Line | 8",
-                "🇨🇦CA | vmess | @forwardv2ray | 15"
+                "🇵🇱PL | vmess | @v2Line | 8"
             ]
         },
         {
@@ -125,13 +124,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
-                "🇺🇸US | vmess | @customv2ray | 8",
+                "🇨🇦CA | vmess | @customv2ray | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇫🇷FR | vmess | @proxystore11 | 9",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 3",
-                "🇵🇱PL | vmess | @v2Line | 8",
-                "🇨🇦CA | vmess | @forwardv2ray | 15"
+                "🇵🇱PL | vmess | @v2Line | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -229,7 +227,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @customv2ray | 8",
+            "tag": "🇨🇦CA | vmess | @customv2ray | 8",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -366,30 +364,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 15",
-            "type": "vmess",
-            "server": "151.101.193.57",
-            "server_port": 80,
-            "uuid": "66ccb11f-75a7-4282-8a60-31fed447401d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/aries",
                 "headers": {
                     "Host": ""
                 }
