@@ -112,7 +112,7 @@
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇬🇧GB | vmess | @forwardv2ray | 16",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @SINABIGO | 2"
             ]
         },
@@ -126,7 +126,7 @@
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇬🇧GB | vmess | @forwardv2ray | 16",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @SINABIGO | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -297,11 +297,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @forwardv2ray | 16",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "max-ip.hiroman5445.ir",
-            "server_port": 3586,
-            "uuid": "bae4c70d-ed9d-46b8-af33-74ea1e1319dd",
+            "server": "104.21.15.212",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -311,6 +311,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
             }
         },
         {
