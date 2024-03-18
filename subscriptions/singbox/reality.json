@@ -124,6 +124,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇩🇪DE | vless | @servermomo | 1",
+                "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇳🇱NL | vless | @ShadowProxy66 | 33",
                 "🇩🇪DE | vless | @proxyymeliii | 13",
@@ -139,7 +140,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -193,6 +194,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇩🇪DE | vless | @servermomo | 1",
+                "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇳🇱NL | vless | @ShadowProxy66 | 33",
                 "🇩🇪DE | vless | @proxyymeliii | 13",
@@ -208,7 +210,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -873,6 +875,35 @@
             }
         },
         {
+            "tag": "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
+            "type": "vless",
+            "server": "208.85.19.150",
+            "server_port": 443,
+            "uuid": "03107017-354b-4376-97e4-41cbe56e14c2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GW8CCzXJ_5Nu6tHaYeY4TPKQVgPbt10jZy7GjU9_zXQ",
+                    "short_id": "73104ca0377c653f"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
             "type": "vless",
             "server": "104.248.194.223",
@@ -1350,7 +1381,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
