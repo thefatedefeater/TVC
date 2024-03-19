@@ -116,8 +116,8 @@
                 "🇫🇮FI | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 21",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
-                "🇺🇸US | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 6",
+                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 21",
                 "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🇸🇦SA | vless | @vpn_xw | 1",
@@ -145,7 +145,7 @@
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 5",
-                "🇨🇦CA | vless | @sinabigo | 0",
+                "🇺🇸US | vless | @sinabigo | 0",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 15",
@@ -156,7 +156,6 @@
                 "🇸🇪SE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -184,8 +183,8 @@
                 "🇫🇮FI | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 21",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
-                "🇺🇸US | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 6",
+                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 21",
                 "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🇸🇦SA | vless | @vpn_xw | 1",
@@ -213,7 +212,7 @@
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 5",
-                "🇨🇦CA | vless | @sinabigo | 0",
+                "🇺🇸US | vless | @sinabigo | 0",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 15",
@@ -224,7 +223,6 @@
                 "🇸🇪SE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -536,7 +534,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -567,7 +565,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 6",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 6",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 443,
@@ -1307,7 +1305,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 0",
+            "tag": "🇺🇸US | vless | @sinabigo | 0",
             "type": "vless",
             "server": "w2.sylarsun.eu.org",
             "server_port": 443,
@@ -1580,37 +1578,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "discord.gg"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "172.64.80.150",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
