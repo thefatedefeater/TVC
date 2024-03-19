@@ -115,19 +115,20 @@
                 "🇫🇮FI | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🏳️XX | vless | @V2pedia | 13",
-                "🇬🇧GB | vless | @V2pedia | 15",
-                "🇫🇮FI | vless | @ARv2ray | 7",
+                "🏳️XX | vless | @V2pedia | 14",
+                "🇬🇧GB | vless | @V2pedia | 16",
+                "🇫🇮FI | vless | @ARv2ray | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
+                "🇪🇸ES | vless | @azadi_az_inja_migzare | 1",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇫🇮FI | vless | @v2ray1_ng | 8",
                 "🇩🇪DE | vless | @V2RayTz | 14",
+                "🇩🇪DE | vless | @DailyV2RY | 137",
                 "🇩🇪DE | vless | @lrnbymaa | 6",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -183,19 +184,20 @@
                 "🇫🇮FI | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🏳️XX | vless | @V2pedia | 13",
-                "🇬🇧GB | vless | @V2pedia | 15",
-                "🇫🇮FI | vless | @ARv2ray | 7",
+                "🏳️XX | vless | @V2pedia | 14",
+                "🇬🇧GB | vless | @V2pedia | 16",
+                "🇫🇮FI | vless | @ARv2ray | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
+                "🇪🇸ES | vless | @azadi_az_inja_migzare | 1",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇫🇮FI | vless | @v2ray1_ng | 8",
                 "🇩🇪DE | vless | @V2RayTz | 14",
+                "🇩🇪DE | vless | @DailyV2RY | 137",
                 "🇩🇪DE | vless | @lrnbymaa | 6",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -575,7 +577,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 13",
+            "tag": "🏳️XX | vless | @V2pedia | 14",
             "type": "vless",
             "server": "[2a01:4f8:1c0c:7523::1]",
             "server_port": 2096,
@@ -611,7 +613,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @V2pedia | 15",
+            "tag": "🇬🇧GB | vless | @V2pedia | 16",
             "type": "vless",
             "server": "138.68.176.205",
             "server_port": 2096,
@@ -647,7 +649,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @ARv2ray | 7",
+            "tag": "🇫🇮FI | vless | @ARv2ray | 9",
             "type": "vless",
             "server": "65.109.202.24",
             "server_port": 443,
@@ -864,7 +866,7 @@
             }
         },
         {
-            "tag": "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
+            "tag": "🇪🇸ES | vless | @azadi_az_inja_migzare | 1",
             "type": "vless",
             "server": "208.85.19.150",
             "server_port": 443,
@@ -995,6 +997,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 137",
+            "type": "vless",
+            "server": "49.12.22.198",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "check-host.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7eQeVx7__rW0OT9DgFJRwNFe_4nFAMfR7bxmBC7udC0",
+                    "short_id": "9edaa5e5"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
