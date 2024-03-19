@@ -115,7 +115,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 10",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇸🇪SE | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
         },
@@ -132,7 +131,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 10",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇸🇪SE | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -399,30 +397,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "185.146.173.59",
-            "server_port": 2052,
-            "uuid": "V2RAXX",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2RAXX",
                 "headers": {
                     "Host": ""
                 }
