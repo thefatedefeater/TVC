@@ -118,7 +118,6 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇫🇷FR | ss | @DeamNet_Proxy | 7","type":"ss","server":"149.202.82.172","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇧🇭BH | ss | @VmessProtocol | 3","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @VmessProtocol | 4","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷FR | ss | @OutlineVpnOfficial | 3","type":"ss","server":"149.202.82.172","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
@@ -136,7 +135,9 @@ proxies:
   - {"name":"🇯🇵JP | ss | @OutlineVpnOfficial | 15","type":"ss","server":"185.172.113.182","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 16","type":"ss","server":"38.75.136.135","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
   - {"name":"🇮🇪IE | ss | @OutlineVpnOfficial | 17","type":"ss","server":"52.178.209.160","port":2606,"password":"zh7ETDQRvHCsIIPIrSHwHa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🏳️XX | ss | @ROMAX_VPN | 1","type":"ss","server":"[2a12:5940:5237::2]","port":7261,"password":"pZvwP17Nlz2z6jsYnVgZgf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @forwardv2ray | 11","type":"ss","server":"3.127.64.39","port":2082,"password":"BTy8ZxOq+UYWykDHhlON8onRzVOVKsvck+hZwNUl0mY=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏳️XX | ss | @forwardv2ray | 16","type":"ss","server":"[2a12:5940:5237::2]","port":7261,"password":"pZvwP17Nlz2z6jsYnVgZgf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏳️XX | ss | @forwardv2ray | 17","type":"ss","server":"[2a01:4f9:c012:d302::1]","port":39891,"password":"qDyYo4NCAVw1dVOyApoKV8","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @ROMAX_VPN | 6","type":"ss","server":"13.42.169.32","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -144,7 +145,6 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇷FR | ss | @DeamNet_Proxy | 7'
       - '🇧🇭BH | ss | @VmessProtocol | 3'
       - '🇬🇧GB | ss | @VmessProtocol | 4'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 3'
@@ -162,7 +162,9 @@ proxy-groups:
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇮🇪IE | ss | @OutlineVpnOfficial | 17'
-      - '🏳️XX | ss | @ROMAX_VPN | 1'
+      - '🇩🇪DE | ss | @forwardv2ray | 11'
+      - '🏳️XX | ss | @forwardv2ray | 16'
+      - '🏳️XX | ss | @forwardv2ray | 17'
       - '🇬🇧GB | ss | @ROMAX_VPN | 6'
   - name: URL-TEST
     type: url-test
@@ -170,7 +172,6 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇷FR | ss | @DeamNet_Proxy | 7'
       - '🇧🇭BH | ss | @VmessProtocol | 3'
       - '🇬🇧GB | ss | @VmessProtocol | 4'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 3'
@@ -188,14 +189,15 @@ proxy-groups:
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇮🇪IE | ss | @OutlineVpnOfficial | 17'
-      - '🏳️XX | ss | @ROMAX_VPN | 1'
+      - '🇩🇪DE | ss | @forwardv2ray | 11'
+      - '🏳️XX | ss | @forwardv2ray | 16'
+      - '🏳️XX | ss | @forwardv2ray | 17'
       - '🇬🇧GB | ss | @ROMAX_VPN | 6'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇷FR | ss | @DeamNet_Proxy | 7'
       - '🇧🇭BH | ss | @VmessProtocol | 3'
       - '🇬🇧GB | ss | @VmessProtocol | 4'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 3'
@@ -213,7 +215,9 @@ proxy-groups:
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 15'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
       - '🇮🇪IE | ss | @OutlineVpnOfficial | 17'
-      - '🏳️XX | ss | @ROMAX_VPN | 1'
+      - '🇩🇪DE | ss | @forwardv2ray | 11'
+      - '🏳️XX | ss | @forwardv2ray | 16'
+      - '🏳️XX | ss | @forwardv2ray | 17'
       - '🇬🇧GB | ss | @ROMAX_VPN | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
