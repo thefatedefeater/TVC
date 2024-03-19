@@ -113,7 +113,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 11",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @SINABIGO | 2"
             ]
         },
@@ -128,7 +127,6 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 11",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @SINABIGO | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -310,30 +308,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "us-22.hihu.net",
-            "server_port": 80,
-            "uuid": "66f477c0-e4ab-11ee-b538-205c6d5f5d78",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/kgbtco4i",
                 "headers": {
                     "Host": ""
                 }
