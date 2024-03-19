@@ -112,9 +112,9 @@
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @proxyymeliii | 12",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 11",
+                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @SINABIGO | 2"
+                "🇨🇦CA | vmess | @forwardv2ray | 18"
             ]
         },
         {
@@ -127,9 +127,9 @@
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @proxyymeliii | 12",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 11",
+                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @SINABIGO | 2"
+                "🇨🇦CA | vmess | @forwardv2ray | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -309,11 +309,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 11",
+            "tag": "🏳️XX | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "172.67.196.110",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "aacbabc-acba-abac-dacb-bcababccacba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -323,23 +323,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kellie.makeup",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kellie.makeup"
-                }
             }
         },
         {
@@ -367,7 +350,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @SINABIGO | 2",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
