@@ -109,13 +109,13 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 12",
+                "🇺🇸US | vless | @melov2ray | 12",
                 "🇮🇷IR | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 4",
+                "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -154,6 +154,7 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 12",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -174,13 +175,13 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 12",
+                "🇺🇸US | vless | @melov2ray | 12",
                 "🇮🇷IR | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 4",
+                "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -219,6 +220,7 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 12",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -275,7 +277,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "3.125.207.141",
+            "server": "18.193.219.187",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -340,7 +342,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 12",
+            "tag": "🇺🇸US | vless | @melov2ray | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -489,7 +491,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 4",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 4",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 443,
@@ -1515,6 +1517,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 12",
+            "type": "vless",
+            "server": "104.21.51.208",
+            "server_port": 443,
+            "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "watashi.free.de.mnhacker.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram : FreakConfig \/",
+                "headers": {
+                    "Host": "watashi.free.de.mnhacker.eu.org"
                 }
             }
         },
