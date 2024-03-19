@@ -113,7 +113,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 11",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @SINABIGO | 2"
             ]
         },
@@ -128,7 +128,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 11",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @SINABIGO | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -316,11 +316,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "kittiy.sbs",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "us-22.hihu.net",
+            "server_port": 80,
+            "uuid": "66f477c0-e4ab-11ee-b538-205c6d5f5d78",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -331,21 +331,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "kittiy.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/kgbtco4i",
                 "headers": {
-                    "Host": "kittiy.sbs"
+                    "Host": ""
                 }
             }
         },
