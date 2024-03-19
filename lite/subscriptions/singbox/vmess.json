@@ -108,14 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🏳️XX | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @proxyymeliii | 12",
                 "🇨🇦CA | vmess | @proxystore11 | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇺🇸US | vmess | @forwardv2ray | 13",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
         },
@@ -125,14 +124,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🏳️XX | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @proxyymeliii | 12",
                 "🇨🇦CA | vmess | @proxystore11 | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇺🇸US | vmess | @forwardv2ray | 13",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -197,11 +195,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "mtn-----join.outline-vpn.cloud",
+            "server": "blog.clean100.ir",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "9ecf4499-42ee-4837-a28c-6b648a9896ee",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -214,7 +212,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vip2323.cfd",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -224,9 +222,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/M0BOgOW7W2xZntbQPuBi62",
                 "headers": {
-                    "Host": "vip2323.cfd"
+                    "Host": ""
                 }
             }
         },
@@ -384,40 +382,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 13",
-            "type": "vmess",
-            "server": "before2--join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "meroiy.icu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "meroiy.icu"
                 }
             }
         },
