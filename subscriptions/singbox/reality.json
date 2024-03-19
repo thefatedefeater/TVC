@@ -126,7 +126,8 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 1",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
-                "🇩🇪DE | vless | @V2RayTz | 10",
+                "🏳️XX | vless | @V2RayTz | 5",
+                "🇩🇪DE | vless | @V2RayTz | 12",
                 "🇩🇪DE | vless | @DailyV2RY | 139",
                 "🇩🇪DE | vless | @lrnbymaa | 8",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -194,7 +195,8 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 1",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
-                "🇩🇪DE | vless | @V2RayTz | 10",
+                "🏳️XX | vless | @V2RayTz | 5",
+                "🇩🇪DE | vless | @V2RayTz | 12",
                 "🇩🇪DE | vless | @DailyV2RY | 139",
                 "🇩🇪DE | vless | @lrnbymaa | 8",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -929,7 +931,43 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 10",
+            "tag": "🏳️XX | vless | @V2RayTz | 5",
+            "type": "vless",
+            "server": "[2a01:4ff:f0:118b::4f]",
+            "server_port": 443,
+            "uuid": "0c437c6f-7de9-4949-84ef-5f2969f5e722",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gsmarena.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw",
+                    "short_id": "32d7a82d"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @V2RayTz | 12",
             "type": "vless",
             "server": "91.107.241.174",
             "server_port": 443,
