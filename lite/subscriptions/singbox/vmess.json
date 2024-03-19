@@ -114,6 +114,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 6",
                 "🇵🇱PL | vmess | @v2Line | 9",
+                "🇫🇷FR | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @SINABIGO | 2"
             ]
         },
@@ -129,6 +130,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 6",
                 "🇵🇱PL | vmess | @v2Line | 9",
+                "🇫🇷FR | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @SINABIGO | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -337,6 +339,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "fr-v2ray.freevmess.com",
+            "server_port": 8442,
+            "uuid": "60df4ec6-7506-407e-998e-b1539fc0630f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
