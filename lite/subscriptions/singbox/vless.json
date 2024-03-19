@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇺🇸US | vless | @melov2ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 12",
                 "🇮🇷IR | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
@@ -140,7 +140,7 @@
                 "🇸🇪SE | vless | @proxyymeliii | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 17",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🏳️XX | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @VmessProtocol | 6",
                 "🇨🇦CA | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 1",
@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇸🇦SA | vless | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -167,7 +167,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇮🇷IR | vless | @TIKTOK_PROXY | 4",
-                "🇨🇦CA | vless | @TVCminer | 12"
+                "🇺🇸US | vless | @TVCminer | 12"
             ]
         },
         {
@@ -177,7 +177,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇺🇸US | vless | @melov2ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 12",
                 "🇮🇷IR | vless | @frev2ray | 19",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 20",
@@ -208,7 +208,7 @@
                 "🇸🇪SE | vless | @proxyymeliii | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 17",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🏳️XX | vless | @V2RayTz | 17",
+                "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @VmessProtocol | 6",
                 "🇨🇦CA | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 1",
@@ -224,7 +224,7 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇸🇦SA | vless | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -235,7 +235,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 6",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇮🇷IR | vless | @TIKTOK_PROXY | 4",
-                "🇨🇦CA | vless | @TVCminer | 12"
+                "🇺🇸US | vless | @TVCminer | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -346,7 +346,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 12",
+            "tag": "🇨🇦CA | vless | @melov2ray | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1162,39 +1162,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2RayTz | 17",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 17",
             "type": "vless",
-            "server": "[2a12:5940:d0cb::2]",
-            "server_port": 2053,
-            "uuid": "830382ab-4990-463a-b234-d646bcc4cb86",
-            "flow": "xtls-rprx-vision",
+            "server": "104.18.202.232",
+            "server_port": 8080,
+            "uuid": "Parsashonam-29",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sOBhMrpX5oQMyOg5yalwySonHIXPHqVsrZRXyVC4uEE",
-                    "short_id": "f95b78cc"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.18.202.232"
+                }
             }
         },
         {
@@ -1619,11 +1604,11 @@
             }
         },
         {
-            "tag": "🇸🇦SA | vless | @forwardv2ray | 15",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
             "type": "vless",
-            "server": "fr.vpnbase.net",
-            "server_port": 80,
-            "uuid": "1949f066-bcb0-49be-88e9-74abd940f80e",
+            "server": "104.31.16.65",
+            "server_port": 443,
+            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1631,11 +1616,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "filTer-1tg.pAges.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/http",
+                "path": "\/?ed=2047",
                 "headers": {
-                    "Host": "fr.vpnbase.net"
+                    "Host": "filTer-1tg.pAges.DeV"
                 }
             }
         },
@@ -1847,7 +1842,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @TVCminer | 12",
+            "tag": "🇺🇸US | vless | @TVCminer | 12",
             "type": "vless",
             "server": "steel.footballlovernews.com",
             "server_port": 443,
