@@ -110,12 +110,11 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @proxyymeliii | 11",
                 "🇨🇦CA | vmess | @proxystore11 | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇩🇪DE | vmess | @forwardv2ray | 17",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
         },
@@ -127,12 +126,11 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @proxyymeliii | 11",
                 "🇨🇦CA | vmess | @proxystore11 | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇩🇪DE | vmess | @forwardv2ray | 17",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -226,30 +224,6 @@
             "server": "104.21.90.218",
             "server_port": 2086,
             "uuid": "e690ff9e-1676-4be3-d136-dcae586cb1e7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @proxyymeliii | 11",
-            "type": "vmess",
-            "server": "six.hamrahavval.cfd",
-            "server_port": 2086,
-            "uuid": "fd6999fa-71df-4e80-894e-15f5c94852db",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -368,11 +342,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 17",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "164.92.178.232",
-            "server_port": 8080,
-            "uuid": "69b13dec-2642-49b7-c6fb-e205a54463a0",
+            "server": "iran-011-join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -383,11 +357,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kittiy.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "kittiy.sbs"
                 }
             }
         },
