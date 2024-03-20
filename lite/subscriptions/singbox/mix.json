@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 8",
-                "🇨🇦CA | vless | @v2rayngvpn | 9",
+                "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 45",
                 "🇨🇦CA | vless | @ServerNett | 6",
@@ -168,7 +168,7 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇦🇪AE | ss | @forwardv2ray | 18",
+                "🇮🇷IR | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 1",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 8",
-                "🇨🇦CA | vless | @v2rayngvpn | 9",
+                "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 45",
                 "🇨🇦CA | vless | @ServerNett | 6",
@@ -248,7 +248,7 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇦🇪AE | ss | @forwardv2ray | 18",
+                "🇮🇷IR | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 1",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1164,9 +1164,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 9",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 10",
             "type": "vless",
-            "server": "162.159.135.79",
+            "server": "00-join.outline-vpn.cloud",
             "server_port": 443,
             "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
             "flow": "",
@@ -1188,7 +1188,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
+                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1?ed",
                 "headers": {
                     "Host": "edge.020770.xyz"
                 }
@@ -1900,14 +1900,18 @@
             }
         },
         {
-            "tag": "🇦🇪AE | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "series-a2.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "62.60.132.47",
+            "server_port": 8101,
+            "uuid": "1f3444f2-78fb-4d7e-aca0-7900ff2513af",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇳🇱NL | vless | @FAKEOFTVC | 1",
