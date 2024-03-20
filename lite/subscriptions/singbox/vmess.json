@@ -112,7 +112,8 @@
                 "🇨🇦CA | vmess | @DailyV2RY | 131",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
-                "🇵🇱PL | vmess | @v2Line | 9"
+                "🇵🇱PL | vmess | @v2Line | 9",
+                "🇩🇪DE | vmess | @forwardv2ray | 17"
             ]
         },
         {
@@ -125,7 +126,8 @@
                 "🇨🇦CA | vmess | @DailyV2RY | 131",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
-                "🇵🇱PL | vmess | @v2Line | 9"
+                "🇵🇱PL | vmess | @v2Line | 9",
+                "🇩🇪DE | vmess | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -309,6 +311,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "46.101.209.81",
+            "server_port": 48927,
+            "uuid": "89777bb3-bc7b-4248-bf31-95f0e0dd68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         }
     ],
