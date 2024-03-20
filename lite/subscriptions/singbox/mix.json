@@ -113,7 +113,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 21",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 14",
+                "🇺🇸US | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @V2pedia | 26",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇦CA | vless | @ARv2ray | 14",
@@ -168,7 +168,7 @@
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇧🇭BH | ss | @forwardv2ray | 16",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 6",
@@ -194,7 +194,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 21",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 14",
+                "🇺🇸US | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @V2pedia | 26",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇦CA | vless | @ARv2ray | 14",
@@ -249,7 +249,7 @@
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇧🇭BH | ss | @forwardv2ray | 16",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 6",
@@ -400,7 +400,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.37.122.24",
+            "server": "15.236.227.64",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -496,7 +496,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 14",
+            "tag": "🇺🇸US | vless | @melov2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -900,7 +900,7 @@
         {
             "tag": "🇫🇷FR | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "15.237.68.5",
+            "server": "52.47.93.170",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -922,7 +922,7 @@
         {
             "tag": "🇨🇦CA | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "15.157.6.180",
+            "server": "3.97.214.28",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1855,35 +1855,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "172.64.229.31",
-            "server_port": 8443,
-            "uuid": "86cb9a9b-dc2e-45d6-b35d-7ce1daa32a15",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dns68.shift.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "dns68.shift.cloudns.org"
-                }
-            }
+            "tag": "🇧🇭BH | ss | @forwardv2ray | 16",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | vless | @mehrosaboran | 7",
