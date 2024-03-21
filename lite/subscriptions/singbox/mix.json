@@ -150,11 +150,11 @@
                 "🇨🇦CA | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 6",
-                "🇺🇸US | vless | @DailyV2RY | 139",
-                "🇺🇸US | vless | @sinabigo | 0",
+                "🇨🇦CA | vless | @DailyV2RY | 139",
+                "🇨🇦CA | vless | @sinabigo | 0",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -167,7 +167,7 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇭🇰HK | vmess | @forwardv2ray | 17",
+                "🇭🇰HK | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 1",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -230,11 +230,11 @@
                 "🇨🇦CA | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 6",
-                "🇺🇸US | vless | @DailyV2RY | 139",
-                "🇺🇸US | vless | @sinabigo | 0",
+                "🇨🇦CA | vless | @DailyV2RY | 139",
+                "🇨🇦CA | vless | @sinabigo | 0",
                 "🏳️XX | vless | @lrnbymaa | 10",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -247,7 +247,7 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇭🇰HK | vmess | @forwardv2ray | 17",
+                "🇭🇰HK | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 1",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1420,7 +1420,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 139",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 139",
             "type": "vless",
             "server": "Zula.Ir.",
             "server_port": 8443,
@@ -1451,7 +1451,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @sinabigo | 0",
+            "tag": "🇨🇦CA | vless | @sinabigo | 0",
             "type": "vless",
             "server": "w2.sylarsun.eu.org",
             "server_port": 443,
@@ -1506,7 +1506,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
+            "tag": "🇺🇸US | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "pooo.mmdargon.top",
             "server_port": 2053,
@@ -1854,16 +1854,13 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "47.242.155.183",
-            "server_port": 2053,
-            "uuid": "5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇭🇰HK | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "204.93.210.6",
+            "server_port": 2087,
+            "uuid": "f775978b-6e22-41a8-ae5e-5f9779e6745f",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1871,7 +1868,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cfhk.393930.xyz",
+                "server_name": "juzibaipiao.5112233.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1881,9 +1878,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "cfhk.393930.xyz"
+                    "Host": "juzibaipiao.5112233.xyz"
                 }
             }
         },
