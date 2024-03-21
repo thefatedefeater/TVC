@@ -116,8 +116,8 @@
                 "🏳️XX | vless | @V2pedia | 15",
                 "🏳️XX | vless | @V2pedia | 19",
                 "🇬🇧GB | vless | @V2pedia | 21",
-                "🇩🇪DE | vless | @ARv2ray | 0",
-                "🇩🇪DE | vless | @ARv2ray | 4",
+                "🇩🇪DE | vless | @ARv2ray | 2",
+                "🇩🇪DE | vless | @ARv2ray | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -127,8 +127,6 @@
                 "🇫🇮FI | vless | @prrofile_purple | 162",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @v2ray_swhil | 14",
-                "🇩🇪DE | vless | @V2RayTz | 17",
-                "🇩🇪DE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @lrnbymaa | 8",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -186,8 +184,8 @@
                 "🏳️XX | vless | @V2pedia | 15",
                 "🏳️XX | vless | @V2pedia | 19",
                 "🇬🇧GB | vless | @V2pedia | 21",
-                "🇩🇪DE | vless | @ARv2ray | 0",
-                "🇩🇪DE | vless | @ARv2ray | 4",
+                "🇩🇪DE | vless | @ARv2ray | 2",
+                "🇩🇪DE | vless | @ARv2ray | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -197,8 +195,6 @@
                 "🇫🇮FI | vless | @prrofile_purple | 162",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @v2ray_swhil | 14",
-                "🇩🇪DE | vless | @V2RayTz | 17",
-                "🇩🇪DE | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @lrnbymaa | 8",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -615,7 +611,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 0",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 2",
             "type": "vless",
             "server": "18.158.31.142",
             "server_port": 443,
@@ -651,7 +647,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 4",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 6",
             "type": "vless",
             "server": "91.107.255.251",
             "server_port": 443,
@@ -963,78 +959,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 17",
-            "type": "vless",
-            "server": "3.78.86.215",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0vRHWIzp_Vw7-AWC2BKZbGqW8joplv-n50wLjl9UI1g",
-                    "short_id": "5263d81e"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 18",
-            "type": "vless",
-            "server": "91.107.255.251",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lvPn1RR_U4a0hcpQuH1hfVY3twxX7wdN8noVb6P37js",
-                    "short_id": "8d8b3968"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
