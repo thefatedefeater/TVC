@@ -135,7 +135,7 @@
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 8",
                 "🇨🇦CA | vless | @v2rayngvpn | 10",
-                "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
+                "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 45",
                 "🇨🇦CA | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -146,9 +146,9 @@
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 6",
                 "🇺🇸US | vless | @DailyV2RY | 139",
-                "🇨🇦CA | vless | @sinabigo | 0",
+                "🇺🇸US | vless | @sinabigo | 0",
                 "🏳️XX | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 18",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
@@ -158,7 +158,6 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 1",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -205,7 +204,7 @@
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 8",
                 "🇨🇦CA | vless | @v2rayngvpn | 10",
-                "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
+                "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 45",
                 "🇨🇦CA | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -216,9 +215,9 @@
                 "🇨🇦CA | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 6",
                 "🇺🇸US | vless | @DailyV2RY | 139",
-                "🇨🇦CA | vless | @sinabigo | 0",
+                "🇺🇸US | vless | @sinabigo | 0",
                 "🏳️XX | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 18",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
@@ -228,7 +227,6 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 1",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1018,7 +1016,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
+            "tag": "🇺🇸US | vless | @FalconPolV2rayNG | 10",
             "type": "vless",
             "server": "3k.pureboy.eu.org",
             "server_port": 443,
@@ -1312,7 +1310,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 0",
+            "tag": "🇺🇸US | vless | @sinabigo | 0",
             "type": "vless",
             "server": "w2.sylarsun.eu.org",
             "server_port": 443,
@@ -1357,7 +1355,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 10",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "pooo.mmdargon.top",
             "server_port": 2053,
@@ -1637,37 +1635,6 @@
                 "headers": {
                     "Host": "check-host.net"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "104.24.37.148",
-            "server_port": 443,
-            "uuid": "bae4c70d-ed9d-46b8-af33-74ea1e1319dd",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "max-allnet.hiroman5445.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "DvVRTw2k71qNhriZyCPvusI",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
