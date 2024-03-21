@@ -109,12 +109,12 @@
                 "🇮🇷IR | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇮🇳IN | vmess | @oneclickvpnkeys | 11",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇸🇪SE | vmess | @SINABIGO | 0",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇸🇪SE | vmess | @SINABIGO | 0"
             ]
         },
         {
@@ -124,12 +124,12 @@
                 "🇮🇷IR | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇮🇳IN | vmess | @oneclickvpnkeys | 11",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇸🇪SE | vmess | @SINABIGO | 0",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇸🇪SE | vmess | @SINABIGO | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -227,11 +227,11 @@
             }
         },
         {
-            "tag": "🇮🇳IN | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 12",
             "type": "vmess",
-            "server": "139.59.24.215",
-            "server_port": 3389,
-            "uuid": "9c050a86-d612-48f1-ec32-e573df08a1b7",
+            "server": "iran-011-join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -241,6 +241,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kittiy.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kittiy.sbs"
+                }
             }
         },
         {
@@ -309,31 +326,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @SINABIGO | 0",
-            "type": "vmess",
-            "server": "185.146.173.59",
-            "server_port": 2052,
-            "uuid": "V2RAXX",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2RAXX",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @OpenSSTPVpn | 1",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -363,6 +356,30 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vmess | @SINABIGO | 0",
+            "type": "vmess",
+            "server": "185.146.173.59",
+            "server_port": 2052,
+            "uuid": "V2RAXX",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2RAXX",
+                "headers": {
+                    "Host": ""
                 }
             }
         }
