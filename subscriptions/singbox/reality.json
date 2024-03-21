@@ -116,8 +116,8 @@
                 "🏳️XX | vless | @V2pedia | 15",
                 "🏳️XX | vless | @V2pedia | 19",
                 "🇬🇧GB | vless | @V2pedia | 21",
-                "🇩🇪DE | vless | @ARv2ray | 2",
-                "🇩🇪DE | vless | @ARv2ray | 6",
+                "🇩🇪DE | vless | @ARv2ray | 3",
+                "🇩🇪DE | vless | @ARv2ray | 7",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -127,6 +127,7 @@
                 "🇫🇮FI | vless | @prrofile_purple | 162",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @v2ray_swhil | 14",
+                "🏳️XX | vless | @V2RayTz | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 8",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -137,7 +138,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -184,8 +185,8 @@
                 "🏳️XX | vless | @V2pedia | 15",
                 "🏳️XX | vless | @V2pedia | 19",
                 "🇬🇧GB | vless | @V2pedia | 21",
-                "🇩🇪DE | vless | @ARv2ray | 2",
-                "🇩🇪DE | vless | @ARv2ray | 6",
+                "🇩🇪DE | vless | @ARv2ray | 3",
+                "🇩🇪DE | vless | @ARv2ray | 7",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -195,6 +196,7 @@
                 "🇫🇮FI | vless | @prrofile_purple | 162",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @v2ray_swhil | 14",
+                "🏳️XX | vless | @V2RayTz | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 8",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -205,7 +207,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -611,7 +613,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 2",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 3",
             "type": "vless",
             "server": "18.158.31.142",
             "server_port": 443,
@@ -647,7 +649,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 6",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 7",
             "type": "vless",
             "server": "91.107.255.251",
             "server_port": 443,
@@ -965,6 +967,42 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @V2RayTz | 3",
+            "type": "vless",
+            "server": "[2a01:4f9:c010:6fb9::51]",
+            "server_port": 443,
+            "uuid": "2cc2c64a-f1ff-44d4-ac05-4037adc9a3e2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gsmarena.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw",
+                    "short_id": "32d7a82d"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @lrnbymaa | 8",
             "type": "vless",
             "server": "ng.nourycazablanka.online",
@@ -1276,7 +1314,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
