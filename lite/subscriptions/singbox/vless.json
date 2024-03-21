@@ -115,13 +115,12 @@
                 "🏳️XX | vless | @VPNCUSTOMIZE | 20",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 14",
-                "🇺🇸US | vless | @V2pedia | 26",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 23",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
@@ -136,7 +135,7 @@
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 11",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 10",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 54",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 28",
@@ -154,8 +153,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 13",
-                "🇺🇸US | vless | @FreakConfig | 4",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 12",
+                "🇮🇷IR | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -181,13 +181,12 @@
                 "🏳️XX | vless | @VPNCUSTOMIZE | 20",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 14",
-                "🇺🇸US | vless | @V2pedia | 26",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 5",
+                "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 23",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 20",
@@ -202,7 +201,7 @@
                 "🇨🇦CA | vless | @vmessorg | 35",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 11",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 10",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 54",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 28",
@@ -220,8 +219,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 13",
-                "🇺🇸US | vless | @FreakConfig | 4",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 12",
+                "🇮🇷IR | vless | @forwardv2ray | 17",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -511,37 +511,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 26",
-            "type": "vless",
-            "server": "Www.zula.ir",
-            "server_port": 443,
-            "uuid": "02f9657d-d917-4927-91ba-381582cd8328",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nazir.kanal-tel-nufilter.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @frev2ray | 3",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -660,7 +629,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 5",
+            "tag": "🇺🇸US | vless | @free_v2rayyy | 6",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 443,
@@ -1048,7 +1017,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FalconPolV2rayNG | 10",
+            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 10",
             "type": "vless",
             "server": "3k.pureboy.eu.org",
             "server_port": 443,
@@ -1515,7 +1484,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 4",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1564,6 +1533,20 @@
                 "headers": {
                     "Host": "www.speedtest.net"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "79.175.157.25",
+            "server_port": 59491,
+            "uuid": "8aacaf3f-caf0-4fab-8b0c-dd0391dcaeaa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
