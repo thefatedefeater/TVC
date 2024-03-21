@@ -114,10 +114,11 @@
                 "🇫🇮FI | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🏳️XX | vless | @V2pedia | 15",
-                "🇬🇧GB | vless | @V2pedia | 17",
-                "🇩🇪DE | vless | @ARv2ray | 0",
+                "🏳️XX | vless | @V2pedia | 12",
+                "🏳️XX | vless | @V2pedia | 16",
+                "🇬🇧GB | vless | @V2pedia | 18",
                 "🇩🇪DE | vless | @ARv2ray | 1",
+                "🇩🇪DE | vless | @ARv2ray | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -144,6 +145,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🏳️XX | vless | @forwardv2ray | 3",
+                "🏳️XX | vless | @forwardv2ray | 5",
+                "🏳️XX | vless | @forwardv2ray | 6",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇩🇪DE | vless | @kiava | 2",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -185,10 +189,11 @@
                 "🇫🇮FI | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🏳️XX | vless | @V2pedia | 15",
-                "🇬🇧GB | vless | @V2pedia | 17",
-                "🇩🇪DE | vless | @ARv2ray | 0",
+                "🏳️XX | vless | @V2pedia | 12",
+                "🏳️XX | vless | @V2pedia | 16",
+                "🇬🇧GB | vless | @V2pedia | 18",
                 "🇩🇪DE | vless | @ARv2ray | 1",
+                "🇩🇪DE | vless | @ARv2ray | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -215,6 +220,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🏳️XX | vless | @forwardv2ray | 3",
+                "🏳️XX | vless | @forwardv2ray | 5",
+                "🏳️XX | vless | @forwardv2ray | 6",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇩🇪DE | vless | @kiava | 2",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -545,7 +553,43 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 15",
+            "tag": "🏳️XX | vless | @V2pedia | 12",
+            "type": "vless",
+            "server": "[2a01:4f8:1c0c:7523::1]",
+            "server_port": 2096,
+            "uuid": "6b3ad29f-a168-41a1-8515-97702e49f2b9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lMWhpSVZFhYnFELy0u9X0vzvn0ERTqhRo8ERMnoPXVM",
+                    "short_id": "254c573b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @V2pedia | 16",
             "type": "vless",
             "server": "[2a01:4f8:1c0c:7523::1]",
             "server_port": 2096,
@@ -581,7 +625,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @V2pedia | 17",
+            "tag": "🇬🇧GB | vless | @V2pedia | 18",
             "type": "vless",
             "server": "138.68.176.205",
             "server_port": 2096,
@@ -617,7 +661,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 0",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 1",
             "type": "vless",
             "server": "3.78.86.215",
             "server_port": 443,
@@ -653,7 +697,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 1",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 2",
             "type": "vless",
             "server": "91.107.255.251",
             "server_port": 443,
@@ -1502,6 +1546,93 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 3",
+            "type": "vless",
+            "server": "[2001:41d0:801:2000::470c]",
+            "server_port": 2083,
+            "uuid": "b54e9d89-77ed-44a2-8c3a-d7e3da7f3a06",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "f0v8BjL7H74y105BL6zlpN80wNF2TigKv1rUxPYGnRk",
+                    "short_id": "63CFCC68"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 5",
+            "type": "vless",
+            "server": "[2001:41d0:601:1100::49d4]",
+            "server_port": 2083,
+            "uuid": "6ba1e16e-c16a-4160-bf80-9e34f81d9cae",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "forums.androidcentral.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "x_qVBVwR4mS083F2U8olf_DqzAAdHrbdi4SmvDn7zy8",
+                    "short_id": "C4BEF6C2"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 6",
+            "type": "vless",
+            "server": "[2001:41d0:701:1100::8f5]",
+            "server_port": 2083,
+            "uuid": "7ed9d16a-7bd4-4c19-8b96-7942c9ea74c7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "reviews.androidcentral.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sWn38bn7GYAU7SFGw8XELsgnBaNiipt1CYA4E1LsgRg",
+                    "short_id": "644A6C3B"
                 }
             }
         },
