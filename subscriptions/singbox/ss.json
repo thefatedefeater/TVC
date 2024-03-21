@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | ss | @DeamNet_Proxy | 13",
                 "🇩🇪DE | ss | @VmessProtocol | 0",
                 "🇩🇪DE | ss | @VmessProtocol | 1",
                 "🇩🇪DE | ss | @VmessProtocol | 2",
@@ -126,16 +127,21 @@
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 17",
                 "🇭🇰HK | ss | @OutlineVpnOfficial | 18",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
-                "🇧🇭BH | ss | @proxy_mtm | 9",
+                "🇷🇺RU | ss | @forwardv2ray | 4",
+                "🇦🇪AE | ss | @forwardv2ray | 5",
+                "🇧🇭BH | ss | @forwardv2ray | 6",
+                "🇦🇪AE | ss | @forwardv2ray | 8",
+                "🇧🇭BH | ss | @forwardv2ray | 9",
                 "🇷🇺RU | ss | @proxy_mtm | 10",
-                "🏳️XX | ss | @ROMAX_VPN | 1",
-                "🇬🇧GB | ss | @ROMAX_VPN | 6"
+                "🏳️XX | ss | @ROMAX_VPN | 2",
+                "🇬🇧GB | ss | @ROMAX_VPN | 7"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | ss | @DeamNet_Proxy | 13",
                 "🇩🇪DE | ss | @VmessProtocol | 0",
                 "🇩🇪DE | ss | @VmessProtocol | 1",
                 "🇩🇪DE | ss | @VmessProtocol | 2",
@@ -156,10 +162,14 @@
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 17",
                 "🇭🇰HK | ss | @OutlineVpnOfficial | 18",
                 "🇦🇪AE | ss | @OutlineVpnOfficial | 19",
-                "🇧🇭BH | ss | @proxy_mtm | 9",
+                "🇷🇺RU | ss | @forwardv2ray | 4",
+                "🇦🇪AE | ss | @forwardv2ray | 5",
+                "🇧🇭BH | ss | @forwardv2ray | 6",
+                "🇦🇪AE | ss | @forwardv2ray | 8",
+                "🇧🇭BH | ss | @forwardv2ray | 9",
                 "🇷🇺RU | ss | @proxy_mtm | 10",
-                "🏳️XX | ss | @ROMAX_VPN | 1",
-                "🇬🇧GB | ss | @ROMAX_VPN | 6"
+                "🏳️XX | ss | @ROMAX_VPN | 2",
+                "🇬🇧GB | ss | @ROMAX_VPN | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -180,6 +190,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | ss | @DeamNet_Proxy | 13",
+            "type": "shadowsocks",
+            "server": "94.131.111.32",
+            "server_port": 8388,
+            "method": "chacha20-ietf-poly1305",
+            "password": "NGQzMzQz",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | ss | @VmessProtocol | 0",
@@ -382,7 +402,47 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇧🇭BH | ss | @proxy_mtm | 9",
+            "tag": "🇷🇺RU | ss | @forwardv2ray | 4",
+            "type": "shadowsocks",
+            "server": "193.233.20.230",
+            "server_port": 37489,
+            "method": "chacha20-ietf-poly1305",
+            "password": "lSUFxHzm2",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | ss | @forwardv2ray | 5",
+            "type": "shadowsocks",
+            "server": "series-a1.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇭BH | ss | @forwardv2ray | 6",
+            "type": "shadowsocks",
+            "server": "series-a2-me.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | ss | @forwardv2ray | 8",
+            "type": "shadowsocks",
+            "server": "series-a2.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇭BH | ss | @forwardv2ray | 9",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,
@@ -402,7 +462,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | ss | @ROMAX_VPN | 1",
+            "tag": "🏳️XX | ss | @ROMAX_VPN | 2",
             "type": "shadowsocks",
             "server": "[2a12:5940:5237::2]",
             "server_port": 7261,
@@ -412,7 +472,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @ROMAX_VPN | 6",
+            "tag": "🇬🇧GB | ss | @ROMAX_VPN | 7",
             "type": "shadowsocks",
             "server": "13.42.169.32",
             "server_port": 443,
