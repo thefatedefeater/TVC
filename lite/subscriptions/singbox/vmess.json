@@ -109,13 +109,13 @@
                 "🇮🇷IR | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 10",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 61",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
-                "🇸🇪SE | vmess | @SINABIGO | 2"
+                "🇸🇪SE | vmess | @SINABIGO | 2",
+                "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
         },
         {
@@ -125,13 +125,13 @@
                 "🇮🇷IR | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 10",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 61",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
-                "🇸🇪SE | vmess | @SINABIGO | 2"
+                "🇸🇪SE | vmess | @SINABIGO | 2",
+                "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -229,7 +229,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
             "server": "prem.ssmilanss-ganteng.ramsvpn.my.id",
             "server_port": 443,
@@ -362,7 +362,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "tag": "🇸🇪SE | vmess | @SINABIGO | 2",
+            "type": "vmess",
+            "server": "185.146.173.59",
+            "server_port": 2052,
+            "uuid": "V2RAXX",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2RAXX",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @OpenSSTPVpn | 1",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -392,30 +416,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vmess | @SINABIGO | 2",
-            "type": "vmess",
-            "server": "185.146.173.59",
-            "server_port": 2052,
-            "uuid": "V2RAXX",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2RAXX",
-                "headers": {
-                    "Host": ""
                 }
             }
         }
