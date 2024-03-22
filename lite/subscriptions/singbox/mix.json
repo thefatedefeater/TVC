@@ -162,7 +162,7 @@
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇦🇪AE | ss | @forwardv2ray | 16",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 17",
@@ -239,7 +239,7 @@
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇦🇪AE | ss | @forwardv2ray | 16",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 17",
@@ -1707,38 +1707,14 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
+            "tag": "🇦🇪AE | ss | @forwardv2ray | 16",
+            "type": "shadowsocks",
+            "server": "series-a2.samanehha.co",
             "server_port": 443,
-            "uuid": "f86ac1e0-b5e2-4bf2-9d1e-0be8bacf66ad",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇸🇪SE | vless | @mehrosaboran | 7",
