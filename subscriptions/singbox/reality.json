@@ -141,8 +141,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @forwardv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 14",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇩🇪DE | vless | @kiava | 2",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -211,8 +209,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @forwardv2ray | 13",
-                "🇩🇪DE | vless | @forwardv2ray | 14",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇩🇪DE | vless | @kiava | 2",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -1385,71 +1381,6 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 13",
-            "type": "vless",
-            "server": "503.quickvpn.shop",
-            "server_port": 567,
-            "uuid": "8aea43f9-77a8-4089-9402-428f623cc6f7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kodular.io",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L-3BNMN89itwyzSnsv4WihvszKdDONmUN9ewQYDMN1Y",
-                    "short_id": "a63e2394f0e08731"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "kodular.io"
-                ],
-                "path": "\/"
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 14",
-            "type": "vless",
-            "server": "143.244.207.133",
-            "server_port": 46217,
-            "uuid": "835607d0-6d60-444e-bc0b-ebc9cd9594ad",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M",
-                    "short_id": "e3f89b63"
                 }
             }
         },
