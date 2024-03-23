@@ -123,6 +123,7 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇩🇪DE | vless | @ShadowProxy66 | 60",
                 "🇩🇪DE | vless | @v2ray_swhil | 15",
+                "🇩🇪DE | vless | @DailyV2RY | 113",
                 "🇩🇪DE | vless | @lrnbymaa | 8",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -133,11 +134,10 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇫🇷FR | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇩🇪DE | vless | @kiava | 2",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -188,6 +188,7 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇩🇪DE | vless | @ShadowProxy66 | 60",
                 "🇩🇪DE | vless | @v2ray_swhil | 15",
+                "🇩🇪DE | vless | @DailyV2RY | 113",
                 "🇩🇪DE | vless | @lrnbymaa | 8",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -198,11 +199,10 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇫🇷FR | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇩🇪DE | vless | @kiava | 2",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -815,6 +815,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 113",
+            "type": "vless",
+            "server": "3.78.86.215",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0vRHWIzp_Vw7-AWC2BKZbGqW8joplv-n50wLjl9UI1g",
+                    "short_id": "7fcd3e50"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @lrnbymaa | 8",
             "type": "vless",
             "server": "ng.nourycazablanka.online",
@@ -1126,7 +1162,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
@@ -1239,42 +1275,6 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "15.236.121.188",
-            "server_port": 8080,
-            "uuid": "71d2a6f1-1b5c-41e6-b815-03acc187497b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WQ_kzBtjJTI3TRjagzOg2uTNNlMSYBxsUkBBhnP5Amg",
-                    "short_id": "d8a341b2"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@zabuzza_shop",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
