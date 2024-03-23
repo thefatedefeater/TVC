@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | ss | @DeamNet_Proxy | 4",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 4",
                 "🇦🇪AE | ss | @DeamNet_Proxy | 10",
                 "🇩🇪DE | ss | @proxyymeliii | 5",
                 "🇧🇭BH | ss | @proxyymeliii | 6",
@@ -133,7 +133,8 @@
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 19",
-                "🇦🇪AE | ss | @forwardv2ray | 10",
+                "🇫🇮FI | ss | @forwardv2ray | 3",
+                "🇳🇱NL | ss | @forwardv2ray | 15",
                 "🏳️XX | ss | @ROMAX_VPN | 3"
             ]
         },
@@ -141,7 +142,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | ss | @DeamNet_Proxy | 4",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 4",
                 "🇦🇪AE | ss | @DeamNet_Proxy | 10",
                 "🇩🇪DE | ss | @proxyymeliii | 5",
                 "🇧🇭BH | ss | @proxyymeliii | 6",
@@ -168,7 +169,8 @@
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 19",
-                "🇦🇪AE | ss | @forwardv2ray | 10",
+                "🇫🇮FI | ss | @forwardv2ray | 3",
+                "🇳🇱NL | ss | @forwardv2ray | 15",
                 "🏳️XX | ss | @ROMAX_VPN | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -192,7 +194,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | ss | @DeamNet_Proxy | 4",
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 4",
             "type": "shadowsocks",
             "server": "51.158.150.210",
             "server_port": 5498,
@@ -462,12 +464,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇪AE | ss | @forwardv2ray | 10",
+            "tag": "🇫🇮FI | ss | @forwardv2ray | 3",
             "type": "shadowsocks",
-            "server": "51.112.5.55",
-            "server_port": 443,
+            "server": "139.28.220.18",
+            "server_port": 5700,
             "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
+            "password": "UXoGWyjwDVZIl1WMuHtxSi",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | ss | @forwardv2ray | 15",
+            "type": "shadowsocks",
+            "server": "88.210.6.98",
+            "server_port": 60869,
+            "method": "chacha20-ietf-poly1305",
+            "password": "lPT3Mi25IXYP3iWzPJaryQ",
             "plugin": "",
             "plugin_opts": ""
         },
