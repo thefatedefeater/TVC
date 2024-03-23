@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | @DeamNet_Proxy | 18",
+                "🇵🇱PL | ss | @DeamNet_Proxy | 19",
                 "🇧🇭BH | ss | @VmessProtocol | 8",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 19"
             ]
@@ -115,7 +115,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | @DeamNet_Proxy | 18",
+                "🇵🇱PL | ss | @DeamNet_Proxy | 19",
                 "🇧🇭BH | ss | @VmessProtocol | 8",
                 "🇮🇪IE | ss | @OutlineVpnOfficial | 19"
             ],
@@ -140,12 +140,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 18",
+            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 19",
             "type": "shadowsocks",
-            "server": "205.134.180.137",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "g13S7doXar0A",
+            "server": "54.36.174.181",
+            "server_port": 5003,
+            "method": "aes-256-gcm",
+            "password": "g5MeD6Ft3CWlJId",
             "plugin": "",
             "plugin_opts": ""
         },
