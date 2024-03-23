@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @ServerNett | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 34",
-                "🇮🇷IR | vless | @proxyymeliii | 14",
+                "🇬🇧GB | vless | @proxyymeliii | 13",
                 "🇩🇪DE | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 6",
                 "🇨🇷CR | vless | @MTConfig | 18",
@@ -166,6 +166,7 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -224,7 +225,7 @@
                 "🇨🇦CA | vless | @ServerNett | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 34",
-                "🇮🇷IR | vless | @proxyymeliii | 14",
+                "🇬🇧GB | vless | @proxyymeliii | 13",
                 "🇩🇪DE | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 6",
                 "🇨🇷CR | vless | @MTConfig | 18",
@@ -246,6 +247,7 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1299,17 +1301,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 14",
+            "tag": "🇬🇧GB | vless | @proxyymeliii | 13",
             "type": "vless",
-            "server": "dl8.superfastvn.cloud",
-            "server_port": 443,
-            "uuid": "1fc85ca7-541a-4196-8caf-55ea08b1be22",
+            "server": "91.193.58.20",
+            "server_port": 80,
+            "uuid": "Join--VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@VPNCUSTOMIZE,@VPNCUSTOMIZE,@VPNCUSTOMIZE,@VPNCUSTOMIZE?ed=",
+                "headers": {
+                    "Host": "91.193.58.20"
+                }
             }
         },
         {
@@ -1837,6 +1846,20 @@
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "www.you.com",
+            "server_port": 443,
+            "uuid": "ed240502-6095-4600-afee-5798f5b6608e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
