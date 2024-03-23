@@ -110,8 +110,9 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 11",
-                "🇺🇸US | vmess | @customv2ray | 12",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 69",
+                "🇩🇪DE | vmess | @prrofile_purple | 168",
+                "🇨🇦CA | vmess | @customv2ray | 12",
+                "🇩🇪DE | vmess | @ShadowProxy66 | 68",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 9",
@@ -126,8 +127,9 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 11",
-                "🇺🇸US | vmess | @customv2ray | 12",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 69",
+                "🇩🇪DE | vmess | @prrofile_purple | 168",
+                "🇨🇦CA | vmess | @customv2ray | 12",
+                "🇩🇪DE | vmess | @ShadowProxy66 | 68",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 9",
@@ -263,7 +265,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @customv2ray | 12",
+            "tag": "🇩🇪DE | vmess | @prrofile_purple | 168",
+            "type": "vmess",
+            "server": "91.107.139.138",
+            "server_port": 8081,
+            "uuid": "3692d617-c0bb-442a-a259-ee4baea3041f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @customv2ray | 12",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
@@ -297,11 +316,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 69",
+            "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 68",
             "type": "vmess",
-            "server": "172.67.166.31",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "45.45.152.12",
+            "server_port": 8099,
+            "uuid": "fa1897db-1925-4c86-a495-939a959af900",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -311,23 +330,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "inna.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "inna.cfd"
-                }
             }
         },
         {
