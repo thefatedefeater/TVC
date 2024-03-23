@@ -113,7 +113,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 22",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇺🇸US | vless | @melov2ray | 16",
+                "🇨🇦CA | vless | @melov2ray | 16",
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇷🇺RU | vless | @shh_proxy | 23",
@@ -155,7 +155,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇫🇮FI | vless | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -181,7 +181,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 22",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
-                "🇺🇸US | vless | @melov2ray | 16",
+                "🇨🇦CA | vless | @melov2ray | 16",
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇩🇪DE | vless | @ARv2ray | 14",
                 "🇷🇺RU | vless | @shh_proxy | 23",
@@ -223,7 +223,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇫🇮FI | vless | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -470,7 +470,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 16",
+            "tag": "🇨🇦CA | vless | @melov2ray | 16",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1582,12 +1582,12 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @forwardv2ray | 15",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "65.109.196.154",
-            "server_port": 9090,
-            "uuid": "362965c3-9224-4c0c-98ed-ec2ecbff75ca",
-            "flow": "xtls-rprx-vision",
+            "server": "www.you.com",
+            "server_port": 443,
+            "uuid": "f97819a1-724f-48c0-a0c9-cdc4bf5741da",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1596,17 +1596,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "ua1.v2vless.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZaiBN7b8eX0OVNflHh4nUEQOUoq5JO2k6S2W-oOImRU",
-                    "short_id": "f2272e86"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join-Telegram-Channel-@AstroVPN_official",
+                "headers": {
+                    "Host": "ua1.v2vless.xyz"
                 }
             }
         },
