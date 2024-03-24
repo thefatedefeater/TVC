@@ -108,9 +108,9 @@
                 "URL-TEST",
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
+                "🏳️XX | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+                "🇬🇧GB | vmess | @oneclickvpnkeys | 11",
                 "🇺🇸US | vmess | @customv2ray | 14",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 41",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
@@ -126,9 +126,9 @@
             "outbounds": [
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
+                "🏳️XX | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+                "🇬🇧GB | vmess | @oneclickvpnkeys | 11",
                 "🇺🇸US | vmess | @customv2ray | 14",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 41",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
@@ -209,7 +209,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🏳️XX | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 80,
@@ -233,7 +233,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -267,11 +267,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
+            "tag": "🇬🇧GB | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "104.16.217.241",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "172.99.190.12",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -281,23 +281,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nelly.homes"
-                }
             }
         },
         {
