@@ -109,14 +109,13 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇿CZ | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
-                "🇺🇸US | vmess | @customv2ray | 12",
+                "🇨🇦CA | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 55",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 4",
-                "🇵🇱PL | vmess | @v2Line | 10",
-                "🇻🇳VN | vmess | @forwardv2ray | 19"
+                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇵🇱PL | vmess | @v2Line | 10"
             ]
         },
         {
@@ -126,14 +125,13 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇿CZ | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
-                "🇺🇸US | vmess | @customv2ray | 12",
+                "🇨🇦CA | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 55",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 4",
-                "🇵🇱PL | vmess | @v2Line | 10",
-                "🇻🇳VN | vmess | @forwardv2ray | 19"
+                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇵🇱PL | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -214,7 +212,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @customv2ray | 12",
+            "tag": "🇨🇦CA | vmess | @customv2ray | 12",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
@@ -347,7 +345,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "149.28.236.44",
             "server_port": 47507,
@@ -384,30 +382,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇻🇳VN | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "skyht2.vpndata.vn",
-            "server_port": 80,
-            "uuid": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNDATA.VPN",
-                "headers": {
-                    "Host": "skyht2.vpndata.vn"
                 }
             }
         }
