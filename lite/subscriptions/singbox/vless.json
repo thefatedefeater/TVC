@@ -117,12 +117,11 @@
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 23",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
@@ -151,7 +150,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 23",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -180,12 +178,11 @@
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇷🇺RU | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 23",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇺🇸US | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
@@ -214,7 +211,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 23",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -554,7 +550,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -678,37 +674,6 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @proxy_kafee | 5",
-            "type": "vless",
-            "server": "visa.com",
-            "server_port": 8443,
-            "uuid": "e85b96b9-7f21-46f3-8b7b-104e964e9b75",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-sho-falcunargo-nl.falcunar.uk.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "join-sho-falcunargo-nl.falcunar.uk.eu.org"
                 }
             }
         },
@@ -1468,37 +1433,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "172.64.80.150",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@SINABIGO\/",
-                "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },

@@ -109,15 +109,16 @@
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
-                "🇺🇸US | vmess | @customv2ray | 12",
+                "🇨🇦CA | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 41",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🏳️XX | vmess | @Hope_Net | 3",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🏳️XX | vmess | @Hope_Net | 5",
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🏳️XX | vmess | @forwardv2ray | 18"
             ]
         },
         {
@@ -127,15 +128,16 @@
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
-                "🇺🇸US | vmess | @customv2ray | 12",
+                "🇨🇦CA | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 41",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🏳️XX | vmess | @Hope_Net | 3",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🏳️XX | vmess | @Hope_Net | 5",
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🏳️XX | vmess | @forwardv2ray | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -233,7 +235,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -318,7 +320,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @customv2ray | 12",
+            "tag": "🇨🇦CA | vmess | @customv2ray | 12",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
@@ -417,7 +419,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 3",
+            "tag": "🏳️XX | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -455,6 +457,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "max-ip.hiroman5445.ir",
+            "server_port": 3586,
+            "uuid": "acba8460-6c85-4d67-8f74-5a51da5e8393",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         }
     ],
