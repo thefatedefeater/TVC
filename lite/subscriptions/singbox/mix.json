@@ -133,10 +133,10 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
-                "🇺🇸US | vmess | @customv2ray | 12",
+                "🇨🇦CA | vmess | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 11",
@@ -167,7 +167,6 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 23",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -212,10 +211,10 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 168",
-                "🇺🇸US | vmess | @customv2ray | 12",
+                "🇨🇦CA | vmess | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 11",
@@ -246,7 +245,6 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 23",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1009,7 +1007,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -1094,7 +1092,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @customv2ray | 12",
+            "tag": "🇨🇦CA | vmess | @customv2ray | 12",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
@@ -1881,37 +1879,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "web.bbv2ry.pics",
-            "server_port": 443,
-            "uuid": "1e338e5f-6f5f-45cb-9853-2dd502599bd6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Sky2.bbv2ry.pics",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Sky2.bbv2ry.pics"
                 }
             }
         },

@@ -151,7 +151,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 23",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -214,7 +213,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 23",
                 "🇷🇺RU | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1468,37 +1466,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "web.bbv2ry.pics",
-            "server_port": 443,
-            "uuid": "1e338e5f-6f5f-45cb-9853-2dd502599bd6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Sky2.bbv2ry.pics",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Sky2.bbv2ry.pics"
                 }
             }
         },
