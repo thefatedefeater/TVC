@@ -112,7 +112,7 @@
                 "🏳️XX | vless | @V2pedia | 20",
                 "🏳️XX | vless | @V2pedia | 24",
                 "🇬🇧GB | vless | @V2pedia | 26",
-                "🇩🇪DE | vless | @ARv2ray | 16",
+                "🇩🇪DE | vless | @ARv2ray | 17",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -120,6 +120,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
+                "🇩🇪DE | vless | @v2ray_swhil | 16",
                 "🇩🇪DE | vless | @lrnbymaa | 8",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -130,7 +131,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -173,7 +174,7 @@
                 "🏳️XX | vless | @V2pedia | 20",
                 "🏳️XX | vless | @V2pedia | 24",
                 "🇬🇧GB | vless | @V2pedia | 26",
-                "🇩🇪DE | vless | @ARv2ray | 16",
+                "🇩🇪DE | vless | @ARv2ray | 17",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -181,6 +182,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
+                "🇩🇪DE | vless | @v2ray_swhil | 16",
                 "🇩🇪DE | vless | @lrnbymaa | 8",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -191,7 +193,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -453,7 +455,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 16",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "3.76.159.205",
             "server_port": 443,
@@ -700,6 +702,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2ray_swhil | 16",
+            "type": "vless",
+            "server": "tataloo.mmdgogoli.top",
+            "server_port": 2096,
+            "uuid": "1bd02898-157f-4a11-8975-bc5c85efdd49",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tataloo.mmdgogoli.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1uusCeZdH1ll6FZk2PBdAGxsoIrq-WQ-0IePOQ3P4g4",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1017,7 +1055,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
