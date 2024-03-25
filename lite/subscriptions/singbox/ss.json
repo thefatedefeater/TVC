@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇧🇭BH | ss | @DeamNet_Proxy | 17",
                 "🇧🇭BH | ss | @VmessProtocol | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 19"
             ]
@@ -115,7 +114,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇧🇭BH | ss | @DeamNet_Proxy | 17",
                 "🇧🇭BH | ss | @VmessProtocol | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 19"
             ],
@@ -138,16 +136,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇧🇭BH | ss | @DeamNet_Proxy | 17",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "2LVVFxxHJSBMdGdl",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇧🇭BH | ss | @VmessProtocol | 9",
