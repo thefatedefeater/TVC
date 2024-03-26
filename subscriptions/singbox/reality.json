@@ -134,8 +134,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇬🇧GB | vless | @forwardv2ray | 7",
-                "🏳️XX | vless | @forwardv2ray | 12",
+                "🏳️XX | vless | @forwardv2ray | 4",
+                "🇳🇱NL | vless | @forwardv2ray | 12",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇩🇪DE | vless | @kiava | 2",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -197,8 +197,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇬🇧GB | vless | @forwardv2ray | 7",
-                "🏳️XX | vless | @forwardv2ray | 12",
+                "🏳️XX | vless | @forwardv2ray | 4",
+                "🇳🇱NL | vless | @forwardv2ray | 12",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇩🇪DE | vless | @kiava | 2",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -1137,36 +1137,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @forwardv2ray | 7",
-            "type": "vless",
-            "server": "en.standardmap.onflashdrive.app",
-            "server_port": 47028,
-            "uuid": "3be088a4-5444-4c06-869b-6d324378a18e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "forward.standardmap.onflashdrive.app",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "VMA0JhQXljJsSr6Pq0-gOthdtAtUkOHzvMeSttbGKEQ",
-                    "short_id": "61b36b49"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @forwardv2ray | 12",
+            "tag": "🏳️XX | vless | @forwardv2ray | 4",
             "type": "vless",
             "server": "v2logy.ddns.net",
             "server_port": 443,
@@ -1199,6 +1170,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 12",
+            "type": "vless",
+            "server": "allrevolt.r8volt.com",
+            "server_port": 8443,
+            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maps.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
+                    "short_id": "bfde1c85a6a4112a"
+                }
             }
         },
         {
