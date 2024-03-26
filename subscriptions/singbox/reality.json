@@ -120,7 +120,6 @@
                 "🏳️XX | vless | @prrofile_purple | 164",
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
                 "🇩🇪DE | vless | @v2ray_swhil | 17",
-                "🇩🇪DE | vless | @lrnbymaa | 11",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -181,7 +180,6 @@
                 "🏳️XX | vless | @prrofile_purple | 164",
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
                 "🇩🇪DE | vless | @v2ray_swhil | 17",
-                "🇩🇪DE | vless | @lrnbymaa | 11",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -703,35 +701,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @lrnbymaa | 11",
-            "type": "vless",
-            "server": "ng.nourycazablanka.online",
-            "server_port": 11426,
-            "uuid": "8d8b36e3-9237-49c6-b09c-e3c9dfc6be4e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ng.nourycazablanka.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xv9dgE3CwwjEFMGfEn3EXyUvH3qfotIeu9v2xxm4sg4",
-                    "short_id": "266b4610"
-                }
             }
         },
         {
