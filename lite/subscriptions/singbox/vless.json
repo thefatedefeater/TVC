@@ -114,7 +114,7 @@
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 20",
                 "🇨🇦CA | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 17",
-                "🇨🇦CA | vless | @V2pedia | 26",
+                "🇺🇸US | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇷🇺RU | vless | @shh_proxy | 24",
                 "🇨🇷CR | vless | @Lockey_vpn | 14",
@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @ServerNett | 3",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 24",
-                "🇺🇸US | vless | @proxyymeliii | 11",
+                "🇨🇦CA | vless | @proxyymeliii | 12",
                 "🇸🇪SE | vless | @v2ray1_ng | 15",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 17",
@@ -156,7 +156,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 10",
-                "🇨🇷CR | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -182,7 +181,7 @@
                 "🇬🇧GB | vless | @VPNCUSTOMIZE | 20",
                 "🇨🇦CA | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 17",
-                "🇨🇦CA | vless | @V2pedia | 26",
+                "🇺🇸US | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇷🇺RU | vless | @shh_proxy | 24",
                 "🇨🇷CR | vless | @Lockey_vpn | 14",
@@ -207,7 +206,7 @@
                 "🇨🇦CA | vless | @ServerNett | 3",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 24",
-                "🇺🇸US | vless | @proxyymeliii | 11",
+                "🇨🇦CA | vless | @proxyymeliii | 12",
                 "🇸🇪SE | vless | @v2ray1_ng | 15",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇸🇪SE | vless | @V2RayTz | 17",
@@ -224,7 +223,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 10",
-                "🇨🇷CR | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -374,7 +372,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "52.57.247.233",
+            "server": "3.69.37.22",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -496,7 +494,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 26",
+            "tag": "🇺🇸US | vless | @V2pedia | 26",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8443,
@@ -1114,7 +1112,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxyymeliii | 11",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 12",
             "type": "vless",
             "server": "www.you.com",
             "server_port": 443,
@@ -1571,37 +1569,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "test50.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@v2Rinjector\/",
-                "headers": {
-                    "Host": "test50.pages.dev"
                 }
             }
         },
