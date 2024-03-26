@@ -117,9 +117,8 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 9",
-                "🏳️XX | vless | @prrofile_purple | 154",
+                "🏳️XX | vless | @prrofile_purple | 164",
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
-                "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
                 "🇩🇪DE | vless | @v2ray_swhil | 17",
                 "🇩🇪DE | vless | @lrnbymaa | 11",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -135,6 +134,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇬🇧GB | vless | @forwardv2ray | 7",
+                "🏳️XX | vless | @forwardv2ray | 12",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇩🇪DE | vless | @kiava | 2",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -179,9 +180,8 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 9",
-                "🏳️XX | vless | @prrofile_purple | 154",
+                "🏳️XX | vless | @prrofile_purple | 164",
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
-                "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
                 "🇩🇪DE | vless | @v2ray_swhil | 17",
                 "🇩🇪DE | vless | @lrnbymaa | 11",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -197,6 +197,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇬🇧GB | vless | @forwardv2ray | 7",
+                "🏳️XX | vless | @forwardv2ray | 12",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🇩🇪DE | vless | @kiava | 2",
                 "🇩🇪DE | vless | @kiava | 3",
@@ -600,7 +602,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @prrofile_purple | 154",
+            "tag": "🏳️XX | vless | @prrofile_purple | 164",
             "type": "vless",
             "server": "[2a12:5940:f667::2]",
             "server_port": 25365,
@@ -666,42 +668,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
-            "type": "vless",
-            "server": "104.248.194.223",
-            "server_port": 443,
-            "uuid": "01b6b661-4ab1-482f-a881-1ae895bc24e5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.housepets.space",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IizwPX5xVViOal5eU9u-Nkd7OZbnsLhQtclLWklAezI",
-                    "short_id": "189f1252"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1168,6 +1134,71 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 7",
+            "type": "vless",
+            "server": "en.standardmap.onflashdrive.app",
+            "server_port": 47028,
+            "uuid": "3be088a4-5444-4c06-869b-6d324378a18e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "forward.standardmap.onflashdrive.app",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "VMA0JhQXljJsSr6Pq0-gOthdtAtUkOHzvMeSttbGKEQ",
+                    "short_id": "61b36b49"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 12",
+            "type": "vless",
+            "server": "v2logy.ddns.net",
+            "server_port": 443,
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
