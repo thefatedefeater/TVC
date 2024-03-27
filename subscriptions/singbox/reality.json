@@ -107,9 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | vless | @XsV2ray | 7",
-                "🏳️XX | vless | @V2pedia | 17",
-                "🏳️XX | vless | @V2pedia | 20",
-                "🏳️XX | vless | @V2pedia | 26",
+                "🏳️XX | vless | @V2pedia | 13",
+                "🏳️XX | vless | @V2pedia | 19",
+                "🏳️XX | vless | @V2pedia | 22",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -118,7 +118,7 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 11",
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
-                "🇩🇪DE | vless | @v2ray_swhil | 18",
+                "🇩🇪DE | vless | @v2ray_swhil | 20",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -128,7 +128,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -166,9 +166,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | vless | @XsV2ray | 7",
-                "🏳️XX | vless | @V2pedia | 17",
-                "🏳️XX | vless | @V2pedia | 20",
-                "🏳️XX | vless | @V2pedia | 26",
+                "🏳️XX | vless | @V2pedia | 13",
+                "🏳️XX | vless | @V2pedia | 19",
+                "🏳️XX | vless | @V2pedia | 22",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -177,7 +177,7 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 11",
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
-                "🇩🇪DE | vless | @v2ray_swhil | 18",
+                "🇩🇪DE | vless | @v2ray_swhil | 20",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -187,7 +187,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -269,7 +269,43 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 17",
+            "tag": "🏳️XX | vless | @V2pedia | 13",
+            "type": "vless",
+            "server": "[2a01:4f8:c2c:3a53::1]",
+            "server_port": 25365,
+            "uuid": "e9bd25ec-88a5-45e1-ba87-2043d3b0e104",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EO8pab1ELMGK6UeI_jB--PSzG7TvYQJrWCLWWhphUVY",
+                    "short_id": "ecce7ff9"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @V2pedia | 19",
             "type": "vless",
             "server": "[2a12:5940:d0cb::2]",
             "server_port": 2053,
@@ -305,7 +341,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 20",
+            "tag": "🏳️XX | vless | @V2pedia | 22",
             "type": "vless",
             "server": "[2a03:b0c0:1:d0::ca3:9001]",
             "server_port": 2096,
@@ -335,42 +371,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @V2pedia | 26",
-            "type": "vless",
-            "server": "[2a01:4f8:1c0c:7523::1]",
-            "server_port": 2096,
-            "uuid": "6b3ad29f-a168-41a1-8515-97702e49f2b9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lMWhpSVZFhYnFELy0u9X0vzvn0ERTqhRo8ERMnoPXVM",
-                    "short_id": "254c573b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -630,7 +630,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 18",
+            "tag": "🇩🇪DE | vless | @v2ray_swhil | 20",
             "type": "vless",
             "server": "tataloo.mmdgogoli.top",
             "server_port": 2096,
@@ -948,7 +948,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
