@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vless | @v2ray_swhil | 31",
-                "🇨🇦CA | vless | @proxyymeliii | 11",
+                "🇺🇸US | vless | @proxyymeliii | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇳🇱NL | vless | @V2RayTz | 19",
@@ -164,8 +164,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 13",
-                "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇦🇹AT | ss | @forwardv2ray | 13",
+                "🇺🇸US | vless | @flyv2ray | 11",
+                "🇸🇪SE | vless | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vless | @v2ray_swhil | 31",
-                "🇨🇦CA | vless | @proxyymeliii | 11",
+                "🇺🇸US | vless | @proxyymeliii | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇳🇱NL | vless | @V2RayTz | 19",
@@ -242,8 +242,8 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 13",
-                "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇦🇹AT | ss | @forwardv2ray | 13",
+                "🇺🇸US | vless | @flyv2ray | 11",
+                "🇸🇪SE | vless | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1255,7 +1255,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 11",
+            "tag": "🇺🇸US | vless | @proxyymeliii | 11",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1809,7 +1809,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 11",
+            "tag": "🇺🇸US | vless | @flyv2ray | 11",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 2095,
@@ -1830,14 +1830,25 @@
             }
         },
         {
-            "tag": "🇦🇹AT | ss | @forwardv2ray | 13",
-            "type": "shadowsocks",
-            "server": "vienna.telegavpn.com",
-            "server_port": 61992,
-            "method": "chacha20-ietf-poly1305",
-            "password": "X03fZs71HenzwXzEzJTpSB",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "SVNTEAM",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
+            }
         },
         {
             "tag": "🇺🇸US | vmess | @FAKEOFTVC | 2",
