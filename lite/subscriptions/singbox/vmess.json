@@ -113,7 +113,8 @@
                 "🇩🇪DE | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇺🇸US | vmess | @v2Line | 10"
+                "🇺🇸US | vmess | @v2Line | 10",
+                "🏳️XX | vmess | @forwardv2ray | 19"
             ]
         },
         {
@@ -127,7 +128,8 @@
                 "🇩🇪DE | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇺🇸US | vmess | @v2Line | 10"
+                "🇺🇸US | vmess | @v2Line | 10",
+                "🏳️XX | vmess | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -334,6 +336,30 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kittiy.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "index.zhaal.ir",
+            "server_port": 2086,
+            "uuid": "e690ff9e-1676-4be3-d136-dcae586cb1e7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         }
