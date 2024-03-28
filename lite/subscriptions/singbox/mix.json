@@ -167,7 +167,7 @@
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇫🇷FR | ss | @forwardv2ray | 6",
+                "🇮🇷IR | vless | @forwardv2ray | 18",
                 "🇨🇷CR | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -247,7 +247,7 @@
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🏳️XX | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇫🇷FR | ss | @forwardv2ray | 6",
+                "🇮🇷IR | vless | @forwardv2ray | 18",
                 "🇨🇷CR | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -1832,14 +1832,18 @@
             }
         },
         {
-            "tag": "🇫🇷FR | ss | @forwardv2ray | 6",
-            "type": "shadowsocks",
-            "server": "paris.telegavpn.com",
-            "server_port": 9802,
-            "method": "chacha20-ietf-poly1305",
-            "password": "VUe7Uos2PSuochU1AuZtlu",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "84.47.234.101",
+            "server_port": 444,
+            "uuid": "79b27bac-82c8-4b5a-814f-de0b5694b782",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇨🇷CR | vless | @FAKEOFTVC | 2",
