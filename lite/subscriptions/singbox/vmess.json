@@ -113,7 +113,8 @@
                 "🇺🇸US | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇺🇸US | vmess | @v2Line | 10"
+                "🇺🇸US | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 18"
             ]
         },
         {
@@ -127,7 +128,8 @@
                 "🇺🇸US | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇺🇸US | vmess | @v2Line | 10"
+                "🇺🇸US | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -344,6 +346,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kittiy.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "api.cdn-tgju.org",
+            "server_port": 2087,
+            "uuid": "13fc87d3-43c6-4cc1-9ab9-523d9707a113",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api.cdn-tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ows",
+                "headers": {
+                    "Host": "api.cdn-tgju.org"
                 }
             }
         }
