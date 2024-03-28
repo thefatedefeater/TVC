@@ -130,7 +130,9 @@
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 12",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 13",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 14",
-                "🇬🇧GB | ss | @forwardv2ray | 4",
+                "🇺🇸US | ss | @forwardv2ray | 12",
+                "🇷🇺RU | ss | @forwardv2ray | 13",
+                "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇫🇮FI | ss | @proxy_mtm | 3",
                 "🏳️XX | ss | @ROMAX_VPN | 4"
             ]
@@ -163,7 +165,9 @@
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 12",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 13",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 14",
-                "🇬🇧GB | ss | @forwardv2ray | 4",
+                "🇺🇸US | ss | @forwardv2ray | 12",
+                "🇷🇺RU | ss | @forwardv2ray | 13",
+                "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇫🇮FI | ss | @proxy_mtm | 3",
                 "🏳️XX | ss | @ROMAX_VPN | 4"
             ],
@@ -428,12 +432,32 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 4",
+            "tag": "🇺🇸US | ss | @forwardv2ray | 12",
             "type": "shadowsocks",
-            "server": "account-mec.emofid.co",
-            "server_port": 443,
+            "server": "169.197.141.186",
+            "server_port": 801,
             "method": "chacha20-ietf-poly1305",
-            "password": "goBk19aChEH2xXqI",
+            "password": "tvX1v#NSFP_LG_bJ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇷🇺RU | ss | @forwardv2ray | 13",
+            "type": "shadowsocks",
+            "server": "ru.sptnk.space",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "3fbeb668f48414f6",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 17",
+            "type": "shadowsocks",
+            "server": "217.182.198.219",
+            "server_port": 2376,
+            "method": "aes-256-gcm",
+            "password": "faBAoD54k87UJG7",
             "plugin": "",
             "plugin_opts": ""
         },
