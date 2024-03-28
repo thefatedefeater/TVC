@@ -11,14 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @oneclickvpnkeys | 9 = vmess, 8955.outline-vpn.cloud, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @V2rayng_Fast | 1 = vmess, 129.146.113.254, 43121, username = d53b39e2-925e-45b6-9389-46b9fa95878b, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @forwardv2ray | 18 = vmess, api.cdn-tgju.org, 2087, username = 13fc87d3-43c6-4cc1-9ab9-523d9707a113, ws = true, tls = 1, vmess-aead = true, ws-path = /ows, ws-headers = Host:"api.cdn-tgju.org", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @forwardv2ray | 19 = vmess, cloudflare.b4a-devs.org, 2083, username = 0a40bceb-6a30-4da2-b90b-2ae5ed018e98, ws = true, tls = 1, vmess-aead = true, ws-path = /cloudflare, ws-headers = Host:"cloudflare.b4a-devs.org", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 9,🇺🇸US | vmess | @V2rayng_Fast | 1,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 18
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 9,🇺🇸US | vmess | @V2rayng_Fast | 1,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 18
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 9,🇺🇸US | vmess | @V2rayng_Fast | 1,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 18
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @V2rayng_Fast | 1,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 19
+URL-TEST = url-test,🇺🇸US | vmess | @V2rayng_Fast | 1,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 19
+FALLBACK = fallback,🇺🇸US | vmess | @V2rayng_Fast | 1,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

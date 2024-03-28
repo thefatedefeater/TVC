@@ -122,11 +122,10 @@ proxies:
   - {"name":"🇮🇪IE | trojan | @DirectVPN | 18","type":"trojan","server":"52.211.35.65","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.233.187.194","port":"54137","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"8955.outline-vpn.cloud","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
   - {"name":"🇺🇸US | vmess | @V2rayng_Fast | 1","type":"vmess","server":"129.146.113.254","port":"43121","cipher":"aes-128-gcm","uuid":"d53b39e2-925e-45b6-9389-46b9fa95878b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇩🇪DE | ss | @OutlineVpnOfficial | 14","type":"ss","server":"217.182.198.219","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
-  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 18","type":"vmess","server":"api.cdn-tgju.org","port":"2087","cipher":"auto","uuid":"13fc87d3-43c6-4cc1-9ab9-523d9707a113","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ows","headers":{"host":"api.cdn-tgju.org"}}}
+  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 19","type":"vmess","server":"cloudflare.b4a-devs.org","port":"2083","cipher":"auto","uuid":"0a40bceb-6a30-4da2-b90b-2ae5ed018e98","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cloudflare","headers":{"host":"cloudflare.b4a-devs.org"}}}
   - {"name":"🇫🇮FI | ss | @proxy_mtm | 3","type":"ss","server":"185.77.217.121","port":443,"password":"X7eoEBrARWsBUiVfchVEdH","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -138,11 +137,10 @@ proxy-groups:
       - '🇮🇪IE | trojan | @DirectVPN | 18'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @oneclickvpnkeys | 9'
       - '🇺🇸US | vmess | @V2rayng_Fast | 1'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 14'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇨🇦CA | vmess | @forwardv2ray | 18'
+      - '🇨🇦CA | vmess | @forwardv2ray | 19'
       - '🇫🇮FI | ss | @proxy_mtm | 3'
   - name: URL-TEST
     type: url-test
@@ -154,11 +152,10 @@ proxy-groups:
       - '🇮🇪IE | trojan | @DirectVPN | 18'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @oneclickvpnkeys | 9'
       - '🇺🇸US | vmess | @V2rayng_Fast | 1'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 14'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇨🇦CA | vmess | @forwardv2ray | 18'
+      - '🇨🇦CA | vmess | @forwardv2ray | 19'
       - '🇫🇮FI | ss | @proxy_mtm | 3'
   - name: FALLBACK
     type: fallback
@@ -169,11 +166,10 @@ proxy-groups:
       - '🇮🇪IE | trojan | @DirectVPN | 18'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇨🇦CA | vmess | @oneclickvpnkeys | 9'
       - '🇺🇸US | vmess | @V2rayng_Fast | 1'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 14'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇨🇦CA | vmess | @forwardv2ray | 18'
+      - '🇨🇦CA | vmess | @forwardv2ray | 19'
       - '🇫🇮FI | ss | @proxy_mtm | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
