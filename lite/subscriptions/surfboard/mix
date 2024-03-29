@@ -11,15 +11,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇪IE | trojan | @PrivateVPNs | 19 = trojan, 52.17.1.216, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | trojan | @PrivateVPNs | 19 = trojan, 52.18.31.6, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | trojan | @DirectVPN | 19 = trojan, 54.188.234.76, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | vmess | @V2rayng_Fast | 1 = vmess, 129.146.113.254, 43121, username = d53b39e2-925e-45b6-9389-46b9fa95878b, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇨🇦CA | ss | @OutlineVpnOfficial | 18 = ss, 134.195.196.178, 807, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
+🇮🇪IE | trojan | @forwardv2ray | 19 = trojan, 3.254.25.108, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇺🇸US | vmess | @V2rayng_Fast | 1,🇨🇦CA | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @yaney_01 | 1
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇺🇸US | vmess | @V2rayng_Fast | 1,🇨🇦CA | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @yaney_01 | 1
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇺🇸US | vmess | @V2rayng_Fast | 1,🇨🇦CA | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @yaney_01 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇺🇸US | vmess | @V2rayng_Fast | 1,🇨🇦CA | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @yaney_01 | 1,🇮🇪IE | trojan | @forwardv2ray | 19
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇺🇸US | vmess | @V2rayng_Fast | 1,🇨🇦CA | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @yaney_01 | 1,🇮🇪IE | trojan | @forwardv2ray | 19
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇺🇸US | vmess | @V2rayng_Fast | 1,🇨🇦CA | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @yaney_01 | 1,🇮🇪IE | trojan | @forwardv2ray | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
