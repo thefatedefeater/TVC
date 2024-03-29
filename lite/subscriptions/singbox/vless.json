@@ -106,15 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 11",
-                "🇨🇦CA | vless | @Parsashonam | 18",
+                "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 17",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
                 "🇨🇦CA | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
-                "🇸🇪SE | vless | @ARv2ray | 15",
+                "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
@@ -132,7 +131,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 6",
                 "🇨🇦CA | vless | @prrofile_purple | 178",
-                "🇨🇦CA | vless | @customv2ray | 11",
+                "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 33",
                 "🇮🇷IR | vless | @v2rayngvpn | 13",
@@ -141,8 +140,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
                 "🇮🇷IR | vless | @proxyymeliii | 9",
-                "🇨🇦CA | vless | @v2ray1_ng | 5",
-                "🏳️XX | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 145",
                 "🇨🇦CA | vless | @sinabigo | 7",
@@ -176,15 +174,14 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 11",
-                "🇨🇦CA | vless | @Parsashonam | 18",
+                "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 17",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
                 "🇨🇦CA | vless | @melov2ray | 12",
                 "🇨🇦CA | vless | @V2pedia | 27",
-                "🇸🇪SE | vless | @ARv2ray | 15",
+                "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
@@ -202,7 +199,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 6",
                 "🇨🇦CA | vless | @prrofile_purple | 178",
-                "🇨🇦CA | vless | @customv2ray | 11",
+                "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 33",
                 "🇮🇷IR | vless | @v2rayngvpn | 13",
@@ -211,8 +208,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
                 "🇮🇷IR | vless | @proxyymeliii | 9",
-                "🇨🇦CA | vless | @v2ray1_ng | 5",
-                "🏳️XX | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 145",
                 "🇨🇦CA | vless | @sinabigo | 7",
@@ -262,42 +258,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 11",
-            "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 443,
-            "uuid": "889b64bb-d3a3-4075-b04b-7f8227d2bc8e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "EliV2ray.naziitness.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 18",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 16",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "Parsashonam-27",
+            "uuid": "Parsashonam-28",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -490,7 +455,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ARv2ray | 15",
+            "tag": "🇸🇪SE | vless | @ARv2ray | 16",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 443,
@@ -974,11 +939,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 11",
+            "tag": "🇨🇦CA | vless | @customv2ray | 16",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "498a38ae-09f0-45f8-a0d7-06ed9d0c302e",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "284fd6b7-8e4a-4fd6-b96a-0a9b806bac65",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -986,21 +951,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "skdjfsklhfgd7fgy493toksjfog.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "skdjfsklhfgd7fgy493toksjfog.pages.dev"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1172,11 +1127,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 5",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "104.21.74.214",
             "server_port": 443,
-            "uuid": "cb211e44-7725-4ddc-b52e-6a0059162fde",
+            "uuid": "c6a979db-09de-4b47-88c2-fb89c0335049",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1186,7 +1141,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "moZ.soft98.deDYn.io",
+                "server_name": "moein.savarkaraan.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1195,42 +1150,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_Alpha\/",
-                "headers": {
-                    "Host": "moZ.soft98.deDYn.io"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @V2RayTz | 19",
-            "type": "vless",
-            "server": "[2606:4700:3033::ac43:ae7b]",
-            "server_port": 443,
-            "uuid": "95fcb606-7fb2-5868-8666-c69e75fbdb1d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "joinservernett.servernettorg.WoRkERS.dEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless-ws\/",
-                "headers": {
-                    "Host": "joinservernett.servernettorg.WoRkERS.dEV"
-                }
+                "type": "grpc",
+                "service_name": "@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1626,9 +1550,9 @@
         {
             "tag": "🇺🇸US | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "172.67.174.190",
-            "server_port": 443,
-            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
+            "server": "visa.com",
+            "server_port": 8443,
+            "uuid": "438471e8-19db-41c5-8e4f-271c21e9b239",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1638,7 +1562,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "w1.sylar8.eu.org",
+                "server_name": "join-sho-falcunargo-cz.falcunar.uk.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1650,7 +1574,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "w1.sylar8.eu.org"
+                    "Host": "join-sho-falcunargo-cz.falcunar.uk.eu.org"
                 }
             }
         },
