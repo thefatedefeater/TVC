@@ -118,7 +118,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇺🇸US | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 28",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🇨🇦CA | vless | @vpn_xw | 3",
@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 12",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -168,7 +168,7 @@
                 "🇸🇪SE | vless | @Capoit | 14",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇸🇪SE | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -199,7 +199,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇺🇸US | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 28",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🇨🇦CA | vless | @vpn_xw | 3",
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 12",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -249,7 +249,7 @@
                 "🇸🇪SE | vless | @Capoit | 14",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
+                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇸🇪SE | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -606,7 +606,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -817,7 +817,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1895,17 +1895,34 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "104.31.16.65",
+            "server": "172.67.174.190",
             "server_port": 443,
-            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
+            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "w1.sylar8.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "w1.sylar8.eu.org"
+                }
             }
         },
         {
