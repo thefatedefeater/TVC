@@ -136,7 +136,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇵🇱PL | vmess | @oneclickvpnkeys | 11",
-                "🇺🇸US | vless | @prrofile_purple | 176",
+                "🇨🇦CA | vless | @prrofile_purple | 176",
                 "🇮🇷IR | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 33",
@@ -152,11 +152,11 @@
                 "🇺🇸US | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 12",
-                "🇸🇪SE | vless | @DailyV2RY | 121",
+                "🇺🇸US | vless | @DailyV2RY | 119",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -168,7 +168,7 @@
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇩🇪DE | trojan | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇳🇱NL | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -218,7 +218,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇵🇱PL | vmess | @oneclickvpnkeys | 11",
-                "🇺🇸US | vless | @prrofile_purple | 176",
+                "🇨🇦CA | vless | @prrofile_purple | 176",
                 "🇮🇷IR | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 33",
@@ -234,11 +234,11 @@
                 "🇺🇸US | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 12",
-                "🇸🇪SE | vless | @DailyV2RY | 121",
+                "🇺🇸US | vless | @DailyV2RY | 119",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇺🇸US | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -250,7 +250,7 @@
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇩🇪DE | trojan | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇳🇱NL | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -1069,7 +1069,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @prrofile_purple | 176",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 176",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1443,11 +1443,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 121",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 119",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "SVNTEAM",
+            "server": "www.zula.ir",
+            "server_port": 2096,
+            "uuid": "8bce3d05-ab06-4688-bdc1-109112e73e30",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1455,12 +1455,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "shah67.servernet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1519,7 +1529,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
+            "tag": "🇺🇸US | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1863,13 +1873,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "web.bbv2ry.pics",
-            "server_port": 443,
-            "uuid": "7d82c1c2-b153-427b-8cb3-18faa15d1ed4",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | trojan | @forwardv2ray | 17",
+            "type": "trojan",
+            "server": "18.153.204.204",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1877,19 +1885,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Sky2.bbv2ry.pics",
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Sky2.bbv2ry.pics"
                 }
             }
         },
