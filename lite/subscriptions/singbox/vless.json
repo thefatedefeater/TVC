@@ -117,7 +117,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇮🇷IR | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 31",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
@@ -147,7 +147,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 145",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇮🇷IR | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇳🇱NL | vless | @Outlinev2rayNG | 13",
@@ -156,6 +156,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 16",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -185,7 +186,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇮🇷IR | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 31",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
@@ -215,7 +216,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 145",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇮🇷IR | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇳🇱NL | vless | @Outlinev2rayNG | 13",
@@ -224,6 +225,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 16",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -559,7 +561,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1324,7 +1326,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 10",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1582,6 +1584,27 @@
                 "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
                     "Host": "watashi.free.de.mnhacker.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "www.visa.com",
+            "server_port": 80,
+            "uuid": "TelegramELiV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.visa.com"
                 }
             }
         },
