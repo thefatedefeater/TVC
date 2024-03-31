@@ -125,7 +125,7 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 14","type":"vmess","server":"ftp-localcdn.kiava-cloud.us.to","port":"443","cipher":"auto","uuid":"36cc4baf-8abf-4b98-91bb-79a5cd12ad29","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkiava","headers":{"host":"ftp-localcdn.kiava-cloud.us.to"}}}
   - {"name":"🇩🇪DE | vmess | @prrofile_purple | 177","type":"vmess","server":"45.32.158.65","port":"27663","cipher":"auto","uuid":"5789382f-2bb4-4817-ba71-2e5f21a27268","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧GB | vmess | @ShadowProxy66 | 67","type":"vmess","server":"213.32.63.176","port":"3586","cipher":"auto","uuid":"acba8460-6c85-4d67-8f74-5a51da5e8393","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
+  - {"name":"🇺🇸US | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -137,7 +137,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 14'
       - '🇩🇪DE | vmess | @prrofile_purple | 177'
       - '🇬🇧GB | vmess | @ShadowProxy66 | 67'
-      - '🇨🇦CA | vmess | @yaney_01 | 1'
+      - '🇺🇸US | vmess | @yaney_01 | 1'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -149,7 +149,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 14'
       - '🇩🇪DE | vmess | @prrofile_purple | 177'
       - '🇬🇧GB | vmess | @ShadowProxy66 | 67'
-      - '🇨🇦CA | vmess | @yaney_01 | 1'
+      - '🇺🇸US | vmess | @yaney_01 | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -160,7 +160,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 14'
       - '🇩🇪DE | vmess | @prrofile_purple | 177'
       - '🇬🇧GB | vmess | @ShadowProxy66 | 67'
-      - '🇨🇦CA | vmess | @yaney_01 | 1'
+      - '🇺🇸US | vmess | @yaney_01 | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
