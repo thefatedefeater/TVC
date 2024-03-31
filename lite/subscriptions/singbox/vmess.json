@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇵🇱PL | vmess | @prrofile_purple | 169",
-                "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 18"
             ]
         },
         {
@@ -122,12 +122,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇵🇱PL | vmess | @prrofile_purple | 169",
-                "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "auth.speedtest.net",
+            "server": "ftp-localcdn.kiava-cloud.us.to",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "36cc4baf-8abf-4b98-91bb-79a5cd12ad29",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -201,7 +201,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nelly.homes",
+                "server_name": "ftp-localcdn.kiava-cloud.us.to",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -211,9 +211,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/linkiava",
                 "headers": {
-                    "Host": "nelly.homes"
+                    "Host": "ftp-localcdn.kiava-cloud.us.to"
                 }
             }
         },
@@ -223,23 +223,6 @@
             "server": "146.59.17.58",
             "server_port": 12960,
             "uuid": "48a86563-63c5-4218-e887-d752f801ae82",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vmess | @ShadowProxy66 | 67",
-            "type": "vmess",
-            "server": "213.32.63.176",
-            "server_port": 3586,
-            "uuid": "acba8460-6c85-4d67-8f74-5a51da5e8393",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -330,6 +313,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "inna.cfd",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "inna.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "inna.cfd"
                 }
             }
         }
