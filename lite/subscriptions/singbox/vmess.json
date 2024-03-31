@@ -108,13 +108,14 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇵🇱PL | vmess | @prrofile_purple | 169",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 18"
+                "🇨🇦CA | vmess | @v2Line | 11",
+                "🇺🇸US | vmess | @forwardv2ray | 4"
             ]
         },
         {
@@ -123,13 +124,14 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇵🇱PL | vmess | @prrofile_purple | 169",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 18"
+                "🇨🇦CA | vmess | @v2Line | 11",
+                "🇺🇸US | vmess | @forwardv2ray | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -183,6 +185,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "obdii.cfd",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
             }
         },
         {
@@ -309,7 +345,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 10",
+            "tag": "🇨🇦CA | vmess | @v2Line | 11",
             "type": "vmess",
             "server": "104.16.216.241",
             "server_port": 443,
@@ -343,11 +379,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 4",
             "type": "vmess",
-            "server": "104.21.15.212",
+            "server": "172.67.131.108",
             "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -360,7 +396,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.sbs",
+                "server_name": "glweidf.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -372,7 +408,7 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": "glweidf.cfd"
                 }
             }
         }
