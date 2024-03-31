@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇧🇭BH | ss | @DeamNet_Proxy | 5",
                 "🇦🇪AE | ss | @VmessProtocol | 3",
                 "🇩🇪DE | ss | @VmessProtocol | 4",
                 "🇩🇪DE | ss | @VmessProtocol | 8",
@@ -134,6 +135,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇧🇭BH | ss | @DeamNet_Proxy | 5",
                 "🇦🇪AE | ss | @VmessProtocol | 3",
                 "🇩🇪DE | ss | @VmessProtocol | 4",
                 "🇩🇪DE | ss | @VmessProtocol | 8",
@@ -176,6 +178,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇧🇭BH | ss | @DeamNet_Proxy | 5",
+            "type": "shadowsocks",
+            "server": "Fast_2ray_telchannelll2.fast2rayy.eu.org",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇦🇪AE | ss | @VmessProtocol | 3",
