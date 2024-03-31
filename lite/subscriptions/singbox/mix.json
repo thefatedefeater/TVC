@@ -119,7 +119,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇮🇷IR | vless | @free_v2rayyy | 3",
-                "🇸🇪SE | vless | @lightning6 | 32",
+                "🇸🇪SE | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @vpn_xw | 4",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
@@ -154,7 +154,7 @@
                 "🇮🇷IR | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @lrnbymaa | 11",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vless | @proxystore11 | 11",
+                "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -165,7 +165,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -198,7 +198,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇮🇷IR | vless | @free_v2rayyy | 3",
-                "🇸🇪SE | vless | @lightning6 | 32",
+                "🇸🇪SE | vless | @lightning6 | 29",
                 "🇨🇦CA | vless | @vpn_xw | 4",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
@@ -233,7 +233,7 @@
                 "🇮🇷IR | vless | @sinabigo | 7",
                 "🇺🇸US | vless | @lrnbymaa | 11",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vless | @proxystore11 | 11",
+                "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -244,7 +244,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇸🇪SE | vless | @Capoit | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -633,11 +633,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lightning6 | 32",
+            "tag": "🇸🇪SE | vless | @lightning6 | 29",
             "type": "vless",
-            "server": "185.146.173.96",
+            "server": "185.146.173.59",
             "server_port": 8880,
-            "uuid": "afa2891c-5351-4e47-8e69-110b1e9f741c",
+            "uuid": "19913550-f35d-4bb4-8295-0cf9e90efa77",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1447,7 +1447,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 11",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
@@ -1716,13 +1716,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "injaro.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "backend.app-browser.org",
+            "server_port": 2087,
+            "uuid": "520a5f45-d354-42f4-a658-18dbc3754645",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1730,7 +1733,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "filTer-1tg.pAges.DeV",
+                "server_name": "backend.app-browser.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1740,9 +1743,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/fws",
                 "headers": {
-                    "Host": "filTer-1tg.pAges.DeV"
+                    "Host": "backend.app-browser.org"
                 }
             }
         },
