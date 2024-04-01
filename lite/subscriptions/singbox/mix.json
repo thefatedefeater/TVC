@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 15",
-                "🇨🇦CA | vless | @Parsashonam | 15",
+                "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 5",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @V2rayCollector | 1",
+                "🇺🇸US | vless | @V2rayCollector | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 3",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 6",
@@ -165,7 +165,7 @@
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 12",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -185,7 +185,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 15",
-                "🇨🇦CA | vless | @Parsashonam | 15",
+                "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 5",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -205,7 +205,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇺🇸US | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @V2rayCollector | 1",
+                "🇺🇸US | vless | @V2rayCollector | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 3",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 6",
@@ -243,7 +243,7 @@
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 12",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -299,11 +299,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Parsashonam | 15",
+            "tag": "🇨🇦CA | vless | @Parsashonam | 17",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "Parsashonam-29",
+            "uuid": "Parsashonam-28",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -825,7 +825,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollector | 1",
+            "tag": "🇺🇸US | vless | @V2rayCollector | 1",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1726,13 +1726,16 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 12",
-            "type": "vless",
-            "server": "visa.com",
-            "server_port": 8443,
-            "uuid": "438471e8-19db-41c5-8e4f-271c21e9b239",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "104.21.4.6",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1740,7 +1743,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "join-sho-falcunargo-cz.falcunar.uk.eu.org",
+                "server_name": "glweidf.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1750,9 +1753,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "join-sho-falcunargo-cz.falcunar.uk.eu.org"
+                    "Host": "glweidf.cfd"
                 }
             }
         },
