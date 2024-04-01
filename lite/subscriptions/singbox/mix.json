@@ -118,7 +118,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇺🇸US | vless | @shh_proxy | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇮🇷IR | vless | @free_v2rayyy | 3",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇨🇦CA | vless | @vpn_xw | 4",
@@ -153,7 +153,7 @@
                 "🇩🇪DE | ss | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 177",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @proxystore11 | 11",
+                "🇺🇸US | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇮🇷IR | vless | @polproxy | 35",
@@ -164,7 +164,7 @@
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @flyv2ray | 14",
-                "🇸🇪SE | vless | @forwardv2ray | 15",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -195,7 +195,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇺🇸US | vless | @shh_proxy | 19",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇮🇷IR | vless | @free_v2rayyy | 3",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇨🇦CA | vless | @vpn_xw | 4",
@@ -230,7 +230,7 @@
                 "🇩🇪DE | ss | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 177",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @proxystore11 | 11",
+                "🇺🇸US | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇮🇷IR | vless | @polproxy | 35",
@@ -241,7 +241,7 @@
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @flyv2ray | 14",
-                "🇸🇪SE | vless | @forwardv2ray | 15",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -598,7 +598,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1419,7 +1419,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 11",
+            "tag": "🇺🇸US | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
@@ -1693,23 +1693,36 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 15",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "aaea8263-2a7e-4351-b6d8-a61c68700d50",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "104.21.4.6",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "glweidf.cfd"
                 }
             }
         },
