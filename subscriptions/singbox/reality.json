@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🏳️XX | vless | @V2pedia | 18",
                 "🏳️XX | vless | @V2pedia | 28",
-                "🇩🇪DE | vless | @ARv2ray | 5",
+                "🇩🇪DE | vless | @ARv2ray | 7",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -116,6 +116,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 21",
+                "🇩🇪DE | vless | @V2RayTz | 1",
                 "🏳️XX | vless | @DailyV2RY | 168",
                 "🏳️XX | vless | @DailyV2RY | 169",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -163,7 +164,7 @@
             "outbounds": [
                 "🏳️XX | vless | @V2pedia | 18",
                 "🏳️XX | vless | @V2pedia | 28",
-                "🇩🇪DE | vless | @ARv2ray | 5",
+                "🇩🇪DE | vless | @ARv2ray | 7",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -171,6 +172,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 21",
+                "🇩🇪DE | vless | @V2RayTz | 1",
                 "🏳️XX | vless | @DailyV2RY | 168",
                 "🏳️XX | vless | @DailyV2RY | 169",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -304,7 +306,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 5",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 7",
             "type": "vless",
             "server": "91.107.189.243",
             "server_port": 443,
@@ -551,6 +553,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @V2RayTz | 1",
+            "type": "vless",
+            "server": "18.197.161.149",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lSbOXG9WoVcJtJZzRberpPJhtaoZfq7XA-Z8yzeEQS8",
+                    "short_id": "11e06f8d18"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
