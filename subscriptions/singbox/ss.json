@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇬🇧GB | ss | @DeamNet_Proxy | 9",
                 "🇩🇪DE | ss | @VmessProtocol | 3",
                 "🇦🇪AE | ss | @VmessProtocol | 6",
                 "🇩🇪DE | ss | @VmessProtocol | 7",
@@ -133,6 +134,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇬🇧GB | ss | @DeamNet_Proxy | 9",
                 "🇩🇪DE | ss | @VmessProtocol | 3",
                 "🇦🇪AE | ss | @VmessProtocol | 6",
                 "🇩🇪DE | ss | @VmessProtocol | 7",
@@ -174,6 +176,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 9",
+            "type": "shadowsocks",
+            "server": "51.68.206.229",
+            "server_port": 8080,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | ss | @VmessProtocol | 3",
