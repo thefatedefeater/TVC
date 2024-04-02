@@ -113,6 +113,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
         },
@@ -127,6 +128,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -261,9 +263,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "108.61.218.225",
-            "server_port": 55491,
-            "uuid": "bb98b924-29b0-4f46-8417-5e1262fb6f61",
+            "server": "149.28.233.73",
+            "server_port": 25487,
+            "uuid": "352970a3-41c2-4d57-925f-452d76ba6d23",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -306,6 +308,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "172.67.152.214",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "meroiy.icu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "meroiy.icu"
                 }
             }
         },
