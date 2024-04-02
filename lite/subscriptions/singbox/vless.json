@@ -157,7 +157,8 @@
                 "🇺🇸US | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 15",
-                "🇺🇸US | vless | @FAKEOFTVC | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -226,7 +227,8 @@
                 "🇺🇸US | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 15",
-                "🇺🇸US | vless | @FAKEOFTVC | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1606,7 +1608,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 2",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "104.16.29.8",
+            "server_port": 2053,
+            "uuid": "cf428955-86c2-46b1-8cd7-f111666ff9fc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sayhello.rokna.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/backup",
+                "headers": {
+                    "Host": "sayhello.rokna.online"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 2",
             "type": "vless",
             "server": "Join-Telegram-Channel-Disvpn.onflashdrive.app",
             "server_port": 8443,
