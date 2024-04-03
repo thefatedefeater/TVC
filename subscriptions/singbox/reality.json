@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇹🇷TR | vless | @EliV2ray | 0",
                 "🇬🇧GB | vless | @EliV2ray | 11",
                 "🇹🇷TR | vless | @NIM_VPN_ir | 9",
                 "🏳️XX | vless | @V2pedia | 17",
@@ -118,10 +119,9 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇫🇮FI | vless | @V2rayCollectorDonate | 8",
                 "🏳️XX | vless | @FalconPolV2rayNG | 5",
-                "🇹🇷TR | vless | @proxyymeliii | 2",
-                "🇮🇷IR | vless | @proxyymeliii | 3",
-                "🇳🇱NL | vless | @v2ray1_ng | 10",
-                "🏳️XX | vless | @DailyV2RY | 116",
+                "🇹🇷TR | vless | @proxyymeliii | 7",
+                "🇮🇷IR | vless | @proxyymeliii | 8",
+                "🇳🇱NL | vless | @v2ray1_ng | 12",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -165,6 +165,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇹🇷TR | vless | @EliV2ray | 0",
                 "🇬🇧GB | vless | @EliV2ray | 11",
                 "🇹🇷TR | vless | @NIM_VPN_ir | 9",
                 "🏳️XX | vless | @V2pedia | 17",
@@ -177,10 +178,9 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇫🇮FI | vless | @V2rayCollectorDonate | 8",
                 "🏳️XX | vless | @FalconPolV2rayNG | 5",
-                "🇹🇷TR | vless | @proxyymeliii | 2",
-                "🇮🇷IR | vless | @proxyymeliii | 3",
-                "🇳🇱NL | vless | @v2ray1_ng | 10",
-                "🏳️XX | vless | @DailyV2RY | 116",
+                "🇹🇷TR | vless | @proxyymeliii | 7",
+                "🇮🇷IR | vless | @proxyymeliii | 8",
+                "🇳🇱NL | vless | @v2ray1_ng | 12",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -238,6 +238,42 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇹🇷TR | vless | @EliV2ray | 0",
+            "type": "vless",
+            "server": "185.17.136.177",
+            "server_port": 2053,
+            "uuid": "cc4d3871-e0ac-4024-b31c-18e630894016",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇬🇧GB | vless | @EliV2ray | 11",
@@ -637,7 +673,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vless | @proxyymeliii | 2",
+            "tag": "🇹🇷TR | vless | @proxyymeliii | 7",
             "type": "vless",
             "server": "mado3.maghzkadehturky.com.tr",
             "server_port": 2053,
@@ -673,7 +709,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 3",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 8",
             "type": "vless",
             "server": "er.maghzkadehturky.com.tr",
             "server_port": 2096,
@@ -702,7 +738,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @v2ray1_ng | 10",
+            "tag": "🇳🇱NL | vless | @v2ray1_ng | 12",
             "type": "vless",
             "server": "allrevolt.r8volt.com",
             "server_port": 8443,
@@ -728,42 +764,6 @@
                     "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
                     "short_id": "bfde1c85a6a4112a"
                 }
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @DailyV2RY | 116",
-            "type": "vless",
-            "server": "[2a12:5940:f667::2]",
-            "server_port": 25365,
-            "uuid": "b7421b73-fbd8-4318-8c22-5d4aa947dada",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gLjN_4GK5Ih3_cpt7dZZHGk439EPy3o04FytCzFwhQo",
-                    "short_id": "5fc00f6a"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ZEDMODEON-@ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
