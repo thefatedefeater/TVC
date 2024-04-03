@@ -138,13 +138,6 @@ proxies:
   - {"name":"🇿🇦ZA | ss | @OutlineVpnOfficial | 12","type":"ss","server":"129.232.129.156","port":444,"password":"DiPietyory","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 13","type":"ss","server":"38.121.43.248","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 14","type":"ss","server":"51.77.53.200","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇮FI | ss | @forwardv2ray | 4","type":"ss","server":"139.28.220.18","port":5700,"password":"UXoGWyjwDVZIl1WMuHtxSi","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷FR | ss | @forwardv2ray | 5","type":"ss","server":"51.178.87.37","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇧🇭BH | ss | @forwardv2ray | 6","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL | ss | @forwardv2ray | 7","type":"ss","server":"109.107.172.30","port":28190,"password":"1f8jdOIKkxRWMUeOfXPeo8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪AE | ss | @forwardv2ray | 8","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | ss | @forwardv2ray | 11","type":"ss","server":"account-mec.emofid.co","port":443,"password":"7ivrGEHY88sQk3DP","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | ss | @forwardv2ray | 12","type":"ss","server":"51.140.37.163","port":34417,"password":"OZ2VmWR9pI74zoLstexAee","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️XX | ss | @ROMAX_VPN | 6","type":"ss","server":"[2a12:5940:5237::2]","port":7261,"password":"pZvwP17Nlz2z6jsYnVgZgf","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -172,13 +165,6 @@ proxy-groups:
       - '🇿🇦ZA | ss | @OutlineVpnOfficial | 12'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 13'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 14'
-      - '🇫🇮FI | ss | @forwardv2ray | 4'
-      - '🇫🇷FR | ss | @forwardv2ray | 5'
-      - '🇧🇭BH | ss | @forwardv2ray | 6'
-      - '🇳🇱NL | ss | @forwardv2ray | 7'
-      - '🇦🇪AE | ss | @forwardv2ray | 8'
-      - '🇬🇧GB | ss | @forwardv2ray | 11'
-      - '🇬🇧GB | ss | @forwardv2ray | 12'
       - '🏳️XX | ss | @ROMAX_VPN | 6'
   - name: URL-TEST
     type: url-test
@@ -206,13 +192,6 @@ proxy-groups:
       - '🇿🇦ZA | ss | @OutlineVpnOfficial | 12'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 13'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 14'
-      - '🇫🇮FI | ss | @forwardv2ray | 4'
-      - '🇫🇷FR | ss | @forwardv2ray | 5'
-      - '🇧🇭BH | ss | @forwardv2ray | 6'
-      - '🇳🇱NL | ss | @forwardv2ray | 7'
-      - '🇦🇪AE | ss | @forwardv2ray | 8'
-      - '🇬🇧GB | ss | @forwardv2ray | 11'
-      - '🇬🇧GB | ss | @forwardv2ray | 12'
       - '🏳️XX | ss | @ROMAX_VPN | 6'
   - name: FALLBACK
     type: fallback
@@ -239,13 +218,6 @@ proxy-groups:
       - '🇿🇦ZA | ss | @OutlineVpnOfficial | 12'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 13'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 14'
-      - '🇫🇮FI | ss | @forwardv2ray | 4'
-      - '🇫🇷FR | ss | @forwardv2ray | 5'
-      - '🇧🇭BH | ss | @forwardv2ray | 6'
-      - '🇳🇱NL | ss | @forwardv2ray | 7'
-      - '🇦🇪AE | ss | @forwardv2ray | 8'
-      - '🇬🇧GB | ss | @forwardv2ray | 11'
-      - '🇬🇧GB | ss | @forwardv2ray | 12'
       - '🏳️XX | ss | @ROMAX_VPN | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
