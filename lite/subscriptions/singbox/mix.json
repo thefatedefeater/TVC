@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 32",
-                "🇮🇷IR | vless | @proxyymeliii | 13",
+                "🇮🇷IR | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 14",
                 "🇺🇸US | vless | @vless_vmess | 7",
@@ -156,7 +156,7 @@
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 10",
+                "🇩🇪DE | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇬🇧GB | vless | @Outlinev2rayNG | 13",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 5",
@@ -166,7 +166,7 @@
                 "🇬🇧GB | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇷🇺RU | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -229,7 +229,7 @@
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vless | @v2ray_swhil | 32",
-                "🇮🇷IR | vless | @proxyymeliii | 13",
+                "🇮🇷IR | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 14",
                 "🇺🇸US | vless | @vless_vmess | 7",
@@ -239,7 +239,7 @@
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 10",
+                "🇩🇪DE | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇬🇧GB | vless | @Outlinev2rayNG | 13",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 5",
@@ -249,7 +249,7 @@
                 "🇬🇧GB | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇷🇺RU | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -1330,31 +1330,23 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 13",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 16",
             "type": "vless",
-            "server": "er.maghzkadehturky.com.tr",
-            "server_port": 2096,
-            "uuid": "cc4d3871-e0ac-4024-b31c-18e630894016",
-            "flow": "xtls-rprx-vision",
+            "server": "svt55.topnetvip.com",
+            "server_port": 12574,
+            "uuid": "b743a636-e9c2-4503-bd75-ef5c6cab062a",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "svt55.topnetvip.com"
                 }
             }
         },
@@ -1589,11 +1581,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 10",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "107.172.25.132",
-            "server_port": 18117,
-            "uuid": "e2cfd504-b51f-42a4-cc18-665f82f2549c",
+            "server": "49.13.134.69",
+            "server_port": 5260,
+            "uuid": "06b02791-af50-46bd-8679-bc84b754f0aa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1839,36 +1831,23 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "6e29302d-ca49-4fdb-ae66-9c72f93f01c8",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇷🇺RU | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "45.8.211.98",
+            "server_port": 80,
+            "uuid": "d985d7c9-34a4-4983-92a5-ae64480798c0",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/@ExpressVPN_420\"@ExpressVPN_420",
                 "headers": {
-                    "Host": "Dusseldorf.kotick.site"
+                    "Host": "45.8.211.98"
                 }
             }
         },
