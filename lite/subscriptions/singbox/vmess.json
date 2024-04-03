@@ -108,13 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @prrofile_purple | 170",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇷CR | vmess | @forwardv2ray | 17",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ]
@@ -125,13 +123,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @prrofile_purple | 170",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇷CR | vmess | @forwardv2ray | 17",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ],
@@ -187,30 +183,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "vn18.4gchill.com",
-            "server_port": 80,
-            "uuid": "67d5296e-a2ee-4a9f-89e6-365da540c55d",
-            "security": "auto",
-            "alter_id": 23379904,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/4gchill.com",
-                "headers": {
-                    "Host": "vn18.4gchill.com"
-                }
             }
         },
         {
@@ -370,40 +342,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "be2-vmess.sshmax.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "190.93.247.155",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "janett.click",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "janett.click"
                 }
             }
         },
