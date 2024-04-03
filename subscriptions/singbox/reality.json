@@ -108,9 +108,8 @@
                 "URL-TEST",
                 "🇹🇷TR | vless | @EliV2ray | 0",
                 "🇬🇧GB | vless | @EliV2ray | 11",
-                "🇹🇷TR | vless | @NIM_VPN_ir | 9",
+                "🇹🇷TR | vless | @NIM_VPN_ir | 10",
                 "🏳️XX | vless | @V2pedia | 17",
-                "🇩🇪DE | vless | @ARv2ray | 19",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -130,7 +129,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -167,9 +166,8 @@
             "outbounds": [
                 "🇹🇷TR | vless | @EliV2ray | 0",
                 "🇬🇧GB | vless | @EliV2ray | 11",
-                "🇹🇷TR | vless | @NIM_VPN_ir | 9",
+                "🇹🇷TR | vless | @NIM_VPN_ir | 10",
                 "🏳️XX | vless | @V2pedia | 17",
-                "🇩🇪DE | vless | @ARv2ray | 19",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -189,7 +187,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -312,7 +310,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vless | @NIM_VPN_ir | 9",
+            "tag": "🇹🇷TR | vless | @NIM_VPN_ir | 10",
             "type": "vless",
             "server": "213.217.31.43",
             "server_port": 8080,
@@ -378,42 +376,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 19",
-            "type": "vless",
-            "server": "91.107.189.243",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "EMSvWHnEIF8Yd7Yja2agy_EulWkBEYgRphgvva5Znz8",
-                    "short_id": "a1e03f51"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1013,7 +975,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
