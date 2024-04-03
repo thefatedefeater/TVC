@@ -112,7 +112,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
@@ -236,9 +236,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "207.246.108.107",
-            "server_port": 40193,
-            "uuid": "10979bca-b26b-42ae-801c-b2efbd1bf8b8",
+            "server": "149.28.114.8",
+            "server_port": 41009,
+            "uuid": "f720ba25-83d6-44b5-fea1-b2a46623f269",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -285,11 +285,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "18.144.74.43",
-            "server_port": 43132,
-            "uuid": "d19512a8-7092-4d7d-f2c5-0344b5a5adfa",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -300,11 +300,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/d19512a8",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "nelly.homes"
                 }
             }
         },
