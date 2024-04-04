@@ -125,9 +125,9 @@
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇺🇸US | vless | @proxy_kafee | 5",
+                "🇨🇦CA | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇳🇱NL | vless | @V2rayCollector | 2",
                 "🇦🇱AL | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
@@ -137,7 +137,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 12",
-                "🇬🇧GB | vless | @v2rayngvpn | 16",
+                "🇨🇦CA | vless | @v2rayngvpn | 16",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vless | @proxyymeliii | 18",
@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
                 "🇺🇸US | vless | @vless_vmess | 9",
                 "🏳️XX | vless | @MTConfig | 11",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇺🇸US | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 137",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
@@ -195,9 +195,9 @@
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇺🇸US | vless | @proxy_kafee | 5",
+                "🇨🇦CA | vless | @proxy_kafee | 5",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇳🇱NL | vless | @V2rayCollector | 2",
                 "🇦🇱AL | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 12",
-                "🇬🇧GB | vless | @v2rayngvpn | 16",
+                "🇨🇦CA | vless | @v2rayngvpn | 16",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vless | @proxyymeliii | 18",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 15",
                 "🇺🇸US | vless | @vless_vmess | 9",
                 "🏳️XX | vless | @MTConfig | 11",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇺🇸US | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 137",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
@@ -777,7 +777,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_kafee | 5",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 5",
             "type": "vless",
             "server": "discord.com",
             "server_port": 2087,
@@ -839,7 +839,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1070,17 +1070,34 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @v2rayngvpn | 16",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 16",
             "type": "vless",
-            "server": "87.236.208.189",
-            "server_port": 2052,
-            "uuid": "8f05e3ed-3a12-4eff-bf94-368e49340304",
+            "server": "104.19.7.164",
+            "server_port": 443,
+            "uuid": "2e19015e-e622-4544-9c12-f42533ce11e8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "REsilience.NiREvil.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "REsilience.NiREvil.IR"
+                }
             }
         },
         {
@@ -1281,11 +1298,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
+            "tag": "🇺🇸US | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 8880,
-            "uuid": "19243edc-22e6-4e28-9ff1-eb81656e5379",
+            "server": "172.66.213.38",
+            "server_port": 443,
+            "uuid": "487cf22f-2d07-48da-9527-9a978fca1fe9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1293,11 +1310,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ShhProxyFreViP.xn--85-pv2cl2k5x3fipr.org.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "ShhProxyFreViP.xn--85-pv2cl2k5x3fipr.org."
                 }
             }
         },
