@@ -111,16 +111,16 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 7",
-                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇺🇸US | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 30",
                 "🇨🇦CA | vless | @frev2ray | 5",
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🏳️XX | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 36",
-                "🇨🇦CA | vless | @V2rayNGmat | 11",
+                "🇺🇸US | vless | @V2rayNGmat | 11",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
@@ -136,6 +136,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇿CZ | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇮🇷IR | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 11",
@@ -199,16 +200,16 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 7",
-                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇺🇸US | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 30",
                 "🇨🇦CA | vless | @frev2ray | 5",
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🏳️XX | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 36",
-                "🇨🇦CA | vless | @V2rayNGmat | 11",
+                "🇺🇸US | vless | @V2rayNGmat | 11",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
@@ -224,6 +225,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇿CZ | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇮🇷IR | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 11",
@@ -443,7 +445,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 10",
+            "tag": "🇺🇸US | vless | @melov2ray | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -602,7 +604,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -678,7 +680,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 11",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 11",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 2096,
@@ -1075,6 +1077,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇿CZ | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "94.131.97.10",
+            "server_port": 2086,
+            "uuid": "13c4fa1d-c558-4cd0-8108-c1f64cd399ff",
+            "security": "auto",
+            "alter_id": -1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "94.131.97.10"
+                }
             }
         },
         {
