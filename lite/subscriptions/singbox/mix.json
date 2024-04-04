@@ -152,11 +152,12 @@
                 "🇺🇸US | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
+                "🇮🇷IR | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇫🇷FR | vmess | @Hope_Net | 10",
+                "🇫🇷FR | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇬🇧GB | vless | @Outlinev2rayNG | 13",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 5",
@@ -164,9 +165,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇬🇧GB | vless | @Capoit | 9",
-                "🇺🇸US | vless | @FreakConfig | 6",
+                "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -235,11 +236,12 @@
                 "🇺🇸US | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
+                "🇮🇷IR | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇫🇷FR | vmess | @Hope_Net | 10",
+                "🇫🇷FR | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇬🇧GB | vless | @Outlinev2rayNG | 13",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 5",
@@ -247,9 +249,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇬🇧GB | vless | @Capoit | 9",
-                "🇺🇸US | vless | @FreakConfig | 6",
+                "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @forwardv2ray | 17",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -1475,6 +1477,20 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇮🇷IR | vless | @DailyV2RY | 115",
+            "type": "vless",
+            "server": "89.44.112.152",
+            "server_port": 7735,
+            "uuid": "ba8d85de-1ab1-4c23-8866-3b9b27546c18",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @sinabigo | 5",
             "type": "vless",
             "server": "tgju.org",
@@ -1581,7 +1597,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @Hope_Net | 10",
+            "tag": "🇫🇷FR | vmess | @Hope_Net | 12",
             "type": "vmess",
             "server": "94.131.118.246",
             "server_port": 80,
@@ -1776,7 +1792,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 6",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 6",
             "type": "vless",
             "server": "172.66.44.197",
             "server_port": 443,
@@ -1838,11 +1854,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "parspack.com",
-            "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "server": "172.67.20.220",
+            "server_port": 2096,
+            "uuid": "77a571fb-4fd2-4b37-8596-2b7d9728bb5c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1852,7 +1868,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
+                "server_name": "vpnxw.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1864,7 +1880,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "Bia.alLhub.Ltd"
+                    "Host": "vpnxw.pages.dev"
                 }
             }
         },

@@ -17,11 +17,11 @@ DIRECT = direct
 🇺🇸US | vmess | @customv2ray | 12 = vmess, s1c.v2.v001sss.xyz, 2082, username = 112ac36f-3f53-4e26-8371-d25c028e1b9a, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"s1c.v2.v001sss.xyz", skip-cert-verify = true, tfo = false
 🇩🇪DE | ss | @VmessProtocol | 16 = ss, 18.159.252.71, 2087, encrypt-method = chacha20-ietf-poly1305, password = VeU08K3XooFPKyaszR2k+vL8clIlwuctf5SaDabfvIo=
 🇵🇱PL | ss | @OutlineVpnOfficial | 14 = ss, 51.77.53.200, 5000, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
-🇫🇷FR | vmess | @Hope_Net | 10 = vmess, 94.131.118.246, 80, username = 48bc6709-06c0-4e77-81a6-8c908999ca1e, ws = true, tls = , vmess-aead = false, ws-path = /vmess, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇫🇷FR | vmess | @Hope_Net | 12 = vmess, 94.131.118.246, 80, username = 48bc6709-06c0-4e77-81a6-8c908999ca1e, ws = true, tls = , vmess-aead = false, ws-path = /vmess, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇮🇷IR | vmess | @prrofile_purple | 180,🇺🇸US | vmess | @customv2ray | 12,🇩🇪DE | ss | @VmessProtocol | 16,🇵🇱PL | ss | @OutlineVpnOfficial | 14,🇫🇷FR | vmess | @Hope_Net | 10
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇮🇷IR | vmess | @prrofile_purple | 180,🇺🇸US | vmess | @customv2ray | 12,🇩🇪DE | ss | @VmessProtocol | 16,🇵🇱PL | ss | @OutlineVpnOfficial | 14,🇫🇷FR | vmess | @Hope_Net | 10
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇮🇷IR | vmess | @prrofile_purple | 180,🇺🇸US | vmess | @customv2ray | 12,🇩🇪DE | ss | @VmessProtocol | 16,🇵🇱PL | ss | @OutlineVpnOfficial | 14,🇫🇷FR | vmess | @Hope_Net | 10
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇮🇷IR | vmess | @prrofile_purple | 180,🇺🇸US | vmess | @customv2ray | 12,🇩🇪DE | ss | @VmessProtocol | 16,🇵🇱PL | ss | @OutlineVpnOfficial | 14,🇫🇷FR | vmess | @Hope_Net | 12
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇮🇷IR | vmess | @prrofile_purple | 180,🇺🇸US | vmess | @customv2ray | 12,🇩🇪DE | ss | @VmessProtocol | 16,🇵🇱PL | ss | @OutlineVpnOfficial | 14,🇫🇷FR | vmess | @Hope_Net | 12
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇮🇷IR | vmess | @prrofile_purple | 180,🇺🇸US | vmess | @customv2ray | 12,🇩🇪DE | ss | @VmessProtocol | 16,🇵🇱PL | ss | @OutlineVpnOfficial | 14,🇫🇷FR | vmess | @Hope_Net | 12
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
