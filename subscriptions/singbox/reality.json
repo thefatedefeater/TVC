@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇹🇷TR | vless | @EliV2ray | 2",
-                "🇬🇧GB | vless | @EliV2ray | 13",
                 "🏳️XX | vless | @V2pedia | 17",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
@@ -115,7 +114,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇫🇮FI | vless | @V2rayCollectorDonate | 8",
+                "🇫🇮FI | vless | @V2rayCollectorDonate | 9",
                 "🇹🇷TR | vless | @proxyymeliii | 10",
                 "🇮🇷IR | vless | @proxyymeliii | 11",
                 "🇳🇱NL | vless | @v2ray1_ng | 12",
@@ -127,7 +126,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -163,7 +162,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇹🇷TR | vless | @EliV2ray | 2",
-                "🇬🇧GB | vless | @EliV2ray | 13",
                 "🏳️XX | vless | @V2pedia | 17",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
@@ -171,7 +169,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🇫🇮FI | vless | @V2rayCollectorDonate | 8",
+                "🇫🇮FI | vless | @V2rayCollectorDonate | 9",
                 "🇹🇷TR | vless | @proxyymeliii | 10",
                 "🇮🇷IR | vless | @proxyymeliii | 11",
                 "🇳🇱NL | vless | @v2ray1_ng | 12",
@@ -183,7 +181,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -264,42 +262,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "xyz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @EliV2ray | 13",
-            "type": "vless",
-            "server": "165.22.120.153",
-            "server_port": 443,
-            "uuid": "fa2dedd2-9f9e-4905-bd00-555d0fa25702",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.plutex.de",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Nln0pa_TGktLiJu3sKL-nxmGv-lZb1xGZ_Ig0wP_5R4",
-                    "short_id": "98ed59f5"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "new.vipstore.cfd",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -523,7 +485,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @V2rayCollectorDonate | 8",
+            "tag": "🇫🇮FI | vless | @V2rayCollectorDonate | 9",
             "type": "vless",
             "server": "pub2.legendaryking.link",
             "server_port": 443,
@@ -899,7 +861,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
