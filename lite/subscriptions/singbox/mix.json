@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇸🇪SE | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -128,7 +129,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇳🇱NL | vless | @V2rayCollector | 2",
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
@@ -159,7 +160,7 @@
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇾CY | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @fnet00 | 0",
@@ -195,6 +196,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇸🇪SE | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @Parsashonam | 14",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -217,7 +219,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇳🇱NL | vless | @V2rayCollector | 2",
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
@@ -248,7 +250,7 @@
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇾CY | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @fnet00 | 0",
@@ -298,6 +300,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇸🇪SE | vless | @EliV2ray | 12",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "ELiV2RAY-ELiV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 14",
@@ -908,7 +931,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
+            "tag": "🇺🇸US | vmess | @azadi_az_inja_migzare | 0",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1703,7 +1726,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
