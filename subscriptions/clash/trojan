@@ -149,7 +149,6 @@ proxies:
   - {"name":"🇩🇪DE | trojan | @DirectVPN | 17","type":"trojan","server":"18.199.189.81","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | trojan | @DirectVPN | 18","type":"trojan","server":"54.93.67.119","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 19","type":"trojan","server":"13.53.102.208","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇦🇹AT | trojan | @ConfigsHUB | 5","type":"trojan","server":"at1.trojanvpn.de","port":2053,"udp":false,"password":"09191dbf-e7f7-4e7d-b405-c4785ea992bf","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ftp.debian.org"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -187,7 +186,6 @@ proxy-groups:
       - '🇩🇪DE | trojan | @DirectVPN | 17'
       - '🇩🇪DE | trojan | @DirectVPN | 18'
       - '🇸🇪SE | trojan | @DirectVPN | 19'
-      - '🇦🇹AT | trojan | @ConfigsHUB | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -225,7 +223,6 @@ proxy-groups:
       - '🇩🇪DE | trojan | @DirectVPN | 17'
       - '🇩🇪DE | trojan | @DirectVPN | 18'
       - '🇸🇪SE | trojan | @DirectVPN | 19'
-      - '🇦🇹AT | trojan | @ConfigsHUB | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -262,7 +259,6 @@ proxy-groups:
       - '🇩🇪DE | trojan | @DirectVPN | 17'
       - '🇩🇪DE | trojan | @DirectVPN | 18'
       - '🇸🇪SE | trojan | @DirectVPN | 19'
-      - '🇦🇹AT | trojan | @ConfigsHUB | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
