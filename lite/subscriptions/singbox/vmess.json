@@ -108,10 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇳🇱NL | vmess | @DeamNet_Proxy | 18",
+                "🇮🇸IS | vmess | @DeamNet_Proxy | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @v2ray_swhil | 23",
-                "🇳🇱NL | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -125,10 +124,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇳🇱NL | vmess | @DeamNet_Proxy | 18",
+                "🇮🇸IS | vmess | @DeamNet_Proxy | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @v2ray_swhil | 23",
-                "🇳🇱NL | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -190,13 +188,13 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @DeamNet_Proxy | 18",
+            "tag": "🇮🇸IS | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "188.114.96.0",
-            "server_port": 443,
-            "uuid": "fa2ad4c5-63ba-45f0-8926-12fcce49ded1",
+            "server": "is3-vmess.sshmax.xyz",
+            "server_port": 80,
+            "uuid": "a8d33442-de64-4980-a779-540c1eedbc25",
             "security": "auto",
-            "alter_id": 9,
+            "alter_id": -1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -205,21 +203,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ru.sxmzkfyy.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/VK4yTEQZ\/",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "ru.sxmzkfyy.com"
+                    "Host": "is3-vmess.sshmax.xyz"
                 }
             }
         },
@@ -289,23 +277,6 @@
                 "headers": {
                     "Host": "nelly.homes"
                 }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "89.110.67.33",
-            "server_port": 17390,
-            "uuid": "42c6b98e-e450-49bc-9aa3-3785de2b1c7d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
