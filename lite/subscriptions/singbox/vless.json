@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 12",
+                "🇨🇦CA | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇺🇸US | vless | @NIM_VPN_ir | 8",
@@ -132,7 +132,7 @@
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 7",
-                "🇨🇦CA | vless | @prrofile_purple | 173",
+                "🇺🇸US | vless | @prrofile_purple | 173",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 33",
@@ -142,13 +142,13 @@
                 "🇪🇸ES | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇹🇷TR | vless | @DailyV2RY | 128",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 11",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
@@ -173,7 +173,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 12",
+                "🇨🇦CA | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇺🇸US | vless | @NIM_VPN_ir | 8",
@@ -199,7 +199,7 @@
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 7",
-                "🇨🇦CA | vless | @prrofile_purple | 173",
+                "🇺🇸US | vless | @prrofile_purple | 173",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 33",
@@ -209,13 +209,13 @@
                 "🇪🇸ES | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇹🇷TR | vless | @DailyV2RY | 128",
                 "🇳🇱NL | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 11",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
@@ -256,11 +256,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 12",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 12",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "Telegram-ELiV2Ray",
+            "server": "prs.bitplatform.cloud",
+            "server_port": 443,
+            "uuid": "8a052c65-bdf6-485a-c1d7-cb2b23f15dfa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -268,11 +268,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "germany-frankfurt.bitplatform.cloud",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "germany-frankfurt.bitplatform.cloud"
                 }
             }
         },
@@ -931,7 +941,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 173",
+            "tag": "🇺🇸US | vless | @prrofile_purple | 173",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1201,27 +1211,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 16",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 8880,
-            "uuid": "0eb7662b-b63b-4b16-9d3e-69444fa4cfed",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6",
-                "headers": {
-                    "Host": "185.146.173.59"
-                }
-            }
-        },
-        {
             "tag": "🇨🇷CR | vless | @MsV2ray | 14",
             "type": "vless",
             "server": "All.MsV2ray.online",
@@ -1362,7 +1351,28 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "ja.vivacello.org",
+            "server_port": 8880,
+            "uuid": "77a571fb-4fd2-4b37-8596-2b7d9728bb5c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ja.vivacello.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
