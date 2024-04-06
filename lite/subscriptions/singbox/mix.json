@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -158,6 +158,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 118",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 18",
+                "🇦🇱AL | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇳🇱NL | vmess | @Hope_Net | 19",
@@ -167,7 +168,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇺🇸US | vless | @Capoit | 9",
-                "🇺🇸US | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇬🇧GB | ss | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -210,7 +211,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -241,6 +242,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 118",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 18",
+                "🇦🇱AL | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇳🇱NL | vmess | @Hope_Net | 19",
@@ -250,7 +252,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇺🇸US | vless | @Capoit | 9",
-                "🇺🇸US | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇬🇧GB | ss | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -845,7 +847,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1578,6 +1580,37 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇦🇱AL | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "al1-vless.sshmax.xyz",
+            "server_port": 443,
+            "uuid": "f319be09-b3f1-4069-b8fa-0b4f07a3af91",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mci",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless",
+                "headers": {
+                    "Host": "mci"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
@@ -1844,11 +1877,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 16",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 16",
             "type": "vless",
-            "server": "172.64.80.150",
+            "server": "104.21.10.94",
             "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1858,7 +1891,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
+                "server_name": "baipiao406.stunning-bassoon.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1870,7 +1903,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
+                    "Host": "baipiao406.stunning-bassoon.pages.dev"
                 }
             }
         },
