@@ -137,7 +137,6 @@
                 "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 175",
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
@@ -148,7 +147,7 @@
                 "🇪🇸ES | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @ServerNett | 26",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 14",
+                "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇷CR | vmess | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 7",
@@ -161,6 +160,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 34",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇺🇸US | ss | @FAKEOFTVC | 7",
-                "🇸🇪SE | vless | @mehrosaboran | 8",
+                "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -221,7 +221,6 @@
                 "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 175",
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
@@ -232,7 +231,7 @@
                 "🇪🇸ES | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @ServerNett | 26",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 14",
+                "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇨🇷CR | vmess | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 7",
@@ -245,6 +244,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 34",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -252,7 +252,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇺🇸US | ss | @FAKEOFTVC | 7",
-                "🇸🇪SE | vless | @mehrosaboran | 8",
+                "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1091,40 +1091,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "marien.motorcycles",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": -1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "marien.motorcycles",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "marien.motorcycles"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @prrofile_purple | 175",
             "type": "vless",
             "server": "172.66.44.197",
@@ -1252,9 +1218,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 15",
             "type": "vless",
-            "server": "104.24.183.89",
+            "server": "104.18.9.38",
             "server_port": 443,
-            "uuid": "2e19015e-e622-4544-9c12-f42533ce11e8",
+            "uuid": "25c5cbda-39e5-47ed-b36c-b87ffef2378d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1264,7 +1230,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "REsilience.NiREvil.IR",
+                "server_name": "worker-fancy-base-7d08.yajici1215.workers.DEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1276,7 +1242,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "REsilience.NiREvil.IR"
+                    "Host": "worker-fancy-base-7d08.yajici1215.workers.DEV"
                 }
             }
         },
@@ -1395,11 +1361,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 14",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 13",
             "type": "vless",
-            "server": "www.discord.com",
-            "server_port": 443,
-            "uuid": "ae3b1fca-74b7-4484-b20c-7d2e555d5ac5",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "ec126e82-c989-4ed0-9878-d076b0b300f0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1407,21 +1373,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Join-tElEGRAm-CHaNnEL-DisvPn.OnflaShDrIve.aPP",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@DisVpn",
+                "path": "\/",
                 "headers": {
-                    "Host": "Join-tElEGRAm-CHaNnEL-DisvPn.OnflaShDrIve.aPP"
+                    "Host": "discord.gg"
                 }
             }
         },
@@ -1586,9 +1542,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "wifi.VPNPROSEC.com",
-            "server_port": 80,
-            "uuid": "SVNTEAMm",
+            "server": "discord.org",
+            "server_port": 8080,
+            "uuid": "d665de21-64fd-43da-a4eb-13817f8eafe6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1598,9 +1554,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
                 "headers": {
-                    "Host": "wifi.VPNPROSEC.com"
+                    "Host": "discord.org"
                 }
             }
         },
@@ -1732,6 +1688,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 18",
+            "type": "vless",
+            "server": "104.18.202.232",
+            "server_port": 80,
+            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/xmrdark",
+                "headers": {
+                    "Host": "104.18.202.232"
+                }
             }
         },
         {
@@ -1922,7 +1899,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 8",
+            "tag": "🇸🇪SE | vless | @mehrosaboran | 7",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
