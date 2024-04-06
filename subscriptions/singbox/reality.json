@@ -118,6 +118,7 @@
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 1",
                 "🇮🇷IR | vless | @ShadowProxy66 | 25",
                 "🇳🇱NL | vless | @v2ray_swhil | 11",
+                "🇩🇪DE | vless | @V2RayTz | 4",
                 "🇫🇮FI | vless | @DailyV2RY | 114",
                 "🇩🇪DE | vless | @DailyV2RY | 116",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -128,7 +129,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -178,6 +179,7 @@
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 1",
                 "🇮🇷IR | vless | @ShadowProxy66 | 25",
                 "🇳🇱NL | vless | @v2ray_swhil | 11",
+                "🇩🇪DE | vless | @V2RayTz | 4",
                 "🇫🇮FI | vless | @DailyV2RY | 114",
                 "🇩🇪DE | vless | @DailyV2RY | 116",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -188,7 +190,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -618,6 +620,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @V2RayTz | 4",
+            "type": "vless",
+            "server": "91.107.153.165",
+            "server_port": 443,
+            "uuid": "d0a988fa-27ef-440a-ac48-1f19e1b26f4e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-Kvrj4kXtXXfyNOcS0FcnD4YkP1nEJSv0DOQSNoZMTE",
+                    "short_id": "04bf49ad"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮FI | vless | @DailyV2RY | 114",
             "type": "vless",
             "server": "pub2.legendaryking.link",
@@ -936,7 +967,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
