@@ -152,11 +152,12 @@
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇸🇪SE | vless | @DailyV2RY | 117",
+                "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇯🇵JP | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -235,11 +236,12 @@
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇸🇪SE | vless | @DailyV2RY | 117",
+                "🇨🇦CA | vless | @DailyV2RY | 112",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇯🇵JP | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @polproxy | 34",
@@ -1450,11 +1452,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 117",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 112",
             "type": "vless",
-            "server": "185.146.173.59",
+            "server": "discord.gg",
             "server_port": 80,
-            "uuid": "7d4f24e4-a6b1-4dc3-8df8-817a21f08e09",
+            "uuid": "4f8dce29-51db-44a2-b760-4f2708320458",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1464,9 +1466,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "discord.gg"
                 }
             }
         },
@@ -1533,7 +1535,38 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "104.21.19.124",
+            "server_port": 2087,
+            "uuid": "------EVAY_VPN------",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free.sharkv2r.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
