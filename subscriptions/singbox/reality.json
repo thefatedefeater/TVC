@@ -122,7 +122,6 @@
                 "🇫🇮FI | vless | @V2RayTz | 13",
                 "🏳️XX | vless | @DailyV2RY | 119",
                 "🏳️XX | vless | @DailyV2RY | 127",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -131,7 +130,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -184,7 +183,6 @@
                 "🇫🇮FI | vless | @V2RayTz | 13",
                 "🏳️XX | vless | @DailyV2RY | 119",
                 "🏳️XX | vless | @DailyV2RY | 127",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -193,7 +191,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -752,42 +750,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "178.63.150.65",
-            "server_port": 443,
-            "uuid": "67ad1c8d-d52e-4c23-b18f-eaf686aae940",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B48aKMzJEyC-CFBhCyrlGemcy-7mW3jSX799x8p9agU",
-                    "short_id": "99452b17e087bcc0"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "cdn.discordapp.com"
-                ],
-                "path": "\/"
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 31",
             "type": "vless",
             "server": "142.132.183.55",
@@ -1034,7 +996,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
