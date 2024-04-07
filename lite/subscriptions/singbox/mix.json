@@ -132,15 +132,16 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 6",
                 "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇩🇪DE | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 14",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 15",
-                "🇮🇷IR | vless | @v2rayngvpn | 13",
+                "🇮🇷IR | vless | @v2rayngvpn | 16",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
                 "🇪🇸ES | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @ServerNett | 27",
@@ -151,11 +152,10 @@
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇮🇷IR | vless | @DailyV2RY | 102",
+                "🇮🇷IR | vless | @DailyV2RY | 110",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -215,15 +215,16 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 6",
                 "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇩🇪DE | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 14",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 15",
-                "🇮🇷IR | vless | @v2rayngvpn | 13",
+                "🇮🇷IR | vless | @v2rayngvpn | 16",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 1",
                 "🇪🇸ES | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @ServerNett | 27",
@@ -234,11 +235,10 @@
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇮🇷IR | vless | @DailyV2RY | 102",
+                "🇮🇷IR | vless | @DailyV2RY | 110",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -332,7 +332,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "3.124.202.104",
+            "server": "18.156.19.230",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -961,9 +961,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "18.199.112.29",
+            "server": "51.20.20.39",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1020,6 +1020,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 14",
+            "type": "vmess",
+            "server": "172.67.170.13",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
                 }
             }
         },
@@ -1149,7 +1183,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2rayngvpn | 13",
+            "tag": "🇮🇷IR | vless | @v2rayngvpn | 16",
             "type": "vless",
             "server": "188.121.117.3",
             "server_port": 59200,
@@ -1412,7 +1446,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @DailyV2RY | 102",
+            "tag": "🇮🇷IR | vless | @DailyV2RY | 110",
             "type": "vless",
             "server": "gr-up.crocdilsvr.site",
             "server_port": 6060,
@@ -1488,37 +1522,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "104.22.33.78",
-            "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Bia.alLhub.Ltd"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
@@ -1586,9 +1589,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "172.67.150.173",
-            "server_port": 2053,
-            "uuid": "b322fde8-671f-4634-b985-e6ce50ee0647",
+            "server": "154.21.93.94",
+            "server_port": 32339,
+            "uuid": "85e6e37d-6e27-4702-cbc1-18840e55588f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1599,21 +1602,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "u16.tk3322.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/u16",
+                "path": "\/85e6e37d",
                 "headers": {
-                    "Host": "u16.tk3322.com"
+                    "Host": ""
                 }
             }
         },
