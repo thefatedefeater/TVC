@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -123,7 +123,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -193,11 +193,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "172.67.201.200",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "cfcdn2.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,21 +208,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "maggiy.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/video\/c9efxRCi",
                 "headers": {
-                    "Host": "maggiy.shop"
+                    "Host": "cfcdn2.sanfencdn9.com"
                 }
             }
         },
