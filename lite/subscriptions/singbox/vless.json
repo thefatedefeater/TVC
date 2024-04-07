@@ -112,13 +112,13 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
-                "🇨🇦CA | vless | @melov2ray | 12",
+                "🇺🇸US | vless | @melov2ray | 12",
                 "🇸🇪SE | vless | @V2pedia | 32",
                 "🇨🇦CA | vless | @frev2ray | 7",
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇫🇮FI | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
@@ -150,7 +150,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 110",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
@@ -183,13 +183,13 @@
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 8",
-                "🇨🇦CA | vless | @melov2ray | 12",
+                "🇺🇸US | vless | @melov2ray | 12",
                 "🇸🇪SE | vless | @V2pedia | 32",
                 "🇨🇦CA | vless | @frev2ray | 7",
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇫🇮FI | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 32",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
@@ -221,7 +221,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 110",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
@@ -420,7 +420,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 12",
+            "tag": "🇺🇸US | vless | @melov2ray | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -569,7 +569,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1404,11 +1404,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "Tgju.org",
-            "server_port": 2053,
-            "uuid": "6971019c-67da-45aa-a34d-ccaa1f30e1e9",
+            "server": "www.zula.ir",
+            "server_port": 443,
+            "uuid": "ffffffff-bf32-4282-b875-eca220008daf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1418,7 +1418,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "h.protoeinpaitakht.com",
+                "server_name": "f.auto.r.exit.e.e.watashi-java.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1427,11 +1427,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "f.auto.r.exit.e.e.watashi-java.ir"
+                }
             }
         },
         {
