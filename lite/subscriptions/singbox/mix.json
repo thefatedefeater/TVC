@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇳🇱NL | vless | @proxy_kafee | 0",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 15",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 3",
+                "🇺🇸US | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
@@ -155,7 +155,7 @@
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇳🇱NL | vless | @proxy_kafee | 0",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
@@ -230,7 +230,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @proxyymeliii | 15",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇨🇦CA | vless | @v2ray1_ng | 3",
+                "🇺🇸US | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
@@ -238,7 +238,7 @@
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -804,7 +804,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1319,7 +1319,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 3",
+            "tag": "🇺🇸US | vless | @v2ray1_ng | 3",
             "type": "vless",
             "server": "www.discord.com",
             "server_port": 8443,
@@ -1488,16 +1488,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "jahfkjha.cfd",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "104.22.33.78",
             "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 5,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1505,7 +1502,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jahfkjha.cfd",
+                "server_name": "Bia.alLhub.Ltd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1515,9 +1512,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "jahfkjha.cfd"
+                    "Host": "Bia.alLhub.Ltd"
                 }
             }
         },

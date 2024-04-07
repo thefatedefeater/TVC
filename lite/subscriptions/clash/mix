@@ -123,7 +123,6 @@ proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 15","type":"ss","server":"134.195.196.178","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | vmess | @ConfigsHUB | 18","type":"vmess","server":"jahfkjha.cfd","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"5","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 18","type":"vmess","server":"172.67.150.173","port":"2053","cipher":"auto","uuid":"b322fde8-671f-4634-b985-e6ce50ee0647","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/u16","headers":{"host":""}}}
   - {"name":"🇺🇸US | ss | @FAKEOFTVC | 7","type":"ss","server":"167.88.62.62","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
 proxy-groups:
@@ -137,7 +136,6 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 15'
-      - '🇺🇸US | vmess | @ConfigsHUB | 18'
       - '🇺🇸US | vmess | @Hope_Net | 18'
       - '🇺🇸US | ss | @FAKEOFTVC | 7'
   - name: URL-TEST
@@ -151,7 +149,6 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 15'
-      - '🇺🇸US | vmess | @ConfigsHUB | 18'
       - '🇺🇸US | vmess | @Hope_Net | 18'
       - '🇺🇸US | ss | @FAKEOFTVC | 7'
   - name: FALLBACK
@@ -164,7 +161,6 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 15'
-      - '🇺🇸US | vmess | @ConfigsHUB | 18'
       - '🇺🇸US | vmess | @Hope_Net | 18'
       - '🇺🇸US | ss | @FAKEOFTVC | 7'
 rules:
