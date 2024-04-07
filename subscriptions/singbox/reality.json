@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | vless | @NIM_VPN_ir | 1",
                 "🏳️XX | vless | @V2pedia | 18",
                 "🏳️XX | vless | @V2pedia | 21",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
@@ -116,9 +117,8 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 15",
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 1",
-                "🇳🇱NL | vless | @v2ray_swhil | 11",
-                "🇩🇪DE | vless | @V2RayTz | 0",
-                "🇩🇪DE | vless | @V2RayTz | 5",
+                "🇩🇪DE | vless | @V2RayTz | 8",
+                "🇩🇪DE | vless | @V2RayTz | 13",
                 "🇩🇪DE | vless | @DailyV2RY | 105",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -128,7 +128,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -165,6 +165,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | vless | @NIM_VPN_ir | 1",
                 "🏳️XX | vless | @V2pedia | 18",
                 "🏳️XX | vless | @V2pedia | 21",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
@@ -175,9 +176,8 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @V2rayCollectorDonate | 15",
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 1",
-                "🇳🇱NL | vless | @v2ray_swhil | 11",
-                "🇩🇪DE | vless | @V2RayTz | 0",
-                "🇩🇪DE | vless | @V2RayTz | 5",
+                "🇩🇪DE | vless | @V2RayTz | 8",
+                "🇩🇪DE | vless | @V2RayTz | 13",
                 "🇩🇪DE | vless | @DailyV2RY | 105",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -187,7 +187,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -238,6 +238,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | vless | @NIM_VPN_ir | 1",
+            "type": "vless",
+            "server": "178.63.150.73",
+            "server_port": 34455,
+            "uuid": "42ad0425-f618-4429-b2be-9148be5c322b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3Cv9QAAXxxUDjxlHuSDHyNfye9h6xlJJBz7vGsnmO3o",
+                    "short_id": "23d9b7cb"
+                }
+            }
         },
         {
             "tag": "🏳️XX | vless | @V2pedia | 18",
@@ -558,36 +587,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @v2ray_swhil | 11",
-            "type": "vless",
-            "server": "allrevolt.r8volt.com",
-            "server_port": 8443,
-            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "maps.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
-                    "short_id": "bfde1c85a6a4112a"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 0",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 8",
             "type": "vless",
             "server": "5.75.196.92",
             "server_port": 443,
@@ -623,7 +623,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 5",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 13",
             "type": "vless",
             "server": "91.107.153.165",
             "server_port": 443,
@@ -927,7 +927,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,

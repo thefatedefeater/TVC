@@ -150,10 +150,9 @@ proxies:
   - {"name":"🇫🇷FR | trojan | @DirectVPN | 17","type":"trojan","server":"35.180.167.60","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | trojan | @DirectVPN | 18","type":"trojan","server":"13.38.143.173","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 19","type":"trojan","server":"13.49.86.164","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇨🇦CA | trojan | @oneclickvpnkeys | 6","type":"trojan","server":"www.speedtest.net","port":2083,"udp":false,"password":"2dbd2a10-9512-4b60-84e6-5d9926a9fe5b","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"laenatbar.seyedalikhameneibinamous.site"}
+  - {"name":"🇺🇸US | trojan | @oneclickvpnkeys | 6","type":"trojan","server":"www.speedtest.net","port":2083,"udp":false,"password":"2dbd2a10-9512-4b60-84e6-5d9926a9fe5b","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"laenatbar.seyedalikhameneibinamous.site"}
   - {"name":"🇨🇦CA | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"discord.com","port":2083,"udp":false,"password":"2dbd2a10-9512-4b60-84e6-5d9926a9fe5b","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"madareto.seyedalikhameneibinamous.site"}
   - {"name":"🇬🇧GB | trojan | @oneclickvpnkeys | 9","type":"trojan","server":"45.76.130.173","port":443,"udp":false,"password":"wkmY1R4EcP","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"z-v2-003289.kailib.com"}
-  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 17","type":"trojan","server":"13.36.56.73","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -190,10 +189,9 @@ proxy-groups:
       - '🇫🇷FR | trojan | @DirectVPN | 17'
       - '🇫🇷FR | trojan | @DirectVPN | 18'
       - '🇸🇪SE | trojan | @DirectVPN | 19'
-      - '🇨🇦CA | trojan | @oneclickvpnkeys | 6'
+      - '🇺🇸US | trojan | @oneclickvpnkeys | 6'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 7'
       - '🇬🇧GB | trojan | @oneclickvpnkeys | 9'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 17'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -230,10 +228,9 @@ proxy-groups:
       - '🇫🇷FR | trojan | @DirectVPN | 17'
       - '🇫🇷FR | trojan | @DirectVPN | 18'
       - '🇸🇪SE | trojan | @DirectVPN | 19'
-      - '🇨🇦CA | trojan | @oneclickvpnkeys | 6'
+      - '🇺🇸US | trojan | @oneclickvpnkeys | 6'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 7'
       - '🇬🇧GB | trojan | @oneclickvpnkeys | 9'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 17'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -269,10 +266,9 @@ proxy-groups:
       - '🇫🇷FR | trojan | @DirectVPN | 17'
       - '🇫🇷FR | trojan | @DirectVPN | 18'
       - '🇸🇪SE | trojan | @DirectVPN | 19'
-      - '🇨🇦CA | trojan | @oneclickvpnkeys | 6'
+      - '🇺🇸US | trojan | @oneclickvpnkeys | 6'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 7'
       - '🇬🇧GB | trojan | @oneclickvpnkeys | 9'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 17'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
