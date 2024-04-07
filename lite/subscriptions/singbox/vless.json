@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇺🇸US | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
@@ -151,6 +151,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 117",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
@@ -159,11 +160,12 @@
                 "🇺🇸US | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 0",
-                "🇩🇪DE | vless | @GozargahVPN | 12",
+                "🇨🇦CA | vless | @GozargahVPN | 12",
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇨🇦CA | vless | @SvnTeam | 51",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -198,7 +200,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇺🇸US | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
@@ -222,6 +224,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 117",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
@@ -230,11 +233,12 @@
                 "🇺🇸US | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 0",
-                "🇩🇪DE | vless | @GozargahVPN | 12",
+                "🇨🇦CA | vless | @GozargahVPN | 12",
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇨🇦CA | vless | @SvnTeam | 51",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -811,7 +815,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1425,6 +1429,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "104.17.88.212",
+            "server_port": 443,
+            "uuid": "------EVAY_VPN------",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fre.sharkv2r.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Evay_vpn----@Evay_vpn----Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "headers": {
+                    "Host": "fre.sharkv2r.com"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
@@ -1661,6 +1696,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 5",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "25d0ee2d-4190-52be-b892-45811c6ba210",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "folani.iiipok.WORkeRS.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless-ws\/",
+                "headers": {
+                    "Host": "folani.iiipok.WORkeRS.Dev"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "198.41.202.5",
@@ -1785,12 +1851,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @GozargahVPN | 12",
+            "tag": "🇨🇦CA | vless | @GozargahVPN | 12",
             "type": "vless",
-            "server": "45.32.157.52",
+            "server": "cpanel.com",
             "server_port": 443,
-            "uuid": "GozargahVPN-GozargahVPN",
-            "flow": "xtls-rprx-vision",
+            "uuid": "e77d1646-ad78-4bed-b45c-b8bbbabe99b5",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1799,17 +1865,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "sky.submub.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WU05h8s5l6VKCtawHNsNLrTLAU_lAznVudsiBKywQDM",
-                    "short_id": "ed"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,",
+                "headers": {
+                    "Host": "sky.submub.sbs"
                 }
             }
         },
