@@ -109,7 +109,7 @@
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 9",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 9",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
@@ -233,11 +233,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "ftp-localcdn.kiava-cloud.us.to",
-            "server_port": 443,
-            "uuid": "3bf8b347-be40-480b-c9c3-4d6e951e208f",
+            "server": "65.109.199.41",
+            "server_port": 51601,
+            "uuid": "f1b00f8f-f030-4072-b66a-ac536c52d933",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -247,23 +247,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp-localcdn.kiava-cloud.us.to",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/app",
-                "headers": {
-                    "Host": "ftp-localcdn.kiava-cloud.us.to"
-                }
             }
         },
         {
