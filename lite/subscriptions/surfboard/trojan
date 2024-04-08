@@ -14,11 +14,10 @@ DIRECT = direct
 🇸🇪SE | trojan | @PrivateVPNs | 19 = trojan, 13.48.66.181, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | trojan | @DirectVPN | 19 = trojan, 13.50.31.171, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | trojan | @oneclickvpnkeys | 11 = trojan, www.speedtest.net, 2083, password = 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b, udp-delay = true, skip-cert-verify = false, sni = laenatbar.seyedalikhameneibinamous.site, ws = false
-🇬🇧GB | trojan | @ConfigsHUB | 17 = trojan, 18.171.196.126, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | trojan | @oneclickvpnkeys | 11,🇬🇧GB | trojan | @ConfigsHUB | 17
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | trojan | @oneclickvpnkeys | 11,🇬🇧GB | trojan | @ConfigsHUB | 17
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | trojan | @oneclickvpnkeys | 11,🇬🇧GB | trojan | @ConfigsHUB | 17
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | trojan | @oneclickvpnkeys | 11
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | trojan | @oneclickvpnkeys | 11
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | trojan | @oneclickvpnkeys | 11
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
