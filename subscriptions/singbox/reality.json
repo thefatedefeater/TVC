@@ -117,8 +117,10 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 7",
-                "🇫🇷FR | vless | @azadi_az_inja_migzare | 8",
+                "🇪🇸ES | vless | @azadi_az_inja_migzare | 8",
                 "🏳️XX | vless | @V2rayCollectorDonate | 15",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 4",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 6",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
@@ -183,8 +185,10 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 7",
-                "🇫🇷FR | vless | @azadi_az_inja_migzare | 8",
+                "🇪🇸ES | vless | @azadi_az_inja_migzare | 8",
                 "🏳️XX | vless | @V2rayCollectorDonate | 15",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 4",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 6",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
@@ -594,7 +598,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @azadi_az_inja_migzare | 8",
+            "tag": "🇪🇸ES | vless | @azadi_az_inja_migzare | 8",
             "type": "vless",
             "server": "frc0000000000-00.Cheshmsabz.toP",
             "server_port": 45102,
@@ -656,6 +660,64 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 4",
+            "type": "vless",
+            "server": "95.164.68.37",
+            "server_port": 8443,
+            "uuid": "ce3f2a75-28fe-48f0-a35c-56166017f8d3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.21.70.42",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
+                    "short_id": "fabb696169ae2a95"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 6",
+            "type": "vless",
+            "server": "178.63.150.70",
+            "server_port": 2096,
+            "uuid": "5c61825d-2c36-4891-adb3-ccbd0d00f324",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zpIenNCQAKGQvOdoUvuhEf-JKotYa5UrP9j9XPodPD0",
+                    "short_id": ""
+                }
             }
         },
         {
