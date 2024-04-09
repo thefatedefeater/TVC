@@ -116,7 +116,6 @@
                 "🇨🇦CA | vless | @V2pedia | 39",
                 "🇨🇦CA | vless | @frev2ray | 9",
                 "🇸🇪SE | vless | @ARv2ray | 16",
-                "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
@@ -146,6 +145,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -183,7 +183,6 @@
                 "🇨🇦CA | vless | @V2pedia | 39",
                 "🇨🇦CA | vless | @frev2ray | 9",
                 "🇸🇪SE | vless | @ARv2ray | 16",
-                "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
@@ -213,6 +212,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇺🇸US | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -478,37 +478,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "185.146.173.59"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @shh_proxy | 14",
-            "type": "vless",
-            "server": "Join.ShhProxy.Site",
-            "server_port": 443,
-            "uuid": "d226cce9-e3b9-4ef2-b5b1-478d5e4ebabf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ShhProxy-Free.xn--85-pv2cl2k5x3fipr.org.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ShhProxy-Free.xn--85-pv2cl2k5x3fipr.org."
                 }
             }
         },
@@ -1328,6 +1297,37 @@
                 "headers": {
                     "Host": "Hagh.PaGes.DEv"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "Tgju.org",
+            "server_port": 2053,
+            "uuid": "a39deee6-2844-4c13-93c7-4cc5fbce4ae9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "h.protoeinpaitakht.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
