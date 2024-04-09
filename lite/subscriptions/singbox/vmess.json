@@ -106,9 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
@@ -124,9 +123,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
@@ -158,40 +156,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "856fcf9c-d86b-4d31-8af7-a88f06cafc13",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fragment2.karop.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNHOMES",
-                "headers": {
-                    "Host": "fragment2.karop.homes"
-                }
-            }
-        },
-        {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
             "type": "vmess",
             "server": "146.59.147.250",
@@ -209,7 +173,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -310,9 +274,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "149.28.84.146",
-            "server_port": 32906,
-            "uuid": "adb6fe3a-c867-4a4c-eb4a-1d9f4fade0aa",
+            "server": "149.28.77.49",
+            "server_port": 31755,
+            "uuid": "06eb7d36-b496-4328-b7dd-245c13533b31",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
