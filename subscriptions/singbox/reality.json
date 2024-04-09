@@ -116,7 +116,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 1",
-                "🇫🇷FR | vless | @azadi_az_inja_migzare | 2",
+                "🇪🇸ES | vless | @azadi_az_inja_migzare | 2",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
                 "🏳️XX | vless | @V2rayCollectorDonate | 15",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
@@ -129,10 +129,8 @@
                 "🇩🇪DE | vless | @V2RayTz | 15",
                 "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 1",
-                "🇫🇮FI | vless | @DailyV2RY | 135",
-                "🇩🇪DE | vless | @DailyV2RY | 136",
-                "🏳️XX | vless | @DailyV2RY | 138",
-                "🏳️XX | vless | @DailyV2RY | 144",
+                "🇫🇮FI | vless | @DailyV2RY | 142",
+                "🇩🇪DE | vless | @DailyV2RY | 143",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -187,7 +185,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 1",
-                "🇫🇷FR | vless | @azadi_az_inja_migzare | 2",
+                "🇪🇸ES | vless | @azadi_az_inja_migzare | 2",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
                 "🏳️XX | vless | @V2rayCollectorDonate | 15",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
@@ -200,10 +198,8 @@
                 "🇩🇪DE | vless | @V2RayTz | 15",
                 "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 1",
-                "🇫🇮FI | vless | @DailyV2RY | 135",
-                "🇩🇪DE | vless | @DailyV2RY | 136",
-                "🏳️XX | vless | @DailyV2RY | 138",
-                "🏳️XX | vless | @DailyV2RY | 144",
+                "🇫🇮FI | vless | @DailyV2RY | 142",
+                "🇩🇪DE | vless | @DailyV2RY | 143",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -575,7 +571,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @azadi_az_inja_migzare | 2",
+            "tag": "🇪🇸ES | vless | @azadi_az_inja_migzare | 2",
             "type": "vless",
             "server": "frc0000000000-00.Cheshmsabz.toP",
             "server_port": 45102,
@@ -966,7 +962,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @DailyV2RY | 135",
+            "tag": "🇫🇮FI | vless | @DailyV2RY | 142",
             "type": "vless",
             "server": "37.27.16.59",
             "server_port": 443,
@@ -1002,7 +998,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 136",
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 143",
             "type": "vless",
             "server": "5.75.192.54",
             "server_port": 443,
@@ -1027,78 +1023,6 @@
                     "enabled": true,
                     "public_key": "MYbzOqiSOwi0YuaIhBE0kF8d__TFm_XVsd_-ppOTbBc",
                     "short_id": "ca2e1be6"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @DailyV2RY | 138",
-            "type": "vless",
-            "server": "[2a00:b703:fff1:215::1]",
-            "server_port": 25365,
-            "uuid": "67d50c2d-bf60-45fd-9690-2041b09d6d6f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Krfw2Ag6_YlmVcMGrGkznbzmuEETbIQgaQlU4gqQ5xQ",
-                    "short_id": "6bd487e5"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @DailyV2RY | 144",
-            "type": "vless",
-            "server": "pub.legendaryking.link",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "arzdigital.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2D2pRTSMAf9u82txQA-EIGo_rhZgBzH8OT7CM9SpKVQ",
-                    "short_id": "ffcd8c78"
                 }
             },
             "transport": {
