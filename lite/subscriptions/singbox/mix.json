@@ -139,7 +139,7 @@
                 "🇮🇷IR | vless | @prrofile_purple | 186",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
-                "🇨🇦CA | vless | @vmessorg | 33",
+                "🇺🇸US | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 2",
@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 8",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -180,7 +180,7 @@
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇸🇪SE | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 3",
+                "🇺🇸US | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 2",
@@ -225,7 +225,7 @@
                 "🇮🇷IR | vless | @prrofile_purple | 186",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
-                "🇨🇦CA | vless | @vmessorg | 33",
+                "🇺🇸US | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 19",
                 "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇸🇪SE | vless | @FalconPolV2rayNG | 2",
@@ -241,7 +241,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 140",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 8",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -266,7 +266,7 @@
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇸🇪SE | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 3",
+                "🇺🇸US | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 2",
@@ -1134,7 +1134,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 33",
+            "tag": "🇺🇸US | vless | @vmessorg | 33",
             "type": "vless",
             "server": "joinbede1.vmessorg.site",
             "server_port": 80,
@@ -1521,13 +1521,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "104.17.88.212",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 8",
+            "type": "vmess",
+            "server": "172.67.155.82",
             "server_port": 443,
-            "uuid": "------EVAY_VPN------",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1535,7 +1538,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fre.sharkv2r.com",
+                "server_name": "kristin.makeup",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1545,9 +1548,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "fre.sharkv2r.com"
+                    "Host": "kristin.makeup"
                 }
             }
         },
@@ -2248,7 +2251,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 3",
+            "tag": "🇺🇸US | vless | @V2FETCH | 3",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
