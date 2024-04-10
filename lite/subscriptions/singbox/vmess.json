@@ -261,9 +261,9 @@
         {
             "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "104.26.0.95",
+            "server": "104.21.15.212",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -276,7 +276,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "glweidf.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -288,7 +288,7 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "glweidf.sbs"
                 }
             }
         },
@@ -329,9 +329,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "23.94.104.164",
-            "server_port": 60222,
-            "uuid": "84134d90-e4fe-4a86-c8d6-4d7bedb3c333",
+            "server": "205.234.233.68",
+            "server_port": 445,
+            "uuid": "ff982b62-2d2e-4ebe-befc-6e3d5177857c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -341,13 +341,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
