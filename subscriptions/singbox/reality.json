@@ -126,7 +126,6 @@
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 17",
                 "🇳🇱NL | vless | @v2ray_swhil | 13",
                 "🇩🇪DE | vless | @VmessProtocol | 1",
-                "🇫🇮FI | vless | @DailyV2RY | 137",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -193,7 +192,6 @@
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 17",
                 "🇳🇱NL | vless | @v2ray_swhil | 13",
                 "🇩🇪DE | vless | @VmessProtocol | 1",
-                "🇫🇮FI | vless | @DailyV2RY | 137",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -867,35 +865,6 @@
                     "enabled": true,
                     "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
                     "short_id": "fabb696169ae2a95"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @DailyV2RY | 137",
-            "type": "vless",
-            "server": "65.21.50.31",
-            "server_port": 443,
-            "uuid": "59de5b89-68a1-4a29-a806-2f21f510e842",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "anandtech.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "T-IokCPmDwltw4VoDNHLN0S376OyTN0fcttmxxOG2iU",
-                    "short_id": "a30f8599"
                 }
             }
         },
