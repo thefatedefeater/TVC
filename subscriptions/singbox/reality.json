@@ -126,9 +126,6 @@
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 19",
                 "🇳🇱NL | vless | @v2ray_swhil | 13",
                 "🇩🇪DE | vless | @VmessProtocol | 1",
-                "🇩🇪DE | vless | @DailyV2RY | 151",
-                "🇩🇪DE | vless | @DailyV2RY | 157",
-                "🇩🇪DE | vless | @DailyV2RY | 158",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -137,7 +134,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -195,9 +192,6 @@
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 19",
                 "🇳🇱NL | vless | @v2ray_swhil | 13",
                 "🇩🇪DE | vless | @VmessProtocol | 1",
-                "🇩🇪DE | vless | @DailyV2RY | 151",
-                "🇩🇪DE | vless | @DailyV2RY | 157",
-                "🇩🇪DE | vless | @DailyV2RY | 158",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -206,7 +200,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -875,93 +869,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 151",
-            "type": "vless",
-            "server": "95.164.68.37",
-            "server_port": 8443,
-            "uuid": "ce3f2a75-28fe-48f0-a35c-56166017f8d3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "104.21.70.42",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
-                    "short_id": "fabb696169ae2a95"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 157",
-            "type": "vless",
-            "server": "188.40.202.25",
-            "server_port": 8443,
-            "uuid": "bdf90cae-da65-4bd7-9200-a5903c2eff13",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mrsV5dPIWx0dtPzo9u4FdkZi3Ly3hh8CGN-gHuZY4S8",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 158",
-            "type": "vless",
-            "server": "178.63.150.70",
-            "server_port": 2096,
-            "uuid": "5c61825d-2c36-4891-adb3-ccbd0d00f324",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "zpIenNCQAKGQvOdoUvuhEf-JKotYa5UrP9j9XPodPD0",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 31",
             "type": "vless",
             "server": "142.132.183.55",
@@ -1208,7 +1115,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
