@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇮🇷IR | vless | @v2rayngvpn | 8",
-                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
+                "🇺🇸US | vless | @FalconPolV2rayNG | 1",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
                 "🇨🇦CA | vless | @ServerNett | 30",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -152,8 +152,8 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇧🇪BE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
@@ -178,7 +178,7 @@
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vless | @SvnTeam | 47",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 3",
+                "🇺🇸US | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 3",
@@ -224,7 +224,7 @@
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇮🇷IR | vless | @v2rayngvpn | 8",
-                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
+                "🇺🇸US | vless | @FalconPolV2rayNG | 1",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
                 "🇨🇦CA | vless | @ServerNett | 30",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -237,8 +237,8 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇧🇪BE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
@@ -263,7 +263,7 @@
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vless | @SvnTeam | 47",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 3",
+                "🇺🇸US | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 3",
@@ -1121,7 +1121,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
+            "tag": "🇺🇸US | vless | @FalconPolV2rayNG | 1",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
@@ -1462,11 +1462,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
+            "tag": "🇧🇪BE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "www.zula.ir",
-            "server_port": 443,
-            "uuid": "ffffffff-bf32-4282-b875-eca220008daf",
+            "server": "be2-vless.sshmax.xyz",
+            "server_port": 80,
+            "uuid": "43b27197-7a7e-4fe3-bc57-a6241ef738a3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1474,26 +1474,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "f.auto.r.exit.e.e.watashi-java.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/\/\/  JOIN MY CHANNEL  V2RAYNPLUS",
+                "path": "\/vless",
                 "headers": {
-                    "Host": "f.auto.r.exit.e.e.watashi-java.ir"
+                    "Host": "be2-vless.sshmax.xyz"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
@@ -2200,7 +2190,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 3",
+            "tag": "🇺🇸US | vless | @V2FETCH | 3",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
