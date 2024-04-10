@@ -110,8 +110,7 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
-                "🇮🇷IR | vmess | @v2ray1_ng | 13",
-                "🇬🇧GB | vmess | @ConfigsHUB | 18",
+                "🇨🇷CR | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -129,8 +128,7 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
-                "🇮🇷IR | vmess | @v2ray1_ng | 13",
-                "🇬🇧GB | vmess | @ConfigsHUB | 18",
+                "🇨🇷CR | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -242,33 +240,9 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 13",
+            "tag": "🇨🇷CR | vmess | @v2ray1_ng | 12",
             "type": "vmess",
-            "server": "79.175.151.112",
-            "server_port": 58271,
-            "uuid": "6e83ef0f-70a7-4be8-979a-8bc7a41f4224",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/rohv2ray",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "172.99.190.109",
+            "server": "190.93.247.155",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -283,7 +257,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "marien.motorcycles",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -295,7 +269,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "marien.motorcycles"
                 }
             }
         },
