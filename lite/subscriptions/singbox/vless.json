@@ -118,10 +118,10 @@
                 "🇨🇦CA | vless | @frev2ray | 12",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 29",
-                "🇺🇸US | vless | @V2rayNGmat | 10",
+                "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇺🇸US | vless | @proxy_kafee | 7",
@@ -144,8 +144,8 @@
                 "🏳️XX | vless | @V2RayTz | 6",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 10",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -186,10 +186,10 @@
                 "🇨🇦CA | vless | @frev2ray | 12",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 29",
-                "🇺🇸US | vless | @V2rayNGmat | 10",
+                "🇨🇦CA | vless | @V2rayNGmat | 10",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇺🇸US | vless | @proxy_kafee | 7",
@@ -212,8 +212,8 @@
                 "🏳️XX | vless | @V2RayTz | 6",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇺🇸US | vless | @proxystore11 | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 10",
+                "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -546,7 +546,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -622,7 +622,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 10",
+            "tag": "🇨🇦CA | vless | @V2rayNGmat | 10",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 2096,
@@ -1258,11 +1258,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 80,
-            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1270,16 +1270,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/xmrdark",
+                "path": "\/Path\/Telegram@V2ray_Alpha\/",
                 "headers": {
-                    "Host": "104.18.202.232"
+                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 13",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
