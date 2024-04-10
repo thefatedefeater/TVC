@@ -115,7 +115,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🏳️XX | vless | @V2rayCollectorDonate | 15",
+                "🏳️XX | vless | @V2rayCollectorDonate | 16",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
@@ -124,6 +124,9 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 14",
                 "🇳🇱NL | vless | @v2ray_swhil | 13",
                 "🇩🇪DE | vless | @VmessProtocol | 0",
+                "🏳️XX | vless | @DailyV2RY | 143",
+                "🇳🇴NO | vless | @ConfigsHUB | 8",
+                "🇩🇪DE | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -178,7 +181,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🏳️XX | vless | @V2rayCollectorDonate | 15",
+                "🏳️XX | vless | @V2rayCollectorDonate | 16",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
@@ -187,6 +190,9 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 14",
                 "🇳🇱NL | vless | @v2ray_swhil | 13",
                 "🇩🇪DE | vless | @VmessProtocol | 0",
+                "🏳️XX | vless | @DailyV2RY | 143",
+                "🇳🇴NO | vless | @ConfigsHUB | 8",
+                "🇩🇪DE | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -530,7 +536,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2rayCollectorDonate | 15",
+            "tag": "🏳️XX | vless | @V2rayCollectorDonate | 16",
             "type": "vless",
             "server": "pub2.legendaryking.link",
             "server_port": 443,
@@ -802,6 +808,100 @@
                     "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
                     "short_id": "fabb696169ae2a95"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @DailyV2RY | 143",
+            "type": "vless",
+            "server": "cdn.legendaryking.link",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "anandtech.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "F03TKt7jOgtvzj3-hiVA5SuUefizbehBm9-c7GYTS2A",
+                    "short_id": "82017cdf"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇴NO | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "185.125.171.13",
+            "server_port": 443,
+            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "partner.g2.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "login.snapfooding.com",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "upmusics.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fx_xYY_kZQlyekSaLUuzqTKB5RN-nHvNvkNfjpus0yM",
+                    "short_id": "ad38a268"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
