@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇷CR | vmess | @v2ray1_ng | 11",
-                "🇨🇦CA | vmess | @ConfigsHUB | 17",
+                "🇫🇮FI | vmess | @ConfigsHUB | 7",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -129,7 +129,7 @@
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇷CR | vmess | @v2ray1_ng | 11",
-                "🇨🇦CA | vmess | @ConfigsHUB | 17",
+                "🇫🇮FI | vmess | @ConfigsHUB | 7",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -301,11 +301,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "tag": "🇫🇮FI | vmess | @ConfigsHUB | 7",
             "type": "vmess",
-            "server": "104.21.30.254",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "65.109.199.41",
+            "server_port": 3814,
+            "uuid": "5e49a8e6-519f-47c3-ab8f-49c1fe452f28",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -315,23 +315,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nina.bond",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nina.bond"
-                }
             }
         },
         {
