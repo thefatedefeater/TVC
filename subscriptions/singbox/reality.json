@@ -124,8 +124,7 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 20",
                 "🇳🇱NL | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @VmessProtocol | 1",
-                "🇫🇷FR | vless | @DailyV2RY | 143",
-                "🇫🇮FI | vless | @ConfigsHUB | 7",
+                "🇰🇿KZ | vless | @DailyV2RY | 152",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -188,8 +187,7 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 20",
                 "🇳🇱NL | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @VmessProtocol | 1",
-                "🇫🇷FR | vless | @DailyV2RY | 143",
-                "🇫🇮FI | vless | @ConfigsHUB | 7",
+                "🇰🇿KZ | vless | @DailyV2RY | 152",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -807,7 +805,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @DailyV2RY | 143",
+            "tag": "🇰🇿KZ | vless | @DailyV2RY | 152",
             "type": "vless",
             "server": "193.176.153.113",
             "server_port": 443,
@@ -840,35 +838,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "65.109.188.83",
-            "server_port": 56888,
-            "uuid": "f6e218b3-e76c-43e5-93ca-1feb336e5c34",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WsXvo3TM_RUNg529VtpsjyakG21eK65iOnvIuSvvGTA",
-                    "short_id": "bdfff48d"
-                }
             }
         },
         {
