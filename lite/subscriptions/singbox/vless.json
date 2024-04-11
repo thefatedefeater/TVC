@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 10",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 190",
@@ -144,8 +144,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇧🇪BE | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇩🇪DE | vless | @ConfigsHUB | 9",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -195,7 +195,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 10",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @Watashi_VPN | 0",
+                "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 190",
@@ -214,8 +214,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇧🇪BE | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 13",
+                "🇩🇪DE | vless | @ConfigsHUB | 9",
+                "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -750,7 +750,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
+            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1160,9 +1160,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "172.67.73.216",
-            "server_port": 443,
-            "uuid": "356d0a9e-c8fa-4996-8905-2060996ee581",
+            "server": "162.159.130.234",
+            "server_port": 80,
+            "uuid": "79db9052-c4bd-41ca-9ac5-f341aeb42ce7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1170,22 +1170,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "dm.irandtehran.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "162.159.130.234"
+                }
             }
         },
         {
@@ -1262,28 +1252,36 @@
             }
         },
         {
-            "tag": "🇧🇪BE | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 9",
             "type": "vless",
-            "server": "be2-vless.sshmax.xyz",
-            "server_port": 80,
-            "uuid": "43b27197-7a7e-4fe3-bc57-a6241ef738a3",
-            "flow": "",
+            "server": "5.75.207.215",
+            "server_port": 49830,
+            "uuid": "2104b29c-130d-4138-b6e5-cda78a11ff79",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless",
-                "headers": {
-                    "Host": "be2-vless.sshmax.xyz"
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Dqs9RsG4pc8GWjiOZ1TYEm7Xt33g8OhcYDgfgQzhwho",
+                    "short_id": "2980368d"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 13",
+            "tag": "🇺🇸US | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
