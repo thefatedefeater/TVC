@@ -122,7 +122,6 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 17",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 20",
-                "🇩🇪DE | vless | @v2ray_swhil | 3",
                 "🇳🇱NL | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @VmessProtocol | 1",
                 "🇫🇷FR | vless | @DailyV2RY | 158",
@@ -186,7 +185,6 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 17",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 20",
-                "🇩🇪DE | vless | @v2ray_swhil | 3",
                 "🇳🇱NL | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @VmessProtocol | 1",
                 "🇫🇷FR | vless | @DailyV2RY | 158",
@@ -746,42 +744,6 @@
                     "public_key": "6b6p11Zo46Hxp03EwMozI00F6j5O3kL6Aa22aejsNjI",
                     "short_id": "42ba3bac"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 3",
-            "type": "vless",
-            "server": "91.107.135.76",
-            "server_port": 2087,
-            "uuid": "49640cba-7b63-40bb-b2ae-38d9294b0e69",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Zs-U9bKNImrNgq-YOI1Aiil6-9gc9sCUPAxiXP0vHAw",
-                    "short_id": "ecc664bf"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
