@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @ConfigsHUB | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -119,7 +118,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @ConfigsHUB | 9",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -146,35 +144,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 9",
-            "type": "vless",
-            "server": "5.75.207.215",
-            "server_port": 49830,
-            "uuid": "2104b29c-130d-4138-b6e5-cda78a11ff79",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Dqs9RsG4pc8GWjiOZ1TYEm7Xt33g8OhcYDgfgQzhwho",
-                    "short_id": "2980368d"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @Capital_NET | 45",
