@@ -113,7 +113,6 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
-                "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
                 "🏳️XX | vless | @V2rayCollectorDonate | 16",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
@@ -125,8 +124,8 @@
                 "🇳🇱NL | vless | @ShadowProxy66 | 20",
                 "🇳🇱NL | vless | @ShadowProxy66 | 24",
                 "🇳🇱NL | vless | @v2ray_swhil | 14",
-                "🇩🇪DE | vless | @VmessProtocol | 1",
-                "🇫🇮FI | vless | @ConfigsHUB | 12",
+                "🇩🇪DE | vless | @VmessProtocol | 2",
+                "🏳️XX | vless | @DailyV2RY | 152",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -135,7 +134,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -177,7 +176,6 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
-                "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
                 "🏳️XX | vless | @V2rayCollectorDonate | 16",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 13",
@@ -189,8 +187,8 @@
                 "🇳🇱NL | vless | @ShadowProxy66 | 20",
                 "🇳🇱NL | vless | @ShadowProxy66 | 24",
                 "🇳🇱NL | vless | @v2ray_swhil | 14",
-                "🇩🇪DE | vless | @VmessProtocol | 1",
-                "🇫🇮FI | vless | @ConfigsHUB | 12",
+                "🇩🇪DE | vless | @VmessProtocol | 2",
+                "🏳️XX | vless | @DailyV2RY | 152",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -199,7 +197,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -464,42 +462,6 @@
                     "public_key": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
                     "short_id": ""
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @v2logy | 6",
-            "type": "vless",
-            "server": "157.90.161.70",
-            "server_port": 443,
-            "uuid": "39cf82ce-290a-433a-bb42-b0bacdb3444d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.hetzner.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "aWV-bNNZsIZUUrWIN2eLzN9snTl3P_KcCH-l66AfFWs",
-                    "short_id": "79872b68"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -836,7 +798,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 1",
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 2",
             "type": "vless",
             "server": "95.164.68.37",
             "server_port": 8443,
@@ -865,11 +827,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 12",
+            "tag": "🏳️XX | vless | @DailyV2RY | 152",
             "type": "vless",
-            "server": "65.109.188.83",
-            "server_port": 56888,
-            "uuid": "f6e218b3-e76c-43e5-93ca-1feb336e5c34",
+            "server": "atlas.ne.theonevip.sbs",
+            "server_port": 3010,
+            "uuid": "4910d37a-f6de-4454-8da9-0d2c934ed887",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -879,7 +841,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ftp.debian.org",
+                "server_name": "canva.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -888,8 +850,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "WsXvo3TM_RUNg529VtpsjyakG21eK65iOnvIuSvvGTA",
-                    "short_id": "bdfff48d"
+                    "public_key": "98m4UxvbCz2Uu9twbXVDMiP3S6VSg0KFIOpUVsK9pwI",
+                    "short_id": ""
                 }
             }
         },
@@ -1140,7 +1102,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
