@@ -150,8 +150,6 @@ proxies:
   - {"name":"🇺🇸US | trojan | @DirectVPN | 17","type":"trojan","server":"3.132.197.237","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | trojan | @DirectVPN | 18","type":"trojan","server":"3.97.142.23","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | trojan | @DirectVPN | 19","type":"trojan","server":"15.222.90.87","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 17","type":"trojan","server":"15.237.19.153","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | trojan | @ConfigsHUB | 18","type":"trojan","server":"3.18.63.57","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -188,8 +186,6 @@ proxy-groups:
       - '🇺🇸US | trojan | @DirectVPN | 17'
       - '🇨🇦CA | trojan | @DirectVPN | 18'
       - '🇨🇦CA | trojan | @DirectVPN | 19'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 17'
-      - '🇺🇸US | trojan | @ConfigsHUB | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -226,8 +222,6 @@ proxy-groups:
       - '🇺🇸US | trojan | @DirectVPN | 17'
       - '🇨🇦CA | trojan | @DirectVPN | 18'
       - '🇨🇦CA | trojan | @DirectVPN | 19'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 17'
-      - '🇺🇸US | trojan | @ConfigsHUB | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -263,8 +257,6 @@ proxy-groups:
       - '🇺🇸US | trojan | @DirectVPN | 17'
       - '🇨🇦CA | trojan | @DirectVPN | 18'
       - '🇨🇦CA | trojan | @DirectVPN | 19'
-      - '🇫🇷FR | trojan | @ConfigsHUB | 17'
-      - '🇺🇸US | trojan | @ConfigsHUB | 18'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
