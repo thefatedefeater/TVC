@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 29",
-                "🇨🇦CA | vless | @V2rayNGmat | 12",
+                "🇺🇸US | vless | @V2rayNGmat | 12",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 1",
@@ -134,7 +134,7 @@
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 22",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 22",
@@ -146,8 +146,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇫🇮FI | vless | @ConfigsHUB | 16",
-                "🇨🇦CA | vless | @proxystore11 | 14",
+                "🇫🇷FR | vless | @ConfigsHUB | 16",
+                "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 28",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -187,7 +187,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 29",
-                "🇨🇦CA | vless | @V2rayNGmat | 12",
+                "🇺🇸US | vless | @V2rayNGmat | 12",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 1",
@@ -204,7 +204,7 @@
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
-                "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 22",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 22",
@@ -216,8 +216,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 146",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇫🇮FI | vless | @ConfigsHUB | 16",
-                "🇨🇦CA | vless | @proxystore11 | 14",
+                "🇫🇷FR | vless | @ConfigsHUB | 16",
+                "🇺🇸US | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 28",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -549,7 +549,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 12",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 12",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 2096,
@@ -994,7 +994,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FalconPolV2rayNG | 1",
+            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
@@ -1326,28 +1326,43 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 16",
+            "tag": "🇫🇷FR | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "37.27.33.199",
-            "server_port": 56425,
-            "uuid": "c07e8407-319d-4f37-e4be-a60051851111",
-            "flow": "",
+            "server": "185.234.64.35",
+            "server_port": 8443,
+            "uuid": "931986f6-700e-45df-9c96-b0a227a4f11b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "37.27.33.199"
+            "tls": {
+                "enabled": true,
+                "server_name": "162.159.128.233",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yYaziJ3F14P5Zp-dpwVatnmT-Mn0L8lMIT_wcnsneVo",
+                    "short_id": "147c31854f570778"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 14",
+            "tag": "🇺🇸US | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
