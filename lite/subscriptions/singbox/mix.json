@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇬🇧GB | vless | @EliV2ray | 8",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -140,21 +141,21 @@
                 "🇫🇮FI | vmess | @ShadowProxy66 | 40",
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 1",
+                "🇨🇦CA | vless | @v2ray_swhil | 0",
                 "🇸🇪SE | vless | @proxyymeliii | 13",
                 "🇸🇪SE | vless | @MsV2ray | 7",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 14",
+                "🏳️XX | vless | @VmessProtocol | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 138",
                 "🇨🇦CA | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @proxystore11 | 15",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vless | @polproxy | 2",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -185,6 +186,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇬🇧GB | vless | @EliV2ray | 8",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -219,21 +221,21 @@
                 "🇫🇮FI | vmess | @ShadowProxy66 | 40",
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 1",
+                "🇨🇦CA | vless | @v2ray_swhil | 0",
                 "🇸🇪SE | vless | @proxyymeliii | 13",
                 "🇸🇪SE | vless | @MsV2ray | 7",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 14",
+                "🏳️XX | vless | @VmessProtocol | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 138",
                 "🇨🇦CA | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @proxystore11 | 15",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vless | @polproxy | 2",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -278,6 +280,37 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇬🇧GB | vless | @EliV2ray | 8",
+            "type": "vless",
+            "server": "ir.starze.site",
+            "server_port": 8080,
+            "uuid": "8fa58961-5896-499a-a074-de3fa9873f8d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ir.starze.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ir.starze.site"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 5",
@@ -1158,11 +1191,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 1",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 0",
             "type": "vless",
-            "server": "172.67.24.121",
-            "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "server": "discord.gg",
+            "server_port": 8443,
+            "uuid": "5d373aef-a2a7-4127-a3be-3d1c223063fa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1172,7 +1205,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
+                "server_name": "Join-Telegram-Channel-Disvpn.OnflashdrIve.App",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1182,9 +1215,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram: @DisVpn",
                 "headers": {
-                    "Host": "Bia.alLhub.Ltd"
+                    "Host": "Join-Telegram-Channel-Disvpn.OnflashdrIve.App"
                 }
             }
         },
@@ -1304,7 +1337,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 14",
+            "tag": "🏳️XX | vless | @VmessProtocol | 14",
             "type": "vless",
             "server": "ppl.arzonhost.ir",
             "server_port": 2082,
@@ -1408,11 +1441,32 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 15",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "--DIGiV2RAY---",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Digiv2ray-",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxystore11 | 16",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
-            "uuid": "da81e57d-7b3e-40d3-8669-14bbdb096ef3",
+            "uuid": "7c8acd39-b620-4103-af4b-b94c44bf374f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1487,37 +1541,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @polproxy | 2",
-            "type": "vless",
-            "server": "check-host.net",
-            "server_port": 443,
-            "uuid": "c6a979db-09de-4b47-88c2-fb89c0335049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "moein.savarkaraan.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Polproxy,@Polproxy,@Polproxy,@Polproxy,@Polproxy",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
