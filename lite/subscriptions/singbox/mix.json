@@ -135,7 +135,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
-                "🇨🇦CA | vless | @vmessorg | 33",
+                "🇨🇦CA | vless | @vmessorg | 36",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 27",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
@@ -147,11 +147,11 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🏳️XX | vless | @VmessProtocol | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 152",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 10",
+                "🇮🇷IR | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -217,7 +217,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
-                "🇨🇦CA | vless | @vmessorg | 33",
+                "🇨🇦CA | vless | @vmessorg | 36",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 27",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
@@ -229,11 +229,11 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🏳️XX | vless | @VmessProtocol | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 152",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 10",
+                "🇮🇷IR | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1026,7 +1026,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 33",
+            "tag": "🇨🇦CA | vless | @vmessorg | 36",
             "type": "vless",
             "server": "joinbede1.vmessorg.site",
             "server_port": 80,
@@ -1374,7 +1374,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
+            "tag": "🏳️XX | vless | @VmessProtocol | 16",
             "type": "vless",
             "server": "ppl.arzonhost.ir",
             "server_port": 2082,
@@ -1447,33 +1447,26 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 10",
-            "type": "vless",
-            "server": "104.21.43.44",
-            "server_port": 2096,
-            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "79.175.151.112",
+            "server_port": 58271,
+            "uuid": "98a9ad2a-1966-4877-bed4-848b73f9ab34",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpncT.arvancode.eu.Org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@freevirgoolnet\/",
+                "path": "\/rohv2ray",
                 "headers": {
-                    "Host": "vpncT.arvancode.eu.Org"
+                    "Host": ""
                 }
             }
         },
