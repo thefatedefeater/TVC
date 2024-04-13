@@ -109,7 +109,7 @@
                 "🇮🇸IS | vless | @EliV2ray | 0",
                 "🏳️XX | vless | @V2pedia | 27",
                 "🏳️XX | vless | @V2pedia | 35",
-                "🇫🇮FI | vless | @ARv2ray | 7",
+                "🇫🇮FI | vless | @ARv2ray | 8",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -129,6 +129,7 @@
                 "🇳🇱NL | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @VmessProtocol | 5",
                 "🏳️XX | vless | @DailyV2RY | 142",
+                "🏳️XX | vless | @DailyV2RY | 152",
                 "🏳️XX | vless | @v2rayng_vpnrog | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -138,7 +139,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -177,7 +178,7 @@
                 "🇮🇸IS | vless | @EliV2ray | 0",
                 "🏳️XX | vless | @V2pedia | 27",
                 "🏳️XX | vless | @V2pedia | 35",
-                "🇫🇮FI | vless | @ARv2ray | 7",
+                "🇫🇮FI | vless | @ARv2ray | 8",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -197,6 +198,7 @@
                 "🇳🇱NL | vless | @v2ray_swhil | 14",
                 "🇩🇪DE | vless | @VmessProtocol | 5",
                 "🏳️XX | vless | @DailyV2RY | 142",
+                "🏳️XX | vless | @DailyV2RY | 152",
                 "🏳️XX | vless | @v2rayng_vpnrog | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -206,7 +208,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -366,7 +368,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @ARv2ray | 7",
+            "tag": "🇫🇮FI | vless | @ARv2ray | 8",
             "type": "vless",
             "server": "135.181.210.55",
             "server_port": 443,
@@ -940,6 +942,35 @@
         {
             "tag": "🏳️XX | vless | @DailyV2RY | 142",
             "type": "vless",
+            "server": "[::ffff:74cb:2f80]",
+            "server_port": 29253,
+            "uuid": "f5512b61-d706-4438-8d03-1817f0aba9e0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eS-KEoBKsWjjBTpMY6kr5eZbre-UPBGAiqmeNPLRkXg",
+                    "short_id": "5038468e"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @DailyV2RY | 152",
+            "type": "vless",
             "server": "atlas.ne.theonevip.sbs",
             "server_port": 3010,
             "uuid": "54ab9e88-ff86-4609-bff7-319a3e4fdd3a",
@@ -1242,7 +1273,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
