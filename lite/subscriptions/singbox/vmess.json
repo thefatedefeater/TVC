@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 8",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 32",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
@@ -124,7 +124,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 8",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 32",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
@@ -195,11 +195,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "hms082.gwdef.sbs",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "65.109.199.41",
+            "server_port": 3814,
+            "uuid": "5e49a8e6-519f-47c3-ab8f-49c1fe452f28",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -209,23 +209,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
-                }
             }
         },
         {
