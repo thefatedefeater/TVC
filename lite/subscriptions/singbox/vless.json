@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇺🇸US | vless | @ConfigsHUB | 17",
-                "🇺🇸US | vless | @proxystore11 | 14",
+                "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 28",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇺🇸US | vless | @ConfigsHUB | 17",
-                "🇺🇸US | vless | @proxystore11 | 14",
+                "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 28",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -1285,9 +1285,9 @@
         {
             "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "discord.org",
-            "server_port": 8080,
-            "uuid": "a23ce642-7e96-4826-9fd9-8052a1618a5d",
+            "server": "172.66.213.38",
+            "server_port": 443,
+            "uuid": "------EVAY_VPN------",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1295,16 +1295,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "fre.sharkv2r.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "path": "\/@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn",
                 "headers": {
-                    "Host": "discord.org"
+                    "Host": "fre.sharkv2r.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 14",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,

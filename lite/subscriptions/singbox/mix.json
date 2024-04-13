@@ -154,10 +154,10 @@
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | vless | @ConfigsHUB | 17",
-                "🇺🇸US | vless | @proxystore11 | 14",
+                "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 28",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
@@ -238,10 +238,10 @@
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
                 "🇺🇸US | vless | @ConfigsHUB | 17",
-                "🇺🇸US | vless | @proxystore11 | 14",
+                "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 28",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 8",
@@ -1471,9 +1471,9 @@
         {
             "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "discord.org",
-            "server_port": 8080,
-            "uuid": "a23ce642-7e96-4826-9fd9-8052a1618a5d",
+            "server": "172.66.213.38",
+            "server_port": 443,
+            "uuid": "------EVAY_VPN------",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1481,16 +1481,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "fre.sharkv2r.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "path": "\/@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn",
                 "headers": {
-                    "Host": "discord.org"
+                    "Host": "fre.sharkv2r.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 14",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
@@ -1586,11 +1596,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.17.35.237",
-            "server_port": 8880,
-            "uuid": "e7bd848c-c1c9-40a4-b1d9-eba048a340c5",
+            "server": "45.76.18.197",
+            "server_port": 20703,
+            "uuid": "ae710bf3-229a-4f31-d990-971b831c8985",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1600,13 +1610,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/bYdJ7Vc2We",
-                "headers": {
-                    "Host": "104.17.35.237"
-                }
             }
         },
         {
