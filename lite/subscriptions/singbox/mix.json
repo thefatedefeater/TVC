@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 6",
+                "🇨🇦CA | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -147,11 +147,11 @@
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🏳️XX | vless | @VmessProtocol | 14",
-                "🇸🇪SE | vless | @DailyV2RY | 127",
+                "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇷🇺RU | vless | @ConfigsHUB | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -178,15 +178,14 @@
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3",
-                "🇸🇪SE | vless | @TVCminer | 2",
-                "🇪🇸ES | vless | @raze_vpn | 2"
+                "🇸🇪SE | vless | @TVCminer | 2"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 6",
+                "🇨🇦CA | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -227,11 +226,11 @@
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🏳️XX | vless | @VmessProtocol | 14",
-                "🇸🇪SE | vless | @DailyV2RY | 127",
+                "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇷🇺RU | vless | @ConfigsHUB | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -258,8 +257,7 @@
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 3",
-                "🇸🇪SE | vless | @TVCminer | 2",
-                "🇪🇸ES | vless | @raze_vpn | 2"
+                "🇸🇪SE | vless | @TVCminer | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -282,7 +280,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 6",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 9",
             "type": "vless",
             "server": "172.67.201.200",
             "server_port": 80,
@@ -1331,11 +1329,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 127",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 125",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "SVNTEAM",
+            "server": "www.visa.com",
+            "server_port": 2096,
+            "uuid": "8c9cb6e5-1be1-4e35-9ed3-d0d5280479a9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1343,12 +1341,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "tp6.zedmodeon.lat",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1414,11 +1422,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇷🇺RU | vless | @ConfigsHUB | 13",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "maz.maznet.cfd",
-            "server_port": 2083,
-            "uuid": "cc7d6c2b-f623-457a-a75f-d106238a0cb6",
+            "server": "104.22.13.192",
+            "server_port": 443,
+            "uuid": "36950ef1-d0dd-41bd-9d7c-77832edccc88",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1428,7 +1436,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "join20.maznet.cfd",
+                "server_name": "ShhProxy-Free.xn--85-pv2cl2k5x3fipr.org.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1438,9 +1446,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "path": "\/",
                 "headers": {
-                    "Host": "join20.maznet.cfd"
+                    "Host": "ShhProxy-Free.xn--85-pv2cl2k5x3fipr.org."
                 }
             }
         },
@@ -1512,9 +1520,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "135.148.62.165",
-            "server_port": 59988,
-            "uuid": "cfd7a05c-82cf-436d-abce-8b2245b76472",
+            "server": "103.79.79.57",
+            "server_port": 31231,
+            "uuid": "2803a716-2a00-4f83-d915-51c28c79bf12",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2182,20 +2190,6 @@
                 "headers": {
                     "Host": "185.146.173.20"
                 }
-            }
-        },
-        {
-            "tag": "🇪🇸ES | vless | @raze_vpn | 2",
-            "type": "vless",
-            "server": "172.233.123.64",
-            "server_port": 10813,
-            "uuid": "618c0ff4-ce7b-4ce3-8771-79e137a2db26",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
