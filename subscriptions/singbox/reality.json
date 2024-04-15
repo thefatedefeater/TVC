@@ -115,9 +115,10 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 10",
                 "🇳🇱NL | vless | @v2rayNG_Matsuri | 15",
                 "🇩🇪DE | vless | @VmessProtocol | 7",
-                "🏳️XX | vless | @DailyV2RY | 120",
+                "🏳️XX | vless | @DailyV2RY | 126",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -170,9 +171,10 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 10",
                 "🇳🇱NL | vless | @v2rayNG_Matsuri | 15",
                 "🇩🇪DE | vless | @VmessProtocol | 7",
-                "🏳️XX | vless | @DailyV2RY | 120",
+                "🏳️XX | vless | @DailyV2RY | 126",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -521,6 +523,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 10",
+            "type": "vless",
+            "server": "116.202.28.94",
+            "server_port": 2083,
+            "uuid": "1596e07b-2327-42b9-8fdc-559efd904b53",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "41avSuDevuzGoY6KKR-3GaXcjRqHAmvrpYI_1HFkyHo",
+                    "short_id": "bf5c811a"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | vless | @v2rayNG_Matsuri | 15",
             "type": "vless",
             "server": "152.42.135.21",
@@ -579,7 +610,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 120",
+            "tag": "🏳️XX | vless | @DailyV2RY | 126",
             "type": "vless",
             "server": "[2a00:b703:fff1:215::1]",
             "server_port": 2096,
