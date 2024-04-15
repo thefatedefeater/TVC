@@ -123,7 +123,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 14",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 8",
+                "🇨🇦CA | vless | @proxy_kafee | 7",
                 "🇨🇦CA | vless | @v2logy | 10",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇷🇺RU | vless | @azadi_az_inja_migzare | 0",
@@ -138,7 +138,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 192",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
-                "🇨🇦CA | vless | @vmessorg | 34",
+                "🇺🇸US | vless | @vmessorg | 34",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 19",
                 "🇮🇷IR | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
@@ -155,7 +155,7 @@
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇷CR | vless | @ConfigsHUB | 7",
+                "🇺🇸US | vless | @ConfigsHUB | 2",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 14",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 8",
+                "🇨🇦CA | vless | @proxy_kafee | 7",
                 "🇨🇦CA | vless | @v2logy | 10",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇷🇺RU | vless | @azadi_az_inja_migzare | 0",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 192",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
-                "🇨🇦CA | vless | @vmessorg | 34",
+                "🇺🇸US | vless | @vmessorg | 34",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 19",
                 "🇮🇷IR | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
@@ -240,7 +240,7 @@
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇷CR | vless | @ConfigsHUB | 7",
+                "🇺🇸US | vless | @ConfigsHUB | 2",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -733,7 +733,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 8",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 7",
             "type": "vless",
             "server": "104.18.202.232",
             "server_port": 80,
@@ -1102,7 +1102,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 34",
+            "tag": "🇺🇸US | vless | @vmessorg | 34",
             "type": "vless",
             "server": "joinbede1.vmessorg.site",
             "server_port": 80,
@@ -1512,12 +1512,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 7",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 2",
             "type": "vless",
-            "server": "190.93.247.247",
-            "server_port": 443,
-            "uuid": "Parsashonam-42",
-            "flow": "",
+            "server": "194.116.214.187",
+            "server_port": 888,
+            "uuid": "31d974e9-6b16-4b29-a7d2-2fb7f4f2e8d5",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1526,19 +1526,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mail.offch.blog",
+                "server_name": "fortune.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?Telegram:@FreeVirGoolNet",
-                "headers": {
-                    "Host": "mail.offch.blog"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5lB0aSk6YmPH3EpVGeOtEt1glj8GI_V7SZfm6pZ9yEU",
+                    "short_id": "c5010b9e"
                 }
             }
         },
@@ -1846,9 +1844,9 @@
         {
             "tag": "🇨🇦CA | vless | @FreakConfig | 6",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 443,
-            "uuid": "436e7428-381d-404e-ad67-915e98ce357d",
+            "server": "104.18.202.232",
+            "server_port": 80,
+            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1856,21 +1854,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "43b35ef5.aminitiger.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "43b35ef5.aminitiger.pages.dev"
+                    "Host": "104.18.202.232"
                 }
             }
         },
