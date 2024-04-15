@@ -151,12 +151,12 @@
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🏳️XX | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇮🇷IR | vless | @DailyV2RY | 125",
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -237,12 +237,12 @@
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🏳️XX | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇮🇷IR | vless | @DailyV2RY | 125",
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇸🇪SE | vless | @free1_vpn | 1",
@@ -1465,7 +1465,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @VmessProtocol | 16",
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
             "type": "vless",
             "server": "ppl.arzonhost.ir",
             "server_port": 2082,
@@ -1545,11 +1545,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "162.159.130.234",
-            "server_port": 80,
-            "uuid": "aabc3ef9-6968-4311-81b8-8cd0414c1904",
+            "server": "172.66.213.38",
+            "server_port": 8443,
+            "uuid": "3------EVAY_VPN------",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1557,11 +1557,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "fre.sharkv2r.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-channel-freevirgoolnet\/",
+                "path": "\/@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn",
                 "headers": {
-                    "Host": "162.159.130.234"
+                    "Host": "fre.sharkv2r.com"
                 }
             }
         },
@@ -1657,9 +1667,9 @@
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "172.67.204.84",
-            "server_port": 2096,
-            "uuid": "5c7e4ee9-4e78-49c3-bc3c-dff6aa2d0b8b",
+            "server": "104.18.24.143",
+            "server_port": 2052,
+            "uuid": "3d840eb7-9400-4caf-a511-e4724a003ec4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1670,21 +1680,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "fragment2.karop.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNHOMES",
+                "path": "\/video\/GQ2qE5Us9g",
                 "headers": {
-                    "Host": "fragment2.karop.homes"
+                    "Host": ""
                 }
             }
         },

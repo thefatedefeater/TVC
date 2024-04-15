@@ -146,11 +146,11 @@
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🏳️XX | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇮🇷IR | vless | @DailyV2RY | 125",
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 20",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
@@ -219,11 +219,11 @@
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🏳️XX | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🇮🇷IR | vless | @DailyV2RY | 125",
                 "🇩🇪DE | vless | @sinabigo | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 20",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
@@ -1320,7 +1320,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @VmessProtocol | 16",
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
             "type": "vless",
             "server": "ppl.arzonhost.ir",
             "server_port": 2082,
@@ -1390,11 +1390,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "162.159.130.234",
-            "server_port": 80,
-            "uuid": "aabc3ef9-6968-4311-81b8-8cd0414c1904",
+            "server": "172.66.213.38",
+            "server_port": 8443,
+            "uuid": "3------EVAY_VPN------",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1402,11 +1402,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "fre.sharkv2r.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-channel-freevirgoolnet\/",
+                "path": "\/@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn-@Evay_vpn",
                 "headers": {
-                    "Host": "162.159.130.234"
+                    "Host": "fre.sharkv2r.com"
                 }
             }
         },
