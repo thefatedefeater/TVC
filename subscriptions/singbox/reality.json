@@ -116,14 +116,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 10",
-                "🇫🇷FR | vless | @v2rayNG_Matsuri | 7",
+                "🇺🇸US | vless | @v2rayNG_Matsuri | 7",
                 "🇹🇷TR | vless | @v2rayNG_Matsuri | 8",
                 "🇳🇱NL | vless | @v2rayNG_Matsuri | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 1",
                 "🇩🇪DE | vless | @VmessProtocol | 8",
-                "🏳️XX | vless | @DailyV2RY | 136",
-                "🏳️XX | vless | @DailyV2RY | 137",
-                "🇩🇪DE | vless | @ConfigsHUB | 2",
+                "🇨🇦CA | vless | @DailyV2RY | 135",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -133,7 +131,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -176,14 +174,12 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 10",
-                "🇫🇷FR | vless | @v2rayNG_Matsuri | 7",
+                "🇺🇸US | vless | @v2rayNG_Matsuri | 7",
                 "🇹🇷TR | vless | @v2rayNG_Matsuri | 8",
                 "🇳🇱NL | vless | @v2rayNG_Matsuri | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 1",
                 "🇩🇪DE | vless | @VmessProtocol | 8",
-                "🏳️XX | vless | @DailyV2RY | 136",
-                "🏳️XX | vless | @DailyV2RY | 137",
-                "🇩🇪DE | vless | @ConfigsHUB | 2",
+                "🇨🇦CA | vless | @DailyV2RY | 135",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -193,7 +189,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -560,7 +556,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @v2rayNG_Matsuri | 7",
+            "tag": "🇺🇸US | vless | @v2rayNG_Matsuri | 7",
             "type": "vless",
             "server": "194.116.214.187",
             "server_port": 888,
@@ -712,81 +708,9 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 136",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 135",
             "type": "vless",
-            "server": "mtn-a.aidenchanell.site",
-            "server_port": 8443,
-            "uuid": "b0fd85c6-aa15-412f-a893-12384b002de3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NGHzqi9UrA4yrFZ2oqXA3aVtK5a71oNsAjT5Q36zzk4",
-                    "short_id": "ac872cb4"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@vpnAiden-khosro",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @DailyV2RY | 137",
-            "type": "vless",
-            "server": "mci-a.aidenchanell.site",
-            "server_port": 8443,
-            "uuid": "b0fd85c6-aa15-412f-a893-12384b002de3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NGHzqi9UrA4yrFZ2oqXA3aVtK5a71oNsAjT5Q36zzk4",
-                    "short_id": "ac872cb4"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@vpnAiden-khosro",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 2",
-            "type": "vless",
-            "server": "www.morfin.bio",
+            "server": "login.snapfooding.com",
             "server_port": 443,
             "uuid": "ItsLegendaryking",
             "flow": "xtls-rprx-vision",
@@ -807,8 +731,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "_hftPNkDBtDjGki8vHduh5LHf46Zsaum_Rv33U2Xwik",
-                    "short_id": "5b1f70be"
+                    "public_key": "r3yk0aurtOQ0fz799uEP9Tn9tmbOqFagAX9NELrKglc",
+                    "short_id": "ef80db30"
                 }
             },
             "transport": {
@@ -1095,7 +1019,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
