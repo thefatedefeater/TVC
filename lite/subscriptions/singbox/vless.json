@@ -144,7 +144,6 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 1",
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 9",
-                "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 141",
@@ -216,7 +215,6 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 1",
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 9",
-                "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 141",
@@ -1273,27 +1271,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray1_ng | 13",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "56dd2bac-3576-4132-a2d7-d96fb45b5f7b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@HAJIMAMADVPN",
-                "headers": {
-                    "Host": "185.146.173.59"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "162.159.135.234",
@@ -1421,9 +1398,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.67.229.179",
-            "server_port": 80,
-            "uuid": "889ac0d5-9442-4f69-ac96-42c837709ea5",
+            "server": "www.visa.com",
+            "server_port": 443,
+            "uuid": "Parsashonam-43",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1431,11 +1408,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.offch.blog",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/backup",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.67.229.179"
+                    "Host": "mail.offch.blog"
                 }
             }
         },

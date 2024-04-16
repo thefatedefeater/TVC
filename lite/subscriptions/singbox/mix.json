@@ -134,7 +134,7 @@
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
                 "🇸🇪SE | vless | @customv2ray | 11",
@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 1",
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 9",
-                "🇸🇪SE | vless | @v2ray1_ng | 13",
+                "🇨🇦CA | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 141",
@@ -218,7 +218,7 @@
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 184",
                 "🇸🇪SE | vless | @customv2ray | 11",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 1",
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 9",
-                "🇸🇪SE | vless | @v2ray1_ng | 13",
+                "🇨🇦CA | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 141",
@@ -991,7 +991,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 12",
             "type": "vmess",
             "server": "65.109.199.41",
             "server_port": 1209,
@@ -1392,23 +1392,36 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray1_ng | 13",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "56dd2bac-3576-4132-a2d7-d96fb45b5f7b",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 12",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@HAJIMAMADVPN",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -1550,9 +1563,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.67.229.179",
-            "server_port": 80,
-            "uuid": "889ac0d5-9442-4f69-ac96-42c837709ea5",
+            "server": "www.visa.com",
+            "server_port": 443,
+            "uuid": "Parsashonam-43",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1560,11 +1573,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.offch.blog",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/backup",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.67.229.179"
+                    "Host": "mail.offch.blog"
                 }
             }
         },
