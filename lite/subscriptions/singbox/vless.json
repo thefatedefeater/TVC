@@ -122,7 +122,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 13",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 6",
+                "🇨🇦CA | vless | @proxy_kafee | 5",
                 "🇰🇿KZ | vless | @v2logy | 9",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇷🇺RU | vless | @azadi_az_inja_migzare | 2",
@@ -146,10 +146,10 @@
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 148",
+                "🇩🇪DE | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇷CR | vless | @ConfigsHUB | 16",
                 "🇮🇷IR | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vless | @freeconfigv2 | 2",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 4",
                 "🇨🇦CA | vless | @TVCminer | 1"
@@ -194,7 +194,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 13",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 6",
+                "🇨🇦CA | vless | @proxy_kafee | 5",
                 "🇰🇿KZ | vless | @v2logy | 9",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇷🇺RU | vless | @azadi_az_inja_migzare | 2",
@@ -218,10 +218,10 @@
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @DailyV2RY | 148",
+                "🇩🇪DE | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇷CR | vless | @ConfigsHUB | 16",
                 "🇮🇷IR | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -240,7 +240,7 @@
                 "🇨🇦CA | vless | @freeconfigv2 | 2",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 4",
                 "🇨🇦CA | vless | @TVCminer | 1"
@@ -688,7 +688,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 6",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 5",
             "type": "vless",
             "server": "speedtest.org",
             "server_port": 443,
@@ -1322,12 +1322,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 148",
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 144",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "91.107.132.182",
             "server_port": 443,
-            "uuid": "5ec4d807-5052-4525-b535-1ea99e494adb",
-            "flow": "",
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1336,12 +1336,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pc.v2oti.com",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oM6E65KOfc3KT7zaX3dX9MQ73foWOxaC5IEb-anN4gM",
+                    "short_id": "f58ed9db"
                 }
             },
             "transport": {
@@ -1395,11 +1400,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "172.67.163.123",
-            "server_port": 2082,
-            "uuid": "2327919d2b6e497fa0bb3b412a1b06e4",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "34462e1f-28f5-4db7-8020-ca15aa1e72fc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1407,11 +1412,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "join-telegram-chanell-disvpn.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "path": "\/Telegram: @DisVpn",
                 "headers": {
-                    "Host": "172.67.163.123"
+                    "Host": "join-telegram-chanell-disvpn.pages.dev"
                 }
             }
         },
@@ -1914,7 +1929,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
