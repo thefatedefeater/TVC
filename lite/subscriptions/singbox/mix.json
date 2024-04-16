@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
-                "🇹🇼TW | vmess | @ConfigsHUB | 18",
+                "🇹🇼TW | vmess | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 11",
@@ -169,7 +169,7 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇳🇱NL | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @FAKEOFTVC | 1",
+                "🇨🇦CA | vmess | @FAKEOFTVC | 0",
                 "🇨🇼CW | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
@@ -240,7 +240,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
-                "🇹🇼TW | vmess | @ConfigsHUB | 18",
+                "🇹🇼TW | vmess | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 11",
@@ -253,7 +253,7 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇳🇱NL | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @FAKEOFTVC | 1",
+                "🇨🇦CA | vmess | @FAKEOFTVC | 0",
                 "🇨🇼CW | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
@@ -1555,7 +1555,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇹🇼TW | vmess | @ConfigsHUB | 18",
+            "tag": "🇹🇼TW | vmess | @ConfigsHUB | 17",
             "type": "vmess",
             "server": "nb24.ntbq.dynu.net",
             "server_port": 4443,
@@ -1912,13 +1912,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 1",
-            "type": "vless",
-            "server": "162.159.129.96",
+            "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 0",
+            "type": "vmess",
+            "server": "172.67.207.26",
             "server_port": 443,
-            "uuid": "73b6dbd5-a27a-4c76-9ad1-42a82380dddb",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1926,7 +1929,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cf.yuanwangokk.dynv6.net",
+                "server_name": "glweidf.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1936,9 +1939,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram_@warphiddify\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "cf.yuanwangokk.dynv6.net"
+                    "Host": "glweidf.sbs"
                 }
             }
         },

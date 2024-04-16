@@ -159,7 +159,6 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇳🇱NL | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇼CW | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @proxy_mtm | 4",
@@ -231,7 +230,6 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇳🇱NL | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇼CW | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @proxy_mtm | 4",
@@ -1643,37 +1641,6 @@
                 "path": "\/Telegram-ipV2Ray",
                 "headers": {
                     "Host": "185.146.173.59"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 1",
-            "type": "vless",
-            "server": "162.159.129.96",
-            "server_port": 443,
-            "uuid": "73b6dbd5-a27a-4c76-9ad1-42a82380dddb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cf.yuanwangokk.dynv6.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram_@warphiddify\/",
-                "headers": {
-                    "Host": "cf.yuanwangokk.dynv6.net"
                 }
             }
         },
