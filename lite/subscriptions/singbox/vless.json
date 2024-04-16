@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 13",
+                "🇨🇦CA | vless | @EliV2ray | 11",
                 "🇨🇦CA | vless | @Parsashonam | 7",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 13",
@@ -130,7 +130,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 14",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 195",
+                "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 35",
@@ -150,7 +150,7 @@
                 "🇳🇱NL | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇮🇷IR | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -179,7 +179,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 13",
+                "🇨🇦CA | vless | @EliV2ray | 11",
                 "🇨🇦CA | vless | @Parsashonam | 7",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 13",
@@ -203,7 +203,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 14",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 195",
+                "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 35",
@@ -223,7 +223,7 @@
                 "🇳🇱NL | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇮🇷IR | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -268,7 +268,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 13",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 11",
             "type": "vless",
             "server": "23.227.60.87",
             "server_port": 443,
@@ -898,11 +898,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 195",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 185",
             "type": "vless",
-            "server": "162.159.135.234",
-            "server_port": 80,
-            "uuid": "2f984b6d-dfd4-4a5a-8578-635c792d4d08",
+            "server": "104.24.183.89",
+            "server_port": 443,
+            "uuid": "2e19015e-e622-4544-9c12-f42533ce11e8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -910,11 +910,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "REsilience.NiREvil.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "162.159.135.234"
+                    "Host": "REsilience.NiREvil.IR"
                 }
             }
         },
@@ -1418,11 +1428,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "104.21.192.45",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "server": "185.146.173.20",
+            "server_port": 80,
+            "uuid": "107d3a95-e17e-4931-94b9-e42cdcabb05b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1430,21 +1440,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "test35.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/backup",
                 "headers": {
-                    "Host": "test35.pages.dev"
+                    "Host": "185.146.173.20"
                 }
             }
         },
