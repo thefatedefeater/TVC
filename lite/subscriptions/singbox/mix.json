@@ -156,7 +156,6 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 9",
@@ -169,7 +168,7 @@
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇨🇼CW | vless | @mehrosaboran | 6",
+                "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇨🇦CA | vless | @proxy_mtm | 8",
@@ -239,7 +238,6 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 9",
@@ -252,7 +250,7 @@
                 "🇸🇪SE | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇨🇼CW | vless | @mehrosaboran | 6",
+                "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇨🇦CA | vless | @proxy_mtm | 8",
@@ -1499,37 +1497,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "1bdf3e45.mahdiserver-3kd.pages.dev",
-            "server_port": 443,
-            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷IR | vmess | @proxystore11 | 13",
             "type": "vmess",
             "server": "vip.soheilsat.com",
@@ -1858,11 +1825,11 @@
             }
         },
         {
-            "tag": "🇨🇼CW | vless | @mehrosaboran | 6",
+            "tag": "🇸🇪SE | vless | @mehrosaboran | 8",
             "type": "vless",
-            "server": "88.216.66.126",
-            "server_port": 80,
-            "uuid": "----DIGiV2RAY----",
+            "server": "185.146.173.59",
+            "server_port": 8880,
+            "uuid": "a466bbf1-7ace-47df-a6c1-cd506e733cb6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1872,9 +1839,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
-                    "Host": "88.216.66.126"
+                    "Host": "185.146.173.59"
                 }
             }
         },
