@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
-                "🇭🇰HK | vmess | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 8",
@@ -239,7 +239,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
-                "🇭🇰HK | vmess | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 8",
@@ -1553,16 +1553,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇭🇰HK | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "kagoya.hkss.online",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "172.66.47.181",
             "server_port": 443,
-            "uuid": "4664e760-f5f3-3cc2-8bb3-04f85aa7febb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1570,12 +1567,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "ppAL03-1.pAGES.DeV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ppAL03-1.pAGES.DeV"
                 }
             }
         },

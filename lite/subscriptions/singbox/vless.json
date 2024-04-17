@@ -150,6 +150,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -221,6 +222,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -1403,6 +1405,37 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "172.66.47.181",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ppAL03-1.pAGES.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ppAL03-1.pAGES.DeV"
                 }
             }
         },
