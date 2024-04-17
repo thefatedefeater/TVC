@@ -134,8 +134,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
-                "🏳️XX | vmess | @DailyV2RY | 150",
-                "🇮🇷IR | vmess | @ConfigsHUB | 11",
+                "🇮🇷IR | vmess | @proxyymeliii | 3",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @yaney_01 | 2",
@@ -195,8 +194,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
-                "🏳️XX | vmess | @DailyV2RY | 150",
-                "🇮🇷IR | vmess | @ConfigsHUB | 11",
+                "🇮🇷IR | vmess | @proxyymeliii | 3",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @yaney_01 | 2",
@@ -913,11 +911,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 150",
+            "tag": "🇮🇷IR | vmess | @proxyymeliii | 3",
             "type": "vmess",
-            "server": "vmess.diskstation.eu",
-            "server_port": 2086,
-            "uuid": "7d93e992-48cf-42d4-84f8-75768e815a4c",
+            "server": "217.219.212.8",
+            "server_port": 420,
+            "uuid": "95c0dd17-eaa4-476e-8ecd-83a26cde7aa7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -927,37 +925,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 11",
-            "type": "vmess",
-            "server": "31.14.123.194",
-            "server_port": 53300,
-            "uuid": "52d05d43-6eec-489b-8bcc-8eba9ec6e749",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/rohv2ray",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
