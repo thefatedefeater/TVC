@@ -110,9 +110,9 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🏳️XX | vmess | @Hope_Net | 12",
+                "🇺🇸US | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇨🇦CA | vmess | @nofiltering2 | 3"
+                "🇺🇸US | vmess | @nofiltering2 | 3"
             ]
         },
         {
@@ -123,9 +123,9 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🏳️XX | vmess | @Hope_Net | 12",
+                "🇺🇸US | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇨🇦CA | vmess | @nofiltering2 | 3"
+                "🇺🇸US | vmess | @nofiltering2 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -240,11 +240,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 12",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "v3.ssrsub.com",
-            "server_port": 8443,
-            "uuid": "b7c70df3-f92f-4800-a8e1-67e6dc833256",
+            "server": "45.77.220.169",
+            "server_port": 41207,
+            "uuid": "dbbd0899-e302-4ad9-e224-c4aa258fb766",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -254,23 +254,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v3.ssrsub.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ssrsub",
-                "headers": {
-                    "Host": "v3.ssrsub.com"
-                }
             }
         },
         {
@@ -308,7 +291,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 3",
+            "tag": "🇺🇸US | vmess | @nofiltering2 | 3",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
