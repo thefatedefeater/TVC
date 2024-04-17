@@ -108,8 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
-                "🇨🇦CA | vmess | @ConfigsHUB | 3",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vmess | @v2Line | 11",
@@ -122,8 +121,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
-                "🇨🇦CA | vmess | @ConfigsHUB | 3",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vmess | @v2Line | 11",
@@ -184,11 +182,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "us-b.sbyt01.shop",
-            "server_port": 443,
-            "uuid": "9c9afd21-e3cf-4e6b-a342-51e4eb52f227",
+            "server": "w.outline-vpn.cloud",
+            "server_port": 2086,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -199,55 +197,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/v2ray",
+                "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 3",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
                 }
             }
         },
