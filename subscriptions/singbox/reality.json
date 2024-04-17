@@ -119,6 +119,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 2",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @DailyV2RY | 153",
+                "🇬🇧GB | vless | @ConfigsHUB | 6",
                 "🏳️XX | vless | @v2rayng_vpnrog | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -128,7 +129,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -173,6 +174,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 2",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @DailyV2RY | 153",
+                "🇬🇧GB | vless | @ConfigsHUB | 6",
                 "🏳️XX | vless | @v2rayng_vpnrog | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -182,7 +184,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇳🇱NL | vless | @Capital_NET | 41",
+                "🇨🇦CA | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -642,6 +644,35 @@
             }
         },
         {
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 6",
+            "type": "vless",
+            "server": "143.47.241.46",
+            "server_port": 16097,
+            "uuid": "378387d5-4370-4e38-9661-25796e8630ba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.amazon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qMH_7IYKzR0mOLN35mnQijwzN8IiWdudhryTHaQzWS0",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @v2rayng_vpnrog | 7",
             "type": "vless",
             "server": "[2a01:4f8:c013:13bd:c6::1]",
@@ -917,7 +948,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
+            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
