@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 14",
-                "🇩🇪DE | vless | @VlessConfig | 19",
+                "🇫🇷FR | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇨🇦CA | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @V2pedia | 44",
@@ -148,7 +148,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -166,7 +166,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
@@ -180,7 +180,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 14",
-                "🇩🇪DE | vless | @VlessConfig | 19",
+                "🇫🇷FR | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇨🇦CA | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @V2pedia | 44",
@@ -218,7 +218,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -236,7 +236,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 49",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
@@ -366,9 +366,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 19",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "18.193.39.87",
+            "server": "35.181.193.158",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1353,11 +1353,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "romb.minusober.com",
-            "server_port": 443,
-            "uuid": "149400e4-6910-4a3f-8c4a-c5c175929b87",
+            "server": "Join-VPNCUSTOMIZE.V2ray.motorcycles",
+            "server_port": 80,
+            "uuid": "a0ff1c34-ccf7-4c9b-a197-024d9b07165c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1365,21 +1365,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "romb.minusober.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/romb",
+                "path": "\/?ed=1024",
                 "headers": {
-                    "Host": "romb.minusober.com"
+                    "Host": "Join-VPNCUSTOMIZE.V2ray.motorcycles"
                 }
             }
         },
@@ -1848,7 +1838,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
