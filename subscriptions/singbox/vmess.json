@@ -134,12 +134,10 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
-                "🇺🇸US | vmess | @vless_vmess | 8",
                 "🏳️XX | vmess | @DailyV2RY | 150",
-                "🇯🇵JP | vmess | @ConfigsHUB | 14",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @yaney_01 | 2",
+                "🏳️XX | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇺🇸US | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 0",
@@ -197,12 +195,10 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
-                "🇺🇸US | vmess | @vless_vmess | 8",
                 "🏳️XX | vmess | @DailyV2RY | 150",
-                "🇯🇵JP | vmess | @ConfigsHUB | 14",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @yaney_01 | 2",
+                "🏳️XX | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇺🇸US | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 0",
@@ -917,40 +913,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @vless_vmess | 8",
-            "type": "vmess",
-            "server": "jahfkjha.cfd",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vmess | @DailyV2RY | 150",
             "type": "vmess",
             "server": "vmess.diskstation.eu",
@@ -972,23 +934,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | vmess | @ConfigsHUB | 14",
-            "type": "vmess",
-            "server": "154.31.112.51",
-            "server_port": 229,
-            "uuid": "40bc7b65-ec8a-3201-a646-c9d1b71091c6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1060,7 +1005,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 2",
+            "tag": "🏳️XX | vmess | @yaney_01 | 2",
             "type": "vmess",
             "server": "admin.arzonhost.ir",
             "server_port": 2086,
