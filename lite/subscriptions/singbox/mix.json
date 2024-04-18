@@ -1543,9 +1543,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "server": "Tgju.org",
+            "server_port": 2096,
+            "uuid": "daf96ee6-7e59-480b-a320-681a6e13b654",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1555,7 +1555,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bPb.rAdicaLIzatioN.IR",
+                "server_name": "Lan.protoeinpaitakht.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1564,11 +1564,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/Telegram-V2ray_Alpha\/",
-                "headers": {
-                    "Host": "bPb.rAdicaLIzatioN.IR"
-                }
+                "type": "grpc",
+                "service_name": "@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
