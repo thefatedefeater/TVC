@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 7",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 14",
-                "🇮🇪IE | vless | @VlessConfig | 19",
+                "🇺🇸US | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇨🇦CA | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 9",
@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 117",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇸🇪SE | vless | @ConfigsHUB | 13",
+                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -167,9 +167,9 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 5",
+                "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
             ]
         },
@@ -181,7 +181,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 7",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 14",
-                "🇮🇪IE | vless | @VlessConfig | 19",
+                "🇺🇸US | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇨🇦CA | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 9",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 117",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇸🇪SE | vless | @ConfigsHUB | 13",
+                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -238,9 +238,9 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 5",
+                "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -358,9 +358,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | vless | @VlessConfig | 19",
+            "tag": "🇺🇸US | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "108.129.25.115",
+            "server": "34.195.43.142",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1366,11 +1366,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 13",
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-esw",
+            "server": "download.vindonews.com.tr",
+            "server_port": 443,
+            "uuid": "74075426-1dbb-43fc-bd60-7a7fb2151520",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1378,11 +1378,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "download.vindonews.com.tr",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
+                "path": "\/shKnXn0unRfyM0WOB3HI9X",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "download.vindonews.com.tr"
                 }
             }
         },
@@ -1451,9 +1461,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "104.18.158.102",
+            "server": "172.66.47.87",
             "server_port": 443,
-            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
+            "uuid": "896ea6fd-0754-430d-b5b3-4b4ad487617d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1463,7 +1473,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sALAm-wOrD.pagEs.deV",
+                "server_name": "4d9061a7.joinmahdiserver-7tw.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1473,9 +1483,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@my_proxii",
+                "path": "\/",
                 "headers": {
-                    "Host": "sALAm-wOrD.pagEs.deV"
+                    "Host": "4d9061a7.joinmahdiserver-7tw.pages.dev"
                 }
             }
         },
@@ -1870,7 +1880,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
@@ -1915,7 +1925,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ROMAX_VPN | 5",
+            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 5",
             "type": "vless",
             "server": "172.66.213.38",
             "server_port": 2082,
