@@ -149,6 +149,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 120",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -165,9 +166,9 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 5",
+                "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
             ]
         },
@@ -218,6 +219,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 120",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
@@ -234,9 +236,9 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 41",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 5",
+                "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1024,9 +1026,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
-            "server": "172.64.35.226",
+            "server": "172.66.44.181",
             "server_port": 443,
-            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1036,7 +1038,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "BpB.RaDICAlizAtIon.IR",
+                "server_name": "vpnmarket-8bm.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1046,9 +1048,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/47b9ebrCQpP3DA7h",
+                "path": "\/",
                 "headers": {
-                    "Host": "BpB.RaDICAlizAtIon.IR"
+                    "Host": "vpnmarket-8bm.pages.dev"
                 }
             }
         },
@@ -1361,6 +1363,37 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "104.26.13.204",
+            "server_port": 443,
+            "uuid": "9ce4324d-52df-4833-9fb5-7eaee76f1e1a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazesh.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pardazesh.pages.dev"
                 }
             }
         },
@@ -1810,7 +1843,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
@@ -1855,7 +1888,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ROMAX_VPN | 5",
+            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 5",
             "type": "vless",
             "server": "172.66.213.38",
             "server_port": 2082,
