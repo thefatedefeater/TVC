@@ -125,7 +125,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 0",
+                "🏳️XX | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
@@ -141,11 +141,11 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 24",
                 "🇺🇸US | vmess | @ShadowProxy66 | 28",
                 "🏳️XX | vmess | @DailyV2RY | 127",
-                "🇺🇸US | vmess | @ConfigsHUB | 13",
+                "🇺🇸US | vmess | @ConfigsHUB | 8",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @yaney_01 | 2",
+                "🏳️XX | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇺🇸US | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 0",
@@ -192,7 +192,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 0",
+                "🏳️XX | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
@@ -208,11 +208,11 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 24",
                 "🇺🇸US | vmess | @ShadowProxy66 | 28",
                 "🏳️XX | vmess | @DailyV2RY | 127",
-                "🇺🇸US | vmess | @ConfigsHUB | 13",
+                "🇺🇸US | vmess | @ConfigsHUB | 8",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @yaney_01 | 2",
+                "🏳️XX | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇺🇸US | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 0",
@@ -676,7 +676,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 0",
+            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 0",
             "type": "vmess",
             "server": "admin.arzonhost.ir",
             "server_port": 2086,
@@ -1102,11 +1102,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 8",
             "type": "vmess",
-            "server": "64.176.216.199",
-            "server_port": 36159,
-            "uuid": "4826d728-48f9-43d1-aa1f-27b6850cd8a1",
+            "server": "172.67.174.42",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1116,6 +1116,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
             }
         },
         {
@@ -1204,7 +1221,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 2",
+            "tag": "🏳️XX | vmess | @yaney_01 | 2",
             "type": "vmess",
             "server": "admin.arzonhost.ir",
             "server_port": 2086,
