@@ -155,7 +155,7 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 9",
@@ -236,7 +236,7 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 9",
@@ -1504,16 +1504,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 6",
-            "type": "vmess",
-            "server": "changupmecca.com",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.22.2.79",
             "server_port": 443,
-            "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1521,7 +1518,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cpisub7.CPIForpERsiA.UK",
+                "server_name": "HETZNER-D.pages.DEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1531,9 +1528,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/hdfy4c1.iraniancpi.uk\/WgCmp8pxRWBtLTlTL",
+                "path": "\/",
                 "headers": {
-                    "Host": "cpisub7.CPIForpERsiA.UK"
+                    "Host": "HETZNER-D.pages.DEV"
                 }
             }
         },
