@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @V2pedia | 53",
                 "🇨🇦CA | vless | @frev2ray | 7",
                 "🇸🇪SE | vless | @ARv2ray | 16",
-                "🇸🇪SE | vless | @shh_proxy | 27",
+                "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @free_v2rayyy | 4",
@@ -143,9 +143,9 @@
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇸🇪SE | vless | @MsV2ray | 10",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇮🇷IR | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇨🇷CR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -164,7 +164,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 5",
+                "🇺🇸US | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
             ]
         },
@@ -183,7 +183,7 @@
                 "🇨🇦CA | vless | @V2pedia | 53",
                 "🇨🇦CA | vless | @frev2ray | 7",
                 "🇸🇪SE | vless | @ARv2ray | 16",
-                "🇸🇪SE | vless | @shh_proxy | 27",
+                "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @free_v2rayyy | 4",
@@ -209,9 +209,9 @@
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇸🇪SE | vless | @MsV2ray | 10",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
-                "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @lrnbymaa | 6",
-                "🇮🇷IR | vless | @ConfigsHUB | 18",
+                "🇮🇷IR | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇨🇷CR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -230,7 +230,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 5",
+                "🇺🇸US | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -528,7 +528,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @shh_proxy | 27",
+            "tag": "🇸🇪SE | vless | @shh_proxy | 26",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
@@ -712,7 +712,7 @@
             "type": "vless",
             "server": "discord.gg",
             "server_port": 80,
-            "uuid": "DIGiV2RAY-",
+            "uuid": "-DIGiV2RAY-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1190,42 +1190,25 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 5",
+            "tag": "🇮🇷IR | vless | @sinabigo | 4",
             "type": "vless",
-            "server": "104.31.16.162",
-            "server_port": 2083,
-            "uuid": "ffffffff-17ad-45e7-aaa1-f2baaa08e930",
+            "server": "46.36.100.38",
+            "server_port": 12557,
+            "uuid": "8291c021-c278-423f-9b2d-76a2a490064e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "watashi.free.jppublic.moh539.link",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@SINABIGO\/",
-                "headers": {
-                    "Host": "watashi.free.jppublic.moh539.link"
-                }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 6",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 8",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 80,
-            "uuid": "---DIGiV2RAY---",
+            "uuid": "DIGiV2RAY-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1242,17 +1225,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "de3.xnetcompany.lol",
-            "server_port": 9657,
-            "uuid": "1f617c02-aac4-403d-be65-cd01573a06c7",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "0d0245cd-8412-4a32-b52c-ef810651e634",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "digi--v2raycncfs.RadioTeHran.oRG",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Digiv2ray,@Digiv2ray,@Digiv2ray,@Digiv2ray,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1753,7 +1753,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 5",
+            "tag": "🇺🇸US | vless | @ROMAX_VPN | 5",
             "type": "vless",
             "server": "172.66.213.38",
             "server_port": 2082,
