@@ -114,7 +114,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇨🇦CA | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 12",
-                "🇨🇦CA | vless | @V2pedia | 53",
+                "🇸🇪SE | vless | @V2pedia | 54",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇸🇪SE | vless | @shh_proxy | 26",
@@ -158,7 +158,7 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇮🇱IL | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇬🇧GB | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 8",
@@ -182,7 +182,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 5",
+                "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
             ]
         },
@@ -198,7 +198,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇨🇦CA | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 12",
-                "🇨🇦CA | vless | @V2pedia | 53",
+                "🇸🇪SE | vless | @V2pedia | 54",
                 "🇨🇦CA | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇸🇪SE | vless | @shh_proxy | 26",
@@ -242,7 +242,7 @@
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇮🇱IL | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇬🇧GB | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 8",
@@ -266,7 +266,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 5",
+                "🇨🇦CA | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -498,11 +498,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 53",
+            "tag": "🇸🇪SE | vless | @V2pedia | 54",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 2096,
-            "uuid": "91771ac1-0f05-4f35-8d81-d9eedc242958",
+            "server": "185.146.173.59",
+            "server_port": 8080,
+            "uuid": "0364199c-aa32-437d-f065-d40da05c665d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -510,22 +510,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "zedm.zedmodeon.lat",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
             }
         },
         {
@@ -1556,34 +1546,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "104.17.42.10",
-            "server_port": 443,
-            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇬🇧GB | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "154.62.185.162",
+            "server_port": 35816,
+            "uuid": "6cebbdaa-74ce-43ce-dfe2-1cecba9cecb4",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "HETZNER-D.pages.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "HETZNER-D.pages.DEV"
-                }
             }
         },
         {
@@ -2233,7 +2209,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ROMAX_VPN | 5",
+            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 5",
             "type": "vless",
             "server": "172.66.213.38",
             "server_port": 2082,
