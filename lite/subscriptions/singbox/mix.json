@@ -156,8 +156,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 108",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇮🇳IN | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇳🇱NL | ss | @OutlineVpnOfficial | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇹🇷TR | vmess | @Hope_Net | 16",
@@ -180,7 +180,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -242,8 +242,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 108",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇮🇳IN | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇳🇱NL | ss | @OutlineVpnOfficial | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇹🇷TR | vmess | @Hope_Net | 16",
@@ -266,7 +266,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -1526,21 +1526,21 @@
             }
         },
         {
-            "tag": "🇮🇳IN | ss | @OutlineVpnOfficial | 15",
+            "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 13",
             "type": "shadowsocks",
-            "server": "209.182.232.30",
-            "server_port": 51348,
+            "server": "141.11.189.55",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "9NJugkSe6yoPFJiS4dvLRRg07K92JEvAJSRfLr75VHxd7KM5",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.21.4.113",
-            "server_port": 2096,
-            "uuid": "dfd6445f-579d-461a-9a05-78683bd9694f",
+            "server": "104.22.2.79",
+            "server_port": 443,
+            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1550,7 +1550,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "channel.v2bamdad.tech",
+                "server_name": "HETZNER-D.pages.DEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1559,11 +1559,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "BBjszEZzABSQuqxj4FxIzvwxUDoX",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "HETZNER-D.pages.DEV"
+                }
             }
         },
         {
@@ -2162,7 +2162,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
