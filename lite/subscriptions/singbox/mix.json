@@ -134,7 +134,7 @@
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 11",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -158,7 +158,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇧🇷BR | vmess | @ConfigsHUB | 14",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇳🇱NL | vmess | @Hope_Net | 9",
@@ -181,7 +181,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -221,7 +221,7 @@
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 11",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -245,7 +245,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇧🇷BR | vmess | @ConfigsHUB | 14",
                 "🏳️XX | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇳🇱NL | vmess | @Hope_Net | 9",
@@ -268,7 +268,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 37",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -446,7 +446,7 @@
             "type": "vless",
             "server": "dnschecker.org",
             "server_port": 443,
-            "uuid": "f3563049-f464-44d6-a736-f06641381326",
+            "uuid": "8155390c-1b27-4249-81a4-4a663832313c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -981,11 +981,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "admin.arzonhost.ir",
-            "server_port": 2086,
-            "uuid": "7d93e992-48cf-42d4-84f8-75768e815a4c",
+            "server": "65.109.199.41",
+            "server_port": 4176,
+            "uuid": "207a228e-343a-42a7-fc9e-3decc4c70de9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -995,13 +995,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1559,13 +1552,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2087,
-            "uuid": "0843fd03-f2d1-455a-bdb7-6463a3c0a136",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇧🇷BR | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "br-v2ray.ipracevpn.com",
+            "server_port": 8443,
+            "uuid": "574363e2-e447-460d-a5b2-e662d6813afe",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1573,19 +1569,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kinghooman.vpnboy.cloud",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "kinghooman.vpnboy.cloud"
                 }
             }
         },
@@ -2202,7 +2191,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
