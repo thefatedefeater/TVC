@@ -142,7 +142,6 @@
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇮🇷IR | vmess | @proxyymeliii | 5",
                 "🇺🇸US | vmess | @DailyV2RY | 107",
-                "🇺🇸US | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @yaney_01 | 2",
@@ -154,7 +153,6 @@
                 "🏳️XX | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @Hope_Net | 6",
-                "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇳🇱NL | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -209,7 +207,6 @@
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇮🇷IR | vmess | @proxyymeliii | 5",
                 "🇺🇸US | vmess | @DailyV2RY | 107",
-                "🇺🇸US | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @yaney_01 | 2",
@@ -221,7 +218,6 @@
                 "🏳️XX | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @Hope_Net | 6",
-                "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇳🇱NL | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -1105,23 +1101,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 6",
-            "type": "vmess",
-            "server": "205.234.233.22",
-            "server_port": 5129,
-            "uuid": "2e504818-e2e2-4183-eb75-0d1175a947de",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇳🇱NL | vmess | @yaney_01 | 0",
             "type": "vmess",
             "server": "45.199.138.217",
@@ -1455,40 +1434,6 @@
                 "path": "\/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
                 "headers": {
                     "Host": "cold-dawn-9246.fly.dev"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "novia.makeup",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "novia.makeup",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "novia.makeup"
                 }
             }
         },
