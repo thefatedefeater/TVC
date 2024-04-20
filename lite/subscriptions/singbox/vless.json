@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
-                "🇸🇪SE | vless | @lightning6 | 15",
+                "🇸🇪SE | vless | @lightning6 | 17",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
@@ -148,6 +148,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 119",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
@@ -166,7 +167,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 40",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -193,7 +194,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
-                "🇸🇪SE | vless | @lightning6 | 15",
+                "🇸🇪SE | vless | @lightning6 | 17",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
@@ -220,6 +221,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 119",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
@@ -238,7 +240,7 @@
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
                 "🇨🇦CA | vless | @SvnTeam | 40",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -649,7 +651,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lightning6 | 15",
+            "tag": "🇸🇪SE | vless | @lightning6 | 17",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
@@ -1037,9 +1039,9 @@
         {
             "tag": "🏳️XX | vless | @ServerNett | 16",
             "type": "vless",
-            "server": "1666667d.servernett-hrt.pages.dev",
+            "server": "ac67e643.servernett-1ov.pages.dev",
             "server_port": 443,
-            "uuid": "e5f8bdd5-6df1-4686-80b9-b8b13ffa5bd4",
+            "uuid": "8853d6d9-57f5-439d-a903-55615932730b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1049,7 +1051,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "1666667d.servernett-hrt.pages.dev",
+                "server_name": "ac67e643.servernett-1ov.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1061,7 +1063,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "1666667d.servernett-hrt.pages.dev"
+                    "Host": "ac67e643.servernett-1ov.pages.dev"
                 }
             }
         },
@@ -1341,6 +1343,37 @@
                 "path": "\/Telegram-ipV2Ray",
                 "headers": {
                     "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "104.18.158.102",
+            "server_port": 443,
+            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sALAm-wOrD.pagEs.deV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-FreeVirGoolNet\/",
+                "headers": {
+                    "Host": "sALAm-wOrD.pagEs.deV"
                 }
             }
         },
@@ -1869,7 +1902,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
