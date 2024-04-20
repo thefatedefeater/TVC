@@ -143,7 +143,7 @@
                 "🏳️XX | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
-                "🇸🇪SE | vless | @proxyymeliii | 15",
+                "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 9",
@@ -162,13 +162,14 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇷🇺RU | vless | @Capoit | 6",
+                "🇷🇺RU | vless | @Capoit | 8",
                 "🇩🇪DE | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
+                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | ss | @kingofilter | 5",
                 "🇺🇸US | vless | @GozargahVPN | 15",
@@ -224,7 +225,7 @@
                 "🏳️XX | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
-                "🇸🇪SE | vless | @proxyymeliii | 15",
+                "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🇸🇪SE | vless | @V2RayTz | 9",
@@ -243,13 +244,14 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇷🇺RU | vless | @Capoit | 6",
+                "🇷🇺RU | vless | @Capoit | 8",
                 "🇩🇪DE | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
+                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | ss | @kingofilter | 5",
                 "🇺🇸US | vless | @GozargahVPN | 15",
@@ -1223,11 +1225,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 15",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 17",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "10a2e26b-dabe-4638-aec7-28f82394ca54",
+            "uuid": "e6663d5f-35a8-419f-8a1a-6b873b320b7f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1432,9 +1434,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.18.158.102",
-            "server_port": 443,
-            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "054b07b6-06ae-4e44-9d23-24e9c8b73e99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1442,21 +1444,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "sALAm-wOrD.pagEs.deV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-proxy_mtm\/",
+                "path": "\/daily_configs",
                 "headers": {
-                    "Host": "sALAm-wOrD.pagEs.deV"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1744,7 +1736,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vless | @Capoit | 6",
+            "tag": "🇷🇺RU | vless | @Capoit | 8",
             "type": "vless",
             "server": "194.53.53.66",
             "server_port": 8880,
@@ -1928,6 +1920,37 @@
                 "path": "\/link",
                 "headers": {
                     "Host": "hms02.fxiaomi.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxy_mtm | 2",
+            "type": "vless",
+            "server": "104.18.158.102",
+            "server_port": 443,
+            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sALAm-wOrD.pagEs.deV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-proxy_mtm\/",
+                "headers": {
+                    "Host": "sALAm-wOrD.pagEs.deV"
                 }
             }
         },
