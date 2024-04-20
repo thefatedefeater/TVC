@@ -135,13 +135,13 @@
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇬🇧GB | trojan | @oneclickvpnkeys | 13",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 32",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇸🇪SE | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
@@ -159,10 +159,10 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 13",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇵🇱PL | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -224,13 +224,13 @@
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇬🇧GB | trojan | @oneclickvpnkeys | 13",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 32",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇸🇪SE | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
@@ -248,10 +248,10 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 13",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 14",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇵🇱PL | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -1019,24 +1019,26 @@
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @oneclickvpnkeys | 13",
-            "type": "trojan",
-            "server": "45.76.130.173",
-            "server_port": 443,
-            "password": "wkmY1R4EcP",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
+            "type": "vmess",
+            "server": "cfcdn1.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "50e701c6-a7f1-41f0-9255-28e95c57d49c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "z-v2-003289.kailib.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/GQ2qE5Us9g",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -1156,7 +1158,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -1595,11 +1597,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "8d2d4598-bc43-4758-8e00-0e92b9abad33",
+            "server": "v2fly.milik-fukada.eu.org",
+            "server_port": 443,
+            "uuid": "f0f67b84-2770-4413-8b26-cfb302fac247",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1607,11 +1609,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2fly.milik-fukada.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@vano_ganzzz",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "v2fly.milik-fukada.eu.org"
                 }
             }
         },
@@ -1671,11 +1683,11 @@
             }
         },
         {
-            "tag": "🇵🇱PL | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "146.59.17.58",
-            "server_port": 12960,
-            "uuid": "48a86563-63c5-4218-e887-d752f801ae82",
+            "server": "75.102.51.45",
+            "server_port": 58701,
+            "uuid": "b72eda2c-7b68-4813-ef86-086c8afc8e57",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
