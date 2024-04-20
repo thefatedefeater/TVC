@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -1317,11 +1317,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "wt.xxxxx.tw.",
-            "server_port": 80,
-            "uuid": "cdb446bb-6908-4bc4-8bc2-e3e9f2a1af34",
+            "server": "172.67.208.40",
+            "server_port": 443,
+            "uuid": "d8b26036-2d0e-4360-aa24-dda5983b5e9d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1329,11 +1329,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "worker-old-lake-8479.kavega5466.workers.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "wt.xxxxx.tw."
+                    "Host": "worker-old-lake-8479.kavega5466.workers.Dev"
                 }
             }
         },
