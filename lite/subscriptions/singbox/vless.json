@@ -149,7 +149,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 98",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -161,7 +161,6 @@
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇼CW | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 14",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
@@ -222,7 +221,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 98",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -234,7 +233,6 @@
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇼CW | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 14",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
@@ -1340,11 +1338,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "172.66.213.38",
-            "server_port": 8443,
-            "uuid": "35------EVAY_VPN------",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1354,7 +1352,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pop.loveiran01.com",
+                "server_name": "academivpn1-bo7.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1364,9 +1362,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "path": "\/Telegram-proxy_mtm\/",
                 "headers": {
-                    "Host": "pop.loveiran01.com"
+                    "Host": "academivpn1-bo7.pages.dev"
                 }
             }
         },
@@ -1537,9 +1535,9 @@
         {
             "tag": "🇨🇦CA | vless | @FreakConfig | 4",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "104.22.2.79",
             "server_port": 443,
-            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
+            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1549,7 +1547,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
+                "server_name": "HETZNER-D.pages.DEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1561,7 +1559,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
+                    "Host": "HETZNER-D.pages.DEV"
                 }
             }
         },
@@ -1682,37 +1680,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 2",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "academivpn1-bo7.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-proxy_mtm\/",
-                "headers": {
-                    "Host": "academivpn1-bo7.pages.dev"
-                }
             }
         },
         {
