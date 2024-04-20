@@ -148,13 +148,15 @@
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
+                "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 16",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 6",
+                "🇷🇺RU | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇸🇪SE | vless | @flyv2ray | 16",
@@ -219,13 +221,15 @@
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
+                "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 16",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 6",
+                "🇷🇺RU | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇸🇪SE | vless | @flyv2ray | 16",
@@ -1343,11 +1347,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "9052b030.joinmahdiserver-90p.pages.dev",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "79473718-0451-41c3-a0a2-9f6d21c99f75",
+            "uuid": "6e7e6a4e-a01e-4614-a765-2960c64a56fa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1357,7 +1361,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "9052b030.joinmahdiserver-90p.pages.dev",
+                "server_name": "9e83eca1.wyvernfree.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1367,9 +1371,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/powerdbyWyvern?ed=2560",
                 "headers": {
-                    "Host": "9052b030.joinmahdiserver-90p.pages.dev"
+                    "Host": "9e83eca1.wyvernfree.pages.dev"
                 }
             }
         },
@@ -1391,6 +1395,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.19.212.113"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @fnet00 | 0",
+            "type": "vless",
+            "server": "104.25.221.166",
+            "server_port": 443,
+            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "academivpn1-bo7.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "academivpn1-bo7.pages.dev"
                 }
             }
         },
@@ -1420,6 +1455,37 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 16",
+            "type": "vless",
+            "server": "isamp.AbrArvan.org",
+            "server_port": 2096,
+            "uuid": "d2be2507-a944-4e5f-a788-80ae95247a18",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "SAmV2ray.naziitness.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "abc",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1517,11 +1583,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 6",
+            "tag": "🇷🇺RU | vless | @Capoit | 6",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 2053,
-            "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
+            "server": "194.53.53.66",
+            "server_port": 8880,
+            "uuid": "23488040-d041-4b69-8e12-8f30e11d12f3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1529,21 +1595,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "qopyz.oxnetirz11.ONfLashDrIVE.app",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/",
+                "path": "\/daily_configs",
                 "headers": {
-                    "Host": "qopyz.oxnetirz11.ONfLashDrIVE.app"
+                    "Host": "194.53.53.66"
                 }
             }
         },
