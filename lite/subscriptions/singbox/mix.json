@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 18",
@@ -235,7 +235,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 18",
@@ -1455,11 +1455,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "-----DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1467,21 +1467,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "academivpn1-bo7.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-proxy_mtm\/",
+                "path": "\/Digiv2ray-",
                 "headers": {
-                    "Host": "academivpn1-bo7.pages.dev"
+                    "Host": "185.146.173.59"
                 }
             }
         },
