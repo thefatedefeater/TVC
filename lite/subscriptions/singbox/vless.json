@@ -131,7 +131,6 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇸🇪SE | vless | @Outline_Vpn | 18",
-                "🇮🇷IR | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
@@ -149,7 +148,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
@@ -203,7 +202,6 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇸🇪SE | vless | @Outline_Vpn | 18",
-                "🇮🇷IR | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
@@ -221,7 +219,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 108",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 6",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 7",
@@ -900,27 +898,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @prrofile_purple | 195",
-            "type": "vless",
-            "server": "188.212.97.47",
-            "server_port": 4002,
-            "uuid": "58820474-3eef-42e4-9c13-44f3efcaedd1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "188.212.97.47"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @UnlimitedDev | 16",
             "type": "vless",
             "server": "bia-to.unlimiteddev.motorcycles.",
@@ -1366,11 +1343,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 2096,
-            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "server": "9052b030.joinmahdiserver-90p.pages.dev",
+            "server_port": 443,
+            "uuid": "79473718-0451-41c3-a0a2-9f6d21c99f75",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1380,7 +1357,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV",
+                "server_name": "9052b030.joinmahdiserver-90p.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1390,9 +1367,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-V2ray_Alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
+                    "Host": "9052b030.joinmahdiserver-90p.pages.dev"
                 }
             }
         },
