@@ -156,10 +156,10 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇺🇸US | vmess | @ConfigsHUB | 10",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇩🇪DE | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -241,10 +241,10 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 13",
-                "🇺🇸US | vmess | @ConfigsHUB | 10",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇩🇪DE | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -1528,11 +1528,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 10",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "151.101.3.10",
-            "server_port": 80,
-            "uuid": "d39a347a-00c9-4f91-9255-7f536c07c5a8",
+            "server": "168.235.82.103",
+            "server_port": 16123,
+            "uuid": "fa09f016-0460-4bcf-d209-197b7f3d270e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1542,13 +1542,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/aries?ed=2560",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1607,11 +1600,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "172.67.174.42",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "199.247.3.99",
+            "server_port": 8570,
+            "uuid": "fe73f880-51ad-454b-a456-eb62342bf753",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1621,23 +1614,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
-                }
             }
         },
         {
