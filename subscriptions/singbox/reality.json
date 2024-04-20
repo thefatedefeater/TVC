@@ -114,7 +114,6 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 20",
                 "🇫🇷FR | vless | @v2rayNG_Matsuri | 22",
                 "🇹🇷TR | vless | @v2rayNG_Matsuri | 23",
                 "🇩🇪DE | vless | @VmessProtocol | 6",
@@ -169,7 +168,6 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 20",
                 "🇫🇷FR | vless | @v2rayNG_Matsuri | 22",
                 "🇹🇷TR | vless | @v2rayNG_Matsuri | 23",
                 "🇩🇪DE | vless | @VmessProtocol | 6",
@@ -481,35 +479,6 @@
                     "enabled": true,
                     "public_key": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 20",
-            "type": "vless",
-            "server": "116.202.28.94",
-            "server_port": 2083,
-            "uuid": "1596e07b-2327-42b9-8fdc-559efd904b53",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "41avSuDevuzGoY6KKR-3GaXcjRqHAmvrpYI_1HFkyHo",
-                    "short_id": "bf5c811a"
                 }
             }
         },
