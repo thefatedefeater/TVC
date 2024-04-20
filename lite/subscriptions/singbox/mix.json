@@ -159,7 +159,7 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -244,7 +244,7 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -1530,9 +1530,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.66.47.201",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "wt.xxxxx.tw.",
+            "server_port": 80,
+            "uuid": "cdb446bb-6908-4bc4-8bc2-e3e9f2a1af34",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1540,21 +1540,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "D6F1D970.oxNeT-ir-XZU871.PageS.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Xt9O5m2Tcr8DTegz?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "D6F1D970.oxNeT-ir-XZU871.PageS.DeV"
+                    "Host": "wt.xxxxx.tw."
                 }
             }
         },
@@ -1614,11 +1604,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "38.102.234.247",
-            "server_port": 20928,
-            "uuid": "399b2ab0-26f6-4df9-b738-113821d5556c",
+            "server": "91.149.236.44",
+            "server_port": 26639,
+            "uuid": "2cd01fcd-79f3-4ec4-8536-7802c6fcba08",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1631,7 +1621,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/cctv13\/hd.m3u8\/",
                 "headers": {
                     "Host": ""
                 }
