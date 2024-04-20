@@ -106,9 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @EliV2ray | 11",
-                "🇫🇷FR | vless | @EliV2ray | 12",
-                "🇮🇸IS | vless | @EliV2ray | 13",
+                "🇩🇪DE | vless | @EliV2ray | 16",
+                "🇫🇷FR | vless | @EliV2ray | 17",
+                "🇮🇸IS | vless | @EliV2ray | 18",
                 "🏳️XX | vless | @V2pedia | 41",
                 "🏳️XX | vless | @V2pedia | 44",
                 "🏳️XX | vless | @V2pedia | 50",
@@ -117,14 +117,12 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 17",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 18",
                 "🇫🇷FR | vless | @v2rayNG_Matsuri | 22",
                 "🇹🇷TR | vless | @v2rayNG_Matsuri | 23",
                 "🇩🇪DE | vless | @VmessProtocol | 6",
                 "🇩🇪DE | vless | @VmessProtocol | 13",
-                "🏳️XX | vless | @DailyV2RY | 83",
-                "🇫🇮FI | vless | @DailyV2RY | 89",
-                "🇩🇪DE | vless | @DailyV2RY | 90",
+                "🏳️XX | vless | @DailyV2RY | 93",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -166,9 +164,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @EliV2ray | 11",
-                "🇫🇷FR | vless | @EliV2ray | 12",
-                "🇮🇸IS | vless | @EliV2ray | 13",
+                "🇩🇪DE | vless | @EliV2ray | 16",
+                "🇫🇷FR | vless | @EliV2ray | 17",
+                "🇮🇸IS | vless | @EliV2ray | 18",
                 "🏳️XX | vless | @V2pedia | 41",
                 "🏳️XX | vless | @V2pedia | 44",
                 "🏳️XX | vless | @V2pedia | 50",
@@ -177,14 +175,12 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 17",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 18",
                 "🇫🇷FR | vless | @v2rayNG_Matsuri | 22",
                 "🇹🇷TR | vless | @v2rayNG_Matsuri | 23",
                 "🇩🇪DE | vless | @VmessProtocol | 6",
                 "🇩🇪DE | vless | @VmessProtocol | 13",
-                "🏳️XX | vless | @DailyV2RY | 83",
-                "🇫🇮FI | vless | @DailyV2RY | 89",
-                "🇩🇪DE | vless | @DailyV2RY | 90",
+                "🏳️XX | vless | @DailyV2RY | 93",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -242,7 +238,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @EliV2ray | 11",
+            "tag": "🇩🇪DE | vless | @EliV2ray | 16",
             "type": "vless",
             "server": "91.107.190.188",
             "server_port": 53738,
@@ -278,7 +274,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @EliV2ray | 12",
+            "tag": "🇫🇷FR | vless | @EliV2ray | 17",
             "type": "vless",
             "server": "185.234.64.35",
             "server_port": 8443,
@@ -314,7 +310,7 @@
             }
         },
         {
-            "tag": "🇮🇸IS | vless | @EliV2ray | 13",
+            "tag": "🇮🇸IS | vless | @EliV2ray | 18",
             "type": "vless",
             "server": "89.221.224.166",
             "server_port": 8443,
@@ -603,7 +599,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 17",
+            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 18",
             "type": "vless",
             "server": "116.202.28.94",
             "server_port": 2083,
@@ -755,7 +751,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 83",
+            "tag": "🏳️XX | vless | @DailyV2RY | 93",
             "type": "vless",
             "server": "[2a00:b703:fff1:215::1]",
             "server_port": 25365,
@@ -785,78 +781,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ZEDMODEON-@ZEDMODEON-ZEDMODEON@ZEDMODEON-@ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @DailyV2RY | 89",
-            "type": "vless",
-            "server": "cdn.morfin.bio",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fontserver.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GpsmSYJB1JmhiR1r6jp3_u4Y0cOHLdZpkpn2Jm6CNEY",
-                    "short_id": "06995eed"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 90",
-            "type": "vless",
-            "server": "www.morfin.bio",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "wordpress.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MOuUsPED6ajyiCHxBD5DoJNvApXrOaLlabThwuX0NWI",
-                    "short_id": "ed062e00"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
