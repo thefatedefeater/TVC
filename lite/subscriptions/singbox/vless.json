@@ -148,6 +148,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -159,7 +160,7 @@
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇼CW | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vless | @proxy_mtm | 2",
+                "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 14",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
@@ -219,6 +220,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -230,7 +232,7 @@
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇼CW | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vless | @proxy_mtm | 2",
+                "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 14",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
@@ -1315,6 +1317,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "104.22.2.79",
+            "server_port": 443,
+            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "HETZNER-D.pages.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "HETZNER-D.pages.DEV"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "104.17.218.225",
@@ -1629,7 +1662,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 2",
+            "tag": "🇺🇸US | vless | @proxy_mtm | 2",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
