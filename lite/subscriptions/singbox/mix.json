@@ -151,21 +151,22 @@
                 "🇸🇪SE | vless | @MsV2ray | 15",
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 13",
-                "🇸🇪SE | vless | @V2RayTz | 10",
+                "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 133",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 18",
+                "🇩🇪DE | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇷🇺RU | vless | @Capoit | 13",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇸🇪SE | vless | @FreakConfig | 5",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
@@ -233,21 +234,22 @@
                 "🇸🇪SE | vless | @MsV2ray | 15",
                 "🇸🇪SE | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 13",
-                "🇸🇪SE | vless | @V2RayTz | 10",
+                "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
                 "🇨🇦CA | vless | @DailyV2RY | 133",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 18",
+                "🇩🇪DE | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇷🇺RU | vless | @Capoit | 13",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇸🇪SE | vless | @FreakConfig | 5",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
@@ -1408,7 +1410,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 10",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 12",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 8880,
@@ -1585,11 +1587,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "104.19.211.14",
-            "server_port": 2052,
-            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+            "server": "199.247.3.99",
+            "server_port": 5201,
+            "uuid": "8ca1dd07-ed4d-45ec-9891-622be7a66971",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1599,13 +1601,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/c9efxRCi",
-                "headers": {
-                    "Host": "104.19.211.14"
-                }
             }
         },
         {
@@ -1668,6 +1663,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "academivpn1-bo7.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-FreeVirGoolNet\/",
+                "headers": {
+                    "Host": "academivpn1-bo7.pages.dev"
+                }
             }
         },
         {
@@ -1800,11 +1826,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
+            "tag": "🇸🇪SE | vless | @FreakConfig | 5",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-rtu",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1812,21 +1838,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "academivpn1-bo7.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-proxy_mtm\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "academivpn1-bo7.pages.dev"
+                    "Host": "185.146.173.59"
                 }
             }
         },
