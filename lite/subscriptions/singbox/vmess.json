@@ -112,9 +112,9 @@
                 "🇨🇦CA | vmess | @prrofile_purple | 195",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @nofiltering2 | 3"
+                "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
         },
         {
@@ -127,9 +127,9 @@
                 "🇨🇦CA | vmess | @prrofile_purple | 195",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @nofiltering2 | 3"
+                "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -322,11 +322,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "152.69.197.60",
-            "server_port": 1069,
-            "uuid": "ac8e26fe-8150-4b60-ae64-82fc77eba2cf",
+            "server": "172.64.80.1",
+            "server_port": 2095,
+            "uuid": "0eb4c78e-c7fa-4c08-9306-aab80db9fb9f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -336,6 +336,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video.cgi",
+                "headers": {
+                    "Host": "172.64.80.1"
+                }
             }
         },
         {
@@ -356,7 +363,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @nofiltering2 | 3",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 3",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
