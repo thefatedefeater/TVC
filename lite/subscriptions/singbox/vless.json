@@ -131,8 +131,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
-                "🇮🇷IR | vless | @v2rayngvpn | 16",
+                "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🏳️XX | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -144,7 +143,6 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
@@ -157,6 +155,7 @@
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇷CR | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
+                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 15",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
@@ -199,8 +198,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
-                "🇮🇷IR | vless | @v2rayngvpn | 16",
+                "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🏳️XX | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -212,7 +210,6 @@
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @fnet00 | 0",
                 "🇨🇦CA | vless | @polproxy | 5",
@@ -225,6 +222,7 @@
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇷CR | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
+                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 15",
                 "🇩🇪DE | vless | @freeconfigv2 | 0",
@@ -869,11 +867,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 15",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "96a72e74-aa5f-4075-a577-608af8dc69a9",
+            "server": "172.66.47.78",
+            "server_port": 443,
+            "uuid": "aa114e98-541e-4cf4-ab1b-a75911dae52a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -883,7 +881,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "haj_ghasem.ztwom.info",
+                "server_name": "8b155a5b.joinmahdiserver-o00.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -892,25 +890,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "haj_ghasem.ztwom.info",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @v2rayngvpn | 16",
-            "type": "vless",
-            "server": "85.133.238.57",
-            "server_port": 47863,
-            "uuid": "a54f594c-8c9d-43d9-9368-aea8cc6baeca",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "8b155a5b.joinmahdiserver-o00.pages.dev"
+                }
             }
         },
         {
@@ -1231,37 +1215,6 @@
                 "path": "\/Telegram@SiNABiGO\/",
                 "headers": {
                     "Host": "worker-jolly-block-2e78.gamal32324.workers.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "104.18.158.102",
-            "server_port": 443,
-            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sALAm-wOrD.pagEs.deV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-proxy_mtm\/",
-                "headers": {
-                    "Host": "sALAm-wOrD.pagEs.deV"
                 }
             }
         },
@@ -1601,6 +1554,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxy_mtm | 2",
+            "type": "vless",
+            "server": "104.18.158.102",
+            "server_port": 443,
+            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sALAm-wOrD.pagEs.deV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-proxy_mtm\/",
+                "headers": {
+                    "Host": "sALAm-wOrD.pagEs.deV"
+                }
             }
         },
         {
