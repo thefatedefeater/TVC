@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 136",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | trojan | @ConfigsHUB | 15",
+                "🇸🇪SE | vless | @ConfigsHUB | 9",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 18",
@@ -166,9 +166,9 @@
                 "🇩🇪DE | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @mehrosaboran | 9",
+                "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vmess | @nofiltering2 | 3",
+                "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | ss | @kingofilter | 5",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 136",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | trojan | @ConfigsHUB | 15",
+                "🇸🇪SE | vless | @ConfigsHUB | 9",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 18",
@@ -248,9 +248,9 @@
                 "🇩🇪DE | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @mehrosaboran | 9",
+                "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇨🇦CA | vmess | @nofiltering2 | 3",
+                "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | ss | @kingofilter | 5",
@@ -1422,15 +1422,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | trojan | @ConfigsHUB | 15",
-            "type": "trojan",
-            "server": "34.217.86.31",
-            "server_port": 17411,
-            "password": "Yy36HPg5DSnr",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 9",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "c84c74cf-c3df-4293-8cb3-8acc4713e815",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
             }
         },
         {
@@ -1501,9 +1510,9 @@
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "104.16.67.38",
-            "server_port": 2087,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "server": "hms07.xfixedfloat.cfd",
+            "server_port": 443,
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1516,7 +1525,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "worker-bitter-math-2af8.waxoha3621.workers.dev",
+                "server_name": "hms07.xfixedfloat.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1526,9 +1535,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/afrhms16v.bestxray.buzz\/linkws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "worker-bitter-math-2af8.waxoha3621.workers.dev"
+                    "Host": "hms07.xfixedfloat.cfd"
                 }
             }
         },
@@ -1831,7 +1840,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @mehrosaboran | 9",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1888,7 +1897,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 3",
+            "tag": "🇺🇸US | vmess | @nofiltering2 | 3",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
