@@ -157,7 +157,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -229,7 +228,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇮🇷IR | vless | @IRN_VPN | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -1576,37 +1574,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @IRN_VPN | 0",
-            "type": "vless",
-            "server": "212.80.19.164",
-            "server_port": 443,
-            "uuid": "df41a355-e23c-40a6-b264-bbdd818982de",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "212.80.19.164",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/dns-query",
-                "headers": {
-                    "Host": "212.80.19.164"
                 }
             }
         },
