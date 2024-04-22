@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | @DeamNet_Proxy | 10",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 3",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 4",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 5",
@@ -127,7 +126,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | @DeamNet_Proxy | 10",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 3",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 4",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 5",
@@ -162,16 +160,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 10",
-            "type": "shadowsocks",
-            "server": "23.134.94.175",
-            "server_port": 8119,
-            "method": "aes-256-gcm",
-            "password": "cdBIDV42DCwnfIN",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇷🇺RU | ss | @OutlineVpnOfficial | 3",
