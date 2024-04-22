@@ -151,7 +151,7 @@
                 "🇸🇪SE | vless | @proxyymeliii | 19",
                 "🇸🇪SE | vless | @MsV2ray | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
-                "🇺🇸US | vless | @vless_vmess | 12",
+                "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 1",
@@ -178,7 +178,7 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 38",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -235,7 +235,7 @@
                 "🇸🇪SE | vless | @proxyymeliii | 19",
                 "🇸🇪SE | vless | @MsV2ray | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
-                "🇺🇸US | vless | @vless_vmess | 12",
+                "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 1",
@@ -262,7 +262,7 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 38",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇳🇱NL | vless | @ROMAX_VPN | 2",
                 "🇳🇱NL | vless | @TIKTOK_PROXY | 1",
@@ -1398,17 +1398,34 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vless_vmess | 12",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 11",
             "type": "vless",
-            "server": "95.181.173.190",
-            "server_port": 57396,
-            "uuid": "fb374fd1-bd5a-44e7-94df-231d854574a2",
+            "server": "solid.footballlovernews.com",
+            "server_port": 443,
+            "uuid": "f1dd1020-7b3f-491d-a9e3-0b2cb9a1daff",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "solid.footballlovernews.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/solid",
+                "headers": {
+                    "Host": "solid.footballlovernews.com"
+                }
             }
         },
         {
@@ -2098,7 +2115,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
