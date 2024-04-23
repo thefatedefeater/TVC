@@ -140,13 +140,13 @@
                 "🇸🇪SE | vless | @MsV2ray | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 20",
                 "🇨🇦CA | vless | @vless_vmess | 13",
-                "🇸🇪SE | vless | @V2RayTz | 16",
+                "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 161",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇸🇪SE | vless | @polproxy | 6",
-                "🇫🇷FR | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 5",
@@ -160,9 +160,9 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 39",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇳🇱NL | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
                 "🇵🇱PL | vless | @raze_vpn | 2"
             ]
@@ -205,13 +205,13 @@
                 "🇸🇪SE | vless | @MsV2ray | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 20",
                 "🇨🇦CA | vless | @vless_vmess | 13",
-                "🇸🇪SE | vless | @V2RayTz | 16",
+                "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 161",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇸🇪SE | vless | @polproxy | 6",
-                "🇫🇷FR | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 5",
@@ -225,9 +225,9 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 39",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+                "🇳🇱NL | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
                 "🇵🇱PL | vless | @raze_vpn | 2"
             ],
@@ -1110,11 +1110,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 16",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 15",
             "type": "vless",
-            "server": "185.146.173.59",
+            "server": "185.146.173.95",
             "server_port": 8880,
-            "uuid": "b27137a7-4744-464d-aa05-9022aaf0b404",
+            "uuid": "50d3adee-f7f7-4189-83e4-b247f2b56c07",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1126,7 +1126,7 @@
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "185.146.173.95"
                 }
             }
         },
@@ -1276,11 +1276,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @Outlinev2rayNG | 18",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 18",
             "type": "vless",
-            "server": "185.16.110.49",
-            "server_port": 80,
-            "uuid": "-----DIGIV2RAY--",
+            "server": "www.zula.ir",
+            "server_port": 443,
+            "uuid": "4f43d8c6-eb82-4bd0-90de-0f03b96c8109",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1288,11 +1288,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "MCI-Shatel-aSIaTeCH-pARsoNlINe-HiweB.PAges.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.16.110.49"
+                    "Host": "MCI-Shatel-aSIaTeCH-pARsoNlINe-HiweB.PAges.dEv"
                 }
             }
         },
@@ -1664,7 +1674,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
@@ -1709,7 +1719,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇳🇱NL | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "188.114.97.12",
             "server_port": 443,
