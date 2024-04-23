@@ -111,7 +111,7 @@
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
                 "🇫🇷FR | vless | @VlessConfig | 19",
-                "🏳️XX | vless | @VPNCUSTOMIZE | 15",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @frev2ray | 8",
@@ -141,9 +141,9 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 20",
-                "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 144",
-                "🇨🇦CA | vless | @sinabigo | 2",
+                "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🏳️XX | vless | @proxystore11 | 7",
                 "🇸🇪SE | vless | @polproxy | 6",
@@ -153,7 +153,7 @@
                 "🇸🇪SE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇦🇹AT | vless | @mehrosaboran | 6",
+                "🇦🇹AT | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇳🇱NL | vless | @proxy_mtm | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -177,7 +177,7 @@
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 15",
                 "🇫🇷FR | vless | @VlessConfig | 19",
-                "🏳️XX | vless | @VPNCUSTOMIZE | 15",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @frev2ray | 8",
@@ -207,9 +207,9 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 20",
-                "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 144",
-                "🇨🇦CA | vless | @sinabigo | 2",
+                "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🏳️XX | vless | @proxystore11 | 7",
                 "🇸🇪SE | vless | @polproxy | 6",
@@ -219,7 +219,7 @@
                 "🇸🇪SE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇦🇹AT | vless | @mehrosaboran | 6",
+                "🇦🇹AT | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇳🇱NL | vless | @proxy_mtm | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -379,17 +379,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @VPNCUSTOMIZE | 15",
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
             "type": "vless",
-            "server": "login.kellekcollection.com",
-            "server_port": 8080,
-            "uuid": "0e39b5a8-1770-4d31-a26c-8aebb91d0b8d",
+            "server": "Join-VPNCUSTOMIZE.V2ray.motorcycles",
+            "server_port": 80,
+            "uuid": "a0ff1c34-ccf7-4c9b-a197-024d9b07165c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=1024",
+                "headers": {
+                    "Host": "Join-VPNCUSTOMIZE.V2ray.motorcycles"
+                }
             }
         },
         {
@@ -588,7 +595,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "429137ec-527d-4e99-80e7-a2705192a1e2",
+            "uuid": "be427558-0c61-42f6-ac8f-f99a7c6f56c2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1143,11 +1150,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 18",
+            "tag": "🇨🇷CR | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 80,
-            "uuid": "-----DIGIV2RAY--",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "0d0245cd-8412-4a32-b52c-ef810651e638",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1155,12 +1162,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Digiv2ray-",
-                "headers": {
-                    "Host": "104.18.202.232"
+            "tls": {
+                "enabled": true,
+                "server_name": "digi--v2raycncfs.RadioTeHran.oRG",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Digiv2ray,@Digiv2ray,@Digiv2ray,@Digiv2ray,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1195,11 +1212,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 2",
+            "tag": "🇨🇦CA | vless | @sinabigo | 1",
             "type": "vless",
-            "server": "104.21.192.45",
+            "server": "www.zula.ir",
             "server_port": 443,
-            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "uuid": "4f43d8c6-eb82-4bd0-90de-0f03b96c8109",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1209,7 +1226,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bPb.rAdicaLIzatioN.IR",
+                "server_name": "MCI-Shatel-aSIaTeCH-pARsoNlINe-HiweB.PAges.dEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1221,7 +1238,7 @@
                 "type": "ws",
                 "path": "\/Path\/Telegram@SiNABiGO\/",
                 "headers": {
-                    "Host": "bPb.rAdicaLIzatioN.IR"
+                    "Host": "MCI-Shatel-aSIaTeCH-pARsoNlINe-HiweB.PAges.dEv"
                 }
             }
         },
@@ -1463,7 +1480,7 @@
             }
         },
         {
-            "tag": "🇦🇹AT | vless | @mehrosaboran | 6",
+            "tag": "🇦🇹AT | vless | @mehrosaboran | 7",
             "type": "vless",
             "server": "212.183.88.201",
             "server_port": 8880,
