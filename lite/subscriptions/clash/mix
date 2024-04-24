@@ -129,7 +129,6 @@ proxies:
   - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"64.176.219.193","port":"48895","cipher":"auto","uuid":"1dd70a5f-fbbb-4e58-9d29-a40415853c80","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @nofiltering2 | 1","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
   - {"name":"🏳️XX | ss | @kingofilter | 6","type":"ss","server":"13.vip-archive69.site","port":443,"password":"telegram-id-Alfred-Config","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | ss | @ROMAX_VPN | 1","type":"ss","server":"account-mec.emofid.co","port":443,"password":"7ivrGEHY88sQk3DP","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -147,7 +146,6 @@ proxy-groups:
       - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
       - '🏳️XX | ss | @kingofilter | 6'
-      - '🇬🇧GB | ss | @ROMAX_VPN | 1'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -165,7 +163,6 @@ proxy-groups:
       - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
       - '🏳️XX | ss | @kingofilter | 6'
-      - '🇬🇧GB | ss | @ROMAX_VPN | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -182,7 +179,6 @@ proxy-groups:
       - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
       - '🏳️XX | ss | @kingofilter | 6'
-      - '🇬🇧GB | ss | @ROMAX_VPN | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
