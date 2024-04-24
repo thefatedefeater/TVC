@@ -137,10 +137,10 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 13",
+                "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @vless_vmess | 16",
-                "🇸🇪SE | vless | @V2RayTz | 16",
+                "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
@@ -159,7 +159,7 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 15",
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
-                "🇨🇦CA | vless | @SvnTeam | 31",
+                "🇸🇪SE | vless | @SvnTeam | 28",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -203,10 +203,10 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 13",
+                "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @vless_vmess | 16",
-                "🇸🇪SE | vless | @V2RayTz | 16",
+                "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
@@ -225,7 +225,7 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 15",
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
-                "🇨🇦CA | vless | @SvnTeam | 31",
+                "🇸🇪SE | vless | @SvnTeam | 28",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
@@ -1032,11 +1032,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 13",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 12",
             "type": "vless",
-            "server": "104.18.158.102",
-            "server_port": 80,
-            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
+            "server": "172.66.44.169",
+            "server_port": 443,
+            "uuid": "896ea6fd-0754-430d-b5b3-4b4ad487617d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1044,11 +1044,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "4d9061a7.joinmahdiserver-7tw.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@my_proxii",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.18.158.102"
+                    "Host": "4d9061a7.joinmahdiserver-7tw.pages.dev"
                 }
             }
         },
@@ -1105,11 +1115,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 16",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 17",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
-            "uuid": "9b6c8ff5-fb66-43ee-90f6-a886fbcd25ff",
+            "uuid": "2c10657f-450a-4fb4-92e9-4ab2039042d8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1119,7 +1129,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@POLPROXY- Telegram:@POLPROXY- Telegram:@POLPROXY- Telegram:@POLPROXY- Telegram:@POLPROXY- Telegram:@POLPROXY- Telegram:@POLPROXY- Telegram:@POLPROXY",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
                 "headers": {
                     "Host": "185.146.173.59"
                 }
@@ -1650,9 +1660,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @SvnTeam | 31",
+            "tag": "🇸🇪SE | vless | @SvnTeam | 28",
             "type": "vless",
-            "server": "mtn.VPNPROSEC.com",
+            "server": "185.146.173.59",
             "server_port": 80,
             "uuid": "SVNTEAM",
             "flow": "",
@@ -1666,7 +1676,7 @@
                 "type": "ws",
                 "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
                 "headers": {
-                    "Host": "mtn.VPNPROSEC.com"
+                    "Host": "185.146.173.59"
                 }
             }
         },
