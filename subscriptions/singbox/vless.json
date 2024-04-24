@@ -170,7 +170,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 7",
                 "🇳🇱NL | vless | @VPNCUSTOMIZE | 8",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 10",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 11",
+                "🇳🇱NL | vless | @VPNCUSTOMIZE | 11",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 13",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 0",
@@ -436,6 +436,7 @@
                 "🇸🇪SE | vless | @proxyymeliii | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
+                "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 5",
                 "🇸🇪SE | vless | @MsV2ray | 6",
                 "🇸🇪SE | vless | @MsV2ray | 8",
@@ -695,7 +696,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 7",
                 "🇳🇱NL | vless | @VPNCUSTOMIZE | 8",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 10",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 11",
+                "🇳🇱NL | vless | @VPNCUSTOMIZE | 11",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 13",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 0",
@@ -961,6 +962,7 @@
                 "🇸🇪SE | vless | @proxyymeliii | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇸🇪SE | vless | @proxyymeliii | 16",
+                "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇸🇪SE | vless | @MsV2ray | 5",
                 "🇸🇪SE | vless | @MsV2ray | 6",
                 "🇸🇪SE | vless | @MsV2ray | 8",
@@ -2777,7 +2779,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 11",
+            "tag": "🇳🇱NL | vless | @VPNCUSTOMIZE | 11",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 2095,
@@ -9418,6 +9420,27 @@
             "transport": {
                 "type": "ws",
                 "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6",
+                "headers": {
+                    "Host": "LIGHTNING6-joinbede.filj.top"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 17",
+            "type": "vless",
+            "server": "LIGHTNING6-joinbede.filj.top",
+            "server_port": 8880,
+            "uuid": "dadc9927-28d1-4506-bf13-c1392bddd6db",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
                 "headers": {
                     "Host": "LIGHTNING6-joinbede.filj.top"
                 }
