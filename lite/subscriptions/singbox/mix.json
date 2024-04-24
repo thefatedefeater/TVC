@@ -158,12 +158,12 @@
                 "🇬🇧GB | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 19",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 19",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🏳️XX | vless | @Capoit | 5",
+                "🇸🇪SE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇸🇪SE | vless | @flyv2ray | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -174,7 +174,7 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 30",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -237,12 +237,12 @@
                 "🇬🇧GB | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 19",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 19",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🏳️XX | vless | @Capoit | 5",
+                "🇸🇪SE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇸🇪SE | vless | @flyv2ray | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -253,7 +253,7 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇨🇦CA | vless | @SvnTeam | 30",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -1463,9 +1463,9 @@
         {
             "tag": "🇬🇧GB | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "51.195.140.87",
-            "server_port": 35995,
-            "uuid": "28f08493-de6d-486e-84f5-5abe092ff78b",
+            "server": "154.62.185.2",
+            "server_port": 18134,
+            "uuid": "0da00a40-7dc6-413f-f8dd-6ed42dd50c06",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1540,11 +1540,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 19",
+            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 19",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "SVNTEAM",
+            "server": "188.114.98.224",
+            "server_port": 2095,
+            "uuid": "VPNCUSTOMiZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1554,9 +1554,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.59"
+                    "Host": "188.114.98.224"
                 }
             }
         },
@@ -1686,17 +1686,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @Capoit | 5",
+            "tag": "🇸🇪SE | vless | @Capoit | 3",
             "type": "vless",
-            "server": "[2a01:4f8:1c1b:7e1e::1]",
-            "server_port": 23774,
-            "uuid": "ee18c2ba-8eeb-406e-b670-39d02262b3a3",
+            "server": "V2rayGodVip--allh1.V2rayGod.Site",
+            "server_port": 80,
+            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2rayGodVip=Telegram\/",
+                "headers": {
+                    "Host": "V2rayGodVip--allh1.V2rayGod.Site"
+                }
             }
         },
         {
@@ -1965,7 +1972,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
