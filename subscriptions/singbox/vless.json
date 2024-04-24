@@ -492,11 +492,13 @@
                 "🇩🇪DE | vless | @VmessProtocol | 10",
                 "🇺🇸US | vless | @VmessProtocol | 14",
                 "🇺🇸US | vless | @VmessProtocol | 15",
-                "🇺🇸US | vless | @DailyV2RY | 150",
-                "🇺🇸US | vless | @DailyV2RY | 151",
-                "🇸🇪SE | vless | @DailyV2RY | 152",
-                "🇸🇪SE | vless | @DailyV2RY | 154",
-                "🇺🇸US | vless | @DailyV2RY | 155",
+                "🇺🇸US | vless | @DailyV2RY | 146",
+                "🇺🇸US | vless | @DailyV2RY | 148",
+                "🇸🇪SE | vless | @DailyV2RY | 151",
+                "🇸🇪SE | vless | @DailyV2RY | 153",
+                "🇺🇸US | vless | @DailyV2RY | 154",
+                "🇺🇸US | vless | @DailyV2RY | 159",
+                "🇺🇸US | vless | @DailyV2RY | 160",
                 "🇺🇸US | vless | @sinabigo | 1",
                 "🇨🇷CR | vless | @lrnbymaa | 7",
                 "🏳️XX | vless | @proxystore11 | 0",
@@ -534,6 +536,8 @@
                 "🇸🇪SE | vless | @Capoit | 1",
                 "🇺🇸US | vless | @Capoit | 2",
                 "🏳️XX | vless | @Capoit | 3",
+                "🇺🇸US | vless | @Capoit | 5",
+                "🇸🇪SE | vless | @Capoit | 6",
                 "🇺🇸US | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @FreakConfig | 2",
                 "🇺🇸US | vless | @FreakConfig | 4",
@@ -1018,11 +1022,13 @@
                 "🇩🇪DE | vless | @VmessProtocol | 10",
                 "🇺🇸US | vless | @VmessProtocol | 14",
                 "🇺🇸US | vless | @VmessProtocol | 15",
-                "🇺🇸US | vless | @DailyV2RY | 150",
-                "🇺🇸US | vless | @DailyV2RY | 151",
-                "🇸🇪SE | vless | @DailyV2RY | 152",
-                "🇸🇪SE | vless | @DailyV2RY | 154",
-                "🇺🇸US | vless | @DailyV2RY | 155",
+                "🇺🇸US | vless | @DailyV2RY | 146",
+                "🇺🇸US | vless | @DailyV2RY | 148",
+                "🇸🇪SE | vless | @DailyV2RY | 151",
+                "🇸🇪SE | vless | @DailyV2RY | 153",
+                "🇺🇸US | vless | @DailyV2RY | 154",
+                "🇺🇸US | vless | @DailyV2RY | 159",
+                "🇺🇸US | vless | @DailyV2RY | 160",
                 "🇺🇸US | vless | @sinabigo | 1",
                 "🇨🇷CR | vless | @lrnbymaa | 7",
                 "🏳️XX | vless | @proxystore11 | 0",
@@ -1060,6 +1066,8 @@
                 "🇸🇪SE | vless | @Capoit | 1",
                 "🇺🇸US | vless | @Capoit | 2",
                 "🏳️XX | vless | @Capoit | 3",
+                "🇺🇸US | vless | @Capoit | 5",
+                "🇸🇪SE | vless | @Capoit | 6",
                 "🇺🇸US | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @FreakConfig | 2",
                 "🇺🇸US | vless | @FreakConfig | 4",
@@ -10734,7 +10742,112 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 150",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 146",
+            "type": "vless",
+            "server": "162.159.153.2",
+            "server_port": 2095,
+            "uuid": "85e83afb-187f-4015-9e55-2cc4f093ee51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "headers": {
+                    "Host": "162.159.153.2"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @DailyV2RY | 148",
+            "type": "vless",
+            "server": "162.159.152.2",
+            "server_port": 2095,
+            "uuid": "85e83afb-187f-4015-9e55-2cc4f093ee51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "headers": {
+                    "Host": "162.159.152.2"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 151",
+            "type": "vless",
+            "server": "wt.xxxxx.tw.",
+            "server_port": 80,
+            "uuid": "cdb446bb-6908-4bc4-8bc2-e3e9f2a1af34",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "wt.xxxxx.tw."
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 153",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "bd2642e2-2cc5-4392-99fb-6318644d3e9b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @DailyV2RY | 154",
+            "type": "vless",
+            "server": "chat.openai.com",
+            "server_port": 8080,
+            "uuid": "74066387-e74c-4510-bbdf-6eb2bb206138",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/melov2ray",
+                "headers": {
+                    "Host": "chat.openai.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @DailyV2RY | 159",
             "type": "vless",
             "server": "104.21.69.44",
             "server_port": 8080,
@@ -10755,7 +10868,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 151",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 160",
             "type": "vless",
             "server": "visa.com",
             "server_port": 443,
@@ -10783,69 +10896,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 152",
-            "type": "vless",
-            "server": "wt.xxxxx.tw.",
-            "server_port": 80,
-            "uuid": "cdb446bb-6908-4bc4-8bc2-e3e9f2a1af34",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "wt.xxxxx.tw."
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 154",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "bd2642e2-2cc5-4392-99fb-6318644d3e9b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.59"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 155",
-            "type": "vless",
-            "server": "chat.openai.com",
-            "server_port": 8080,
-            "uuid": "74066387-e74c-4510-bbdf-6eb2bb206138",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/melov2ray",
-                "headers": {
-                    "Host": "chat.openai.com"
-                }
             }
         },
         {
@@ -11842,6 +11892,48 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @Capoit | 5",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "a8657fda-5c17-4dd9-dc18-8d3f4f299d28",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/daily_configs",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @Capoit | 6",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 8880,
+            "uuid": "7ebbd767-f038-40e1-ec0c-c168b475faf4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/daily_configs",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
             }
         },
         {
