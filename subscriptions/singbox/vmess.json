@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇩🇪DE | vmess | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | vmess | @V2rayCollectorDonate | 18",
-                "🇺🇸US | vmess | @V2rayNGn | 17",
+                "🇺🇸US | vmess | @V2rayNGn | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 5",
                 "🇨🇳CN | vmess | @mftizi | 6",
@@ -143,9 +143,10 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 2",
                 "🇺🇸US | vmess | @ShadowProxy66 | 3",
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
+                "🇮🇷IR | vmess | @proxyymeliii | 5",
                 "🇮🇷IR | vmess | @proxyymeliii | 7",
                 "🇺🇸US | vmess | @proxyymeliii | 12",
-                "🇺🇸US | vmess | @vless_vmess | 8",
+                "🇺🇸US | vmess | @vless_vmess | 9",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -188,7 +189,7 @@
             "outbounds": [
                 "🇩🇪DE | vmess | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | vmess | @V2rayCollectorDonate | 18",
-                "🇺🇸US | vmess | @V2rayNGn | 17",
+                "🇺🇸US | vmess | @V2rayNGn | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 5",
                 "🇨🇳CN | vmess | @mftizi | 6",
@@ -223,9 +224,10 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 2",
                 "🇺🇸US | vmess | @ShadowProxy66 | 3",
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
+                "🇮🇷IR | vmess | @proxyymeliii | 5",
                 "🇮🇷IR | vmess | @proxyymeliii | 7",
                 "🇺🇸US | vmess | @proxyymeliii | 12",
-                "🇺🇸US | vmess | @vless_vmess | 8",
+                "🇺🇸US | vmess | @vless_vmess | 9",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -326,7 +328,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @V2rayNGn | 17",
+            "tag": "🇺🇸US | vmess | @V2rayNGn | 19",
             "type": "vmess",
             "server": "172.67.204.84",
             "server_port": 8880,
@@ -1212,6 +1214,30 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vmess | @proxyymeliii | 5",
+            "type": "vmess",
+            "server": "megasvt1.iranvipnet.com",
+            "server_port": 10429,
+            "uuid": "362a4ade-15ff-4540-a132-ab10294b76bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vmess | @proxyymeliii | 7",
             "type": "vmess",
             "server": "svt68.net2vip.com",
@@ -1270,7 +1296,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @vless_vmess | 8",
+            "tag": "🇺🇸US | vmess | @vless_vmess | 9",
             "type": "vmess",
             "server": "172.67.188.156",
             "server_port": 8880,
