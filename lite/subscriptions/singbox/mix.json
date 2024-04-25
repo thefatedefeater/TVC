@@ -130,7 +130,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 19",
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇩🇪DE | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇿CZ | vmess | @oneclickvpnkeys | 10",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 20",
                 "🇸🇪SE | vless | @MsV2ray | 16",
-                "🇨🇦CA | vless | @v2ray1_ng | 16",
+                "🇸🇪SE | vless | @v2ray1_ng | 17",
                 "🇨🇦CA | vless | @vless_vmess | 16",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 156",
@@ -175,7 +175,7 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇸🇪SE | vless | @SvnTeam | 29",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -210,7 +210,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 19",
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇩🇪DE | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇿CZ | vmess | @oneclickvpnkeys | 10",
@@ -228,7 +228,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 20",
                 "🇸🇪SE | vless | @MsV2ray | 16",
-                "🇨🇦CA | vless | @v2ray1_ng | 16",
+                "🇸🇪SE | vless | @v2ray1_ng | 17",
                 "🇨🇦CA | vless | @vless_vmess | 16",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 156",
@@ -255,7 +255,7 @@
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇸🇪SE | vless | @SvnTeam | 29",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -398,7 +398,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "13.37.182.132",
+            "server": "13.38.239.59",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -881,7 +881,7 @@
         {
             "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "35.181.158.27",
+            "server": "13.39.230.123",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -901,9 +901,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.124.94.89",
+            "server": "13.48.233.30",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1331,11 +1331,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 16",
+            "tag": "🇸🇪SE | vless | @v2ray1_ng | 17",
             "type": "vless",
-            "server": "104.18.158.102",
-            "server_port": 443,
-            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-oud",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1343,21 +1343,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "sALAm-wOrD.pagEs.deV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-FreeVirGoolNet\/",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "sALAm-wOrD.pagEs.deV"
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1554,9 +1544,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "129.146.247.135",
-            "server_port": 42598,
-            "uuid": "1773b226-0bdb-43c5-87d8-270d26211dda",
+            "server": "144.202.59.26",
+            "server_port": 57061,
+            "uuid": "e90a1709-fd94-44d3-f809-8849837cc2d3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2059,7 +2049,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
