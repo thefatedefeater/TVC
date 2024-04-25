@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 6",
-                "🇸🇪SE | vless | @lightning6 | 13",
+                "🇸🇪SE | vless | @lightning6 | 15",
                 "🇨🇦CA | vless | @V2rayNGmat | 7",
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -190,7 +190,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 6",
-                "🇸🇪SE | vless | @lightning6 | 13",
+                "🇸🇪SE | vless | @lightning6 | 15",
                 "🇨🇦CA | vless | @V2rayNGmat | 7",
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -609,7 +609,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lightning6 | 13",
+            "tag": "🇸🇪SE | vless | @lightning6 | 15",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
@@ -1173,9 +1173,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2ray_swhil | 14",
             "type": "vless",
-            "server": "172.66.46.249",
-            "server_port": 443,
-            "uuid": "8853d6d9-57f5-439d-a903-55615932730b",
+            "server": "104.18.158.102",
+            "server_port": 80,
+            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1183,21 +1183,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ac67e643.servernett-1ov.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@my_proxii",
                 "headers": {
-                    "Host": "ac67e643.servernett-1ov.pages.dev"
+                    "Host": "104.18.158.102"
                 }
             }
         },
@@ -1271,8 +1261,8 @@
             "tag": "🇸🇪SE | vless | @V2RayTz | 17",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 8880,
-            "uuid": "2583bb10-1665-477c-ac6a-7d77f8c97dc5",
+            "server_port": 80,
+            "uuid": "77929deb-96a2-48b7-b93e-0da208ec82a8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1282,7 +1272,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6, @LIGHTNING6, @LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6,@LIGHTNING6",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
                 "headers": {
                     "Host": "185.146.173.59"
                 }
