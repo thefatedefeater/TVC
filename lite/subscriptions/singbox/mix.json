@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 20",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
@@ -170,7 +170,7 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | ss | @kingofilter | 6",
                 "🇺🇸US | vless | @GozargahVPN | 15",
-                "🇨🇦CA | vless | @freeconfigv2 | 2",
+                "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇸🇪SE | vless | @SvnTeam | 29",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 2",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 20",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 19",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
@@ -248,7 +248,7 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | ss | @kingofilter | 6",
                 "🇺🇸US | vless | @GozargahVPN | 15",
-                "🇨🇦CA | vless | @freeconfigv2 | 2",
+                "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇸🇪SE | vless | @SvnTeam | 29",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 2",
@@ -394,7 +394,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "51.20.244.226",
+            "server": "13.51.117.6",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -843,7 +843,7 @@
         {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "13.50.255.142",
+            "server": "16.170.180.10",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1511,11 +1511,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "172.67.57.252",
-            "server_port": 8880,
-            "uuid": "f0c4cd42-1615-4d6d-bbd3-7b4b66e48ce1",
+            "server": "141.11.90.115",
+            "server_port": 48890,
+            "uuid": "54de5bc2-fd5d-4aa1-adc8-6beb11e402b5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1525,13 +1525,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/microsoft",
-                "headers": {
-                    "Host": "172.67.57.252"
-                }
             }
         },
         {
@@ -1915,11 +1908,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @freeconfigv2 | 2",
+            "tag": "🇸🇪SE | vless | @freeconfigv2 | 1",
             "type": "vless",
-            "server": "104.25.255.254",
-            "server_port": 443,
-            "uuid": "6e34f2c5-6c71-4010-c292-10d05ef4a9a2",
+            "server": "185.139.228.13",
+            "server_port": 2083,
+            "uuid": "282bed58-1451-419f-a5b3-ed6f65ab8850",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1929,19 +1922,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "current.iraniancp.click",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "current.iraniancp.click"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "x-Zv8k40O3rJ8sjJknVpimNI4dhEk3WRCyKeRb5NeEU",
+                    "short_id": "b756e372b9623b22"
                 }
             }
         },
