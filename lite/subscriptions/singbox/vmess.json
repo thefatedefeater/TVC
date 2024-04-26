@@ -252,9 +252,9 @@
         {
             "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "141.11.90.115",
-            "server_port": 48890,
-            "uuid": "54de5bc2-fd5d-4aa1-adc8-6beb11e402b5",
+            "server": "152.32.190.239",
+            "server_port": 4431,
+            "uuid": "5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -264,6 +264,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cfhk.393930.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cfhk.393930.xyz"
+                }
             }
         },
         {
