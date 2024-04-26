@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 2",
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇨🇦CA | vless | @v2_team | 7",
-                "🏳️XX | vless | @NIM_VPN_ir | 16",
+                "🇨🇦CA | vless | @NIM_VPN_ir | 14",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
-                "🇮🇷IR | vless | @proxyymeliii | 18",
+                "🇬🇧GB | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 14",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -177,7 +177,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 2",
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇨🇦CA | vless | @v2_team | 7",
-                "🏳️XX | vless | @NIM_VPN_ir | 16",
+                "🇨🇦CA | vless | @NIM_VPN_ir | 14",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
-                "🇮🇷IR | vless | @proxyymeliii | 18",
+                "🇬🇧GB | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 14",
                 "🇸🇪SE | vless | @V2RayTz | 19",
@@ -341,17 +341,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @NIM_VPN_ir | 16",
+            "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 14",
             "type": "vless",
-            "server": "login.kellekcollection.com",
-            "server_port": 8080,
-            "uuid": "0e39b5a8-1770-4d31-a26c-8aebb91d0b8d",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "7d261f78-eb0c-4489-a50a-3b719ea7374f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "discord.gg"
+                }
             }
         },
         {
@@ -1095,11 +1102,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 18",
+            "tag": "🇬🇧GB | vless | @proxyymeliii | 17",
             "type": "vless",
-            "server": "217.60.252.208",
-            "server_port": 8443,
-            "uuid": "2033386f-64c0-48ad-bfea-63feabf36523",
+            "server": "46.226.162.251",
+            "server_port": 34172,
+            "uuid": "9f3ee763-b45e-4e71-8852-0be321a4fe19",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
