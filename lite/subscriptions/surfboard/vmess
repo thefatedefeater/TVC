@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @DeamNet_Proxy | 18 = vmess, zula.ir, 2096, username = 6a91ce2e-c570-4fa4-a497-c6386fb48a15, ws = true, tls = 1, vmess-aead = false, ws-path = /vmess, ws-headers = Host:"nl1-vmess.sshmax.xyz", skip-cert-verify = true, tfo = false
 🇩🇪DE | vmess | @oneclickvpnkeys | 10 = vmess, 92.223.124.24, 80, username = 0688b7c7-72e9-442e-95a0-d3b950028c39, ws = true, tls = , vmess-aead = true, ws-path = /@forwardv2ray, ws-headers = Host:"mehdi600.3utilities.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @DeamNet_Proxy | 18,🇩🇪DE | vmess | @oneclickvpnkeys | 10
-URL-TEST = url-test,🇨🇦CA | vmess | @DeamNet_Proxy | 18,🇩🇪DE | vmess | @oneclickvpnkeys | 10
-FALLBACK = fallback,🇨🇦CA | vmess | @DeamNet_Proxy | 18,🇩🇪DE | vmess | @oneclickvpnkeys | 10
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | vmess | @oneclickvpnkeys | 10
+URL-TEST = url-test,🇩🇪DE | vmess | @oneclickvpnkeys | 10
+FALLBACK = fallback,🇩🇪DE | vmess | @oneclickvpnkeys | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
