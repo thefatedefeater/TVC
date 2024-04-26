@@ -131,10 +131,11 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 22",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 182",
+                "🇨🇦CA | vless | @prrofile_purple | 192",
                 "🇨🇦CA | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 28",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 17",
                 "🇳🇱NL | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
@@ -201,10 +202,11 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 22",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 182",
+                "🇨🇦CA | vless | @prrofile_purple | 192",
                 "🇨🇦CA | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 28",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 17",
                 "🇳🇱NL | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
@@ -898,11 +900,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 182",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 192",
             "type": "vless",
-            "server": "172.64.229.28",
-            "server_port": 8443,
-            "uuid": "86cb9a9b-dc2e-45d6-b35d-7ce1daa32a15",
+            "server": "172.66.47.87",
+            "server_port": 443,
+            "uuid": "896ea6fd-0754-430d-b5b3-4b4ad487617d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -912,7 +914,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dns68.shift.cloudns.org",
+                "server_name": "4d9061a7.joinmahdiserver-7tw.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -922,9 +924,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_Alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "dns68.shift.cloudns.org"
+                    "Host": "4d9061a7.joinmahdiserver-7tw.pages.dev"
                 }
             }
         },
@@ -998,6 +1000,37 @@
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
                 "headers": {
                     "Host": "104.20.51.112"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 17",
+            "type": "vless",
+            "server": "172.64.229.28",
+            "server_port": 8443,
+            "uuid": "86cb9a9b-dc2e-45d6-b35d-7ce1daa32a15",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dns68.shift.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@V2ray_Alpha\/",
+                "headers": {
+                    "Host": "dns68.shift.cloudns.org"
                 }
             }
         },
