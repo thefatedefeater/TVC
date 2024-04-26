@@ -126,7 +126,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 6",
+                "🇨🇦CA | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 22",
@@ -134,8 +134,8 @@
                 "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇮🇹IT | ss | @DeamNet_Proxy | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 192",
                 "🇨🇦CA | vless | @customv2ray | 8",
@@ -155,12 +155,12 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 18",
                 "🇳🇱NL | vless | @DailyV2RY | 153",
-                "🇨🇦CA | vless | @sinabigo | 2",
+                "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 17",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇯🇵JP | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
@@ -210,7 +210,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 6",
+                "🇨🇦CA | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 22",
@@ -218,8 +218,8 @@
                 "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇮🇹IT | ss | @DeamNet_Proxy | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 192",
                 "🇨🇦CA | vless | @customv2ray | 8",
@@ -239,12 +239,12 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 18",
                 "🇳🇱NL | vless | @DailyV2RY | 153",
-                "🇨🇦CA | vless | @sinabigo | 2",
+                "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 17",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇯🇵JP | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
@@ -801,7 +801,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 6",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 5",
             "type": "vless",
             "server": "pardazesh12.pages.dev",
             "server_port": 443,
@@ -973,17 +973,41 @@
             }
         },
         {
-            "tag": "🇮🇹IT | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "176.105.252.178",
-            "server_port": 998,
-            "method": "chacha20-ietf-poly1305",
-            "password": "cg0KkMjbGdJEh",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "6a91ce2e-c570-4fa4-a497-c6386fb48a15",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nl1-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "nl1-vmess.sshmax.xyz"
+                }
+            }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
             "server": "92.223.124.24",
             "server_port": 80,
@@ -1516,7 +1540,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 2",
+            "tag": "🇨🇦CA | vless | @sinabigo | 3",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1643,11 +1667,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "172.67.204.84",
-            "server_port": 2096,
-            "uuid": "6a91ce2e-c570-4fa4-a497-c6386fb48a15",
+            "server": "183.181.36.194",
+            "server_port": 41597,
+            "uuid": "4a6eaa2d-5603-4c05-d967-fb6f42250a5a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1658,21 +1682,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl1-vmess.sshmax.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/",
                 "headers": {
-                    "Host": "nl1-vmess.sshmax.xyz"
+                    "Host": "183.181.36.194"
                 }
             }
         },
