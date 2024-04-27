@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 2",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 14",
@@ -136,7 +135,7 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 182",
+                "🇸🇪SE | vless | @prrofile_purple | 192",
                 "🇨🇦CA | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 28",
@@ -158,7 +157,7 @@
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 15",
+                "🇰🇷KR | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
@@ -188,7 +187,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 2",
                 "🇨🇦CA | vless | @Parsashonam | 16",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 14",
@@ -218,7 +216,7 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 182",
+                "🇸🇪SE | vless | @prrofile_purple | 192",
                 "🇨🇦CA | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 28",
@@ -240,7 +238,7 @@
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 15",
+                "🇰🇷KR | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
@@ -284,37 +282,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 2",
-            "type": "vless",
-            "server": "104.21.37.100",
-            "server_port": 2083,
-            "uuid": "321aa4cd-cc66-4eb4-a040-fc0968ae00b4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "alienusacl.edlaghiye.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xyz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 16",
@@ -1003,11 +970,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 182",
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 192",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "b0e6a2c9-e667-4e42-9cb3-77d7db3e736b",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "ba4e640f-8411-4716-9cc5-431b03f6949c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1015,21 +982,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "bypass-filter.vikzrcqt.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@bypass_filter\/",
+                "path": "\/@HAJIMAMADVPN",
                 "headers": {
-                    "Host": "bypass-filter.vikzrcqt.workers.dev"
+                    "Host": "185.146.173.59"
                 }
             }
         },
@@ -1584,11 +1541,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @Hope_Net | 15",
+            "tag": "🇰🇷KR | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "146.190.86.66",
-            "server_port": 35010,
-            "uuid": "9fbd6d59-dee1-4f1a-be58-53f0ed32356a",
+            "server": "64.110.82.226",
+            "server_port": 58186,
+            "uuid": "3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1603,7 +1560,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "146.190.86.66"
+                    "Host": ""
                 }
             }
         },
