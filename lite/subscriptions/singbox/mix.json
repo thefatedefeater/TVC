@@ -155,9 +155,9 @@
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 8",
-                "🇺🇸US | vless | @Outlinev2rayNG | 19",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 19",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -174,7 +174,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 29",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -234,9 +234,9 @@
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @polproxy | 8",
-                "🇺🇸US | vless | @Outlinev2rayNG | 19",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 19",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -253,7 +253,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 29",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
@@ -1468,11 +1468,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "207.148.8.155",
-            "server_port": 37814,
-            "uuid": "5998e8aa-67ad-4167-ecf2-7e767926e8b0",
+            "server": "172.67.164.207",
+            "server_port": 8443,
+            "uuid": "fc0a3f44-adf4-4fd2-8023-46d4aa528892",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1482,6 +1482,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.baraye-azadi-info.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/download",
+                "headers": {
+                    "Host": "cdn.baraye-azadi-info.com"
+                }
             }
         },
         {
@@ -1516,7 +1533,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 19",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 19",
             "type": "vless",
             "server": "172.66.44.78",
             "server_port": 443,
@@ -1956,7 +1973,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
