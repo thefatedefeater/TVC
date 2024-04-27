@@ -589,9 +589,8 @@
                 "🇨🇷CR | vless | @GozargahVPN | 11",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇨🇷CR | vless | @GozargahVPN | 14",
-                "🇩🇪DE | vless | @freeconfigv2 | 0",
-                "🇸🇪SE | vless | @SvnTeam | 17",
-                "🇸🇪SE | vless | @SvnTeam | 18",
+                "🇸🇪SE | vless | @SvnTeam | 19",
+                "🇸🇪SE | vless | @SvnTeam | 20",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 0",
                 "🇺🇸US | vless | @V2FETCH | 1",
@@ -1107,9 +1106,8 @@
                 "🇨🇷CR | vless | @GozargahVPN | 11",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇨🇷CR | vless | @GozargahVPN | 14",
-                "🇩🇪DE | vless | @freeconfigv2 | 0",
-                "🇸🇪SE | vless | @SvnTeam | 17",
-                "🇸🇪SE | vless | @SvnTeam | 18",
+                "🇸🇪SE | vless | @SvnTeam | 19",
+                "🇸🇪SE | vless | @SvnTeam | 20",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @V2FETCH | 0",
                 "🇺🇸US | vless | @V2FETCH | 1",
@@ -13469,38 +13467,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @freeconfigv2 | 0",
-            "type": "vless",
-            "server": "141.95.110.169",
-            "server_port": 443,
-            "uuid": "1391e412-0c95-4356-bd82-0136b9509496",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "141.95.110.169.sslip.io",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "sePIcU3ww5havU8ZOApQ",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @SvnTeam | 17",
+            "tag": "🇸🇪SE | vless | @SvnTeam | 19",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
@@ -13521,7 +13488,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @SvnTeam | 18",
+            "tag": "🇸🇪SE | vless | @SvnTeam | 20",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
