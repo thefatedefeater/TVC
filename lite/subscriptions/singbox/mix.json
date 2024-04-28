@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 14",
-                "🇬🇧GB | vless | @VlessConfig | 18",
+                "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 55",
@@ -132,10 +132,9 @@
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇫🇷FR | vless | @V2rayNGn | 22",
                 "🇬🇧GB | trojan | @PrivateVPNs | 18",
-                "🇫🇷FR | trojan | @DirectVPN | 18",
+                "🇬🇧GB | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 15",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇳🇱NL | vmess | @prrofile_purple | 182",
@@ -194,7 +193,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 14",
-                "🇬🇧GB | vless | @VlessConfig | 18",
+                "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 55",
@@ -216,10 +215,9 @@
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇫🇷FR | vless | @V2rayNGn | 22",
                 "🇬🇧GB | trojan | @PrivateVPNs | 18",
-                "🇫🇷FR | trojan | @DirectVPN | 18",
+                "🇬🇧GB | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 15",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇳🇱NL | vmess | @prrofile_purple | 182",
@@ -384,9 +382,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 18",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "3.8.79.142",
+            "server": "52.16.106.101",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -910,7 +908,7 @@
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "18.171.100.19",
+            "server": "13.41.61.19",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -930,9 +928,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 18",
+            "tag": "🇬🇧GB | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "35.181.199.188",
+            "server": "13.43.97.120",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -989,40 +987,6 @@
                 "path": "\/ceb251d4",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 15",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "36ae64b0-2fe1-4915-a50e-9108fcf6d84c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "be3-vmess.sshmax.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "be3-vmess.sshmax.xyz"
                 }
             }
         },
