@@ -131,6 +131,7 @@
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇫🇷FR | vless | @V2rayNGn | 22",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
+                "🇸🇪SE | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 27",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
@@ -144,8 +145,8 @@
                 "🇸🇪SE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇳🇱NL | vless | @vless_vmess | 12",
-                "🇸🇪SE | vless | @V2RayTz | 17",
-                "🇩🇪DE | vless | @VmessProtocol | 17",
+                "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
@@ -201,6 +202,7 @@
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇫🇷FR | vless | @V2rayNGn | 22",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
+                "🇸🇪SE | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 27",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
@@ -214,8 +216,8 @@
                 "🇸🇪SE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇳🇱NL | vless | @vless_vmess | 12",
-                "🇸🇪SE | vless | @V2RayTz | 17",
-                "🇩🇪DE | vless | @VmessProtocol | 17",
+                "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
@@ -358,7 +360,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "52.16.106.101",
+            "server": "34.253.36.251",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -901,6 +903,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 181",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-stu",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-ipV2Ray",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @UnlimitedDev | 17",
             "type": "vless",
             "server": "bia-to.unlimiteddev.motorcycles.",
@@ -1225,7 +1248,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 17",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
             "server": "185.146.173.32",
             "server_port": 2095,
@@ -1246,12 +1269,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 17",
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 17",
             "type": "vless",
-            "server": "23.88.38.184",
-            "server_port": 2096,
-            "uuid": "fe9195e9-04ac-4310-dccd-cf2d2b779715",
-            "flow": "xtls-rprx-vision",
+            "server": "www.speedtest.net.cdn.cloudflare.net",
+            "server_port": 443,
+            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1260,17 +1283,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "discord.com",
+                "server_name": "sALAm-wOrD.pagEs.deV.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ajP1Rru1bbPArjvPZ5kEpbuoWyhHesYcooXEp9cSviQ",
-                    "short_id": "7b4d7885"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/",
+                "headers": {
+                    "Host": "sALAm-wOrD.pagEs.deV."
                 }
             }
         },
