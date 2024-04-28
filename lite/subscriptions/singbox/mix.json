@@ -157,7 +157,7 @@
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
@@ -181,7 +181,7 @@
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
-                "🇵🇱PL | vless | @raze_vpn | 6"
+                "🇵🇱PL | vless | @raze_vpn | 7"
             ]
         },
         {
@@ -239,7 +239,7 @@
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
@@ -263,7 +263,7 @@
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 20",
-                "🇵🇱PL | vless | @raze_vpn | 6"
+                "🇵🇱PL | vless | @raze_vpn | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1547,11 +1547,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "140.82.2.34",
-            "server_port": 23670,
-            "uuid": "423f6443-f1e9-4e84-d895-a14badc59e88",
+            "server": "104.16.60.8",
+            "server_port": 2083,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1561,6 +1561,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linde06.indiavideo.sbs\/linkws",
+                "headers": {
+                    "Host": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev"
+                }
             }
         },
         {
@@ -2164,7 +2181,7 @@
             }
         },
         {
-            "tag": "🇵🇱PL | vless | @raze_vpn | 6",
+            "tag": "🇵🇱PL | vless | @raze_vpn | 7",
             "type": "vless",
             "server": "70.34.247.148",
             "server_port": 19863,
