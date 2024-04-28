@@ -151,13 +151,13 @@
                 "🇸🇪SE | vless | @MsV2ray | 14",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 16",
-                "🇩🇪DE | vless | @DailyV2RY | 147",
+                "🇨🇦CA | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 18",
@@ -176,7 +176,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 31",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -233,13 +233,13 @@
                 "🇸🇪SE | vless | @MsV2ray | 14",
                 "🇳🇱NL | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 16",
-                "🇩🇪DE | vless | @DailyV2RY | 147",
+                "🇨🇦CA | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 18",
@@ -258,7 +258,7 @@
                 "🇺🇸US | vless | @GozargahVPN | 16",
                 "🇸🇪SE | vless | @SvnTeam | 31",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -1409,17 +1409,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 147",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 139",
             "type": "vless",
-            "server": "bo2.bia2bax.shop",
-            "server_port": 51202,
-            "uuid": "ff5fbc2f-d272-4799-bcc8-c02e3b0e5589",
+            "server": "104.17.169.114",
+            "server_port": 80,
+            "uuid": "07464341-d0d4-4561-9740-3328bca9fc57",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "104.17.169.114"
+                }
             }
         },
         {
@@ -1550,11 +1557,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "109.107.181.130",
-            "server_port": 30127,
-            "uuid": "891494ae-5bcd-44bc-dbf4-c7132a909930",
+            "server": "129.146.46.181",
+            "server_port": 52408,
+            "uuid": "a797ff7b-8161-40a6-d577-1b2c213b3885",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1564,13 +1571,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -2043,7 +2043,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
