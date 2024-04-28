@@ -121,7 +121,7 @@
                 "🇨🇳CN | vmess | @mftizi | 17",
                 "🇭🇰HK | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
@@ -133,12 +133,9 @@
                 "🇮🇷IR | vmess | @ShadowProxy66 | 0",
                 "🇺🇸US | vmess | @ShadowProxy66 | 1",
                 "🇺🇸US | vmess | @ShadowProxy66 | 2",
-                "🇺🇸US | vmess | @ShadowProxy66 | 6",
-                "🇺🇸US | vmess | @ShadowProxy66 | 7",
-                "🇺🇸US | vmess | @ShadowProxy66 | 11",
-                "🇮🇷IR | vmess | @proxyymeliii | 13",
-                "🇮🇷IR | vmess | @proxyymeliii | 15",
-                "🇺🇸US | vmess | @proxyymeliii | 19",
+                "🇮🇷IR | vmess | @proxyymeliii | 14",
+                "🇮🇷IR | vmess | @proxyymeliii | 16",
+                "🇺🇸US | vmess | @proxyymeliii | 20",
                 "🇺🇸US | vmess | @vless_vmess | 3",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -193,7 +190,7 @@
                 "🇨🇳CN | vmess | @mftizi | 17",
                 "🇭🇰HK | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
@@ -205,12 +202,9 @@
                 "🇮🇷IR | vmess | @ShadowProxy66 | 0",
                 "🇺🇸US | vmess | @ShadowProxy66 | 1",
                 "🇺🇸US | vmess | @ShadowProxy66 | 2",
-                "🇺🇸US | vmess | @ShadowProxy66 | 6",
-                "🇺🇸US | vmess | @ShadowProxy66 | 7",
-                "🇺🇸US | vmess | @ShadowProxy66 | 11",
-                "🇮🇷IR | vmess | @proxyymeliii | 13",
-                "🇮🇷IR | vmess | @proxyymeliii | 15",
-                "🇺🇸US | vmess | @proxyymeliii | 19",
+                "🇮🇷IR | vmess | @proxyymeliii | 14",
+                "🇮🇷IR | vmess | @proxyymeliii | 16",
+                "🇺🇸US | vmess | @proxyymeliii | 20",
                 "🇺🇸US | vmess | @vless_vmess | 3",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -593,11 +587,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 16",
             "type": "vmess",
-            "server": "205.234.232.189",
-            "server_port": 50129,
-            "uuid": "d3d91368-c7bc-4f2f-890b-09710fb9f0ec",
+            "server": "172.67.170.13",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -607,6 +601,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
@@ -896,109 +907,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 6",
-            "type": "vmess",
-            "server": "172.67.207.26",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 7",
-            "type": "vmess",
-            "server": "hms082.gwdef.sbs",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 11",
-            "type": "vmess",
-            "server": "npmjs.com",
-            "server_port": 443,
-            "uuid": "52701795-3c3b-46b4-b7cf-c5978b3a4cf2",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "csub6.CPiFORPERsiA.UK",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/hdfyc5.achaemenidempireofpersia.uk\/sNpuhb8v1rEIIa5hne1e",
-                "headers": {
-                    "Host": "csub6.CPiFORPERsiA.UK"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @proxyymeliii | 13",
+            "tag": "🇮🇷IR | vmess | @proxyymeliii | 14",
             "type": "vmess",
             "server": "megasvt1.iranvipnet.com",
             "server_port": 10429,
@@ -1022,7 +931,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @proxyymeliii | 15",
+            "tag": "🇮🇷IR | vmess | @proxyymeliii | 16",
             "type": "vmess",
             "server": "svt68.net2vip.com",
             "server_port": 13575,
@@ -1046,7 +955,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @proxyymeliii | 19",
+            "tag": "🇺🇸US | vmess | @proxyymeliii | 20",
             "type": "vmess",
             "server": "www.gov.se",
             "server_port": 8443,
