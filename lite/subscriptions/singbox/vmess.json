@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 5",
                 "🇮🇷IR | vmess | @proxyymeliii | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -123,7 +122,6 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🏳️XX | vmess | @oneclickvpnkeys | 5",
                 "🇮🇷IR | vmess | @proxyymeliii | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -189,30 +187,6 @@
                 "path": "\/db00",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "cargeek.ir",
-            "server_port": 80,
-            "uuid": "4d14b61b-2a71-4f49-acc4-f0293f911552",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "cargeek.ir"
                 }
             }
         },
