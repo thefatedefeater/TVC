@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 11",
                 "🇸🇪SE | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @V2pedia | 60",
@@ -143,6 +143,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @sinabigo | 1",
+                "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
@@ -176,7 +177,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 11",
                 "🇸🇪SE | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @V2pedia | 60",
@@ -209,6 +210,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @sinabigo | 1",
+                "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
@@ -348,7 +350,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 2095,
@@ -362,7 +364,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/VPNCUSTOMIZE?ed=1024",
                 "headers": {
                     "Host": "185.146.173.59"
                 }
@@ -1166,6 +1168,27 @@
                 "path": "\/Path\/Telegram@SiNABiGO\/",
                 "headers": {
                     "Host": "eb8c0c64.888766.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 17",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 2095,
+            "uuid": "-VPNCUSTOMIZE-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.59"
                 }
             }
         },

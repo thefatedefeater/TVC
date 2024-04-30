@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 11",
                 "🇸🇪SE | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @V2pedia | 60",
@@ -149,10 +149,11 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @sinabigo | 1",
+                "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @Hope_Net | 17",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
@@ -189,7 +190,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 11",
                 "🇸🇪SE | vless | @VlessConfig | 19",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @V2pedia | 60",
@@ -228,10 +229,11 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @sinabigo | 1",
+                "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @Hope_Net | 17",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 19",
@@ -374,7 +376,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 2095,
@@ -388,7 +390,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/VPNCUSTOMIZE?ed=1024",
                 "headers": {
                     "Host": "185.146.173.59"
                 }
@@ -1325,6 +1327,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 17",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 2095,
+            "uuid": "-VPNCUSTOMIZE-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "94.228.165.234",
@@ -1400,11 +1423,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "149.28.226.202",
-            "server_port": 37985,
-            "uuid": "a36d5f0e-f529-4c83-9279-f4c4ce557031",
+            "server": "45.76.18.197",
+            "server_port": 20703,
+            "uuid": "ae710bf3-229a-4f31-d990-971b831c8985",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
