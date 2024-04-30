@@ -11,10 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇩🇪DE | vmess | @oneclickvpnkeys | 5 = vmess, de1-vless.vpnhack.xyz, 80, username = 103e4ad8-472e-44c1-84da-ab4ef1ddc9d3, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"vkvd127.mycdn.me", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @Hope_Net | 16 = vmess, 147.45.79.216, 54133, username = 3dcaf53d-5c88-4d44-b866-3f3612bb229c, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK
-URL-TEST = url-test
-FALLBACK = fallback
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | vmess | @oneclickvpnkeys | 5,🇺🇸US | vmess | @Hope_Net | 16
+URL-TEST = url-test,🇩🇪DE | vmess | @oneclickvpnkeys | 5,🇺🇸US | vmess | @Hope_Net | 16
+FALLBACK = fallback,🇩🇪DE | vmess | @oneclickvpnkeys | 5,🇺🇸US | vmess | @Hope_Net | 16
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

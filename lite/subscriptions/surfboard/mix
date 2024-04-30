@@ -13,12 +13,14 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇩🇪DE | trojan | @PrivateVPNs | 19 = trojan, 3.76.236.86, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇩🇪DE | trojan | @DirectVPN | 19 = trojan, 18.184.51.220, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇩🇪DE | vmess | @oneclickvpnkeys | 5 = vmess, de1-vless.vpnhack.xyz, 80, username = 103e4ad8-472e-44c1-84da-ab4ef1ddc9d3, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"vkvd127.mycdn.me", skip-cert-verify = true, tfo = false
 🇬🇧GB | ss | @VmessProtocol | 17 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🇷🇺RU | ss | @OutlineVpnOfficial | 17 = ss, 45.139.24.63, 57456, encrypt-method = chacha20-ietf-poly1305, password = 3fbeb668f48414f6
+🇺🇸US | vmess | @Hope_Net | 16 = vmess, 147.45.79.216, 54133, username = 3dcaf53d-5c88-4d44-b866-3f3612bb229c, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 19,🇩🇪DE | trojan | @DirectVPN | 19,🇬🇧GB | ss | @VmessProtocol | 17,🇷🇺RU | ss | @OutlineVpnOfficial | 17
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 19,🇩🇪DE | trojan | @DirectVPN | 19,🇬🇧GB | ss | @VmessProtocol | 17,🇷🇺RU | ss | @OutlineVpnOfficial | 17
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 19,🇩🇪DE | trojan | @DirectVPN | 19,🇬🇧GB | ss | @VmessProtocol | 17,🇷🇺RU | ss | @OutlineVpnOfficial | 17
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 19,🇩🇪DE | trojan | @DirectVPN | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 5,🇬🇧GB | ss | @VmessProtocol | 17,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇺🇸US | vmess | @Hope_Net | 16
+URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 19,🇩🇪DE | trojan | @DirectVPN | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 5,🇬🇧GB | ss | @VmessProtocol | 17,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇺🇸US | vmess | @Hope_Net | 16
+FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 19,🇩🇪DE | trojan | @DirectVPN | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 5,🇬🇧GB | ss | @VmessProtocol | 17,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇺🇸US | vmess | @Hope_Net | 16
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
