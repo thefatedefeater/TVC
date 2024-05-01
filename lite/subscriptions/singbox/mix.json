@@ -125,7 +125,7 @@
                 "🇮🇷IR | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇨🇦CA | vless | @proxy_kafee | 1",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vless | @V2rayCollectorDonate | 19",
                 "🏳️XX | vless | @ProxyForOpeta | 3",
@@ -207,7 +207,7 @@
                 "🇮🇷IR | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇨🇦CA | vless | @proxy_kafee | 1",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vless | @V2rayCollectorDonate | 19",
                 "🏳️XX | vless | @ProxyForOpeta | 3",
@@ -751,11 +751,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 1",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 2",
             "type": "vless",
-            "server": "visa.com",
-            "server_port": 8443,
-            "uuid": "fd64e3de-552d-4f77-a7a2-09c1b6117b81",
+            "server": "www.Speedtest.Net",
+            "server_port": 80,
+            "uuid": "DIGIV2RAY-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -763,21 +763,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-falcunargo-estoni.falcunar.asso.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Digiv2ray-",
                 "headers": {
-                    "Host": "telegram-falcunargo-estoni.falcunar.asso.eu.org"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
