@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 25",
-                "🇸🇪SE | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @v2rayngvpn | 11",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
                 "🇨🇦CA | vless | @ServerNett | 19",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇳🇱NL | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 17",
-                "🇮🇷IR | vless | @VmessProtocol | 17",
+                "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 173",
                 "🇳🇱NL | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
@@ -159,7 +159,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🏳️XX | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vless | @fnet00 | 1",
+                "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -221,7 +221,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 25",
-                "🇸🇪SE | vless | @v2rayngvpn | 13",
+                "🇨🇦CA | vless | @v2rayngvpn | 11",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
                 "🇨🇦CA | vless | @ShadowProxy66 | 7",
                 "🇨🇦CA | vless | @ServerNett | 19",
@@ -231,7 +231,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇳🇱NL | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 17",
-                "🇮🇷IR | vless | @VmessProtocol | 17",
+                "🇨🇦CA | vless | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 173",
                 "🇳🇱NL | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
@@ -240,7 +240,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🏳️XX | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vless | @fnet00 | 1",
+                "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -1111,11 +1111,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayngvpn | 13",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 11",
             "type": "vless",
-            "server": "185.146.173.32",
-            "server_port": 2095,
-            "uuid": "88ac5208-06c3-4438-a6cf-bb2d312f15f9",
+            "server": "172.66.44.202",
+            "server_port": 443,
+            "uuid": "f35ee8d8-6ef1-49d5-a138-12b3d514e873",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1123,11 +1123,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg6.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2RAXX-@V2RAXX",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.32"
+                    "Host": "pardazeshvpn-tg6.pages.dev"
                 }
             }
         },
@@ -1351,17 +1361,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @VmessProtocol | 17",
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 17",
             "type": "vless",
-            "server": "213.176.2.178",
-            "server_port": 38266,
-            "uuid": "416e5016-2df4-4a3c-beca-fa8f3546776f",
+            "server": "avval.ir",
+            "server_port": 2096,
+            "uuid": "041f929a-63f6-4af1-a492-8cbff5797b8a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo-emiratess.falcunar.asso.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "telegram-falcunargo-emiratess.falcunar.asso.eu.org"
+                }
             }
         },
         {
@@ -1561,7 +1588,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 1",
+            "tag": "🇺🇸US | vless | @fnet00 | 1",
             "type": "vless",
             "server": "104.25.221.166",
             "server_port": 443,
