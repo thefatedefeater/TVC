@@ -125,13 +125,12 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
+                "🇺🇸US | vless | @ProxyForOpeta | 3",
                 "🇳🇱NL | vless | @V2rayNGn | 27",
                 "🇮🇪IE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | vless | @prrofile_purple | 189",
@@ -166,14 +165,14 @@
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
-                "🇺🇸US | vless | @mehrosaboran | 5",
+                "🇨🇦CA | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -204,13 +203,12 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
+                "🇺🇸US | vless | @ProxyForOpeta | 3",
                 "🇳🇱NL | vless | @V2rayNGn | 27",
                 "🇮🇪IE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | vless | @prrofile_purple | 189",
@@ -245,14 +243,14 @@
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
-                "🇺🇸US | vless | @mehrosaboran | 5",
+                "🇨🇦CA | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -610,7 +608,7 @@
             "type": "vless",
             "server": "185.146.173.94",
             "server_port": 8880,
-            "uuid": "e26ec298-6ee4-407f-ce84-c401981a2d7b",
+            "uuid": "50a834d2-976f-4b19-8d30-c41997c5dfc0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -765,7 +763,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 3",
+            "tag": "🇺🇸US | vless | @ProxyForOpeta | 3",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -888,40 +886,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "38.68.134.245",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nicoler.lol",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nicoler.lol"
                 }
             }
         },
@@ -1808,11 +1772,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 5",
+            "tag": "🇨🇦CA | vless | @mehrosaboran | 6",
             "type": "vless",
-            "server": "198.41.202.5",
+            "server": "www.Speedtest.Net",
             "server_port": 80,
-            "uuid": "Join--ZEDMODEON",
+            "uuid": "--DIGIV2RAY--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1822,9 +1786,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "path": "\/Digiv2ray-",
                 "headers": {
-                    "Host": "198.41.202.5"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
@@ -1982,7 +1946,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
