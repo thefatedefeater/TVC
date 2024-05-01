@@ -131,6 +131,7 @@
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 9",
+                "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 25",
                 "🇸🇪SE | vless | @v2rayngvpn | 12",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
@@ -157,7 +158,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇨🇳CN | vless | @mehrosaboran | 4",
+                "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 7",
@@ -200,6 +201,7 @@
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 9",
+                "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 25",
                 "🇸🇪SE | vless | @v2rayngvpn | 12",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 0",
@@ -226,7 +228,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇨🇳CN | vless | @mehrosaboran | 4",
+                "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 7",
@@ -880,6 +882,27 @@
                 "path": "\/Telegram@Freakconfig",
                 "headers": {
                     "Host": "pardazeshvpn-tg3.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 14",
+            "type": "vless",
+            "server": "104.17.169.114",
+            "server_port": 80,
+            "uuid": "07464341-d0d4-4561-9740-3328bca9fc57",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "104.17.169.114"
                 }
             }
         },
@@ -1551,7 +1574,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vless | @mehrosaboran | 4",
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "103.184.44.99",
             "server_port": 8880,
