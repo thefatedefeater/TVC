@@ -166,13 +166,13 @@
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇸🇪SE | vless | @ipV2Ray | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
-                "🇨🇦CA | vless | @melov2ray | 1",
+                "🇺🇸US | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇩🇪DE | vless | @melov2ray | 4",
                 "🇺🇸US | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @melov2ray | 6",
                 "🇩🇪DE | vless | @melov2ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇺🇸US | vless | @melov2ray | 10",
                 "🇺🇸US | vless | @melov2ray | 11",
                 "🏳️XX | vless | @V2pedia | 43",
                 "🇺🇸US | vless | @V2pedia | 44",
@@ -303,7 +303,6 @@
                 "🇺🇸US | vless | @V2rayCollectorDonate | 17",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 18",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇺🇸US | vless | @V2rayNGn | 14",
                 "🇸🇪SE | vless | @V2rayNGn | 15",
@@ -347,6 +346,7 @@
                 "🇸🇪SE | vless | @customv2ray | 2",
                 "🇺🇸US | vless | @customv2ray | 3",
                 "🇺🇸US | vless | @customv2ray | 4",
+                "🇺🇸US | vless | @customv2ray | 6",
                 "🇺🇸US | vless | @customv2ray | 7",
                 "🇺🇸US | vless | @customv2ray | 8",
                 "🇺🇸US | vless | @customv2ray | 9",
@@ -687,13 +687,13 @@
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇸🇪SE | vless | @ipV2Ray | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
-                "🇨🇦CA | vless | @melov2ray | 1",
+                "🇺🇸US | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇩🇪DE | vless | @melov2ray | 4",
                 "🇺🇸US | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @melov2ray | 6",
                 "🇩🇪DE | vless | @melov2ray | 9",
-                "🇨🇦CA | vless | @melov2ray | 10",
+                "🇺🇸US | vless | @melov2ray | 10",
                 "🇺🇸US | vless | @melov2ray | 11",
                 "🏳️XX | vless | @V2pedia | 43",
                 "🇺🇸US | vless | @V2pedia | 44",
@@ -824,7 +824,6 @@
                 "🇺🇸US | vless | @V2rayCollectorDonate | 17",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 18",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇺🇸US | vless | @V2rayNGn | 14",
                 "🇸🇪SE | vless | @V2rayNGn | 15",
@@ -868,6 +867,7 @@
                 "🇸🇪SE | vless | @customv2ray | 2",
                 "🇺🇸US | vless | @customv2ray | 3",
                 "🇺🇸US | vless | @customv2ray | 4",
+                "🇺🇸US | vless | @customv2ray | 6",
                 "🇺🇸US | vless | @customv2ray | 7",
                 "🇺🇸US | vless | @customv2ray | 8",
                 "🇺🇸US | vless | @customv2ray | 9",
@@ -2650,7 +2650,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 1",
+            "tag": "🇺🇸US | vless | @melov2ray | 1",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -2826,7 +2826,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 10",
+            "tag": "🇺🇸US | vless | @melov2ray | 10",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -6011,27 +6011,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ProxyForOpeta | 4",
-            "type": "vless",
-            "server": "chat.openai.com",
-            "server_port": 8080,
-            "uuid": "00ba09be-b38c-4780-968e-010168a7dc02",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/melov2ray",
-                "headers": {
-                    "Host": "chat.openai.com"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @V2rayNGn | 13",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
@@ -7067,6 +7046,27 @@
                 "path": "\/VMESSKHODAM-VMESSKHODAM-VMESSKHODAM-VMESSKHODAM-VMESSKHODAM\/VMESSKHODAM?ed=1024",
                 "headers": {
                     "Host": "zula.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @customv2ray | 6",
+            "type": "vless",
+            "server": "chat.openai.com",
+            "server_port": 8080,
+            "uuid": "00ba09be-b38c-4780-968e-010168a7dc02",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/melov2ray",
+                "headers": {
+                    "Host": "chat.openai.com"
                 }
             }
         },
