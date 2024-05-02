@@ -164,6 +164,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @Capoit | 7",
+                "🇨🇦CA | vless | @flyv2ray | 19",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -172,7 +173,7 @@
                 "🏳️XX | vless | @kingofilter | 8",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -242,6 +243,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @Capoit | 7",
+                "🇨🇦CA | vless | @flyv2ray | 19",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -250,7 +252,7 @@
                 "🏳️XX | vless | @kingofilter | 8",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇺🇸US | vless | @V2FETCH | 2",
+                "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -1656,6 +1658,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @flyv2ray | 19",
+            "type": "vless",
+            "server": "104.19.54.50",
+            "server_port": 443,
+            "uuid": "e66bb4ed-ea00-4361-b445-3077c3d9936a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ARIameHr-3WP.PAGeS.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@VPNHTTPInjectorfree",
+                "headers": {
+                    "Host": "ARIameHr-3WP.PAGeS.Dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 0",
             "type": "vmess",
             "server": "cf.hy2.one",
@@ -1854,7 +1887,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2FETCH | 2",
+            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
