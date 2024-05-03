@@ -174,7 +174,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇸🇪SE | vless | @ipV2Ray | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
-                "🇨🇦CA | vless | @melov2ray | 1",
+                "🇺🇸US | vless | @melov2ray | 1",
                 "🏳️XX | vless | @melov2ray | 2",
                 "🇩🇪DE | vless | @melov2ray | 4",
                 "🇺🇸US | vless | @melov2ray | 5",
@@ -193,7 +193,7 @@
                 "🇸🇪SE | vless | @frev2ray | 1",
                 "🇧🇿BZ | vless | @frev2ray | 3",
                 "🇸🇪SE | vless | @frev2ray | 5",
-                "🏳️XX | vless | @frev2ray | 9",
+                "🇬🇧GB | vless | @frev2ray | 9",
                 "🇺🇸US | vless | @frev2ray | 10",
                 "🇸🇪SE | vless | @ARv2ray | 5",
                 "🇸🇪SE | vless | @ARv2ray | 6",
@@ -422,6 +422,8 @@
                 "🇸🇪SE | vless | @v2ray_swhil | 17",
                 "🇺🇸US | vless | @v2ray_swhil | 18",
                 "🇺🇸US | vless | @v2ray_swhil | 19",
+                "🇸🇪SE | vless | @v2ray_swhil | 20",
+                "🇺🇸US | vless | @v2ray_swhil | 21",
                 "🇸🇪SE | vless | @proxyymeliii | 19",
                 "🇮🇷IR | vless | @proxyymeliii | 21",
                 "🇮🇷IR | vless | @proxyymeliii | 25",
@@ -702,7 +704,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇸🇪SE | vless | @ipV2Ray | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
-                "🇨🇦CA | vless | @melov2ray | 1",
+                "🇺🇸US | vless | @melov2ray | 1",
                 "🏳️XX | vless | @melov2ray | 2",
                 "🇩🇪DE | vless | @melov2ray | 4",
                 "🇺🇸US | vless | @melov2ray | 5",
@@ -721,7 +723,7 @@
                 "🇸🇪SE | vless | @frev2ray | 1",
                 "🇧🇿BZ | vless | @frev2ray | 3",
                 "🇸🇪SE | vless | @frev2ray | 5",
-                "🏳️XX | vless | @frev2ray | 9",
+                "🇬🇧GB | vless | @frev2ray | 9",
                 "🇺🇸US | vless | @frev2ray | 10",
                 "🇸🇪SE | vless | @ARv2ray | 5",
                 "🇸🇪SE | vless | @ARv2ray | 6",
@@ -950,6 +952,8 @@
                 "🇸🇪SE | vless | @v2ray_swhil | 17",
                 "🇺🇸US | vless | @v2ray_swhil | 18",
                 "🇺🇸US | vless | @v2ray_swhil | 19",
+                "🇸🇪SE | vless | @v2ray_swhil | 20",
+                "🇺🇸US | vless | @v2ray_swhil | 21",
                 "🇸🇪SE | vless | @proxyymeliii | 19",
                 "🇮🇷IR | vless | @proxyymeliii | 21",
                 "🇮🇷IR | vless | @proxyymeliii | 25",
@@ -2832,7 +2836,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 1",
+            "tag": "🇺🇸US | vless | @melov2ray | 1",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -3326,7 +3330,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @frev2ray | 9",
+            "tag": "🇬🇧GB | vless | @frev2ray | 9",
             "type": "vless",
             "server": "kalafmobile.varzon-pc3.GAMErme.IR",
             "server_port": 443,
@@ -8856,6 +8860,48 @@
                 "path": "\/powerdbyWyvern?ed=2560",
                 "headers": {
                     "Host": "9e83eca1.wyvernfree.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @v2ray_swhil | 20",
+            "type": "vless",
+            "server": "forward3.maryam1700.com",
+            "server_port": 2082,
+            "uuid": "24347e96-912c-4f53-9c67-9cc895fc6fdf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "forward3.maryam1700.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @v2ray_swhil | 21",
+            "type": "vless",
+            "server": "discord.gg",
+            "server_port": 80,
+            "uuid": "cb87def4-e2fd-4da1-a2ec-57ff2120fd9b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "discord.gg"
                 }
             }
         },
