@@ -157,7 +157,7 @@
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
@@ -167,7 +167,6 @@
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇸🇪SE | vless | @Capoit | 14",
                 "🇩🇪DE | vless | @FreakConfig | 3",
-                "🇸🇪SE | vless | @flyv2ray | 19",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -241,7 +240,7 @@
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
@@ -251,7 +250,6 @@
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇸🇪SE | vless | @Capoit | 14",
                 "🇩🇪DE | vless | @FreakConfig | 3",
-                "🇸🇪SE | vless | @flyv2ray | 19",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -1480,11 +1478,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "23.26.98.120",
-            "server_port": 998,
-            "uuid": "a9753cbd-8e34-49c5-be50-c4dbf55e2a12",
+            "server": "ip.sb",
+            "server_port": 2053,
+            "uuid": "b2aba745-50f4-45e0-b4c0-6e230b99fb2e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1494,6 +1492,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "flat-reserves-stroke-guyana.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/argox-vm",
+                "headers": {
+                    "Host": "flat-reserves-stroke-guyana.trycloudflare.com"
+                }
             }
         },
         {
@@ -1717,27 +1732,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 19",
-            "type": "vless",
-            "server": "CUSTOMIZEV2ray.V2ray.motorcycles",
-            "server_port": 2095,
-            "uuid": "1436ec94-4d33-4931-8a18-ed43a2a7d11d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2rayCUSTOMIZE?ed=1024",
-                "headers": {
-                    "Host": "CUSTOMIZEV2ray.V2ray.motorcycles"
-                }
             }
         },
         {
