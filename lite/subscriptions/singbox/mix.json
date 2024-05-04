@@ -158,11 +158,11 @@
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇧🇷BR | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
-                "🇺🇸US | vless | @v2rayng_config_amin | 7",
+                "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇸🇪SE | vless | @Capoit | 14",
@@ -241,11 +241,11 @@
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇧🇷BR | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
-                "🇺🇸US | vless | @v2rayng_config_amin | 7",
+                "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇸🇪SE | vless | @Capoit | 14",
@@ -629,7 +629,7 @@
             "type": "vless",
             "server": "185.146.173.94",
             "server_port": 8880,
-            "uuid": "e2987f46-8281-40c4-c6fc-8f75e601ef13",
+            "uuid": "f120f2d2-0749-4489-c981-0f2550e17886",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1516,11 +1516,11 @@
             }
         },
         {
-            "tag": "🇧🇷BR | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "129.148.33.28",
-            "server_port": 43402,
-            "uuid": "c0dc0e51-1e74-4b6f-87d1-4890e12fbd85",
+            "server": "64.176.219.18",
+            "server_port": 50706,
+            "uuid": "a98f5505-8bb1-4d92-e435-21906d9ab89a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1530,13 +1530,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1613,7 +1606,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_config_amin | 7",
+            "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 7",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
             "server_port": 443,
