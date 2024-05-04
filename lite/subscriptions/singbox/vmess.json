@@ -112,8 +112,8 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 18",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇧🇷BR | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @v2Line | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
         },
@@ -127,8 +127,8 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 18",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇧🇷BR | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @v2Line | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -302,11 +302,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇧🇷BR | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "24.144.88.183",
-            "server_port": 80,
-            "uuid": "675f2d00-25bb-4645-904b-114f5d86de6c",
+            "server": "129.148.33.28",
+            "server_port": 43402,
+            "uuid": "c0dc0e51-1e74-4b6f-87d1-4890e12fbd85",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -316,10 +316,17 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 7",
+            "tag": "🇺🇸US | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "w.outline-vpn.cloud",
             "server_port": 2086,
