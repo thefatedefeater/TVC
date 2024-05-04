@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇨🇦CA | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 15",
-                "🇺🇸US | vless | @vpn_xw | 0",
+                "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -150,14 +150,14 @@
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇬🇧GB | ss | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 139",
+                "🇨🇦CA | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 19",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🏳️XX | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
@@ -204,7 +204,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇨🇦CA | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 15",
-                "🇺🇸US | vless | @vpn_xw | 0",
+                "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 25",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -234,14 +234,14 @@
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇬🇧GB | ss | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 139",
+                "🇨🇦CA | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 19",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🏳️XX | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
@@ -620,7 +620,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_xw | 0",
+            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -1308,11 +1308,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 139",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 142",
             "type": "vless",
-            "server": "23.227.60.4",
-            "server_port": 2095,
-            "uuid": "0859b63e-cb81-4c01-bf5a-739f90e72f92",
+            "server": "www.speedtest.net.cdn.PaGeS.Dev",
+            "server_port": 80,
+            "uuid": "505094ea-297c-496a-af29-ed33db58f820",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1324,7 +1324,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "23.227.60.4"
+                    "Host": "www.speedtest.net.cdn.PaGeS.Dev"
                 }
             }
         },
@@ -1487,11 +1487,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🏳️XX | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "162.159.50.235",
-            "server_port": 2052,
-            "uuid": "9fdd16d7-dcb7-45d7-fd62-23d702c71ea0",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "cacabab-baca-bcaa-dcab-babbccbccaaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1501,13 +1501,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
