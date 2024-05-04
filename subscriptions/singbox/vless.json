@@ -176,7 +176,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇺🇸US | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @melov2ray | 2",
-                "🇺🇸US | vless | @melov2ray | 4",
+                "🇨🇦CA | vless | @melov2ray | 4",
                 "🏳️XX | vless | @melov2ray | 5",
                 "🇩🇪DE | vless | @melov2ray | 7",
                 "🇺🇸US | vless | @melov2ray | 8",
@@ -186,7 +186,7 @@
                 "🏳️XX | vless | @melov2ray | 14",
                 "🇺🇸US | vless | @V2pedia | 41",
                 "🏳️XX | vless | @V2pedia | 42",
-                "🇨🇦CA | vless | @V2pedia | 43",
+                "🇺🇸US | vless | @V2pedia | 43",
                 "🇨🇼CW | vless | @V2pedia | 44",
                 "🇺🇸US | vless | @V2pedia | 45",
                 "🇺🇸US | vless | @V2pedia | 46",
@@ -589,6 +589,8 @@
                 "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇨🇷CR | vless | @GozargahVPN | 15",
                 "🇨🇷CR | vless | @GozargahVPN | 16",
+                "🇩🇪DE | vless | @freeconfigv2 | 0",
+                "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇺🇸US | vless | @SvnTeam | 19",
                 "🇺🇸US | vless | @SvnTeam | 20",
                 "🇺🇸US | vless | @SvnTeam | 21",
@@ -706,7 +708,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇺🇸US | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @melov2ray | 2",
-                "🇺🇸US | vless | @melov2ray | 4",
+                "🇨🇦CA | vless | @melov2ray | 4",
                 "🏳️XX | vless | @melov2ray | 5",
                 "🇩🇪DE | vless | @melov2ray | 7",
                 "🇺🇸US | vless | @melov2ray | 8",
@@ -716,7 +718,7 @@
                 "🏳️XX | vless | @melov2ray | 14",
                 "🇺🇸US | vless | @V2pedia | 41",
                 "🏳️XX | vless | @V2pedia | 42",
-                "🇨🇦CA | vless | @V2pedia | 43",
+                "🇺🇸US | vless | @V2pedia | 43",
                 "🇨🇼CW | vless | @V2pedia | 44",
                 "🇺🇸US | vless | @V2pedia | 45",
                 "🇺🇸US | vless | @V2pedia | 46",
@@ -1119,6 +1121,8 @@
                 "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇨🇷CR | vless | @GozargahVPN | 15",
                 "🇨🇷CR | vless | @GozargahVPN | 16",
+                "🇩🇪DE | vless | @freeconfigv2 | 0",
+                "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🇺🇸US | vless | @SvnTeam | 19",
                 "🇺🇸US | vless | @SvnTeam | 20",
                 "🇺🇸US | vless | @SvnTeam | 21",
@@ -2847,7 +2851,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 4",
+            "tag": "🇨🇦CA | vless | @melov2ray | 4",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -3132,7 +3136,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 43",
+            "tag": "🇺🇸US | vless | @V2pedia | 43",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 2095,
@@ -13303,6 +13307,66 @@
                 "path": "\/Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,",
                 "headers": {
                     "Host": "www.GozargahVPN.top"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @freeconfigv2 | 0",
+            "type": "vless",
+            "server": "141.95.110.169",
+            "server_port": 443,
+            "uuid": "1391e412-0c95-4356-bd82-0136b9509496",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "141.95.110.169.sslip.io",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "sePIcU3ww5havU8ZOApQ",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @freeconfigv2 | 1",
+            "type": "vless",
+            "server": "185.139.228.13",
+            "server_port": 2083,
+            "uuid": "282bed58-1451-419f-a5b3-ed6f65ab8850",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "x-Zv8k40O3rJ8sjJknVpimNI4dhEk3WRCyKeRb5NeEU",
+                    "short_id": "b756e372b9623b22"
                 }
             }
         },
