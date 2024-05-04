@@ -158,7 +158,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 19",
+                "🇳🇱NL | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
@@ -182,7 +182,7 @@
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
+                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
                 "🇵🇱PL | vless | @raze_vpn | 10"
             ]
@@ -243,7 +243,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 19",
+                "🇳🇱NL | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
@@ -267,7 +267,7 @@
                 "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
+                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 21",
                 "🇵🇱PL | vless | @raze_vpn | 10"
             ],
@@ -1520,11 +1520,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 19",
+            "tag": "🇳🇱NL | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cacabab-baca-bcaa-dcab-babbccbccaaa",
+            "server": "45.14.244.133",
+            "server_port": 2024,
+            "uuid": "bf1dd328-a605-48fd-918f-44cca1cfe07f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1534,6 +1534,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -2124,7 +2131,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "104.21.40.63",
             "server_port": 443,
