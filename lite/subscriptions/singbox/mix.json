@@ -123,6 +123,7 @@
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 25",
+                "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 0",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
@@ -143,7 +144,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
-                "🇸🇪SE | vless | @proxyymeliii | 32",
+                "🇸🇪SE | vless | @proxyymeliii | 33",
                 "🇸🇪SE | vless | @MsV2ray | 8",
                 "🇨🇦CA | vless | @v2ray1_ng | 7",
                 "🇨🇦CA | vless | @vless_vmess | 9",
@@ -207,6 +208,7 @@
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 25",
+                "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 0",
                 "🇸🇪SE | vless | @V2rayNGn | 25",
@@ -227,7 +229,7 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
-                "🇸🇪SE | vless | @proxyymeliii | 32",
+                "🇸🇪SE | vless | @proxyymeliii | 33",
                 "🇸🇪SE | vless | @MsV2ray | 8",
                 "🇨🇦CA | vless | @v2ray1_ng | 7",
                 "🇨🇦CA | vless | @vless_vmess | 9",
@@ -703,6 +705,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 1",
+            "type": "vless",
+            "server": "visa.com",
+            "server_port": 8443,
+            "uuid": "fd64e3de-552d-4f77-a7a2-09c1b6117b81",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo-estoni.falcunar.asso.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "telegram-falcunargo-estoni.falcunar.asso.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
@@ -1159,11 +1192,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 32",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 33",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "5074d8a2-3ab2-427a-a7fd-fedb9b5d005b",
+            "uuid": "9f5467eb-d3dd-4630-b02d-51884a79738b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
