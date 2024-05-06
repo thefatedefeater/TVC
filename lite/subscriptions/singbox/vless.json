@@ -142,10 +142,11 @@
                 "🇮🇷IR | vless | @proxyymeliii | 35",
                 "🇳🇱NL | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
-                "🇸🇪SE | vless | @V2RayTz | 12",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 12",
                 "🇸🇪SE | vless | @DailyV2RY | 167",
                 "🇨🇦CA | vless | @sinabigo | 2",
+                "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
@@ -155,7 +156,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 12",
                 "🇸🇪SE | vless | @FreakConfig | 6",
-                "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @flyv2ray | 14",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
@@ -211,10 +212,11 @@
                 "🇮🇷IR | vless | @proxyymeliii | 35",
                 "🇳🇱NL | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
-                "🇸🇪SE | vless | @V2RayTz | 12",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 12",
                 "🇸🇪SE | vless | @DailyV2RY | 167",
                 "🇨🇦CA | vless | @sinabigo | 2",
+                "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 7",
@@ -224,7 +226,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 12",
                 "🇸🇪SE | vless | @FreakConfig | 6",
-                "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @flyv2ray | 14",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🇨🇦CA | vless | @proxy_mtm | 2",
@@ -1146,11 +1148,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 12",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.32",
-            "server_port": 2095,
-            "uuid": "-DI%47IV2%52AY-",
+            "server": "162.159.134.234",
+            "server_port": 8080,
+            "uuid": "5d7%62f28%32-0b%655-4%3234-%617db%2dddf%31abe%38976%32",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1160,9 +1162,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY-digiv2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.32"
+                    "Host": "162.159.134.234"
                 }
             }
         },
@@ -1246,6 +1248,27 @@
                 "path": "\/ATdmeWNJtRAFAGlU?ed=2560",
                 "headers": {
                     "Host": "B458Ab02.CAA-CHANeL-Worker-pAGE-freE-jHUIHnujhPhJKl-nihGkjN.pagES.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 17",
+            "type": "vless",
+            "server": "CUSTOMIZEV2ray.V2ray.motorcycles",
+            "server_port": 2095,
+            "uuid": "TMCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2rayCUSTOMIZE?ed=1024",
+                "headers": {
+                    "Host": "CUSTOMIZEV2ray.V2ray.motorcycles"
                 }
             }
         },
@@ -1517,11 +1540,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 14",
             "type": "vless",
-            "server": "162.159.134.234",
-            "server_port": 8080,
-            "uuid": "7d00a83a-e359-4172-90bf-623d060b85a8",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "45d174d7-7ac9-4a66-8d8c-d015b41b3d99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1529,11 +1552,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "162.159.134.234"
+                    "Host": "garywelch.pages.dev"
                 }
             }
         },
