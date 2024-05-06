@@ -129,10 +129,10 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 26",
                 "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇩🇪DE | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇮🇷IR | vmess | @prrofile_purple | 191",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -149,11 +149,12 @@
                 "🇳🇱NL | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇮🇷IR | vless | @DailyV2RY | 162",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 15",
+                "🇩🇪DE | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
@@ -207,10 +208,10 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 26",
                 "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇩🇪DE | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @Outline_Vpn | 15",
                 "🇮🇷IR | vmess | @prrofile_purple | 191",
                 "🇨🇦CA | vless | @customv2ray | 9",
@@ -227,11 +228,12 @@
                 "🇳🇱NL | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇮🇷IR | vless | @DailyV2RY | 162",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 15",
+                "🇩🇪DE | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
@@ -374,7 +376,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "3.72.191.134",
+            "server": "18.199.233.40",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -843,9 +845,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.126.177.130",
+            "server": "13.49.103.200",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -906,11 +908,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "5.75.202.76",
-            "server_port": 31418,
-            "uuid": "9afc7852-6341-4903-971c-3c6b92a913bb",
+            "server": "188.114.99.205",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -920,6 +922,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
@@ -1290,6 +1309,20 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vless | @DailyV2RY | 162",
+            "type": "vless",
+            "server": "94.182.222.59",
+            "server_port": 10071,
+            "uuid": "cfe44e90-3481-4ee5-8e3d-c7cf1345a3c1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @sinabigo | 1",
             "type": "vless",
             "server": "172.66.47.161",
@@ -1396,11 +1429,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 15",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "cfcdn1.sanfencdn9.com",
-            "server_port": 2082,
-            "uuid": "7f40abd1-6397-4706-8510-bc5d08df8ad5",
+            "server": "77.91.73.244",
+            "server_port": 80,
+            "uuid": "4ec2f1b0-b45d-41bf-b1d1-ec6ad7206cc8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1413,9 +1446,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/CuTy87zAzV\/",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "cfcdn1.sanfencdn9.com"
+                    "Host": ""
                 }
             }
         },
