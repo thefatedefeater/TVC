@@ -152,7 +152,6 @@
                 "🇨🇳CN | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @Hope_Net | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇵🇱PL | vmess | @v2Line | 1",
@@ -214,7 +213,6 @@
                 "🇨🇳CN | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @Hope_Net | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇵🇱PL | vmess | @v2Line | 1",
@@ -1349,30 +1347,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "cm.zhongzhuan.fnyun.cyou"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "104.19.173.68",
-            "server_port": 80,
-            "uuid": "bdeaba4b-bdac-426f-94f2-16a63d91352f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.19.173.68"
                 }
             }
         },
