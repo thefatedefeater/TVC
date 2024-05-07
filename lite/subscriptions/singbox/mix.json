@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇸🇪SE | vless | @lightning6 | 13",
                 "🇩🇪DE | vless | @V2rayNGmat | 1",
-                "🇺🇸US | vless | @vpn_xw | 0",
+                "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 18",
                 "🇺🇸US | vless | @v2logy | 15",
@@ -155,7 +155,7 @@
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 14",
+                "🇳🇱NL | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -163,7 +163,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇺🇸US | vless | @Capoit | 12",
+                "🇨🇦CA | vless | @Capoit | 12",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 6",
@@ -202,7 +202,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇸🇪SE | vless | @lightning6 | 13",
                 "🇩🇪DE | vless | @V2rayNGmat | 1",
-                "🇺🇸US | vless | @vpn_xw | 0",
+                "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 18",
                 "🇺🇸US | vless | @v2logy | 15",
@@ -236,7 +236,7 @@
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 14",
+                "🇳🇱NL | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -244,7 +244,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇺🇸US | vless | @Capoit | 12",
+                "🇨🇦CA | vless | @Capoit | 12",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 6",
@@ -667,7 +667,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_xw | 0",
+            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -1501,13 +1501,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 14",
+            "tag": "🇳🇱NL | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "183.237.20.158",
-            "server_port": 41242,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1515,6 +1515,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
+                }
             }
         },
         {
@@ -1699,7 +1716,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 12",
+            "tag": "🇨🇦CA | vless | @Capoit | 12",
             "type": "vless",
             "server": "www.visa.com.sg",
             "server_port": 8443,
