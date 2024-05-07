@@ -111,7 +111,6 @@
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 7",
                 "🇸🇪SE | vless | @VlessConfig | 18",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 18",
                 "🏳️XX | vless | @melov2ray | 12",
                 "🇸🇪SE | vless | @V2pedia | 53",
@@ -134,16 +133,18 @@
                 "🇸🇪SE | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 19",
-                "🇸🇪SE | vless | @v2rayngvpn | 12",
+                "🇩🇪DE | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 24",
+                "🇨🇦CA | vless | @proxyymeliii | 31",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 173",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -151,7 +152,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 12",
+                "🇺🇸US | vless | @Capoit | 12",
                 "🇸🇪SE | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 6",
@@ -178,7 +179,6 @@
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 7",
                 "🇸🇪SE | vless | @VlessConfig | 18",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 18",
                 "🏳️XX | vless | @melov2ray | 12",
                 "🇸🇪SE | vless | @V2pedia | 53",
@@ -201,16 +201,18 @@
                 "🇸🇪SE | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 19",
-                "🇸🇪SE | vless | @v2rayngvpn | 12",
+                "🇩🇪DE | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 24",
+                "🇨🇦CA | vless | @proxyymeliii | 31",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 173",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -218,7 +220,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 12",
+                "🇺🇸US | vless | @Capoit | 12",
                 "🇸🇪SE | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 6",
@@ -377,27 +379,6 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
-            "type": "vless",
-            "server": "CUSTOMIZEV2ray.V2ray.motorcycles",
-            "server_port": 2095,
-            "uuid": "VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2rayCUSTOMIZE?ed=1024",
-                "headers": {
-                    "Host": "CUSTOMIZEV2ray.V2ray.motorcycles"
                 }
             }
         },
@@ -952,24 +933,17 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayngvpn | 12",
+            "tag": "🇩🇪DE | vless | @v2rayngvpn | 10",
             "type": "vless",
-            "server": "185.146.173.56",
-            "server_port": 8880,
-            "uuid": "c5bdbbef-c219-4a56-86a8-714ac1dce4e4",
+            "server": "49.13.225.84",
+            "server_port": 443,
+            "uuid": "8f4b7da5-0467-4c70-a6e2-91d49d994e0e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-@Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Lookivpn,telegram-Academi_vpn,Mmdv2rayng-V2rayngmmd-telegram-mehran-v2ray?ed=2056",
-                "headers": {
-                    "Host": "185.146.173.56"
-                }
             }
         },
         {
@@ -1097,9 +1071,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 31",
+            "type": "vless",
+            "server": "198.41.198.76",
+            "server_port": 443,
+            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jd.wxgqlfx.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed",
+                "headers": {
+                    "Host": "jd.wxgqlfx.top"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @vless_vmess | 15",
             "type": "vless",
-            "server": "104.16.54.150",
+            "server": "104.19.12.170",
             "server_port": 443,
             "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
             "flow": "",
@@ -1111,7 +1116,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "BIa-pAIN-bAche.PagEs.DeV",
+                "server_name": "BIa-PaiN-baChE.pageS.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1123,7 +1128,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "BIa-pAIN-bAche.PagEs.DeV"
+                    "Host": "BIa-PaiN-baChE.pageS.dev"
                 }
             }
         },
@@ -1228,6 +1233,27 @@
                 "path": "\/ATdmeWNJtRAFAGlU?ed=2560",
                 "headers": {
                     "Host": "B458Ab02.CAA-CHANeL-Worker-pAGE-freE-jHUIHnujhPhJKl-nihGkjN.pagES.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 17",
+            "type": "vless",
+            "server": "CUSTOMIZEV2ray.V2ray.motorcycles",
+            "server_port": 2095,
+            "uuid": "VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2rayCUSTOMIZE?ed=1024",
+                "headers": {
+                    "Host": "CUSTOMIZEV2ray.V2ray.motorcycles"
                 }
             }
         },
@@ -1417,7 +1443,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 12",
+            "tag": "🇺🇸US | vless | @Capoit | 12",
             "type": "vless",
             "server": "www.visa.com.sg",
             "server_port": 8443,
