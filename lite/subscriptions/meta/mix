@@ -152,9 +152,9 @@ proxies:
   - {"name":"🇨🇦CA | vless | @ServerNett | 19","type":"vless","server":"check-host.net","port":8443,"udp":false,"uuid":"f019fcd3-d236-4669-834e-b6040cee6c57","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"haha.servernet.cfd","ws-opts":{"path":"/","headers":{"host":"haha.servernet.cfd"}}}
   - {"name":"🇨🇦CA | vless | @Qv2rayDONATED | 7","type":"vless","server":"104.16.188.173","port":443,"udp":false,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"963C1F6A-8485-443a-a386-4E6D34A64dc8.MRvi.ONline","ws-opts":{"path":"/@V2VIPCHANNEL/@V2VIPCHANNEL/@V2VIPCHANNEL/@V2VIPCHANNEL/?ed=2048","headers":{"host":"963c1f6a-8485-443a-a386-4e6d34a64dc8.mrvi.online"}}}
   - {"name":"🇨🇦CA | vless | @v2ray_swhil | 24","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"6e7e6a4e-a01e-4614-a765-2960c64a56fa","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"9e83eca1.wyvernfree.pages.dev","ws-opts":{"path":"/powerdbyWyvern?ed=2560","headers":{"host":"9e83eca1.wyvernfree.pages.dev"}}}
-  - {"name":"🇬🇧GB | vless | @proxyymeliii | 35","type":"vless","server":"185.42.14.149","port":53868,"udp":false,"uuid":"bad66ceb-efae-445f-9cfd-78fce4f0889c","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":""}}
+  - {"name":"🇳🇱NL | trojan | @proxyymeliii | 36","type":"trojan","server":"85.192.41.133","port":11,"udp":false,"password":"kjAwOsOVed","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇨🇦CA | vmess | @v2ray1_ng | 5","type":"vmess","server":"104.26.6.65","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
-  - {"name":"🇨🇦CA | vless | @vless_vmess | 15","type":"vless","server":"104.19.12.170","port":443,"udp":false,"uuid":"5007dc3f-0270-4ed8-a210-1a1d7952756d","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"BIa-PaiN-baChE.pageS.dev","ws-opts":{"path":"/","headers":{"host":"Bia-PAIN-baChe.paGEs.DeV"}}}
+  - {"name":"🇨🇦CA | vless | @vless_vmess | 15","type":"vless","server":"104.16.54.150","port":443,"udp":false,"uuid":"5007dc3f-0270-4ed8-a210-1a1d7952756d","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"BIa-pAIN-bAche.PagEs.DeV","ws-opts":{"path":"/","headers":{"host":"BiA-pAIN-bACHE.pAges.DEv"}}}
   - {"name":"🏳️XX | vless | @MTConfig | 11","type":"vless","server":"o.mmd111.sbs","port":2053,"udp":false,"uuid":"da853330-a294-4257-9a87-f481b9126d51","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"m.mmd111.sbs","ws-opts":{"path":"/","headers":{"host":"m.mmd111.sbs"}}}
   - {"name":"🇫🇷FR | ss | @VmessProtocol | 11","type":"ss","server":"149.202.82.172","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇸🇪SE | vless | @DailyV2RY | 173","type":"vless","server":"VPN-MIKEY.Myftp.org","port":2095,"udp":false,"uuid":"5ee39c9d-754c-4207-90ea-b15c0a720ac0","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/@Vpn_Mikey،@Vpn_Mikey","headers":{"host":"V2ray-_-_-_-_-Vpn_Mikey.Amir-Mikey.Tech."}}}
@@ -218,7 +218,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @ServerNett | 19'
       - '🇨🇦CA | vless | @Qv2rayDONATED | 7'
       - '🇨🇦CA | vless | @v2ray_swhil | 24'
-      - '🇬🇧GB | vless | @proxyymeliii | 35'
+      - '🇳🇱NL | trojan | @proxyymeliii | 36'
       - '🇨🇦CA | vmess | @v2ray1_ng | 5'
       - '🇨🇦CA | vless | @vless_vmess | 15'
       - '🏳️XX | vless | @MTConfig | 11'
@@ -284,7 +284,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @ServerNett | 19'
       - '🇨🇦CA | vless | @Qv2rayDONATED | 7'
       - '🇨🇦CA | vless | @v2ray_swhil | 24'
-      - '🇬🇧GB | vless | @proxyymeliii | 35'
+      - '🇳🇱NL | trojan | @proxyymeliii | 36'
       - '🇨🇦CA | vmess | @v2ray1_ng | 5'
       - '🇨🇦CA | vless | @vless_vmess | 15'
       - '🏳️XX | vless | @MTConfig | 11'
@@ -349,7 +349,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @ServerNett | 19'
       - '🇨🇦CA | vless | @Qv2rayDONATED | 7'
       - '🇨🇦CA | vless | @v2ray_swhil | 24'
-      - '🇬🇧GB | vless | @proxyymeliii | 35'
+      - '🇳🇱NL | trojan | @proxyymeliii | 36'
       - '🇨🇦CA | vmess | @v2ray1_ng | 5'
       - '🇨🇦CA | vless | @vless_vmess | 15'
       - '🏳️XX | vless | @MTConfig | 11'
