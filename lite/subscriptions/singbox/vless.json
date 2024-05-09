@@ -114,14 +114,14 @@
                 "🏳️XX | vless | @melov2ray | 13",
                 "🇸🇪SE | vless | @V2pedia | 53",
                 "🇸🇪SE | vless | @frev2ray | 9",
-                "🇺🇸US | vless | @ARv2ray | 18",
+                "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 22",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 14",
                 "🇩🇪DE | vless | @V2rayNGmat | 3",
-                "🇺🇸US | vless | @vpn_xw | 0",
+                "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 17",
                 "🇳🇱NL | vless | @proxy_kafee | 2",
@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @vmessorg | 17",
                 "🇮🇷IR | vless | @v2rayngvpn | 14",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 1",
-                "🇩🇪DE | vless | @ShadowProxy66 | 1",
+                "🇳🇱NL | vless | @ShadowProxy66 | 0",
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 25",
@@ -186,14 +186,14 @@
                 "🏳️XX | vless | @melov2ray | 13",
                 "🇸🇪SE | vless | @V2pedia | 53",
                 "🇸🇪SE | vless | @frev2ray | 9",
-                "🇺🇸US | vless | @ARv2ray | 18",
+                "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 22",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 14",
                 "🇩🇪DE | vless | @V2rayNGmat | 3",
-                "🇺🇸US | vless | @vpn_xw | 0",
+                "🇨🇦CA | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 17",
                 "🇳🇱NL | vless | @proxy_kafee | 2",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @vmessorg | 17",
                 "🇮🇷IR | vless | @v2rayngvpn | 14",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 1",
-                "🇩🇪DE | vless | @ShadowProxy66 | 1",
+                "🇳🇱NL | vless | @ShadowProxy66 | 0",
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 25",
@@ -472,7 +472,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ARv2ray | 18",
+            "tag": "🇨🇦CA | vless | @ARv2ray | 18",
             "type": "vless",
             "server": "benedict.ns.cloudflare.com",
             "server_port": 80,
@@ -647,7 +647,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_xw | 0",
+            "tag": "🇨🇦CA | vless | @vpn_xw | 0",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -1012,17 +1012,34 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ShadowProxy66 | 1",
+            "tag": "🇳🇱NL | vless | @ShadowProxy66 | 0",
             "type": "vless",
-            "server": "5.75.220.120",
-            "server_port": 65531,
-            "uuid": "f53f610e-5b55-4154-bea6-6ff3e32392c5",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                }
             }
         },
         {
