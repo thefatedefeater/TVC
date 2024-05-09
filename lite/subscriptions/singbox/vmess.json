@@ -111,8 +111,8 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @vless_vmess | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 12",
-                "🇺🇸US | vmess | @v2Line | 10",
+                "🇭🇰HK | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
@@ -126,8 +126,8 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @vless_vmess | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 12",
-                "🇺🇸US | vmess | @v2Line | 10",
+                "🇭🇰HK | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
@@ -275,7 +275,7 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 12",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 14",
             "type": "vmess",
             "server": "20.24.77.204",
             "server_port": 60028,
@@ -299,11 +299,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 10",
+            "tag": "🇨🇦CA | vmess | @v2Line | 9",
             "type": "vmess",
-            "server": "75.102.51.45",
-            "server_port": 58701,
-            "uuid": "b72eda2c-7b68-4813-ef86-086c8afc8e57",
+            "server": "sefarat24.com",
+            "server_port": 443,
+            "uuid": "298cfba1-2f02-4e61-b689-e58adbf9de53",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -313,6 +313,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru1-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "ru1-vmess.sshmax.xyz"
+                }
             }
         },
         {
