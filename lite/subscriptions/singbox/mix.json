@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 17",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
-                "🇨🇦CA | vless | @v2rayngvpn | 12",
+                "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -149,7 +149,7 @@
                 "🇨🇷CR | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🏳️XX | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @DailyV2RY | 133",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 17",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 6",
-                "🇨🇦CA | vless | @v2rayngvpn | 12",
+                "🇮🇷IR | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -232,7 +232,7 @@
                 "🇨🇷CR | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🏳️XX | vless | @MTConfig | 11",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🏳️XX | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @DailyV2RY | 133",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
@@ -1142,34 +1142,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
+            "tag": "🇮🇷IR | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "172.66.47.88",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "94.182.136.46",
+            "server_port": 4041,
+            "uuid": "21116a95-eaff-4e2a-baf1-0228ec568b72",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "12148Df7.miKApaGE.PAgeS.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "12148Df7.miKApaGE.PAgeS.Dev"
-                }
             }
         },
         {
@@ -1391,34 +1374,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
+            "tag": "🏳️XX | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.18.15.19",
-            "server_port": 443,
-            "uuid": "Parsashonam-64",
+            "server": "[2a01:4f9:c011:1622::1]",
+            "server_port": 12535,
+            "uuid": "Parsashonam-9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mail.offch.blog",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "mail.offch.blog"
-                }
             }
         },
         {
