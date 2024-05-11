@@ -109,7 +109,7 @@
                 "🇫🇷FR | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
-                "🇸🇪SE | vless | @VlessConfig | 19",
+                "🇩🇪DE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 12",
                 "🇨🇦CA | vless | @melov2ray | 10",
                 "🇸🇪SE | vless | @frev2ray | 8",
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🏳️XX | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 29",
-                "🇸🇪SE | trojan | @PrivateVPNs | 19",
+                "🇩🇪DE | trojan | @PrivateVPNs | 19",
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 22",
+                "🇨🇦CA | vless | @v2ray_swhil | 24",
                 "🇸🇪SE | vless | @proxyymeliii | 35",
                 "🇨🇷CR | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -191,7 +191,7 @@
                 "🇫🇷FR | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
-                "🇸🇪SE | vless | @VlessConfig | 19",
+                "🇩🇪DE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 12",
                 "🇨🇦CA | vless | @melov2ray | 10",
                 "🇸🇪SE | vless | @frev2ray | 8",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🏳️XX | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 29",
-                "🇸🇪SE | trojan | @PrivateVPNs | 19",
+                "🇩🇪DE | trojan | @PrivateVPNs | 19",
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -224,7 +224,7 @@
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 22",
+                "🇨🇦CA | vless | @v2ray_swhil | 24",
                 "🇸🇪SE | vless | @proxyymeliii | 35",
                 "🇨🇷CR | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -357,9 +357,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VlessConfig | 19",
+            "tag": "🇩🇪DE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "16.171.109.73",
+            "server": "3.127.184.45",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -816,9 +816,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
+            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "51.20.28.63",
+            "server": "3.124.167.252",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -840,7 +840,7 @@
         {
             "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.79.77.18",
+            "server": "18.153.223.190",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1184,11 +1184,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 22",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 24",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 80,
-            "uuid": "-----DIGIV2RAY---",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "3ed3d9f2-5159-43e4-bc71-afa39c2dbe01",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1196,11 +1196,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "1a7c8bd0.wyvernfree.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Digiv2ray-",
+                "path": "\/Telegram:@Wyvernvpn?ed=2560",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "1a7c8bd0.wyvernfree.pages.dev"
                 }
             }
         },
