@@ -130,7 +130,6 @@
                 "🇸🇪SE | vless | @prrofile_purple | 195",
                 "🇸🇪SE | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @vmessorg | 14",
-                "🇺🇸US | vless | @v2rayNG_Matsuri | 7",
                 "🇺🇸US | vless | @v2rayngvpn | 11",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇸🇪SE | vless | @ServerNett | 23",
@@ -196,7 +195,6 @@
                 "🇸🇪SE | vless | @prrofile_purple | 195",
                 "🇸🇪SE | vless | @customv2ray | 11",
                 "🇨🇦CA | vless | @vmessorg | 14",
-                "🇺🇸US | vless | @v2rayNG_Matsuri | 7",
                 "🇺🇸US | vless | @v2rayngvpn | 11",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇸🇪SE | vless | @ServerNett | 23",
@@ -778,37 +776,6 @@
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
                 "headers": {
                     "Host": "104.18.117.226"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @v2rayNG_Matsuri | 7",
-            "type": "vless",
-            "server": "104.21.66.93",
-            "server_port": 443,
-            "uuid": "f0f67b84-2770-4413-8b26-cfb302fac247",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2fly.milik-fukada.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@V2ray_Alpha\/",
-                "headers": {
-                    "Host": "v2fly.milik-fukada.eu.org"
                 }
             }
         },
