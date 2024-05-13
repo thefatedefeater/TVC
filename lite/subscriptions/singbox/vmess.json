@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
                 "🇮🇷IR | vmess | @proxyymeliii | 27",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
@@ -127,7 +126,6 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
                 "🇮🇷IR | vmess | @proxyymeliii | 27",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
@@ -191,40 +189,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
-            "type": "vmess",
-            "server": "104.26.6.65",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
-                }
             }
         },
         {
@@ -356,9 +320,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "192.210.167.236",
-            "server_port": 1200,
-            "uuid": "207da2a6-3c7d-4b6c-cb46-dcfaf5814053",
+            "server": "155.138.242.207",
+            "server_port": 54316,
+            "uuid": "67797c6a-e898-49bd-8f61-5fb1523ce0bd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -371,7 +335,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/207da2a6",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
