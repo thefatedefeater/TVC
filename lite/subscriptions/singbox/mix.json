@@ -110,6 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 52",
@@ -159,14 +160,14 @@
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇬🇧GB | vmess | @Hope_Net | 15",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇸🇪SE | vless | @polproxy | 15",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @Capoit | 13",
+                "🇨🇦CA | vless | @Capoit | 15",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇩🇪DE | trojan | @FAKEOFTVC | 0",
@@ -180,7 +181,7 @@
                 "🇨🇦CA | vless | @SvnTeam | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 0",
@@ -195,6 +196,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 15",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 52",
@@ -244,14 +246,14 @@
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇬🇧GB | vmess | @Hope_Net | 15",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇸🇪SE | vless | @polproxy | 15",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @Capoit | 13",
+                "🇨🇦CA | vless | @Capoit | 15",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇩🇪DE | trojan | @FAKEOFTVC | 0",
@@ -265,7 +267,7 @@
                 "🇨🇦CA | vless | @SvnTeam | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 0",
@@ -375,6 +377,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
+            "type": "vless",
+            "server": "Channel-VPNCUSTOMIZE.V2ray.motorcycles",
+            "server_port": 2095,
+            "uuid": "4b3a956b-94a8-496e-af7d-363a5dfef937",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2rayCUSTOMIZE?ed=1024",
+                "headers": {
+                    "Host": "Channel-VPNCUSTOMIZE.V2ray.motorcycles"
                 }
             }
         },
@@ -1555,11 +1578,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @Hope_Net | 15",
+            "tag": "🏳️XX | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "uk2-full.privateip.net",
-            "server_port": 443,
-            "uuid": "36112366-6c82-43ce-92b0-1a442a1a7156",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "cbaabac-cbaa-cbaa-abdc-ccabbacabcab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1569,23 +1592,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "uk2-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "uk2-full.privateip.net"
-                }
             }
         },
         {
@@ -1722,7 +1728,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 13",
+            "tag": "🇨🇦CA | vless | @Capoit | 15",
             "type": "vless",
             "server": "104.18.202.232",
             "server_port": 443,
@@ -2089,7 +2095,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
