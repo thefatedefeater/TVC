@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 8",
@@ -168,12 +168,12 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 7",
                 "🏳️XX | vless | @kiava | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇧🇭BH | ss | @kingofilter | 2",
+                "🇩🇪DE | vmess | @kingofilter | 3",
                 "🇨🇷CR | vless | @GozargahVPN | 16",
                 "🇨🇦CA | vless | @SvnTeam | 19",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -234,7 +234,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 8",
@@ -251,12 +251,12 @@
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 7",
                 "🏳️XX | vless | @kiava | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇧🇭BH | ss | @kingofilter | 2",
+                "🇩🇪DE | vmess | @kingofilter | 3",
                 "🇨🇷CR | vless | @GozargahVPN | 16",
                 "🇨🇦CA | vless | @SvnTeam | 19",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -1342,7 +1342,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 15",
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
             "type": "vless",
             "server": "nitriding.appreviewcenter.com",
             "server_port": 443,
@@ -1751,11 +1751,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 16",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 2095,
-            "uuid": "203eb7c4-6d3b-4a93-97d7-80e258bece3d",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "78dd3bc3-e435-44fc-926d-bf0c8c0ebdb7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1763,11 +1763,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ellisweissellisweissellisweissellisweissellisweisselliswei.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "188.114.98.224"
+                    "Host": "ellisweissellisweissellisweissellisweissellisweisselliswei.pages.dev"
                 }
             }
         },
@@ -1894,14 +1904,21 @@
             }
         },
         {
-            "tag": "🇧🇭BH | ss | @kingofilter | 2",
-            "type": "shadowsocks",
-            "server": "series-a2-me.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇩🇪DE | vmess | @kingofilter | 3",
+            "type": "vmess",
+            "server": "5.75.202.76",
+            "server_port": 39523,
+            "uuid": "e7e75749-9a57-4471-a9a7-5472be0a0cda",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇨🇷CR | vless | @GozargahVPN | 16",
