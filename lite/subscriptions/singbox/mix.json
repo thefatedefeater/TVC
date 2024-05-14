@@ -150,7 +150,7 @@
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
-                "🇮🇷IR | vless | @DailyV2RY | 145",
+                "🇨🇷CR | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 9",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
@@ -231,7 +231,7 @@
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
-                "🇮🇷IR | vless | @DailyV2RY | 145",
+                "🇨🇷CR | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 9",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
@@ -1208,9 +1208,9 @@
         {
             "tag": "🇨🇦CA | vless | @vless_vmess | 13",
             "type": "vless",
-            "server": "172.66.47.88",
+            "server": "w3.org",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1220,7 +1220,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "12148Df7.miKApaGE.PAgeS.Dev",
+                "server_name": "bIA-paIn-bacHE.PAGeS.DEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1232,7 +1232,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "12148Df7.miKApaGE.PAgeS.Dev"
+                    "Host": "bIA-paIn-bacHE.PAGeS.DEv"
                 }
             }
         },
@@ -1330,17 +1330,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @DailyV2RY | 145",
+            "tag": "🇨🇷CR | vless | @DailyV2RY | 142",
             "type": "vless",
-            "server": "185.128.40.163",
-            "server_port": 11845,
-            "uuid": "510d385b-19c6-4a53-abf1-08e006e381f4",
+            "server": "Www.dns1.lol",
+            "server_port": 80,
+            "uuid": "68b223c2-aa47-4cb3-b1d4-87379417394a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "Www.dns1.lol"
+                }
             }
         },
         {
