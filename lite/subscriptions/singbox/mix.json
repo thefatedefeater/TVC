@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 15",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
-                "🇬🇧GB | vless | @VlessConfig | 18",
+                "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
                 "🇺🇸US | vless | @V2pedia | 52",
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
-                "🇬🇧GB | trojan | @PrivateVPNs | 18",
+                "🇮🇪IE | trojan | @PrivateVPNs | 18",
                 "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -156,7 +156,7 @@
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 15",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 4",
@@ -188,7 +188,7 @@
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 15",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
-                "🇬🇧GB | vless | @VlessConfig | 18",
+                "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
                 "🇺🇸US | vless | @V2pedia | 52",
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
-                "🇬🇧GB | trojan | @PrivateVPNs | 18",
+                "🇮🇪IE | trojan | @PrivateVPNs | 18",
                 "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -236,7 +236,7 @@
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 15",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 4",
@@ -324,9 +324,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 18",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.175.82.182",
+            "server": "54.78.176.102",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -464,7 +464,7 @@
             "type": "vless",
             "server": "185.146.173.185",
             "server_port": 2095,
-            "uuid": "db5a8d71-b3f3-4e5c-a2a9-e7f78c9d141c",
+            "uuid": "203eb7c4-6d3b-4a93-97d7-80e258bece3d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -764,9 +764,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 18",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "18.130.152.167",
+            "server": "52.16.209.27",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1454,11 +1454,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "174.136.205.46",
-            "server_port": 39027,
-            "uuid": "26419143-8a06-43ab-d58c-bea7b7da8203",
+            "server": "104.21.23.231",
+            "server_port": 2095,
+            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1468,6 +1468,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
