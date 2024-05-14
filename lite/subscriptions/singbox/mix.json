@@ -115,7 +115,7 @@
                 "🇮🇷IR | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @ARv2ray | 21",
                 "🇸🇪SE | vless | @shh_proxy | 29",
-                "🇨🇦CA | vless | @Lockey_vpn | 14",
+                "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | vless | @lightning6 | 18",
                 "🇩🇪DE | vless | @V2rayNGmat | 6",
@@ -123,7 +123,7 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇸🇪SE | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇸🇪SE | trojan | @PrivateVPNs | 18",
@@ -155,7 +155,7 @@
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 17",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
@@ -195,7 +195,7 @@
                 "🇮🇷IR | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @ARv2ray | 21",
                 "🇸🇪SE | vless | @shh_proxy | 29",
-                "🇨🇦CA | vless | @Lockey_vpn | 14",
+                "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | vless | @lightning6 | 18",
                 "🇩🇪DE | vless | @V2rayNGmat | 6",
@@ -203,7 +203,7 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇸🇪SE | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇸🇪SE | trojan | @PrivateVPNs | 18",
@@ -235,7 +235,7 @@
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 17",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
@@ -474,11 +474,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 14",
+            "tag": "🇨🇦CA | vless | @Lockey_vpn | 17",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 80,
-            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "server": "104.31.16.65",
+            "server_port": 443,
+            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -486,11 +486,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "filTer-1tg.pAges.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/xmrdark",
+                "path": "\/?ed=2047",
                 "headers": {
-                    "Host": "104.18.202.232"
+                    "Host": "filTer-1tg.pAges.DeV"
                 }
             }
         },
@@ -653,7 +663,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1428,10 +1438,10 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "210.3.159.224",
-            "server_port": 12909,
+            "server": "195.123.240.45",
+            "server_port": 12947,
             "uuid": "8259cb1c-dd6c-4739-9c88-af550d977525",
             "security": "auto",
             "alter_id": 0,
@@ -1445,7 +1455,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "19.lwdh.us",
+                "server_name": "57.lwdh.us",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1457,7 +1467,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "19.lwdh.us"
+                    "Host": "57.lwdh.us"
                 }
             }
         },
