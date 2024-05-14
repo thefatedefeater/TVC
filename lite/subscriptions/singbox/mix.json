@@ -156,7 +156,7 @@
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇧🇷BR | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 17",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
@@ -237,7 +237,7 @@
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇧🇷BR | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 17",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
@@ -1468,11 +1468,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇧🇷BR | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "195.123.240.45",
-            "server_port": 12947,
-            "uuid": "8259cb1c-dd6c-4739-9c88-af550d977525",
+            "server": "78.111.102.232",
+            "server_port": 3389,
+            "uuid": "9c050a86-d612-48f1-ec32-e573df08a1b7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1482,23 +1482,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "57.lwdh.us",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "57.lwdh.us"
-                }
             }
         },
         {
@@ -1525,9 +1508,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "198.41.198.76",
-            "server_port": 443,
-            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+            "server": "www.zula.ir",
+            "server_port": 80,
+            "uuid": "vpnowl-vpnowl-vpnowl",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1535,21 +1518,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "jd.wxgqlfx.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Join-Tele-VpnOwl?ed=2560",
                 "headers": {
-                    "Host": "jd.wxgqlfx.top"
+                    "Host": "www.zula.ir"
                 }
             }
         },
