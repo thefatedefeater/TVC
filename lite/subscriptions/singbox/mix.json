@@ -124,7 +124,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇸🇪SE | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇸🇪SE | trojan | @PrivateVPNs | 18",
@@ -143,16 +143,16 @@
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 25",
-                "🇮🇷IR | vmess | @proxyymeliii | 27",
+                "🇨🇦CA | vmess | @proxyymeliii | 28",
                 "🇸🇪SE | vless | @MsV2ray | 5",
                 "🇸🇪SE | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇷CR | vless | @DailyV2RY | 142",
+                "🇨🇷CR | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 9",
-                "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
+                "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇮🇷IR | vmess | @Hope_Net | 19",
@@ -204,7 +204,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇸🇪SE | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇸🇪SE | trojan | @PrivateVPNs | 18",
@@ -223,16 +223,16 @@
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 25",
-                "🇮🇷IR | vmess | @proxyymeliii | 27",
+                "🇨🇦CA | vmess | @proxyymeliii | 28",
                 "🇸🇪SE | vless | @MsV2ray | 5",
                 "🇸🇪SE | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇷CR | vless | @DailyV2RY | 142",
+                "🇨🇷CR | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 9",
-                "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
+                "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇮🇷IR | vmess | @Hope_Net | 19",
@@ -684,7 +684,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1138,11 +1138,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @proxyymeliii | 27",
+            "tag": "🇨🇦CA | vmess | @proxyymeliii | 28",
             "type": "vmess",
-            "server": "svt203.topnetvip.com",
-            "server_port": 1194,
-            "uuid": "3450510b-6398-47a9-b003-2ad917bdaa43",
+            "server": "moji1.stablestates.ir",
+            "server_port": 2096,
+            "uuid": "93a4f202-2f5a-48b2-b989-ed9e032db368",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1153,11 +1153,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "moji1.stablestates.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "moji1.stablestates.ir"
                 }
             }
         },
@@ -1297,7 +1307,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DailyV2RY | 142",
+            "tag": "🇨🇷CR | vless | @DailyV2RY | 144",
             "type": "vless",
             "server": "Www.dns1.lol",
             "server_port": 80,
@@ -1370,12 +1380,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
-            "server": "23.162.200.239",
-            "server_port": 8009,
+            "server": "217.182.198.219",
+            "server_port": 5000,
             "method": "aes-256-gcm",
-            "password": "XKFKl2rULjIp74",
+            "password": "Y6R9pAtvxxzmGC",
             "plugin": "",
             "plugin_opts": ""
         },
