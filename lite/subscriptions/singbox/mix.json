@@ -121,7 +121,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 18",
                 "🇩🇪DE | vless | @vpn_xw | 0",
-                "🏳️XX | vless | @CUSTOMVPNSERVER | 15",
+                "🏳️XX | vless | @CUSTOMVPNSERVER | 16",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -149,6 +149,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 14",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 101",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
@@ -172,7 +173,7 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇧🇭BH | ss | @kingofilter | 2",
                 "🇨🇷CR | vless | @GozargahVPN | 16",
-                "🇨🇦CA | vless | @SvnTeam | 19",
+                "🇨🇦CA | vless | @SvnTeam | 15",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
                 "🇨🇦CA | vless | @V2FETCH | 2",
@@ -201,7 +202,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 11",
                 "🇸🇪SE | vless | @lightning6 | 18",
                 "🇩🇪DE | vless | @vpn_xw | 0",
-                "🏳️XX | vless | @CUSTOMVPNSERVER | 15",
+                "🏳️XX | vless | @CUSTOMVPNSERVER | 16",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -229,6 +230,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 14",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 101",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
@@ -252,7 +254,7 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇧🇭BH | ss | @kingofilter | 2",
                 "🇨🇷CR | vless | @GozargahVPN | 16",
-                "🇨🇦CA | vless | @SvnTeam | 19",
+                "🇨🇦CA | vless | @SvnTeam | 15",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
                 "🇨🇦CA | vless | @V2FETCH | 2",
@@ -603,7 +605,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @CUSTOMVPNSERVER | 15",
+            "tag": "🏳️XX | vless | @CUSTOMVPNSERVER | 16",
             "type": "vless",
             "server": "v2cuvs2.ddns.net",
             "server_port": 8443,
@@ -1272,6 +1274,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 15",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "13c6d5fe-2d9f-41dd-8a33-618ec0843a2f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 101",
             "type": "vless",
             "server": "zula.ir",
@@ -1878,11 +1901,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @SvnTeam | 19",
+            "tag": "🇨🇦CA | vless | @SvnTeam | 15",
             "type": "vless",
             "server": "mtn.VPNPROSEC.com",
             "server_port": 80,
-            "uuid": "SVNTEAM",
+            "uuid": "SVNTEAMm",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
