@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇸🇪SE | vless | @EliV2ray | 14",
                 "🇸🇪SE | vless | @Parsashonam | 21",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -186,6 +187,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇸🇪SE | vless | @EliV2ray | 14",
                 "🇸🇪SE | vless | @Parsashonam | 21",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -280,6 +282,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇸🇪SE | vless | @EliV2ray | 14",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "49bf08c5-1c1a-4ddd-886f-a36e41394e6e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Eliv2ray-Succubus,@Eliv2ray-Succubus,@Eliv2ray-Succubus,@Eliv2ray-Succubus?ed=8080",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
+            }
         },
         {
             "tag": "🇸🇪SE | vless | @Parsashonam | 21",
