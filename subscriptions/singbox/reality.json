@@ -109,12 +109,13 @@
                 "🇩🇪DE | vless | @EliV2ray | 1",
                 "🏳️XX | vless | @V2pedia | 35",
                 "🏳️XX | vless | @V2pedia | 40",
-                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 4",
-                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 7",
-                "🇫🇮FI | vless | @CUSTOMVPNSERVER | 8",
-                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 11",
-                "🇫🇷FR | vless | @CUSTOMVPNSERVER | 12",
+                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 6",
+                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
+                "🇫🇮FI | vless | @CUSTOMVPNSERVER | 10",
+                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 13",
+                "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🏳️XX | vless | @prrofile_purple | 180",
+                "🇩🇪DE | vless | @v2ray_swhil | 6",
                 "🇸🇪SE | vless | @v2ray1_ng | 0",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -154,12 +155,13 @@
                 "🇩🇪DE | vless | @EliV2ray | 1",
                 "🏳️XX | vless | @V2pedia | 35",
                 "🏳️XX | vless | @V2pedia | 40",
-                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 4",
-                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 7",
-                "🇫🇮FI | vless | @CUSTOMVPNSERVER | 8",
-                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 11",
-                "🇫🇷FR | vless | @CUSTOMVPNSERVER | 12",
+                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 6",
+                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
+                "🇫🇮FI | vless | @CUSTOMVPNSERVER | 10",
+                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 13",
+                "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🏳️XX | vless | @prrofile_purple | 180",
+                "🇩🇪DE | vless | @v2ray_swhil | 6",
                 "🇸🇪SE | vless | @v2ray1_ng | 0",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -313,7 +315,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 4",
+            "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 6",
             "type": "vless",
             "server": "49.13.113.114",
             "server_port": 8443,
@@ -342,7 +344,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 7",
+            "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
             "type": "vless",
             "server": "94.130.183.41",
             "server_port": 1503,
@@ -371,7 +373,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @CUSTOMVPNSERVER | 8",
+            "tag": "🇫🇮FI | vless | @CUSTOMVPNSERVER | 10",
             "type": "vless",
             "server": "95.217.31.246",
             "server_port": 18929,
@@ -400,7 +402,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 11",
+            "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 13",
             "type": "vless",
             "server": "49.13.154.240",
             "server_port": 3035,
@@ -429,7 +431,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @CUSTOMVPNSERVER | 12",
+            "tag": "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
             "type": "vless",
             "server": "193.168.145.2",
             "server_port": 443,
@@ -491,6 +493,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2ray_swhil | 6",
+            "type": "vless",
+            "server": "141.95.75.212",
+            "server_port": 443,
+            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "analytics.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
+                    "short_id": "c741ad33"
+                }
             }
         },
         {
