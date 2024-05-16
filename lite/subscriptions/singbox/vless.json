@@ -106,13 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 14",
                 "🇸🇪SE | vless | @Parsashonam | 20",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
-                "🇨🇦CA | vless | @melov2ray | 9",
+                "🇺🇸US | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 49",
                 "🇨🇦CA | vless | @frev2ray | 4",
                 "🇸🇪SE | vless | @ARv2ray | 21",
@@ -124,7 +123,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇮🇷IR | vless | @Outline_Vpn | 16",
@@ -156,7 +155,6 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 12",
                 "🇨🇦CA | vless | @FreakConfig | 1",
-                "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -175,13 +173,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 14",
                 "🇸🇪SE | vless | @Parsashonam | 20",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
-                "🇨🇦CA | vless | @melov2ray | 9",
+                "🇺🇸US | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 49",
                 "🇨🇦CA | vless | @frev2ray | 4",
                 "🇸🇪SE | vless | @ARv2ray | 21",
@@ -193,7 +190,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇮🇷IR | vless | @Outline_Vpn | 16",
@@ -225,7 +222,6 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 12",
                 "🇨🇦CA | vless | @FreakConfig | 1",
-                "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -258,27 +254,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 14",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "49bf08c5-1c1a-4ddd-886f-a36e41394e6e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Eliv2ray-Succubus,@Eliv2ray-Succubus,@Eliv2ray-Succubus,@Eliv2ray-Succubus?ed=8080",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
-            }
         },
         {
             "tag": "🇸🇪SE | vless | @Parsashonam | 20",
@@ -318,7 +293,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "18.171.50.129",
+            "server": "13.43.38.43",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -389,7 +364,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 9",
+            "tag": "🇺🇸US | vless | @melov2ray | 9",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -477,7 +452,7 @@
             "type": "vless",
             "server": "185.146.173.185",
             "server_port": 2095,
-            "uuid": "ad657e39-5f41-4f9b-9f12-815936d5c19b",
+            "uuid": "92ff0884-98e1-42e8-9f83-5b82471003de",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -645,7 +620,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1444,27 +1419,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "pardazesh-tgws.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 18",
-            "type": "vless",
-            "server": "185.146.173.185",
-            "server_port": 2095,
-            "uuid": "92ff0884-98e1-42e8-9f83-5b82471003de",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.185"
                 }
             }
         },
