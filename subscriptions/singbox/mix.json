@@ -168,7 +168,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
                 "🇨🇦CA | vless | @melov2ray | 0",
-                "🇨🇦CA | vless | @melov2ray | 1",
+                "🇺🇸US | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @melov2ray | 4",
@@ -590,8 +590,9 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 0",
-                "🏳️XX | vmess | @Hope_Net | 1",
+                "🇺🇸US | vmess | @Hope_Net | 0",
+                "🇸🇪SE | vmess | @Hope_Net | 1",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇺🇸US | vless | @polproxy | 3",
                 "🇸🇪SE | vless | @polproxy | 4",
                 "🇸🇪SE | vless | @polproxy | 5",
@@ -796,7 +797,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 10",
                 "🇨🇦CA | vless | @melov2ray | 0",
-                "🇨🇦CA | vless | @melov2ray | 1",
+                "🇺🇸US | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @melov2ray | 4",
@@ -1218,8 +1219,9 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 0",
-                "🏳️XX | vmess | @Hope_Net | 1",
+                "🇺🇸US | vmess | @Hope_Net | 0",
+                "🇸🇪SE | vmess | @Hope_Net | 1",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇺🇸US | vless | @polproxy | 3",
                 "🇸🇪SE | vless | @polproxy | 4",
                 "🇸🇪SE | vless | @polproxy | 5",
@@ -2860,7 +2862,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 1",
+            "tag": "🇺🇸US | vless | @melov2ray | 1",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -12742,7 +12744,31 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @Hope_Net | 0",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "go.alipay.ovh",
+            "server_port": 8080,
+            "uuid": "4f1f8f1e-926c-4edb-a398-8627110973f1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/aries",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "se1.vpnjantit.com",
             "server_port": 10000,
@@ -12766,7 +12792,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 1",
+            "tag": "🏳️XX | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "zzcm07.bdate.xyz",
             "server_port": 1260,
