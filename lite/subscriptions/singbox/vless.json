@@ -111,6 +111,7 @@
                 "🇨🇦CA | vless | @v2_team | 1",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 9",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 49",
@@ -147,10 +148,11 @@
                 "🇩🇪DE | vless | @DailyV2RY | 98",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @SafeNet_Server | 0",
+                "🇸🇪SE | vless | @lrnbymaa | 3",
                 "🏳️XX | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 16",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 13",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -160,6 +162,7 @@
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇨🇷CR | vless | @GozargahVPN | 16",
                 "🇨🇦CA | vless | @SvnTeam | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -178,6 +181,7 @@
                 "🇨🇦CA | vless | @v2_team | 1",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 19",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 9",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇺🇸US | vless | @V2pedia | 49",
@@ -214,10 +218,11 @@
                 "🇩🇪DE | vless | @DailyV2RY | 98",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @SafeNet_Server | 0",
+                "🇸🇪SE | vless | @lrnbymaa | 3",
                 "🏳️XX | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 16",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 13",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -227,6 +232,7 @@
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇨🇷CR | vless | @GozargahVPN | 16",
                 "🇨🇦CA | vless | @SvnTeam | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -370,6 +376,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
+            "type": "vless",
+            "server": "Channel-VPNCUSTOMIZE.V2ray.motorcycles",
+            "server_port": 2095,
+            "uuid": "a8ebef5e-a4d5-4b67-8853-091a97857780",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2rayCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE-VPNCUSTOMIZE?ed=1024",
+                "headers": {
+                    "Host": "Channel-VPNCUSTOMIZE.V2ray.motorcycles"
                 }
             }
         },
@@ -1227,6 +1254,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 3",
+            "type": "vless",
+            "server": "185.146.173.32",
+            "server_port": 2095,
+            "uuid": "-DIGIV2RAY--",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DIGIV2RAY-digiv2ray",
+                "headers": {
+                    "Host": "185.146.173.32"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "free.proxystorepanel.eu.org",
@@ -1300,11 +1348,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 13",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 10",
             "type": "vless",
-            "server": "185.146.173.77",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "198.41.198.76",
+            "server_port": 443,
+            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1312,11 +1360,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jd.wxgqlfx.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/SiNABiGO-SiNABiGO",
                 "headers": {
-                    "Host": "185.146.173.77"
+                    "Host": "jd.wxgqlfx.top"
                 }
             }
         },
@@ -1580,6 +1638,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @GozargahVPN | 16",
+            "type": "vless",
+            "server": "My.GozargahVPN.top",
+            "server_port": 443,
+            "uuid": "HappyNowruz",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.GozargahVPN.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/GozargahVPN",
+                "headers": {
+                    "Host": "www.GozargahVPN.top"
+                }
             }
         },
         {
