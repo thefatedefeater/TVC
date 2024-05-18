@@ -125,7 +125,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 0",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇬🇧GB | trojan | @PrivateVPNs | 18",
@@ -135,7 +135,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇸🇪SE | vless | @prrofile_purple | 188",
-                "🇸🇪SE | vless | @customv2ray | 11",
+                "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 26",
                 "🇨🇦CA | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 21",
+                "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇸🇪SE | vless | @proxyymeliii | 24",
                 "🇸🇪SE | vless | @MsV2ray | 1",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
@@ -207,7 +207,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 0",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇬🇧GB | trojan | @PrivateVPNs | 18",
@@ -217,7 +217,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
                 "🇸🇪SE | vless | @prrofile_purple | 188",
-                "🇸🇪SE | vless | @customv2ray | 11",
+                "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 26",
                 "🇨🇦CA | vless | @ServerNett | 20",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 21",
+                "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇸🇪SE | vless | @proxyymeliii | 24",
                 "🇸🇪SE | vless | @MsV2ray | 1",
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
@@ -701,7 +701,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -928,11 +928,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @customv2ray | 11",
+            "tag": "🇨🇦CA | vless | @customv2ray | 13",
             "type": "vless",
-            "server": "185.146.173.32",
+            "server": "172.66.213.5",
             "server_port": 8080,
-            "uuid": "-ID-V2RAXX",
+            "uuid": "cc9c76a5-6636-4201-fb00-b45078789eac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -942,9 +942,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2RAXX-@V2RAXX",
+                "path": "\/Vipfast7?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.32"
+                    "Host": "172.66.213.5"
                 }
             }
         },
@@ -1177,11 +1177,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 21",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 20",
             "type": "vless",
-            "server": "162.159.134.234",
-            "server_port": 8080,
-            "uuid": "d9a0b062-fb9d-4605-96e4-e7f2944e23e2",
+            "server": "time.is",
+            "server_port": 443,
+            "uuid": "0a48e54b-659e-4b3c-95e6-14da04954f25",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1189,11 +1189,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ir.proxystorepanel.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "162.159.134.234"
+                    "Host": "ir.proxystorepanel.eu.org"
                 }
             }
         },
