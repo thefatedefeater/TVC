@@ -135,7 +135,7 @@
                 "🇮🇷IR | vless | @prrofile_purple | 196",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
-                "🏳️XX | vless | @vmessorg | 11",
+                "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇺🇸US | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 2",
+                "🏳️XX | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 12",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
@@ -213,7 +213,7 @@
                 "🇮🇷IR | vless | @prrofile_purple | 196",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
-                "🏳️XX | vless | @vmessorg | 11",
+                "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇺🇸US | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 2",
+                "🏳️XX | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 12",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
@@ -930,17 +930,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vmessorg | 11",
+            "tag": "🇨🇦CA | vless | @vmessorg | 9",
             "type": "vless",
-            "server": "ba94df29-822e-45a1-bee0-6f9ecfdc7ab6&amp;type=ws&amp;path=",
-            "server_port": 0,
-            "uuid": "",
+            "server": "104.19.159.53",
+            "server_port": 80,
+            "uuid": "8143f965-0aee-4122-bb34-aa7d3aacc493",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:",
+                "headers": {
+                    "Host": "104.19.159.53"
+                }
             }
         },
         {
@@ -1431,7 +1438,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 2",
+            "tag": "🏳️XX | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "us-ny-rn.licom.ga",
             "server_port": 62008,
