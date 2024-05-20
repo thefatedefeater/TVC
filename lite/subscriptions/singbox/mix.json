@@ -141,7 +141,6 @@
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 4",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @vless_vmess | 7",
                 "🏳️XX | vless | @MTConfig | 11",
@@ -151,7 +150,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -219,7 +218,6 @@
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 4",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @vless_vmess | 7",
                 "🏳️XX | vless | @MTConfig | 11",
@@ -229,7 +227,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1082,37 +1080,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 4",
-            "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "ba5a2441-04cb-4de5-93af-b2bc85d2e2a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2ray1ng.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2ray1_ng,@V2ray1_ng,@V2ray1_ng",
-                "headers": {
-                    "Host": "v2ray1ng.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @proxyymeliii | 21",
             "type": "vless",
             "server": "185.146.173.94",
@@ -1331,12 +1298,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "45.158.171.227",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+            "server": "51.77.53.200",
+            "server_port": 4444,
+            "method": "aes-256-gcm",
+            "password": "pKEW8JPByTVTLtM",
             "plugin": "",
             "plugin_opts": ""
         },
