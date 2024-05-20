@@ -135,10 +135,11 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 0",
-                "🏳️XX | vmess | @Hope_Net | 1",
-                "🇯🇵JP | vmess | @Hope_Net | 3",
-                "🏳️XX | vmess | @Hope_Net | 4",
+                "🇫🇷FR | vmess | @Hope_Net | 0",
+                "🇯🇵JP | vmess | @Hope_Net | 1",
+                "🏳️XX | vmess | @Hope_Net | 2",
+                "🇭🇰HK | vmess | @Hope_Net | 4",
+                "🏳️XX | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -188,10 +189,11 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 0",
-                "🏳️XX | vmess | @Hope_Net | 1",
-                "🇯🇵JP | vmess | @Hope_Net | 3",
-                "🏳️XX | vmess | @Hope_Net | 4",
+                "🇫🇷FR | vmess | @Hope_Net | 0",
+                "🇯🇵JP | vmess | @Hope_Net | 1",
+                "🏳️XX | vmess | @Hope_Net | 2",
+                "🇭🇰HK | vmess | @Hope_Net | 4",
+                "🏳️XX | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -968,7 +970,41 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 0",
+            "tag": "🇫🇷FR | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "fr-full.privateip.net",
+            "server_port": 443,
+            "uuid": "d8062a4c-4fe9-49cf-b273-dfcdd78bca0a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fr-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": "fr-full.privateip.net"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "z-cn2.mceee.xyz",
             "server_port": 25933,
@@ -992,7 +1028,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 1",
+            "tag": "🏳️XX | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "zzcm09.bdate.xyz",
             "server_port": 1580,
@@ -1016,7 +1052,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 3",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "z-cn2.mceee.xyz",
             "server_port": 24935,
@@ -1040,7 +1076,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 4",
+            "tag": "🏳️XX | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "us-ny-rn.licom.ga",
             "server_port": 62008,
