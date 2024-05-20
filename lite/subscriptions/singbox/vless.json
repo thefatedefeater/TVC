@@ -136,7 +136,6 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇩🇪DE | vless | @v2ray_swhil | 2",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @vless_vmess | 7",
                 "🏳️XX | vless | @MTConfig | 11",
@@ -163,7 +162,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 0",
-                "🇸🇪SE | vless | @TVCminer | 22"
+                "🇸🇪SE | vless | @TVCminer | 21"
             ]
         },
         {
@@ -200,7 +199,6 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇩🇪DE | vless | @v2ray_swhil | 2",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @vless_vmess | 7",
                 "🏳️XX | vless | @MTConfig | 11",
@@ -227,7 +225,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 0",
-                "🇸🇪SE | vless | @TVCminer | 22"
+                "🇸🇪SE | vless | @TVCminer | 21"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -936,35 +934,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 2",
-            "type": "vless",
-            "server": "128.140.54.142",
-            "server_port": 57458,
-            "uuid": "42c626b8-171d-4e11-9582-09f1b07c45d8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "PpfDUc1F8zQGeaDUcnSQSqzwy_a654XoT7KT2HsCykk",
-                    "short_id": "5a93d4ff"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @proxyymeliii | 21",
             "type": "vless",
             "server": "185.146.173.94",
@@ -1643,11 +1612,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @TVCminer | 22",
+            "tag": "🇸🇪SE | vless | @TVCminer | 21",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server_port": 8080,
+            "uuid": "53f581a0-8527-4064-d8c1-cb223d498d0d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1657,7 +1626,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
                 "headers": {
                     "Host": "185.146.173.59"
                 }
