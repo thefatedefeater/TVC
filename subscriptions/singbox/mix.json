@@ -172,7 +172,7 @@
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🏳️XX | vless | @V2pedia | 24",
-                "🇨🇷CR | vless | @V2pedia | 25",
+                "🇨🇦CA | vless | @V2pedia | 25",
                 "🇨🇦CA | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @V2pedia | 27",
                 "🏳️XX | vless | @V2pedia | 28",
@@ -183,7 +183,7 @@
                 "🇨🇼CW | vless | @V2pedia | 33",
                 "🇺🇸US | vless | @V2pedia | 34",
                 "🏳️XX | vless | @V2pedia | 35",
-                "🇺🇸US | vless | @V2pedia | 36",
+                "🇨🇦CA | vless | @V2pedia | 36",
                 "🇨🇼CW | vless | @V2pedia | 37",
                 "🇺🇸US | vless | @V2pedia | 38",
                 "🇧🇿BZ | vless | @frev2ray | 0",
@@ -559,8 +559,10 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 1",
-                "🏳️XX | vmess | @Hope_Net | 2",
+                "🇭🇰HK | vmess | @Hope_Net | 0",
+                "🏳️XX | vmess | @Hope_Net | 1",
+                "🇯🇵JP | vmess | @Hope_Net | 3",
+                "🏳️XX | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 0",
                 "🇸🇪SE | vless | @polproxy | 1",
                 "🇺🇸US | vless | @polproxy | 5",
@@ -774,7 +776,7 @@
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🏳️XX | vless | @V2pedia | 24",
-                "🇨🇷CR | vless | @V2pedia | 25",
+                "🇨🇦CA | vless | @V2pedia | 25",
                 "🇨🇦CA | vless | @V2pedia | 26",
                 "🇸🇪SE | vless | @V2pedia | 27",
                 "🏳️XX | vless | @V2pedia | 28",
@@ -785,7 +787,7 @@
                 "🇨🇼CW | vless | @V2pedia | 33",
                 "🇺🇸US | vless | @V2pedia | 34",
                 "🏳️XX | vless | @V2pedia | 35",
-                "🇺🇸US | vless | @V2pedia | 36",
+                "🇨🇦CA | vless | @V2pedia | 36",
                 "🇨🇼CW | vless | @V2pedia | 37",
                 "🇺🇸US | vless | @V2pedia | 38",
                 "🇧🇿BZ | vless | @frev2ray | 0",
@@ -1161,8 +1163,10 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 1",
-                "🏳️XX | vmess | @Hope_Net | 2",
+                "🇭🇰HK | vmess | @Hope_Net | 0",
+                "🏳️XX | vmess | @Hope_Net | 1",
+                "🇯🇵JP | vmess | @Hope_Net | 3",
+                "🏳️XX | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 0",
                 "🇸🇪SE | vless | @polproxy | 1",
                 "🇺🇸US | vless | @polproxy | 5",
@@ -2910,7 +2914,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2pedia | 25",
+            "tag": "🇨🇦CA | vless | @V2pedia | 25",
             "type": "vless",
             "server": "zedmodeon.baby.dedyn.io.",
             "server_port": 2095,
@@ -3186,7 +3190,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 36",
+            "tag": "🇨🇦CA | vless | @V2pedia | 36",
             "type": "vless",
             "server": "discord.gg.",
             "server_port": 2095,
@@ -11951,7 +11955,55 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 1",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "z-cn2.mceee.xyz",
+            "server_port": 25933,
+            "uuid": "bca2b267-61ac-3152-9525-ea1757f8d9f2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/download",
+                "headers": {
+                    "Host": "z-cn2.mceee.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @Hope_Net | 1",
+            "type": "vmess",
+            "server": "zzcm09.bdate.xyz",
+            "server_port": 1580,
+            "uuid": "b9ecdb44-236b-30a7-94f2-f464993d84cf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hls\/cctv5phd.m3u8",
+                "headers": {
+                    "Host": "zzcm09.bdate.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "z-cn2.mceee.xyz",
             "server_port": 24935,
@@ -11975,7 +12027,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 2",
+            "tag": "🏳️XX | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "us-ny-rn.licom.ga",
             "server_port": 62008,
