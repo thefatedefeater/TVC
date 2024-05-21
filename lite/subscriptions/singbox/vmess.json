@@ -111,11 +111,11 @@
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 6",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇺🇸US | vmess | @vless_vmess | 0",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇮🇹IT | vmess | @Hope_Net | 9",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇵🇱PL | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ]
         },
@@ -128,11 +128,11 @@
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 6",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇺🇸US | vmess | @vless_vmess | 0",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇮🇹IT | vmess | @Hope_Net | 9",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇵🇱PL | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -248,7 +248,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -282,13 +282,13 @@
             }
         },
         {
-            "tag": "🇮🇹IT | vmess | @Hope_Net | 9",
+            "tag": "🏳️XX | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "95.164.46.203",
-            "server_port": 8442,
-            "uuid": "4a0abf2f-40f4-47d2-8382-0b553cbe9b21",
+            "server": "pologzcm.3sx.xyz",
+            "server_port": 20002,
+            "uuid": "1a7eec81-ad52-4f88-a578-7b2f09525271",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -296,6 +296,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/index",
+                "headers": {
+                    "Host": "pologzcm.3sx.xyz"
+                }
             }
         },
         {
@@ -350,7 +357,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "172.67.74.4",
             "server_port": 443,
