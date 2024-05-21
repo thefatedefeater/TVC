@@ -178,7 +178,7 @@
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇸🇪SE | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @melov2ray | 6",
-                "🇨🇦CA | vless | @melov2ray | 7",
+                "🇺🇸US | vless | @melov2ray | 7",
                 "🇺🇸US | vless | @melov2ray | 8",
                 "🇺🇸US | vless | @melov2ray | 9",
                 "🇸🇪SE | vless | @V2pedia | 13",
@@ -283,7 +283,6 @@
                 "🇸🇪SE | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @DigiV2ray | 16",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇺🇸US | vless | @proxy_kafee | 0",
                 "🇸🇪SE | vless | @v2logy | 2",
                 "🇺🇸US | vless | @v2logy | 3",
                 "🇸🇪SE | vless | @v2logy | 4",
@@ -337,6 +336,7 @@
                 "🇺🇸US | vless | @Outline_Vpn | 7",
                 "🇺🇸US | vless | @Outline_Vpn | 8",
                 "🇺🇸US | vless | @Outline_Vpn | 9",
+                "🇺🇸US | vless | @Outline_Vpn | 10",
                 "🇸🇪SE | vless | @Outline_Vpn | 11",
                 "🇺🇸US | vless | @Outline_Vpn | 12",
                 "🇺🇸US | vless | @Outline_Vpn | 13",
@@ -684,7 +684,7 @@
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇸🇪SE | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @melov2ray | 6",
-                "🇨🇦CA | vless | @melov2ray | 7",
+                "🇺🇸US | vless | @melov2ray | 7",
                 "🇺🇸US | vless | @melov2ray | 8",
                 "🇺🇸US | vless | @melov2ray | 9",
                 "🇸🇪SE | vless | @V2pedia | 13",
@@ -789,7 +789,6 @@
                 "🇸🇪SE | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @DigiV2ray | 16",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇺🇸US | vless | @proxy_kafee | 0",
                 "🇸🇪SE | vless | @v2logy | 2",
                 "🇺🇸US | vless | @v2logy | 3",
                 "🇸🇪SE | vless | @v2logy | 4",
@@ -843,6 +842,7 @@
                 "🇺🇸US | vless | @Outline_Vpn | 7",
                 "🇺🇸US | vless | @Outline_Vpn | 8",
                 "🇺🇸US | vless | @Outline_Vpn | 9",
+                "🇺🇸US | vless | @Outline_Vpn | 10",
                 "🇸🇪SE | vless | @Outline_Vpn | 11",
                 "🇺🇸US | vless | @Outline_Vpn | 12",
                 "🇺🇸US | vless | @Outline_Vpn | 13",
@@ -2829,7 +2829,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 7",
+            "tag": "🇺🇸US | vless | @melov2ray | 7",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -5143,27 +5143,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_kafee | 0",
-            "type": "vless",
-            "server": "172.67.217.107",
-            "server_port": 80,
-            "uuid": "7143e704-5957-42db-bd38-670062722461",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.217.107"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @v2logy | 2",
             "type": "vless",
             "server": "185.146.173.58",
@@ -6473,6 +6452,27 @@
                 "path": "\/xp1jAIghtP2HpoPV?ed=2560",
                 "headers": {
                     "Host": "mRARsHa-sHAItAANm0Th3rS-iNStincT-ChaLl3nGeRs.PAGES.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @Outline_Vpn | 10",
+            "type": "vless",
+            "server": "172.67.217.107",
+            "server_port": 80,
+            "uuid": "7143e704-5957-42db-bd38-670062722461",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.217.107"
                 }
             }
         },
