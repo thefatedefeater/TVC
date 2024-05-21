@@ -133,7 +133,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 13",
@@ -212,7 +212,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 195",
                 "🇨🇦CA | vless | @customv2ray | 13",
@@ -874,11 +874,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "162.19.25.207",
-            "server_port": 44513,
-            "uuid": "4552bdb6-e008-43ac-926d-c6c6c5a6fc76",
+            "server": "104.26.6.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -888,6 +888,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
+                }
             }
         },
         {
