@@ -106,9 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇫🇷FR | vless | @VlessConfig | 18",
+                "🇬🇧GB | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇸🇪SE | vless | @melov2ray | 10",
                 "🇸🇪SE | vless | @V2pedia | 18",
@@ -141,7 +140,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 13",
-                "🇺🇸US | vless | @DailyV2RY | 91",
+                "🇨🇦CA | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 16",
                 "🇨🇦CA | vless | @proxystore11 | 4",
@@ -168,9 +167,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇫🇷FR | vless | @VlessConfig | 18",
+                "🇬🇧GB | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇸🇪SE | vless | @melov2ray | 10",
                 "🇸🇪SE | vless | @V2pedia | 18",
@@ -203,7 +201,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 13",
-                "🇺🇸US | vless | @DailyV2RY | 91",
+                "🇨🇦CA | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 16",
                 "🇨🇦CA | vless | @proxystore11 | 4",
@@ -246,27 +244,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 11",
-            "type": "vless",
-            "server": "185.146.173.1",
-            "server_port": 80,
-            "uuid": "-Telegram-id-ELiV2ray-",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
-                "headers": {
-                    "Host": "185.146.173.1"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷IR | vless | @NIM_VPN_ir | 1",
             "type": "vless",
             "server": "151.232.68.10",
@@ -281,9 +258,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 18",
+            "tag": "🇬🇧GB | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "52.47.209.152",
+            "server": "3.11.93.130",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1075,7 +1052,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 91",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 91",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8080,
