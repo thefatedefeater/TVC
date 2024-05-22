@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 1",
-                "🇳🇱NL | vless | @proxyymeliii | 22",
+                "🇸🇪SE | vless | @proxyymeliii | 22",
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇺🇸US | vless | @V2RayTz | 16",
@@ -197,7 +197,7 @@
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 1",
-                "🇳🇱NL | vless | @proxyymeliii | 22",
+                "🇸🇪SE | vless | @proxyymeliii | 22",
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇺🇸US | vless | @V2RayTz | 16",
@@ -937,17 +937,24 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @proxyymeliii | 22",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 22",
             "type": "vless",
-            "server": "45.32.185.247",
-            "server_port": 443,
-            "uuid": "c0dd5587-7a55-4aa0-88e9-49e20b87a617",
+            "server": "185.146.173.94",
+            "server_port": 8880,
+            "uuid": "50a4da38-75d0-4396-9811-a149018db6da",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6-TEL—@LIGHTNING6-TEL—@LIGHTNING6-TEL—@LIGHTNING6-JOIN-@LIGHTNING6-TEL—@LIGHTNING6-JOIN-@LIGHTNING6-TEL—@LIGHTNING6-TEL—@LIGHTNING6-JOIN-@LIGHTNING6-TEL—@LIGHTNING6-@LiV2ray",
+                "headers": {
+                    "Host": "185.146.173.94"
+                }
             }
         },
         {
@@ -1226,9 +1233,9 @@
         {
             "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 2095,
-            "uuid": "eafad473-ec88-41e3-bc8b-f46bd423f95a",
+            "server": "join-zedmodeon.kanal-asli-zedmodeon.shop.",
+            "server_port": 80,
+            "uuid": "join--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1238,9 +1245,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
+                "path": "\/@ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON @ZeV2ray",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "join-zedmodeon.kanal-asli-zedmodeon.shop."
                 }
             }
         },
