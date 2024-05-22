@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @Parsashonam | 17",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇸🇪SE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
@@ -182,7 +181,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @Parsashonam | 17",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇸🇪SE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
@@ -272,27 +270,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇪SE | vless | @Parsashonam | 17",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "Parsashonam-71",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
-            }
         },
         {
             "tag": "🇮🇷IR | vless | @NIM_VPN_ir | 1",
