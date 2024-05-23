@@ -280,6 +280,7 @@
                 "🇺🇸US | vless | @DigiV2ray | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @DigiV2ray | 16",
+                "🇺🇸US | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 1",
                 "🇸🇪SE | vless | @v2logy | 2",
@@ -331,7 +332,6 @@
                 "🇺🇸US | vless | @V2rayNGn | 30",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇺🇸US | vless | @Outline_Vpn | 3",
-                "🇺🇸US | vless | @Outline_Vpn | 4",
                 "🇮🇷IR | vless | @Outline_Vpn | 5",
                 "🇺🇸US | vless | @Outline_Vpn | 6",
                 "🇸🇪SE | vless | @Outline_Vpn | 7",
@@ -452,7 +452,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 5",
                 "🇸🇪SE | vless | @V2RayTz | 6",
                 "🇸🇪SE | vless | @V2RayTz | 7",
-                "TVCuyjkolkrvf",
+                "TVCawlkztmfyw",
                 "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇸🇪SE | vless | @V2RayTz | 14",
@@ -777,6 +777,7 @@
                 "🇺🇸US | vless | @DigiV2ray | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @DigiV2ray | 16",
+                "🇺🇸US | vless | @proxy_kafee | 0",
                 "🇺🇸US | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 1",
                 "🇸🇪SE | vless | @v2logy | 2",
@@ -828,7 +829,6 @@
                 "🇺🇸US | vless | @V2rayNGn | 30",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇺🇸US | vless | @Outline_Vpn | 3",
-                "🇺🇸US | vless | @Outline_Vpn | 4",
                 "🇮🇷IR | vless | @Outline_Vpn | 5",
                 "🇺🇸US | vless | @Outline_Vpn | 6",
                 "🇸🇪SE | vless | @Outline_Vpn | 7",
@@ -949,7 +949,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 5",
                 "🇸🇪SE | vless | @V2RayTz | 6",
                 "🇸🇪SE | vless | @V2RayTz | 7",
-                "TVCuyjkolkrvf",
+                "TVCawlkztmfyw",
                 "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇸🇪SE | vless | @V2RayTz | 14",
@@ -5102,7 +5102,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_kafee | 1",
+            "tag": "🇺🇸US | vless | @proxy_kafee | 0",
             "type": "vless",
             "server": "104.16.54.150",
             "server_port": 80,
@@ -5119,6 +5119,27 @@
                 "path": "\/Telegram@NETMelliAnti",
                 "headers": {
                     "Host": "104.16.54.150"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @proxy_kafee | 1",
+            "type": "vless",
+            "server": "172.67.217.107",
+            "server_port": 80,
+            "uuid": "7143e704-5957-42db-bd38-670062722461",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.217.107"
                 }
             }
         },
@@ -6329,27 +6350,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.26.6.95"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @Outline_Vpn | 4",
-            "type": "vless",
-            "server": "172.67.217.107",
-            "server_port": 80,
-            "uuid": "7143e704-5957-42db-bd38-670062722461",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.217.107"
                 }
             }
         },
@@ -9439,7 +9439,7 @@
             }
         },
         {
-            "tag": "TVCuyjkolkrvf",
+            "tag": "TVCawlkztmfyw",
             "type": "vless",
             "server": "",
             "server_port": 0,
