@@ -124,7 +124,6 @@
                 "🇮🇹IT | vmess | @ShadowProxy66 | 2",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 3",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
-                "🇺🇸US | vmess | @DailyV2RY | 107",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -135,8 +134,6 @@
                 "🇮🇷IR | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @Hope_Net | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
-                "🇪🇸ES | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -172,7 +169,6 @@
                 "🇮🇹IT | vmess | @ShadowProxy66 | 2",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 3",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
-                "🇺🇸US | vmess | @DailyV2RY | 107",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -183,8 +179,6 @@
                 "🇮🇷IR | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @Hope_Net | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
-                "🇪🇸ES | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -617,30 +611,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 107",
-            "type": "vmess",
-            "server": "172.66.213.80",
-            "server_port": 2086,
-            "uuid": "ca4c7ab0-d2b6-4881-baee-e28a3cf0ecb9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/armanvip?ed=2053",
-                "headers": {
-                    "Host": "172.66.213.80"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "45.199.138.217",
@@ -917,64 +887,6 @@
                 "path": "\/index?ed=20",
                 "headers": {
                     "Host": "cdncdncdncdn.784654.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "upload.ir",
-            "server_port": 80,
-            "uuid": "085f6281-5c4c-4a34-8b44-d65bc2e2b069",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "upload.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇪🇸ES | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "es-full.privateip.net",
-            "server_port": 443,
-            "uuid": "3dee9636-9663-404d-a9d9-459d9e6d4459",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "es-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "es-full.privateip.net"
                 }
             }
         },
