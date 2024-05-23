@@ -135,11 +135,10 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 3",
+                "🇨🇦CA | vless | @v2ray_swhil | 4",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇨🇦CA | vless | @v2ray1_ng | 7",
                 "🇨🇦CA | vless | @V2RayTz | 16",
-                "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 82",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 19",
@@ -197,11 +196,10 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 3",
+                "🇨🇦CA | vless | @v2ray_swhil | 4",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇨🇦CA | vless | @v2ray1_ng | 7",
                 "🇨🇦CA | vless | @V2RayTz | 16",
-                "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 82",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 19",
@@ -515,7 +513,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
-            "uuid": "ee64e6ff-1a0a-4ecf-af51-3a1f52bf0dfc",
+            "uuid": "30db1fb7-b7fc-464e-a414-53e36e0098a7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -918,7 +916,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 3",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 4",
             "type": "vless",
             "server": "check-host.net",
             "server_port": 80,
@@ -1008,37 +1006,6 @@
                 "path": "\/DIGIV2RAY-DigiV2ray-digiv2ray?ed=1024",
                 "headers": {
                     "Host": "104.18.203.232"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 13",
-            "type": "vless",
-            "server": "172.66.47.2",
-            "server_port": 443,
-            "uuid": "bcf50589-9654-4331-93a6-da896914ec47",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "de4ecf6b.isvphp-4g8.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram.@vlees_v2rayng\/",
-                "headers": {
-                    "Host": "de4ecf6b.isvphp-4g8.pages.dev"
                 }
             }
         },

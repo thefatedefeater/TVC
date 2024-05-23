@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
-                "🇺🇸US | vmess | @vless_vmess | 4",
+                "🇺🇸US | vmess | @vless_vmess | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 7",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 4",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 2"
@@ -125,12 +125,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
-                "🇺🇸US | vmess | @vless_vmess | 4",
+                "🇺🇸US | vmess | @vless_vmess | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 7",
-                "🇺🇸US | vmess | @v2rayng_config_amin | 4",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 2"
@@ -190,11 +190,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
-            "server": "hk.wish.ml",
-            "server_port": 2052,
-            "uuid": "c286daa2-59de-455c-8de8-ec032b6ce2e8",
+            "server": "104.26.6.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -205,11 +205,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
@@ -231,7 +241,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @vless_vmess | 4",
+            "tag": "🇺🇸US | vmess | @vless_vmess | 5",
             "type": "vmess",
             "server": "141.98.168.113",
             "server_port": 8081,
@@ -306,7 +316,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 4",
+            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
