@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇸🇪SE | vless | @EliV2ray | 9",
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇮🇪IE | vless | @VlessConfig | 16",
@@ -147,7 +148,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇺🇸US | vless | @Outlinev2rayNG | 11",
+                "🇺🇸US | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 13",
@@ -168,6 +169,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇸🇪SE | vless | @EliV2ray | 9",
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇮🇪IE | vless | @VlessConfig | 16",
@@ -209,7 +211,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇺🇸US | vless | @Outlinev2rayNG | 11",
+                "🇺🇸US | vless | @Outlinev2rayNG | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 13",
@@ -244,6 +246,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇸🇪SE | vless | @EliV2ray | 9",
+            "type": "vless",
+            "server": "185.146.173.1",
+            "server_port": 80,
+            "uuid": "d5657059-28ce-4646-bebc-aaa7278bb7fc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
+                "headers": {
+                    "Host": "185.146.173.1"
+                }
+            }
         },
         {
             "tag": "🇸🇪SE | vless | @Parsashonam | 13",
@@ -1190,7 +1213,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 11",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
