@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
-                "🇺🇸US | vmess | @vless_vmess | 9",
+                "🇸🇪SE | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 132",
                 "🇨🇦CA | vless | @sinabigo | 4",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 3",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
+                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
                 "🇨🇦CA | vless | @TVCminer | 9"
             ]
         },
@@ -213,7 +213,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 7",
                 "🇨🇦CA | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
-                "🇺🇸US | vmess | @vless_vmess | 9",
+                "🇸🇪SE | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 132",
                 "🇨🇦CA | vless | @sinabigo | 4",
@@ -238,7 +238,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 3",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
+                "🇺🇸US | vless | @TIKTOK_PROXY | 0",
                 "🇨🇦CA | vless | @TVCminer | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -708,7 +708,7 @@
         {
             "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "51.20.197.8",
+            "server": "51.20.173.60",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1146,20 +1146,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @vless_vmess | 9",
-            "type": "vmess",
-            "server": "141.98.168.113",
-            "server_port": 8081,
-            "uuid": "3130521a-2fd4-42c6-9179-dcf433a6d398",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇪SE | vless | @vless_vmess | 9",
+            "type": "vless",
+            "server": "185.146.173.32",
+            "server_port": 80,
+            "uuid": "b0afa5de-9e49-4b59-b757-dde265b98046",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.32"
+                }
             }
         },
         {
@@ -1390,9 +1394,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "198.41.198.76",
             "server_port": 443,
-            "uuid": "83aa2634-96a7-4ee6-aac1-07fd96f1c6c0",
+            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1402,7 +1406,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV",
+                "server_name": "jd.wxgqlfx.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1412,9 +1416,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/?ed=2560",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "aMI-02-SJsD6TExaRobDu76.THIekliNlNT9.WorkErs.dEV"
+                    "Host": "jd.wxgqlfx.top"
                 }
             }
         },
@@ -1792,7 +1796,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
+            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 0",
             "type": "vless",
             "server": "104.16.190.131",
             "server_port": 443,
