@@ -110,8 +110,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 3",
-                "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 3"
             ]
@@ -124,8 +123,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 3",
-                "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 3"
             ],
@@ -193,9 +191,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "172.67.71.160",
+            "server": "visa.com",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "f5f123f8-123e-40bf-b1c1-1c9f0c3dcfbd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,7 +206,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "de3.v2vmess.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -218,9 +216,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "de3.v2vmess.site"
                 }
             }
         },
@@ -259,24 +257,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "183.240.179.207",
-            "server_port": 30127,
-            "uuid": "5bd5899a-4b78-4d75-8570-4d21b43422c4",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
