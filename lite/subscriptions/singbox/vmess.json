@@ -111,9 +111,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @vless_vmess | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇷CR | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
-                "🇨🇦CA | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @v2Line | 8",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 3"
             ]
         },
@@ -126,9 +126,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @vless_vmess | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇷CR | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
-                "🇨🇦CA | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @v2Line | 8",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -278,11 +278,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vmess | @Hope_Net | 8",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "190.93.247.155",
-            "server_port": 80,
-            "uuid": "9055a074-a533-4e90-840b-3004a92ae9c0",
+            "server": "172.64.81.27",
+            "server_port": 443,
+            "uuid": "80e098a1-f768-3dfb-b97f-6c3a5d34bcd8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -293,11 +293,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "172.64.81.27",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/xxX6",
                 "headers": {
-                    "Host": ""
+                    "Host": "172.64.81.27"
                 }
             }
         },
@@ -336,7 +346,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 8",
+            "tag": "🇺🇸US | vmess | @v2Line | 8",
             "type": "vmess",
             "server": "104.21.15.212",
             "server_port": 443,
