@@ -152,12 +152,13 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇮🇳IN | vmess | @Hope_Net | 9",
                 "🇸🇪SE | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇸🇪SE | vless | @flyv2ray | 13",
@@ -224,12 +225,13 @@
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇮🇳IN | vmess | @Hope_Net | 9",
                 "🇸🇪SE | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @Capoit | 15",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇸🇪SE | vless | @flyv2ray | 13",
@@ -1352,11 +1354,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
+            "tag": "🇮🇳IN | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "505.outline-vpn.cloud",
+            "server": "in-full.privateip.net",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "a2081592-fb7a-4b0a-b93b-33ddf0825410",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1369,7 +1371,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kellie.makeup",
+                "server_name": "in-full.privateip.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1379,9 +1381,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "kellie.makeup"
+                    "Host": "in-full.privateip.net"
                 }
             }
         },
@@ -1469,6 +1471,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
+            "type": "vmess",
+            "server": "505.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kellie.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kellie.makeup"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
@@ -1498,7 +1534,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 7",
+            "tag": "🇨🇦CA | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "188.114.97.3",
             "server_port": 443,
