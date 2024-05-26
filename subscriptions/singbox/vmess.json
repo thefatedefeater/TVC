@@ -114,11 +114,12 @@
                 "🇨🇳CN | vmess | @mftizi | 13",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
-                "🇨🇷CR | vmess | @oneclickvpnkeys | 1",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 2",
-                "🇸🇪SE | vmess | @oneclickvpnkeys | 3",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 1",
+                "🇨🇷CR | vmess | @oneclickvpnkeys | 2",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+                "🇸🇪SE | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @customv2ray | 6",
                 "🇺🇸US | vmess | @ShadowProxy66 | 3",
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
@@ -136,7 +137,6 @@
                 "🏳️XX | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @Hope_Net | 8",
-                "🏳️XX | vmess | @Hope_Net | 9",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 2",
@@ -161,11 +161,12 @@
                 "🇨🇳CN | vmess | @mftizi | 13",
                 "🇨🇳CN | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
-                "🇨🇷CR | vmess | @oneclickvpnkeys | 1",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 2",
-                "🇸🇪SE | vmess | @oneclickvpnkeys | 3",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 1",
+                "🇨🇷CR | vmess | @oneclickvpnkeys | 2",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+                "🇸🇪SE | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @customv2ray | 6",
                 "🇺🇸US | vmess | @ShadowProxy66 | 3",
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
@@ -183,7 +184,6 @@
                 "🏳️XX | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @Hope_Net | 8",
-                "🏳️XX | vmess | @Hope_Net | 9",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 2",
@@ -358,6 +358,30 @@
         {
             "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 0",
             "type": "vmess",
+            "server": "p1.v2raybrasil.cloud",
+            "server_port": 2052,
+            "uuid": "60bcbd52-0c88-4da3-aee2-cc1f9d5ca224",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 1",
+            "type": "vmess",
             "server": "caretaker.com",
             "server_port": 443,
             "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
@@ -390,7 +414,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vmess | @oneclickvpnkeys | 1",
+            "tag": "🇨🇷CR | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
             "server": "190.93.247.155",
             "server_port": 80,
@@ -414,7 +438,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
             "server": "172.67.131.108",
             "server_port": 443,
@@ -448,7 +472,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
             "server": "web.mobilemostafa.ir",
             "server_port": 8080,
@@ -472,7 +496,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "104.21.15.36",
             "server_port": 443,
@@ -506,7 +530,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "104.26.6.65",
             "server_port": 443,
@@ -1074,40 +1098,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "de3.v2vmess.site"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "app.ssfree.ru",
-            "server_port": 443,
-            "uuid": "51433202-dca8-11ec-a58f-000017022008",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "app.ssfree.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/getweather",
-                "headers": {
-                    "Host": "app.ssfree.ru"
                 }
             }
         },
