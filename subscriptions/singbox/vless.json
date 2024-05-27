@@ -216,7 +216,6 @@
                 "🇸🇪SE | vless | @rxv2ray | 3",
                 "🇸🇪SE | vless | @rxv2ray | 5",
                 "🇸🇪SE | vless | @rxv2ray | 7",
-                "🇸🇪SE | vless | @rxv2ray | 9",
                 "🇸🇪SE | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @free_v2rayyy | 10",
                 "🇸🇪SE | vless | @free_v2rayyy | 11",
@@ -265,6 +264,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 13",
                 "🇺🇸US | vless | @DigiV2ray | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 15",
+                "🇨🇳CN | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 2",
                 "🇸🇪SE | vless | @v2logy | 3",
                 "🇸🇪SE | vless | @v2logy | 4",
@@ -437,7 +437,7 @@
                 "🇺🇸US | vless | @V2RayTz | 7",
                 "🇸🇪SE | vless | @V2RayTz | 8",
                 "🇸🇪SE | vless | @V2RayTz | 9",
-                "TVCcfrlgyuraf",
+                "TVCigwqfovhqt",
                 "🇺🇸US | vless | @V2RayTz | 11",
                 "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇸🇪SE | vless | @V2RayTz | 13",
@@ -713,7 +713,6 @@
                 "🇸🇪SE | vless | @rxv2ray | 3",
                 "🇸🇪SE | vless | @rxv2ray | 5",
                 "🇸🇪SE | vless | @rxv2ray | 7",
-                "🇸🇪SE | vless | @rxv2ray | 9",
                 "🇸🇪SE | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @free_v2rayyy | 10",
                 "🇸🇪SE | vless | @free_v2rayyy | 11",
@@ -762,6 +761,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 13",
                 "🇺🇸US | vless | @DigiV2ray | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 15",
+                "🇨🇳CN | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 2",
                 "🇸🇪SE | vless | @v2logy | 3",
                 "🇸🇪SE | vless | @v2logy | 4",
@@ -934,7 +934,7 @@
                 "🇺🇸US | vless | @V2RayTz | 7",
                 "🇸🇪SE | vless | @V2RayTz | 8",
                 "🇸🇪SE | vless | @V2RayTz | 9",
-                "TVCcfrlgyuraf",
+                "TVCigwqfovhqt",
                 "🇺🇸US | vless | @V2RayTz | 11",
                 "🇸🇪SE | vless | @V2RayTz | 12",
                 "🇸🇪SE | vless | @V2RayTz | 13",
@@ -3654,27 +3654,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @rxv2ray | 9",
-            "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 80,
-            "uuid": "a7db2930-f5c7-40a8-a8db-fd418415028b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/rxv2ray-rxv2ray-rxv2ray-rxv2ray",
-                "headers": {
-                    "Host": "185.146.173.237"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @free_v2rayyy | 8",
             "type": "vless",
             "server": "185.146.173.58",
@@ -4723,6 +4702,27 @@
                 "path": "\/DIGIV2RAY-DigiV2ray-digiv2ray?ed=1024",
                 "headers": {
                     "Host": "185.146.173.22"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vless | @proxy_kafee | 1",
+            "type": "vless",
+            "server": "103.184.45.119",
+            "server_port": 8880,
+            "uuid": "cdc61aa3-0353-4753-9c64-1c8fd3f3d79c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "headers": {
+                    "Host": "103.184.45.119"
                 }
             }
         },
@@ -8990,7 +8990,7 @@
             }
         },
         {
-            "tag": "TVCcfrlgyuraf",
+            "tag": "TVCigwqfovhqt",
             "type": "vless",
             "server": "",
             "server_port": 0,
