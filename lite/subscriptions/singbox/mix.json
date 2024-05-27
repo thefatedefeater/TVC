@@ -151,18 +151,17 @@
                 "🇨🇦CA | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 28",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 16",
+                "🇸🇪SE | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vmess | @Hope_Net | 3",
                 "🇸🇪SE | vless | @polproxy | 9",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vmess | @v2Line | 7",
-                "🇨🇦CA | vless | @Capoit | 14",
+                "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇩🇪DE | vless | @flyv2ray | 14",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
@@ -228,18 +227,17 @@
                 "🇨🇦CA | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 28",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 16",
+                "🇸🇪SE | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vmess | @Hope_Net | 3",
                 "🇸🇪SE | vless | @polproxy | 9",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vmess | @v2Line | 7",
-                "🇨🇦CA | vless | @Capoit | 14",
+                "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇩🇪DE | vless | @flyv2ray | 14",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
@@ -1337,12 +1335,12 @@
             }
         },
         {
-            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 16",
+            "tag": "🇸🇪SE | ss | @OutlineVpnOfficial | 16",
             "type": "shadowsocks",
-            "server": "51.77.53.200",
-            "server_port": 7002,
-            "method": "aes-256-gcm",
-            "password": "RexnBgU7EV5ADxG",
+            "server": "217.196.103.206",
+            "server_port": 29312,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qgpdyzHj8rZW9fDxxkUHRI",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -1488,11 +1486,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 14",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-uim",
+            "server": "104.21.74.214",
+            "server_port": 2082,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1502,9 +1500,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "104.21.74.214"
                 }
             }
         },
@@ -1593,7 +1591,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 7",
+            "tag": "🇨🇦CA | vmess | @v2Line | 8",
             "type": "vmess",
             "server": "104.26.6.65",
             "server_port": 443,
@@ -1623,27 +1621,6 @@
                 "path": "\/ivideos.sbs\/linkws",
                 "headers": {
                     "Host": "mikasa.yaemiko.cloudns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @Capoit | 14",
-            "type": "vless",
-            "server": "104.21.74.214",
-            "server_port": 2082,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.74.214"
                 }
             }
         },
