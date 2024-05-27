@@ -110,7 +110,7 @@
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
-                "🇨🇦CA | vless | @melov2ray | 4",
+                "🇸🇪SE | vless | @melov2ray | 5",
                 "🇸🇪SE | vless | @V2pedia | 8",
                 "🇮🇷IR | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 20",
@@ -138,7 +138,7 @@
                 "🇨🇦CA | vless | @vmessorg | 7",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 13",
+                "🇸🇪SE | vmess | @ShadowProxy66 | 25",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -186,7 +186,7 @@
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
-                "🇨🇦CA | vless | @melov2ray | 4",
+                "🇸🇪SE | vless | @melov2ray | 5",
                 "🇸🇪SE | vless | @V2pedia | 8",
                 "🇮🇷IR | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 20",
@@ -214,7 +214,7 @@
                 "🇨🇦CA | vless | @vmessorg | 7",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 13",
+                "🇸🇪SE | vmess | @ShadowProxy66 | 25",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -361,11 +361,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 4",
+            "tag": "🇸🇪SE | vless | @melov2ray | 5",
             "type": "vless",
-            "server": "www.visa.com",
+            "server": "185.146.173.57",
             "server_port": 8080,
-            "uuid": "c4ddd3a5-3b30-4aff-a9e9-328cbbffa3de",
+            "uuid": "68346de6-ac93-46f6-82a6-d1c4a22435bd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -377,7 +377,7 @@
                 "type": "ws",
                 "path": "\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray",
                 "headers": {
-                    "Host": "www.visa.com"
+                    "Host": "185.146.173.57"
                 }
             }
         },
@@ -1026,11 +1026,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 13",
+            "tag": "🇸🇪SE | vmess | @ShadowProxy66 | 25",
             "type": "vmess",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "server": "185.146.173.32",
+            "server_port": 2052,
+            "uuid": "76b32e0a-2338-40f6-9090-9e440ca91afc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1041,21 +1041,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/index.php\/SeYeDMT",
                 "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
+                    "Host": ""
                 }
             }
         },
