@@ -138,11 +138,10 @@
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
-                "🇨🇦CA | vless | @proxyymeliii | 19",
+                "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 28",
@@ -203,11 +202,10 @@
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
-                "🇨🇦CA | vless | @proxyymeliii | 19",
+                "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 28",
@@ -987,11 +985,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 19",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 18",
             "type": "vless",
-            "server": "cw.ni-ham.info",
+            "server": "ch.ni-ham.info",
             "server_port": 2082,
-            "uuid": "4fdff01f-936b-4eb0-85fb-efd832b823f2",
+            "uuid": "322db250-c302-4e0c-a110-b5ecb0954a51",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1003,7 +1001,7 @@
                 "type": "ws",
                 "path": "\/?ed=2087",
                 "headers": {
-                    "Host": "cw.ni-ham.info"
+                    "Host": "ch.ni-ham.info"
                 }
             }
         },
@@ -1077,27 +1075,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "188.114.98.224"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 19",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "0a6f7794-4dd9-47df-858f-d2ebf666b551",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@custom_config",
-                "headers": {
-                    "Host": "zula.ir"
                 }
             }
         },

@@ -146,11 +146,11 @@
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
-                "🇨🇦CA | vless | @proxyymeliii | 19",
+                "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 19",
+                "🇸🇬SG | trojan | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 28",
@@ -225,11 +225,11 @@
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
-                "🇨🇦CA | vless | @proxyymeliii | 19",
+                "🇨🇦CA | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 19",
+                "🇸🇬SG | trojan | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 28",
@@ -792,7 +792,7 @@
         {
             "tag": "🇸🇪SE | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "13.51.18.103",
+            "server": "13.50.29.243",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1194,11 +1194,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 19",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 18",
             "type": "vless",
-            "server": "cw.ni-ham.info",
+            "server": "ch.ni-ham.info",
             "server_port": 2082,
-            "uuid": "4fdff01f-936b-4eb0-85fb-efd832b823f2",
+            "uuid": "322db250-c302-4e0c-a110-b5ecb0954a51",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1210,7 +1210,7 @@
                 "type": "ws",
                 "path": "\/?ed=2087",
                 "headers": {
-                    "Host": "cw.ni-ham.info"
+                    "Host": "ch.ni-ham.info"
                 }
             }
         },
@@ -1288,23 +1288,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 19",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "0a6f7794-4dd9-47df-858f-d2ebf666b551",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇸🇬SG | trojan | @VmessProtocol | 19",
+            "type": "trojan",
+            "server": "8.219.83.201",
+            "server_port": 2083,
+            "password": "NISHIKUITAN222",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "t226.ylks.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@custom_config",
+                "path": "\/",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "t226.ylks.link"
                 }
             }
         },
