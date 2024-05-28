@@ -109,9 +109,9 @@
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
-                "🇸🇪SE | vmess | @v2ray1_ng | 5",
+                "🇸🇪SE | vmess | @v2ray1_ng | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
@@ -126,9 +126,9 @@
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
-                "🇸🇪SE | vmess | @v2ray1_ng | 5",
+                "🇸🇪SE | vmess | @v2ray1_ng | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
@@ -221,11 +221,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
             "type": "vmess",
-            "server": "188.114.98.11",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "server": "104.21.1.28",
+            "server_port": 8880,
+            "uuid": "4b5e4565-322f-4223-a891-78a84f189726",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -236,21 +236,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
+                "path": "\/XSjeg73o6ZdsheahCb5JG",
                 "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
+                    "Host": "104.21.1.28"
                 }
             }
         },
@@ -272,7 +262,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @v2ray1_ng | 5",
+            "tag": "🇸🇪SE | vmess | @v2ray1_ng | 6",
             "type": "vmess",
             "server": "185.146.173.94",
             "server_port": 80,
