@@ -142,6 +142,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇳🇴NO | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 89",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
@@ -204,6 +205,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇳🇴NO | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 89",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
@@ -1081,6 +1083,35 @@
                 "path": "\/VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM,VMESSKHODAM",
                 "headers": {
                     "Host": "72.morgensport.nl"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇴NO | vless | @VmessProtocol | 19",
+            "type": "vless",
+            "server": "185.125.171.13",
+            "server_port": 443,
+            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "partner.g2.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
