@@ -139,9 +139,10 @@
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
-                "🇸🇪SE | vless | @proxyymeliii | 18",
+                "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 9",
+                "🇺🇸US | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 54",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
@@ -151,7 +152,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 11",
-                "🇨🇦CA | vless | @FreakConfig | 8",
+                "🇺🇸US | vless | @FreakConfig | 8",
                 "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 10",
@@ -201,9 +202,10 @@
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
-                "🇸🇪SE | vless | @proxyymeliii | 18",
+                "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 9",
+                "🇺🇸US | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 54",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
@@ -213,7 +215,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 11",
-                "🇨🇦CA | vless | @FreakConfig | 8",
+                "🇺🇸US | vless | @FreakConfig | 8",
                 "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 10",
@@ -995,11 +997,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 18",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 17",
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
-            "uuid": "8c635a09-6061-4e35-a718-ee31746cfd81",
+            "uuid": "e68304b5-1b6f-4de5-97b0-0b478aefe1d6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1009,7 +1011,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
                 "headers": {
                     "Host": "LIGHTNING6-joinbed.filj.top"
                 }
@@ -1054,6 +1056,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "185.146.173.9"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @VmessProtocol | 19",
+            "type": "vless",
+            "server": "162.159.252.236",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1276,7 +1309,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 8",
+            "tag": "🇺🇸US | vless | @FreakConfig | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
