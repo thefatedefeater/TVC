@@ -125,13 +125,12 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇸🇪SE | vless | @ProxyForOpeta | 2",
+                "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 37",
                 "🇮🇪IE | trojan | @PrivateVPNs | 17",
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇳🇱NL | trojan | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 181",
@@ -155,7 +154,7 @@
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 6",
+                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 4",
@@ -163,7 +162,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @Capoit | 13",
-                "🇺🇸US | vless | @FreakConfig | 8",
+                "🇨🇦CA | vless | @FreakConfig | 8",
                 "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇮🇷IR | ss | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @mehrosaboran | 6",
@@ -202,13 +201,12 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇸🇪SE | vless | @ProxyForOpeta | 2",
+                "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 37",
                 "🇮🇪IE | trojan | @PrivateVPNs | 17",
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇳🇱NL | trojan | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 181",
@@ -232,7 +230,7 @@
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 6",
+                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 4",
@@ -240,7 +238,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @Capoit | 13",
-                "🇺🇸US | vless | @FreakConfig | 8",
+                "🇨🇦CA | vless | @FreakConfig | 8",
                 "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇮🇷IR | ss | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @mehrosaboran | 6",
@@ -698,7 +696,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ProxyForOpeta | 2",
+            "tag": "🇸🇪SE | vless | @ProxyForOpeta | 3",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 2095,
@@ -821,40 +819,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "104.16.60.8",
-            "server_port": 2083,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linde06.indiavideo.sbs\/linkws",
-                "headers": {
-                    "Host": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev"
                 }
             }
         },
@@ -1394,7 +1358,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @Hope_Net | 6",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "129.226.213.241",
             "server_port": 24824,
@@ -1434,9 +1398,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "198.41.198.76",
+            "server": "104.16.80.131",
             "server_port": 443,
-            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1446,7 +1410,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jd.wxgqlfx.top",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1456,9 +1420,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/SiNABiGO-SiNABiGO?ed",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "jd.wxgqlfx.top"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1622,7 +1586,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 8",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
