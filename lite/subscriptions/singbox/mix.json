@@ -157,12 +157,13 @@
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇦CA | vless | @FreakConfig | 10",
+                "🇨🇦CA | vless | @Capoit | 15",
+                "🇺🇸US | vless | @FreakConfig | 11",
                 "🇩🇪DE | vless | @flyv2ray | 17",
                 "🇮🇷IR | ss | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
@@ -233,12 +234,13 @@
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 12",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇦CA | vless | @FreakConfig | 10",
+                "🇨🇦CA | vless | @Capoit | 15",
+                "🇺🇸US | vless | @FreakConfig | 11",
                 "🇩🇪DE | vless | @flyv2ray | 17",
                 "🇮🇷IR | ss | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
@@ -1418,11 +1420,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 12",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 11",
             "type": "vless",
-            "server": "104.21.74.214",
-            "server_port": 2082,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "server": "185.146.173.94",
+            "server_port": 80,
+            "uuid": "50150a3d-7654-48d8-ab90-d743e8f6a76f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1432,9 +1434,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/",
+                "path": "\/vless",
                 "headers": {
-                    "Host": "104.21.74.214"
+                    "Host": "185.146.173.94"
                 }
             }
         },
@@ -1567,7 +1569,28 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 10",
+            "tag": "🇨🇦CA | vless | @Capoit | 15",
+            "type": "vless",
+            "server": "104.21.74.214",
+            "server_port": 2082,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-@V2ray_Alpha\/",
+                "headers": {
+                    "Host": "104.21.74.214"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @FreakConfig | 11",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
