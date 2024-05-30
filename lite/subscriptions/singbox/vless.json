@@ -137,13 +137,14 @@
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
-                "🇸🇪SE | vless | @proxyymeliii | 22",
+                "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇨🇦CA | vless | @v2ray1_ng | 7",
                 "🇬🇧GB | vless | @vless_vmess | 7",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 36",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 111",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇩🇪DE | vless | @lrnbymaa | 29",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 7",
@@ -197,13 +198,14 @@
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
-                "🇸🇪SE | vless | @proxyymeliii | 22",
+                "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇨🇦CA | vless | @v2ray1_ng | 7",
                 "🇬🇧GB | vless | @vless_vmess | 7",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 36",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 111",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇩🇪DE | vless | @lrnbymaa | 29",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 7",
@@ -394,7 +396,7 @@
         {
             "tag": "🇸🇪SE | vless | @ARv2ray | 19",
             "type": "vless",
-            "server": "185.146.173.94",
+            "server": "185.146.173.158",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -408,7 +410,7 @@
                 "type": "ws",
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "185.146.173.94"
+                    "Host": "185.146.173.158"
                 }
             }
         },
@@ -678,7 +680,7 @@
             "type": "vless",
             "server": "Join--VPNCUSTOMIZE.V2ray.re",
             "server_port": 8080,
-            "uuid": "VPNCUSTOMIZE",
+            "uuid": "VPNCUSTOMiZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -949,11 +951,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 22",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 21",
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
-            "uuid": "ce0ad39c-2a99-4202-af36-f756776982b0",
+            "uuid": "ee42a5a0-456a-4d08-812d-019a9eb6cbab",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1105,6 +1107,27 @@
                 "path": "\/Telegram@SiNABiGO\/?ed=2560",
                 "headers": {
                     "Host": "jAVidSHAH-aRiaMeHR.pagEs.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @lrnbymaa | 29",
+            "type": "vless",
+            "server": "Join--VPNCUSTOMIZE.V2ray.re",
+            "server_port": 8080,
+            "uuid": "VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "Join--VPNCUSTOMIZE.V2ray.re"
                 }
             }
         },
