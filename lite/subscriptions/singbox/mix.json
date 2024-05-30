@@ -109,7 +109,6 @@
                 "🇸🇪SE | vless | @Parsashonam | 15",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇮🇪IE | vless | @VlessConfig | 15",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 24",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @V2pedia | 14",
@@ -120,11 +119,12 @@
                 "🇸🇪SE | vless | @rxv2ray | 3",
                 "🇸🇪SE | vless | @free_v2rayyy | 14",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇸🇪SE | vless | @proxy_kafee | 0",
                 "🇨🇦CA | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @V2rayNGn | 36",
                 "🇮🇪IE | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 4",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇫🇷FR | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 7",
@@ -183,7 +183,6 @@
                 "🇸🇪SE | vless | @Parsashonam | 15",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇮🇪IE | vless | @VlessConfig | 15",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 24",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @V2pedia | 14",
@@ -194,11 +193,12 @@
                 "🇸🇪SE | vless | @rxv2ray | 3",
                 "🇸🇪SE | vless | @free_v2rayyy | 14",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇸🇪SE | vless | @proxy_kafee | 0",
                 "🇨🇦CA | vless | @v2logy | 15",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @V2rayNGn | 36",
                 "🇮🇪IE | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @proxystore11 | 4",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇫🇷FR | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 7",
@@ -332,27 +332,6 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 24",
-            "type": "vless",
-            "server": "telegram-VPNCUSTOMIZE.kellekcollection.com",
-            "server_port": 8080,
-            "uuid": "bbf2f191-fd7c-4a2a-ad09-ca5daa745b21",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re",
-                "headers": {
-                    "Host": "telegram-VPNCUSTOMIZE.kellekcollection.com"
                 }
             }
         },
@@ -577,7 +556,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
+            "tag": "🇨🇦CA | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -698,6 +677,27 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "7f905f51.garywelch.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ProxyForOpeta | 3",
+            "type": "vless",
+            "server": "telegram-VPNCUSTOMIZE.kellekcollection.com",
+            "server_port": 8080,
+            "uuid": "bbf2f191-fd7c-4a2a-ad09-ca5daa745b21",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re",
+                "headers": {
+                    "Host": "telegram-VPNCUSTOMIZE.kellekcollection.com"
                 }
             }
         },
@@ -1297,7 +1297,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -1388,9 +1388,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 7",
             "type": "vless",
-            "server": "104.21.74.214",
-            "server_port": 2082,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "server": "ch.ni-ham.info",
+            "server_port": 2053,
+            "uuid": "6d25b46e-ee2e-483e-8d52-0b219d5c1690",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1398,11 +1398,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ajghg.f-vipo.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2087",
                 "headers": {
-                    "Host": "104.21.74.214"
+                    "Host": "ajghg.f-vipo.ir"
                 }
             }
         },
