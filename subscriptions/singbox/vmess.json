@@ -113,8 +113,9 @@
                 "🇨🇳CN | vmess | @mftizi | 8",
                 "🇺🇸US | vmess | @mftizi | 16",
                 "🇨🇳CN | vmess | @mftizi | 17",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 2",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 10",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 4",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 8",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
@@ -141,7 +142,7 @@
                 "🇩🇪DE | vmess | @ShadowProxy66 | 27",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇩🇪DE | vmess | @proxyymeliii | 13",
-                "🇮🇷IR | vmess | @vmess_vless_v2rayng | 30",
+                "🇮🇷IR | vmess | @vmess_vless_v2rayng | 33",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -177,8 +178,9 @@
                 "🇨🇳CN | vmess | @mftizi | 8",
                 "🇺🇸US | vmess | @mftizi | 16",
                 "🇨🇳CN | vmess | @mftizi | 17",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 2",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 10",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 4",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 8",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
@@ -205,7 +207,7 @@
                 "🇩🇪DE | vmess | @ShadowProxy66 | 27",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇩🇪DE | vmess | @proxyymeliii | 13",
-                "🇮🇷IR | vmess | @vmess_vless_v2rayng | 30",
+                "🇮🇷IR | vmess | @vmess_vless_v2rayng | 33",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -390,7 +392,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 2",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 4",
+            "type": "vmess",
+            "server": "188.114.98.39",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 8",
             "type": "vmess",
             "server": "104.16.61.8",
             "server_port": 2083,
@@ -424,7 +460,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 10",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 16",
             "type": "vmess",
             "server": "104.18.203.232",
             "server_port": 80,
@@ -1139,7 +1175,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @vmess_vless_v2rayng | 30",
+            "tag": "🇮🇷IR | vmess | @vmess_vless_v2rayng | 33",
             "type": "vmess",
             "server": "188.75.92.107",
             "server_port": 12077,
