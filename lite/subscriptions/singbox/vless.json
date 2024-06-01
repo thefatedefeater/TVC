@@ -142,6 +142,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 5",
+                "🇩🇪DE | vless | @lrnbymaa | 30",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -202,6 +203,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 142",
                 "🇨🇦CA | vless | @sinabigo | 5",
+                "🇩🇪DE | vless | @lrnbymaa | 30",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -1080,6 +1082,27 @@
                 "path": "\/Telegram@SiNABiGO?ed=2560",
                 "headers": {
                     "Host": "kingOfIRaN.Pages.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @lrnbymaa | 30",
+            "type": "vless",
+            "server": "Join--VPNCUSTOMIZE.V2ray.re",
+            "server_port": 8080,
+            "uuid": "Join-VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "Join--VPNCUSTOMIZE.V2ray.re"
                 }
             }
         },
