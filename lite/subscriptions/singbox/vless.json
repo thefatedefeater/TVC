@@ -118,11 +118,11 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 17",
                 "🇸🇪SE | vless | @lightning6 | 16",
-                "🇨🇦CA | vless | @V2rayNGmat | 6",
+                "🇺🇸US | vless | @V2rayNGmat | 6",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 34",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
@@ -151,7 +151,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 20",
-                "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇨🇷CR | vless | @flyv2ray | 15",
                 "🇺🇸US | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇺🇸US | vless | @kiava | 9",
@@ -181,11 +181,11 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 17",
                 "🇸🇪SE | vless | @lightning6 | 16",
-                "🇨🇦CA | vless | @V2rayNGmat | 6",
+                "🇺🇸US | vless | @V2rayNGmat | 6",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 34",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
@@ -214,7 +214,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 20",
-                "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇨🇷CR | vless | @flyv2ray | 15",
                 "🇺🇸US | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇺🇸US | vless | @kiava | 9",
@@ -513,7 +513,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 6",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 6",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -597,7 +597,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1310,11 +1310,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 15",
+            "tag": "🇨🇷CR | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "185.146.173.9",
-            "server_port": 2095,
-            "uuid": "5d8ac060-9bd3-4af1-b225-328672f9518f",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "ccb9a489-16b6-4377-8a8b-ff829c1f5bc4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1322,11 +1322,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "V.snaapfood.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.9"
+                    "Host": "V.snaapfood.org"
                 }
             }
         },
