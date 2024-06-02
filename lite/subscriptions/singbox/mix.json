@@ -118,11 +118,11 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 6",
+                "🇺🇸US | vless | @V2rayNGmat | 6",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇨🇦CA | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 34",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -153,7 +153,7 @@
                 "🇩🇪DE | vless | @lrnbymaa | 29",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
@@ -193,11 +193,11 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 6",
+                "🇺🇸US | vless | @V2rayNGmat | 6",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇨🇦CA | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 34",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
@@ -228,7 +228,7 @@
                 "🇩🇪DE | vless | @lrnbymaa | 29",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
@@ -537,7 +537,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 6",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 6",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -631,7 +631,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1363,11 +1363,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "185.146.173.92",
-            "server_port": 80,
-            "uuid": "3a71b42c-66d2-44ad-8a80-668d4f4339ea",
+            "server": "188.114.99.134",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1378,11 +1378,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
