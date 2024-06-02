@@ -129,13 +129,13 @@
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
+                "🇮🇷IR | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇩🇪DE | vless | @prrofile_purple | 187",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 9",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 16",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 18",
                 "🇺🇸US | vmess | @ShadowProxy66 | 29",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
@@ -156,7 +156,7 @@
                 "🇸🇬SG | vmess | @Hope_Net | 9",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -174,7 +174,7 @@
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 0",
-                "🇸🇪SE | vless | @TVCminer | 19"
+                "🇸🇪SE | vless | @TVCminer | 18"
             ]
         },
         {
@@ -204,13 +204,13 @@
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
+                "🇮🇷IR | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇩🇪DE | vless | @prrofile_purple | 187",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 9",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 16",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 18",
                 "🇺🇸US | vmess | @ShadowProxy66 | 29",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
@@ -231,7 +231,7 @@
                 "🇸🇬SG | vmess | @Hope_Net | 9",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -249,7 +249,7 @@
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5",
                 "🇺🇸US | vless | @TIKTOK_PROXY | 0",
-                "🇸🇪SE | vless | @TVCminer | 19"
+                "🇸🇪SE | vless | @TVCminer | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -772,11 +772,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇮🇷IR | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "91.107.130.229",
-            "server_port": 35262,
-            "uuid": "2d5e5a73-8fa1-4c43-b67f-c0211ba34a03",
+            "server": "31.47.51.229",
+            "server_port": 11002,
+            "uuid": "d2c7b321-5e48-4d28-80e2-f64c6ddfad96",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -786,6 +786,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -904,7 +911,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 16",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 18",
             "type": "vless",
             "server": "104.16.80.131",
             "server_port": 443,
@@ -1432,7 +1439,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 14",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
             "type": "vless",
             "server": "ch.ni-ham.info",
             "server_port": 2053,
@@ -1904,11 +1911,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @TVCminer | 19",
+            "tag": "🇸🇪SE | vless | @TVCminer | 18",
             "type": "vless",
             "server": "185.146.173.94",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server_port": 2095,
+            "uuid": "f0d3f757-2d77-4e18-b217-074a14354889",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1918,7 +1925,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/",
                 "headers": {
                     "Host": "185.146.173.94"
                 }
