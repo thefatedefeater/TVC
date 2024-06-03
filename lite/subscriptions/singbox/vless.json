@@ -110,6 +110,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇫🇷FR | vless | @VlessConfig | 17",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇸🇪SE | vless | @melov2ray | 9",
                 "🇨🇦CA | vless | @frev2ray | 0",
@@ -117,12 +118,12 @@
                 "🇨🇷CR | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @lightning6 | 18",
-                "🇺🇸US | vless | @V2rayNGmat | 6",
+                "🇨🇦CA | vless | @V2rayNGmat | 6",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 30",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
@@ -143,7 +144,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 63",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 27",
-                "🇨🇦CA | vless | @fnet00 | 1",
+                "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -171,6 +172,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇫🇷FR | vless | @VlessConfig | 17",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇸🇪SE | vless | @melov2ray | 9",
                 "🇨🇦CA | vless | @frev2ray | 0",
@@ -178,12 +180,12 @@
                 "🇨🇷CR | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @lightning6 | 18",
-                "🇺🇸US | vless | @V2rayNGmat | 6",
+                "🇨🇦CA | vless | @V2rayNGmat | 6",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 30",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
@@ -204,7 +206,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 63",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 27",
-                "🇨🇦CA | vless | @fnet00 | 1",
+                "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -302,7 +304,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "13.39.173.10",
+            "server": "35.181.238.163",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -327,6 +329,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
+            "type": "vless",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "ff49a775-a816-4d46-b07c-30645642e5e2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
             }
         },
@@ -498,7 +521,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 6",
+            "tag": "🇨🇦CA | vless | @V2rayNGmat | 6",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -563,9 +586,9 @@
         {
             "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
             "type": "vless",
-            "server": "104.20.66.92",
+            "server": "www.visa.com.sg",
             "server_port": 80,
-            "uuid": "SVNTEAM",
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -575,9 +598,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d%40%53%76nTea%6d",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "104.20.66.92"
+                    "Host": "www.visa.com.sg"
                 }
             }
         },
@@ -603,7 +626,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1145,7 +1168,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 1",
+            "tag": "🇺🇸US | vless | @fnet00 | 1",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
