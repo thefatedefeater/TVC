@@ -130,6 +130,7 @@
                 "🇩🇪DE | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
+                "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇸🇪SE | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -139,7 +140,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 1",
                 "🇨🇦CA | vless | @vless_vmess | 6",
                 "🇫🇮FI | vless | @vmess_vless_v2rayng | 44",
-                "🇱🇹LT | vless | @V2RayTz | 8",
+                "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇺🇸US | vless | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 94",
                 "🇨🇦CA | vless | @sinabigo | 4",
@@ -192,6 +193,7 @@
                 "🇩🇪DE | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
+                "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇸🇪SE | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -201,7 +203,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 1",
                 "🇨🇦CA | vless | @vless_vmess | 6",
                 "🇫🇮FI | vless | @vmess_vless_v2rayng | 44",
-                "🇱🇹LT | vless | @V2RayTz | 8",
+                "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇺🇸US | vless | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 94",
                 "🇨🇦CA | vless | @sinabigo | 4",
@@ -783,6 +785,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 6",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@SiNABiGO\/",
+                "headers": {
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @ServerNett | 10",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1015,11 +1048,11 @@
             }
         },
         {
-            "tag": "🇱🇹LT | vless | @V2RayTz | 8",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 11",
             "type": "vless",
-            "server": "86.38.214.170",
-            "server_port": 2087,
-            "uuid": "%33%32%39%61%34%37%33%35%2d%39%64%31%34%2d%34%66%62%61%2d%62%38%62%63%2d%35%63%63%66%38%62%63%34%38%38%63%63",
+            "server": "185.146.173.94",
+            "server_port": 2095,
+            "uuid": "%2d%2d%2d%2d%2d%44%49%47%49%56%32%52%41%79%2d%2d%2d%2d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1027,21 +1060,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "LiV2rayc.yoyoyo.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "LiV2rayc.yoyoyo.ir"
+                    "Host": "185.146.173.94"
                 }
             }
         },
