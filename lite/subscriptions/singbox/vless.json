@@ -118,12 +118,12 @@
                 "🇨🇷CR | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 8",
+                "🇺🇸US | vless | @V2rayNGmat | 8",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇩🇪DE | vless | @V2rayNGn | 30",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
@@ -137,7 +137,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 13",
                 "🇩🇪DE | vless | @MsV2ray | 11",
-                "🇮🇷IR | vless | @vless_vmess | 8",
+                "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 46",
                 "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇺🇸US | vless | @VmessProtocol | 17",
@@ -180,12 +180,12 @@
                 "🇨🇷CR | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 8",
+                "🇺🇸US | vless | @V2rayNGmat | 8",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇩🇪DE | vless | @V2rayNGn | 30",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
@@ -199,7 +199,7 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 13",
                 "🇩🇪DE | vless | @MsV2ray | 11",
-                "🇮🇷IR | vless | @vless_vmess | 8",
+                "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 46",
                 "🇸🇪SE | vless | @V2RayTz | 13",
                 "🇺🇸US | vless | @VmessProtocol | 17",
@@ -531,7 +531,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 8",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 8",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -636,7 +636,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -971,17 +971,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @vless_vmess | 8",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 7",
             "type": "vless",
-            "server": "94.182.133.24",
-            "server_port": 8080,
-            "uuid": "fcc2602a-5ff7-42da-bb46-f87a386990fb",
+            "server": "172.66.47.2",
+            "server_port": 443,
+            "uuid": "bcf50589-9654-4331-93a6-da896914ec47",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "de4ecf6b.isvphp-4g8.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "de4ecf6b.isvphp-4g8.pages.dev"
+                }
             }
         },
         {
