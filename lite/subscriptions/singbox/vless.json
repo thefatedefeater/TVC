@@ -109,7 +109,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 19",
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇩🇪DE | vless | @VlessConfig | 17",
+                "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 28",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 7",
@@ -123,7 +123,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇩🇪DE | vless | @V2rayNGn | 30",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
@@ -151,7 +151,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 24",
                 "🇺🇸US | vless | @FreakConfig | 13",
-                "🇺🇸US | vless | @flyv2ray | 18",
+                "🇺🇸US | vless | @flyv2ray | 17",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 9",
@@ -172,7 +172,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 19",
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇩🇪DE | vless | @VlessConfig | 17",
+                "🇫🇷FR | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 28",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 7",
@@ -186,7 +186,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇩🇪DE | vless | @V2rayNGn | 30",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
@@ -214,7 +214,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 24",
                 "🇺🇸US | vless | @FreakConfig | 13",
-                "🇺🇸US | vless | @flyv2ray | 18",
+                "🇺🇸US | vless | @flyv2ray | 17",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 9",
@@ -304,9 +304,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 17",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "18.194.163.211",
+            "server": "13.39.239.227",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -628,7 +628,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1355,11 +1355,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 18",
+            "tag": "🇺🇸US | vless | @flyv2ray | 17",
             "type": "vless",
-            "server": "gama.ir",
-            "server_port": 80,
-            "uuid": "38928290-00af-4255-9006-57df913e1f95",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "c064eb24-643c-405f-a222-043d29e151bf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1367,11 +1367,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "faRAHDIba.pagES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@custom_config?ed=2056",
+                "path": "\/Telegram-@Capoit\/?ed=2560",
                 "headers": {
-                    "Host": "gama.ir"
+                    "Host": "faRAHDIba.pagES.DEV"
                 }
             }
         },
