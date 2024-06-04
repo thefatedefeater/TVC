@@ -163,7 +163,6 @@ proxies:
   - {"name":"🏳️XX | vless | @V2FETCH | 0","type":"vless","server":"mc.miladbeyranvndmobilmilad.cfd","port":2053,"udp":false,"uuid":"54ce1a74-7a13-470d-859b-88ffe8a9d234","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"00f7e608b8c93f9b.miladbeyranvndmobilmilad.cfd","ws-opts":{"path":"/","headers":{"host":"33707228dee0f23a.miladbeyranvndmobilmilad.cfd"}}}
   - {"name":"🏳️XX | vless | @VpnSkyy | 7","type":"vless","server":"sky1.bbv2ry.pics","port":443,"udp":false,"uuid":"18c680fc-f921-484c-85d3-ec191f7cc983","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | vless | @TIKTOK_PROXY | 0","type":"vless","server":"104.16.190.131","port":443,"udp":false,"uuid":"17a7bf97-fef5-4101-a5c5-7c730fabeeee","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"bpb-worker-panel-h5f.pages.dev","ws-opts":{"path":"/?ed=2560","headers":{"host":"bpb-worker-panel-h5f.pages.dev"}}}
-  - {"name":"🇸🇪SE | vless | @TVCminer | 19","type":"vless","server":"185.146.173.94","port":80,"udp":false,"uuid":"6629ccb0-70ce-405a-8d4c-021bef5f5e8c","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2056","headers":{"host":"12.V2ray.mihanyas.ir.mbj.farsroid.com.列列男事的事列上赛男78.Com."}}}
   - {"name":"🇺🇸US | vless | @raze_vpn | 7","type":"vless","server":"wgap.mesalzadani.pw","port":44123,"udp":true,"uuid":"8d13529a-e8ac-4f9f-941b-06696630f7a7","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"MCI.ir","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"5fxCb6S1mhD6EUsppQY7Oo8lxxwj-UoWQzdrP_RtT04","short-id":"492dcaec"}}
 proxy-groups:
   - name: MANUAL
@@ -214,7 +213,6 @@ proxy-groups:
       - '🏳️XX | vless | @V2FETCH | 0'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇺🇸US | vless | @TIKTOK_PROXY | 0'
-      - '🇸🇪SE | vless | @TVCminer | 19'
       - '🇺🇸US | vless | @raze_vpn | 7'
   - name: URL-TEST
     type: url-test
@@ -265,7 +263,6 @@ proxy-groups:
       - '🏳️XX | vless | @V2FETCH | 0'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇺🇸US | vless | @TIKTOK_PROXY | 0'
-      - '🇸🇪SE | vless | @TVCminer | 19'
       - '🇺🇸US | vless | @raze_vpn | 7'
   - name: FALLBACK
     type: fallback
@@ -315,7 +312,6 @@ proxy-groups:
       - '🏳️XX | vless | @V2FETCH | 0'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇺🇸US | vless | @TIKTOK_PROXY | 0'
-      - '🇸🇪SE | vless | @TVCminer | 19'
       - '🇺🇸US | vless | @raze_vpn | 7'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
