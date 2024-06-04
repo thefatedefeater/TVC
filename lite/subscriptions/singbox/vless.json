@@ -123,7 +123,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇩🇪DE | vless | @V2rayNGn | 26",
                 "🇺🇸US | vless | @Outline_Vpn | 19",
@@ -132,6 +132,7 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 0",
                 "🇨🇦CA | vless | @ShadowProxy66 | 14",
                 "🇸🇪SE | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -144,12 +145,12 @@
                 "🇺🇸US | vless | @sinabigo | 3",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 11",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 24",
                 "🇺🇸US | vless | @FreakConfig | 12",
-                "🇺🇸US | vless | @flyv2ray | 15",
+                "🇸🇪SE | vless | @flyv2ray | 15",
                 "🇺🇸US | vless | @FAKEOFTVC | 1",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 9",
@@ -185,7 +186,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇩🇪DE | vless | @V2rayNGn | 26",
                 "🇺🇸US | vless | @Outline_Vpn | 19",
@@ -194,6 +195,7 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 12",
                 "🇨🇦CA | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
+                "🇨🇦CA | vless | @FalconPolV2rayNG | 0",
                 "🇨🇦CA | vless | @ShadowProxy66 | 14",
                 "🇸🇪SE | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -206,12 +208,12 @@
                 "🇺🇸US | vless | @sinabigo | 3",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 11",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 24",
                 "🇺🇸US | vless | @FreakConfig | 12",
-                "🇺🇸US | vless | @flyv2ray | 15",
+                "🇸🇪SE | vless | @flyv2ray | 15",
                 "🇺🇸US | vless | @FAKEOFTVC | 1",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 9",
@@ -616,7 +618,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -831,6 +833,37 @@
                 "path": "\/?ed",
                 "headers": {
                     "Host": "mmdv2.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 0",
+            "type": "vless",
+            "server": "falconpolv2rayng.irodinamice.co",
+            "server_port": 2087,
+            "uuid": "b99e9838-58a6-4add-aaaf-395efdefc4eb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "falconpolv2rayn.irodinamice.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@falconpolv2rayng@falconpolv2rayng@falconpolv2rayng",
+                "headers": {
+                    "Host": "falconpolv2rayn.irodinamice.co"
                 }
             }
         },
@@ -1140,7 +1173,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 11",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 13",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
@@ -1283,11 +1316,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 15",
+            "tag": "🇸🇪SE | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 8080,
-            "uuid": "VPNCUSTOMiZE",
+            "server": "185.146.173.9",
+            "server_port": 2095,
+            "uuid": "6f286eff-57ed-4754-8329-0019148e90b2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1297,9 +1330,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/",
                 "headers": {
-                    "Host": "188.114.98.224"
+                    "Host": "185.146.173.9"
                 }
             }
         },
