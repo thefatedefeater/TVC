@@ -110,7 +110,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 18",
-                "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
+                "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @frev2ray | 0",
@@ -126,7 +126,6 @@
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
-                "🇩🇪DE | vless | @V2rayNGn | 26",
                 "🇬🇧GB | trojan | @PrivateVPNs | 18",
                 "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -158,14 +157,12 @@
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 13",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 7",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 12",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇺🇸US | vless | @Capoit | 24",
                 "🇺🇸US | vless | @FreakConfig | 14",
-                "🇸🇪SE | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @FAKEOFTVC | 0",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇺🇸US | vless | @kiava | 9",
@@ -189,7 +186,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 18",
-                "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
+                "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @frev2ray | 0",
@@ -205,7 +202,6 @@
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
-                "🇩🇪DE | vless | @V2rayNGn | 26",
                 "🇬🇧GB | trojan | @PrivateVPNs | 18",
                 "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -237,14 +233,12 @@
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 13",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 7",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 12",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇺🇸US | vless | @Capoit | 24",
                 "🇺🇸US | vless | @FreakConfig | 14",
-                "🇸🇪SE | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @FAKEOFTVC | 0",
                 "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇺🇸US | vless | @kiava | 9",
@@ -367,11 +361,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
+            "tag": "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
             "type": "vless",
             "server": "Join--VPNCUSTOMIZE.V2ray.re",
             "server_port": 8080,
-            "uuid": "_VPNCUSTOMIZE_",
+            "uuid": "join-VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -711,27 +705,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.16.67.38"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2rayNGn | 26",
-            "type": "vless",
-            "server": "Join--VPNCUSTOMIZE.V2ray.re",
-            "server_port": 8080,
-            "uuid": "join-VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "Join--VPNCUSTOMIZE.V2ray.re"
                 }
             }
         },
@@ -1258,7 +1231,7 @@
         {
             "tag": "🏳️XX | vless | @V2RayTz | 17",
             "type": "vless",
-            "server": "[2606:4700:3031::ac43:cc54]",
+            "server": "[2a06:98c1:3121::]",
             "server_port": 2086,
             "uuid": "Telegram-MsV2ray-MsV2ray",
             "flow": "",
@@ -1272,7 +1245,7 @@
                 "type": "ws",
                 "path": "\/MsV2ray-MsV2ray-MsV2ray",
                 "headers": {
-                    "Host": "[2606:4700:3031::ac43:cc54]"
+                    "Host": "[2a06:98c1:3121::]"
                 }
             }
         },
@@ -1510,11 +1483,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 13",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 12",
             "type": "vless",
-            "server": "162.159.252.236",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1524,38 +1497,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 7",
-            "type": "vless",
-            "server": "104.19.54.50",
-            "server_port": 443,
-            "uuid": "a2abf295-0638-48fd-b854-b989bf438c61",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "V2RAYSHHPROXY.snaapfood.org",
+                "server_name": "lg2.nicolkidman.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1567,7 +1509,28 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "V2RAYSHHPROXY.snaapfood.org"
+                    "Host": "lg2.nicolkidman.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 6",
+            "type": "vless",
+            "server": "www.Speedtest.Net",
+            "server_port": 2095,
+            "uuid": "---DIGIV2RAY---",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "headers": {
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
@@ -1669,37 +1632,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 24",
-            "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "82299fb9-f8b0-43bc-ae63-290881a89f72",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jAVidSHAH-aRiaMeHR.pagEs.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "jAVidSHAH-aRiaMeHR.pagEs.DEV"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | @FreakConfig | 14",
             "type": "vless",
             "server": "172.67.204.39",
@@ -1727,37 +1659,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "turkmenistan.armanibash.Shop."
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 16",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lg2.nicolkidman.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "lg2.nicolkidman.com"
                 }
             }
         },
