@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 15",
-                "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇸🇪SE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
@@ -145,7 +144,7 @@
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇨🇷CR | vmess | @vless_vmess | 3",
-                "🇦🇪AE | ss | @vmess_vless_v2rayng | 44",
+                "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇰🇷KR | trojan | @VmessProtocol | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 180",
@@ -184,7 +183,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 15",
-                "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇸🇪SE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
@@ -222,7 +220,7 @@
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇨🇷CR | vmess | @vless_vmess | 3",
-                "🇦🇪AE | ss | @vmess_vless_v2rayng | 44",
+                "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
                 "🇨🇦CA | vless | @V2RayTz | 17",
                 "🇰🇷KR | trojan | @VmessProtocol | 16",
                 "🇸🇪SE | vless | @DailyV2RY | 180",
@@ -293,27 +291,6 @@
                 "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
                 "headers": {
                     "Host": "185.146.173.94"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @Parsashonam | 13",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "Parsashonam-84",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -735,7 +712,7 @@
         {
             "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "51.21.46.36",
+            "server": "13.49.10.175",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1190,7 +1167,7 @@
             }
         },
         {
-            "tag": "🇦🇪AE | ss | @vmess_vless_v2rayng | 44",
+            "tag": "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
             "type": "shadowsocks",
             "server": "51.112.118.115",
             "server_port": 443,
