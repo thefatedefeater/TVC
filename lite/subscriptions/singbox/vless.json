@@ -123,7 +123,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 174",
@@ -139,13 +139,14 @@
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 1",
                 "🏳️XX | vless | @V2RayTz | 17",
-                "🇸🇪SE | vless | @DailyV2RY | 169",
+                "🇸🇪SE | vless | @DailyV2RY | 180",
                 "🇺🇸US | vless | @sinabigo | 3",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
+                "🇺🇸US | vless | @Capoit | 24",
                 "🇺🇸US | vless | @FreakConfig | 14",
                 "🇸🇪SE | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @FAKEOFTVC | 0",
@@ -183,7 +184,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 174",
@@ -199,13 +200,14 @@
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 1",
                 "🏳️XX | vless | @V2RayTz | 17",
-                "🇸🇪SE | vless | @DailyV2RY | 169",
+                "🇸🇪SE | vless | @DailyV2RY | 180",
                 "🇺🇸US | vless | @sinabigo | 3",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 12",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
+                "🇺🇸US | vless | @Capoit | 24",
                 "🇺🇸US | vless | @FreakConfig | 14",
                 "🇸🇪SE | vless | @flyv2ray | 16",
                 "🇺🇸US | vless | @FAKEOFTVC | 0",
@@ -300,7 +302,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.42.209.82",
+            "server": "13.41.239.70",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -612,7 +614,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1011,7 +1013,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 169",
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 180",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -1202,6 +1204,37 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @Capoit | 24",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "82299fb9-f8b0-43bc-ae63-290881a89f72",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jAVidSHAH-aRiaMeHR.pagEs.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "jAVidSHAH-aRiaMeHR.pagEs.DEV"
                 }
             }
         },
