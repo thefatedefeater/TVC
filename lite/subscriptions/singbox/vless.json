@@ -118,7 +118,7 @@
                 "🇨🇷CR | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 6",
+                "🇺🇸US | vless | @V2rayNGmat | 6",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -128,6 +128,7 @@
                 "🇩🇪DE | vless | @V2rayNGn | 30",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇩🇪DE | vless | @prrofile_purple | 184",
+                "🇸🇪SE | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
                 "🇨🇦CA | vless | @ShadowProxy66 | 14",
@@ -151,7 +152,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 24",
                 "🇺🇸US | vless | @FreakConfig | 13",
-                "🇺🇸US | vless | @flyv2ray | 17",
+                "🇺🇸US | vless | @flyv2ray | 16",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 9",
@@ -181,7 +182,7 @@
                 "🇨🇷CR | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 6",
+                "🇺🇸US | vless | @V2rayNGmat | 6",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -191,6 +192,7 @@
                 "🇩🇪DE | vless | @V2rayNGn | 30",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇩🇪DE | vless | @prrofile_purple | 184",
+                "🇸🇪SE | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 15",
                 "🇨🇦CA | vless | @ShadowProxy66 | 14",
@@ -214,7 +216,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 24",
                 "🇺🇸US | vless | @FreakConfig | 13",
-                "🇺🇸US | vless | @flyv2ray | 17",
+                "🇺🇸US | vless | @flyv2ray | 16",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 9",
@@ -523,7 +525,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 6",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 6",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -737,6 +739,27 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "Join--VPNCUSTOMIZE.V2ray.re"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @UnlimitedDev | 10",
+            "type": "vless",
+            "server": "join-unlimiteddev-vpn.unlimiteddev.site",
+            "server_port": 8080,
+            "uuid": "UnlimitedDev-----------1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "headers": {
+                    "Host": "join-unlimiteddev-vpn.unlimiteddev.site"
                 }
             }
         },
@@ -1355,11 +1378,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 17",
+            "tag": "🇺🇸US | vless | @flyv2ray | 16",
             "type": "vless",
-            "server": "188.114.96.3",
+            "server": "gama.ir",
             "server_port": 443,
-            "uuid": "c064eb24-643c-405f-a222-043d29e151bf",
+            "uuid": "09c795fd-4c13-491e-b419-2598410077b9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1369,7 +1392,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "faRAHDIba.pagES.DEV",
+                "server_name": "xn--rgbk3dif70f.jObfiNeX.ir.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1378,11 +1401,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/Telegram-@Capoit\/?ed=2560",
-                "headers": {
-                    "Host": "faRAHDIba.pagES.DEV"
-                }
+                "type": "grpc",
+                "service_name": "\/@custom_config?ed=2056",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
