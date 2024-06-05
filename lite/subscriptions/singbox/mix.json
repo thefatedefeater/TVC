@@ -130,6 +130,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -148,7 +149,7 @@
                 "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇰🇷KR | trojan | @VmessProtocol | 16",
-                "🏳️XX | vless | @DailyV2RY | 159",
+                "🏳️XX | vless | @DailyV2RY | 168",
                 "🇺🇸US | vless | @sinabigo | 3",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 4",
@@ -205,6 +206,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -223,7 +225,7 @@
                 "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇰🇷KR | trojan | @VmessProtocol | 16",
-                "🏳️XX | vless | @DailyV2RY | 159",
+                "🏳️XX | vless | @DailyV2RY | 168",
                 "🇺🇸US | vless | @sinabigo | 3",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 4",
@@ -792,6 +794,30 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "172.67.199.226",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.199.226"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "855.outline-vpn.cloud",
@@ -1236,9 +1262,9 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 159",
+            "tag": "🏳️XX | vless | @DailyV2RY | 168",
             "type": "vless",
-            "server": "LA9.resturanbest.com",
+            "server": "la7.shikpik.net",
             "server_port": 80,
             "uuid": "af309ad2-c943-48ea-b570-2e51a2f079d9",
             "flow": "",
@@ -1252,7 +1278,7 @@
                 "type": "ws",
                 "path": "\/DSDaswd22!11*fdfm55247.COM.",
                 "headers": {
-                    "Host": "LA9.resturanbest.com"
+                    "Host": "la7.shikpik.net"
                 }
             }
         },
