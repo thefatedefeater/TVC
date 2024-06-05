@@ -153,7 +153,7 @@
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇺🇸US | vless | @flyv2ray | 15",
                 "🇺🇸US | vless | @FAKEOFTVC | 3",
-                "🇳🇱NL | vless | @mehrosaboran | 7",
+                "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 4",
@@ -216,7 +216,7 @@
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇺🇸US | vless | @flyv2ray | 15",
                 "🇺🇸US | vless | @FAKEOFTVC | 3",
-                "🇳🇱NL | vless | @mehrosaboran | 7",
+                "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 4",
@@ -517,7 +517,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbede.XN--4GQVD29AY5LWMUP71AO2G.XYZ",
             "server_port": 8880,
-            "uuid": "ac7938f4-33e7-405f-8572-c65ad8f8bb87",
+            "uuid": "b5f4bdae-a631-4079-ae0b-2575fbd5f97e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -663,8 +663,8 @@
             "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "4e47d40d-770c-49e8-b730-bc9628404f87",
+            "server_port": 443,
+            "uuid": "e6aedcd2-24ad-4bdd-82c5-006d84179197",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -672,11 +672,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "4d3d6f00.garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "4d3d6f00.garywelch.pages.dev"
                 }
             }
         },
@@ -1019,9 +1029,9 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 14",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 80,
-            "uuid": "%74%65%6c%65%67%72%61%6d%2d%69%64%2d%41%72%56%32%72%61%79",
+            "server": "185.146.173.95",
+            "server_port": 8880,
+            "uuid": "%64%31%63%32%65%32%30%35%2d%31%30%31%31%2d%34%62%61%38%2d%62%36%36%30%2d%37%33%35%38%35%38%37%37%62%33%39%30",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1031,9 +1041,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "185.146.173.95"
                 }
             }
         },
@@ -1389,11 +1399,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @mehrosaboran | 7",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 6",
             "type": "vless",
-            "server": "94.242.228.15",
-            "server_port": 2096,
-            "uuid": "tel--ZEDMODEON",
+            "server": "zula.ir",
+            "server_port": 2087,
+            "uuid": "02a64cfc-80da-45ed-84ab-a0b901fa5ae5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1403,7 +1413,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bia-zedmodeon.zedmodeon-bia-zedmodeon.shop",
+                "server_name": "LiV2raya.yoyoyo.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1413,9 +1423,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
                 "headers": {
-                    "Host": "bia-zedmodeon.zedmodeon-bia-zedmodeon.shop"
+                    "Host": "LiV2raya.yoyoyo.ir"
                 }
             }
         },
