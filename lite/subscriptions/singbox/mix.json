@@ -123,7 +123,7 @@
                 "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇩🇪DE | trojan | @PrivateVPNs | 16",
@@ -154,7 +154,7 @@
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇬🇧GB | vmess | @Hope_Net | 4",
+                "🇬🇧GB | vmess | @Hope_Net | 6",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
@@ -199,7 +199,7 @@
                 "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇩🇪DE | trojan | @PrivateVPNs | 16",
@@ -230,7 +230,7 @@
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇬🇧GB | vmess | @Hope_Net | 4",
+                "🇬🇧GB | vmess | @Hope_Net | 6",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
@@ -646,7 +646,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -796,9 +796,9 @@
         {
             "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "104.16.67.38",
-            "server_port": 8080,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "server": "104.16.60.8",
+            "server_port": 8443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -809,11 +809,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "subhk.osafari599.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/glweidf.cfd\/linkws",
+                "path": "\/linde06.indiavideo.sbs\/linkws",
                 "headers": {
-                    "Host": "104.16.67.38"
+                    "Host": "subhk.osafari599.workers.dev"
                 }
             }
         },
@@ -1380,7 +1390,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @Hope_Net | 4",
+            "tag": "🇬🇧GB | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "46.226.163.143",
             "server_port": 56148,
