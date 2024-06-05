@@ -110,6 +110,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 14",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 17",
+                "🇩🇪DE | vless | @VPNCUSTOMIZE | 27",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 27",
@@ -120,7 +121,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 14",
                 "🇨🇦CA | vless | @lightning6 | 17",
                 "🇨🇦CA | vless | @vpn_xw | 0",
-                "🇸🇪SE | vless | @proxy_kafee | 2",
+                "🇸🇪SE | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
@@ -130,7 +131,6 @@
                 "🇺🇸US | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 173",
@@ -189,6 +189,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 14",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 17",
+                "🇩🇪DE | vless | @VPNCUSTOMIZE | 27",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 27",
@@ -199,7 +200,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 14",
                 "🇨🇦CA | vless | @lightning6 | 17",
                 "🇨🇦CA | vless | @vpn_xw | 0",
-                "🇸🇪SE | vless | @proxy_kafee | 2",
+                "🇸🇪SE | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
@@ -209,7 +210,6 @@
                 "🇺🇸US | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 173",
@@ -338,7 +338,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "18.171.96.171",
+            "server": "18.168.135.90",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -363,6 +363,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @VPNCUSTOMIZE | 27",
+            "type": "vless",
+            "server": "Join-VPNCUSTOMIZE.V2ray.re",
+            "server_port": 8080,
+            "uuid": "-_VPNCUSTOMIZE_-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "Join-VPNCUSTOMIZE.V2ray.re"
                 }
             }
         },
@@ -587,7 +608,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 2",
+            "tag": "🇸🇪SE | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "185.146.173.82",
             "server_port": 2082,
@@ -717,7 +738,7 @@
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "18.135.137.104",
+            "server": "18.175.36.39",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -739,7 +760,7 @@
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "18.220.91.48",
+            "server": "13.59.207.172",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -796,40 +817,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "hms07.xfixedfloat.cfd",
-            "server_port": 443,
-            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms07.xfixedfloat.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms07.xfixedfloat.cfd"
                 }
             }
         },
@@ -1550,7 +1537,7 @@
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 2052,
-            "uuid": "08003bdc-3d42-4a66-bda6-7f29f019e778",
+            "uuid": "Telegram-ipV2Ray-fdw",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1560,7 +1547,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
                     "Host": "185.146.173.58"
                 }
