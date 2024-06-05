@@ -107,14 +107,13 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 15",
-                "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇮🇪IE | vless | @VlessConfig | 17",
+                "🇺🇸US | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 28",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇨🇦CA | vless | @ARv2ray | 17",
+                "🇺🇸US | vless | @ARv2ray | 17",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 14",
@@ -123,7 +122,7 @@
                 "🇸🇪SE | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇮🇪IE | trojan | @PrivateVPNs | 17",
@@ -184,14 +183,13 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 15",
-                "🇸🇪SE | vless | @Parsashonam | 13",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇮🇪IE | vless | @VlessConfig | 17",
+                "🇺🇸US | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 28",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @frev2ray | 0",
-                "🇨🇦CA | vless | @ARv2ray | 17",
+                "🇺🇸US | vless | @ARv2ray | 17",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @free_v2rayyy | 14",
@@ -200,7 +198,7 @@
                 "🇸🇪SE | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇮🇪IE | trojan | @PrivateVPNs | 17",
@@ -297,27 +295,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Parsashonam | 13",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "Parsashonam-84",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷IR | vless | @NIM_VPN_ir | 1",
             "type": "vless",
             "server": "151.232.68.10",
@@ -332,9 +309,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | vless | @VlessConfig | 17",
+            "tag": "🇺🇸US | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "52.18.118.150",
+            "server": "44.218.145.21",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -447,7 +424,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 17",
+            "tag": "🇺🇸US | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
@@ -648,7 +625,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -713,7 +690,7 @@
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "52.214.199.40",
+            "server": "54.76.32.237",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -735,7 +712,7 @@
         {
             "tag": "🇮🇪IE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "54.75.218.255",
+            "server": "54.220.65.185",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
