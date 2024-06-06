@@ -121,9 +121,9 @@
                 "🇨🇦CA | vless | @lightning6 | 18",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
@@ -142,14 +142,14 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 45",
                 "🏳️XX | vless | @V2RayTz | 15",
-                "🏳️XX | vless | @DailyV2RY | 165",
+                "🇸🇪SE | vless | @DailyV2RY | 154",
                 "🇸🇪SE | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 7",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 27",
                 "🇺🇸US | vless | @FreakConfig | 6",
@@ -186,9 +186,9 @@
                 "🇨🇦CA | vless | @lightning6 | 18",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
@@ -207,14 +207,14 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 45",
                 "🏳️XX | vless | @V2RayTz | 15",
-                "🏳️XX | vless | @DailyV2RY | 165",
+                "🇸🇪SE | vless | @DailyV2RY | 154",
                 "🇸🇪SE | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 7",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 27",
                 "🇺🇸US | vless | @FreakConfig | 6",
@@ -580,11 +580,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 3",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 4",
             "type": "vless",
-            "server": "185.146.173.82",
-            "server_port": 2082,
-            "uuid": "0e744cca-ba3c-4a29-9d7d-dace2920130d",
+            "server": "188.114.97.0",
+            "server_port": 2087,
+            "uuid": "02a64cfc-80da-45ed-84ab-a0b901fa5ae5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -592,11 +592,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "LiV2raye.yoyoyo.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Free V2RAY TEL %40%41lfre%64_%43on%66%69g TEL %40%41lfre%64_%43on%66%69g TEL %40%41lfre%64_%43on%66%69g TEL %40%41lfre%64_%43on%66%69g TEL %40%41lfre%64_%43on%66%69g @V2ray",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed",
                 "headers": {
-                    "Host": "185.146.173.82"
+                    "Host": "LiV2raye.yoyoyo.ir"
                 }
             }
         },
@@ -622,7 +632,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1094,11 +1104,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 165",
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 154",
             "type": "vless",
-            "server": "la7.shikpik.net",
-            "server_port": 80,
-            "uuid": "af309ad2-c943-48ea-b570-2e51a2f079d9",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1106,11 +1116,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "le3.nicolkidman.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DSDaswd22!11*fdfm55247.COM.",
+                "path": "\/",
                 "headers": {
-                    "Host": "la7.shikpik.net"
+                    "Host": "le3.nicolkidman.com"
                 }
             }
         },
@@ -1242,9 +1262,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "104.16.80.131",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "zula.ir",
+            "server_port": 2052,
+            "uuid": "4f553bcd-4871-4a63-a7a2-adc5bca9d5be",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1252,30 +1272,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/dashboard",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "zula.ir"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 7",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 8",
             "type": "vless",
-            "server": "151.101.2.133",
+            "server": "172.67.128.158",
             "server_port": 443,
-            "uuid": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
+            "uuid": "0905460d-6edc-4a82-8ec8-6b76090b41c8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1285,7 +1295,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.arizona.edu",
+                "server_name": "who-cares.BacheBiaPain.IR",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1295,9 +1305,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
                 "headers": {
-                    "Host": "www.arizona.edu"
+                    "Host": "who-cares.BacheBiaPain.IR"
                 }
             }
         },
