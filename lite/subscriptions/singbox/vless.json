@@ -122,7 +122,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 13",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇩🇪DE | vless | @V2rayNGn | 25",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 174",
@@ -149,12 +149,13 @@
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 27",
+                "🇺🇸US | vless | @Capoit | 25",
                 "🇺🇸US | vless | @FreakConfig | 10",
                 "🇸🇪SE | vless | @flyv2ray | 16",
-                "🇺🇸US | vless | @FAKEOFTVC | 5",
+                "🇳🇱NL | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
+                "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 4",
                 "🇨🇷CR | vless | @GozargahVPN | 14",
@@ -184,7 +185,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 13",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇩🇪DE | vless | @V2rayNGn | 25",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 174",
@@ -211,12 +212,13 @@
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 27",
+                "🇺🇸US | vless | @Capoit | 25",
                 "🇺🇸US | vless | @FreakConfig | 10",
                 "🇸🇪SE | vless | @flyv2ray | 16",
-                "🇺🇸US | vless | @FAKEOFTVC | 5",
+                "🇳🇱NL | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
+                "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 4",
                 "🇨🇷CR | vless | @GozargahVPN | 14",
@@ -304,7 +306,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.50.176.177",
+            "server": "51.20.23.146",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -605,7 +607,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1291,7 +1293,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 27",
+            "tag": "🇺🇸US | vless | @Capoit | 25",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
@@ -1374,11 +1376,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 5",
+            "tag": "🇳🇱NL | vless | @FAKEOFTVC | 4",
             "type": "vless",
-            "server": "api.gordonhosting.com",
-            "server_port": 443,
-            "uuid": "bb7422e4-8b90-4d00-bae4-a5125356128a",
+            "server": "104.234.46.83",
+            "server_port": 51078,
+            "uuid": "38dd3a5f-4fd5-4ef6-94f7-709976e55e91",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1386,21 +1388,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "api.gordonhosting.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/193faab2-e111-4bd7-a0c8-4ddfbdfb5234\/e23bc0ce79a34b20f762ed0325123adb",
+                "path": "\/",
                 "headers": {
-                    "Host": "api.gordonhosting.com"
+                    "Host": "104.234.46.83"
                 }
             }
         },
@@ -1453,6 +1445,27 @@
                 "path": "\/kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava",
                 "headers": {
                     "Host": "melonmusic.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @proxy_mtm | 0",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 2052,
+            "uuid": "fb47f79f-ea8d-4ed9-840b-62751b0e4360",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/telegram-proxy-mtm-telegram-proxy-mtm-telegram-proxy-mtm",
+                "headers": {
+                    "Host": "188.114.96.3"
                 }
             }
         },
