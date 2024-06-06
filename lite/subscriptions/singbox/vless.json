@@ -112,7 +112,7 @@
                 "🇬🇧GB | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 7",
-                "🇸🇪SE | vless | @V2pedia | 28",
+                "🇨🇦CA | vless | @V2pedia | 27",
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 26",
@@ -123,7 +123,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
@@ -134,7 +134,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 3",
                 "🇨🇦CA | vless | @ShadowProxy66 | 14",
-                "🇸🇪SE | vless | @ServerNett | 8",
+                "🇸🇪SE | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇸🇪SE | vless | @proxyymeliii | 25",
@@ -178,7 +178,7 @@
                 "🇬🇧GB | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 7",
-                "🇸🇪SE | vless | @V2pedia | 28",
+                "🇨🇦CA | vless | @V2pedia | 27",
                 "🇨🇦CA | vless | @frev2ray | 0",
                 "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 26",
@@ -189,7 +189,7 @@
                 "🇸🇪SE | vless | @DigiV2ray | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
@@ -200,7 +200,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 3",
                 "🇨🇦CA | vless | @ShadowProxy66 | 14",
-                "🇸🇪SE | vless | @ServerNett | 8",
+                "🇸🇪SE | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇸🇪SE | vless | @proxyymeliii | 25",
@@ -312,7 +312,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "35.176.242.147",
+            "server": "3.9.104.101",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -383,11 +383,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2pedia | 28",
+            "tag": "🇨🇦CA | vless | @V2pedia | 27",
             "type": "vless",
-            "server": "185.146.173.158",
-            "server_port": 80,
-            "uuid": "4a9987f5-7095-4921-bde8-f34da8b1742f",
+            "server": "all.msv2ray.online",
+            "server_port": 443,
+            "uuid": "5bb042a9-5af6-4037-b142-5de9e8f7c2ca",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -395,11 +395,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ss.st1lol.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
                 "headers": {
-                    "Host": "185.146.173.158"
+                    "Host": "ss.st1lol.ir"
                 }
             }
         },
@@ -634,7 +644,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -915,11 +925,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ServerNett | 8",
+            "tag": "🇸🇪SE | vless | @ServerNett | 7",
             "type": "vless",
             "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "242d9d9f-875c-4d65-aa3b-157935a374d2",
+            "server_port": 80,
+            "uuid": "da149917-723d-4458-9eaa-ccad35c54ae1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
