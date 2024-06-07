@@ -124,7 +124,7 @@
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇮🇷IR | vless | @servermomo | 3",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 6",
                 "🇸🇪SE | vless | @V2rayNGn | 17",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -157,7 +157,7 @@
                 "🇩🇪DE | trojan | @proxystore11 | 5",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇸🇬SG | vmess | @Hope_Net | 9",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 8",
@@ -202,7 +202,7 @@
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇮🇷IR | vless | @servermomo | 3",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 6",
                 "🇸🇪SE | vless | @V2rayNGn | 17",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -235,7 +235,7 @@
                 "🇩🇪DE | trojan | @proxystore11 | 5",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇸🇬SG | vmess | @Hope_Net | 9",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 8",
@@ -678,7 +678,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1457,11 +1457,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "104.26.3.120",
-            "server_port": 80,
-            "uuid": "f94c274d-f9c5-4c47-a3f5-fa839d80bfb1",
+            "server": "sg2-v2ray.ipracevpn.com",
+            "server_port": 2083,
+            "uuid": "610f3cbf-d441-46c2-9a84-572936fc1009",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1472,11 +1472,14 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/etc",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
