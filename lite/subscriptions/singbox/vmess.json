@@ -109,8 +109,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 4",
+                "🇹🇼TW | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ]
@@ -122,8 +123,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 4",
+                "🇹🇼TW | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ],
@@ -199,6 +201,23 @@
             }
         },
         {
+            "tag": "🇹🇼TW | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "in06.dns2024.org",
+            "server_port": 61017,
+            "uuid": "9eac8830-5da5-3ee2-a4b2-b49598275623",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -233,7 +252,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "104.16.253.64",
             "server_port": 2052,
