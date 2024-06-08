@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇮🇷IR | vless | @servermomo | 3",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 6",
                 "🇸🇪SE | vless | @V2rayNGn | 17",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -139,7 +139,7 @@
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 2",
-                "🇨🇦CA | vless | @ShadowProxy66 | 41",
+                "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 6",
                 "🇩🇪DE | trojan | @proxystore11 | 5",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -203,7 +203,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇮🇷IR | vless | @servermomo | 3",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 6",
                 "🇸🇪SE | vless | @V2rayNGn | 17",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -218,7 +218,7 @@
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 2",
-                "🇨🇦CA | vless | @ShadowProxy66 | 41",
+                "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 24",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 6",
                 "🇩🇪DE | trojan | @proxystore11 | 5",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -678,7 +678,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1020,7 +1020,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 41",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 46",
             "type": "vless",
             "server": "188.114.97.141",
             "server_port": 443,
@@ -1360,11 +1360,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 6",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "6003a68f-6b6d-47ef-97f4-b70063635e1f",
+            "server": "188.114.96.1",
+            "server_port": 2096,
+            "uuid": "ddb00f36-d544-4e35-afbf-64297aa68d03",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1372,11 +1372,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "sisana.muzres.wOrKerS.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/fanlandV2rayGmSix6.6.6.6.ir.Com.Site.xn--fhq0la447aac5504dea701axr1g",
+                "path": "\/vless-ws\/",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "sisana.muzres.wOrKerS.DEV"
                 }
             }
         },
