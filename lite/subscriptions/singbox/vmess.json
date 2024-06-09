@@ -108,10 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
-                "🇩🇪DE | vmess | @proxyymeliii | 30",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 2",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ]
@@ -122,10 +122,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
-                "🇩🇪DE | vmess | @proxyymeliii | 30",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 2",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ],
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "in06.dns2024.org",
-            "server_port": 61017,
-            "uuid": "9eac8830-5da5-3ee2-a4b2-b49598275623",
+            "server": "172.67.169.212",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -198,14 +198,21 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.169.212"
+                }
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @proxyymeliii | 30",
+            "tag": "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
-            "server": "194.87.148.205",
-            "server_port": 8081,
-            "uuid": "0cc2352d-6540-4805-ad14-722db9192d41",
+            "server": "in06.dns2024.org",
+            "server_port": 61017,
+            "uuid": "9eac8830-5da5-3ee2-a4b2-b49598275623",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -252,7 +259,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "104.17.78.61",
             "server_port": 2052,
