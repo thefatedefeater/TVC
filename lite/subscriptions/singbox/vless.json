@@ -129,11 +129,11 @@
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇨🇦CA | vless | @ShadowProxy66 | 34",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 19",
+                "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | vless | @proxyymeliii | 33",
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
@@ -144,10 +144,10 @@
                 "🇸🇪SE | vless | @DailyV2RY | 128",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 24",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vless | @fnet00 | 1",
+                "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 8",
@@ -193,11 +193,11 @@
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇨🇦CA | vless | @ShadowProxy66 | 34",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 19",
+                "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | vless | @proxyymeliii | 33",
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
@@ -208,10 +208,10 @@
                 "🇸🇪SE | vless | @DailyV2RY | 128",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 24",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇺🇸US | vless | @fnet00 | 1",
+                "🇨🇦CA | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 8",
@@ -786,7 +786,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 22",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2052,
@@ -890,7 +890,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 19",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 20",
             "type": "vless",
             "server": "104.21.74.214",
             "server_port": 2082,
@@ -1167,11 +1167,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "104.21.58.195",
-            "server_port": 2083,
-            "uuid": "713b8fef-6873-47bd-bc51-06eb7d89c09c",
+            "server": "185.146.173.9",
+            "server_port": 2095,
+            "uuid": "a3a52582-caaa-4eaf-9ba9-b47770098ba6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1179,22 +1179,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "khabar.shoponetop.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "xyz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.9"
+                }
             }
         },
         {
@@ -1260,7 +1250,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 1",
+            "tag": "🇨🇦CA | vless | @fnet00 | 1",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
