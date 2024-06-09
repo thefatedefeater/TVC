@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | ss | @DeamNet_Proxy | 16",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16"
             ]
         },
@@ -113,6 +114,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | ss | @DeamNet_Proxy | 16",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -134,6 +136,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | ss | @DeamNet_Proxy | 16",
+            "type": "shadowsocks",
+            "server": "134.195.196.178",
+            "server_port": 807,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G!yBwPWH3Vao",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
