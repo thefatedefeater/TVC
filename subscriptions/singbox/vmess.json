@@ -125,8 +125,7 @@
                 "🇩🇪DE | vmess | @proxyymeliii | 24",
                 "🇩🇪DE | vmess | @proxyymeliii | 25",
                 "🇺🇸US | vmess | @vless_vmess | 2",
-                "🇺🇸US | vmess | @ConfigsHUB | 10",
-                "🇧🇬BG | vmess | @ConfigsHUB | 15",
+                "🇺🇸US | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -136,11 +135,12 @@
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @Hope_Net | 3",
-                "🇷🇺RU | vmess | @Hope_Net | 4",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇷🇺RU | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @Hope_Net | 7",
-                "🏳️XX | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇬🇧GB | vmess | @v2Line | 0",
@@ -183,8 +183,7 @@
                 "🇩🇪DE | vmess | @proxyymeliii | 24",
                 "🇩🇪DE | vmess | @proxyymeliii | 25",
                 "🇺🇸US | vmess | @vless_vmess | 2",
-                "🇺🇸US | vmess | @ConfigsHUB | 10",
-                "🇧🇬BG | vmess | @ConfigsHUB | 15",
+                "🇺🇸US | vmess | @ConfigsHUB | 6",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -194,11 +193,12 @@
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @Hope_Net | 3",
-                "🇷🇺RU | vmess | @Hope_Net | 4",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇷🇺RU | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @Hope_Net | 7",
-                "🏳️XX | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇬🇧GB | vmess | @v2Line | 0",
@@ -675,11 +675,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 10",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 6",
             "type": "vmess",
-            "server": "104.19.32.0",
+            "server": "104.21.55.234",
             "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -692,7 +692,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "xmivideo.cfd",
+                "server_name": "gwdef.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -704,41 +704,7 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "xmivideo.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇧🇬BG | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "147.78.140.231",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "llow-disk-4b7b.bigapax481.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/afrhms16v.bestxray.buzz\/linkws",
-                "headers": {
-                    "Host": "llow-disk-4b7b.bigapax481.workers.dev"
+                    "Host": "gwdef.sbs"
                 }
             }
         },
@@ -895,6 +861,40 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 0",
             "type": "vmess",
+            "server": "172.67.74.4",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @Hope_Net | 1",
+            "type": "vmess",
             "server": "speed.cloudflare.com",
             "server_port": 443,
             "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
@@ -927,7 +927,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "188.114.99.183",
             "server_port": 443,
@@ -961,7 +961,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "104.21.15.36",
             "server_port": 443,
@@ -995,7 +995,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "104.19.47.140",
             "server_port": 8080,
@@ -1019,7 +1019,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vmess | @Hope_Net | 4",
+            "tag": "🇷🇺RU | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "eedp257bubu2wefy.lovebaipiao.net",
             "server_port": 54321,
@@ -1043,7 +1043,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "172.67.185.242",
             "server_port": 8080,
@@ -1067,7 +1067,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "107.173.146.129",
             "server_port": 80,
@@ -1091,7 +1091,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "188.114.97.79",
             "server_port": 443,
@@ -1125,7 +1125,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 10",
+            "tag": "🏳️XX | vmess | @Hope_Net | 11",
             "type": "vmess",
             "server": "cn.zzv01.infonode.xyz",
             "server_port": 17014,
