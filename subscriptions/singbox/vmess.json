@@ -120,10 +120,10 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
-                "🇺🇸US | vmess | @v2ray1_ng | 2",
+                "🇺🇸US | vmess | @v2ray_swhil | 1",
                 "🇺🇸US | vmess | @vless_vmess | 7",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 40",
-                "🇨🇦CA | vmess | @ConfigsHUB | 2",
+                "🇺🇸US | vmess | @ConfigsHUB | 4",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -151,7 +151,8 @@
                 "🇺🇸US | vmess | @ROMAX_VPN | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 3",
-                "🇺🇸US | vmess | @ROMAX_VPN | 5"
+                "🇺🇸US | vmess | @ROMAX_VPN | 4",
+                "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ]
         },
         {
@@ -172,10 +173,10 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
-                "🇺🇸US | vmess | @v2ray1_ng | 2",
+                "🇺🇸US | vmess | @v2ray_swhil | 1",
                 "🇺🇸US | vmess | @vless_vmess | 7",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 40",
-                "🇨🇦CA | vmess | @ConfigsHUB | 2",
+                "🇺🇸US | vmess | @ConfigsHUB | 4",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -203,7 +204,8 @@
                 "🇺🇸US | vmess | @ROMAX_VPN | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 3",
-                "🇺🇸US | vmess | @ROMAX_VPN | 5"
+                "🇺🇸US | vmess | @ROMAX_VPN | 4",
+                "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -594,7 +596,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2ray1_ng | 2",
+            "tag": "🇺🇸US | vmess | @v2ray_swhil | 1",
             "type": "vmess",
             "server": "104.21.55.234",
             "server_port": 443,
@@ -676,11 +678,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 2",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 4",
             "type": "vmess",
-            "server": "167.114.90.198",
-            "server_port": 50577,
-            "uuid": "132b0296-e304-45a6-b045-4cdf0902e2b7",
+            "server": "104.26.7.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -690,6 +692,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
+                }
             }
         },
         {
@@ -1380,6 +1399,40 @@
         {
             "tag": "🇺🇸US | vmess | @ROMAX_VPN | 0",
             "type": "vmess",
+            "server": "nodejs.org",
+            "server_port": 443,
+            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfy1c1.cpiforpersia.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/QvtvPdDXXIlSdZMqnuxG",
+                "headers": {
+                    "Host": "hdfy1c1.cpiforpersia.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 1",
+            "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
             "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -1412,7 +1465,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 1",
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 2",
             "type": "vmess",
             "server": "npmjs.com",
             "server_port": 443,
@@ -1446,7 +1499,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 2",
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 3",
             "type": "vmess",
             "server": "172.67.74.4",
             "server_port": 443,
@@ -1480,7 +1533,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 3",
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 4",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -1514,7 +1567,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 5",
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 6",
             "type": "vmess",
             "server": "188.114.99.183",
             "server_port": 443,
