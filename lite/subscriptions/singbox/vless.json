@@ -110,14 +110,14 @@
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇫🇷FR | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
-                "🇨🇦CA | vless | @melov2ray | 5",
+                "🇺🇸US | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
@@ -146,8 +146,9 @@
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 22",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
-                "🇺🇸US | vless | @free1_vpn | 0",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 14",
@@ -172,14 +173,14 @@
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇫🇷FR | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
-                "🇨🇦CA | vless | @melov2ray | 5",
+                "🇺🇸US | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇨🇦CA | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
@@ -208,8 +209,9 @@
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 22",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
-                "🇺🇸US | vless | @free1_vpn | 0",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 14",
@@ -340,7 +342,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 5",
+            "tag": "🇺🇸US | vless | @melov2ray | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
@@ -497,7 +499,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
+            "tag": "🇨🇦CA | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -1209,6 +1211,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "104.31.16.95",
+            "server_port": 443,
+            "uuid": "7b5a7775-4006-49af-96c4-b2506a794f99",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "laj.iranianmobail.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/9KsgRW1AnYtwZOVz",
+                "headers": {
+                    "Host": "laj.iranianmobail.ir"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "Ld8.malimani.com",
@@ -1230,7 +1263,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free1_vpn | 0",
+            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
