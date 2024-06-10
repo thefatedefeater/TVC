@@ -110,7 +110,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
-                "🇺🇸US | vless | @melov2ray | 5",
+                "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 26",
@@ -142,6 +142,7 @@
                 "🇸🇪SE | vless | @vless_vmess | 15",
                 "🇺🇸US | vless | @vmess_vless_v2rayng | 55",
                 "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇺🇸US | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 22",
@@ -154,7 +155,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 11",
+                "🇺🇸US | vless | @flyv2ray | 11",
                 "🇸🇪SE | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -172,7 +173,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
-                "🇺🇸US | vless | @melov2ray | 5",
+                "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 26",
@@ -204,6 +205,7 @@
                 "🇸🇪SE | vless | @vless_vmess | 15",
                 "🇺🇸US | vless | @vmess_vless_v2rayng | 55",
                 "🇸🇪SE | vless | @V2RayTz | 18",
+                "🇺🇸US | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 22",
@@ -216,7 +218,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 11",
+                "🇺🇸US | vless | @flyv2ray | 11",
                 "🇸🇪SE | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -340,7 +342,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 5",
+            "tag": "🇨🇦CA | vless | @melov2ray | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
@@ -1095,6 +1097,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | @VmessProtocol | 15",
+            "type": "vless",
+            "server": "162.159.252.236",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @DailyV2RY | 150",
             "type": "vless",
             "server": "cloud.kinononva.top",
@@ -1180,9 +1213,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.31.16.121",
-            "server_port": 443,
-            "uuid": "739aef27-7cf4-4457-839c-449e707d64ea",
+            "server": "104.21.63.11",
+            "server_port": 80,
+            "uuid": "3f1dc53f-5f96-4742-a997-783938fc1c59",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1190,21 +1223,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "sqvsjpkqkfw5lgfvcznq.digikala.network",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/12979\/Digi-Atl",
+                "path": "\/",
                 "headers": {
-                    "Host": "sqvsjpkqkfw5lgfvcznq.digikala.network"
+                    "Host": "104.21.63.11"
                 }
             }
         },
@@ -1435,11 +1458,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 11",
+            "tag": "🇺🇸US | vless | @flyv2ray | 11",
             "type": "vless",
-            "server": "185.146.173.9",
-            "server_port": 2095,
-            "uuid": "2517a4a3-8899-4182-9613-3602dade78e7",
+            "server": "188.114.98.224",
+            "server_port": 8080,
+            "uuid": "66b102b0-ebb7-4b0e-8156-a120a0269de8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1449,9 +1472,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "185.146.173.9"
+                    "Host": "188.114.98.224"
                 }
             }
         },
