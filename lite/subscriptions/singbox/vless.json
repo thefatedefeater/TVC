@@ -110,7 +110,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
-                "🇨🇦CA | vless | @melov2ray | 5",
+                "🇺🇸US | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 26",
@@ -131,6 +131,7 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 9",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 27",
                 "🇨🇦CA | vless | @ShadowProxy66 | 22",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -144,7 +145,6 @@
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 22",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -171,7 +171,7 @@
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
-                "🇨🇦CA | vless | @melov2ray | 5",
+                "🇺🇸US | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 26",
@@ -192,6 +192,7 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 9",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 27",
                 "🇨🇦CA | vless | @ShadowProxy66 | 22",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -205,7 +206,6 @@
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 22",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -338,7 +338,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 5",
+            "tag": "🇺🇸US | vless | @melov2ray | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
@@ -829,6 +829,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 27",
+            "type": "vless",
+            "server": "ld10.malimani.com",
+            "server_port": 80,
+            "uuid": "af309ad2-c943-48ea-b570-2e51a2f079d9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DSDaswd22!11*fdfm55247.COM.",
+                "headers": {
+                    "Host": "ld10.malimani.com"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @ShadowProxy66 | 22",
             "type": "vless",
             "server": "172.67.196.100",
@@ -1141,27 +1162,6 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "Join--VPNCUSTOMIZE.V2ray.re"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "26ed3972-e04a-4ae9-889d-6f58d6082160",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ss",
-                "headers": {
-                    "Host": "185.146.173.58"
                 }
             }
         },
