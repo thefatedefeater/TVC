@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 15",
-                "🇨🇦CA | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -131,9 +131,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇺🇸US | vless | @prrofile_purple | 183",
+                "🇨🇦CA | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 9",
@@ -153,7 +153,7 @@
                 "🇮🇷IR | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 19",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇫🇷FR | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -192,7 +192,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 15",
-                "🇨🇦CA | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -206,9 +206,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇺🇸US | vless | @prrofile_purple | 183",
+                "🇨🇦CA | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 9",
@@ -228,7 +228,7 @@
                 "🇮🇷IR | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 19",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇫🇷FR | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -523,7 +523,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 3",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -854,7 +854,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
             "server": "104.26.6.65",
             "server_port": 443,
@@ -909,11 +909,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @prrofile_purple | 183",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 175",
             "type": "vless",
-            "server": "162.159.254.222",
-            "server_port": 8080,
-            "uuid": "67ac2966-c633-4fbe-92dd-8c666881c6de",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "82299fb9-f8b0-43bc-ae63-290881a89f72",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -921,11 +921,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jAVidSHAH-aRiaMeHR.pagEs.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "162.159.254.222"
+                    "Host": "jAVidSHAH-aRiaMeHR.pagEs.DEV"
                 }
             }
         },
@@ -1362,13 +1372,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "104.19.7.174",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇫🇷FR | trojan | @ConfigsHUB | 18",
+            "type": "trojan",
+            "server": "51.158.217.195",
+            "server_port": 43118,
+            "password": "ypDt8RkT7J",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1376,19 +1384,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "wnbtg.phooeyunfold.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
