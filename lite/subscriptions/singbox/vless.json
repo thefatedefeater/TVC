@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
@@ -136,7 +136,7 @@
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇸🇪SE | vless | @v2ray_swhil | 18",
-                "🇸🇪SE | vless | @proxyymeliii | 19",
+                "🇨🇦CA | vless | @proxyymeliii | 21",
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇸🇪SE | vless | @vless_vmess | 15",
@@ -145,10 +145,10 @@
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 2",
-                "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vless | @fnet00 | 1",
+                "🇺🇸US | vless | @free1_vpn | 0",
+                "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 8",
@@ -179,7 +179,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
@@ -198,7 +198,7 @@
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇸🇪SE | vless | @v2ray_swhil | 18",
-                "🇸🇪SE | vless | @proxyymeliii | 19",
+                "🇨🇦CA | vless | @proxyymeliii | 21",
                 "🇩🇪DE | vless | @MsV2ray | 11",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇸🇪SE | vless | @vless_vmess | 15",
@@ -207,10 +207,10 @@
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 2",
-                "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vless | @fnet00 | 1",
+                "🇺🇸US | vless | @free1_vpn | 0",
+                "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 8",
@@ -497,7 +497,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 3",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -956,11 +956,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 19",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 21",
             "type": "vless",
-            "server": "185.146.173.9",
-            "server_port": 2095,
-            "uuid": "3e150a5c-5f00-4177-bd81-d04d66b2929f",
+            "server": "ch.ni-ham.info",
+            "server_port": 2053,
+            "uuid": "6117ef9c-a321-4c21-a6a5-68ded959a462",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -968,11 +968,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ajghg.f-vipo.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2087",
                 "headers": {
-                    "Host": "185.146.173.9"
+                    "Host": "ajghg.f-vipo.ir"
                 }
             }
         },
@@ -1099,7 +1109,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "LB7.owayoins.net",
+                "server_name": "lg3.owayoins.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1111,7 +1121,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "LB7.owayoins.net"
+                    "Host": "lg3.owayoins.net"
                 }
             }
         },
@@ -1168,9 +1178,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.16.119.3",
+            "server": "172.64.143.172",
             "server_port": 443,
             "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
@@ -1220,7 +1230,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
+            "tag": "🇺🇸US | vless | @free1_vpn | 0",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
@@ -1251,7 +1261,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 1",
+            "tag": "🇺🇸US | vless | @fnet00 | 1",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
