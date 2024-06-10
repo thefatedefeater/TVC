@@ -120,8 +120,8 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
-                "🇬🇧GB | vmess | @proxyymeliii | 12",
-                "🇺🇸US | vmess | @v2ray1_ng | 1",
+                "🇺🇸US | vmess | @v2ray_swhil | 1",
+                "🇬🇧GB | vmess | @proxyymeliii | 13",
                 "🇺🇸US | vmess | @vless_vmess | 6",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 40",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -173,8 +173,8 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
-                "🇬🇧GB | vmess | @proxyymeliii | 12",
-                "🇺🇸US | vmess | @v2ray1_ng | 1",
+                "🇺🇸US | vmess | @v2ray_swhil | 1",
+                "🇬🇧GB | vmess | @proxyymeliii | 13",
                 "🇺🇸US | vmess | @vless_vmess | 6",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 40",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -596,24 +596,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @proxyymeliii | 12",
-            "type": "vmess",
-            "server": "206.71.149.171",
-            "server_port": 2096,
-            "uuid": "ae8b8d2c-e3a0-463a-c9d2-26165ffac498",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @v2ray1_ng | 1",
+            "tag": "🇺🇸US | vmess | @v2ray_swhil | 1",
             "type": "vmess",
             "server": "104.21.55.234",
             "server_port": 443,
@@ -644,6 +627,23 @@
                 "headers": {
                     "Host": "gwdef.sbs"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vmess | @proxyymeliii | 13",
+            "type": "vmess",
+            "server": "206.71.149.171",
+            "server_port": 2096,
+            "uuid": "ae8b8d2c-e3a0-463a-c9d2-26165ffac498",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
