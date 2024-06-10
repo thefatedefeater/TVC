@@ -113,10 +113,9 @@
                 "🇸🇬SG | vless | @v2rayNG_Matsuri | 17",
                 "🇫🇮FI | vless | @v2rayNG_Matsuri | 18",
                 "🏳️XX | vless | @v2ray_swhil | 12",
-                "🇩🇪DE | vless | @VmessProtocol | 9",
                 "🇩🇪DE | vless | @VmessProtocol | 10",
-                "🇳🇴NO | vless | @VmessProtocol | 15",
-                "🇩🇪DE | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | vless | @VmessProtocol | 11",
+                "🇳🇴NO | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -158,10 +157,9 @@
                 "🇸🇬SG | vless | @v2rayNG_Matsuri | 17",
                 "🇫🇮FI | vless | @v2rayNG_Matsuri | 18",
                 "🏳️XX | vless | @v2ray_swhil | 12",
-                "🇩🇪DE | vless | @VmessProtocol | 9",
                 "🇩🇪DE | vless | @VmessProtocol | 10",
-                "🇳🇴NO | vless | @VmessProtocol | 15",
-                "🇩🇪DE | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | vless | @VmessProtocol | 11",
+                "🇳🇴NO | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -429,7 +427,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 9",
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 10",
             "type": "vless",
             "server": "95.164.68.37",
             "server_port": 8443,
@@ -458,7 +456,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 10",
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 11",
             "type": "vless",
             "server": "91.107.176.13",
             "server_port": 8080,
@@ -487,7 +485,7 @@
             }
         },
         {
-            "tag": "🇳🇴NO | vless | @VmessProtocol | 15",
+            "tag": "🇳🇴NO | vless | @VmessProtocol | 16",
             "type": "vless",
             "server": "185.125.171.13",
             "server_port": 443,
@@ -502,35 +500,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "partner.g2.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "109.120.177.89",
-            "server_port": 8443,
-            "uuid": "7e504619-7b50-4a54-ba09-49f4054e783a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
