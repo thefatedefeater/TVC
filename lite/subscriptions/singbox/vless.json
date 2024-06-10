@@ -109,13 +109,14 @@
                 "🇨🇦CA | vless | @EliV2ray | 11",
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇬🇧GB | vless | @VlessConfig | 17",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
-                "🇸🇪SE | vless | @lightning6 | 17",
+                "🇸🇪SE | vless | @lightning6 | 19",
                 "🇺🇸US | vless | @V2rayNGmat | 5",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
@@ -132,7 +133,7 @@
                 "🇨🇦CA | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 31",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
-                "🇸🇪SE | vless | @ServerNett | 8",
+                "🇸🇪SE | vless | @ServerNett | 7",
                 "🇺🇸US | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇸🇪SE | vless | @v2ray_swhil | 17",
@@ -144,9 +145,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇮🇷IR | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 1",
-                "🇺🇸US | vless | @free1_vpn | 0",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
@@ -170,13 +170,14 @@
                 "🇨🇦CA | vless | @EliV2ray | 11",
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇬🇧GB | vless | @VlessConfig | 17",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
-                "🇸🇪SE | vless | @lightning6 | 17",
+                "🇸🇪SE | vless | @lightning6 | 19",
                 "🇺🇸US | vless | @V2rayNGmat | 5",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
@@ -193,7 +194,7 @@
                 "🇨🇦CA | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 31",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
-                "🇸🇪SE | vless | @ServerNett | 8",
+                "🇸🇪SE | vless | @ServerNett | 7",
                 "🇺🇸US | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇸🇪SE | vless | @v2ray_swhil | 17",
@@ -205,9 +206,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇮🇷IR | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 1",
-                "🇺🇸US | vless | @free1_vpn | 0",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 15",
@@ -313,6 +313,27 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
+            "type": "vless",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "a8a40be2-c5e0-45e0-87f6-d0780989399e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
             }
         },
@@ -453,7 +474,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lightning6 | 17",
+            "tag": "🇸🇪SE | vless | @lightning6 | 19",
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
@@ -880,11 +901,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ServerNett | 8",
+            "tag": "🇸🇪SE | vless | @ServerNett | 7",
             "type": "vless",
             "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "7a6ee018-ef04-4308-84fa-319bae90291f",
+            "server_port": 80,
+            "uuid": "c1b893a4-8ad7-4e06-ad65-a745ce798aea",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -894,7 +915,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ss",
                 "headers": {
                     "Host": "185.146.173.58"
                 }
@@ -1166,37 +1187,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "MaNsor427-pANeL2.PAGeS.dEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/jU7p2gAXOkxbk0Lr?ed=2560",
-                "headers": {
-                    "Host": "MaNsor427-pANeL2.PAGeS.dEV"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 1",
             "type": "vless",
             "server": "F1.V2ray.lv.",
@@ -1218,7 +1208,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free1_vpn | 0",
+            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
