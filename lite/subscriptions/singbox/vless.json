@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 12",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -126,6 +126,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
+                "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 178",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
@@ -144,8 +145,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 158",
                 "🇮🇷IR | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 19",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
-                "🇺🇸US | vless | @proxystore11 | 1",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @proxystore11 | 1",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
@@ -178,7 +179,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 12",
                 "🇸🇪SE | vless | @lightning6 | 17",
-                "🇨🇦CA | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -187,6 +188,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
+                "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 178",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
@@ -205,8 +207,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 158",
                 "🇮🇷IR | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 19",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
-                "🇺🇸US | vless | @proxystore11 | 1",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @proxystore11 | 1",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
@@ -495,7 +497,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 3",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -710,6 +712,37 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
+            "type": "vless",
+            "server": "104.21.2.27",
+            "server_port": 443,
+            "uuid": "0905460d-6edc-4a82-8ec8-6b76090b41c8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "who-cares.BacheBiaPain.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "who-cares.BacheBiaPain.IR"
                 }
             }
         },
@@ -1156,11 +1189,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "85.133.178.195",
-            "server_port": 25462,
-            "uuid": "de039db6-1669-4f44-ad99-c2652094c2a3",
+            "server": "www.you.com",
+            "server_port": 443,
+            "uuid": "0b97aee4-aafb-4e1e-a2bc-e6e5128b81a0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1168,16 +1201,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ch2.vless.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram",
                 "headers": {
-                    "Host": "85.133.178.195"
+                    "Host": "ch2.vless.site"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 1",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 1",
             "type": "vless",
             "server": "F1.V2ray.lv.",
             "server_port": 80,
