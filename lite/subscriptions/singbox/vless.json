@@ -112,7 +112,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 3",
-                "🇨🇦CA | vless | @V2pedia | 27",
+                "🇺🇸US | vless | @V2pedia | 27",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 26",
@@ -145,11 +145,11 @@
                 "🇸🇪SE | vless | @DailyV2RY | 148",
                 "🇮🇷IR | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
-                "🇸🇪SE | vless | @polproxy | 6",
+                "🇺🇸US | vless | @polproxy | 6",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -174,7 +174,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 22",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 3",
-                "🇨🇦CA | vless | @V2pedia | 27",
+                "🇺🇸US | vless | @V2pedia | 27",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 26",
@@ -207,11 +207,11 @@
                 "🇸🇪SE | vless | @DailyV2RY | 148",
                 "🇮🇷IR | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
-                "🇸🇪SE | vless | @polproxy | 6",
+                "🇺🇸US | vless | @polproxy | 6",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -382,7 +382,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 27",
+            "tag": "🇺🇸US | vless | @V2pedia | 27",
             "type": "vless",
             "server": "back.msv2ray.online",
             "server_port": 80,
@@ -1149,17 +1149,34 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "e60c6e3a-b54d-438b-8ffd-4fc060315188",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/KkhHL0gsSoZ7M6id\/ZGU1Lm1lcmxpbm56Lmxpbms=?ed=2560",
+                "headers": {
+                    "Host": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv"
+                }
             }
         },
         {
@@ -1239,11 +1256,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @polproxy | 6",
+            "tag": "🇺🇸US | vless | @polproxy | 6",
             "type": "vless",
-            "server": "185.146.173.58",
+            "server": "zula.ir",
             "server_port": 2082,
-            "uuid": "a898bb61-c4a4-4ad2-955e-dd2f8eed2ef6",
+            "uuid": "b032cadc-37c7-4c58-8e5e-74e143e46034",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1255,7 +1272,7 @@
                 "type": "ws",
                 "path": "\/telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "zula.ir"
                 }
             }
         },
