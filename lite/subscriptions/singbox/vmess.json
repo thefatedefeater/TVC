@@ -109,7 +109,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇹🇷TR | vmess | @Hope_Net | 12",
+                "🇯🇵JP | vmess | @Hope_Net | 12",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -122,7 +122,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇹🇷TR | vmess | @Hope_Net | 12",
+                "🇯🇵JP | vmess | @Hope_Net | 12",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -216,11 +216,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @Hope_Net | 12",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "tr-full.privateip.net",
-            "server_port": 443,
-            "uuid": "3b0d2976-a844-4181-858a-9ab9b26b5bfc",
+            "server": "jp-v2ray.ipracevpn.com",
+            "server_port": 2083,
+            "uuid": "745a1002-6136-4a61-b865-86e2e29bf8b6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -233,19 +233,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tr-full.privateip.net",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "tr-full.privateip.net"
                 }
             }
         },
