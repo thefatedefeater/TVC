@@ -132,7 +132,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇿CZ | trojan | @oneclickvpnkeys | 8",
-                "🇨🇦CA | vless | @prrofile_purple | 188",
+                "🇨🇦CA | vless | @Outline_Vpn | 19",
+                "🇺🇸US | vless | @prrofile_purple | 188",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 8",
@@ -146,12 +147,12 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇳🇴NO | vless | @VmessProtocol | 17",
+                "🇺🇸US | ss | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 158",
                 "🇮🇷IR | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -206,7 +207,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇿CZ | trojan | @oneclickvpnkeys | 8",
-                "🇨🇦CA | vless | @prrofile_purple | 188",
+                "🇨🇦CA | vless | @Outline_Vpn | 19",
+                "🇺🇸US | vless | @prrofile_purple | 188",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 8",
@@ -220,12 +222,12 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇳🇴NO | vless | @VmessProtocol | 17",
+                "🇺🇸US | ss | @VmessProtocol | 17",
                 "🇸🇪SE | vless | @DailyV2RY | 158",
                 "🇮🇷IR | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -831,7 +833,38 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 188",
+            "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpNeRor.SAjadHADadi.WEbsiTe",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/eOwMtmADY6cWup8R?ed=2560",
+                "headers": {
+                    "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @prrofile_purple | 188",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
@@ -1168,33 +1201,14 @@
             }
         },
         {
-            "tag": "🇳🇴NO | vless | @VmessProtocol | 17",
-            "type": "vless",
-            "server": "185.125.171.13",
+            "tag": "🇺🇸US | ss | @VmessProtocol | 17",
+            "type": "shadowsocks",
+            "server": "205.134.180.139",
             "server_port": 443,
-            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "partner.g2.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "lWaGPVFjmnag",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇸🇪SE | vless | @DailyV2RY | 158",
@@ -1273,11 +1287,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 80,
-            "uuid": "af309ad2-c943-48ea-b570-2e51a2f079d9",
+            "server": "104.18.41.138",
+            "server_port": 8443,
+            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1285,11 +1299,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazesh-tgws.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DSDaswd22!11*fdfm55247.COM.",
+                "path": "\/",
                 "headers": {
-                    "Host": "cloud.kinononva.top"
+                    "Host": "pardazesh-tgws.pages.dev"
                 }
             }
         },
