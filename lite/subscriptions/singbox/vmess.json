@@ -108,8 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 12",
+                "🇸🇪SE | vmess | @Hope_Net | 13",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -121,8 +122,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 12",
+                "🇸🇪SE | vmess | @Hope_Net | 13",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -182,6 +184,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 19",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -216,11 +252,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 12",
+            "tag": "🇸🇪SE | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "jp-v2ray.ipracevpn.com",
-            "server_port": 2083,
-            "uuid": "745a1002-6136-4a61-b865-86e2e29bf8b6",
+            "server": "80.240.113.12",
+            "server_port": 80,
+            "uuid": "3e57354f-ff12-4536-81f9-c6155ef18b69",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -231,14 +267,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/@V2RAY_CONFIGS_POOL",
+                "headers": {
+                    "Host": "sanapardaz.onthewifi.com"
                 }
             }
         },
