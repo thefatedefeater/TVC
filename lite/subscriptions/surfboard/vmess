@@ -11,15 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @DeamNet_Proxy | 16 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = false, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @ShadowProxy66 | 19 = vmess, zula.ir, 443, username = 950db6aa-4926-4616-816e-ec0312dcb87b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"jahfkjha.cfd", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @Hope_Net | 10 = vmess, 104.19.32.0, 443, username = 93ea486a-bada-42a4-ac38-d088b320fa1e, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"xmivideo.cfd", skip-cert-verify = true, tfo = false
+🇳🇴NO | vmess | @Hope_Net | 9 = vmess, 46.29.219.44, 443, username = 418048af-a293-4b99-9b0c-98ca3580dd24, ws = true, tls = 1, vmess-aead = false, ws-path = /path/191019072927, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 8 = vmess, 104.21.44.106, 443, username = 93ea486a-bada-42a4-ac38-d088b320fa1e, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"xmivideo.cfd", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @ROMAX_VPN | 6 = vmess, 188.114.99.183, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @DeamNet_Proxy | 16,🇺🇸US | vmess | @ShadowProxy66 | 19,🇨🇦CA | vmess | @Hope_Net | 10,🇺🇸US | vmess | @v2Line | 8,🇺🇸US | vmess | @ROMAX_VPN | 6
-URL-TEST = url-test,🇨🇦CA | vmess | @DeamNet_Proxy | 16,🇺🇸US | vmess | @ShadowProxy66 | 19,🇨🇦CA | vmess | @Hope_Net | 10,🇺🇸US | vmess | @v2Line | 8,🇺🇸US | vmess | @ROMAX_VPN | 6
-FALLBACK = fallback,🇨🇦CA | vmess | @DeamNet_Proxy | 16,🇺🇸US | vmess | @ShadowProxy66 | 19,🇨🇦CA | vmess | @Hope_Net | 10,🇺🇸US | vmess | @v2Line | 8,🇺🇸US | vmess | @ROMAX_VPN | 6
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @ShadowProxy66 | 19,🇳🇴NO | vmess | @Hope_Net | 9,🇺🇸US | vmess | @v2Line | 8,🇺🇸US | vmess | @ROMAX_VPN | 6
+URL-TEST = url-test,🇺🇸US | vmess | @ShadowProxy66 | 19,🇳🇴NO | vmess | @Hope_Net | 9,🇺🇸US | vmess | @v2Line | 8,🇺🇸US | vmess | @ROMAX_VPN | 6
+FALLBACK = fallback,🇺🇸US | vmess | @ShadowProxy66 | 19,🇳🇴NO | vmess | @Hope_Net | 9,🇺🇸US | vmess | @v2Line | 8,🇺🇸US | vmess | @ROMAX_VPN | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
