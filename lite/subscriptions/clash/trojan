@@ -118,8 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 17","type":"trojan","server":"15.188.108.2","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | trojan | @DirectVPN | 17","type":"trojan","server":"3.68.177.44","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 17","type":"trojan","server":"52.213.122.77","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @DirectVPN | 17","type":"trojan","server":"3.64.3.7","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"138.199.57.185","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"eiety.phooeyunfold.com"}
 proxy-groups:
   - name: MANUAL
@@ -127,7 +127,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇷FR | trojan | @PrivateVPNs | 17'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 17'
       - '🇩🇪DE | trojan | @DirectVPN | 17'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 4'
   - name: URL-TEST
@@ -136,7 +136,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇷FR | trojan | @PrivateVPNs | 17'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 17'
       - '🇩🇪DE | trojan | @DirectVPN | 17'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 4'
   - name: FALLBACK
@@ -144,7 +144,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇷FR | trojan | @PrivateVPNs | 17'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 17'
       - '🇩🇪DE | trojan | @DirectVPN | 17'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 4'
 rules:
