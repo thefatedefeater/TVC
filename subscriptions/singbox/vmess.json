@@ -135,7 +135,8 @@
                 "🇹🇷TR | vmess | @vless_vmess | 6",
                 "🇺🇸US | vmess | @vless_vmess | 14",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 40",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇺🇸US | vmess | @ConfigsHUB | 5",
+                "🇫🇷FR | vmess | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -144,7 +145,6 @@
                 "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🏳️XX | vmess | @Hope_Net | 3",
-                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇬🇧GB | vmess | @v2Line | 0",
@@ -196,7 +196,8 @@
                 "🇹🇷TR | vmess | @vless_vmess | 6",
                 "🇺🇸US | vmess | @vless_vmess | 14",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 40",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇺🇸US | vmess | @ConfigsHUB | 5",
+                "🇫🇷FR | vmess | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -205,7 +206,6 @@
                 "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🏳️XX | vmess | @Hope_Net | 3",
-                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇬🇧GB | vmess | @v2Line | 0",
@@ -957,11 +957,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 5",
             "type": "vmess",
-            "server": "188.114.98.39",
+            "server": "172.67.71.160",
             "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -974,7 +974,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -984,10 +984,27 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
+                    "Host": "obdii.cfd"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "162.19.25.207",
+            "server_port": 44513,
+            "uuid": "4552bdb6-e008-43ac-926d-c6c6c5a6fc76",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1222,40 +1239,6 @@
                 "path": "\/api\/v3\/download.getFile",
                 "headers": {
                     "Host": "v3.ssrsub.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
-            "type": "vmess",
-            "server": "104.21.15.212",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
                 }
             }
         },
