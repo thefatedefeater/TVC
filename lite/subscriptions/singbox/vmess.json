@@ -110,7 +110,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 6",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -126,7 +126,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 6",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -246,11 +246,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 6",
             "type": "vmess",
-            "server": "104.17.25.1",
-            "server_port": 80,
-            "uuid": "83c19463-f966-4adb-a7d8-b127825ffab2",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -261,11 +261,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "104.17.25.1"
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
