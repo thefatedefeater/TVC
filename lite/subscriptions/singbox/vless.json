@@ -111,13 +111,13 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 1",
-                "🇨🇦CA | vless | @V2pedia | 18",
+                "🇺🇸US | vless | @V2pedia | 18",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 10",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @lightning6 | 19",
-                "🇺🇸US | vless | @V2rayNGmat | 7",
+                "🇨🇦CA | vless | @V2rayNGmat | 7",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
@@ -145,6 +145,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 134",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 1",
@@ -172,13 +173,13 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 1",
-                "🇨🇦CA | vless | @V2pedia | 18",
+                "🇺🇸US | vless | @V2pedia | 18",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 10",
                 "🇸🇪SE | vless | @shh_proxy | 26",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @lightning6 | 19",
-                "🇺🇸US | vless | @V2rayNGmat | 7",
+                "🇨🇦CA | vless | @V2rayNGmat | 7",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 18",
                 "🇨🇦CA | vless | @proxy_kafee | 2",
@@ -206,6 +207,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 134",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 1",
@@ -359,7 +361,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 18",
+            "tag": "🇺🇸US | vless | @V2pedia | 18",
             "type": "vless",
             "server": "back.msv2ray.online",
             "server_port": 80,
@@ -485,7 +487,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 7",
+            "tag": "🇨🇦CA | vless | @V2rayNGmat | 7",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -1114,6 +1116,27 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "172.64.146.118",
+            "server_port": 80,
+            "uuid": "8f118542-e8cb-4c45-839c-df49cc722c76",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.64.146.118"
                 }
             }
         },
