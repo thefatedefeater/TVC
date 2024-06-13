@@ -132,8 +132,9 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 0",
-                "🇺🇸US | vmess | @Hope_Net | 1",
+                "🇺🇸US | vmess | @Hope_Net | 0",
+                "🇯🇵JP | vmess | @Hope_Net | 1",
+                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇯🇵JP | vmess | @v2Line | 0",
@@ -183,8 +184,9 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 0",
-                "🇺🇸US | vmess | @Hope_Net | 1",
+                "🇺🇸US | vmess | @Hope_Net | 0",
+                "🇯🇵JP | vmess | @Hope_Net | 1",
+                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇯🇵JP | vmess | @v2Line | 0",
@@ -930,7 +932,34 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 0",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "51.81.223.22",
+            "server_port": 443,
+            "uuid": "c0156451-4efb-45e2-84fc-8d315c4650db",
+            "security": "auto",
+            "alter_id": 32,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "51.81.223.22",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "jp-full.privateip.net",
             "server_port": 443,
@@ -964,7 +993,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "172.67.170.13",
             "server_port": 443,
