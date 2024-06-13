@@ -112,14 +112,14 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 2",
-                "🇺🇸US | vless | @V2pedia | 23",
+                "🇨🇦CA | vless | @V2pedia | 23",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 16",
                 "🇸🇪SE | vless | @lightning6 | 19",
-                "🇨🇦CA | vless | @V2rayNGmat | 7",
+                "🇺🇸US | vless | @V2rayNGmat | 7",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 20",
                 "🇸🇪SE | vless | @proxy_kafee | 1",
@@ -146,7 +146,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 129",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -176,14 +176,14 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 21",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 2",
-                "🇺🇸US | vless | @V2pedia | 23",
+                "🇨🇦CA | vless | @V2pedia | 23",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 12",
                 "🇸🇪SE | vless | @shh_proxy | 24",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 16",
                 "🇸🇪SE | vless | @lightning6 | 19",
-                "🇨🇦CA | vless | @V2rayNGmat | 7",
+                "🇺🇸US | vless | @V2rayNGmat | 7",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 20",
                 "🇸🇪SE | vless | @proxy_kafee | 1",
@@ -210,7 +210,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 129",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -386,7 +386,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 23",
+            "tag": "🇨🇦CA | vless | @V2pedia | 23",
             "type": "vless",
             "server": "back.msv2ray.online",
             "server_port": 80,
@@ -533,7 +533,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayNGmat | 7",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 7",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
@@ -1183,11 +1183,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "185.146.173.9",
-            "server_port": 2095,
-            "uuid": "8cab943f-fbac-4080-8b41-a7763453e01f",
+            "server": "172.67.187.56",
+            "server_port": 2083,
+            "uuid": "ca8cfe0d-61f5-4cd1-8de5-b6671adfe798",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1195,11 +1195,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "marketepicnode10.bestgameir2.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.9"
+                    "Host": "marketepicnode10.bestgameir2.ir"
                 }
             }
         },
