@@ -111,10 +111,6 @@
                 "🇺🇸US | vmess | @mftizi | 11",
                 "🇨🇳CN | vmess | @mftizi | 12",
                 "🇨🇳CN | vmess | @mftizi | 15",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 4",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 11",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 12",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 13",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
                 "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 1",
@@ -142,9 +138,8 @@
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @Hope_Net | 1",
-                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @Hope_Net | 3",
-                "🇨🇭CH | vmess | @Hope_Net | 5",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇯🇵JP | vmess | @v2Line | 0",
@@ -174,10 +169,6 @@
                 "🇺🇸US | vmess | @mftizi | 11",
                 "🇨🇳CN | vmess | @mftizi | 12",
                 "🇨🇳CN | vmess | @mftizi | 15",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 4",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 11",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 12",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 13",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
                 "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 1",
@@ -205,9 +196,8 @@
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @Hope_Net | 1",
-                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @Hope_Net | 3",
-                "🇨🇭CH | vmess | @Hope_Net | 5",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇯🇵JP | vmess | @v2Line | 0",
@@ -344,132 +334,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 4",
-            "type": "vmess",
-            "server": "slime-rhinestone-spy.glitch.me",
-            "server_port": 80,
-            "uuid": "1d5fb496-19fb-48fb-9880-a147326dee62",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/1d5fb496-19fb-48fb-9880-a147326dee62-vmess",
-                "headers": {
-                    "Host": "slime-rhinestone-spy.glitch.me"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 11",
-            "type": "vmess",
-            "server": "AstroVPN-official.AstroVPN-official.workers.dev",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 12",
-            "type": "vmess",
-            "server": "104.16.61.8",
-            "server_port": 8443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "6ba6-sound-6ba6.siliy37818.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/obdii.cfd\/linkws",
-                "headers": {
-                    "Host": "6ba6-sound-6ba6.siliy37818.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 13",
-            "type": "vmess",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
             }
         },
         {
@@ -1160,7 +1024,7 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 0",
             "type": "vmess",
-            "server": "afrhms16v.bestxray.buzz",
+            "server": "172.67.175.56",
             "server_port": 443,
             "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
@@ -1194,7 +1058,7 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "172.67.175.56",
+            "server": "afrhms16v.bestxray.buzz",
             "server_port": 443,
             "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
@@ -1226,7 +1090,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 2052,
@@ -1250,7 +1114,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "51.81.223.20",
             "server_port": 443,
@@ -1274,23 +1138,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇭CH | vmess | @Hope_Net | 5",
-            "type": "vmess",
-            "server": "94.232.246.31",
-            "server_port": 8081,
-            "uuid": "fb53fae3-92a3-406c-97e8-73be9dc23365",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
