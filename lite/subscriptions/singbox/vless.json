@@ -140,16 +140,15 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇩🇪DE | vless | @MsV2ray | 11",
-                "🇮🇷IR | vless | @v2ray1_ng | 4",
+                "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 19",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 23",
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 92",
-                "🇨🇦CA | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
-                "🇺🇸US | vless | @ConfigsHUB | 11",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -163,6 +162,7 @@
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
+                "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -208,16 +208,15 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇸🇪SE | vless | @proxyymeliii | 15",
                 "🇩🇪DE | vless | @MsV2ray | 11",
-                "🇮🇷IR | vless | @v2ray1_ng | 4",
+                "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 19",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 23",
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 92",
-                "🇨🇦CA | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
-                "🇺🇸US | vless | @ConfigsHUB | 11",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -231,6 +230,7 @@
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
+                "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -1028,17 +1028,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2ray1_ng | 4",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 4",
             "type": "vless",
-            "server": "185.58.240.178",
-            "server_port": 2020,
-            "uuid": "d94e8168-001e-458c-b803-c6b7c915e724",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-@V2ray_Alpha\/",
+                "headers": {
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                }
             }
         },
         {
@@ -1208,7 +1225,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 4",
+            "tag": "🇨🇦CA | vless | @sinabigo | 5",
             "type": "vless",
             "server": "188.114.96.12",
             "server_port": 443,
@@ -1256,37 +1273,6 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "7f905f51.garywelch.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "7f905f51.garywelch.pages.dev"
                 }
             }
         },
@@ -1609,6 +1595,27 @@
                 "path": "\/kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava",
                 "headers": {
                     "Host": "melonmusic.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @proxy_mtm | 0",
+            "type": "vless",
+            "server": "188.114.97.141",
+            "server_port": 80,
+            "uuid": "92edcdcd-157d-448a-9378-61b56741390b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-proxy-mtm-telegram-proxy-mtm-telegram-proxy-mtm",
+                "headers": {
+                    "Host": "188.114.97.141"
                 }
             }
         },
