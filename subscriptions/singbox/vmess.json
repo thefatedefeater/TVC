@@ -111,6 +111,9 @@
                 "🇺🇸US | vmess | @mftizi | 11",
                 "🇨🇳CN | vmess | @mftizi | 12",
                 "🇨🇳CN | vmess | @mftizi | 15",
+                "🇯🇵JP | vmess | @DeamNet_Proxy | 8",
+                "🇨🇭CH | vmess | @DeamNet_Proxy | 9",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 10",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
                 "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 1",
@@ -137,9 +140,9 @@
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 0",
-                "🇺🇸US | vmess | @Hope_Net | 1",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇯🇵JP | vmess | @v2Line | 0",
@@ -169,6 +172,9 @@
                 "🇺🇸US | vmess | @mftizi | 11",
                 "🇨🇳CN | vmess | @mftizi | 12",
                 "🇨🇳CN | vmess | @mftizi | 15",
+                "🇯🇵JP | vmess | @DeamNet_Proxy | 8",
+                "🇨🇭CH | vmess | @DeamNet_Proxy | 9",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 10",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
                 "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 1",
@@ -195,9 +201,9 @@
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 0",
-                "🇺🇸US | vmess | @Hope_Net | 1",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇯🇵JP | vmess | @v2Line | 0",
@@ -334,6 +340,91 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇯🇵JP | vmess | @DeamNet_Proxy | 8",
+            "type": "vmess",
+            "server": "140.83.63.38",
+            "server_port": 24445,
+            "uuid": "94c5ef37-4d82-49f9-c624-f01259374a17",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇭CH | vmess | @DeamNet_Proxy | 9",
+            "type": "vmess",
+            "server": "185.18.250.33",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "r-wispy-meadow-9221.fosoka9932.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/jahfkjha.cfd\/linkws",
+                "headers": {
+                    "Host": "r-wispy-meadow-9221.fosoka9932.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 10",
+            "type": "vmess",
+            "server": "104.16.61.8",
+            "server_port": 2053,
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "7hss-butterfly-d4c3.fijetem432.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/afrhms07.xfixedfloat.cfd\/linkws",
+                "headers": {
+                    "Host": "7hss-butterfly-d4c3.fijetem432.workers.dev"
+                }
             }
         },
         {
@@ -1056,7 +1147,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "afrhms16v.bestxray.buzz",
             "server_port": 443,
@@ -1090,7 +1181,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 2052,
@@ -1114,7 +1205,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "51.81.223.20",
             "server_port": 443,
