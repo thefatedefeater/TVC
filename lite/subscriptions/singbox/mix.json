@@ -154,9 +154,9 @@
                 "🇫🇮FI | vless | @DailyV2RY | 142",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇮🇷IR | vless | @proxystore11 | 1",
-                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -233,9 +233,9 @@
                 "🇫🇮FI | vless | @DailyV2RY | 142",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇮🇷IR | vless | @proxystore11 | 1",
-                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -1370,11 +1370,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "check-host.net",
-            "server_port": 80,
-            "uuid": "311403f7-3796-4ed2-9d39-a500b4468d9c",
+            "server": "172.66.44.71",
+            "server_port": 443,
+            "uuid": "8ceac519-7b18-47a5-b53e-d37ba318b0aa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1382,11 +1382,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "c1c569fc.irani-eub.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-proxy-mtm-telegram-proxy-mtm-telegram-proxy-mtm",
+                "path": "\/",
                 "headers": {
-                    "Host": "check-host.net"
+                    "Host": "c1c569fc.irani-eub.pages.dev"
                 }
             }
         },
@@ -1405,7 +1415,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
