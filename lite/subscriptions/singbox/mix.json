@@ -149,17 +149,17 @@
                 "🇨🇦CA | vless | @vless_vmess | 19",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 23",
-                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 92",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @ConfigsHUB | 15",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇯🇵JP | vmess | @Hope_Net | 5",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
@@ -229,17 +229,17 @@
                 "🇨🇦CA | vless | @vless_vmess | 19",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 23",
-                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇨🇦CA | vless | @VmessProtocol | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 92",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @ConfigsHUB | 15",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇯🇵JP | vmess | @Hope_Net | 5",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
@@ -1283,7 +1283,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 17",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 16",
             "type": "vless",
             "server": "185.146.173.95",
             "server_port": 2095,
@@ -1418,11 +1418,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 80,
-            "uuid": "f93255ff-7727-4dee-bc1b-80df895e7f3e",
+            "server": "188.114.96.6",
+            "server_port": 443,
+            "uuid": "4ca5934d-482b-4c1d-b729-efda18b2ea67",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1430,11 +1430,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "DisVpn.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },
@@ -1518,11 +1528,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "jp-full.privateip.net",
+            "server": "172.67.170.13",
             "server_port": 443,
-            "uuid": "7c8c641f-c970-471b-9785-08817a305b0a",
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1535,7 +1545,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jp-full.privateip.net",
+                "server_name": "glweidf.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1545,9 +1555,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/RACEVPN",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "jp-full.privateip.net"
+                    "Host": "glweidf.sbs"
                 }
             }
         },
