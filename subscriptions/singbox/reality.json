@@ -114,6 +114,7 @@
                 "🏳️XX | vless | @customv2ray | 9",
                 "🇩🇪DE | vless | @vless_vmess | 5",
                 "🇩🇰DK | vless | @VmessProtocol | 6",
+                "🇭🇰HK | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -156,6 +157,7 @@
                 "🏳️XX | vless | @customv2ray | 9",
                 "🇩🇪DE | vless | @vless_vmess | 5",
                 "🇩🇰DK | vless | @VmessProtocol | 6",
+                "🇭🇰HK | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -455,6 +457,35 @@
                     "enabled": true,
                     "public_key": "tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0",
                     "short_id": "95becf1c4d3adc04"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "47.242.159.86",
+            "server_port": 25080,
+            "uuid": "b7b98458-8245-4b47-fe95-23a65f67fbab",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.icloud.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w",
+                    "short_id": ""
                 }
             }
         },
