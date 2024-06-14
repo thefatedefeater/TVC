@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇭🇰HK | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @FreakConfig | 4",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -115,6 +116,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇭🇰HK | vless | @ConfigsHUB | 16",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @FreakConfig | 4",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -138,6 +140,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇭🇰HK | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "47.242.159.86",
+            "server_port": 25080,
+            "uuid": "b7b98458-8245-4b47-fe95-23a65f67fbab",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.icloud.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇺🇸US | vless | @Capital_NET | 45",
