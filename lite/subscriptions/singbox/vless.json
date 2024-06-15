@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 17",
                 "🇸🇪SE | vless | @Parsashonam | 12",
-                "🇫🇷FR | vless | @VlessConfig | 16",
+                "🇬🇧GB | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 27",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -126,7 +126,6 @@
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 7",
                 "🇸🇪SE | vless | @V2rayNGn | 19",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇮🇷IR | vless | @prrofile_purple | 188",
@@ -172,7 +171,7 @@
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 17",
                 "🇸🇪SE | vless | @Parsashonam | 12",
-                "🇫🇷FR | vless | @VlessConfig | 16",
+                "🇬🇧GB | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 27",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -190,7 +189,6 @@
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 7",
                 "🇸🇪SE | vless | @V2rayNGn | 19",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇮🇷IR | vless | @prrofile_purple | 188",
@@ -292,9 +290,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 16",
+            "tag": "🇬🇧GB | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.38.178.126",
+            "server": "13.43.233.72",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -696,37 +694,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "4d3d6f00.garywelch.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 7",
-            "type": "vless",
-            "server": "marketepicnode10.bestgameir2.ir",
-            "server_port": 2083,
-            "uuid": "6ae78853-9cae-44bd-88bd-9f32723eb685",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "marketepicnode10.bestgameir2.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "marketepicnode10.bestgameir2.ir"
                 }
             }
         },
@@ -1171,9 +1138,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.96.3",
+            "server": "172.67.216.94",
             "server_port": 443,
-            "uuid": "423acc4e-415d-4e0c-9781-40e313866f4d",
+            "uuid": "c43cf30c-18f1-4e20-bd88-73b1288c5202",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1183,7 +1150,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "DisVpn.us.kg",
+                "server_name": "worker-dry-breeze-60a0.chngyznwy.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1193,9 +1160,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/",
                 "headers": {
-                    "Host": "DisVpn.us.kg"
+                    "Host": "worker-dry-breeze-60a0.chngyznwy.workers.dev"
                 }
             }
         },
