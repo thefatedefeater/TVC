@@ -115,7 +115,6 @@
                 "🏳️XX | vless | @customv2ray | 9",
                 "🇩🇪DE | vless | @vless_vmess | 12",
                 "🇺🇸US | vless | @VmessProtocol | 5",
-                "🇩🇪DE | vless | @ConfigsHUB | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -159,7 +158,6 @@
                 "🏳️XX | vless | @customv2ray | 9",
                 "🇩🇪DE | vless | @vless_vmess | 12",
                 "🇺🇸US | vless | @VmessProtocol | 5",
-                "🇩🇪DE | vless | @ConfigsHUB | 7",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -495,35 +493,6 @@
                     "enabled": true,
                     "public_key": "nLDsqH0iqy2tsJS62RP-viiKwJoGAcCq5rGh6hKnGFU",
                     "short_id": "ba345106595e9c3c"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "order.ka-zeit.com",
-            "server_port": 443,
-            "uuid": "350e9274-7fc4-4264-bf4d-22d39d731865",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "wordpress.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B8qEfLWB6ViX4KohhTWtZxr_qU4_g8dqty-rfrmKoBw",
-                    "short_id": ""
                 }
             }
         },
