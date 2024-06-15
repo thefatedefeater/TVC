@@ -153,7 +153,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇸🇬SG | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -231,7 +231,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇸🇬SG | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -1354,11 +1354,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇬SG | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.92",
-            "server_port": 2095,
-            "uuid": "3c662e6b-9c84-4ed1-84b9-f947d052044f",
+            "server": "47.236.254.120",
+            "server_port": 8443,
+            "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1366,11 +1366,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "v033.ylkszy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/proxyip",
                 "headers": {
-                    "Host": "185.146.173.92"
+                    "Host": "v033.ylkszy.eu.org"
                 }
             }
         },
