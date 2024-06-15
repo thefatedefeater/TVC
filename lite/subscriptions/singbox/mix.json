@@ -153,7 +153,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇷CR | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -168,7 +168,7 @@
                 "🇸🇪SE | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 2",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🏳️XX | vless | @FAKEOFTVC | 6",
+                "🏳️XX | trojan | @FAKEOFTVC | 4",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
@@ -231,7 +231,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇷CR | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -246,7 +246,7 @@
                 "🇸🇪SE | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 2",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🏳️XX | vless | @FAKEOFTVC | 6",
+                "🏳️XX | trojan | @FAKEOFTVC | 4",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 0",
@@ -1354,11 +1354,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 2095,
-            "uuid": "join--ZEDMODEON",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "423acc4e-415d-4e0c-9781-40e313866f4d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1366,11 +1366,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "DisVpn.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON @ZeV2ray",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "190.93.247.155"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },
@@ -1752,23 +1762,31 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @FAKEOFTVC | 6",
-            "type": "vless",
-            "server": "icy-mountain-1847.hukinghumans.WORkErs.dEV",
-            "server_port": 80,
-            "uuid": "8270f450-7143-548a-b311-4eeefe44f773",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🏳️XX | trojan | @FAKEOFTVC | 4",
+            "type": "trojan",
+            "server": "icy-mountain-1847.hukinghumans.WORkerS.DeV",
+            "server_port": 8443,
+            "password": "8270f450-7143-548a-b311-4eeefe44f773",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "icy-mountain-1847.hukinghumans.WORkerS.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/",
+                "path": "\/trojan-ws\/?ed",
                 "headers": {
-                    "Host": "icy-mountain-1847.hukinghumans.WORkErs.dEV"
+                    "Host": "icy-mountain-1847.hukinghumans.WORkerS.DeV"
                 }
             }
         },
