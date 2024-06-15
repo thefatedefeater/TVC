@@ -125,8 +125,9 @@
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @ProxyForOpeta | 6",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
-                "🇮🇪IE | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @PrivateVPNs | 17",
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -148,11 +149,11 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 14",
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇺🇸US | vless | @VmessProtocol | 15",
-                "🇸🇪SE | vless | @DailyV2RY | 41",
+                "🇸🇪SE | vless | @DailyV2RY | 33",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 27",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -202,8 +203,9 @@
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @ProxyForOpeta | 6",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
-                "🇮🇪IE | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @PrivateVPNs | 17",
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -225,11 +227,11 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 14",
                 "🇸🇪SE | vless | @V2RayTz | 17",
                 "🇺🇸US | vless | @VmessProtocol | 15",
-                "🇸🇪SE | vless | @DailyV2RY | 41",
+                "🇸🇪SE | vless | @DailyV2RY | 33",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 27",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -705,6 +707,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 6",
+            "type": "vless",
+            "server": "emifree.bestgameir2.ir",
+            "server_port": 2083,
+            "uuid": "42e8e2af-ff40-4adb-ba5b-1ffb0b31c368",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "emifree.bestgameir2.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/JoinChanel-proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta-V2rayngmmd-telegram-free-v2ray?ed=2560",
+                "headers": {
+                    "Host": "emifree.bestgameir2.ir"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @V2rayNGn | 20",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
@@ -726,9 +759,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 17",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "34.253.246.79",
+            "server": "13.51.184.53",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1247,7 +1280,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 41",
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 33",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 80,
@@ -1330,11 +1363,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
             "type": "vless",
             "server": "185.146.173.237",
-            "server_port": 8080,
-            "uuid": "telegram-id-ArV2ray",
+            "server_port": 2095,
+            "uuid": "534ff061-52b1-40d2-a027-b1139aec7491",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1344,7 +1377,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
                 "headers": {
                     "Host": "185.146.173.237"
                 }
@@ -1515,9 +1548,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 10",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "9d653c49-f256-4754-baa3-65fdbd4deca2",
+            "server": "104.16.67.38",
+            "server_port": 2053,
+            "uuid": "cf428955-86c2-46b1-8cd7-f111666ff9fc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1527,7 +1560,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mother.pinobin.ir.",
+                "server_name": "qwsdfjdffgfgjioerjidgdfgjifjdrefjfidfj.dr-salam.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1537,9 +1570,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/wg0kfQnpOT4hCy34",
+                "path": "\/backup",
                 "headers": {
-                    "Host": "mother.pinobin.ir."
+                    "Host": "qwsdfjdffgfgjioerjidgdfgjifjdrefjfidfj.dr-salam.com"
                 }
             }
         },
