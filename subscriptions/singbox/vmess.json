@@ -114,13 +114,14 @@
                 "🇺🇸US | vmess | @mftizi | 14",
                 "🇨🇳CN | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 5",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 13",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 6",
-                "🇺🇸US | vmess | @prrofile_purple | 177",
+                "🇺🇸US | vmess | @prrofile_purple | 180",
+                "🇺🇸US | vmess | @prrofile_purple | 185",
                 "🇺🇸US | vmess | @ShadowProxy66 | 14",
                 "🇺🇸US | vmess | @v2ray_swhil | 8",
                 "🇺🇸US | vmess | @proxystore11 | 2",
@@ -129,7 +130,7 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇯🇵JP | vmess | @v2Line | 0",
@@ -161,13 +162,14 @@
                 "🇺🇸US | vmess | @mftizi | 14",
                 "🇨🇳CN | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 5",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 13",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 6",
-                "🇺🇸US | vmess | @prrofile_purple | 177",
+                "🇺🇸US | vmess | @prrofile_purple | 180",
+                "🇺🇸US | vmess | @prrofile_purple | 185",
                 "🇺🇸US | vmess | @ShadowProxy66 | 14",
                 "🇺🇸US | vmess | @v2ray_swhil | 8",
                 "🇺🇸US | vmess | @proxystore11 | 2",
@@ -176,7 +178,7 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇯🇵JP | vmess | @v2Line | 0",
@@ -373,11 +375,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 5",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 13",
             "type": "vmess",
-            "server": "172.67.170.103",
+            "server": "jahfkjha.cfd",
             "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -390,7 +392,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.sbs",
+                "server_name": "jahfkjha.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -402,7 +404,31 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": "jahfkjha.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 14",
+            "type": "vmess",
+            "server": "172.67.169.82",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.169.82"
                 }
             }
         },
@@ -533,11 +559,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇺🇸US | vmess | @prrofile_purple | 180",
             "type": "vmess",
-            "server": "jahfkjha.cfd",
+            "server": "172.67.164.164",
             "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -550,7 +576,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jahfkjha.cfd",
+                "server_name": "afrhms07.xfixedfloat.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -562,12 +588,12 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "jahfkjha.cfd"
+                    "Host": "afrhms07.xfixedfloat.cfd"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @prrofile_purple | 177",
+            "tag": "🇺🇸US | vmess | @prrofile_purple | 185",
             "type": "vmess",
             "server": "172.67.171.49",
             "server_port": 80,
@@ -843,7 +869,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
