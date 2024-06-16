@@ -112,7 +112,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 32",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 2",
-                "🇨🇦CA | vless | @frev2ray | 2",
+                "🇸🇪SE | vless | @frev2ray | 2",
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -132,7 +132,7 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
-                "🇨🇦CA | vless | @ShadowProxy66 | 23",
+                "🇨🇦CA | vless | @ShadowProxy66 | 24",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @v2ray_swhil | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
@@ -140,7 +140,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 71",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
@@ -171,7 +171,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 32",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 2",
-                "🇨🇦CA | vless | @frev2ray | 2",
+                "🇸🇪SE | vless | @frev2ray | 2",
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
@@ -179,7 +179,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -191,7 +191,7 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
-                "🇨🇦CA | vless | @ShadowProxy66 | 23",
+                "🇨🇦CA | vless | @ShadowProxy66 | 24",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇨🇦CA | vless | @v2ray_swhil | 15",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
@@ -199,7 +199,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇸🇪SE | vless | @DailyV2RY | 71",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇩🇪DE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
@@ -376,11 +376,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @frev2ray | 2",
+            "tag": "🇸🇪SE | vless | @frev2ray | 2",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "VPNCUSTOMIZE",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -388,11 +388,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "VLB1.owayoins.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "VLB1.owayoins.net"
                 }
             }
         },
@@ -544,7 +554,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 3",
+            "tag": "🇸🇪SE | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "185.146.173.95",
             "server_port": 80,
@@ -846,7 +856,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 23",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 24",
             "type": "vless",
             "server": "104.16.223.104",
             "server_port": 80,
@@ -1044,17 +1054,24 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "49.13.82.2",
-            "server_port": 8080,
-            "uuid": "99c517c7-606c-4091-99d0-0a19203d6835",
+            "server": "cdn.discordapp.com",
+            "server_port": 8880,
+            "uuid": "7d6350cd-baa1-4df6-8025-a67db26ea4ae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.",
+                "headers": {
+                    "Host": "cdn.discordapp.com"
+                }
             }
         },
         {
@@ -1164,9 +1181,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "104.18.202.232",
+            "server": "188.114.97.141",
             "server_port": 443,
-            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1176,7 +1193,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1186,9 +1203,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/TELEGRAM-proxy_mtm\/",
                 "headers": {
-                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
                 }
             }
         },
