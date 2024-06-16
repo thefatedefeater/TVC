@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -1205,23 +1205,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "185.146.173.92",
-            "server_port": 2095,
-            "uuid": "95e4ad83-b412-46ac-9d1c-bec1ebf21cec",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "172.67.161.77",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "185.146.173.92"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
