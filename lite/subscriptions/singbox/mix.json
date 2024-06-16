@@ -133,6 +133,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 186",
+                "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 18",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
@@ -147,12 +148,12 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 1",
-                "🇨🇦CA | vless | @polproxy | 6",
+                "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -204,6 +205,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 186",
+                "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 18",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
@@ -218,12 +220,12 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 1",
-                "🇨🇦CA | vless | @polproxy | 6",
+                "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -858,6 +860,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @UnlimitedDev | 15",
+            "type": "vless",
+            "server": "join-unlimiteddev-vpn.unlimiteddev.site",
+            "server_port": 8080,
+            "uuid": "fd08a503-a466-4bed-935a-8f1f573b0043",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "headers": {
+                    "Host": "join-unlimiteddev-vpn.unlimiteddev.site"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @vmessorg | 10",
             "type": "vless",
             "server": "joinbede1.vmessorg.community.",
@@ -1182,34 +1205,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.67.135.169",
-            "server_port": 443,
-            "uuid": "a318d48d-9882-4d88-8c73-be6e0721d0f3",
+            "server": "49.13.82.2",
+            "server_port": 8080,
+            "uuid": "99c517c7-606c-4091-99d0-0a19203d6835",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sweet.footballlovernews.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/sweet",
-                "headers": {
-                    "Host": "sweet.footballlovernews.com"
-                }
             }
         },
         {
@@ -1330,7 +1336,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 6",
+            "tag": "🇺🇸US | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
