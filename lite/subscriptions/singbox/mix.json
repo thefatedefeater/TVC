@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 8",
-                "🇨🇦CA | vless | @v2ray_swhil | 15",
+                "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 9",
@@ -151,11 +151,11 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇸US | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 8",
-                "🇨🇦CA | vless | @v2ray_swhil | 15",
+                "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 9",
@@ -226,11 +226,11 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇸US | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -1056,11 +1056,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 15",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 13",
             "type": "vless",
-            "server": "172.66.46.251",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "172.66.44.135",
+            "server_port": 80,
+            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1068,21 +1068,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "bBF9c21A.tECHNeTbpb.paGEs.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "bBF9c21A.tECHNeTbpb.paGEs.Dev"
+                    "Host": "172.66.44.135"
                 }
             }
         },
@@ -1334,17 +1324,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "185.146.173.82",
-            "server_port": 8880,
-            "uuid": "18f8aa42-3efc-46d9-b69a-17754182e0cb",
+            "server": "185.146.173.35",
+            "server_port": 2095,
+            "uuid": "-----DIGIV2RAY----",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "headers": {
+                    "Host": "185.146.173.35"
+                }
             }
         },
         {
@@ -1434,7 +1431,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "38.33.34.20",
             "server_port": 38001,
