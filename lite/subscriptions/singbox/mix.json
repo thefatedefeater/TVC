@@ -133,6 +133,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇸🇪SE | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 186",
+                "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
@@ -148,12 +149,12 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇸🇬SG | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
-                "🇺🇸US | vless | @polproxy | 6",
+                "🇨🇦CA | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -205,6 +206,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇸🇪SE | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 186",
+                "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
@@ -220,12 +222,12 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇸🇬SG | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
-                "🇺🇸US | vless | @polproxy | 6",
+                "🇨🇦CA | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -870,6 +872,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @customv2ray | 15",
+            "type": "vless",
+            "server": "104.21.32.226",
+            "server_port": 2087,
+            "uuid": "8954d96c-00ff-4da1-9822-cdf16c5843b7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnwedbaz313-mci.eystem.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz---VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @UnlimitedDev | 15",
             "type": "vless",
             "server": "join-unlimiteddev-vpn.unlimiteddev.site",
@@ -1225,11 +1258,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇸🇬SG | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.19.31.105",
+            "server": "168.138.177.109",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1239,7 +1272,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1251,7 +1284,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
                 }
             }
         },
@@ -1373,7 +1406,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @polproxy | 6",
+            "tag": "🇨🇦CA | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
