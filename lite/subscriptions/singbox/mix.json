@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇬🇧GB | vless | @VlessConfig | 17",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 32",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇨🇦CA | vless | @V2pedia | 23",
@@ -148,7 +147,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -180,7 +179,6 @@
             "outbounds": [
                 "🇸🇪SE | vless | @Parsashonam | 12",
                 "🇬🇧GB | vless | @VlessConfig | 17",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 32",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 2",
                 "🇨🇦CA | vless | @V2pedia | 23",
@@ -220,7 +218,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -314,27 +312,6 @@
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 32",
-            "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "f75f3fb3-c105-435c-883b-ed6d1089bb02",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
             }
         },
@@ -521,7 +498,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
-            "uuid": "e3d94a9f-d58c-436e-82b3-fa47e0920388",
+            "uuid": "7db60668-50f3-4552-a172-75b478736a79",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1252,33 +1229,26 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "falconpolv2rayng.tavalede.co",
-            "server_port": 2087,
-            "uuid": "94e3580d-bb6a-4b72-9ae4-dc9fd8ede7d8",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "129.146.113.254",
+            "server_port": 43121,
+            "uuid": "d53b39e2-925e-45b6-9389-46b9fa95878b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vi6.tavalede.co",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@FalconPolV2rayNG@FalconPolV2rayNG",
+                "path": "\/",
                 "headers": {
-                    "Host": "vi6.tavalede.co"
+                    "Host": "129.146.113.254"
                 }
             }
         },
