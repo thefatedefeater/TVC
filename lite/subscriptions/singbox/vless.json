@@ -150,10 +150,10 @@
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 17",
+                "🇺🇸US | vless | @Capoit | 19",
                 "🇺🇸US | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 1",
@@ -214,10 +214,10 @@
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vless | @Capoit | 17",
+                "🇺🇸US | vless | @Capoit | 19",
                 "🇺🇸US | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 1",
@@ -1069,9 +1069,9 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2052,
-            "uuid": "%54%65%6c%65%67%72%61%6d%2d%69%70%56%32%52%61%79%2d%6a%69%75",
+            "server": "185.146.173.95",
+            "server_port": 2095,
+            "uuid": "%39%34%33%32%32%37%61%61%2d%65%34%32%65%2d%34%65%62%32%2d%62%65%63%63%2d%62%62%38%39%64%35%38%32%66%35%35%35",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1081,9 +1081,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "185.146.173.95"
                 }
             }
         },
@@ -1192,9 +1192,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "falconpolv2rayng.tavalede.co",
-            "server_port": 2087,
-            "uuid": "94e3580d-bb6a-4b72-9ae4-dc9fd8ede7d8",
+            "server": "104.19.7.174",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1204,7 +1204,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vi6.tavalede.co",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1214,9 +1214,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@FalconPolV2rayNG@FalconPolV2rayNG",
+                "path": "\/",
                 "headers": {
-                    "Host": "vi6.tavalede.co"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1325,11 +1325,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "172.67.177.176",
-            "server_port": 8080,
-            "uuid": "4135228e-8246-4886-9ee0-0140fca3f3cb",
+            "server": "185.146.173.58",
+            "server_port": 2052,
+            "uuid": "Telegram-ipV2Ray-ope",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1339,9 +1339,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/V2ray.motorcycles",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "172.67.177.176"
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1396,7 +1396,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 17",
+            "tag": "🇺🇸US | vless | @Capoit | 19",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
