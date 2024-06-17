@@ -124,9 +124,9 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @prrofile_purple | 168",
                 "🇺🇸US | vmess | @prrofile_purple | 170",
-                "🇺🇸US | vmess | @v2ray_swhil | 12",
+                "🇺🇸US | vmess | @v2ray_swhil | 10",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 2",
-                "🇺🇸US | vmess | @ConfigsHUB | 11",
+                "🇺🇸US | vmess | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @proxystore11 | 5",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -179,9 +179,9 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @prrofile_purple | 168",
                 "🇺🇸US | vmess | @prrofile_purple | 170",
-                "🇺🇸US | vmess | @v2ray_swhil | 12",
+                "🇺🇸US | vmess | @v2ray_swhil | 10",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 2",
-                "🇺🇸US | vmess | @ConfigsHUB | 11",
+                "🇺🇸US | vmess | @ConfigsHUB | 16",
                 "🇺🇸US | vmess | @proxystore11 | 5",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -689,7 +689,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2ray_swhil | 12",
+            "tag": "🇺🇸US | vmess | @v2ray_swhil | 10",
             "type": "vmess",
             "server": "104.21.55.234",
             "server_port": 443,
@@ -757,11 +757,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 11",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "e5c32585-2f08-4be2-a163-796a941aa6e7",
+            "server": "104.21.44.106",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -772,11 +772,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "xmivideo.cfd"
                 }
             }
         },
