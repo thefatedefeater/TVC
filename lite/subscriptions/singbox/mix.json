@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -225,7 +225,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 25",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -314,7 +314,7 @@
         {
             "tag": "🇨🇦CA | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "3.97.137.34",
+            "server": "99.79.152.102",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1315,11 +1315,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.99.99",
-            "server_port": 2053,
-            "uuid": "3107a335-e914-40c2-b740-d14aaa46ca84",
+            "server": "104.21.69.44",
+            "server_port": 8443,
+            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1329,7 +1329,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kanon.parhamtraberthos.IR.",
+                "server_name": "ggho.pages.dev.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1338,11 +1338,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "https:\/\/t.me\/new_proxy_channel-@new_proxy_channel",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "headers": {
+                    "Host": "ggho.pages.dev."
+                }
             }
         },
         {
