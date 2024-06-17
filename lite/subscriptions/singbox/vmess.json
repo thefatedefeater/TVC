@@ -110,7 +110,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 10",
-                "🇬🇧GB | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
@@ -126,7 +126,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 10",
-                "🇬🇧GB | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
@@ -246,11 +246,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
             "type": "vmess",
-            "server": "172.99.190.109",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "104.17.25.1",
+            "server_port": 80,
+            "uuid": "83c19463-f966-4adb-a7d8-b127825ffab2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -261,21 +261,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "104.17.25.1"
                 }
             }
         },
