@@ -125,7 +125,7 @@
                 "🇸🇪SE | vless | @v2logy | 11",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 7",
+                "🇨🇦CA | vless | @ProxyForOpeta | 8",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 175",
@@ -138,15 +138,16 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 10",
                 "🇸🇪SE | vless | @proxyymeliii | 19",
                 "🇮🇷IR | vless | @v2ray1_ng | 5",
-                "🇨🇦CA | vless | @vless_vmess | 10",
+                "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇸🇪SE | vless | @lrnbymaa | 22",
+                "🇸🇪SE | vless | @lrnbymaa | 25",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇺🇸US | vless | @fnet00 | 4",
+                "🇨🇦CA | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
@@ -187,7 +188,7 @@
                 "🇸🇪SE | vless | @v2logy | 11",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 7",
+                "🇨🇦CA | vless | @ProxyForOpeta | 8",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 175",
@@ -200,15 +201,16 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 10",
                 "🇸🇪SE | vless | @proxyymeliii | 19",
                 "🇮🇷IR | vless | @v2ray1_ng | 5",
-                "🇨🇦CA | vless | @vless_vmess | 10",
+                "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇸🇪SE | vless | @lrnbymaa | 22",
+                "🇸🇪SE | vless | @lrnbymaa | 25",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇺🇸US | vless | @fnet00 | 4",
+                "🇨🇦CA | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
@@ -675,7 +677,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 7",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 8",
             "type": "vless",
             "server": "emifree.bestgameir2.ir",
             "server_port": 2083,
@@ -729,9 +731,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
             "type": "vless",
-            "server": "172.66.44.135",
-            "server_port": 80,
-            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
+            "server": "104.31.16.95",
+            "server_port": 443,
+            "uuid": "7b5a7775-4006-49af-96c4-b2506a794f99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -739,11 +741,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "laj.iranianmobail.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/9KsgRW1AnYtwZOVz",
                 "headers": {
-                    "Host": "172.66.44.135"
+                    "Host": "laj.iranianmobail.ir"
                 }
             }
         },
@@ -981,7 +993,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vless_vmess | 10",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 11",
             "type": "vless",
             "server": "172.64.87.176",
             "server_port": 443,
@@ -1116,7 +1128,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lrnbymaa | 22",
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 25",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
@@ -1134,6 +1146,20 @@
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "49.13.82.2",
+            "server_port": 8080,
+            "uuid": "99c517c7-606c-4091-99d0-0a19203d6835",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1189,7 +1215,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 4",
+            "tag": "🇨🇦CA | vless | @fnet00 | 4",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
