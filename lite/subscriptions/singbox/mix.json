@@ -112,7 +112,6 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 35",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 2",
-                "🇨🇦CA | vless | @V2pedia | 21",
                 "🇸🇪SE | vless | @frev2ray | 2",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 29",
@@ -152,7 +151,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 11",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -188,7 +187,6 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 35",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 2",
-                "🇨🇦CA | vless | @V2pedia | 21",
                 "🇸🇪SE | vless | @frev2ray | 2",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 29",
@@ -228,7 +226,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 11",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -406,27 +404,6 @@
                 "path": "\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @V2pedia | 21",
-            "type": "vless",
-            "server": "back.msv2ray.online",
-            "server_port": 80,
-            "uuid": "324c4ba2-d51a-47d0-87f7-3ceff871066a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
-                "headers": {
-                    "Host": "back.msv2ray.online"
                 }
             }
         },
@@ -1330,13 +1307,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "185.146.173.146",
-            "server_port": 80,
-            "uuid": "1ba939cd-b055-43bb-a35d-e011cb7c3ac8",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "d2c7dab0-9d53-41c4-ab60-9b33acfe3953",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1344,9 +1324,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--HAJIMAMADVPN",
+                "path": "\/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80",
                 "headers": {
-                    "Host": "185.146.173.146"
+                    "Host": ""
                 }
             }
         },
