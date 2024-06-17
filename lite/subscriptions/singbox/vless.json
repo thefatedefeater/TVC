@@ -135,6 +135,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 8",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇺🇸US | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
@@ -142,7 +143,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -155,7 +156,7 @@
                 "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @kiava | 8",
-                "🇸🇪SE | vless | @proxy_mtm | 0",
+                "🇸🇪SE | vless | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -196,6 +197,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 8",
+                "🇨🇦CA | vless | @proxyymeliii | 16",
                 "🇺🇸US | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
@@ -203,7 +205,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -216,7 +218,7 @@
                 "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @kiava | 8",
-                "🇸🇪SE | vless | @proxy_mtm | 0",
+                "🇸🇪SE | vless | @proxy_mtm | 1",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -923,6 +925,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
+            "type": "vless",
+            "server": "ch.ni-ham.info",
+            "server_port": 2053,
+            "uuid": "222fc69d-f14b-457e-99eb-8b64cd23acdc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ajghg.f-vipo.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2087",
+                "headers": {
+                    "Host": "ajghg.f-vipo.ir"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | @v2ray1_ng | 4",
             "type": "vless",
             "server": "172.64.111.69",
@@ -1110,11 +1143,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.19.228.176",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "-_VPNCUSTOMIZE_-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1122,21 +1155,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -1441,7 +1464,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_mtm | 0",
+            "tag": "🇸🇪SE | vless | @proxy_mtm | 1",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 2052,
