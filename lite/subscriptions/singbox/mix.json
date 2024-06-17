@@ -151,11 +151,11 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇨🇦CA | vless | @fnet00 | 4",
+                "🇺🇸US | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
@@ -225,11 +225,11 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇨🇦CA | vless | @fnet00 | 4",
+                "🇺🇸US | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
@@ -1293,17 +1293,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "49.13.82.2",
-            "server_port": 8080,
-            "uuid": "99c517c7-606c-4091-99d0-0a19203d6835",
+            "server": "maz.maznet.cfd.",
+            "server_port": 2083,
+            "uuid": "ab11c9d7-c25b-4975-b946-f6caa345c2bd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join20.maznet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "join20.maznet.cfd"
+                }
             }
         },
         {
@@ -1393,7 +1410,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 4",
+            "tag": "🇺🇸US | vless | @fnet00 | 4",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
