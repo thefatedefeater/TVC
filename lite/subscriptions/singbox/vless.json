@@ -143,12 +143,13 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 19",
                 "🇺🇸US | vless | @FreakConfig | 3",
@@ -204,12 +205,13 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 19",
                 "🇺🇸US | vless | @FreakConfig | 3",
@@ -1097,11 +1099,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.26.6.95",
-            "server_port": 2052,
-            "uuid": "a61c4761-5848-43da-a632-309a7d18d393",
+            "server": "172.64.143.172",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1109,11 +1111,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/backup",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.26.6.95"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1224,9 +1236,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "104.17.240.120",
+            "server": "104.20.115.188",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "uuid": "10716279-b1ee-41d8-b63e-87782088305b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1236,7 +1248,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "heY.BACHEBiapaIn.Ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1246,9 +1258,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/cVld1tNyOQfi6EWx?ed=2560",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "heY.BACHEBiapaIn.Ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 7",
+            "type": "vless",
+            "server": "104.26.6.95",
+            "server_port": 2052,
+            "uuid": "a61c4761-5848-43da-a632-309a7d18d393",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/backup",
+                "headers": {
+                    "Host": "104.26.6.95"
                 }
             }
         },
