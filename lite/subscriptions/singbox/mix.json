@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 6",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
-                "🇩🇪DE | trojan | @DirectVPN | 17",
+                "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | trojan | @oneclickvpnkeys | 6",
@@ -140,7 +140,6 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 8",
-                "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇮🇷IR | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 9",
@@ -151,7 +150,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -202,7 +201,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 6",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
-                "🇩🇪DE | trojan | @DirectVPN | 17",
+                "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | trojan | @oneclickvpnkeys | 6",
@@ -214,7 +213,6 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 8",
-                "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇮🇷IR | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 9",
@@ -225,7 +223,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -293,7 +291,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "18.184.130.139",
+            "server": "18.192.185.111",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -753,7 +751,7 @@
         {
             "tag": "🇩🇪DE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "3.77.25.153",
+            "server": "3.76.27.77",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -773,9 +771,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 17",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "3.76.236.211",
+            "server": "51.21.9.113",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -853,9 +851,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2096,
-            "uuid": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
+            "server": "172.66.44.135",
+            "server_port": 80,
+            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -863,21 +861,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpNeRor.SAjadHADadi.WEbsiTe",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/eOwMtmADY6cWup8R?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
+                    "Host": "172.66.44.135"
                 }
             }
         },
@@ -1038,27 +1026,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "185.146.173.58"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 13",
-            "type": "vless",
-            "server": "172.66.44.135",
-            "server_port": 80,
-            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.66.44.135"
                 }
             }
         },
@@ -1293,11 +1260,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 2095,
-            "uuid": "82ad3597-3dd4-4561-91e8-5ee2e3796bbc",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "e6aedcd2-24ad-4bdd-82c5-006d84179197",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1305,11 +1272,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "4d3d6f00.garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/VPN_PROXY66.VPN_PROXY66",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "4d3d6f00.garywelch.pages.dev"
                 }
             }
         },
