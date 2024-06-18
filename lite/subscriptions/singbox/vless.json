@@ -142,7 +142,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇫🇮FI | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -201,7 +201,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇫🇮FI | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -1042,31 +1042,23 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "65.109.195.165",
-            "server_port": 443,
-            "uuid": "ee07639f-ca84-4b93-950b-eac9c1f4eb3f",
-            "flow": "xtls-rprx-vision",
+            "server": "ip.ai-app-list.buzz",
+            "server_port": 2052,
+            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "m05r3bf1t7.execute-api.eu-west-1.amazonaws.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cN11L2DIETgMceN6hX0p7ZRKArOgcZUXvEMfImeSmGo",
-                    "short_id": "97ad8890"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ip.ai-app-list.buzz"
                 }
             }
         },
