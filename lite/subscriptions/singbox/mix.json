@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @Parsashonam | 9",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 29",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
@@ -144,18 +143,18 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇳🇴NO | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🏳️XX | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @v2Line | 9",
                 "🇺🇸US | vless | @Capoit | 17",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇺🇸US | vless | @flyv2ray | 12",
@@ -175,7 +174,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @Parsashonam | 9",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 29",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
@@ -213,18 +211,18 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇳🇴NO | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🏳️XX | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @v2Line | 9",
                 "🇺🇸US | vless | @Capoit | 17",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇺🇸US | vless | @flyv2ray | 12",
@@ -258,27 +256,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇪SE | vless | @Parsashonam | 9",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "Parsashonam-88",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
-            }
         },
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 15",
@@ -1110,12 +1087,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇴NO | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.125.171.13",
+            "server": "172.66.47.54",
             "server_port": 443,
-            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
-            "flow": "xtls-rprx-vision",
+            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1124,17 +1101,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "partner.g2.com",
+                "server_name": "ircp-617.pages.dev.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ircp-617.pages.dev."
                 }
             }
         },
@@ -1225,11 +1204,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🏳️XX | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "Back.MsV2ray.online",
+            "server": "mci.mosi.mosipro.ml",
             "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "uuid": "380847f9-fb02-40f1-8368-881fe9f3522f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1242,7 +1221,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jahfkjha.cfd",
+                "server_name": "Dusseldorf.kotick.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1252,9 +1231,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "jahfkjha.cfd"
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
@@ -1416,7 +1395,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 9",
+            "tag": "🇨🇦CA | vmess | @v2Line | 9",
             "type": "vmess",
             "server": "104.21.44.106",
             "server_port": 443,
