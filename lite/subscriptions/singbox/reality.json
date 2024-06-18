@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ]
@@ -114,6 +115,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ],
@@ -136,6 +138,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "65.109.195.165",
+            "server_port": 443,
+            "uuid": "ee07639f-ca84-4b93-950b-eac9c1f4eb3f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "m05r3bf1t7.execute-api.eu-west-1.amazonaws.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cN11L2DIETgMceN6hX0p7ZRKArOgcZUXvEMfImeSmGo",
+                    "short_id": "97ad8890"
+                }
+            }
         },
         {
             "tag": "🇺🇸US | vless | @Capital_NET | 45",
