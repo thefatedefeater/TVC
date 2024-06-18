@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 4",
@@ -155,7 +155,7 @@
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇸🇪SE | vless | @V2FETCH | 1",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇸🇪SE | vless | @TVCminer | 13"
+                "🇮🇷IR | vless | @TVCminer | 14"
             ]
         },
         {
@@ -192,7 +192,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 4",
@@ -211,7 +211,7 @@
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇸🇪SE | vless | @V2FETCH | 1",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇸🇪SE | vless | @TVCminer | 13"
+                "🇮🇷IR | vless | @TVCminer | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -917,11 +917,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2052,
-            "uuid": "9c7e35f5-e0be-459c-b508-5ad6869d8359",
+            "server": "104.21.20.148",
+            "server_port": 80,
+            "uuid": "c441f808-0937-42f8-9535-5f7573ffc915",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -931,9 +931,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-configMs",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "104.21.20.148"
                 }
             }
         },
@@ -1372,11 +1372,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @TVCminer | 13",
+            "tag": "🇮🇷IR | vless | @TVCminer | 14",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2052,
-            "uuid": "Telegram-ipV2Ray-fwq",
+            "server": "land.mobicall.ir",
+            "server_port": 42370,
+            "uuid": "2354edf8-4d7f-445a-9454-cc8524ba5f0f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1385,11 +1385,11 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
+                "type": "grpc",
+                "service_name": "@vpn_land_official@vpn_land_official@vpn_land_official",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         }
     ],
