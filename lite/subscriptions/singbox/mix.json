@@ -124,7 +124,7 @@
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
-                "🇮🇪IE | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @PrivateVPNs | 17",
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
@@ -145,7 +145,7 @@
                 "🇫🇷FR | ss | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -193,7 +193,7 @@
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
-                "🇮🇪IE | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @PrivateVPNs | 17",
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
@@ -214,7 +214,7 @@
                 "🇫🇷FR | ss | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -651,9 +651,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 17",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "34.250.134.147",
+            "server": "13.51.78.254",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1145,34 +1145,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.64.146.118",
-            "server_port": 8443,
-            "uuid": "ecc19b72-2cc8-4690-b23d-960d3e3c6d40",
+            "server": "49.13.82.2",
+            "server_port": 8080,
+            "uuid": "c81327c3-03ac-4c21-ac40-43763fd38eb6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazeshvpn-tg24.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net",
-                "headers": {
-                    "Host": "pardazeshvpn-tg24.pages.dev"
-                }
             }
         },
         {
@@ -1540,7 +1523,7 @@
             "type": "vless",
             "server": "103.184.44.104",
             "server_port": 8880,
-            "uuid": "280dc615-767b-4800-8796-a8de253b88d9",
+            "uuid": "b8004acb-06e8-4b17-8f4c-4ab186e8b707",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
