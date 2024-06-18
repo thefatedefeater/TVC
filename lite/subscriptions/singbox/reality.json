@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 22",
                 "🇺🇸US | vless | @VmessProtocol | 9",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ]
@@ -119,7 +118,6 @@
             "outbounds": [
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 22",
                 "🇺🇸US | vless | @VmessProtocol | 9",
-                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ],
@@ -198,35 +196,6 @@
                     "enabled": true,
                     "public_key": "QQHxQK7ocGHvaCmqtW3QapnKiBVd4ZjjM3zhCGVMPS4",
                     "short_id": "db68e802226b21cd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "us1.x2fast.net",
-            "server_port": 8443,
-            "uuid": "e8410a35-9b9c-4312-8f67-240b160855dc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "172.67.173.11",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "t_XMV-WyVYbcDCIgiSSCi3bSPDdW1rqKFa9ZoI8b4RA",
-                    "short_id": "dbdf78b1df376900"
                 }
             }
         },
