@@ -143,11 +143,11 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🏳️XX | vmess | @Hope_Net | 5",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -211,11 +211,11 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🏳️XX | vmess | @Hope_Net | 5",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -1087,36 +1087,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "188.114.99.183",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 2052,
+            "uuid": "9c7e35f5-e0be-459c-b508-5ad6869d8359",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/Telegram-configMs",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1207,7 +1194,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 5",
+            "tag": "🏳️XX | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "mci.mosi.mosipro.ml",
             "server_port": 443,
