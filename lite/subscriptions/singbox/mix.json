@@ -144,7 +144,6 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -165,6 +164,7 @@
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
+                "🇸🇪SE | vless | @V2FETCH | 1",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 13"
@@ -212,7 +212,6 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 23",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -233,6 +232,7 @@
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
+                "🇸🇪SE | vless | @V2FETCH | 1",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 13"
@@ -1108,27 +1108,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "104.18.1.125",
-            "server_port": 2052,
-            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.18.1.125"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 6",
             "type": "vless",
             "server": "188.114.98.224",
@@ -1660,6 +1639,27 @@
                 "path": "\/@V2RAXX-@V2RAXX",
                 "headers": {
                     "Host": "v2raxx.amalfatm.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @V2FETCH | 1",
+            "type": "vless",
+            "server": "cloud.fhq0la447aac5504dspeedtestircomnetmeleosjanwjdifjsnjsx.cloud",
+            "server_port": 8080,
+            "uuid": "7d5b7171-9958-4fc7-bdb2-05a39794b8da",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "cloud.fhq0la447aac5504dspeedtestircomnetmeleosjanwjdifjsnjsx.cloud"
                 }
             }
         },
