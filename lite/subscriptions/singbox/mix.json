@@ -155,12 +155,11 @@
                 "🇨🇦CA | vless | @fnet00 | 6",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 16",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 8",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 3",
-                "🇺🇸US | vless | @flyv2ray | 12",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇲🇾MY | vless | @proxy_mtm | 1",
@@ -226,12 +225,11 @@
                 "🇨🇦CA | vless | @fnet00 | 6",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 16",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 8",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 3",
-                "🇺🇸US | vless | @flyv2ray | 12",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇲🇾MY | vless | @proxy_mtm | 1",
@@ -818,9 +816,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
             "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 443,
-            "uuid": "b8d718c6-7516-4259-b4e6-253e280bc6b6",
+            "server": "188.114.97.167",
+            "server_port": 8880,
+            "uuid": "9237e8fb-70d3-4405-bb73-69f4ed40b26b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -828,21 +826,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "channel-ma-vip-programs.hsjsak.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless",
                 "headers": {
-                    "Host": "channel-ma-vip-programs.hsjsak.ir"
+                    "Host": "188.114.97.167"
                 }
             }
         },
@@ -1118,7 +1106,7 @@
             "type": "vless",
             "server": "185.146.173.92",
             "server_port": 2095,
-            "uuid": "5f761c67-79bd-4f2d-a581-be63b2f7c971",
+            "uuid": "f0c150fa-0d87-49d3-ae44-ee9ee80661e6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1220,9 +1208,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "a1773345-0831-492e-acec-3077196bb02f",
+            "server": "104.16.61.8",
+            "server_port": 80,
+            "uuid": "378ac207-38d3-4401-ba96-3a7931968bc5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1232,9 +1220,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed",
+                "path": "\/http",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "104.16.61.8"
                 }
             }
         },
@@ -1394,7 +1382,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 8",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 8080,
@@ -1536,27 +1524,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "mmdv2.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @flyv2ray | 12",
-            "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 8080,
-            "uuid": "281e71f2-3f92-4be7-ae48-038c6d5a6fdb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "188.114.98.224"
                 }
             }
         },
