@@ -111,7 +111,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 1",
-                "🇨🇦CA | vless | @V2pedia | 19",
+                "🇨🇦CA | vless | @V2pedia | 16",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 10",
                 "🇸🇪SE | vless | @shh_proxy | 29",
@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
-                "🇨🇦CA | vless | @Outline_Vpn | 19",
+                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
@@ -175,7 +175,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 1",
-                "🇨🇦CA | vless | @V2pedia | 19",
+                "🇨🇦CA | vless | @V2pedia | 16",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 10",
                 "🇸🇪SE | vless | @shh_proxy | 29",
@@ -192,7 +192,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
-                "🇨🇦CA | vless | @Outline_Vpn | 19",
+                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
@@ -365,11 +365,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 19",
+            "tag": "🇨🇦CA | vless | @V2pedia | 16",
             "type": "vless",
             "server": "back.msv2ray.online",
             "server_port": 80,
-            "uuid": "fabb3426-1352-4706-baab-30b8a5dc0da5",
+            "uuid": "36fc9e03-d4df-44e3-96d6-767e6e0b29be",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -725,7 +725,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
+            "tag": "🇨🇦CA | vless | @Outline_Vpn | 18",
             "type": "vless",
             "server": "104.21.69.44",
             "server_port": 443,
@@ -1060,8 +1060,8 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 8080,
+            "server": "185.146.173.25",
+            "server_port": 80,
             "uuid": "%74%65%6c%65%67%72%61%6d%2d%69%64%2d%41%72%56%32%72%61%79",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1074,7 +1074,7 @@
                 "type": "ws",
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "185.146.173.25"
                 }
             }
         },
@@ -1147,9 +1147,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 8080,
-            "uuid": "Channel-VPNCUSTOMIZE",
+            "server": "172.66.46.214",
+            "server_port": 2053,
+            "uuid": "8545c44f-b1b4-4295-ae98-f0b6301a537f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1157,11 +1157,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ios-azadnet.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/",
                 "headers": {
-                    "Host": "188.114.98.224"
+                    "Host": "ios-azadnet.pages.dev"
                 }
             }
         },
