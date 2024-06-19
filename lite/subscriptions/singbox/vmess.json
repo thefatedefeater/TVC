@@ -107,11 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | vmess | @v2ray_swhil | 11",
-                "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 11",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇨🇦CA | vmess | @v2ray_swhil | 11",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇬🇧GB | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
@@ -121,11 +121,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | vmess | @v2ray_swhil | 11",
-                "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 11",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇨🇦CA | vmess | @v2ray_swhil | 11",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇬🇧GB | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
@@ -167,7 +167,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "hk.wish.ml",
             "server_port": 2052,
@@ -191,7 +191,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
             "server": "104.21.4.6",
             "server_port": 443,
@@ -225,7 +225,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2ray_swhil | 11",
+            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 11",
             "type": "vmess",
             "server": "104.21.55.234",
             "server_port": 443,
@@ -259,7 +259,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -293,13 +293,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 11",
+            "tag": "🇬🇧GB | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "00f2237d-d8c4-45c9-8c2e-ca07adb295ab",
+            "server": "83.142.225.59",
+            "server_port": 30000,
+            "uuid": "5267ca71-97e6-44c8-8fb5-9fe4afe0954e",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -308,11 +308,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/path\/292806223002",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": ""
                 }
             }
         },
