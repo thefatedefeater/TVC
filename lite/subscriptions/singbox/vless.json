@@ -116,7 +116,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 10",
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
-                "🇸🇪SE | vless | @free_v2rayyy | 7",
+                "🇸🇪SE | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 21",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇩🇪DE | vless | @vpn_xw | 2",
@@ -137,12 +137,12 @@
                 "🇸🇪SE | vless | @ShadowProxy66 | 13",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 9",
-                "🇸🇪SE | vless | @proxyymeliii | 27",
+                "🇨🇦CA | vless | @proxyymeliii | 25",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @sinabigo | 3",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -153,7 +153,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
                 "🇲🇾MY | vless | @FreakConfig | 3",
-                "🇺🇸US | vless | @flyv2ray | 13",
+                "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇮🇷IR | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -178,7 +178,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 10",
                 "🇸🇪SE | vless | @shh_proxy | 29",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
-                "🇸🇪SE | vless | @free_v2rayyy | 7",
+                "🇸🇪SE | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 21",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇩🇪DE | vless | @vpn_xw | 2",
@@ -199,12 +199,12 @@
                 "🇸🇪SE | vless | @ShadowProxy66 | 13",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 9",
-                "🇸🇪SE | vless | @proxyymeliii | 27",
+                "🇨🇦CA | vless | @proxyymeliii | 25",
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @sinabigo | 3",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -215,7 +215,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
                 "🇲🇾MY | vless | @FreakConfig | 3",
-                "🇺🇸US | vless | @flyv2ray | 13",
+                "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇮🇷IR | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -466,7 +466,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @free_v2rayyy | 7",
+            "tag": "🇸🇪SE | vless | @free_v2rayyy | 8",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 2052,
@@ -650,9 +650,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "9f5cf5b5-f179-48cd-bac5-3201a764b95f",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "fb6dbf97-4866-4e6e-a4da-1c82149c7fa9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -660,11 +660,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "thedeathglobe.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/t.me\/V2rayFa-V2rayng-v2rayNgfree-telegram-t.me\/V2rayfa_telegram",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "thedeathglobe.pages.dev"
                 }
             }
         },
@@ -920,11 +930,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxyymeliii | 27",
+            "tag": "🇨🇦CA | vless | @proxyymeliii | 25",
             "type": "vless",
-            "server": "LIGHTNING6-joinbed.filj.top",
-            "server_port": 8880,
-            "uuid": "1dbd494b-3f83-4234-8398-fb88502ac7f8",
+            "server": "ch.ni-ham.info",
+            "server_port": 2053,
+            "uuid": "3c787018-1de9-4f77-8f91-b7ca8af82bdd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -932,11 +942,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ajghg.f-vipo.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
+                "path": "\/?ed=2087",
                 "headers": {
-                    "Host": "LIGHTNING6-joinbed.filj.top"
+                    "Host": "ajghg.f-vipo.ir"
                 }
             }
         },
@@ -1055,11 +1075,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 3",
+            "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
-            "server": "arvancloudstatus.ir",
+            "server": "104.16.216.241",
             "server_port": 443,
-            "uuid": "29cf96e6-8008-4233-a883-4b5daeb72309",
+            "uuid": "10716279-b1ee-41d8-b63e-87782088305b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1069,7 +1089,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "helloworld.seyed-ali-khamenei-binamous.site",
+                "server_name": "heY.bACHeBiapAiN.Ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1079,9 +1099,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@azadi_az_inja_migzare",
+                "path": "\/iXNpb8TL5D4uHOQC?ed=2560",
                 "headers": {
-                    "Host": "helloworld.seyed-ali-khamenei-binamous.site"
+                    "Host": "heY.bACHeBiapAiN.Ir"
                 }
             }
         },
@@ -1344,11 +1364,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 13",
+            "tag": "🇸🇪SE | vless | @flyv2ray | 13",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "Channel-VPNCUSTOMIZE",
+            "server": "185.146.173.92",
+            "server_port": 2095,
+            "uuid": "bc0b1527-bb10-406b-af64-a07b5d3959bf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1358,9 +1378,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "185.146.173.92"
                 }
             }
         },
