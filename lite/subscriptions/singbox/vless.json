@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇺🇸US | vless | @v2rayNG_Matsuri | 23",
+                "🇺🇸US | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 24",
@@ -141,10 +141,10 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
-                "🇨🇦CA | vless | @fnet00 | 6",
-                "🇨🇦CA | vless | @polproxy | 6",
+                "🇺🇸US | vless | @fnet00 | 6",
+                "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -190,7 +190,7 @@
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
-                "🇺🇸US | vless | @v2rayNG_Matsuri | 23",
+                "🇺🇸US | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 24",
@@ -200,10 +200,10 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
-                "🇨🇦CA | vless | @fnet00 | 6",
-                "🇨🇦CA | vless | @polproxy | 6",
+                "🇺🇸US | vless | @fnet00 | 6",
+                "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -778,7 +778,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayNG_Matsuri | 23",
+            "tag": "🇺🇸US | vless | @v2rayNG_Matsuri | 26",
             "type": "vless",
             "server": "ns.cloudflare.com",
             "server_port": 443,
@@ -1021,11 +1021,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.66.45.32",
-            "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
+            "server": "104.21.78.161",
+            "server_port": 8080,
+            "uuid": "2c86340b-16fe-4096-be8c-acd8870b2c91",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1033,21 +1033,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
+                    "Host": "104.21.78.161"
                 }
             }
         },
@@ -1073,7 +1063,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 6",
+            "tag": "🇺🇸US | vless | @fnet00 | 6",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
@@ -1104,7 +1094,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 6",
+            "tag": "🇺🇸US | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
