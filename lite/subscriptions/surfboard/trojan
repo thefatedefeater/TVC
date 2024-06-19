@@ -12,12 +12,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇸🇪SE | trojan | @PrivateVPNs | 17 = trojan, 16.171.247.47, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇸🇪SE | trojan | @DirectVPN | 17 = trojan, 13.51.114.25, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇨🇦CA | trojan | @oneclickvpnkeys | 4 = trojan, 138.199.57.185, 43118, password = ypDt8RkT7J, udp-delay = true, skip-cert-verify = false, sni = eiety.phooeyunfold.com, ws = false
+🇩🇪DE | trojan | @DirectVPN | 17 = trojan, 18.185.76.230, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇨🇦CA | trojan | @oneclickvpnkeys | 5 = trojan, 138.199.57.185, 43118, password = ypDt8RkT7J, udp-delay = true, skip-cert-verify = false, sni = eiety.phooeyunfold.com, ws = false
+🇪🇸ES | trojan | @ConfigsHUB | 19 = trojan, es-full.privateip.net, 443, password = 8786fc10-c976-46a4-a97c-9f2056302f03, udp-delay = true, skip-cert-verify = false, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @oneclickvpnkeys | 4
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @oneclickvpnkeys | 4
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @oneclickvpnkeys | 4
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 17,🇩🇪DE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @oneclickvpnkeys | 5,🇪🇸ES | trojan | @ConfigsHUB | 19
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 17,🇩🇪DE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @oneclickvpnkeys | 5,🇪🇸ES | trojan | @ConfigsHUB | 19
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 17,🇩🇪DE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @oneclickvpnkeys | 5,🇪🇸ES | trojan | @ConfigsHUB | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
