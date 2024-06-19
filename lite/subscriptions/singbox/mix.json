@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 12",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 26",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
@@ -149,11 +148,11 @@
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇰🇷KR | trojan | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 10",
-                "🇺🇸US | vless | @fnet00 | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇨🇦CA | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
@@ -177,7 +176,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 12",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 26",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
@@ -220,11 +218,11 @@
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇰🇷KR | trojan | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 10",
-                "🇺🇸US | vless | @fnet00 | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇨🇦CA | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
@@ -262,27 +260,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 12",
-            "type": "vless",
-            "server": "185.146.173.134",
-            "server_port": 80,
-            "uuid": "60987f86-87ce-43b4-8fe9-8f0926bacf12",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
-                "headers": {
-                    "Host": "185.146.173.134"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 16",
@@ -1229,11 +1206,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇰🇷KR | trojan | @ConfigsHUB | 18",
-            "type": "trojan",
-            "server": "131.186.21.135",
-            "server_port": 60954,
-            "password": "huge123456",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "104.19.47.116",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1241,12 +1220,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "h.iveze.com",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1306,7 +1292,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 10",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "104.19.38.62",
             "server_port": 2086,
@@ -1330,7 +1316,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 6",
+            "tag": "🇨🇦CA | vless | @fnet00 | 6",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
