@@ -142,10 +142,11 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇲🇾MY | vless | @Outlinev2rayNG | 18",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
@@ -201,10 +202,11 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇲🇾MY | vless | @Outlinev2rayNG | 18",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
@@ -1052,7 +1054,38 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "emifree3.prolucky.ir",
+            "server_port": 2083,
+            "uuid": "301d3ed7-cf04-4f08-866e-056f9e79ae75",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "emifree3.prolucky.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/JoinChanel-proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta-V2rayngmmd-telegram-free-v2ray?ed=2560",
+                "headers": {
+                    "Host": "emifree3.prolucky.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 80,
@@ -1125,11 +1158,11 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vless | @Outlinev2rayNG | 18",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 18",
             "type": "vless",
-            "server": "172.66.47.54",
-            "server_port": 443,
-            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
+            "server": "185.146.173.82",
+            "server_port": 2095,
+            "uuid": "cb4b916c-9443-451c-8ef7-d913db64f769",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1137,21 +1170,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ircp-617.pages.dev.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Join--Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.V2ray.re",
                 "headers": {
-                    "Host": "ircp-617.pages.dev."
+                    "Host": "185.146.173.82"
                 }
             }
         },
