@@ -118,9 +118,9 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 10",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
-                "🇩🇪DE | vless | @vpn_xw | 3",
+                "🇩🇪DE | vless | @vpn_xw | 2",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇨🇷CR | vless | @proxy_kafee | 3",
+                "🇨🇷CR | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 9",
                 "🇮🇷IR | vless | @servermomo | 1",
                 "🇸🇪SE | vless | @azadi_az_inja_migzare | 0",
@@ -141,8 +141,8 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 18",
@@ -177,9 +177,9 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 10",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
-                "🇩🇪DE | vless | @vpn_xw | 3",
+                "🇩🇪DE | vless | @vpn_xw | 2",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇨🇷CR | vless | @proxy_kafee | 3",
+                "🇨🇷CR | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 9",
                 "🇮🇷IR | vless | @servermomo | 1",
                 "🇸🇪SE | vless | @azadi_az_inja_migzare | 0",
@@ -200,8 +200,8 @@
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 9",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 18",
@@ -512,7 +512,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @vpn_xw | 3",
+            "tag": "🇩🇪DE | vless | @vpn_xw | 2",
             "type": "vless",
             "server": "35.159.153.57",
             "server_port": 8880,
@@ -547,7 +547,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxy_kafee | 3",
+            "tag": "🇨🇷CR | vless | @proxy_kafee | 5",
             "type": "vless",
             "server": "190.93.247.155",
             "server_port": 2095,
@@ -1021,21 +1021,38 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "85.133.200.41",
-            "server_port": 6890,
-            "uuid": "4fabe6bd-5223-408d-840c-027b5a7ca137",
+            "server": "104.17.234.148",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 9",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 80,
