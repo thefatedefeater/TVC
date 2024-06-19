@@ -127,6 +127,7 @@
                 "🇸🇪SE | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
+                "🇸🇪SE | vless | @V2rayNGn | 20",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -144,11 +145,11 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | trojan | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -198,6 +199,7 @@
                 "🇸🇪SE | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
+                "🇸🇪SE | vless | @V2rayNGn | 20",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -215,11 +217,11 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
-                "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | trojan | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -728,6 +730,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @V2rayNGn | 20",
+            "type": "vless",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "-_VPNCUSTOMIZE_-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
             "server": "18.153.238.140",
@@ -1133,9 +1156,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.37",
+            "server": "188.114.98.224",
             "server_port": 2095,
             "uuid": "DIGIV2raY",
             "flow": "",
@@ -1149,7 +1172,7 @@
                 "type": "ws",
                 "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "188.114.98.224"
                 }
             }
         },
@@ -1216,27 +1239,15 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "129.146.113.254",
-            "server_port": 43121,
-            "uuid": "d53b39e2-925e-45b6-9389-46b9fa95878b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | trojan | @ConfigsHUB | 17",
+            "type": "trojan",
+            "server": "207.246.68.67",
+            "server_port": 443,
+            "password": "wkmY1R4EcP",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "129.146.113.254"
-                }
             }
         },
         {
