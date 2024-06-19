@@ -128,7 +128,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇨🇦CA | vless | @prrofile_purple | 185",
+                "🇮🇷IR | vless | @prrofile_purple | 176",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -141,11 +141,10 @@
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
-                "🇨🇦CA | vless | @fnet00 | 6",
+                "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
@@ -187,7 +186,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇨🇦CA | vless | @prrofile_purple | 185",
+                "🇮🇷IR | vless | @prrofile_purple | 176",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -200,11 +199,10 @@
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
-                "🇨🇦CA | vless | @fnet00 | 6",
+                "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
                 "🇮🇷IR | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
@@ -735,24 +733,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 185",
+            "tag": "🇮🇷IR | vless | @prrofile_purple | 176",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 8080,
-            "uuid": "535ffb7c-784a-4a63-b44a-7be708a7a858",
+            "server": "94.182.222.29",
+            "server_port": 12061,
+            "uuid": "6e435f9f-25df-4101-9a5c-736a6858b8cb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "188.114.98.224"
-                }
             }
         },
         {
@@ -1041,37 +1032,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "160.79.104.45",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jp555.ylks01.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/blue",
-                "headers": {
-                    "Host": "jp555.ylks01.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "188.114.98.224",
@@ -1093,7 +1053,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 6",
+            "tag": "🇺🇸US | vless | @fnet00 | 6",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
@@ -1145,11 +1105,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 18",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "185.146.173.82",
+            "server": "185.146.173.146",
             "server_port": 2095,
-            "uuid": "cb4b916c-9443-451c-8ef7-d913db64f769",
+            "uuid": "2dabe491-c131-4eba-a295-ef22e2bcc0e3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1159,9 +1119,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.Academi_vpn.V2ray.re",
+                "path": "\/Join--ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420.ExpressVPN_420V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "185.146.173.82"
+                    "Host": "185.146.173.146"
                 }
             }
         },
