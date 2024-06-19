@@ -138,7 +138,7 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 26",
-                "🇨🇦CA | vless | @ShadowProxy66 | 5",
+                "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 24",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇬🇧GB | vmess | @Hope_Net | 10",
@@ -208,7 +208,7 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 26",
-                "🇨🇦CA | vless | @ShadowProxy66 | 5",
+                "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 24",
@@ -218,7 +218,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇬🇧GB | vmess | @Hope_Net | 10",
@@ -977,11 +977,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 5",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 4",
             "type": "vless",
             "server": "cdn.discordapp.com",
             "server_port": 8880,
-            "uuid": "61c94ec4-64ca-480c-b88d-29bdf612282a",
+            "uuid": "7d6350cd-baa1-4df6-8025-a67db26ea4ae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1212,34 +1212,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "www.visa.com.sg",
-            "server_port": 8443,
-            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
+            "server": "78.46.204.85",
+            "server_port": 8080,
+            "uuid": "1575631a-4a58-4a58-8f40-67d1ca5e56b7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazesh-tgws.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Tel-proxy_mtm\/?ed=2560",
-                "headers": {
-                    "Host": "pardazesh-tgws.pages.dev"
-                }
             }
         },
         {
