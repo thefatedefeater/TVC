@@ -149,14 +149,14 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 10",
+                "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🇸🇪SE | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
@@ -222,14 +222,14 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 10",
+                "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🇸🇪SE | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
@@ -291,7 +291,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "18.135.118.111",
+            "server": "18.168.26.53",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -734,7 +734,7 @@
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 16",
             "type": "trojan",
-            "server": "52.56.254.153",
+            "server": "18.168.117.236",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -756,7 +756,7 @@
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "3.19.45.154",
+            "server": "3.133.77.107",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1203,11 +1203,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "fdcservers.net.",
+            "server": "172.66.45.32",
             "server_port": 443,
-            "uuid": "84fe0a47-943b-4179-9065-153a9f30afcd",
+            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1217,7 +1217,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "it1.v2vless.xyz",
+                "server_name": "t-netplus-4vx.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1227,9 +1227,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless?ed=@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "it1.v2vless.xyz"
+                    "Host": "t-netplus-4vx.pages.dev"
                 }
             }
         },
@@ -1320,11 +1320,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 10",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "50.114.243.61",
-            "server_port": 43834,
-            "uuid": "b246e34d-bbd1-4016-8f74-ea461c37e411",
+            "server": "cf3.ftclashcloud.site",
+            "server_port": 80,
+            "uuid": "67d2d4b7-a38e-4beb-8caf-ce50ff92420a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1334,6 +1334,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws?ed=2560",
+                "headers": {
+                    "Host": "cf3.ftclashcloud.site"
+                }
             }
         },
         {
@@ -1379,9 +1386,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
             "uuid": "Channel-VPNCUSTOMIZE",
             "flow": "",
@@ -1395,7 +1402,7 @@
                 "type": "ws",
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
             }
         },
@@ -1571,7 +1578,7 @@
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 8880,
-            "uuid": "93a4f874-5ce9-45d4-a0cd-b02f5622916f",
+            "uuid": "47192be9-b25a-4963-bfb7-2b987ae25bbf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
