@@ -120,7 +120,7 @@
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇩🇪DE | vless | @vpn_xw | 3",
-                "🇸🇪SE | vless | @DigiV2ray | 28",
+                "🇸🇪SE | vless | @DigiV2ray | 29",
                 "🇨🇷CR | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 8",
                 "🇮🇷IR | vless | @servermomo | 1",
@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -193,7 +193,7 @@
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇩🇪DE | vless | @vpn_xw | 3",
-                "🇸🇪SE | vless | @DigiV2ray | 28",
+                "🇸🇪SE | vless | @DigiV2ray | 29",
                 "🇨🇷CR | vless | @proxy_kafee | 5",
                 "🇸🇪SE | vless | @v2logy | 8",
                 "🇮🇷IR | vless | @servermomo | 1",
@@ -224,7 +224,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -565,11 +565,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DigiV2ray | 28",
+            "tag": "🇸🇪SE | vless | @DigiV2ray | 29",
             "type": "vless",
             "server": "185.146.173.35",
             "server_port": 2095,
-            "uuid": "---DIGIV2RAY---",
+            "uuid": "---DIGIV2RAY----",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1268,17 +1268,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "78.39.51.182",
-            "server_port": 53300,
-            "uuid": "89093688-f1eb-4c89-a638-0c77b45fa443",
+            "server": "104.24.185.137",
+            "server_port": 8080,
+            "uuid": "Channel-VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "104.24.185.137"
+                }
             }
         },
         {
@@ -1422,9 +1429,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "172.64.111.69",
+            "server": "viphamester.wolfmoon.ir",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "uuid": "5da27733-3527-479e-bb81-4c5a9c75d83f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1434,7 +1441,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "viphamester.wolfmoon.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1443,11 +1450,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
-                }
+                "type": "grpc",
+                "service_name": "okala.com",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
