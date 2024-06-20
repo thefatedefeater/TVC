@@ -141,12 +141,13 @@
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇳🇱NL | vless | @VmessProtocol | 6",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vless | @fnet00 | 5",
+                "🇺🇸US | vless | @fnet00 | 5",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 9",
@@ -203,12 +204,13 @@
                 "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇳🇱NL | vless | @VmessProtocol | 6",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vless | @fnet00 | 5",
+                "🇺🇸US | vless | @fnet00 | 5",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 9",
@@ -1054,6 +1056,37 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vless | @VmessProtocol | 6",
+            "type": "vless",
+            "server": "141.148.237.42",
+            "server_port": 443,
+            "uuid": "d7dd3a35-b68b-4992-b319-a85b8a1fc8e5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dns68.putata.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "dns68.putata.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
             "server": "arvancloudstatus.ir",
@@ -1106,11 +1139,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "ebea2c0f-8ef8-4073-8c47-af885eb4fb33",
+            "server": "173.245.59.100",
+            "server_port": 443,
+            "uuid": "b8d718c6-7516-4259-b4e6-253e280bc6b6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1118,11 +1151,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bia-vip-programs.hsjsak.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/servernet",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "bia-vip-programs.hsjsak.ir"
                 }
             }
         },
@@ -1179,7 +1222,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 5",
+            "tag": "🇺🇸US | vless | @fnet00 | 5",
             "type": "vless",
             "server": "188.114.97.141",
             "server_port": 443,
