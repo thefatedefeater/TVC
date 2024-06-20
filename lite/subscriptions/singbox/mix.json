@@ -111,7 +111,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 1",
-                "🇨🇦CA | vless | @V2pedia | 15",
+                "🇸🇪SE | vless | @V2pedia | 15",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 10",
                 "🇸🇪SE | vless | @shh_proxy | 29",
@@ -150,11 +150,11 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇮🇷IR | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vless | @fnet00 | 5",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
@@ -184,7 +184,7 @@
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 1",
-                "🇨🇦CA | vless | @V2pedia | 15",
+                "🇸🇪SE | vless | @V2pedia | 15",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 10",
                 "🇸🇪SE | vless | @shh_proxy | 29",
@@ -223,11 +223,11 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇮🇷IR | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vless | @fnet00 | 5",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
@@ -383,7 +383,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 15",
+            "tag": "🇸🇪SE | vless | @V2pedia | 15",
             "type": "vless",
             "server": "back.msv2ray.online",
             "server_port": 80,
@@ -1272,23 +1272,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "185.146.173.92",
-            "server_port": 2095,
-            "uuid": "c2b1da45-1e6f-4bed-b1c5-04e996785ad9",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "104.21.83.108",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/link",
                 "headers": {
-                    "Host": "185.146.173.92"
+                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
@@ -1379,11 +1392,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "85.198.14.253",
-            "server_port": 44213,
-            "uuid": "8c98403a-340b-4bad-a2fd-2fa5c61de67c",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1393,6 +1406,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
             }
         },
         {
@@ -1837,9 +1867,9 @@
         {
             "tag": "🇸🇪SE | vless | @TVCminer | 15",
             "type": "vless",
-            "server": "185.146.173.37",
+            "server": "185.146.173.95",
             "server_port": 2095,
-            "uuid": "DIGIV2ray",
+            "uuid": "3025fc89-8993-49c9-b4ad-659624a3152a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1849,9 +1879,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "185.146.173.95"
                 }
             }
         }
