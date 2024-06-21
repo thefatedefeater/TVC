@@ -149,20 +149,20 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇹🇼TW | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇸🇪SE | vless | @fnet00 | 4",
-                "🇨🇦CA | vless | @polproxy | 6",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @polproxy | 6",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @Capoit | 17",
                 "🇺🇸US | vless | @FreakConfig | 4",
-                "🇸🇪SE | vless | @flyv2ray | 13",
+                "🇸🇪SE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 9",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -220,20 +220,20 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇹🇼TW | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇸🇪SE | vless | @fnet00 | 4",
-                "🇨🇦CA | vless | @polproxy | 6",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @polproxy | 6",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @Capoit | 17",
                 "🇺🇸US | vless | @FreakConfig | 4",
-                "🇸🇪SE | vless | @flyv2ray | 13",
+                "🇸🇪SE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 9",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -1245,34 +1245,15 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "b40b0d81-18ac-427e-83d9-98dcf0e17004",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇹🇼TW | trojan | @ConfigsHUB | 18",
+            "type": "trojan",
+            "server": "60.249.3.229",
+            "server_port": 3389,
+            "password": "9029864a78d29a43",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-v2rey.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
-                "headers": {
-                    "Host": "join-v2rey.pages.dev"
-                }
             }
         },
         {
@@ -1362,11 +1343,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "da62a137-3611-4dd7-8523-b5266afe6fe5",
+            "server": "23.227.38.3",
+            "server_port": 8880,
+            "uuid": "d726eb31-0c9e-49f9-8968-59c06f4ea15c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1379,9 +1360,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm",
                 "headers": {
-                    "Host": ""
+                    "Host": "23.227.38.3"
                 }
             }
         },
@@ -1407,7 +1388,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 6",
+            "tag": "🇺🇸US | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
@@ -1428,7 +1409,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
             "type": "vless",
             "server": "104.19.255.51",
             "server_port": 80,
@@ -1595,11 +1576,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 13",
+            "tag": "🇸🇪SE | vless | @flyv2ray | 12",
             "type": "vless",
-            "server": "185.146.173.92",
-            "server_port": 2095,
-            "uuid": "336831bf-1675-40e4-8f86-9c8c0a290413",
+            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "42a96958-dc6d-48df-98be-f79d918e8ce0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1609,9 +1590,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "185.146.173.92"
+                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
             }
         },
