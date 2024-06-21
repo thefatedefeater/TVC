@@ -109,7 +109,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 18",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 2",
+                "🇨🇦CA | vless | @melov2ray | 1",
                 "🇸🇪SE | vless | @V2pedia | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 14",
@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇸🇪SE | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -181,7 +181,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 18",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 2",
+                "🇨🇦CA | vless | @melov2ray | 1",
                 "🇸🇪SE | vless | @V2pedia | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 14",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇸🇪SE | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -339,9 +339,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 2",
+            "tag": "🇨🇦CA | vless | @melov2ray | 1",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "zula.ir",
             "server_port": 80,
             "uuid": "9a8391b8-e1f5-4b54-a96b-26a063829b2c",
             "flow": "",
@@ -355,7 +355,7 @@
                 "type": "ws",
                 "path": "\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -1274,9 +1274,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.96.6",
+            "server": "allsms.rozfa.com",
             "server_port": 443,
-            "uuid": "b40b0d81-18ac-427e-83d9-98dcf0e17004",
+            "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1286,7 +1286,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "DisVpn.us.kg",
+                "server_name": "test-teSt-tEsT-teSt.pagES.DEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1296,9 +1296,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
                 "headers": {
-                    "Host": "DisVpn.us.kg"
+                    "Host": "test-teSt-tEsT-teSt.pagES.DEv"
                 }
             }
         },
@@ -1389,11 +1389,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 1",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 0",
             "type": "vmess",
-            "server": "23.227.38.3",
-            "server_port": 8880,
-            "uuid": "d726eb31-0c9e-49f9-8968-59c06f4ea15c",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1404,11 +1404,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "23.227.38.3"
+                    "Host": "obdii.cfd"
                 }
             }
         },
