@@ -109,10 +109,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 7",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
@@ -124,10 +124,10 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 7",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
@@ -227,11 +227,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 7",
             "type": "vmess",
-            "server": "cfcdn3.sanfencdn9.com",
-            "server_port": 80,
-            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+            "server": "172.67.170.13",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -242,11 +242,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/ibCT6z55",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "cfcdn3.sanfencdn9.com"
+                    "Host": "glweidf.sbs"
                 }
             }
         },
@@ -319,7 +329,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "108.162.192.154",
             "server_port": 2087,

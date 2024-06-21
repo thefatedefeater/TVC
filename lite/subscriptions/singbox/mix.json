@@ -151,12 +151,12 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 7",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇸🇪SE | vless | @fnet00 | 6",
-                "🇺🇸US | vless | @polproxy | 6",
+                "🇨🇦CA | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -226,12 +226,12 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 7",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇸🇪SE | vless | @fnet00 | 6",
-                "🇺🇸US | vless | @polproxy | 6",
+                "🇨🇦CA | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -1286,11 +1286,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 7",
             "type": "vmess",
-            "server": "cfcdn3.sanfencdn9.com",
-            "server_port": 80,
-            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+            "server": "172.67.170.13",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1301,11 +1301,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/ibCT6z55",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "cfcdn3.sanfencdn9.com"
+                    "Host": "glweidf.sbs"
                 }
             }
         },
@@ -1378,7 +1388,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "108.162.192.154",
             "server_port": 2087,
@@ -1433,7 +1443,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @polproxy | 6",
+            "tag": "🇨🇦CA | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
