@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
-                "🇮🇪IE | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @PrivateVPNs | 17",
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
@@ -161,7 +161,7 @@
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇺🇸US | vless | @Capoit | 17",
+                "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇺🇸US | vless | @flyv2ray | 13",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
-                "🇮🇪IE | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @PrivateVPNs | 17",
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
@@ -235,7 +235,7 @@
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇺🇸US | vless | @Capoit | 17",
+                "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇺🇸US | vless | @flyv2ray | 13",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
@@ -734,9 +734,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 17",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "63.34.217.49",
+            "server": "16.170.153.35",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1219,8 +1219,8 @@
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "185.146.173.37",
-            "server_port": 8080,
-            "uuid": "telegram-id-ArV2ray",
+            "server_port": 2095,
+            "uuid": "6e120725-a945-49c9-a645-7be05fa2fbdb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1230,7 +1230,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/",
                 "headers": {
                     "Host": "185.146.173.37"
                 }
@@ -1322,9 +1322,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2083,
-            "uuid": "e8d5c91c-a0ee-49c2-b3da-3e18f1d3e575",
+            "server": "188.114.97.3",
+            "server_port": 2053,
+            "uuid": "b356457b-961b-40dc-8835-620a3b04ab7b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1334,7 +1334,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "csgobestcheat.mattservers.ir.",
+                "server_name": "technoi-channel.o3co.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1343,11 +1343,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": "csgobestcheat.mattservers.ir."
-                }
+                "type": "grpc",
+                "service_name": "Technoi",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1597,7 +1597,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 17",
+            "tag": "🇺🇸US | vless | @Capoit | 15",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
