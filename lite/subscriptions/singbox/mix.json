@@ -147,8 +147,8 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @DailyV2RY | 137",
-                "🇨🇦CA | vless | @sinabigo | 4",
+                "🇫🇷FR | vless | @VmessProtocol | 6",
+                "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 32",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
@@ -221,8 +221,8 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @DailyV2RY | 137",
-                "🇨🇦CA | vless | @sinabigo | 4",
+                "🇫🇷FR | vless | @VmessProtocol | 6",
+                "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 32",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
@@ -293,7 +293,7 @@
         {
             "tag": "🇨🇦CA | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "3.98.185.247",
+            "server": "3.99.14.191",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1217,38 +1217,21 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 137",
+            "tag": "🇫🇷FR | vless | @VmessProtocol | 6",
             "type": "vless",
-            "server": "104.16.190.131",
-            "server_port": 443,
-            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "server": "15.188.202.201",
+            "server_port": 8880,
+            "uuid": "b02c0d8b-63e2-4a16-a6b8-6dcb5dd14aa7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-worker-panel-h5f.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "bpb-worker-panel-h5f.pages.dev"
-                }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 4",
+            "tag": "🇨🇦CA | vless | @sinabigo | 3",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2052,
@@ -1302,9 +1285,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.66.47.44",
-            "server_port": 443,
-            "uuid": "826e43d2-dbe9-41a6-bbf8-3aed2f93f5d4",
+            "server": "172.66.46.214",
+            "server_port": 2053,
+            "uuid": "8545c44f-b1b4-4295-ae98-f0b6301a537f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1314,7 +1297,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pardazeshvpn-tg20.pages.dev",
+                "server_name": "ios-azadnet.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1324,9 +1307,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "pardazeshvpn-tg20.pages.dev"
+                    "Host": "ios-azadnet.pages.dev"
                 }
             }
         },
