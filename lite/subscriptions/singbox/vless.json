@@ -146,7 +146,7 @@
                 "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 17",
@@ -209,7 +209,7 @@
                 "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 17",
@@ -1083,15 +1083,22 @@
         {
             "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 80,
-            "uuid": "7415478e-0e1b-4f1a-a048-e54c546df7c6",
+            "server": "185.146.173.95",
+            "server_port": 8080,
+            "uuid": "SVNTEAM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SVNTEAM-LINK-SVNTEAM-LINK-SVNTEAM",
+                "headers": {
+                    "Host": "185.146.173.95"
+                }
             }
         },
         {
@@ -1137,7 +1144,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 18",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 2052,
