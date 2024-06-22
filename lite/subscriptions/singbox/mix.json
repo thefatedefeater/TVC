@@ -132,7 +132,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 184",
-                "🇸🇪SE | vless | @UnlimitedDev | 16",
+                "🇸🇪SE | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 32",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
@@ -149,11 +149,11 @@
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
-                "🇩🇪DE | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇺🇸US | vless | @polproxy | 7",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 17",
@@ -205,7 +205,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 184",
-                "🇸🇪SE | vless | @UnlimitedDev | 16",
+                "🇸🇪SE | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 32",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
@@ -222,11 +222,11 @@
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
-                "🇩🇪DE | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇺🇸US | vless | @polproxy | 7",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 17",
@@ -427,7 +427,7 @@
         {
             "tag": "🇸🇪SE | vless | @ARv2ray | 13",
             "type": "vless",
-            "server": "185.146.173.37",
+            "server": "185.146.173.237",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -439,9 +439,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ARV2ray",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "185.146.173.237"
                 }
             }
         },
@@ -854,11 +854,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @UnlimitedDev | 16",
+            "tag": "🇸🇪SE | vless | @UnlimitedDev | 14",
             "type": "vless",
             "server": "join-unlimiteddev-vpn.unlimiteddev.site",
             "server_port": 8080,
-            "uuid": "eacd83c9-3778-4e0c-99d0-711468213bec",
+            "uuid": "55d443d6-6cc4-4feb-bd7e-d38ade8fd4c5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1243,34 +1243,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "172.66.46.214",
-            "server_port": 2053,
-            "uuid": "8545c44f-b1b4-4295-ae98-f0b6301a537f",
+            "server": "49.13.82.2",
+            "server_port": 8080,
+            "uuid": "aff81e25-164a-4e3f-85b0-67851c0a871f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ios-azadnet.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ios-azadnet.pages.dev"
-                }
             }
         },
         {
@@ -1373,11 +1356,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 8",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "164.90.167.137",
-            "server_port": 2087,
-            "uuid": "964d2e04-5de3-478e-8616-b609c9f71954",
+            "server": "sareikela.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1388,11 +1371,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "sareikela.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/2.v2ray.debian.org.fxp.debian.org.speedtest.net.����ù������.madariran.filegear-sg.m",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "sareikela.com"
                 }
             }
         },
