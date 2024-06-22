@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 163",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇺🇸US | vless | @polproxy | 7",
@@ -152,6 +152,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
+                "🇩🇪DE | vless | @FreakConfig | 5",
                 "🇸🇪SE | vless | @flyv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
@@ -207,7 +208,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 163",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇺🇸US | vless | @polproxy | 7",
@@ -215,6 +216,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
+                "🇩🇪DE | vless | @FreakConfig | 5",
                 "🇸🇪SE | vless | @flyv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
@@ -1122,11 +1124,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.96.6",
-            "server_port": 443,
-            "uuid": "4dffc61f-76da-48ef-8932-bff4cc868229",
+            "server": "198.41.202.5",
+            "server_port": 8880,
+            "uuid": "ae1ac507-c9a7-4f0a-a8b8-1ed49189a0e7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1134,21 +1136,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
                 "headers": {
-                    "Host": "DisVpn.us.kg"
+                    "Host": "198.41.202.5"
                 }
             }
         },
@@ -1325,6 +1317,20 @@
                 "headers": {
                     "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @FreakConfig | 5",
+            "type": "vless",
+            "server": "3.71.246.144",
+            "server_port": 8880,
+            "uuid": "6ee42f60-cd65-4ab8-bb79-991d12ae877f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
