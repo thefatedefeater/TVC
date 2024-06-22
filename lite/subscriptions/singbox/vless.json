@@ -142,6 +142,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
+                "🇳🇱NL | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -203,6 +204,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
+                "🇳🇱NL | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -1070,6 +1072,42 @@
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "45.63.41.170",
+            "server_port": 8080,
+            "uuid": "e2ee9657-c78a-4ecf-89f6-c505fb40a417",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1HIEMKNkDd5N02BnSheVrSBaVgg3l-cxCwfnHZEb0SA",
+                    "short_id": "fddc508e45b26c91"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "www.speedtest.net"
+                ],
+                "path": "\/"
             }
         },
         {

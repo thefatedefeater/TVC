@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | trojan | @ConfigsHUB | 19",
+                "🇳🇱NL | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
@@ -221,7 +221,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | trojan | @ConfigsHUB | 19",
+                "🇳🇱NL | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
@@ -1226,11 +1226,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | trojan | @ConfigsHUB | 19",
-            "type": "trojan",
-            "server": "13.50.185.192",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "tag": "🇳🇱NL | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "45.63.41.170",
+            "server_port": 8080,
+            "uuid": "e2ee9657-c78a-4ecf-89f6-c505fb40a417",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1238,13 +1240,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1HIEMKNkDd5N02BnSheVrSBaVgg3l-cxCwfnHZEb0SA",
+                    "short_id": "fddc508e45b26c91"
                 }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "www.speedtest.net"
+                ],
+                "path": "\/"
             }
         },
         {
