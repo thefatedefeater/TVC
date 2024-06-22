@@ -151,10 +151,10 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇹🇷TR | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 5",
+                "🇹🇷TR | vmess | @Hope_Net | 3",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -226,10 +226,10 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇹🇷TR | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 5",
+                "🇹🇷TR | vmess | @Hope_Net | 3",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -1286,24 +1286,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "tag": "🇹🇷TR | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.17.188.113",
-            "server_port": 80,
-            "uuid": "7d96f544-c496-41cf-dd61-337f0aff062a",
+            "server": "195.244.41.144",
+            "server_port": 41194,
+            "uuid": "5406d2b6-22f9-4e4d-8308-8ae5dc78e110",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/abcde",
-                "headers": {
-                    "Host": "104.17.188.113"
-                }
             }
         },
         {
@@ -1375,11 +1368,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @Hope_Net | 5",
+            "tag": "🇹🇷TR | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "185.146.173.92",
-            "server_port": 80,
-            "uuid": "3a71b42c-66d2-44ad-8a80-668d4f4339ea",
+            "server": "45.89.52.114",
+            "server_port": 13701,
+            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1389,13 +1382,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
