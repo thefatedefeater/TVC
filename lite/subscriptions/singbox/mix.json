@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @V2pedia | 4",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇸🇪SE | vless | @ARv2ray | 13",
+                "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
@@ -142,7 +142,7 @@
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇺🇸US | vless | @v2ray_swhil | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 36",
-                "🇨🇦CA | vless | @v2ray1_ng | 11",
+                "🇨🇦CA | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 38",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -192,7 +192,7 @@
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @V2pedia | 4",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇸🇪SE | vless | @ARv2ray | 13",
+                "🇸🇪SE | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
@@ -220,7 +220,7 @@
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇺🇸US | vless | @v2ray_swhil | 6",
                 "🇸🇪SE | vless | @proxyymeliii | 36",
-                "🇨🇦CA | vless | @v2ray1_ng | 11",
+                "🇨🇦CA | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
@@ -230,7 +230,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 38",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -456,10 +456,10 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ARv2ray | 13",
+            "tag": "🇸🇪SE | vless | @ARv2ray | 15",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 80,
+            "server": "185.146.173.158",
+            "server_port": 8080,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -472,7 +472,7 @@
                 "type": "ws",
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "185.146.173.158"
                 }
             }
         },
@@ -1104,7 +1104,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 11",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 13",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -1356,13 +1356,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "193.151.151.92",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "cfcdn3.sanfencdn9.com",
             "server_port": 80,
-            "uuid": "4653df39-479c-4384-a911-ecb4cc4a3733",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1370,9 +1373,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2Graphy\/giveaway\/ws1?ed=2560",
+                "path": "\/video\/ibCT6z55",
                 "headers": {
-                    "Host": "193.151.151.92"
+                    "Host": "cfcdn3.sanfencdn9.com"
                 }
             }
         },
@@ -1741,7 +1744,7 @@
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 8880,
-            "uuid": "bd71934e-29b5-44cd-8f69-262bb6e571c9",
+            "uuid": "4e57d49a-4013-4b69-8bbf-3ae4925cde0e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
