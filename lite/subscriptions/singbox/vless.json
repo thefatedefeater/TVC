@@ -131,18 +131,17 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 29",
-                "🇨🇦CA | vless | @ShadowProxy66 | 3",
+                "🇨🇦CA | vless | @ShadowProxy66 | 2",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 8",
                 "🇨🇦CA | vless | @proxyymeliii | 35",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
-                "🇸🇪SE | vless | @vmess_vless_v2rayng | 2",
+                "🇨🇦CA | vless | @vmess_vless_v2rayng | 4",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -151,6 +150,7 @@
                 "🇺🇸US | vless | @Capoit | 17",
                 "🇲🇾MY | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 14",
+                "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇸🇪SE | vless | @proxy_mtm | 1",
@@ -192,18 +192,17 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 29",
-                "🇨🇦CA | vless | @ShadowProxy66 | 3",
+                "🇨🇦CA | vless | @ShadowProxy66 | 2",
                 "🇸🇪SE | vless | @ServerNett | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 8",
                 "🇨🇦CA | vless | @proxyymeliii | 35",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
-                "🇸🇪SE | vless | @vmess_vless_v2rayng | 2",
+                "🇨🇦CA | vless | @vmess_vless_v2rayng | 4",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -212,6 +211,7 @@
                 "🇺🇸US | vless | @Capoit | 17",
                 "🇲🇾MY | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 14",
+                "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇸🇪SE | vless | @proxy_mtm | 1",
@@ -802,11 +802,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 3",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 2",
             "type": "vless",
             "server": "cdn.discordapp.com",
             "server_port": 8880,
-            "uuid": "bfcdde20-aff1-4ff0-81f5-c5b5e7607705",
+            "uuid": "c3b3576f-cef7-464e-ad69-c16d2002a0f0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -979,11 +979,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @vmess_vless_v2rayng | 2",
+            "tag": "🇨🇦CA | vless | @vmess_vless_v2rayng | 4",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "e0bbd4e7-9428-4495-8a43-41644c9d1a57",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -991,11 +991,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/ServerNett",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
                 }
             }
         },
@@ -1059,27 +1069,6 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "185.146.173.37",
-            "server_port": 2095,
-            "uuid": "8adfaf43-8e3a-4eec-94c9-e7c8d81e8add",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.37"
                 }
             }
         },
@@ -1267,6 +1256,20 @@
                 "headers": {
                     "Host": "185.146.173.95"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @FAKEOFTVC | 0",
+            "type": "vless",
+            "server": "new2.shatrang005.icu",
+            "server_port": 39932,
+            "uuid": "4c504ed5-d0b9-4c1b-80f9-bdcd270cc3bb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
