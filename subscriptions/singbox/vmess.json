@@ -122,11 +122,11 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @v2ray1_ng | 4",
+                "🇮🇷IR | vmess | @vless_vmess | 1",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
-                "🏳️XX | vmess | @DailyV2RY | 138",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
-                "🇺🇸US | vmess | @ConfigsHUB | 17",
+                "🏳️XX | vmess | @DailyV2RY | 144",
+                "🇺🇸US | vmess | @ConfigsHUB | 4",
+                "🇺🇸US | vmess | @ConfigsHUB | 6",
                 "🇹🇷TR | vmess | @proxystore11 | 1",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -174,11 +174,11 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @v2ray1_ng | 4",
+                "🇮🇷IR | vmess | @vless_vmess | 1",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
-                "🏳️XX | vmess | @DailyV2RY | 138",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
-                "🇺🇸US | vmess | @ConfigsHUB | 17",
+                "🏳️XX | vmess | @DailyV2RY | 144",
+                "🇺🇸US | vmess | @ConfigsHUB | 4",
+                "🇺🇸US | vmess | @ConfigsHUB | 6",
                 "🇹🇷TR | vmess | @proxystore11 | 1",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -642,6 +642,23 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vmess | @vless_vmess | 1",
+            "type": "vmess",
+            "server": "95.38.248.217",
+            "server_port": 2966,
+            "uuid": "e80a8064-740e-4b90-8423-ce82a725e53c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
             "type": "vmess",
             "server": "172.64.103.211",
@@ -676,7 +693,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 138",
+            "tag": "🏳️XX | vmess | @DailyV2RY | 144",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -693,7 +710,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 15",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 4",
             "type": "vmess",
             "server": "172.67.131.108",
             "server_port": 443,
@@ -727,7 +744,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 6",
             "type": "vmess",
             "server": "104.21.4.6",
             "server_port": 443,
@@ -757,40 +774,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": "188.114.97.79",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
