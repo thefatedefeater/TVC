@@ -135,7 +135,6 @@
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇮🇷IR | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 39",
-                "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
@@ -143,7 +142,7 @@
                 "🇳🇱NL | vless | @VmessProtocol | 5",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇫🇮FI | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇺🇸US | vless | @polproxy | 7",
@@ -198,7 +197,6 @@
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇮🇷IR | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 39",
-                "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
@@ -206,7 +204,7 @@
                 "🇳🇱NL | vless | @VmessProtocol | 5",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇫🇮FI | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇺🇸US | vless | @polproxy | 7",
@@ -893,27 +891,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 9",
-            "type": "vless",
-            "server": "172.66.44.135",
-            "server_port": 80,
-            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.66.44.135"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @vless_vmess | 15",
             "type": "vless",
             "server": "172.64.87.176",
@@ -1094,11 +1071,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 19",
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "37.27.81.139",
-            "server_port": 8880,
-            "uuid": "850034c5-30ee-405c-a92e-cd87a1adb262",
+            "server": "uk2-full.privateip.net",
+            "server_port": 443,
+            "uuid": "e364b787-6545-42dd-aaa4-9ee76fd21e89",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1106,11 +1083,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "uk2-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/orangesupport",
+                "path": "\/VLESS",
                 "headers": {
-                    "Host": "37.27.81.139"
+                    "Host": "uk2-full.privateip.net"
                 }
             }
         },
