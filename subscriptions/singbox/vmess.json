@@ -121,9 +121,10 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 2",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
-                "🇮🇷IR | vmess | @vless_vmess | 4",
-                "🏳️XX | vmess | @DailyV2RY | 173",
-                "🇺🇸US | vmess | @ConfigsHUB | 8",
+                "🇮🇷IR | vmess | @vless_vmess | 5",
+                "🏳️XX | vmess | @DailyV2RY | 174",
+                "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇳🇱NL | vmess | @proxystore11 | 2",
                 "🇺🇸US | vmess | @proxystore11 | 3",
                 "🇹🇷TR | vmess | @proxystore11 | 7",
@@ -176,9 +177,10 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 2",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
-                "🇮🇷IR | vmess | @vless_vmess | 4",
-                "🏳️XX | vmess | @DailyV2RY | 173",
-                "🇺🇸US | vmess | @ConfigsHUB | 8",
+                "🇮🇷IR | vmess | @vless_vmess | 5",
+                "🏳️XX | vmess | @DailyV2RY | 174",
+                "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇳🇱NL | vmess | @proxystore11 | 2",
                 "🇺🇸US | vmess | @proxystore11 | 3",
                 "🇹🇷TR | vmess | @proxystore11 | 7",
@@ -573,7 +575,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @vless_vmess | 4",
+            "tag": "🇮🇷IR | vmess | @vless_vmess | 5",
             "type": "vmess",
             "server": "95.38.248.217",
             "server_port": 2966,
@@ -590,7 +592,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 173",
+            "tag": "🏳️XX | vmess | @DailyV2RY | 174",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -607,11 +609,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 8",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": "104.19.32.0",
+            "server": "188.114.97.79",
             "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -624,7 +626,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "xmivideo.cfd",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -636,7 +638,31 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "xmivideo.cfd"
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "104.16.219.108",
+            "server_port": 80,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram\/XV2ray",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
