@@ -131,9 +131,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇨🇦CA | vless | @Outline_Vpn | 19",
+                "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇮🇷IR | vless | @prrofile_purple | 184",
-                "🇨🇦CA | vless | @customv2ray | 16",
+                "🇮🇷IR | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 31",
@@ -160,7 +160,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇺🇸US | vless | @Capoit | 13",
+                "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇮🇷IR | vless | @FAKEOFTVC | 3",
@@ -206,9 +206,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇨🇦CA | vless | @Outline_Vpn | 19",
+                "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇮🇷IR | vless | @prrofile_purple | 184",
-                "🇨🇦CA | vless | @customv2ray | 16",
+                "🇮🇷IR | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 31",
@@ -235,7 +235,7 @@
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇺🇸US | vless | @Capoit | 13",
+                "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 17",
                 "🇮🇷IR | vless | @FAKEOFTVC | 3",
@@ -834,34 +834,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
+            "tag": "🇩🇪DE | vless | @Outline_Vpn | 19",
             "type": "vless",
-            "server": "104.20.115.188",
-            "server_port": 443,
-            "uuid": "10716279-b1ee-41d8-b63e-87782088305b",
+            "server": "49.13.82.2",
+            "server_port": 8080,
+            "uuid": "99c517c7-606c-4091-99d0-0a19203d6835",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "heY.BACHEBiapaIn.Ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/cVld1tNyOQfi6EWx?ed=2560",
-                "headers": {
-                    "Host": "heY.BACHEBiapaIn.Ir"
-                }
             }
         },
         {
@@ -879,11 +862,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 16",
+            "tag": "🇮🇷IR | vless | @customv2ray | 15",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "9c2f4be2-3dbb-48d3-b78b-85e3e884d2ce",
+            "server": "Ipv.acangame.ir",
+            "server_port": 52852,
+            "uuid": "776cdd74-3071-43b4-bbe1-effbd4a2266e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -891,22 +874,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "snapp.pinobin.ir.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/i9dmr8hSfQIsLEox?ed",
-                "headers": {
-                    "Host": "snapp.pinobin.ir."
-                }
+                "type": "grpc",
+                "service_name": "Tel-@GH_v2rayng Tel-@GH_v2rayng Tel-@GH_v2rayng Tel-@GH_v2rayng Tel-@GH_v2rayng Tel-@GH_v2rayng Tel-@GH_v2rayng Tel-@GH_v2rayng",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1583,7 +1556,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 13",
+            "tag": "🇺🇸US | vless | @Capoit | 15",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
