@@ -130,7 +130,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
@@ -149,15 +149,15 @@
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇺🇸US | vmess | @proxystore11 | 12",
+                "🇸🇪SE | vless | @ConfigsHUB | 15",
+                "🇺🇸US | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 9",
                 "🇸🇪SE | vless | @fnet00 | 7",
-                "🇺🇸US | vless | @polproxy | 7",
-                "🇲🇾MY | vless | @Outlinev2rayNG | 17",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+                "🇨🇦CA | vless | @polproxy | 7",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @Capoit | 15",
@@ -204,7 +204,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇸🇪SE | vless | @UnlimitedDev | 14",
@@ -223,15 +223,15 @@
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇺🇸US | vmess | @proxystore11 | 12",
+                "🇸🇪SE | vless | @ConfigsHUB | 15",
+                "🇺🇸US | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 9",
                 "🇸🇪SE | vless | @fnet00 | 7",
-                "🇺🇸US | vless | @polproxy | 7",
-                "🇲🇾MY | vless | @Outlinev2rayNG | 17",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+                "🇨🇦CA | vless | @polproxy | 7",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @Capoit | 15",
@@ -791,7 +791,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "172.67.170.13",
             "server_port": 443,
@@ -1238,11 +1238,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "172.66.45.32",
-            "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
+            "server": "vpncustomize.elmahstyle.ir",
+            "server_port": 8080,
+            "uuid": "Telegram_VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1250,26 +1250,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
+                    "Host": "vpncustomize.elmahstyle.ir"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @proxystore11 | 12",
+            "tag": "🇺🇸US | vmess | @proxystore11 | 14",
             "type": "vmess",
             "server": "188.114.99.183",
             "server_port": 443,
@@ -1368,11 +1358,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
+            "tag": "🏳️XX | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "129.146.46.181",
-            "server_port": 52408,
-            "uuid": "a797ff7b-8161-40a6-d577-1b2c213b3885",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "7b5bf0c5-cf23-450f-a5d8-7fef9478de6c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1382,6 +1372,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
+                }
             }
         },
         {
@@ -1406,7 +1413,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @polproxy | 7",
+            "tag": "🇨🇦CA | vless | @polproxy | 7",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
@@ -1427,7 +1434,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vless | @Outlinev2rayNG | 17",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
             "server": "172.66.46.224",
             "server_port": 443,
@@ -1458,7 +1465,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 11",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8880,
