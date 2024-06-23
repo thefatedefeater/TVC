@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 178",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇺🇸US | vless | @polproxy | 7",
@@ -163,7 +163,7 @@
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇸🇪SE | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇸🇪SE | vless | @TVCminer | 3"
+                "🇸🇪SE | vless | @TVCminer | 4"
             ]
         },
         {
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 178",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇺🇸US | vless | @polproxy | 7",
@@ -227,7 +227,7 @@
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇸🇪SE | vless | @V2FETCH | 3",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇸🇪SE | vless | @TVCminer | 3"
+                "🇸🇪SE | vless | @TVCminer | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1130,11 +1130,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.21.40.59",
-            "server_port": 8080,
-            "uuid": "5da741a5-330b-47ef-b039-603c0b2d80ae",
+            "server": "104.31.16.125",
+            "server_port": 443,
+            "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1142,11 +1142,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "lmn1716554593476.lmn15430.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/V2ray.motorcycles",
+                "path": "\/mary",
                 "headers": {
-                    "Host": "104.21.40.59"
+                    "Host": "lmn1716554593476.lmn15430.info"
                 }
             }
         },
@@ -1571,7 +1581,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @TVCminer | 3",
+            "tag": "🇸🇪SE | vless | @TVCminer | 4",
             "type": "vless",
             "server": "185.146.173.169",
             "server_port": 8880,
