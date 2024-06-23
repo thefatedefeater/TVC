@@ -143,7 +143,7 @@
                 "🇳🇱NL | vless | @VmessProtocol | 5",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇺🇸US | vless | @polproxy | 7",
@@ -206,7 +206,7 @@
                 "🇳🇱NL | vless | @VmessProtocol | 5",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇺🇸US | vless | @polproxy | 7",
@@ -1094,11 +1094,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.18.5.2",
-            "server_port": 2096,
-            "uuid": "85b94f20-e563-498b-9d4b-a75438a51101",
+            "server": "37.27.81.139",
+            "server_port": 8880,
+            "uuid": "850034c5-30ee-405c-a92e-cd87a1adb262",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1106,21 +1106,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "VFIvE-teLeGram.PAGEs.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/5fz4m1ggihzpkyya?ed",
+                "path": "\/orangesupport",
                 "headers": {
-                    "Host": "VFIvE-teLeGram.PAGEs.Dev"
+                    "Host": "37.27.81.139"
                 }
             }
         },
