@@ -130,7 +130,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇺🇸US | vless | @customv2ray | 15",
@@ -146,11 +146,11 @@
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇳🇱NL | vless | @VmessProtocol | 5",
-                "🇨🇦CA | vless | @DailyV2RY | 168",
+                "🇨🇦CA | vless | @DailyV2RY | 178",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇳🇴NO | vless | @ConfigsHUB | 18",
+                "🇺🇦UA | vmess | @ConfigsHUB | 17",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -205,7 +205,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 184",
                 "🇺🇸US | vless | @customv2ray | 15",
@@ -221,11 +221,11 @@
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇳🇱NL | vless | @VmessProtocol | 5",
-                "🇨🇦CA | vless | @DailyV2RY | 168",
+                "🇨🇦CA | vless | @DailyV2RY | 178",
                 "🇬🇧GB | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇳🇴NO | vless | @ConfigsHUB | 18",
+                "🇺🇦UA | vmess | @ConfigsHUB | 17",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -739,7 +739,7 @@
         {
             "tag": "🇫🇷FR | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "51.44.66.46",
+            "server": "15.236.159.30",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -793,11 +793,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
-            "server": "172.67.170.13",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "server": "164.90.167.137",
+            "server_port": 2087,
+            "uuid": "964d2e04-5de3-478e-8616-b609c9f71954",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -808,21 +808,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/2.v2ray.debian.org.fxp.debian.org.speedtest.net.����ù������.madariran.filegear-sg.m",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": ""
                 }
             }
         },
@@ -1198,11 +1188,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 168",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 178",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "ba24c468-8fad-4502-9f30-ab921c7e8e5c",
+            "server": "104.16.190.131",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1210,11 +1200,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
                 }
             }
         },
@@ -1264,39 +1264,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇴NO | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "185.125.171.13",
-            "server_port": 8443,
-            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇦UA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "141.105.130.9",
+            "server_port": 55471,
+            "uuid": "714d36ca-09ce-4182-8756-e0bf7a85158e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "partner.g2.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "g2com",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
