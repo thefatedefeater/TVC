@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🇸🇪SE | vless | @vpn_xw | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇩🇪DE | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -137,7 +137,6 @@
                 "🇸🇪SE | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 12",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇮🇷IR | vless | @v2ray_swhil | 9",
@@ -150,11 +149,11 @@
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vless | @free1_vpn | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -196,7 +195,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🇸🇪SE | vless | @vpn_xw | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇩🇪DE | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -212,7 +211,6 @@
                 "🇸🇪SE | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 12",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇮🇷IR | vless | @v2ray_swhil | 9",
@@ -225,11 +223,11 @@
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vless | @free1_vpn | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
@@ -597,7 +595,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 3",
+            "tag": "🇸🇪SE | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "185.146.173.237",
             "server_port": 80,
@@ -975,37 +973,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
-            "type": "vless",
-            "server": "172.66.46.224",
-            "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @ShadowProxy66 | 6",
             "type": "vless",
             "server": "cdn.discordapp.com",
@@ -1280,11 +1247,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "172.66.47.126",
+            "server": "188.114.97.3",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "uuid": "82299fb9-f8b0-43bc-ae63-290881a89f72",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1294,7 +1261,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
+                "server_name": "jAVidSHAH-aRiaMeHR.pagEs.DEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1304,9 +1271,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/yuyg5ujoovohfscy?ed=2560",
+                "path": "\/qMrqKgy9xReUdR3d?ed=2560",
                 "headers": {
-                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
+                    "Host": "jAVidSHAH-aRiaMeHR.pagEs.DEV"
                 }
             }
         },
@@ -1376,7 +1343,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free1_vpn | 1",
+            "tag": "🇨🇦CA | vless | @free1_vpn | 1",
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 443,
@@ -1407,7 +1374,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "russia.com",
             "server_port": 2095,
