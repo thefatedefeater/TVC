@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 19",
                 "🇸🇪SE | vless | @Parsashonam | 7",
-                "🇫🇷FR | vless | @VlessConfig | 17",
+                "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 30",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 2",
@@ -144,6 +144,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -173,7 +174,7 @@
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 19",
                 "🇸🇪SE | vless | @Parsashonam | 7",
-                "🇫🇷FR | vless | @VlessConfig | 17",
+                "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 30",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 2",
@@ -209,6 +210,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -294,9 +296,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 17",
+            "tag": "🇬🇧GB | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "15.237.89.124",
+            "server": "18.171.86.181",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1132,6 +1134,37 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpNeRor.SAjadHADadi.WEbsiTe",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/eOwMtmADY6cWup8R?ed",
+                "headers": {
+                    "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
                 }
             }
         },
