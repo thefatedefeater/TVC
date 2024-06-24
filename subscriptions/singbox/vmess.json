@@ -125,7 +125,7 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 9",
                 "🇺🇸US | vmess | @v2ray1_ng | 6",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇺🇸US | vmess | @ConfigsHUB | 4",
                 "🇳🇱NL | vmess | @proxystore11 | 5",
                 "🇹🇷TR | vmess | @proxystore11 | 10",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -154,7 +154,8 @@
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 3",
-                "🇺🇸US | vmess | @ROMAX_VPN | 4"
+                "🇺🇸US | vmess | @ROMAX_VPN | 4",
+                "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
         },
         {
@@ -180,7 +181,7 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 9",
                 "🇺🇸US | vmess | @v2ray1_ng | 6",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇺🇸US | vmess | @ConfigsHUB | 4",
                 "🇳🇱NL | vmess | @proxystore11 | 5",
                 "🇹🇷TR | vmess | @proxystore11 | 10",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -209,7 +210,8 @@
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 3",
-                "🇺🇸US | vmess | @ROMAX_VPN | 4"
+                "🇺🇸US | vmess | @ROMAX_VPN | 4",
+                "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -743,11 +745,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 4",
             "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "server": "66.135.3.168",
+            "server_port": 44990,
+            "uuid": "88623615-0713-497a-9233-755a33cc7080",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -757,23 +759,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
-                }
             }
         },
         {
@@ -1631,6 +1616,40 @@
                 "path": "\/ivideos.sbs\/linkws",
                 "headers": {
                     "Host": "mikasa.yaemiko.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 5",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
                 }
             }
         }
