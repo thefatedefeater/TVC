@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 18",
+                "🇸🇪SE | vless | @EliV2ray | 19",
                 "🇸🇪SE | vless | @Parsashonam | 7",
                 "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 30",
@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 5",
                 "🇸🇪SE | vless | @vpn_xw | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
-                "🇸🇪SE | vless | @proxy_kafee | 4",
+                "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇩🇪DE | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇩🇰DK | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -182,7 +182,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 18",
+                "🇸🇪SE | vless | @EliV2ray | 19",
                 "🇸🇪SE | vless | @Parsashonam | 7",
                 "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 30",
@@ -197,7 +197,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 5",
                 "🇸🇪SE | vless | @vpn_xw | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
-                "🇸🇪SE | vless | @proxy_kafee | 4",
+                "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇩🇪DE | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 17",
                 "🇩🇰DK | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -274,7 +274,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 18",
+            "tag": "🇸🇪SE | vless | @EliV2ray | 19",
             "type": "vless",
             "server": "tg.ELiV2ray.io",
             "server_port": 8880,
@@ -318,7 +318,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "18.175.99.222",
+            "server": "3.11.213.166",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -599,11 +599,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 4",
+            "tag": "🇸🇪SE | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "185.146.173.237",
             "server_port": 80,
-            "uuid": "0e46c785-6374-43e2-b336-66e922ca0f8a",
+            "uuid": "4ae94b2e-da2d-48f3-b44b-7bb15b25482a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1188,9 +1188,9 @@
         {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 166",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "61900d77-25d0-4424-a1f9-53932275ee97",
+            "server": "104.16.190.131",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1198,11 +1198,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
                 }
             }
         },
@@ -1269,11 +1279,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "104.16.216.241",
-            "server_port": 443,
-            "uuid": "10716279-b1ee-41d8-b63e-87782088305b",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "3924d75b-ebb3-4747-932f-f1954fd4a430",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1281,21 +1291,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "heY.bACHeBiapAiN.Ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/iXNpb8TL5D4uHOQC?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "heY.bACHeBiapAiN.Ir"
+                    "Host": "185.146.173.37"
                 }
             }
         },
