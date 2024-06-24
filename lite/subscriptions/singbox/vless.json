@@ -143,13 +143,13 @@
                 "🇨🇦CA | vless | @DailyV2RY | 179",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇸🇪SE | vless | @ConfigsHUB | 15",
+                "🇸🇪SE | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 3",
@@ -208,13 +208,13 @@
                 "🇨🇦CA | vless | @DailyV2RY | 179",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇸🇪SE | vless | @ConfigsHUB | 15",
+                "🇸🇪SE | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 3",
@@ -1044,9 +1044,9 @@
         {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 179",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "61900d77-25d0-4424-a1f9-53932275ee97",
+            "server": "104.16.190.131",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1054,11 +1054,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
                 }
             }
         },
@@ -1115,11 +1125,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 15",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 16",
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 2095,
-            "uuid": "7d860e72-f8e3-404f-bf3c-3f674267d487",
+            "uuid": "3924d75b-ebb3-4747-932f-f1954fd4a430",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1261,7 +1271,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 12",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
             "type": "vless",
             "server": "www.Speedtest.Net",
             "server_port": 2095,
