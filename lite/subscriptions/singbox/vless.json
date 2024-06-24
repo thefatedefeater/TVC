@@ -142,8 +142,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 158",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -207,8 +206,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 158",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -695,7 +693,7 @@
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "5d5bb467-0562-4a07-9d50-5982acb34174",
+            "uuid": "Channel-VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1023,9 +1021,9 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 8080,
-            "uuid": "%74%65%6c%65%67%72%61%6d%2d%69%64%2d%41%72%56%32%72%61%79",
+            "server": "185.146.173.95",
+            "server_port": 8880,
+            "uuid": "%63%34%66%30%66%66%33%30%2d%37%34%65%38%2d%34%36%61%34%2d%62%65%33%32%2d%30%66%39%65%33%66%38%32%64%34%65%39",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1035,9 +1033,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "185.146.173.95"
                 }
             }
         },
@@ -1084,55 +1082,17 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lrnbymaa | 41",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
+            "server": "157.90.156.249",
             "server_port": 8080,
-            "uuid": "Channel-VPNCUSTOMIZE",
+            "uuid": "a8be6687-5ac6-4604-9749-fbb0634c6fbd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "601899cf-ed90-433d-9ccd-9fcd2c0cfcac",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-v2rey.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
-                "headers": {
-                    "Host": "join-v2rey.pages.dev"
-                }
             }
         },
         {
