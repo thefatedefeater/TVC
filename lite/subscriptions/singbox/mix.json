@@ -130,7 +130,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | trojan | @oneclickvpnkeys | 6",
+                "🇺🇦UA | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇮🇷IR | vless | @prrofile_purple | 184",
                 "🇸🇪SE | vless | @customv2ray | 14",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -206,7 +206,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | trojan | @oneclickvpnkeys | 6",
+                "🇺🇦UA | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇮🇷IR | vless | @prrofile_purple | 184",
                 "🇸🇪SE | vless | @customv2ray | 14",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -802,32 +802,20 @@
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @oneclickvpnkeys | 6",
-            "type": "trojan",
-            "server": "cumhuriyet.com.tr",
-            "server_port": 443,
-            "password": "e16e9768-240f-4ff2-8c29-36d220ed2aa4",
+            "tag": "🇺🇦UA | vmess | @oneclickvpnkeys | 7",
+            "type": "vmess",
+            "server": "141.105.130.9",
+            "server_port": 55471,
+            "uuid": "714d36ca-09ce-4182-8756-e0bf7a85158e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "msnghdfy4c1.iraniancpi.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/4xLDSO3FrWl2DhIibUbDFdhZ",
-                "headers": {
-                    "Host": "msnghdfy4c1.iraniancpi.uk"
-                }
             }
         },
         {
@@ -1264,13 +1252,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "fdcservers.net.",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "172.67.164.164",
             "server_port": 443,
-            "uuid": "1d16ce9b-3854-446d-a226-189f4b810bb6",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1278,7 +1269,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fi1.vless.site",
+                "server_name": "afrhms07.xfixedfloat.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1288,9 +1279,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless?ed=@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi?ed",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "fi1.vless.site"
+                    "Host": "afrhms07.xfixedfloat.cfd"
                 }
             }
         },
