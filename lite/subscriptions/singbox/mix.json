@@ -137,7 +137,7 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
-                "🇨🇦CA | vless | @ShadowProxy66 | 7",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 11",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇺🇸US | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 41",
@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -214,7 +214,7 @@
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
-                "🇨🇦CA | vless | @ShadowProxy66 | 7",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 11",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇺🇸US | vless | @v2ray_swhil | 7",
                 "🇸🇪SE | vless | @proxyymeliii | 41",
@@ -228,7 +228,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -945,34 +945,20 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 7",
-            "type": "vless",
-            "server": "172.66.44.86",
-            "server_port": 443,
-            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 11",
+            "type": "vmess",
+            "server": "23.162.200.182",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nooshin-2d9.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "nooshin-2d9.pages.dev"
-                }
             }
         },
         {
@@ -1299,11 +1285,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "13ba9154-0ace-443b-b38a-5349031d4e1d",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "7d860e72-f8e3-404f-bf3c-3f674267d487",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1311,21 +1297,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-v2rey.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/",
                 "headers": {
-                    "Host": "join-v2rey.pages.dev"
+                    "Host": "185.146.173.37"
                 }
             }
         },
