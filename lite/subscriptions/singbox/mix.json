@@ -141,7 +141,7 @@
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇮🇷IR | vless | @v2ray_swhil | 9",
                 "🇸🇪SE | vless | @proxyymeliii | 46",
-                "🇨🇦CA | vless | @v2ray1_ng | 8",
+                "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
-                "🇭🇰HK | trojan | @ConfigsHUB | 1",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -215,7 +215,7 @@
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇮🇷IR | vless | @v2ray_swhil | 9",
                 "🇸🇪SE | vless | @proxyymeliii | 46",
-                "🇨🇦CA | vless | @v2ray1_ng | 8",
+                "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
-                "🇭🇰HK | trojan | @ConfigsHUB | 1",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -1050,7 +1050,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 8",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 9",
             "type": "vless",
             "server": "172.67.55.192",
             "server_port": 80,
@@ -1247,24 +1247,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇭🇰HK | trojan | @ConfigsHUB | 1",
-            "type": "trojan",
-            "server": "91.149.237.179",
-            "server_port": 19223,
-            "password": "9a72dfcb-b2bf-3969-aef1-5e0e94a4f84c",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.237",
+            "server_port": 8080,
+            "uuid": "b6d452cf-246f-4ee3-9ce6-110c95dc9be6",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "eplcgame.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray",
+                "headers": {
+                    "Host": "185.146.173.237"
                 }
             }
         },
