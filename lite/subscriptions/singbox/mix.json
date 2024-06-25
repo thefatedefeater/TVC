@@ -131,7 +131,7 @@
                 "🇺🇸US | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | trojan | @oneclickvpnkeys | 4",
+                "🇨🇦CA | trojan | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇸🇪SE | vless | @customv2ray | 15",
@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -205,7 +205,7 @@
                 "🇺🇸US | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | trojan | @oneclickvpnkeys | 4",
+                "🇨🇦CA | trojan | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇸🇪SE | vless | @customv2ray | 15",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -829,7 +829,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @oneclickvpnkeys | 4",
+            "tag": "🇨🇦CA | trojan | @oneclickvpnkeys | 5",
             "type": "trojan",
             "server": "172.67.204.84",
             "server_port": 443,
@@ -1237,23 +1237,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "185.146.173.37",
-            "server_port": 2095,
-            "uuid": "af5a3844-2453-417d-87f6-5ce2af5fc234",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | trojan | @ConfigsHUB | 19",
+            "type": "trojan",
+            "server": "169.150.206.186",
+            "server_port": 43118,
+            "password": "ypDt8RkT7J",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.37"
+            "tls": {
+                "enabled": true,
+                "server_name": "tpmem.phooeyunfold.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
