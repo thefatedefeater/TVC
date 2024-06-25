@@ -150,10 +150,9 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @ConfigsHUB | 18",
-                "🇹🇷TR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
@@ -224,10 +223,9 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @ConfigsHUB | 18",
-                "🇹🇷TR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
@@ -1232,9 +1230,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.66.46.224",
-            "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "36ad319b-d38e-4d47-8916-15632d8be911",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1242,39 +1240,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray",
                 "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
+                    "Host": "zula.ir"
                 }
-            }
-        },
-        {
-            "tag": "🇹🇷TR | vmess | @proxystore11 | 13",
-            "type": "vmess",
-            "server": "45.89.52.114",
-            "server_port": 13701,
-            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1343,7 +1314,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "russia.com",
             "server_port": 2095,
