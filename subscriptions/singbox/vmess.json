@@ -124,6 +124,7 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @v2ray1_ng | 7",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
+                "🇺🇸US | vmess | @ConfigsHUB | 5",
                 "🇳🇱NL | vmess | @proxystore11 | 6",
                 "🇹🇷TR | vmess | @proxystore11 | 11",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -178,6 +179,7 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @v2ray1_ng | 7",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
+                "🇺🇸US | vmess | @ConfigsHUB | 5",
                 "🇳🇱NL | vmess | @proxystore11 | 6",
                 "🇹🇷TR | vmess | @proxystore11 | 11",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -704,6 +706,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 5",
+            "type": "vmess",
+            "server": "173.245.58.5",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "worker-bitter-math-2af8.waxoha3621.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/glweidf.sbs\/linkws",
+                "headers": {
+                    "Host": "worker-bitter-math-2af8.waxoha3621.workers.dev"
+                }
             }
         },
         {
