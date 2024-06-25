@@ -150,13 +150,13 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @ConfigsHUB | 18",
-                "🇹🇷TR | vmess | @proxystore11 | 12",
+                "🇹🇷TR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
@@ -224,13 +224,13 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vless | @ConfigsHUB | 18",
-                "🇹🇷TR | vmess | @proxystore11 | 12",
+                "🇹🇷TR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 8",
@@ -1232,9 +1232,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.visa.com.sg",
-            "server_port": 8443,
-            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
+            "server": "172.66.46.224",
+            "server_port": 443,
+            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1244,7 +1244,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pardazesh-tgws.pages.dev",
+                "server_name": "t-netplus-4vx.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1254,14 +1254,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Tel-proxy_mtm\/?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "pardazesh-tgws.pages.dev"
+                    "Host": "t-netplus-4vx.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @proxystore11 | 12",
+            "tag": "🇹🇷TR | vmess | @proxystore11 | 13",
             "type": "vmess",
             "server": "45.89.52.114",
             "server_port": 13701,
@@ -1343,7 +1343,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "russia.com",
             "server_port": 2095,
@@ -1409,7 +1409,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 18",
             "type": "vless",
             "server": "185.146.173.146",
             "server_port": 80,
