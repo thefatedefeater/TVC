@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -165,7 +165,7 @@
                 "🇺🇸US | vless | @flyv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
-                "🇨🇦CA | vless | @kiava | 9",
+                "🇺🇸US | vless | @kiava | 9",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 6",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
@@ -223,7 +223,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -239,7 +239,7 @@
                 "🇺🇸US | vless | @flyv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
-                "🇨🇦CA | vless | @kiava | 9",
+                "🇺🇸US | vless | @kiava | 9",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 6",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
@@ -1247,23 +1247,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "83cbebec-9582-4f99-927a-b14d57e7b5f7",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "104.17.213.57",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "xmivideo.cfd"
                 }
             }
         },
@@ -1668,7 +1681,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @kiava | 9",
+            "tag": "🇺🇸US | vless | @kiava | 9",
             "type": "vless",
             "server": "arzdigital.com",
             "server_port": 8880,
