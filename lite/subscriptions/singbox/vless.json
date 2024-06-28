@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇸🇪SE | vless | @Parsashonam | 4",
-                "🇮🇪IE | vless | @VlessConfig | 17",
+                "🇸🇪SE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 31",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -142,8 +142,9 @@
                 "🇨🇦CA | vless | @DailyV2RY | 111",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @proxystore11 | 10",
-                "🇲🇾MY | vless | @free1_vpn | 0",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 18",
@@ -169,7 +170,7 @@
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇸🇪SE | vless | @Parsashonam | 4",
-                "🇮🇪IE | vless | @VlessConfig | 17",
+                "🇸🇪SE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 31",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
@@ -203,8 +204,9 @@
                 "🇨🇦CA | vless | @DailyV2RY | 111",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇸🇪SE | vless | @proxystore11 | 10",
-                "🇲🇾MY | vless | @free1_vpn | 0",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 18",
@@ -286,9 +288,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | vless | @VlessConfig | 17",
+            "tag": "🇸🇪SE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "54.220.37.33",
+            "server": "13.60.111.224",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -403,8 +405,8 @@
         {
             "tag": "🇸🇪SE | vless | @ARv2ray | 15",
             "type": "vless",
-            "server": "185.146.173.37",
-            "server_port": 80,
+            "server": "185.146.173.237",
+            "server_port": 8080,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -417,7 +419,7 @@
                 "type": "ws",
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "185.146.173.237"
                 }
             }
         },
@@ -1096,6 +1098,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "172.66.47.2",
+            "server_port": 443,
+            "uuid": "bcf50589-9654-4331-93a6-da896914ec47",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "de4ecf6b.isvphp-4g8.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI\/?ed=5660",
+                "headers": {
+                    "Host": "de4ecf6b.isvphp-4g8.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "185.146.173.37",
@@ -1117,7 +1150,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vless | @free1_vpn | 0",
+            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
             "type": "vless",
             "server": "172.66.45.32",
             "server_port": 443,
