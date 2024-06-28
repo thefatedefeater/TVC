@@ -110,6 +110,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 16",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2Line | 8",
@@ -124,6 +125,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 16",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2Line | 8",
@@ -248,6 +250,30 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "xmivideo.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "129.146.113.254",
+            "server_port": 43121,
+            "uuid": "d53b39e2-925e-45b6-9389-46b9fa95878b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "129.146.113.254"
                 }
             }
         },
