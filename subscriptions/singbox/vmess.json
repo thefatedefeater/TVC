@@ -133,7 +133,6 @@
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🇺🇸US | vmess | @DailyV2RY | 92",
                 "🏳️XX | vmess | @DailyV2RY | 99",
-                "🇺🇸US | vmess | @ConfigsHUB | 7",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -197,7 +196,6 @@
                 "🇮🇷IR | vmess | @vless_vmess | 5",
                 "🇺🇸US | vmess | @DailyV2RY | 92",
                 "🏳️XX | vmess | @DailyV2RY | 99",
-                "🇺🇸US | vmess | @ConfigsHUB | 7",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -885,40 +883,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 7",
-            "type": "vmess",
-            "server": "172.67.207.26",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
-                }
             }
         },
         {
