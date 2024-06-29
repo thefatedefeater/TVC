@@ -137,9 +137,9 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇧🇷BR | vless | @V2RayTz | 15",
-                "🇨🇷CR | vless | @DailyV2RY | 87",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -196,9 +196,9 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇧🇷BR | vless | @V2RayTz | 15",
-                "🇨🇷CR | vless | @DailyV2RY | 87",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -972,27 +972,6 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DailyV2RY | 87",
-            "type": "vless",
-            "server": "190.93.244.166",
-            "server_port": 80,
-            "uuid": "d663fecc-1f02-4e9e-8157-c33cdb30da23",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "190.93.244.166"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @sinabigo | 1",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1041,6 +1020,27 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.237",
+            "server_port": 80,
+            "uuid": "telegram-id-PcV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-PcV2ray",
+                "headers": {
+                    "Host": "185.146.173.237"
                 }
             }
         },
