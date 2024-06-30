@@ -141,16 +141,16 @@
                 "🇨🇦CA | vless | @DailyV2RY | 110",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇲🇾MY | vless | @FreakConfig | 6",
+                "🇸🇪SE | vless | @flyv2ray | 14",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 6",
@@ -200,16 +200,16 @@
                 "🇨🇦CA | vless | @DailyV2RY | 110",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 8",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇲🇾MY | vless | @FreakConfig | 6",
+                "🇸🇪SE | vless | @flyv2ray | 14",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 6",
@@ -411,7 +411,7 @@
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 2095,
-            "uuid": "d3d2ae91-1a35-49d5-ac27-97abf0f66b1f",
+            "uuid": "eded728d-5182-4ee9-a98f-0677c9ce97f4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1066,27 +1066,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "Bia_To_VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "188.114.97.3",
@@ -1191,11 +1170,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 15",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "185.146.173.58",
+            "server": "104.16.219.108",
             "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-klp",
+            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1205,9 +1184,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
+                "path": "\/Telegram\/XV2ray",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "104.16.219.108"
                 }
             }
         },
@@ -1330,6 +1309,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "B458Ab02.CAA-CHANeL-Worker-pAGE-freE-jHUIHnujhPhJKl-nihGkjN.pagES.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @flyv2ray | 14",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-klp",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-ipV2Ray",
+                "headers": {
+                    "Host": "185.146.173.58"
                 }
             }
         },
