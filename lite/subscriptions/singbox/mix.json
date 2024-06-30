@@ -130,7 +130,6 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 6",
-                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 188",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
@@ -148,8 +147,8 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 12",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🏳️XX | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
@@ -170,8 +169,7 @@
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 7",
-                "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vmess | @ROMAX_VPN | 5"
+                "🏳️XX | vless | @VpnSkyy | 7"
             ]
         },
         {
@@ -202,7 +200,6 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 6",
-                "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 188",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
@@ -220,8 +217,8 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 12",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🏳️XX | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
@@ -242,8 +239,7 @@
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 7",
-                "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vmess | @ROMAX_VPN | 5"
+                "🏳️XX | vless | @VpnSkyy | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -818,27 +814,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outline_Vpn | 18",
-            "type": "vless",
-            "server": "172.64.86.128",
-            "server_port": 80,
-            "uuid": "186c6afe-7234-4911-839f-77086e9b7278",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.64.86.128"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @prrofile_purple | 188",
             "type": "vless",
             "server": "185.146.173.92",
@@ -1197,13 +1172,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "162.159.152.152",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "zula.ir",
             "server_port": 443,
-            "uuid": "df58f7ea-c79e-4659-93fc-e600354dd4f1",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1211,7 +1189,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "join-v2rey.pages.dev",
+                "server_name": "jahfkjha.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1221,31 +1199,24 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "join-v2rey.pages.dev"
+                    "Host": "jahfkjha.cfd"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 12",
+            "tag": "🏳️XX | vless | @proxystore11 | 11",
             "type": "vless",
-            "server": "162.159.133.233",
-            "server_port": 8880,
-            "uuid": "6dd0972b-208d-42fb-8d46-0b6e2844f773",
+            "server": "divar.asrenet.ru",
+            "server_port": 8081,
+            "uuid": "61f3f2df-9db6-4f77-cf2c-573b8df8d652",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.",
-                "headers": {
-                    "Host": "162.159.133.233"
-                }
             }
         },
         {
@@ -1803,40 +1774,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 5",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
-                }
             }
         }
     ],
