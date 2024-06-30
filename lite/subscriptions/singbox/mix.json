@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 5",
-                "🇸🇪SE | vless | @Parsashonam | 3",
+                "🇸🇪SE | vless | @Parsashonam | 2",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 31",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
@@ -141,13 +141,13 @@
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 11",
+                "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | ss | @VmessProtocol | 7",
                 "🇮🇷IR | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -169,7 +169,8 @@
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 7",
-                "🏳️XX | vless | @VpnSkyy | 7"
+                "🏳️XX | vless | @VpnSkyy | 7",
+                "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
         },
         {
@@ -177,7 +178,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 5",
-                "🇸🇪SE | vless | @Parsashonam | 3",
+                "🇸🇪SE | vless | @Parsashonam | 2",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 31",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
@@ -211,13 +212,13 @@
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 11",
+                "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | ss | @VmessProtocol | 7",
                 "🇮🇷IR | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -239,7 +240,8 @@
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 7",
-                "🏳️XX | vless | @VpnSkyy | 7"
+                "🏳️XX | vless | @VpnSkyy | 7",
+                "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -283,11 +285,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Parsashonam | 3",
+            "tag": "🇸🇪SE | vless | @Parsashonam | 2",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8080,
-            "uuid": "Parsashonam-98",
+            "uuid": "Parsashonam-99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1065,6 +1067,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 8080,
+            "uuid": "67aaeabb-cb78-44b0-913c-2afb628811fd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/servernet",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "185.146.173.200",
@@ -1170,40 +1193,6 @@
             "password": "g5MeD6Ft3CWlJId",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
-                }
-            }
         },
         {
             "tag": "🏳️XX | vless | @proxystore11 | 11",
@@ -1774,6 +1763,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 5",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
+                }
             }
         }
     ],
