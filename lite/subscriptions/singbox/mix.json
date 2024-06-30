@@ -130,7 +130,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇮🇷IR | vless | @Outline_Vpn | 18",
-                "🇸🇪SE | vless | @prrofile_purple | 188",
+                "🇨🇦CA | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 12",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -162,7 +162,7 @@
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇲🇾MY | vless | @FreakConfig | 6",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🇺🇸US | vmess | @FAKEOFTVC | 3",
+                "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 6",
@@ -202,7 +202,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇮🇷IR | vless | @Outline_Vpn | 18",
-                "🇸🇪SE | vless | @prrofile_purple | 188",
+                "🇨🇦CA | vless | @prrofile_purple | 179",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 12",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -234,7 +234,7 @@
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇲🇾MY | vless | @FreakConfig | 6",
                 "🇸🇪SE | vless | @flyv2ray | 14",
-                "🇺🇸US | vmess | @FAKEOFTVC | 3",
+                "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 6",
@@ -828,11 +828,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @prrofile_purple | 188",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 179",
             "type": "vless",
-            "server": "185.146.173.92",
-            "server_port": 2095,
-            "uuid": "95f02723-bb94-436d-a1eb-c684b9e383c1",
+            "server": "104.21.7.164",
+            "server_port": 443,
+            "uuid": "5da27733-3527-479e-bb81-4c5a9c75d83f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -840,12 +840,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.92"
+            "tls": {
+                "enabled": true,
+                "server_name": "viphamester.wolfmoon.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "okala.com",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1214,11 +1224,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.66.45.32",
-            "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
+            "server": "185.146.173.58",
+            "server_port": 2095,
+            "uuid": "9e145e03-3ba7-4abe-af95-d3681a5e2854",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1226,21 +1236,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/servernet",
                 "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1615,11 +1615,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 3",
+            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 2",
             "type": "vmess",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "server": "104.20.103.155",
+            "server_port": 80,
+            "uuid": "078c86a6-8dde-4dcc-a08e-378990a8b3b2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1630,21 +1630,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
+                    "Host": ""
                 }
             }
         },
