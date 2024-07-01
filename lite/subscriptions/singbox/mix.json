@@ -138,7 +138,6 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 13",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
                 "🇸🇪SE | vless | @ShadowProxy66 | 24",
                 "🇸🇪SE | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
@@ -151,8 +150,9 @@
                 "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 13",
-                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇲🇾MY | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -211,7 +211,6 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 13",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
                 "🇸🇪SE | vless | @ShadowProxy66 | 24",
                 "🇸🇪SE | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
@@ -224,8 +223,9 @@
                 "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 13",
-                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇲🇾MY | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -1012,27 +1012,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 21",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "channel_VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "zula.ir"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @ShadowProxy66 | 24",
             "type": "vless",
             "server": "185.146.173.237",
@@ -1324,6 +1303,37 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-@Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/?ed=2560",
+                "headers": {
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "193.151.151.92",
@@ -1345,7 +1355,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
