@@ -150,7 +150,7 @@
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇳CN | vmess | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 6",
                 "🇮🇷IR | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -158,7 +158,7 @@
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
-                "TVCheakmryeon",
+                "TVCtxseimnmtx",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇬🇧GB | vmess | @v2Line | 7",
                 "🇺🇸US | vless | @Capoit | 3",
@@ -223,7 +223,7 @@
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇳CN | vmess | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 6",
                 "🇮🇷IR | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -231,7 +231,7 @@
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
-                "TVCheakmryeon",
+                "TVCtxseimnmtx",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇬🇧GB | vmess | @v2Line | 7",
                 "🇺🇸US | vless | @Capoit | 3",
@@ -1303,20 +1303,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇳CN | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "183.236.48.169",
-            "server_port": 1002,
-            "uuid": "229ccd44-c56c-3947-88de-849dd70c180d",
-            "security": "auto",
-            "alter_id": 2,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 6",
+            "type": "vless",
+            "server": "185.146.173.58",
+            "server_port": 2095,
+            "uuid": "11e81251-ea65-48bc-bfd4-c4d38ef0f8cc",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/servernet",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {
@@ -1503,7 +1507,7 @@
             }
         },
         {
-            "tag": "TVCheakmryeon",
+            "tag": "TVCtxseimnmtx",
             "type": "vless",
             "server": "",
             "server_port": 0,
