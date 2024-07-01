@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 129",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇨🇦CA | vmess | @ConfigsHUB | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -214,7 +214,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 129",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇨🇦CA | vmess | @ConfigsHUB | 8",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1196,16 +1196,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 8",
-            "type": "vmess",
-            "server": "104.21.83.208",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "medium.com",
             "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "25f0c73e-af30-42ab-93eb-ac45e1c25f18",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1213,7 +1210,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
+                "server_name": "DisVpn.us.kg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1223,9 +1220,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },
