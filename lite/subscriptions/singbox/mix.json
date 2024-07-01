@@ -109,7 +109,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 2",
                 "🇨🇦CA | vless | @Parsashonam | 1",
                 "🇮🇪IE | vless | @VlessConfig | 17",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 34",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 35",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇦CA | vless | @V2pedia | 15",
@@ -130,9 +130,9 @@
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇰🇷KR | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | trojan | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇸🇪SE | vless | @prrofile_purple | 189",
+                "🇸🇪SE | vless | @prrofile_purple | 178",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 12",
@@ -148,6 +148,7 @@
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇺🇸US | trojan | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -177,7 +178,7 @@
                 "🇸🇪SE | vless | @EliV2ray | 2",
                 "🇨🇦CA | vless | @Parsashonam | 1",
                 "🇮🇪IE | vless | @VlessConfig | 17",
-                "🇸🇪SE | vless | @VPNCUSTOMIZE | 34",
+                "🇸🇪SE | vless | @VPNCUSTOMIZE | 35",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🇨🇦CA | vless | @V2pedia | 15",
@@ -198,9 +199,9 @@
                 "🇮🇪IE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇰🇷KR | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | trojan | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇸🇪SE | vless | @prrofile_purple | 189",
+                "🇸🇪SE | vless | @prrofile_purple | 178",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 12",
@@ -216,6 +217,7 @@
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇺🇸US | trojan | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -331,7 +333,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 34",
+            "tag": "🇸🇪SE | vless | @VPNCUSTOMIZE | 35",
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
@@ -821,26 +823,31 @@
             }
         },
         {
-            "tag": "🇰🇷KR | vmess | @oneclickvpnkeys | 5",
-            "type": "vmess",
-            "server": "s5.956256.xyz",
-            "server_port": 30006,
-            "uuid": "bfc552e8-2607-4386-9c90-81437ac5ba23",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | trojan | @oneclickvpnkeys | 5",
+            "type": "trojan",
+            "server": "bluehost.com",
+            "server_port": 443,
+            "password": "e16e9768-240f-4ff2-8c29-36d220ed2aa4",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "msnghdfy4c2.cpiforpersia.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/nishidashabi",
+                "path": "\/4xLDSO3FrWl2DhIibUbDFdhZ",
                 "headers": {
-                    "Host": ""
+                    "Host": "msnghdfy4c2.cpiforpersia.uk"
                 }
             }
         },
@@ -876,7 +883,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @prrofile_purple | 189",
+            "tag": "🇸🇪SE | vless | @prrofile_purple | 178",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
@@ -1058,7 +1065,7 @@
             "type": "vless",
             "server": "VPNCUSTOMIZE.Elmahstyle.ir",
             "server_port": 8080,
-            "uuid": "Telegram_VPNCUSTOMIZE",
+            "uuid": "97537a78-0f60-43bd-a1c4-6f84697b4f96",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1229,6 +1236,28 @@
             "password": "oZIoA69Q8yhcQV8ka3Pa3A",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | trojan | @ConfigsHUB | 19",
+            "type": "trojan",
+            "server": "138.199.41.25",
+            "server_port": 43118,
+            "password": "ypDt8RkT7J",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dngn.phooeyunfold.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇮🇷IR | vless | @proxystore11 | 13",
