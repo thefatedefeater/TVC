@@ -120,7 +120,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇸🇪SE | vless | @proxy_kafee | 2",
+                "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇩🇪DE | vless | @servermomo | 1",
@@ -150,15 +150,15 @@
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇳CN | vmess | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
-                "TVCkismkuervw",
+                "TVCheakmryeon",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇬🇧GB | vmess | @v2Line | 7",
                 "🇺🇸US | vless | @Capoit | 3",
@@ -193,7 +193,7 @@
                 "🇸🇪SE | vless | @free_v2rayyy | 9",
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇸🇪SE | vless | @proxy_kafee | 2",
+                "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇩🇪DE | vless | @servermomo | 1",
@@ -223,15 +223,15 @@
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇳CN | vmess | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 17",
-                "TVCkismkuervw",
+                "TVCheakmryeon",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇬🇧GB | vmess | @v2Line | 7",
                 "🇺🇸US | vless | @Capoit | 3",
@@ -582,11 +582,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 2",
+            "tag": "🇸🇪SE | vless | @proxy_kafee | 3",
             "type": "vless",
-            "server": "185.146.173.58",
+            "server": "185.146.173.185",
             "server_port": 80,
-            "uuid": "d0036c44-ce66-4c3b-aeff-d9fc962bba74",
+            "uuid": "Telegram-NUFiLTER",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -598,7 +598,7 @@
                 "type": "ws",
                 "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "185.146.173.185"
                 }
             }
         },
@@ -1303,34 +1303,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "st-pl-1.brocdn.com",
-            "server_port": 443,
-            "uuid": "48b94941-d602-11ee-aaa8-00505603e70d",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇳CN | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "183.236.48.169",
+            "server_port": 1002,
+            "uuid": "229ccd44-c56c-3947-88de-849dd70c180d",
+            "security": "auto",
+            "alter_id": 2,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "st-pl-1.brocdn.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/websocket",
-                "headers": {
-                    "Host": "st-pl-1.brocdn.com"
-                }
             }
         },
         {
@@ -1420,7 +1406,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "russia.com",
             "server_port": 2095,
@@ -1517,7 +1503,7 @@
             }
         },
         {
-            "tag": "TVCkismkuervw",
+            "tag": "TVCheakmryeon",
             "type": "vless",
             "server": "",
             "server_port": 0,
