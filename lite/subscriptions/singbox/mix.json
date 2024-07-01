@@ -144,9 +144,9 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 129",
-                "🇨🇦CA | vless | @sinabigo | 1",
+                "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇸🇬SG | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 8",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -212,9 +212,9 @@
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇨🇦CA | vless | @DailyV2RY | 129",
-                "🇨🇦CA | vless | @sinabigo | 1",
+                "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇸🇬SG | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 8",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1154,11 +1154,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 1",
+            "tag": "🇸🇪SE | vless | @sinabigo | 0",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "e6aedcd2-24ad-4bdd-82c5-006d84179197",
+            "server": "185.146.173.58",
+            "server_port": 2052,
+            "uuid": "43000d6b-198c-4b87-b8d7-545d54d0988a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1166,21 +1166,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "4d3d6f00.garywelch.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-@SiNABiGO\/?ed=2560",
+                "path": "\/Telegram-configMs",
                 "headers": {
-                    "Host": "4d3d6f00.garywelch.pages.dev"
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1206,13 +1196,16 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "ArV2ray.mAshtimji.IR",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 8",
+            "type": "vmess",
+            "server": "104.21.83.208",
             "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1220,7 +1213,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "TO.Mashtimji.IR",
+                "server_name": "afrhms16v.bestxray.buzz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1229,11 +1222,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
+                }
             }
         },
         {
