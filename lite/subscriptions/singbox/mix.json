@@ -112,7 +112,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 15",
-                "🇸🇬SG | vless | @ARv2ray | 19",
+                "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 10",
@@ -146,7 +146,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 129",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -155,10 +156,10 @@
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @v2Line | 7",
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇺🇸US | vless | @FreakConfig | 6",
-                "🇺🇸US | vless | @flyv2ray | 13",
+                "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇸🇬SG | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 9",
                 "🇮🇷IR | vless | @proxy_mtm | 13",
@@ -180,7 +181,7 @@
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @V2pedia | 15",
-                "🇸🇬SG | vless | @ARv2ray | 19",
+                "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 10",
@@ -214,7 +215,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 129",
                 "🇸🇪SE | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -223,10 +225,10 @@
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @v2Line | 7",
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇺🇸US | vless | @FreakConfig | 6",
-                "🇺🇸US | vless | @flyv2ray | 13",
+                "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇸🇬SG | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 9",
                 "🇮🇷IR | vless | @proxy_mtm | 13",
@@ -394,10 +396,10 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @ARv2ray | 19",
+            "tag": "🇸🇪SE | vless | @ARv2ray | 19",
             "type": "vless",
-            "server": "ArV2ray.mEhpow.IR.",
-            "server_port": 443,
+            "server": "185.146.173.237",
+            "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -406,22 +408,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "IM.mehpow.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "185.146.173.237"
+                }
             }
         },
         {
@@ -1196,11 +1188,21 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+            "type": "shadowsocks",
+            "server": "45.158.171.10",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "medium.com",
+            "server": "eagle.hafezdivan.online.",
             "server_port": 443,
-            "uuid": "25f0c73e-af30-42ab-93eb-ac45e1c25f18",
+            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1210,7 +1212,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "DisVpn.us.kg",
+                "server_name": "eagle.hafezdivan.online.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1220,9 +1222,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/?ed=2560",
                 "headers": {
-                    "Host": "DisVpn.us.kg"
+                    "Host": "eagle.hafezdivan.online."
                 }
             }
         },
@@ -1429,11 +1431,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 8",
+            "tag": "🇺🇸US | vmess | @v2Line | 7",
             "type": "vmess",
-            "server": "172.67.175.56",
+            "server": "188.114.97.3",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1446,7 +1448,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "afrhms16v.bestxray.buzz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1458,7 +1460,7 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
@@ -1515,11 +1517,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 13",
+            "tag": "🇸🇪SE | vless | @flyv2ray | 13",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 8080,
-            "uuid": "Bia_To_VPNCUSTOMIZE",
+            "server": "185.146.173.58",
+            "server_port": 2052,
+            "uuid": "Telegram-ipV2Ray-sqp",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1529,9 +1531,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "188.114.98.224"
+                    "Host": "185.146.173.58"
                 }
             }
         },
