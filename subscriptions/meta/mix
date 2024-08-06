@@ -120,7 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸US | 🔴 | vless | @EliV2ray | 2","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"18f48984-81fa-4fd8-95b0-35250f265478","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
+  - {"name":"🇨🇦CA | 🔴 | vless | @EliV2ray | 2","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"18f48984-81fa-4fd8-95b0-35250f265478","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | vless | @EliV2ray | 3","type":"vless","server":"www.speedtest.net","port":2095,"udp":false,"uuid":"7ee1514d-b6f6-4ff5-bb05-0d4f6440f9cb","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇮🇷IR | 🔴 | vless | @EliV2ray | 4","type":"vless","server":"193.111.235.118","port":443,"udp":false,"uuid":"ee8c0fc4-e798-420c-a789-8ca2ebeab6a7","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇮🇪IE | 🔴 | vless | @VlessConfig | 0","type":"vless","server":"34.246.88.53","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
@@ -630,7 +630,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | 🔴 | vless | @EliV2ray | 2'
+      - '🇨🇦CA | 🔴 | vless | @EliV2ray | 2'
       - '🇺🇸US | 🔴 | vless | @EliV2ray | 3'
       - '🇮🇷IR | 🔴 | vless | @EliV2ray | 4'
       - '🇮🇪IE | 🔴 | vless | @VlessConfig | 0'
@@ -1140,7 +1140,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | 🔴 | vless | @EliV2ray | 2'
+      - '🇨🇦CA | 🔴 | vless | @EliV2ray | 2'
       - '🇺🇸US | 🔴 | vless | @EliV2ray | 3'
       - '🇮🇷IR | 🔴 | vless | @EliV2ray | 4'
       - '🇮🇪IE | 🔴 | vless | @VlessConfig | 0'
@@ -1649,7 +1649,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇺🇸US | 🔴 | vless | @EliV2ray | 2'
+      - '🇨🇦CA | 🔴 | vless | @EliV2ray | 2'
       - '🇺🇸US | 🔴 | vless | @EliV2ray | 3'
       - '🇮🇷IR | 🔴 | vless | @EliV2ray | 4'
       - '🇮🇪IE | 🔴 | vless | @VlessConfig | 0'
