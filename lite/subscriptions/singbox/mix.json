@@ -154,9 +154,9 @@
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 14",
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 1",
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 2",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 13",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 14",
-                "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 16",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 13",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 14",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 16",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 17",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 12",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 13",
@@ -271,9 +271,9 @@
                 "🇨🇦CA | 🔴 | vless | @customv2ray | 14",
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 1",
                 "🇨🇦CA | 🔴 | vless | @UnlimitedDev | 2",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 13",
-                "🇨🇦CA | 🔴 | vless | @vmessorg | 14",
-                "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 16",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 13",
+                "🇺🇸US | 🔴 | vless | @vmessorg | 14",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 16",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 17",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 12",
                 "🇸🇪SE | 🔴 | vless | @ServerNett | 13",
@@ -1385,7 +1385,28 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 13",
+            "type": "vless",
+            "server": "104.17.251.93",
+            "server_port": 8080,
+            "uuid": "1573e982-756f-4c3d-a580-aff2fad3bb36",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "headers": {
+                    "Host": "104.17.251.93"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @vmessorg | 14",
             "type": "vless",
             "server": "104.17.251.93",
             "server_port": 8080,
@@ -1406,28 +1427,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @vmessorg | 14",
-            "type": "vless",
-            "server": "104.25.214.19",
-            "server_port": 8080,
-            "uuid": "df77fe92-0fb3-45fa-bd2a-f42e1ee2be62",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
-                "headers": {
-                    "Host": "104.25.214.19"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | @v2rayNG_Matsuri | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 16",
             "type": "vless",
             "server": "172.66.45.32",
             "server_port": 443,
