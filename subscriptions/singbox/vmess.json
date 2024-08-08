@@ -112,15 +112,16 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 2",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 3",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 4",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 11",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 17",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 18",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 17",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 18",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "❔XX | 🟢 | vmess | @customv2ray | 12",
+                "🚩CF | 🟢 | vmess | @DailyV2RY | 289",
                 "🇸🇪SE | 🟢 | vmess | @proxystore11 | 0",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -152,15 +153,16 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 2",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 3",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 4",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 11",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 11",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 12",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 17",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 18",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 17",
+                "🇺🇸US | 🟢 | vmess | @mftizi | 18",
                 "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "❔XX | 🟢 | vmess | @customv2ray | 12",
+                "🚩CF | 🟢 | vmess | @DailyV2RY | 289",
                 "🇸🇪SE | 🟢 | vmess | @proxystore11 | 0",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -335,7 +337,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @mftizi | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | @mftizi | 11",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -427,7 +429,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @mftizi | 17",
+            "tag": "🇺🇸US | 🟢 | vmess | @mftizi | 17",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -451,7 +453,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @mftizi | 18",
+            "tag": "🇺🇸US | 🟢 | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -532,6 +534,40 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @DailyV2RY | 289",
+            "type": "vmess",
+            "server": "172.67.219.194",
+            "server_port": 443,
+            "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "adenc36v.xtooltech.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "adenc36v.xtooltech.cfd"
                 }
             }
         },
