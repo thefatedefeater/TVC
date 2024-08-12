@@ -135,6 +135,7 @@
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 20",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 21",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 8",
+                "🇹🇷TR | 🟢 | vmess | @DailyV2RY | 279",
                 "🇸🇪SE | 🟢 | vmess | @proxystore11 | 5",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 7",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -143,7 +144,7 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 0",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 2",
                 "🚩CF | 🟢 | vmess | @v2Line | 0",
                 "🚩CF | 🟢 | vmess | @v2Line | 1",
@@ -184,6 +185,7 @@
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 20",
                 "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 21",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 8",
+                "🇹🇷TR | 🟢 | vmess | @DailyV2RY | 279",
                 "🇸🇪SE | 🟢 | vmess | @proxystore11 | 5",
                 "🚩CF | 🟢 | vmess | @proxystore11 | 7",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
@@ -192,7 +194,7 @@
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 0",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 2",
                 "🚩CF | 🟢 | vmess | @v2Line | 0",
                 "🚩CF | 🟢 | vmess | @v2Line | 1",
@@ -881,6 +883,30 @@
             }
         },
         {
+            "tag": "🇹🇷TR | 🟢 | vmess | @DailyV2RY | 279",
+            "type": "vmess",
+            "server": "irtr1.ngiftcard.com",
+            "server_port": 80,
+            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/34L4qODA1XwJYopk6e398A",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | 🟢 | vmess | @proxystore11 | 5",
             "type": "vmess",
             "server": "185.146.173.92",
@@ -1113,7 +1139,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
