@@ -108,19 +108,16 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 16",
-                "🇺🇸US | 🟢 | vmess | @customv2ray | 11",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 46",
-                "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 47",
-                "🇺🇸US | 🟢 | vmess | @proxystore11 | 7",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 4",
-                "🇹🇷TR | 🟢 | vmess | @iP_CF | 25",
-                "🇺🇸US | 🟢 | vmess | @kingofilter | 9"
+                "🇹🇷TR | 🟢 | vmess | @iP_CF | 24",
+                "🇺🇸US | 🟢 | vmess | @kingofilter | 10"
             ]
         },
         {
@@ -129,19 +126,16 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
-                "🇨🇦CA | 🟢 | vmess | @mftizi | 16",
-                "🇺🇸US | 🟢 | vmess | @customv2ray | 11",
-                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 46",
-                "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 47",
-                "🇺🇸US | 🟢 | vmess | @proxystore11 | 7",
+                "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
+                "🇺🇸US | 🟢 | vmess | @proxystore11 | 12",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 4",
-                "🇹🇷TR | 🟢 | vmess | @iP_CF | 25",
-                "🇺🇸US | 🟢 | vmess | @kingofilter | 9"
+                "🇹🇷TR | 🟢 | vmess | @iP_CF | 24",
+                "🇺🇸US | 🟢 | vmess | @kingofilter | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -198,69 +192,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @mftizi | 16",
+            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 15",
             "type": "vmess",
-            "server": "cfcdn1.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "0921f18e-db32-4c07-939b-4388673bfe59",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/GQ2qE5Us9g",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 11",
-            "type": "vmess",
-            "server": "198.41.202.5",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ca1",
-                "headers": {
-                    "Host": "pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ShadowProxy66 | 46",
-            "type": "vmess",
-            "server": "104.21.106.68",
+            "server": "hexo.4ce.cn",
             "server_port": 80,
-            "uuid": "4797db37-41dc-4bfc-a59f-6c7055b1d15b",
+            "uuid": "7b583797-ca7b-45b9-9a64-a511cc126e74",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -273,18 +209,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/cc",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vmess | @ShadowProxy66 | 47",
+            "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 12",
             "type": "vmess",
-            "server": "45.89.52.114",
-            "server_port": 13701,
-            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
+            "server": "www.speedtest.net",
+            "server_port": 2082,
+            "uuid": "95562020-72fa-4385-b861-0d63e7baaadd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -294,40 +230,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @proxystore11 | 7",
-            "type": "vmess",
-            "server": "104.21.9.236",
-            "server_port": 443,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms19.best-tizi.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "hms19.best-tizi.top"
-                }
             }
         },
         {
@@ -505,7 +407,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vmess | @iP_CF | 25",
+            "tag": "🇹🇷TR | 🟢 | vmess | @iP_CF | 24",
             "type": "vmess",
             "server": "185.226.92.138",
             "server_port": 30749,
@@ -522,7 +424,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @kingofilter | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @kingofilter | 10",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
