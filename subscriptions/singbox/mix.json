@@ -267,7 +267,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 0",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 2",
@@ -415,6 +415,7 @@
                 "❔XX | 🔴 | vless | @proxyymeliii | 7",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 0",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 2",
@@ -788,7 +789,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 21",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 0",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 2",
@@ -936,6 +937,7 @@
                 "❔XX | 🔴 | vless | @proxyymeliii | 7",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 0",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 1",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 2",
@@ -5103,7 +5105,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+            "tag": "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
             "type": "trojan",
             "server": "server2.cactusrobot.ir",
             "server_port": 8608,
@@ -8671,6 +8673,37 @@
                 "path": "\/Telegram-@Azarakhsh_Proxy\/?ed=2560",
                 "headers": {
                     "Host": "5c53ca21.vpn-aryoo.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jOInmAHDiSERVer-AZ7.paGes.dEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ISB6gvC3mmVSWxzE?ed=2560",
+                "headers": {
+                    "Host": "jOInmAHDiSERVer-AZ7.paGes.dEV"
                 }
             }
         },
