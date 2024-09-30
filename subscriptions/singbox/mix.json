@@ -259,7 +259,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 0",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 3",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 4",
@@ -443,7 +443,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 5",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 2",
@@ -537,7 +536,6 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -808,7 +806,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 2",
                 "❔XX | 🟢 | vless | @V2rayCollectorDonate | 9",
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 15",
-                "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+                "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 0",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 3",
                 "🚩CF | 🔴 | vless | @V2rayNGn | 4",
@@ -992,7 +990,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 4",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 5",
                 "🚩CF | 🔴 | vless | @MTConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @MTConfig | 1",
                 "🇺🇸US | 🔴 | vless | @MTConfig | 2",
@@ -1086,7 +1083,6 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 1",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 2",
                 "🚩CF | 🔴 | vless | @Outlinev2rayNG | 3",
@@ -4934,7 +4930,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | trojan | @V2rayCollectorDonate | 17",
+            "tag": "🇮🇷IR | 🔴 | trojan | @V2rayCollectorDonate | 17",
             "type": "trojan",
             "server": "server2.cactusrobot.ir",
             "server_port": 8608,
@@ -9619,37 +9615,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 5",
-            "type": "vless",
-            "server": "151.101.64.223",
-            "server_port": 443,
-            "uuid": "7d2dfb7a-2ecc-4448-bcbe-245a2092fe85",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "python.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-Xv2ry2-q1?ed=1080",
-                "headers": {
-                    "Host": "python.org"
-                }
-            }
-        },
-        {
             "tag": "🚩CF | 🔴 | vless | @MTConfig | 0",
             "type": "vless",
             "server": "172.66.44.135",
@@ -12091,30 +12056,6 @@
                 "path": "\/video\/yGbumWFW\/",
                 "headers": {
                     "Host": "cfcdn1.sanfencdn9.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "104.19.47.36",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
