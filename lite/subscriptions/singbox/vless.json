@@ -133,7 +133,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 11",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 12",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 8",
+                "🇨🇦CA | 🔴 | vless | @customv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 9",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 13",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 14",
@@ -146,8 +146,8 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 27",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 14",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 4",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 5",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 6",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 7",
@@ -212,7 +212,7 @@
                 "❔XX | 🔴 | vless | @V2rayCollectorDonate | 18",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 11",
                 "🇨🇦CA | 🔴 | vless | @V2rayNGn | 12",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 8",
+                "🇨🇦CA | 🔴 | vless | @customv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 9",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 13",
                 "🇺🇸US | 🟢 | vless | @UnlimitedDev | 14",
@@ -225,8 +225,8 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 27",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 13",
                 "🇺🇸US | 🔴 | vless | @proxyymeliii | 14",
+                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 4",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 5",
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 6",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 7",
@@ -943,7 +943,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | @customv2ray | 8",
             "type": "vless",
             "server": "aksnmaioas.pages.dev",
             "server_port": 443,
@@ -1272,6 +1272,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jOInmAHDiSERVer-AZ7.paGes.dEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ISB6gvC3mmVSWxzE?ed=2560",
+                "headers": {
+                    "Host": "jOInmAHDiSERVer-AZ7.paGes.dEV"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 4",
             "type": "vless",
             "server": "104.17.147.22",
@@ -1283,37 +1314,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 5",
-            "type": "vless",
-            "server": "151.101.64.223",
-            "server_port": 443,
-            "uuid": "7d2dfb7a-2ecc-4448-bcbe-245a2092fe85",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "python.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-Xv2ry2-q1?ed=1080",
-                "headers": {
-                    "Host": "python.org"
-                }
             }
         },
         {
