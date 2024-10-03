@@ -167,8 +167,8 @@
                 "🇹🇷TR | 🟢 | vmess | @proxystore11 | 8",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 5",
@@ -256,8 +256,8 @@
                 "🇹🇷TR | 🟢 | vmess | @proxystore11 | 8",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 5",
@@ -770,6 +770,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
             "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "e9a1c47b-2c16-41d8-aca4-b4ba6747be8e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
+            "type": "vless",
             "server": "172.66.47.151",
             "server_port": 443,
             "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
@@ -795,37 +826,6 @@
                 "path": "\/T7OzaaLG5SkllZJf?ed=2560",
                 "headers": {
                     "Host": "iSaA1.paGes.DEv"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "703f6165-9c4e-4884-9949-f9593ad728ba",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
-                "headers": {
-                    "Host": "speedtest.net"
                 }
             }
         },
@@ -1820,7 +1820,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
+            "type": "vmess",
+            "server": "80.85.152.179",
+            "server_port": 12910,
+            "uuid": "8259cb1c-dd6c-4739-9c88-af550d977525",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "22.lwdh.us",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "22.lwdh.us"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
             "server": "speedtest.net",
             "server_port": 443,
@@ -1850,40 +1884,6 @@
                 "path": "\/ws\/",
                 "headers": {
                     "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 12",
-            "type": "vmess",
-            "server": "172.64.166.33",
-            "server_port": 443,
-            "uuid": "78462755-f265-4515-b0af-cb4d524118ae",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "172.64.166.33",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/78462755-f265-4515-b0af-cb4d524118ae",
-                "headers": {
-                    "Host": "172.64.166.33"
                 }
             }
         },

@@ -746,6 +746,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
             "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "e9a1c47b-2c16-41d8-aca4-b4ba6747be8e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
+            "type": "vless",
             "server": "172.66.47.151",
             "server_port": 443,
             "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
@@ -771,37 +802,6 @@
                 "path": "\/T7OzaaLG5SkllZJf?ed=2560",
                 "headers": {
                     "Host": "iSaA1.paGes.DEv"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 5",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "703f6165-9c4e-4884-9949-f9593ad728ba",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
-                "headers": {
-                    "Host": "speedtest.net"
                 }
             }
         },
