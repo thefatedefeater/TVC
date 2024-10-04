@@ -111,7 +111,7 @@
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 6",
@@ -162,6 +162,7 @@
                 "🇹🇷TR | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @proxystore11 | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -190,7 +191,7 @@
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 15",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 5",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 6",
@@ -241,6 +242,7 @@
                 "🇹🇷TR | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @proxystore11 | 7",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 4",
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -372,7 +374,7 @@
         {
             "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "52.47.82.40",
+            "server": "15.188.209.182",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -401,9 +403,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "3.76.151.150",
+            "server": "52.47.82.40",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -536,6 +538,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
             "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
+            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
             "uuid": "telegram-id-ArV2ray",
@@ -551,37 +574,6 @@
                 "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 16",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "speedtest.net"
                 }
             }
         },
@@ -1663,6 +1655,37 @@
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "a2b78080-9eaa-4706-844d-1a95b2b7d960",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "172.66.44.211",
             "server_port": 443,
