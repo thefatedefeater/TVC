@@ -123,7 +123,6 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 15",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🚩CF | 🟢 | vmess | @mftizi | 17",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 5",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 6",
                 "🇭🇰HK | 🟢 | vmess | @customv2ray | 8",
@@ -156,7 +155,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 10",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 11",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 12",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 7",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 13",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15",
@@ -165,8 +163,7 @@
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 5",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 7",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 8",
-                "🇺🇸US | 🟢 | vmess | @ISVvpn | 10",
-                "🇺🇸US | 🟢 | vmess | @ISVvpn | 11"
+                "🇺🇸US | 🟢 | vmess | @ISVvpn | 10"
             ]
         },
         {
@@ -190,7 +187,6 @@
                 "🇺🇸US | 🟢 | vmess | @mftizi | 15",
                 "🇺🇸US | 🟢 | vmess | @mftizi | 16",
                 "🚩CF | 🟢 | vmess | @mftizi | 17",
-                "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 5",
                 "🇺🇸US | 🟢 | vmess | @customv2ray | 6",
                 "🇭🇰HK | 🟢 | vmess | @customv2ray | 8",
@@ -223,7 +219,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 10",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 11",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 12",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 7",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 13",
                 "🇺🇸US | 🟢 | vmess | @nofiltering2 | 15",
@@ -232,8 +227,7 @@
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 5",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 7",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 8",
-                "🇺🇸US | 🟢 | vmess | @ISVvpn | 10",
-                "🇺🇸US | 🟢 | vmess | @ISVvpn | 11"
+                "🇺🇸US | 🟢 | vmess | @ISVvpn | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -590,30 +584,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @DeamNet_Proxy | 17",
-            "type": "vmess",
-            "server": "172.67.214.33",
-            "server_port": 2095,
-            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.214.33"
                 }
             }
         },
@@ -1477,30 +1447,6 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 12",
-            "type": "vmess",
-            "server": "104.19.58.175",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.19.58.175"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vmess | @nofiltering2 | 7",
             "type": "vmess",
             "server": "www.Kayak.com",
@@ -1773,30 +1719,6 @@
                 "path": "\/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn",
                 "headers": {
                     "Host": "www.Kayak.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ISVvpn | 11",
-            "type": "vmess",
-            "server": "www.Kayak.com",
-            "server_port": 80,
-            "uuid": "7f3e901c-76eb-4480-8803-947e4674ecaa",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn",
-                "headers": {
-                    "Host": ""
                 }
             }
         }
