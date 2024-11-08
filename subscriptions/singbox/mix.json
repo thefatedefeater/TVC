@@ -231,8 +231,8 @@
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 2",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
@@ -711,8 +711,8 @@
                 "🇩🇪DE | 🟢 | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | 🟢 | vless | @CUSTOMVPNSERVER | 13",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
+                "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 2",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
@@ -4030,7 +4030,21 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
-            "uuid": "DIGIV2RAy",
+            "uuid": "DIGIV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -4051,21 +4065,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2052,
-            "uuid": "DIGIV2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 3",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "DIGIV2RAY",
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
