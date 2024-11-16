@@ -120,9 +120,10 @@ dns:
 proxies:
   - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18","type":"trojan","server":"13.51.37.0","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 19","type":"trojan","server":"34.250.198.44","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 18","type":"trojan","server":"51.20.247.19","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | 🟢 | trojan | @DirectVPN | 19","type":"trojan","server":"3.208.53.7","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 18","type":"trojan","server":"51.20.156.31","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | @DirectVPN | 19","type":"trojan","server":"51.20.247.19","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 3","type":"trojan","server":"172.64.153.235","port":2053,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"bpB-worKER-paneL1-e4p.pAGes.dEV"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 19","type":"trojan","server":"104.20.17.178","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"b96ef9ae.trojanfree-76s.pages.dev"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -132,8 +133,9 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 19'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 18'
-      - '🇺🇸US | 🟢 | trojan | @DirectVPN | 19'
+      - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 19'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 3'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -143,8 +145,9 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 19'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 18'
-      - '🇺🇸US | 🟢 | trojan | @DirectVPN | 19'
+      - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 19'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 3'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -153,8 +156,9 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 18'
       - '🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 19'
       - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 18'
-      - '🇺🇸US | 🟢 | trojan | @DirectVPN | 19'
+      - '🇸🇪SE | 🟢 | trojan | @DirectVPN | 19'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 3'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 19'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
