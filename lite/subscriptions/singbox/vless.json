@@ -117,8 +117,8 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 15",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 4",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 3",
@@ -153,8 +153,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -187,8 +186,8 @@
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 15",
                 "🇺🇸US | 🔴 | vless | @frev2ray | 4",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 8",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
-                "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @free_v2rayyy | 3",
@@ -223,8 +222,7 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 7",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
@@ -539,6 +537,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 8",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
             "type": "vless",
             "server": "151.101.194.133",
@@ -566,27 +585,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "mio.splashthat.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
-            "type": "vless",
-            "server": "ArV2ry.fastly80-2.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
-                "headers": {
-                    "Host": "ArV2ry.fastly80-2.hosting-ip.com"
                 }
             }
         },
@@ -1427,11 +1425,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.66.44.171",
-            "server_port": 443,
-            "uuid": "4785f3ca-8fa3-4717-8c81-9d19087c73a3",
+            "server": "171.22.120.225",
+            "server_port": 202,
+            "uuid": "ea3432be-a8bc-4255-aaa4-2ea110e5aa9d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1439,53 +1437,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazeshvpn-tg104.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN",
-                "headers": {
-                    "Host": "pardazeshvpn-tg104.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "34a83286-ba4e-4f0a-ac08-77a95469eeaf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazesh18.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi",
-                "headers": {
-                    "Host": "pardazesh18.pages.dev"
-                }
+                "type": "grpc",
+                "service_name": "vless2020",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
