@@ -110,8 +110,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 28",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 18",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 19",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 18",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
@@ -153,7 +153,7 @@
                 "🇬🇧GB | 🔴 | vless | @VmessProtocol | 8",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
@@ -181,8 +181,8 @@
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 28",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 18",
-                "🇬🇧GB | 🔴 | vless | @VlessConfig | 19",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 18",
+                "🇮🇪IE | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 12",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 13",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 14",
@@ -224,7 +224,7 @@
                 "🇬🇧GB | 🔴 | vless | @VmessProtocol | 8",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
@@ -354,9 +354,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 18",
+            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "35.179.196.52",
+            "server": "54.154.149.29",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -385,9 +385,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 19",
+            "tag": "🇮🇪IE | 🔴 | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "18.134.25.209",
+            "server": "52.19.13.7",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1416,11 +1416,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "198fdfa2-107f-4293-a4ec-8f700402b22b",
+            "server": "63.176.89.154",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1428,20 +1428,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/G\/b4t6hy5n\/?ed=80120",
+                "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "SVNTEAM",
+            "server": "172.66.47.146",
+            "server_port": 80,
+            "uuid": "c48f979c-ff35-4784-88b3-f54dca8215d6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1451,9 +1461,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/SvnTeam-Channel-Telegram?ed=8880",
+                "path": "\/@Daily_Cofnigs,@Daily_Cofnigs,@Daily_Cofnigs?ed=2560",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "172.66.47.146"
                 }
             }
         },
