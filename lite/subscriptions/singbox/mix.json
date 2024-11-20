@@ -164,13 +164,13 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | 🔴 | trojan | @ConfigsHUB | 8",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇰🇷KR | 🟢 | vmess | @Hope_Net | 10",
+                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 10",
                 "🇰🇷KR | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -250,13 +250,13 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | 🔴 | trojan | @ConfigsHUB | 8",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 5",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 6",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇰🇷KR | 🟢 | vmess | @Hope_Net | 10",
+                "🇬🇧GB | 🟢 | vmess | @Hope_Net | 10",
                 "🇰🇷KR | 🟢 | vmess | @Hope_Net | 11",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 9",
@@ -1679,13 +1679,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "172.67.139.111",
+            "tag": "🇸🇪SE | 🔴 | trojan | @ConfigsHUB | 8",
+            "type": "trojan",
+            "server": "94.131.115.71",
             "server_port": 443,
-            "uuid": "3df56fd0-d1b7-4793-b877-acd356d960f3",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "password": "c5691b8f-d833-41e4-9295-769f3edb4cd2",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1693,30 +1691,26 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pages.dev",
+                "server_name": "customer-94-131-115-71.stark-industries.solutions",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRRM-MARAMBASHI\/?ed=2560",
-                "headers": {
-                    "Host": "pages.dev"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "172.66.44.56",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9",
+            "type": "vmess",
+            "server": "172.67.138.69",
             "server_port": 443,
-            "uuid": "3df56fd0-d1b7-4793-b877-acd356d960f3",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1724,7 +1718,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pages.dev",
+                "server_name": "hms19.best-tizi.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1734,9 +1728,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRRM-MARAMBASHI\/?ed=2560",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "pages.dev"
+                    "Host": "hms19.best-tizi.top"
                 }
             }
         },
@@ -1861,11 +1855,11 @@
             }
         },
         {
-            "tag": "🇰🇷KR | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇬🇧GB | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "45.94.68.179",
-            "server_port": 34103,
-            "uuid": "f083427f-9d8b-4863-b4a5-fc15255547d2",
+            "server": "149.7.16.174",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1875,14 +1869,31 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "149.7.16.174",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "149.7.16.174"
+                }
             }
         },
         {
             "tag": "🇰🇷KR | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "146.56.112.110",
-            "server_port": 8888,
-            "uuid": "e7c302f3-90d6-42dd-9d7d-94a3683a3707",
+            "server": "45.94.68.179",
+            "server_port": 34103,
+            "uuid": "f083427f-9d8b-4863-b4a5-fc15255547d2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
