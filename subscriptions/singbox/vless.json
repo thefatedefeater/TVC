@@ -424,9 +424,10 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 0",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
-                "🇹🇷TR | 🔴 | vless | @ConfigsHUB | 14",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 2",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+                "🚩CF | 🟢 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 13",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🚩CF | 🔴 | vless | @proxystore11 | 3",
@@ -843,9 +844,10 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 303",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 304",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 305",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 0",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
-                "🇹🇷TR | 🔴 | vless | @ConfigsHUB | 14",
+                "🚩CF | 🔴 | vless | @ConfigsHUB | 2",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+                "🚩CF | 🟢 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 13",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🚩CF | 🔴 | vless | @proxystore11 | 3",
@@ -8849,7 +8851,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 0",
+            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
             "server": "162.159.192.79",
             "server_port": 443,
@@ -8880,7 +8882,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
             "type": "vless",
             "server": "chatgpt.com",
             "server_port": 2087,
@@ -8911,11 +8913,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🔴 | vless | @ConfigsHUB | 14",
+            "tag": "🚩CF | 🟢 | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "89.35.73.171",
-            "server_port": 8443,
-            "uuid": "20fda433-1864-433b-b3dd-8f119fe4cafd",
+            "server": "188.114.97.6",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8925,7 +8927,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "happy.mianfeicf.lol",
+                "server_name": "CC45Ca71.bpb-woRKER-PAneL-3V6.Pages.deV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -8935,9 +8937,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/VrjnfbKdaPq09NTS?ed=2560",
                 "headers": {
-                    "Host": "happy.mianfeicf.lol"
+                    "Host": "CC45Ca71.bpb-woRKER-PAneL-3V6.Pages.deV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "CC45ca71.bpb-wORkEr-pANEl-3V6.Pages.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/lqk6cOningH365qS?ed=2560",
+                "headers": {
+                    "Host": "CC45ca71.bpb-wORkEr-pANEl-3V6.Pages.Dev"
                 }
             }
         },
