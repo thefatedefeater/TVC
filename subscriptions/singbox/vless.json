@@ -423,8 +423,8 @@
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
                 "🚩CF | 🔴 | vless | @ConfigsHUB | 3",
                 "🚩CF | 🔴 | vless | @ConfigsHUB | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 7",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🚩CF | 🔴 | vless | @proxystore11 | 3",
@@ -837,8 +837,8 @@
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
                 "🚩CF | 🔴 | vless | @ConfigsHUB | 3",
                 "🚩CF | 🔴 | vless | @ConfigsHUB | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 7",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🚩CF | 🔴 | vless | @proxystore11 | 3",
@@ -8913,11 +8913,25 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 7",
             "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "DIGIV2RAy",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "DIGIV2RAy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8927,38 +8941,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/tm-Digiv2-__teldIGIv2__-DIGiv",
                 "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "188.245.224.248",
-            "server_port": 1616,
-            "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
