@@ -110,11 +110,12 @@
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
                 "🇸🇪SE | 🟢 | vmess | @customv2ray | 16",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
-                "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 8",
+                "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 6",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 10",
+                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 11"
             ]
         },
         {
@@ -125,11 +126,12 @@
                 "🇭🇰HK | 🟢 | vmess | @mftizi | 18",
                 "🇸🇪SE | 🟢 | vmess | @customv2ray | 16",
                 "🇺🇸US | 🟢 | vmess | @V2rayng_Fast | 0",
-                "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 8",
+                "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 6",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4",
                 "🇨🇳CN | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10"
+                "🇳🇱NL | 🟢 | vmess | @Hope_Net | 10",
+                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -244,7 +246,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 8",
+            "tag": "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 6",
             "type": "vmess",
             "server": "89.23.103.249",
             "server_port": 8081,
@@ -258,6 +260,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4",
+            "type": "vmess",
+            "server": "172.67.170.11",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
@@ -319,9 +355,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "185.146.173.59",
+            "server": "45.149.12.84",
             "server_port": 443,
             "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
@@ -336,7 +372,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "45.149.12.84",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -346,16 +382,16 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1\/?ed=2560",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "45.149.12.84"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇸🇪SE | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "188.114.97.2",
+            "server": "185.146.173.59",
             "server_port": 443,
             "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
