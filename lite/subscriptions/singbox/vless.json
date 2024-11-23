@@ -106,12 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🔴 | vless | @EliV2ray | 1",
-                "🇺🇸US | 🟢 | vless | @EliV2ray | 2",
+                "🇺🇸US | 🔴 | vless | @EliV2ray | 2",
+                "🇺🇸US | 🟢 | vless | @EliV2ray | 3",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 29",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 30",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 18",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 9",
@@ -160,8 +160,8 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
@@ -178,12 +178,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🔴 | vless | @EliV2ray | 1",
-                "🇺🇸US | 🟢 | vless | @EliV2ray | 2",
+                "🇺🇸US | 🔴 | vless | @EliV2ray | 2",
+                "🇺🇸US | 🟢 | vless | @EliV2ray | 3",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 29",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 30",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 18",
                 "🇸🇪SE | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 9",
@@ -232,8 +232,8 @@
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
+                "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 14",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 5",
@@ -266,7 +266,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @EliV2ray | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @EliV2ray | 2",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -287,7 +287,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @EliV2ray | 2",
+            "tag": "🇺🇸US | 🟢 | vless | @EliV2ray | 3",
             "type": "vless",
             "server": "199.232.8.52",
             "server_port": 443,
@@ -377,7 +377,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2083,
@@ -1427,9 +1427,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "VPNCSTOMIZE.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "458f30b9-5ed9-477e-9d7a-9b587c02fea2",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "telegram-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1439,9 +1439,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
                 "headers": {
-                    "Host": "VPNCSTOMIZE.fastly80-3.hosting-ip.com"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1449,14 +1449,21 @@
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "DIGIV2RAy",
+            "server_port": 8880,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8880",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1598,7 +1605,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "104.24.24.45",
             "server_port": 2053,
@@ -1629,7 +1636,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇸🇬SG | 🔴 | vless | @Outlinev2rayNG | 8",
             "type": "vless",
             "server": "165.22.54.50",
             "server_port": 8889,
