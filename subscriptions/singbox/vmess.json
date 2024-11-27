@@ -117,8 +117,9 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇫🇷FR | 🟢 | vmess | @customv2ray | 4",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 4",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 5",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -155,8 +156,9 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 18",
-                "🇫🇷FR | 🟢 | vmess | @customv2ray | 4",
+                "🇺🇸US | 🟢 | vmess | @customv2ray | 4",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 5",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -402,7 +404,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @customv2ray | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @customv2ray | 4",
             "type": "vmess",
             "server": "denc36.xtooltech.cfd",
             "server_port": 443,
@@ -467,6 +469,23 @@
                 "headers": {
                     "Host": "cs.putihb.org"
                 }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 5",
+            "type": "vmess",
+            "server": "104.17.148.22",
+            "server_port": 8880,
+            "uuid": "0ee92eb2-910b-4229-a517-1b0c3961accf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
