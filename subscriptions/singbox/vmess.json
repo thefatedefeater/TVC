@@ -120,6 +120,10 @@
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 1",
                 "🇫🇷FR | 🟢 | vmess | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 5",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 6",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 7",
+                "🇦🇺AU | 🟢 | vmess | @ConfigsHUB | 8",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -135,7 +139,7 @@
                 "🇦🇺AU | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🇸🇬SG | 🟢 | vmess | @Hope_Net | 8",
-                "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 8",
+                "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 10",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ]
         },
@@ -157,6 +161,10 @@
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 1",
                 "🇫🇷FR | 🟢 | vmess | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vmess | @vless_vmess | 14",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 5",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 6",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 7",
+                "🇦🇺AU | 🟢 | vmess | @ConfigsHUB | 8",
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
@@ -172,7 +180,7 @@
                 "🇦🇺AU | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🇸🇬SG | 🟢 | vmess | @Hope_Net | 8",
-                "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 8",
+                "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 10",
                 "🇺🇸US | 🟢 | vmess | @ISVvpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -481,6 +489,102 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "cs.putihb.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 5",
+            "type": "vmess",
+            "server": "104.26.0.210",
+            "server_port": 8880,
+            "uuid": "90f8f4dc-8092-4355-9047-05f506f5e9ab",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 6",
+            "type": "vmess",
+            "server": "104.26.0.71",
+            "server_port": 8880,
+            "uuid": "90f8f4dc-8092-4355-9047-05f506f5e9ab",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 7",
+            "type": "vmess",
+            "server": "104.26.0.145",
+            "server_port": 8880,
+            "uuid": "90f8f4dc-8092-4355-9047-05f506f5e9ab",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇦🇺AU | 🟢 | vmess | @ConfigsHUB | 8",
+            "type": "vmess",
+            "server": "syd-01.oci.ee",
+            "server_port": 23451,
+            "uuid": "5baf9ff4-3a30-444a-bb75-e400b3b21c4f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -891,7 +995,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 8",
+            "tag": "🇩🇪DE | 🟢 | vmess | @nofiltering2 | 10",
             "type": "vmess",
             "server": "94.130.190.88",
             "server_port": 7610,
