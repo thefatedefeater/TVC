@@ -148,8 +148,9 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 268",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
-                "🇨🇷CR | 🟢 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -159,7 +160,6 @@
                 "🇬🇧GB | 🔴 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 14",
                 "🇸🇪SE | 🔴 | vless | @IBv2ray | 1",
                 "❔XX | 🔴 | vless | @IBv2ray | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
@@ -212,8 +212,9 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇳🇱NL | 🔴 | vless | @VmessProtocol | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 268",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
-                "🇨🇷CR | 🟢 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 7",
@@ -223,7 +224,6 @@
                 "🇬🇧GB | 🔴 | vless | @nofiltering2 | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
-                "🇺🇸US | 🔴 | vless | @kingofilter | 14",
                 "🇸🇪SE | 🔴 | vless | @IBv2ray | 1",
                 "❔XX | 🔴 | vless | @IBv2ray | 2",
                 "❔XX | 🔴 | vless | @VpnSkyy | 2",
@@ -1334,10 +1334,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 269",
+            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 269",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
+            "server_port": 80,
             "uuid": "c784ab83-75c4-4a07-a35c-529e3237f6ab",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1345,16 +1345,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
@@ -1365,11 +1355,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | 🟢 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "190.93.245.137",
-            "server_port": 443,
-            "uuid": "4ffdc80c-65f3-4684-bdb5-951d27867f40",
+            "server": "151.101.128.155",
+            "server_port": 80,
+            "uuid": "59433cc5-8c4b-4ca6-858d-cbf8eeede020",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1377,22 +1367,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Ruc80.TehrANsiMAn.co.UK.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "Ruc80.TehrANsiMAn.co.UK."
+                    "Host": "151.101.128.155"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1628,37 +1622,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @kingofilter | 14",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "f65869de-5d70-4267-ac2b-87a278d0c8be",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
             }
         },
         {
