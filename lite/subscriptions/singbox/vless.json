@@ -110,8 +110,8 @@
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 14",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 5",
+                "🇬🇧GB | 🔴 | vless | @VlessConfig | 15",
+                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 5",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 22",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 23",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
@@ -144,10 +144,10 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 15",
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 16",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 318",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 319",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 317",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 318",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
@@ -173,8 +173,8 @@
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
                 "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
                 "🇬🇧GB | 🔴 | vless | @VlessConfig | 14",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 5",
+                "🇬🇧GB | 🔴 | vless | @VlessConfig | 15",
+                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 5",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 22",
                 "🇺🇸US | 🔴 | vless | @ipV2Ray | 23",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 13",
@@ -207,10 +207,10 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 15",
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 16",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 318",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 319",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 317",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 318",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 8",
@@ -309,6 +309,37 @@
         {
             "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 14",
             "type": "vless",
+            "server": "18.170.5.226",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | @VlessConfig | 15",
+            "type": "vless",
             "server": "35.179.218.245",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
@@ -338,38 +369,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 15",
-            "type": "vless",
-            "server": "13.38.255.251",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 5",
+            "tag": "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 5",
             "type": "vless",
             "server": "visa.com.co",
             "server_port": 80,
@@ -1184,10 +1184,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 318",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 317",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "d568fb13-e269-490f-b476-5a0c05770b79",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1195,6 +1195,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
@@ -1205,10 +1215,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 319",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 318",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "d568fb13-e269-490f-b476-5a0c05770b79",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1216,6 +1226,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
@@ -1226,12 +1246,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "Joinn--ZEDMODEON",
-            "flow": "",
+            "server": "150.241.102.95",
+            "server_port": 10799,
+            "uuid": "8c3fbf41-0454-4256-a120-9f381c1f0a44",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1240,28 +1260,26 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "server_name": "google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
-                "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yw374OPQfpF0KpnFYX2zYnO8-NC7RkgGbbiMzmZYvDU",
+                    "short_id": "330602658f0ade"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "Joinn--ZEDMODEON",
+            "server": "104.26.13.101",
+            "server_port": 80,
+            "uuid": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1269,21 +1287,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "path": "\/xmlrpc.php?ed=1080",
                 "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
+                    "Host": "104.26.13.101"
                 }
             }
         },
