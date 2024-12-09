@@ -145,8 +145,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 300",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -208,8 +208,8 @@
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 299",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 300",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 8",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 4",
@@ -1219,25 +1219,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
             "type": "vless",
-            "server": "62.60.148.24",
-            "server_port": 39357,
-            "uuid": "5e454ad1-f158-4608-a51f-5f8700964e2e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "104.17.234.12",
-            "server_port": 80,
-            "uuid": "ba6fa866-d85f-454d-ac3f-b707da55ab06",
+            "server": "clearcreditrepair.com",
+            "server_port": 443,
+            "uuid": "aa6f3d6e-f835-46ab-e35e-71828493ec4f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1247,9 +1233,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
+                "path": "\/melo\/ws?e",
                 "headers": {
-                    "Host": "104.17.234.12"
+                    "Host": "clearcreditrepair.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
+            "type": "vless",
+            "server": "151.101.194.133",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
+                "headers": {
+                    "Host": "151.101.194.133"
                 }
             }
         },
