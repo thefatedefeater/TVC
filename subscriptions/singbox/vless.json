@@ -395,12 +395,11 @@
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 10",
-                "🇨🇾CY | 🔴 | vless | @ConfigsHUB | 11",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 17",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
@@ -760,12 +759,11 @@
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 10",
-                "🇨🇾CY | 🔴 | vless | @ConfigsHUB | 11",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 12",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 17",
                 "🚩CF | 🔴 | vless | @fnet00 | 1",
                 "🚩CF | 🔴 | vless | @fnet00 | 3",
                 "🚩CF | 🔴 | vless | @fnet00 | 5",
@@ -7817,6 +7815,58 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
             "type": "vless",
+            "server": "151.101.194.133",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
+                "headers": {
+                    "Host": "151.101.194.133"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+            "type": "vless",
+            "server": "151.101.194.133",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mio.splashthat.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "mio.splashthat.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+            "type": "vless",
             "server": "clearcreditrepair.com",
             "server_port": 443,
             "uuid": "aa6f3d6e-f835-46ab-e35e-71828493ec4f",
@@ -7836,7 +7886,71 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 9",
+            "type": "vless",
+            "server": "151.101.2.133",
+            "server_port": 443,
+            "uuid": "176b41c4-cad6-49bf-81a1-e6a7b6331aa1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "151.101.194.165",
+            "server_port": 80,
+            "uuid": "a409464b-a13a-4070-96fa-07d916d6bb2e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
+                "headers": {
+                    "Host": "151.101.194.165"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "172.233.173.77",
+            "server_port": 80,
+            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
+                    "short_id": "94aa1bdc"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
             "server": "AR.fastly80-2.hosting-ip.com",
             "server_port": 80,
@@ -7857,7 +7971,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
             "server": "BR.fastly80-3.hosting-ip.com",
             "server_port": 80,
@@ -7874,136 +7988,6 @@
                 "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
                 "headers": {
                     "Host": "BR.fastly80-3.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 10",
-            "type": "vless",
-            "server": "65.109.187.96",
-            "server_port": 8443,
-            "uuid": "9d2d11bd-0685-42a3-8bb2-3c2ed5158a69",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "FI-ComPany-AlphaOmegA-TeaM.1AlphaOmega.Org.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇾CY | 🔴 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "jnir-addr.cybsecguru.com",
-            "server_port": 80,
-            "uuid": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/xmlrpc.php?ed=1080",
-                "headers": {
-                    "Host": "jnir-addr.cybsecguru.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "116.203.201.23",
-            "server_port": 9595,
-            "uuid": "a54fcf91-c5a8-4c8e-a80f-050816f5ad3a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "Ay.fastly80-2.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
-                "headers": {
-                    "Host": "Ay.fastly80-2.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "151.101.192.155",
-            "server_port": 80,
-            "uuid": "3d5115e5-61c5-4a15-a616-6f2734914797",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/lW0tvTq4oSbHyKeRM?ed=2560",
-                "headers": {
-                    "Host": "151.101.192.155"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "45.12.143.91",
-            "server_port": 5444,
-            "uuid": "cbb01d17-eeee-4394-a882-d6105c509be6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.veesp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r_t2d8_5K7RXA5StksoQxS_Zd9VWoHI0uwEoiK8T8Gs",
-                    "short_id": "c3d5"
                 }
             }
         },
