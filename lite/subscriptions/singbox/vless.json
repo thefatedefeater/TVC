@@ -150,7 +150,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 312",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 313",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -217,7 +217,7 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 312",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 313",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
                 "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
@@ -1364,17 +1364,34 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "188.245.208.177",
-            "server_port": 26745,
-            "uuid": "d4906f5b-8e3a-4c06-8bcd-dfd6870573dd",
+            "server": "live.skornorth.com",
+            "server_port": 443,
+            "uuid": "8f9b3f34-b7e5-48cc-96d3-91ae26a8973f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.skornorth.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@grizzlyvpn",
+                "headers": {
+                    "Host": "live.skornorth.com"
+                }
             }
         },
         {
