@@ -108,8 +108,8 @@
                 "URL-TEST",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 33",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 34",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
+                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 5",
@@ -151,10 +151,12 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 311",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 312",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇹🇷TR | 🟢 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇹🇷TR | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
@@ -175,8 +177,8 @@
             "outbounds": [
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 33",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 34",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
-                "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+                "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
+                "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 19",
                 "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 5",
@@ -218,10 +220,12 @@
                 "❔XX | 🔴 | vless | @MTConfig | 13",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 311",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 312",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
-                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
-                "🇹🇷TR | 🟢 | vless | @Outlinev2rayNG | 6",
+                "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
+                "🇹🇷TR | 🟢 | vless | @Outlinev2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 7",
@@ -301,7 +305,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @XsV2ray | 13",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
@@ -315,7 +319,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @XsV2ray | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @XsV2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2083,
@@ -1386,6 +1390,58 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "104.20.21.140",
+            "server_port": 443,
+            "uuid": "2928d83a-ca75-4d52-b437-fa78c7601378",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "freedom-1rj.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/freedom-1rj.pages.dev\/?ed=2560",
+                "headers": {
+                    "Host": "freedom-1rj.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "151.101.2.165",
+            "server_port": 80,
+            "uuid": "9190eda7-b375-4bac-87a1-0dfa5ea34483",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam",
+                "headers": {
+                    "Host": "151.101.2.165"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
             "type": "vless",
             "server": "haroz-baenrgy12.dirozemrozharozfarda.sbs",
@@ -1414,7 +1470,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 5",
+            "tag": "🇺🇸US | 🔴 | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 443,
@@ -1445,7 +1501,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | @Outlinev2rayNG | 6",
+            "tag": "🇹🇷TR | 🟢 | vless | @Outlinev2rayNG | 7",
             "type": "vless",
             "server": "185.235.243.133",
             "server_port": 443,
