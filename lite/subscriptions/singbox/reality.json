@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -114,6 +115,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -136,6 +138,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "87.98.149.193",
+            "server_port": 443,
+            "uuid": "4f126546-f34f-4977-a467-373961fff60e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-e-Py1tk4hBqFmmL-p_1l7imBS6eGWx1lVqbHWwA2yo",
+                    "short_id": "6d49a78191f4d90f"
+                }
+            }
         },
         {
             "tag": "❔XX | 🔴 | vless | @vpn_go67 | 20",
