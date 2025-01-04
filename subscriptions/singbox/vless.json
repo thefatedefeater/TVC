@@ -426,13 +426,15 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 120",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 121",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 122",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 1",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 5",
-                "🇨🇳CN | 🔴 | vless | @ConfigsHUB | 6",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 12",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 1",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 2",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 4",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 7",
@@ -834,13 +836,15 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 120",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 121",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 122",
-                "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 1",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 5",
-                "🇨🇳CN | 🔴 | vless | @ConfigsHUB | 6",
-                "🚩CF | 🔴 | vless | @ConfigsHUB | 12",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 1",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 2",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 4",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 1",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
                 "🇸🇪SE | 🔴 | vless | @free1_vpn | 7",
@@ -8703,11 +8707,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @ConfigsHUB | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
             "type": "vless",
-            "server": "70.34.222.150",
-            "server_port": 443,
-            "uuid": "aaf8a6c9-aaad-4f85-dd01-9ccd4ca554f9",
+            "server": "TLS.zeoaeriedo-saioesrio.ir",
+            "server_port": 2000,
+            "uuid": "4ae8804f-2329-4f42-b5bd-fec4992afe39",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8715,30 +8719,34 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "xraypsiphon.sassanidempire.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/wspath",
-                "headers": {
-                    "Host": "xraypsiphon.sassanidempire.com"
-                }
+                "type": "grpc",
+                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 2",
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 1",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "tell--ZEDMODEON",
+            "server": "37.27.189.144",
+            "server_port": 2053,
+            "uuid": "c15e3ab6-e524-4f0c-adb8-3407aa6e6bd9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 2",
+            "type": "vless",
+            "server": "baby.bia2bax.shop",
+            "server_port": 8443,
+            "uuid": "v2rayvpn___official",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8746,26 +8754,93 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
+            "transport": {
+                "type": "grpc",
+                "service_name": "baby.bia2bax.shop",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "baby.bia2bax.shop",
+            "server_port": 80,
+            "uuid": "v2rayvpn___official",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "path": "\/?ed=2053",
                 "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
+                    "Host": "baby.bia2bax.shop"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 3",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 4",
+            "type": "vless",
+            "server": "baby.bia2bax.shop",
+            "server_port": 443,
+            "uuid": "v2rayvpn___official",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 5",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "----V2RAXX---",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram,V2RAXX,Telegram,",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 6",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 80,
+            "uuid": "b1f58d90-e65f-4566-91f3-1b96e9a68617",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--@Digiv2ray--",
+                "headers": {
+                    "Host": "Speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
             "type": "vless",
             "server": "151.101.194.133",
             "server_port": 443,
@@ -8796,7 +8871,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 12",
             "type": "vless",
             "server": "151.101.2.216",
             "server_port": 80,
@@ -8814,82 +8889,6 @@
                 "headers": {
                     "Host": "151.101.2.216"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 5",
-            "type": "vless",
-            "server": "TLS.zeoaeriedo-saioesrio.ir",
-            "server_port": 2000,
-            "uuid": "4ae8804f-2329-4f42-b5bd-fec4992afe39",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🔴 | vless | @ConfigsHUB | 6",
-            "type": "vless",
-            "server": "103.184.44.0",
-            "server_port": 443,
-            "uuid": "cd3def3e-1936-4055-b491-55960275fae4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "rov.cloudsafario.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "104.17.134.62",
-            "server_port": 443,
-            "uuid": "18722220-9249-0051-5849-e8a8f1f76424",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hvxoo.metahkh.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
