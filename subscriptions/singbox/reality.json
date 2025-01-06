@@ -138,8 +138,10 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 178",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 179",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 180",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 1",
-                "🇮🇹IT | 🟢 | vless | @ConfigsHUB | 15",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 0",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 9",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 2",
@@ -203,8 +205,10 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 178",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 179",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 180",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 1",
-                "🇮🇹IT | 🟢 | vless | @ConfigsHUB | 15",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 0",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 9",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 2",
@@ -1208,40 +1212,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 1",
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 0",
             "type": "vless",
-            "server": "49.12.106.37",
-            "server_port": 55822,
-            "uuid": "Telegram@v2rayng_vpnn",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmd.10.isovpn.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "swrGFiH1GGLp80EgD_iDAuyb701VeVirfXCbI_5cinw",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇹IT | 🟢 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "login.fastgozar.xyz",
-            "server_port": 55848,
-            "uuid": "b7a03010-2481-4709-c0e8-a9d382f075d8",
+            "server": "buy.onlymelica.xyz",
+            "server_port": 58925,
+            "uuid": "4e3cc10a-d021-4db1-8904-fffd5bee2cd8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1260,8 +1235,95 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM",
+                    "public_key": "g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
+            "type": "vless",
+            "server": "188.245.231.16",
+            "server_port": 443,
+            "uuid": "f5165ef0-d580-4b9e-a67e-b52ce3ec5fb4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "androidcentral.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-rDCePGiiXVVJRaqdrxMpHEaS6BLW5MThq8Dx3MD-xw",
+                    "short_id": "6a06b0e6"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 9",
+            "type": "vless",
+            "server": "188.245.231.16",
+            "server_port": 443,
+            "uuid": "f5165ef0-d580-4b9e-a67e-b52ce3ec5fb4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "androidcentral.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-rDCePGiiXVVJRaqdrxMpHEaS6BLW5MThq8Dx3MD-xw",
+                    "short_id": "6a06b0e6"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "dream.reza.lat",
+            "server_port": 12827,
+            "uuid": "009dbb5e-5cf4-4d3c-9609-284197910cde",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "espn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RXYhk6mlyX7iLXpwhFsNAZNu2PhE20CUrHPEB1_96ic",
+                    "short_id": "b30c"
                 }
             }
         },
