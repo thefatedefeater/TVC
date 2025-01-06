@@ -131,6 +131,7 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | @free1_vpn | 10","type":"vmess","server":"www.speedtest.net","port":"8080","cipher":"auto","uuid":"cc9be09e-c05e-4f54-831b-969ecb185692","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/njbvhfgxdgthj","headers":{"host":"gi7ip5kbae7a.libreone.com"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"198.200.48.248","port":"37006","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1736040833184","headers":{"host":"www.23355292.xyz"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"38.33.49.99","port":"37002","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1736040833184","headers":{"host":"www.43499599.xyz"}}}
+  - {"name":"🇺🇸US | 🟢 | ss | @kingofilter | 13","type":"ss","server":"52.237.155.68","port":443,"password":"mzyYriPYYnCWDxoy","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -150,6 +151,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @free1_vpn | 10'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 6'
+      - '🇺🇸US | 🟢 | ss | @kingofilter | 13'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -169,6 +171,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @free1_vpn | 10'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 6'
+      - '🇺🇸US | 🟢 | ss | @kingofilter | 13'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -187,6 +190,7 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | @free1_vpn | 10'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 6'
+      - '🇺🇸US | 🟢 | ss | @kingofilter | 13'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
