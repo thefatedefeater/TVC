@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "❔XX | 🔴 | vless | @VmessProtocol | 13",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -119,7 +118,6 @@
             "outbounds": [
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "❔XX | 🔴 | vless | @VmessProtocol | 13",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -206,35 +204,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "195.133.11.229",
-            "server_port": 43774,
-            "uuid": "d32dbead-42d4-49b7-aece-b6523a0e945f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tutu.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZLAYpx5wkCanyDNjQO",
-                    "short_id": ""
-                }
             }
         },
         {
