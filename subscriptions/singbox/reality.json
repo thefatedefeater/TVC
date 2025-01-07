@@ -143,8 +143,6 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 179",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 180",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 181",
-                "🇵🇱PL | 🟢 | vless | @ConfigsHUB | 6",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 7",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
@@ -212,8 +210,6 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 179",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 180",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 181",
-                "🇵🇱PL | 🟢 | vless | @ConfigsHUB | 6",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 7",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 0",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 6",
@@ -1357,64 +1353,6 @@
                     "enabled": true,
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱PL | 🟢 | vless | @ConfigsHUB | 6",
-            "type": "vless",
-            "server": "45.82.255.149",
-            "server_port": 443,
-            "uuid": "46ce658d-c433-430a-84aa-5980026badac",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "website.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "195.133.11.229",
-            "server_port": 43774,
-            "uuid": "d32dbead-42d4-49b7-aece-b6523a0e945f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tutu.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZLAYpx5wkCanyDNjQO",
-                    "short_id": ""
                 }
             }
         },
