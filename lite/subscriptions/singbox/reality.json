@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "❔XX | 🔴 | vless | @VmessProtocol | 13",
-                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -119,7 +119,7 @@
             "outbounds": [
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "❔XX | 🔴 | vless | @VmessProtocol | 13",
-                "🇩🇪DE | 🔴 | vless | @nofiltering2 | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -209,11 +209,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @nofiltering2 | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "free.serverlanddl.com",
-            "server_port": 110,
-            "uuid": "396fba08-39c8-46dc-ba9d-ead46498b5df",
+            "server": "3.149.237.141",
+            "server_port": 1212,
+            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -223,7 +223,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.jsdelivr.net",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -232,16 +232,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "gjpZdZmvqNvzY9cgnc0tTF9XXAvvq5Hmp37jJl2lvWY",
-                    "short_id": "ce9fa5"
+                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+                    "short_id": "a4844ba7"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Go4HFJDtQYDNh5HQII31",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
