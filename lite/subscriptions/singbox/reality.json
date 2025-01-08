@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 11",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -118,6 +119,7 @@
             "type": "urltest",
             "outbounds": [
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 18",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 10",
                 "🇺🇸US | 🟢 | vless | @Outlinev2rayNG | 11",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -170,6 +172,42 @@
                     "public_key": "pthse3E3BBt3kWrXayFIWMQuLwMpKjwNOGkKHG5VZRc",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "51.178.249.1",
+            "server_port": 30090,
+            "uuid": "15d52229-a5db-4c42-84d9-105e60ed1d2b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Tqb5oaBTWV7I6wNP1LluGFw0gYtvIi20jlImrpZ_miQ",
+                    "short_id": "3815632cb5e12f20"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1------@v2rayip1",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
