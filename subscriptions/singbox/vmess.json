@@ -120,6 +120,7 @@
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 0",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2",
+                "🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 8",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -152,6 +153,7 @@
                 "🚩CF | 🟢 | vmess | @ShadowProxy66 | 0",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 0",
                 "🇺🇸US | 🟢 | vmess | @v2ray1_ng | 2",
+                "🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 8",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -442,6 +444,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🟢 | vmess | @ConfigsHUB | 8",
+            "type": "vmess",
+            "server": "safe.sanjesh.online",
+            "server_port": 8249,
+            "uuid": "2165bd1c-82ff-44c8-b7ea-8d9ee532c770",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
