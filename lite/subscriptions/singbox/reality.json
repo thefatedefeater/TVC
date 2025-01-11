@@ -108,8 +108,7 @@
                 "URL-TEST",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 287",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 288",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 18",
+                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ]
@@ -120,8 +119,7 @@
             "outbounds": [
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 287",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 288",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 18",
+                "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21"
             ],
@@ -204,11 +202,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇳🇱NL | 🟢 | vless | @Outlinev2rayNG | 5",
             "type": "vless",
-            "server": "fr.srv.flexiblenet.org",
-            "server_port": 8443,
-            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
+            "server": "CN.GiSVN.iR",
+            "server_port": 443,
+            "uuid": "SVNTEAM",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -218,7 +216,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bunny.net",
+                "server_name": "www.latimes.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -227,37 +225,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
-                    "short_id": "f8d8d12585198cb5"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "ru.srv.flexiblenet.org",
-            "server_port": 8443,
-            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bunny.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
-                    "short_id": "f8d8d12585198cb5"
+                    "public_key": "PX3Iw8tKNRnG6_MqONvC96D7G1RWe_VvBJ99UGN150k",
+                    "short_id": ""
                 }
             }
         },
