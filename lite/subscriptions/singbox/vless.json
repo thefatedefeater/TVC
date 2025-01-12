@@ -147,6 +147,7 @@
                 "❔XX | 🔴 | vless | @VmessProtocol | 6",
                 "❔XX | 🔴 | vless | @DailyV2RY | 303",
                 "❔XX | 🔴 | vless | @DailyV2RY | 304",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @fnet00 | 4",
@@ -210,6 +211,7 @@
                 "❔XX | 🔴 | vless | @VmessProtocol | 6",
                 "❔XX | 🔴 | vless | @DailyV2RY | 303",
                 "❔XX | 🔴 | vless | @DailyV2RY | 304",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @fnet00 | 4",
@@ -1281,6 +1283,37 @@
                     "enabled": true,
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "13.43.155.196",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
