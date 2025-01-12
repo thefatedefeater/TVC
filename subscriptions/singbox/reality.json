@@ -141,8 +141,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 329",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 330",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 331",
-                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 9",
-                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 11",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 1",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 7",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
@@ -208,8 +207,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 329",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 330",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 331",
-                "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 9",
-                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 11",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 1",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 7",
                 "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
@@ -1320,11 +1318,11 @@
             }
         },
         {
-            "tag": "🇪🇸ES | 🔴 | vless | @ConfigsHUB | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 1",
             "type": "vless",
-            "server": "ns7.esfahansiman.com",
-            "server_port": 2030,
-            "uuid": "f51aebe4-678e-41ac-96bf-fecd259e3616",
+            "server": "deko.tinadresses.ir",
+            "server_port": 5048,
+            "uuid": "db5f9170-55bd-9aea-d46d-78342d83fcf8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1334,7 +1332,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1343,49 +1341,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "7fe29733"
+                    "public_key": "qdfo8UQXXsXPViln7MbAIIvVgKrDnuRoFBGVTJDm134",
+                    "short_id": "31e7200536a1ad45"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@@jet_config-@jet_config-@jet_config",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "ns8.esfahansiman.com",
-            "server_port": 1210,
-            "uuid": "f51aebe4-678e-41ac-96bf-fecd259e3616",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ubuntu.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "7fe29733"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@@jet_config-@jet_config-@jet_config",
+                "service_name": "666vless",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
