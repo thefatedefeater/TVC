@@ -107,8 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
-                "🇭🇰HK | 🔴 | vless | @ConfigsHUB | 6",
-                "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 7",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -120,8 +118,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | 🔴 | vless | @VmessProtocol | 11",
-                "🇭🇰HK | 🔴 | vless | @ConfigsHUB | 6",
-                "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 7",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 0",
                 "🇫🇮FI | 🔴 | vless | @Outlinev2rayNG | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -181,64 +177,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇭🇰HK | 🔴 | vless | @ConfigsHUB | 6",
-            "type": "vless",
-            "server": "38.6.219.82",
-            "server_port": 8880,
-            "uuid": "1fba6015-e6d4-4cd7-a90c-83b6d3d64c22",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mfhvBzyvvedW2RNdvlkDj3jc6HliypYfvbJC6AILnzs",
-                    "short_id": "98450ed7899702c7"
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | 🔴 | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "138.2.37.59",
-            "server_port": 14228,
-            "uuid": "ede893a4-243f-4e9c-b2fc-31cd53e8c007",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "icloud.cdn-apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA",
-                    "short_id": ""
-                }
             }
         },
         {
