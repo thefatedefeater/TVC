@@ -152,7 +152,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 12",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 16",
+                "🇳🇱NL | 🟢 | ss | @VmessProtocol | 15",
                 "🇦🇺AU | 🔴 | vless | @DailyV2RY | 232",
                 "🇯🇵JP | 🔴 | vless | @DailyV2RY | 233",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
@@ -229,7 +229,7 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 15",
                 "❔XX | 🔴 | vless | @MTConfig | 11",
                 "🇩🇪DE | 🔴 | vless | @MTConfig | 12",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 16",
+                "🇳🇱NL | 🟢 | ss | @VmessProtocol | 15",
                 "🇦🇺AU | 🔴 | vless | @DailyV2RY | 232",
                 "🇯🇵JP | 🔴 | vless | @DailyV2RY | 233",
                 "🇸🇪SE | 🔴 | vless | @proxystore11 | 1",
@@ -1365,25 +1365,14 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 16",
-            "type": "vless",
-            "server": "playemlive.com",
-            "server_port": 80,
-            "uuid": "73039c19-caee-48e5-af88-e6c74197c1a1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "playemlive.com"
-                }
-            }
+            "tag": "🇳🇱NL | 🟢 | ss | @VmessProtocol | 15",
+            "type": "shadowsocks",
+            "server": "45.158.171.66",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇦🇺AU | 🔴 | vless | @DailyV2RY | 232",
