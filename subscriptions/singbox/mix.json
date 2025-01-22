@@ -511,10 +511,10 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
-                "🇮🇳IN | 🔴 | vless | @flyv2ray | 2",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+                "🇮🇳IN | 🔴 | vless | @flyv2ray | 3",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
@@ -989,10 +989,10 @@
                 "🇺🇸US | 🔴 | vless | @v2rayng_vpnrog | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
-                "🇮🇳IN | 🔴 | vless | @flyv2ray | 2",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+                "🇮🇳IN | 🔴 | vless | @flyv2ray | 3",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
@@ -11137,7 +11137,7 @@
             "type": "vless",
             "server": "NUFiLTER.fastly80-3.hosting-ip.com",
             "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER-a16731c398fa",
+            "uuid": "TELEGRAM-NUFiLTER-1f52c104722e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -11158,6 +11158,27 @@
             "type": "vless",
             "server": "NUFiLTER.fastly80-3.hosting-ip.com",
             "server_port": 80,
+            "uuid": "TELEGRAM-NUFiLTER-a16731c398fa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
+                "headers": {
+                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
+            "type": "vless",
+            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
+            "server_port": 80,
             "uuid": "TELEGRAM-NUFiLTER-de0d51e1228c",
             "flow": "",
             "packet_encoding": "xudp",
@@ -11175,7 +11196,7 @@
             }
         },
         {
-            "tag": "🇮🇳IN | 🔴 | vless | @flyv2ray | 2",
+            "tag": "🇮🇳IN | 🔴 | vless | @flyv2ray | 3",
             "type": "vless",
             "server": "151.101.158.204",
             "server_port": 80,
@@ -11196,7 +11217,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
             "type": "vless",
             "server": "NUFiLTER.fastly80-3.hosting-ip.com",
             "server_port": 80,
@@ -11217,7 +11238,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 7",
             "type": "vless",
             "server": "NUFiLTER.fastly80-3.hosting-ip.com",
             "server_port": 80,
@@ -11238,7 +11259,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
             "type": "vless",
             "server": "NUFiLTER.fastly80-3.hosting-ip.com",
             "server_port": 80,
@@ -11259,7 +11280,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
             "type": "vless",
             "server": "NUFiLTER.fastly80-2.hosting-ip.com",
             "server_port": 80,
@@ -11280,7 +11301,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
             "type": "vless",
             "server": "NUFiLTER.fastly80-3.hosting-ip.com",
             "server_port": 80,
@@ -11301,32 +11322,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 12",
-            "type": "vless",
-            "server": "NUFiLTER.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER-b02f4e0b686b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80.hosting-ip.com"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 13",
             "type": "vless",
             "server": "NUFiLTER.fastly80.hosting-ip.com",
             "server_port": 80,
-            "uuid": "d71f9be9-TELEGRAM-NUFiLTER",
+            "uuid": "TELEGRAM-NUFiLTER-b02f4e0b686b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
